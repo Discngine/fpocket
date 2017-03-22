@@ -1,0 +1,90 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.\"
+.TH DPOCKET 1 "JANUARY 2009" Linux "User Manuals"
+.SH NAME
+dpocket \- calculate descriptors on protein pockets.
+.SH SYNOPSIS
+.B dpocket -f
+.I pdb-list
+.B [OPTIONS]
+.SH DESCRIPTION
+.B dpocket 
+is a program written to calculate descriptors on protein pockets.
+It takes as basic input a file containing a list pf pdb file
+name/path, with an associated ligand represented by its resname
+in the pdb ( 3letter code). Both should be separated by a tabulation.
+
+.I PATH/1BXO.pdb    GTD
+
+.I PATH/1BBC.pdb    GTE
+
+.I ...
+
+Three file are created as output. One contains all pockets explicitely
+defined using one of the two methods available for this explicit definition.
+The two others contains all pockets as found by fpocket algorithm. One contain
+all pockets that match either the overlap or the distance criteria, and the
+other contains all pockets that does not match any of these criteria.
+
+See the documentation for more details on output, methods, and on descriprots
+currently availables.
+
+.SH OPTIONS SPECIFIC TO DPOCKET
+
+.IP -o
+.I dout_file
+.B [string]
+
+Prefix of the output files. Otherwise, output files are writen
+in the current directory, having the default prefix.
+
+.B DEFAULT: dpout
+
+.IP -e
+.B [no value needed]
+
+Use the first explicit interface definition (default): we define the
+explicit pocket as being all atoms contacted by alpha spheres situated
+at a distance of d A° from any ligand atom.
+
+.B DEFAULT: used
+
+.IP -E
+.B [no value needed]
+
+Use the second explicit interface definition: we define the
+explicit pocket as being all atoms situated
+at a distance of d A° from any ligand atom.
+
+.B DEFAULT: not used
+
+.IP -d
+.I dist
+.B [float]
+
+Distance used by the explicit pocket definition.
+
+.B DEFAULT: 4.0
+
+.SH OPTIONS SPECIFIC TO FPOCKET
+
+.B Use man fpocket.
+
+.SH BUGS
+.SH AUTHOR
+.BR Developpers:
+
+Peter Schmidtke <pschmidtke@mmb.pcb.ub.es>
+
+Vincent Le Guilloux <vincent.le-guilloux@univ-orleans.fr>
+
+.BR Supervisor:
+
+Pierre Tuffery
+
+.SH "SEE ALSO"
+.BR fpocket (1),
+.BR tpocket (1),
+
+

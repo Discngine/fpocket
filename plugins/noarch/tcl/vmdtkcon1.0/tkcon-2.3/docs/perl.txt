@@ -1,0 +1,109 @@
+#!/usr/local/bin/perl -w
+ 
+# tkcon.pl - a Perl/Tk	"shell" companion for tkcon.tcl.
+#
+# Variable $MW is an object reference to the main window, from which you can
+# create and manipulate child widgets.	Variable names beginning with an
+# underscore are reserved for this application.
+#
+# Stephen O. Lidie, 96/08/25
+ 
+require 5.002;
+use English;
+use Tk;
+use Tk::Pretty qw(Pretty);
+use Tk::Dialog;
+use strict;
+use subs qw(doit tkcon);
+my($MW, $_TKCON, $_VERSION, $_HELP, $_SHELL, $_TAB, $_PARA, @_ERRORS, $_MES);
+ 
+tkcon;				# main
+ 
+sub doit {
+ 
+    # Eval some code without use strict constraints.
+ 
+    my($code) = @ARG;
+ 
+    {
+	no strict;
+	if ($_MES) {
+	    $_MES->packForget;
+	    $_MES->destroy;
+	    $_MES = 0;
+	}
+	@_ERRORS = ();
+	$SIG{'__WARN__'} = sub {push @_ERRORS, @ARG};
+	my $_res = eval $code;
+	push @_ERRORS, $EVAL_ERROR if $EVAL_ERROR;
+	push @_ERRORS, $_res;
+    }
+ 
+} # end doit
+ 
+sub tkcon {
+ 
+    # Nothing fancy here, just create the main window and the help dialog
+    # object, and display a pointer to the help.
+ 
+    $_TKCON = 'tkcon.pl';
+    $_VERSION = '0.2';
+    $_SHELL = '/bin/sh';
+    $_SHELL = $ENV{'SHELL'} if $ENV{'SHELL'};
+    $_TAB = 0;
+    $_PARA = '';
+ 
+    $MW = MainWindow->new;
+    $MW->title($_TKCON);
+    $MW->iconname($_TKCON);
+    $_HELP = $MW->Dialog(
+	-title	    => "$_TKCON Help",
+	-font	    => 'fixed',
+	-wraplength => '6i',
+	-justify    => 'left',
+	-text	    =>
+	    "?	  - this text.\n" .
+	    "|	  - pass arguments to your shell (default /bin/sh).\n" .
+	    "p	  - use Tk::Pretty to \"pretty-print\" arguments.\n" .
+	    "+	  - a tab starts/stops multiline input mode.\n" .
+	    "exit - quit $_TKCON.\n" .
+	    "\nOther input is assumed to be a Perl/Tk command.\n" .
+	    "\n\$MW is the MainWindow.\n",
+			 );
+    $_HELP->configure(-foreground => 'blue');
+    $_MES = $MW->Label(-text => "\nEnter ? for help.\n")->pack;
+    MainLoop;
+ 
+} # end tkcon
+ 
+sub Tk::Receive {
+ 
+    shift();
+    $ARG = shift();
+    if (/^\?(.*)/) {		# help
+	$_HELP->Show;
+    } elsif (/^\|(.*)/) {	# bang
+	@_ERRORS = ();
+	push @_ERRORS, `$_SHELL -c $1 2>&1`;
+    } elsif (/^\+$/) {
+	$_TAB++;
+	if ($_TAB % 2) {
+	    @_ERRORS = ();
+	    $_PARA = '';
+	    push @_ERRORS, '+';
+	} else {
+	    doit $_PARA;
+	}
+    } else {			# Perl/Tk command
+	$ARG = "Pretty($1)" if (/^p\s(.*)$/);
+	if ($_TAB % 2) {
+	    $_PARA .= $ARG;
+	    push @_ERRORS, '+';
+	} else {
+	    doit $ARG;
+	}
+    } # ifend
+ 
+    return @_ERRORS;
+ 
+} # end Tk::Receive

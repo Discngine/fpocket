@@ -1,0 +1,66 @@
+// Fpocket brought to you by Vincent Le Guilloux & Peter Schmidtke
+//
+// GNU GPL
+// 
+// This file is part of the fpocket package.
+// 
+// fpocket is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// fpocket is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with fpocket. If not, see <http://www.gnu.org/licenses/>.
+// 
+===========================
+DEPENDENCIES              :
+===========================
+1: In order to install fpocket 3 you need to install libnetcdf & libstdc++ 
+libraries
+
+
+===========================
+INSTALLATION INSTRUCTIONS :
+===========================
+
+1: Installing the fpocket release :
+
+> untar, make, make test, make install < 
+
+Please untar the fpocket-src-3.0.tgz file in a local folder by typing and move
+to the extracted folder :
+
+>>> tar -xzf fpocket-src-3.0.tgz
+>>> cd fpocket-src-3.0/
+
+Next, you have to compile and test the distribution. You do NOT
+need root priveledges for this operation : 
+
+>>> make
+
+If no errors occur during the compilation and during the test, you
+can install fpocket in your distribution by typing the following line. 
+Be careful, for this you might need root priveledges. 
+If you want to put the executables whereever you want, you can find 
+them in the fpocket-src-3.0/bin directory. Else, for final installation
+type :
+
+>>> make install
+
+You should be able to run fpocket, dpocket and tpocket from everywhere.
+
+-------------------------------------------------------------------------------
+2: Uninstalling fpocket :
+
+> make uninstall <
+
+In order to uninstall fpocket, dpocket, tpocket and corresponding manual 
+entries simply go to your fpocket-src-1.0 directory and type : 
+
+>>> make uninstall
+

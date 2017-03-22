@@ -1,0 +1,87 @@
+INRIA
+
+INTERSURF Software License Agreement
+
+
+This Software "INTERSURF 1.0" is copyright INRIA 2003-2004.
+
+Software: INTERSURF, version 1.0 of June 2004, hereinafter referred to
+as "the Software". In the sequel "the Software" means a run, a
+modification, a distribution or an integration of either the Software
+or of its generated files.
+
+1. The Software has been designed and implemented by Nicolas RAY, and
+Xavier CAVIN, research workers for the Institut National de Recherche
+en Informatique et en Automatique (hereinafter "INRIA") - Domaine de
+Voluceau - Rocquencourt - 78153 Le Chesnay Cedex - France.
+
+INRIA, hereinafter referred to as the "Owner", hold all the ownership
+rights on the Software.
+
+The software has been registered at Agence pour la Protection des
+Programmes (APP) under the number
+IDDN.FR.001.440008.00.S.C.2004.000.1000.
+
+2. The Owner freely grants the right to use the Software for academic,
+research and internal business purposes only, e.g. not for commercial
+use (see Clause 5 below), without a fee. Any use or reproduction of
+the Software to obtain profit or for commercial ends being subject to
+obtaining the prior express authorization of the Owner.
+
+3. The user agrees that any reports or published results obtained with
+the Software will acknowledge its use by the appropriate citation as
+follows:
+
+"INTERSURF is a VMD plugin that was developed by the INRIA (Institut
+National de Recherche en Informatique et en Automatique - France). VMD
+was developed by the Theoretical and Computational Biophysics Group in
+the Beckman Institute for Advanced Science and Technology at the
+University of Illinois at Urbana-Champaign."
+
+Any published work which utilizes the INTERSURF VMD plugin shall
+include the following references:
+
+"Ray, N., Cavin, X., Paul, J.-C. and Maigret, B., `Intersurf: Dynamic
+Interface Between Proteins', J. Molecular Graphics, 2005, Volume 23,
+Issue 4, Pages 347-354."
+
+"Humphrey, W., Dalke, A. and Schulten, K., `VMD -Visual Molecular
+Dynamics', J. Molecular Graphics, 1996, vol. 14, pp. 33-38."
+
+Electronic documents will include a direct link to the official
+INTERSURF page at http://www.loria.fr/projets/docking/ and to the
+official VMD page at http://www.ks.uiuc.edu/Research/vmd/
+
+4. INRIA authorizes any reproduction of the software:
+
+- in limits defined in clauses 9 and 10 of the Berne agreement for the
+protection of literary and artistic works, which respectively specify
+in their paragraphs 2 and 3 authorizing only the reproduction and
+quoting of works on the condition that:
+
+"this reproduction does not adversely affect the normal exploitation
+of the work or cause any unjustified prejudice to the legitimate
+interests of the author",
+
+"that the quotations given by way of illustration and/or tuition
+conform to the proper uses and that it mentions the source and name of
+the author if this name appears in the source",
+
+- under the condition that this file is included with any
+reproduction.
+
+5. Any commercial use made without obtaining the prior express
+agreement of INRIA would therefore constitute a fraudulent imitation.
+Commercial use of the Software, or derivative works based thereon,
+REQUIRES A COMMERCIAL LICENSE.  Should Licensee wish to make
+commercial use of the Software, Licensee will contact INRIA
+(cdri@loria.fr) to negotiate an appropriate license for such
+use. Commercial use includes: (1) integration of all or part of the
+Software into a product for sale, lease or license by or on behalf of
+Licensee to third parties, or (2) distribution of the Software to
+third parties that need it to commercialize product sold or licensed
+by or on behalf of Licensee.
+
+6. The Software being currently developed, INRIA is assuming no
+liability, and should not be responsible, in any manner or any case,
+for any direct or indirect damages sustained by the user.

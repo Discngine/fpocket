@@ -1,0 +1,70 @@
+##############################################################3
+##
+##  This file is used as a template for running NAMD jobs
+##  When this file is run, the following Tcl variables will
+##  have been initialized to appropriate values:
+##    imdport, minimizesteps, runsteps, paramfile_list
+##
+###############################################################3
+
+# Input
+structure       autoimd.psf
+coordinates     autoimd.pdb
+paraTypeCharmm	on
+foreach paramfile $paramfile_list {
+  parameters    $paramfile
+}
+temperature     $temperature
+
+# Output
+if { $dcdfreq > 0 } {
+DCDFile         autoimd.dcd
+DCDFreq         $dcdfreq
+}
+
+# IMD parameters
+imdon           on
+imdport         $imdport
+imdfreq         $namdoutputrate
+imdwait         on
+
+
+# Fixed Atoms
+fixedAtoms      on
+fixedAtomsFile  autoimd.pdb
+fixedAtomsCol   B
+
+
+# Integrator and dynamics parameters
+rigidbonds      all
+timestep        2.0
+nonBondedFreq	  1
+stepsPerCycle	  10
+
+switching       on
+switchDist	    10
+cutoff		      12
+pairlistdist    14
+
+exclude		      scaled1-4
+1-4scaling      1.0
+
+langevin         on
+langevinDamping  3
+langevinTemp     $temperature
+langevinHydrogen no
+
+
+# Output options
+outputname      autoimd_out
+outputTiming	  1000
+
+eval $MYSCRIPT
+
+# This line permits AutoIMD to connect to jobs running on remote machines
+print "AUTOIMD HOST: [info hostname] PID: [pid]"
+
+# Run simulation
+minimize      $minimizesteps
+reinitvels    $temperature
+run           $runsteps

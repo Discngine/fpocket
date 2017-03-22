@@ -1,0 +1,47 @@
+*>>>>>>       SOD and CLA Ions Topology File           <<<<<<<<<
+*extracted from
+*>>>>>>>>CHARMM22 All-Hydrogen Topology File for Proteins <<<<<<
+*>>>>>>>>>>>>>>>>>>>>> August 1999 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+*>>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<
+*>>>>>> 410-706-7442 or email: alex,mmiris.ab.umd.edu  <<<<<<<<<
+*
+27  1
+
+!
+! references
+!
+!IONS
+!
+!all ions from Roux and coworkers
+!
+!Sodium
+!
+!Beglov, D. and Roux, B., Finite Representation of an Infinite
+!Bulk System: Solvent Boundary Potential for Computer Simulations,
+!Journal of Chemical Physics, 1994, 100: 9050-9063
+! 
+
+MASS   1   CLA  35.450000 CL ! CHLORIDE Anion
+MASS   2   SOD  22.989770 NA ! Sodium Ion
+MASS   3   MG   24.305000 MG ! Magnesium Ion
+MASS   4   POT  39.102000 K ! Potassium Ion
+
+RESI SOD          1.00 ! Sodium Ion
+GROUP
+ATOM SOD  SOD     1.00
+PATCHING FIRST NONE LAST NONE
+ 
+RESI CLA         -1.00 ! Chloride Anion
+GROUP
+ATOM CLA  CLA    -1.00
+PATCHING FIRST NONE LAST NONE
+ 
+RESI MG           2.00 ! Magnesium Ion
+GROUP
+ATOM MG   MG      2.00
+PATCHING FIRST NONE LAST NONE
+ 
+RESI POT          1.00 ! Potassium Ion
+GROUP
+ATOM POT  POT     1.00
+PATCHING FIRST NONE LAST NONE

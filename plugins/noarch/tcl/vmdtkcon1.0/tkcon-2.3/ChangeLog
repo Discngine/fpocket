@@ -1,0 +1,233 @@
+2002-01-24  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	**** TKCON 2.3 RELEASE ****
+
+	* tkcon.tcl: bumped to v2.3
+
+2002-01-23  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* docs/procs.html:
+	* tkcon.tcl (what): changed to differentiate between 'array' and
+	'scalar' instead of just returning 'variable'.
+	(which): called what in uplevel to get scope right.
+
+2002-01-22  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (ExpandPathname): use a safer regsub to first unescape
+	the str, then to protect it in the glob.
+	(dir): Use -directory arg in 8.3+ for better results.
+
+	* docs/idebug.html: added note about ? help at debug prompt.
+
+	* tkcon.tcl (dir): prevented possible 'divide by zero' error.
+	[Bug #496584]
+	(Expand*): fixed ExpandPathname to better handle spaced pathnames.
+	[Bug #497079]
+
+2001-12-14  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl: 'tkcon show' causes loss of focus on Windows, so an
+	extra focus to the console was added.
+
+2001-12-12  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (EvalSocketEvent): changed EvalSocketClosed to only
+	occur after gets, then eof check. (Gerold Jury)
+
+2001-11-14  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl: added catch around file type call
+
+2001-10-14  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (Init): corrected loading of rcfile when it was in a
+	path including spaces. (siltberg)
+	(About): clarified CVS info in about box.
+
+	* docs/start.html: correct old refs to TKCON var.
+
+2001-09-28  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (ExpandPathname): recognize NT as a case *in*sensitive
+	file system for pathname expansion.
+
+2001-08-31  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (InitSlave): propagate auto_path from master to slave.
+
+2001-08-24  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (NewSocket, NewDisplay): when nothing is specified,
+	just return.
+	(Display): fixed connecting to interps on other displays.
+
+2001-08-22  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* docs/bindings.html: noted ^r/^s change. 
+
+	* tkcon.tcl (Event): changed event ^r/^s searching to search for
+	any matching substring, and blink the substring.
+	Added statusbar, default off (not much in status yet).
+
+2001-08-20  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (EvalNamespace): fixed to work when attached to a
+	foreign interpreter. [Bug #453431]
+	Added fix that allows access to Tk privates in 8.4.  Still needs
+	a long-term fix. [Bug #450865] (porter)
+
+2001-08-03  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (EvalCmd): protected against non-existent
+	tkPriv(mouseMoved) variable
+
+2001-07-05  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (RetrieveFilter, RetrieveAuthentication): added
+	support for retrieving latest tkcon via a proxy. (Thoyts)
+
+2001-07-04  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (tkcon): made tkcon console return whatever result it
+	received.  Fixed Bug #438281.
+
+2001-06-20  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	TKCON 2.2 RELEASE
+
+	* README.txt:
+	* index.html:
+	* docs/index.html: updated for 2.2 release
+
+	* tkcon.tcl (InitUI): moved wm protocol inside check to not run
+	under plugin.
+	(::tkcon::Retrieve): added a new method to allow tkcon to retrieve
+	the latest version of itself.
+
+2001-06-19  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl (dir): added fallback in generic dir command to not
+	require being run in tkcon.
+	(Init): Changed around how all options are initialized to allow
+	for tkcon embedders to set their own defaults.  Added a usehistory
+	PRIV key that tells us whether to load/save history files.  Added
+	showOnStartup PRIV key to control whether tkcon should deiconify
+	itself on startup.  Changed setting root to .tkcon to ensure that
+	root was just . before.
+
+2001-06-18  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl: (InitUI) added WM_DELETE_WINDOW hook to exit to
+	correctly deconstruct slave consoles.
+	(tkcon congets/getc) added tkcon show to ensure that tkcon would
+	be displayed when input is expected.
+	(GetSelection) new command to handle getting selection, this
+	supports the new UTF8_STRING type.
+	(InitMenus) added version check around Attach to Socket menu, as
+	8.3 is need for the file channels call.
+
+2001-05-28  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* docs/start.html: added note about ::tkcon::OPT(gets) var.
+	* docs/tkcon.html: improved docs for tkcon *get* methods.
+	* tkcon.tcl: reinstituted override of gets by default to use the
+	tkcon console based gets.
+
+	* tkcon.tcl (dump): corrected outputting local vars with dump.
+	Added RCS info to PRIV array and About box.
+	(tkcon congets) corrected congets to set the limit and insert
+	properly to return data without needing to call the prompt.
+	(tkcon set) corrected to return [array get] string for arrays,
+	and scalar value for vars.
+	Placed exact level value to all calls to uplevel and upvar.
+
+2001-05-17  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	* tkcon.tcl: make check for actual tkcon root existence to allow
+	for setting the var ($::tkcon::PRIV(root)) in controlling apps to
+	better control the root window.
+
+2001-05-04  Jeff Hobbs  <jeffh@ActiveState.com>
+
+	TKCON 2.1 RELEASE
+
+	* docs/style.css: new file for html files to use.
+	* README.txt:
+	* index.html:
+	* doc/*: updated for 2.1 release.
+
+	* tkcon.tcl: allowed 'tkcon font ...' and 'tkcon buffer ...' to
+	work before the main console have been created.
+	Changed "TkCon" -> "tkcon", updated for new release.
+
+2001-03-28  Jeff Hobbs  <jeffh@activestate.com>
+
+	* tkcon.tcl (::tkcon::Init): added safe interp check around 'cd'
+	call for Macs
+
+2000-10-30  Jeff Hobbs  <hobbs@ajubasolutions.com>
+
+	* tkcon.tcl (dir): fixed bug where permissions wouldn't print
+	correctly if user had no permissions. (kuchler)
+
+2000-10-18  Jeff Hobbs  <hobbs@ajubasolutions.com>
+
+	* tkcon.tcl (::tkcon::NamespacesList): corrected to not use window
+	starting with an uppercase letter (error). (reins)
+
+2000-09-27  Jeff Hobbs  <hobbs@scriptics.com>
+
+	* tkcon.tcl (::tkcon::About): added 'variable COLOR' decl (Zaers).
+
+2000-09-20  Jeff Hobbs  <hobbs@scriptics.com>
+
+	* tkcon.tcl (InitMenus): restricted the Attach Socket
+	functionality to Tcl 8.3+ due to use of [file channels].
+	(InitUI): fixed Configure binding to use correct namespace for OPT
+	(EvalSocket, EvalSend, EvalAttached): cleaned up to require that
+	they accept only one arg as the command string to be evaluated.
+	Prior behavior left some ambiguity as to what was eval'ed where.
+	EvalOther, EvalSlave may need some sanitation as well.
+	(EvalCmd): Changed EvalSocket functionality to have the \'s
+	substituted before sending data, to allow for special chars to be
+	added to the string.
+
+2000-09-19  Jeff Hobbs  <hobbs@scriptics.com>
+
+	* tkcon.tcl (::tkcon::InitUI): corrected plugin handling, as 'wm
+	withdraw' worked, but 'wm deiconify' was disallowed.
+
+	* docs/plugin.html: updated link to plugin source
+	* docs/changes.txt: noted that changes.txt is no longer updated in
+	favor of this ChangeLog
+
+	* index.html: updated page with sourceforge links
+	* index.html: added toplevel html index doc
+
+	* tkcon.tcl: updated v2.0 to v2.1 alpha version
+	All tkcon procedures have been namespaced, except for the ones
+	that are visible to the user.  TkCon has added the ability to
+	attach to other displays or a socket.
+
+	* tkcon.tcl: updated v1.6 to v2.0 version, tagged tkcon-2-0
+	This is the first version to require 8.0+ to run, although it
+	will still connect to older interps.
+
+	* tkcon.tcl: updated v1.5 to v1.6 version, tagged tkcon-1-6
+	* tkcon.tcl: updated v1.4 to v1.5 version, tagged tkcon-1-5
+	* tkcon.tcl: updated v1.3 to v1.4 version, tagged tkcon-1-4
+	* tkcon.tcl: updated v1.2 to v1.3 version, tagged tkcon-1-3
+	* tkcon.tcl: updated v1.1 to v1.2 version, tagged tkcon-1-2
+	* tkcon.tcl: updated v1.03 to v1.1 version, tagged tkcon-1-1
+	* tkcon.tcl: updated v1.02 to v1.03 version, tagged tkcon-1-03
+	* tkcon.tcl: updated v0.71 to v1.02 version, tagged tkcon-1-02
+	* tkcon.tcl: updated v0.69 to v0.71 version, tagged tkcon-0-71
+	* tkcon.tcl: updated v0.68 to v0.69 version, tagged tkcon-0-69
+	* tkcon.tcl: updated v0.67 to v0.68 version, tagged tkcon-0-68
+	* tkcon.tcl: updated v0.66 to v0.67 version, tagged tkcon-0-67
+	* tkcon.tcl: updated v0.65 to v0.66 version, tagged tkcon-0-66
+	* tkcon.tcl: updated v0.64 to v0.65 version, tagged tkcon-0-65
+	* tkcon.tcl: updated v0.63 to v0.64 version, tagged tkcon-0-64
+	* tkcon.tcl: updated v0.52 to v0.63 version, tagged tkcon-0-63
+
+	* ChangeLog: added a ChangeLog

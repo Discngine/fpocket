@@ -1,0 +1,167 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: Procedures</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: Procedures</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH CLASS="hi"><A HREF="index.html" CLASS="hi">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+</TD></TR><TR><TD>
+<!-- start secondary navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#BBBBBB width=100%>
+<TR>
+<TH><A HREF="start.html">Getting Started</A></TH>
+<TH><A HREF="bindings.html">Special Bindings</A></TH>
+<TH CLASS="hi2"><A HREF="procs.html" CLASS="hi2">Procedures</A></TH>
+<TH><A HREF="demopic.gif">Screenshot</A></TH>
+</TR>
+<TR>
+<TH><A HREF="dump.html"><CODE>dump</CODE></A></TH>
+<TH><A HREF="tkcon.html"><CODE>tkcon</CODE></A></TH>
+<TH><A HREF="idebug.html"><CODE>idebug</CODE></A></TH>
+<TH><A HREF="observe.html"><CODE>observe</CODE></A></TH>
+</TR>
+</TABLE>
+<!-- end secondary navigation table -->
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+ <P>
+There are several new procedures introduced in TkCon to improve
+productivity and/or account for lost functionality in the Tcl environment
+that users are used to in native environments.  There are also some
+redefined procedures.  Here is a non-comprehensive list:
+
+<DL COMPACT>
+
+<DT> <B>alias</B> <I>?sourceCmd targetCmd ?arg arg ...??</I>
+<DD> Simple alias mechanism.  It will overwrite existing commands.
+When called without args, it returns current aliases.  Note that TkCon
+makes some aliases for you (in slaves).
+<font color=#FF0000>Don't delete those</font>.
+
+<DT> <B>clear</B> <I>?percentage?</I>
+<DD> Clears the text widget.  Same as the &lt;Control-l&gt; binding, except
+this will accept a percentage of the buffer to clear (1-100, 100 default).
+
+<DT> <B>dir</B> <i>?-all? ?-full? ?-long? ?pattern pattern ...?</i>
+<DD> Cheap way to get directory listings.  Uses glob style pattern matching.
+
+<DT> <B>dump</B> <I>type ?-nocomplain? ?-filter pattern? ?--?
+pattern ?pattern ...?</I>
+<DD> The <CODE>dump</CODE> command provides a way for the user to spit out
+state information about the interpreter in a Tcl readable (and human
+readable) form.
+See <a href="dump.html">further <B>dump</B> docs</a> for details.
+
+<DT> <B>echo</B> <I>?arg arg ...?</I>
+<DD> Concatenates the args and spits the result to the console (stdout).
+
+<DT> <B>edit</B> <I>?-type type? ?-find str? ?-attach interp?</I> arg
+<font size=-1 color=#990033>NEW in v1.4, still under construction</font>
+<DD> Opens an editor with the data from <I>arg</I>.  The optional <I>type</I>
+argument can be one of: <I>proc</I>, <I>var</I> or <I>file</I>.  For
+proc or var, the <I>arg</I> may be a pattern.
+
+<DT> <B>idebug</B> <I>command ?args?</I>
+<DD> Interactive debugging command.
+See <a href="idebug.html">further <B>idebug</B> docs</a> for details.
+
+<DT> <B>lremove</B> <I>?-all? ?-regexp -glob? list items</I>
+<DD> Removes one or more items from a list and returns the new list.  If
+<I>-all</I> is specified, it removes all instances of each item in the
+list.  If <I>-regexp</I> or <I>-glob</I> is specified, it interprets each
+item in the items list as a regexp or glob pattern to match against.
+
+<DT> <B>less</B>
+<DD> Aliased to <B>edit</B>.
+
+<DT> <B>ls</B>
+<DD> Aliased to <B>dir -full</B>.
+
+<DT> <B>more</B>
+<DD> Aliased to <B>edit</B>.
+
+<DT> <B>observe</B> <I>type ?args?</I>
+<DD> This command provides passive runtime debugging output for variables
+and commands.
+See <a href="observe.html">further <B>observe</B> docs</a> for details.
+
+<DT> <B>puts</B> (same options as always)
+<DD> Redefined to put the output into TkCon
+
+<DT> <B>tkcon</B> <I>method ?args?</I>
+<DD> Multi-purpose command.
+See <a href="tkcon.html">further <B>tkcon</B> docs</a> for details.
+
+<DT> <B>tclindex</B> <I>?-extensions patternlist? ?-index TCL_BOOLEAN?
+?-package TCL_BOOLEAN? ?dir1 dir2 ...?</I>
+<DD> Convenience proc to update the tclIndex (controlled by -index switch)
+and/or pkgIndex.tcl (controlled by -package switch) file in the named
+directories based on the given pattern for files.  It defaults to creating
+the tclIndex but not the pkgIndex.tcl file, with the directory defaulting
+to [pwd].  The extension defaults to *.tcl, with *.[info sharelibextension]
+added when -package is true.
+
+<DT> <B>unalias</B> <I>cmd</I>
+<DD> unaliases command
+
+<DT> <B>what</B> <i>string</i>
+<DD> The <CODE>what</CODE> command will identify the word given in
+<i>string</i> in the Tcl environment and return a list of types that
+it was recognized as.  Possible types are: alias, procedure, command,
+array variable, scalar variable, directory, file, widget, and executable.
+Used by procedures <CODE>dump</CODE> and <CODE>which</CODE>.
+
+<DT> <B>which</B> <i>command</i>
+<DD> Like the 'which' command of Unix shells, this will tell you if a
+particular command is known, and if so, whether it is internal or external
+to the interpreter.  If it is an internal command and there is a slot in
+auto_index for it, it tells you the file that auto_index would load.  This
+does not necessarily mean that that is where the file came from, but if it
+were not in the interpreter previously, then that is where the command was
+found.
+
+</DL>
+
+There are several procedures that I use as helpers that some may find
+helpful in there coding (ie - expanding pathnames).  Feel free to lift
+them from the code (but do assign proper attribution).
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

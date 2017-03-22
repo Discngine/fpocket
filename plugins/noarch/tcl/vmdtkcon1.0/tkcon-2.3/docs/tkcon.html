@@ -1,0 +1,180 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: tkcon procedure</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: <CODE>tkcon</CODE> procedure</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH CLASS="hi"><A HREF="index.html" CLASS="hi">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+</TD></TR><TR><TD>
+<!-- start secondary navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#BBBBBB width=100%>
+<TR>
+<TH><A HREF="start.html">Getting Started</A></TH>
+<TH><A HREF="bindings.html">Special Bindings</A></TH>
+<TH><A HREF="procs.html">Procedures</A></TH>
+<TH><A HREF="demopic.gif">Screenshot</A></TH>
+</TR>
+<TR>
+<TH><A HREF="dump.html"><CODE>dump</CODE></A></TH>
+<TH CLASS="hi2"><A HREF="tkcon.html" CLASS="hi2"><CODE>tkcon</CODE></A></TH>
+<TH><A HREF="idebug.html"><CODE>idebug</CODE></A></TH>
+<TH><A HREF="observe.html"><CODE>observe</CODE></A></TH>
+</TR>
+</TABLE>
+<!-- end secondary navigation table -->
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+ <P>
+This provides lots of useful control over a console:
+
+<DL>
+
+<DT> <CODE>tkcon <b>attach</b></CODE> <I>interpreter</I>
+<DD> Attaches tkcon to the named interpreter.  The name must be that
+returned by <CODE>[tk appname]</CODE> or a valid path to a slave
+interpreter.  It's best to use this via the <CODE>Console->Attach
+Console</CODE> menu.
+
+<DT> <CODE>tkcon <b>buffer</b></CODE> ?<I>size</I>?
+<DD> Sets or queries the allowed size of the console text widget in lines.
+The text widget will automatically delete leading lines once this number
+has been exceeded (read: this is the scroll buffer size).
+
+<DT> <CODE>tkcon <b>bgerror</b></CODE> ?<I>msg errorInfo</I>?
+<DD> Does bgerror stuff in the tkcon master interpreter.
+
+<DT> <CODE>tkcon <b>close</b></CODE> or <CODE>tkcon <b>destroy</b></CODE>
+<DD> Destroys this tkcon widget.
+
+<DT> <CODE>tkcon <b>congets</b></CODE>
+<DD> Behaves like the traditional Tcl <code>gets</code>, but instead of
+using <code>stdin</code>, it uses the tkcon console window.  By default,
+tkcon replaces the standard gets with this command.  This behavior can be
+controlled by altering the <code>::tkcon::OPT(gets)</code> parameter at
+startup.  This should not be called directly - instead rely on the
+overloaded <code>gets</code>, which has support for the optional varName
+parameter.
+
+<DT> <CODE>tkcon <b>console</b></CODE> <I>args</I>
+<DD> Passes the args to the tkcon text widget (the console).
+
+<DT> <CODE>tkcon <b>error</b></CODE>
+<DD> Pops up a dialog that gives the user a full trace of the last error
+received in the tkcon console.
+
+<DT> <CODE>tkcon <b>find</b></CODE> <I>string ?-case TCL_BOOLEAN
+-regexp TCL_BOOLEAN?</I>
+<DD> Highlights all instances of <I>string</I> in the console.  If the string
+is empty, it clears any previous highlighting.
+
+<DT> <CODE>tkcon <b>font</b></CODE> ?<I>fontname</I>?
+<DD> Sets or returns the font used by tkcon text widgets.
+
+<DT> <CODE>tkcon <b>gets</b></CODE>
+<DD> Behaves like the traditional Tcl <code>gets</code>, but instead of
+needing <code>stdin</code>, it pops a dialog box up for the user.  The
+overloaded <code>gets</code> has support for the optional varName parameter.
+
+<DT> <CODE>tkcon <b>getcommand</b></CODE>
+<DD> A variation of the <CODE><b>congets</b></CODE> method that requires a
+full command to be input before returning.
+
+<DT> <CODE>tkcon <b>hide</b></CODE>
+<DD> Withdraw the tkcon display from the screen (make sure you have
+a way to get it back).
+
+<DT> <CODE>tkcon <b>history</b></CODE> ?<i>-newline</i>?
+<DD> Displays the tkcon history in sourceable form.  If <i>-newline</i> is
+specified, it separates each command by an extra newline.
+
+<DT> <CODE>tkcon <b>iconify</b></CODE>
+<DD> Iconifies the tkcon display.
+
+<DT> <CODE>tkcon <b>load</b></CODE> <I>filename</I>
+<DD> Sources named file into the slave interpreter.  If no filename is
+given, it will attempt to call <CODE>tk_getOpenFile</CODE> to pop up the
+file select box.
+
+<DT> <CODE>tkcon <b>main</b></CODE> ?<I>arg arg ...</I>?
+<DD> Passes the args to the main tkcon interpreter to be evaluated and
+returns the result.
+
+<DT> <CODE>tkcon <b>master</b></CODE> <I>args</I>
+<DD> Passes the args to the master interpreter to be evaluated and
+returns the result.
+
+<DT> <CODE>tkcon <b>new</b></CODE>
+<DD> Creates a new tkcon widget.
+
+<DT> <CODE>tkcon <b>save</b></CODE> ?<I>filename</I> ?<I>type</I>??
+<DD> Saves the console buffer to the given filename.  If no filename is
+given, it will attempt to call <CODE>tk_getSaveFile</CODE> to pop up the
+file select box.  If no type is given, a dialog will ask you to specify
+what portion of the text you want to save.
+
+<DT> <CODE>tkcon <b>set</b></CODE> <I>var ?value?</I>
+<DD> Queries or sets a master interpreter variable.
+
+<DT> <CODE>tkcon <b>append</b></CODE> <I>var ?value?</I>
+<DD> Like set, but uses <CODE>append</CODE> on the variable.
+
+<DT> <CODE>tkcon <b>lappend</b></CODE> <I>var ?value?</I>
+<DD> Like set, but uses <CODE>lappend</CODE> on the variable.
+
+<DT> <CODE>tkcon <b>show</b></CODE> or <CODE>tkcon deiconify</CODE>
+<DD> Redisplays tkcon on the screen.
+
+<DT> <CODE>tkcon <b>slave</b></CODE> ?<I>slavename ?arg arg ...?</I>?
+<DD> If called with no args, it returns the name of all the tkcon
+interpreters.  Otherwise given an interp name it passes the args
+to the named interpreter to be evaluated and returns the result.
+If no args are passed, then it returns the <CODE>[tk appname]</CODE>
+of that interpreter.
+
+<DT> <CODE>tkcon <b>title</b></CODE> ?<I>title</I>?
+<DD> Sets or returns the title for tkcon.
+
+<DT> <CODE>tkcon <b>version</b></CODE>
+<DD> Returns of version of tkcon.
+
+</DL>
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

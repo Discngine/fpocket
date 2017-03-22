@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: dump procedure</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: <CODE>dump</CODE> procedure</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH CLASS="hi"><A HREF="index.html" CLASS="hi">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+</TD></TR><TR><TD>
+<!-- start secondary navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#BBBBBB width=100%>
+<TR>
+<TH><A HREF="start.html">Getting Started</A></TH>
+<TH><A HREF="bindings.html">Special Bindings</A></TH>
+<TH><A HREF="procs.html">Procedures</A></TH>
+<TH><A HREF="demopic.gif">Screenshot</A></TH>
+</TR>
+<TR>
+<TH CLASS="hi2"><A HREF="dump.html" CLASS="hi2"><CODE>dump</CODE></A></TH>
+<TH><A HREF="tkcon.html"><CODE>tkcon</CODE></A></TH>
+<TH><A HREF="idebug.html"><CODE>idebug</CODE></A></TH>
+<TH><A HREF="observe.html"><CODE>observe</CODE></A></TH>
+</TR>
+</TABLE>
+<!-- end secondary navigation table -->
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+ <P>
+The <CODE>dump</CODE> command provides a way for the user to spit out
+state information about the interpreter in a Tcl readable (and human
+readable) form.  It takes the general form:
+
+<BLOCKQUOTE>
+<code>dump</code> <b>method</b> <i>?-nocomplain? ?-filter pattern? ?--?
+pattern ?pattern ...?</i>
+</BLOCKQUOTE>
+
+The patterns represent glob-style patterns (as in <code>string match pattern
+$str</code>).  <i>-nocomplain</i> will prevent <code>dump</code> from
+throwing an error if no items matched the pattern.  <i>-filter</i> is
+interpreted as appropriate for the method.  The various methods are:
+
+<DL>
+
+<DT> <CODE>dump <b>command</b></CODE> <i>args</i>
+<DD> Outputs one or more commands.
+
+<DT> <CODE>dump <b>procedure</b></CODE> <i>args</i>
+<DD> Outputs one or more procs in sourceable form.
+
+<DT> <CODE>dump <b>variable</b></CODE> <i>args</i>
+<DD> Outputs the values of variables in sourceable form.  Recognizes nested
+arrays.  The <i>-filter</i> pattern is used as to filter array element
+names and is interepreted as a glob pattern (defaults to {*}).
+It is passed down for nested arrays.
+
+<DT> <CODE>dump <b>widget</b></CODE> <i>args</i>
+<DD> Outputs one or more widgets by giving their configuration options.
+The <i>-filter</i> pattern is used as to filter the config options and
+is interpreted as a case insensitive regexp pattern (defaults to {.*})
+
+</DL>
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

@@ -1,0 +1,39 @@
+Updated: 9/3/2004
+
+Description
+-----------
+
+This package encapsulates the TkCon 2.3 console into a VMD plugin. TkCon 
+is an enhanced console for Tcl/Tk which allows for functionality not 
+available in the standard UNIX Tcl/tk console, such as history and history 
+navigation, automatic command and filename completion, syntax 
+highlighting, and regular shell commands such as "alias", "ls", etc.
+
+Files included here: 
+* tkcon-2.3/ is the standard TkCon distribution from 
+http://tkcon.sourceforge.net/
+* tkcon-modified.tcl is a modified copy of the tkcon.tcl v2.3, which 
+prevents it from quitting VMD when the user merely closes the console.
+* vmdtkcon.tcl is a VMD package that makes sure that calls TkCon and makes 
+sure loads correctly in VMD and allows it to me incorporated in VMD's menu 
+structure.
+
+
+Issues with TkCon 2.4
+---------------------
+
+There is a new version of TkCon. It has not been added to VMD, since it 
+does not work very well. Here are some problems discovered with it that 
+need to be remediated before a new version of TkCon is added to VMD.
+ - "New Console" brings up an empty window
+ - New Tabs are opened with a new interpreter that is not connected to 
+VMD. This new feature and extra space taken is thus of no use to VMD 
+users, since VMD only seems to support one interpreter at this time. The 
+new "set ::tkcon::OPT(exec) {}" setting does not work as described and 
+does not help.
+ - The Close/Quit menu generates an error message. 
+Conclusion: new features are not very useful to VMD, and a few minutes of 
+usage brought up new bugs that weren't present in 2.3.
+
+Additional note: To use the new tkcon 2.4, the new call "tkcon show" must 
+be called from within vmdtkcon.

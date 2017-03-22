@@ -1,0 +1,94 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.\"
+.TH TPOCKET 1 "JANUARY 2009" Linux "User Manuals"
+.SH NAME
+tpocket \- test performance of fpocket algorithm
+.SH SYNOPSIS
+.B tpocket -L
+.I pdbset-list
+.B [OPTIONS]
+.SH DESCRIPTION
+.B tpocket 
+is a program written to test the performance of fpocket. It takes in
+argument a list of pdb file given by a simple text file having the
+following format:
+
+.I PATH/complexe1.pdb PATH/apo1.pdb GTD
+
+.I PATH/complexe2.pdb PATH/apo2.pdb GTE
+
+...
+
+
+.SH OPTIONS SPECIFIC TO TPOCKET
+
+.IP -d
+.I idist
+.B [float]
+
+Distance criteria used for one of the 3 definition of a pocket:
+All atoms situated at a distance lower of equal that 
+.I idist 
+will be considerd as part of the actual pocket. We will then 
+compare those atoms (using resname, atom type... in the pdb file) 
+with atoms contacted by alpha spheres of each pocket found by 
+fpocket.
+
+This method is quite inacurate. The two others are much betters.
+See the documentation for more information.
+
+.B DEFAULT: 4.0
+
+
+.IP -o
+.I pout_file
+.B [string]
+
+Path for the pockets statistics outputs file. This file will give 
+information on the actual pocket found by fpocket for each set
+of complexe/apo/ligand (eg. if she was found, her rank...).
+Thus, each line of this file corresponds to one set of 
+complexe/apo/ligand.
+
+.B DEFAULT: stats_p.txt
+
+.IP -e
+.I gout_file
+.B [string]
+
+Path for the general statistics outputs file. This file will give the
+percentage of good prediction using all criteria available and including
+ranking informations.
+
+.B DEFAULT: stats_g.txt
+
+.IP -k
+.B [no value needed]
+
+Keep fpocket output information for each apo form.
+
+.B DEFAULT: The output of fpocket is not conserved.
+
+
+.SH OPTIONS SPECIFIC TO FPOCKET
+
+.B Use man fpocket or see the documentation.
+
+.SH BUGS
+.SH AUTHOR
+.BR Developpers:
+
+Peter Schmidtke <pschmidtke@mmb.pcb.ub.es>
+
+Vincent Le Guilloux <vincent.le-guilloux@univ-orleans.fr>
+
+.BR Supervisor:
+
+Pierre Tuffery
+
+.SH "SEE ALSO"
+.BR fpocket (1),
+.BR dpocket (1),
+
+

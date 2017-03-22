@@ -1,0 +1,99 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: To Do Ideas</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: To Do Ideas</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH><A HREF="index.html">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH CLASS="hi"><A HREF="todo.html" CLASS="hi">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+<H3>Future Ideas</H3>
+
+<UL>
+<LI> Add encoding auto-conversion to exec commands
+<LI> keep history file, also keep history of sourced files
+<LI> <PRE>set mimetype(extension,au) "audio/u-law"
+set mimetype(extension,wav) "audio/wave"
+set mimetype(extension,mid) "audio/midi"
+/etc/magic
+proc run {file} {
+    global mimetype
+
+    if {[file executable $file]} {
+        exec $file
+        return
+    }
+
+    catch {set mimetype $mimetype(extension,[file extension $file])}
+
+    if {![info exists mimetype]} {
+        set mimetype $mimetype(magic,[exec /bin/file $file])
+    }
+
+    exec $mimetype(application,$mimetype) $file
+}</PRE>
+
+<LI> Add socket level communication model
+<LI> Enhance the true debugging capabilities - I'm looking at
+tcl-debug and into what I can adopt from the tkInspect philosophy.
+<LI> I'm taking ideas...
+</UL>
+
+<H3>Known Bugs/Quirks</H3>
+
+<UL>
+<LI> Command highlighting isn't perfect because I try to make it too
+efficient.
+<LI> All interpreters have the same current working directory.  This is
+a limitation of tcl.
+<LI> You can't 'attach' on machines where <CODE>send</CODE> does not exist.
+<A HREF="http://www.osf.org/~loverso/">John Loverso</A> has a comm.tcl
+replacement.
+In any case, you can still attach to internal interpreters and namespaces.
+<LI> Need to clean up checkpointed states when the associated interp dies.
+Works with slaves, but not foreign interps.
+<LI> Can't identify non-Tcl or pre-Tk4 interpreters automagically...
+<LI> You tell me...
+</UL>
+
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

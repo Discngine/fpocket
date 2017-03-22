@@ -1,0 +1,815 @@
+ENHANCED TK CONSOLE changes
+-------------------------------------------------------------------------
+Changes file begun Tue May  7 19:09:51 PDT 1996
+Newest changes at top of file.  Release dates between '----'s.
+Changes for a particular version are BELOW the release date line.
+
+Attribution for code is specified after change, a preceding slash
+indicates an idea/bug report attribution fixed by myself.  Where
+no attribution is made, assume (Hobbs).
+-------------------------------------------------------------------------
+
+THIS FILE IS NO LONGER PERTINENT.
+
+All changes are now recorded in the ChangeLog.
+
+---- March 31 1999 v1.6 ----
+
+Changed tkConInsert to not use catch (avoids any error generation).
+
+Changed if check on auto_load in tcl_unknown to an llength on the
+args (from [info tclversion]) as 8.0p0 also used just one arg.
+
+Added -exec command line arg, so that users could do the -exec ""
+trick (causes tkcon to skip multi-interpreter model) and makes it
+easier to drop tkcon as a console on extended wish executables.
+
+Changed handling of fixed font for all tkcon text widgets, adding
+new -font option, TKCON(font) var, and redoing 'tkcon font'.
+
+Added color,(disabled|cursor|bg) variables as per Becker's
+recommendations, allowing for old defaults.
+
+Changed multiple instances of string comparisons with llength,
+where appropriate.
+
+Changed dump proc to not try and auto_load a proc arg and improved
+recognition of procs in namespaces.
+
+Added new 'what' proc to environment that tells you what a string
+is recognized as.  Now used in various other procs.
+
+Improved hot errors to not pop up edit dialog when the mouse moved.
+
+---- March 5 1999 v1.5 ----
+
+Expanded tkConSave to support use in 'edit'.
+
+Added tkConGarbageCollect proc for periodic cleanup tasks
+(currently, cleaning up error tags in the console widget),
+with new gc-delay TKCON var.
+
+Revised error handling (errors are now hot in the console).
+
+Changed tkConExpandPathname to recognise that NT for 8.1+ is
+case-sensitive, and to not change case for other Windows configs
+when no further expansion was made.
+
+Made changes to tkConEvalOther and the aliasing of tkConEvalAttached
+for "Main" for more accurate evaluation.
+
+Changed the conditional 'update' in tkcon_puts (that overrides the
+core puts) to 'update idletasks'.  This prevents problems with
+using puts in fileevent triggers and such.
+
+Added check to prevent lower-casing during pathname expansion when
+no further expansion can be made on a string.
+
+New auto-buffer (default 512 lines, set in TKCON(buffer)) for the
+console widget.  Set this ridiculously high if you liked the
+text widget holding all that data.  New tkcon buffer method to
+go with it.
+
+Rewrote edit command.  Previous version was mostly bogus when used
+outside the original slave.
+
+Change tkcon error to use updated 'edit' command.
+
+Massaged tkConEvalOther & tkConInterpEval.
+
+Fixed problem with Show Last Error where a TkCon generated error
+was always appearing (from Package Submenu) and moved it above
+the packages submenu.
+
+Removed auto_execok from the slaveprocs list.
+
+Removed slaveappalias as it didn't work correctly.  Made 'edit'
+a slavealias, with tkConAttach used to determine where it was
+called from
+
+Changed some regexps around to pass tclCheck's mistaken warnings
+(tclCheck's bad matching, not bad regexps).
+
+Changed dump to not try widgets before commands, as otherwise
+it won't automatically complain.
+
+Fixed pathname completion to only beep when trying to expand on a
+non-existent subdirectory (instead of throwing no-directory error).
+
+Fixed a few notes that TclPro's checker picked up (only one actual
+bug in the all switch of 'edit', otherwise it was mostly blowing
+wind...).  (lvirden)
+
+---- February 17 1999 v1.4 ----
+
+Changed "changes" file to "changes.txt".
+
+Added edit/more/less proc that allows for the viewing/editing
+and returning back to the slave of vars/procs or files.
+
+Modified history to not got below 0.
+
+lremove extended with -pattern arg.
+
+Added code in tcl_unknown to ask about loading Tk when someone tries
+a Tk command without Tk being loaded.
+
+Had to change regexps because \E in Tcl8.1a2 was removed in 8.1b1 (arg!).
+
+Added "Make Xauth Secure" button for Unix. (heiko.federhenn@stest.ch)
+
+Fixed tkConInitInterp (used by "Send TkCon Commands") to reattach to
+the named namespace when appropriate.
+
+Fixed bug in popup-menu for Tk8 (bound to wrong toplevel).
+
+Fixed bug in tcl_unknown confusing auto_load between 8.0 and 7.x.
+
+Made Interp->Package menu more dynamic, so it recognizes changes in
+auto_path and updates itself when Interp is torn-off.
+
+Removed list from $new in exec redirect for tcl_unknown. (found by Imai)
+
+Changed package menu to handle multiple package versions.
+
+Added bogus package require statement to master and slaves to ensure
+that pkgIndex.tcl files were properly loaded into interps.
+
+If "Main" is passed to tkConAttachNamespace, it is interpreted as "::".
+
+Changed "Attach Namespace" menu to provide a listbox popup when
+more than $TKCON(maxmenu) namespaces are present.
+
+---- June 1998 v1.3 ----
+
+fixed long-standing expr bug (missing '$') in tkConSafeBind - found
+by TclPro!
+
+took out the use of tkcon_gets because it only worked for global vars.
+
+---- March 1998 v1.2 unreleased ----
+
+updated regexps in some places to support 8.1 regexps.
+
+dump now outputs only non-default options for widgets. (ridgway)
+
+Sorted output list for multiple tab matched items.
+
+Several minor changes for the plugin (user should see no difference).
+
+Known problems with dump command understanding namespaces have been
+fixed, but only for the 8.0 only version.
+
+Changed tkConTagProc to recognize ';' as not part of a proc name.
+
+Changed tkConNew to reuse slave numbers.
+
+Fixed problem with TKCON(exec) == {} (needed uplevel #0 instead of eval).
+
+On Mac, tries to source itself using -rsrc (8.0). (nijtmans)
+
+Changed to use 8.0 menu scheme if possible. (nijtmans)
+
+Changed tkConInitSlave and tkConNew to only set argv0 in new slave if it
+exists (it won't in the plugin).  (demailly)
+
+Changed tkConInit to only checkpoint state once if the slave interp
+and main interp are the same (TKCON(exec) == {}).
+
+---- 08 October 1997 v1.1 ----
+
+For Tk8, made TkCon use a fixed font {Courier, size 10} if the current
+font is not of fixed type.
+
+Startup errors should now be found in the TkCon last error function.
+
+Changed the Triple-1 binding to not include last newline.
+
+Added fix to make sure that double-evaluation of the command line
+didn't occur (might occur for commands that used vwait or something).
+
+TKCON(errorInfo) is now set with all the errors that occur during start-up,
+so that you don't lose stack trace information.
+
+---- July 03 1997 v1.03 ----
+
+Updated namespace eval stuff for Tk8.0b2.
+
+rewrote tkConSepCmd.
+
+ls is now "dir -full" by default.
+
+changed the puts renaming from tcl_puts to tkcon_tcl_puts (so that it
+specifies what renamed it).
+
+added variable highlighting to command highlighting as a background (so
+that a command and var can be seen for the same word).
+
+increased default history size to 48.
+
+Fixed problem where aliased exit couldn't take extra args.
+
+replaced old [tkcon gets] with a new UI version to be used with the new
+tkcon_gets that, like tkcon_puts, replaces the Tcl gets with a version that
+doesn't rely on stdin being present.  [tkcon gets] now accepts no args.
+	**** POTENTIAL INCOMPATIBILITY ****
+
+---- June 10 1997 v1.02 ----
+
+Changed calculator mode commands to be put in the history (but the
+output still looks like an error).
+
+Fixed bug where "source" was assumed to work for primary interp,
+causing failure to load in Tk plugin.
+
+Fixed problem with the id'ing of the primary TkCon interpreter that would
+affect attaching to like named interps.
+
+---- June 8 1997 v1.01 ----
+
+minor streamlining in tkConEvalCmd.
+
+added file menu and separated some items from console menu.
+
+added support for connecting directly to a namespace (itcl or Tcl8).
+
+Fixed several potential problems where args to tkConEvalAttached where
+not properly protected from eval.
+
+added slaveexit variable to allow for exit in slaves to be non-destructive,
+which is the new default.
+
+enhanced Tab binding, made Escape the default pathname-only expansion.
+
+enhanced dump and which commands.
+
+Removed auto_execok redefinition for Tcl7.5-.  TkCon is now intended to
+only run in Tcl7.6+ interpreters (though attaching to 7.5- is still OK).
+
+Added Load/Save menus and expanded Save functionality.
+
+---- June 1 1997 v1.00 ----
+
+TkCon now use virtual events for bindings (REQUIRES TK4.2+) and changed
+Console to TkConsole (to not conflict with new Console megawidget).
+
+Updated tcl_unknown to match Tcl8's unknown.
+
+Changed handling of preferences directory for macintosh.
+	**** POTENTIAL INCOMPATIBILITY ****
+
+Changed tkCon global var to TKCON.
+	**** POTENTIAL INCOMPATIBILITY ****
+
+Changed colors to use absolute #RRGGBB format for color-name disadvantaged
+systems.
+
+Removed use of tkCon(font) variable.
+	**** POTENTIAL INCOMPATIBILITY ****
+
+Fixed procname expansion to work on/in namespaces.
+
+Fixed pathname expansion to expand on a directory.
+
+Fixed all if's to use {}s (better for Tcl8).
+
+Fixed potential paste problems, it now tries to get the general selection
+first, then the CLIPBOARD selection.
+
+Fixed problem with 'puts' being renamed too early.
+
+Added calcmode variable to allow typing expr commands write at the tkCon
+command line without always saying expr (handled in tkConEvalCmd).
+
+---- no official release v0.72 ----
+
+Changed tkConAbout to use text widget so info could be selected.
+
+Fixed problem with pathname expansion on windows due to case insensitivity.
+(how can anyone work with such an insensitive OS?)
+
+Fixed off-by-one error in history substitution reported by
+<s-imai@lsi.tmg.nec.co.jp>.
+
+Fixed error in the handling of packages with a space in the name.
+
+Removed general return of output from rcfile, now only errors are returned.
+
+New tkConEvent proc to handle event movement, fixed search event problem
+where cached event would become incorrect.
+
+new blinkrange variable to change electric bracing style.
+
+---- December 20th 1996 v0.71 ----
+
+changed to not use upvar for nested arrays (bad for Tcl8).
+
+catch package require statement for detecting loadable libraries.
+
+---- November 15th 1996 v0.70 ----
+
+Fixed problem with virtual event C/C/P bindings. (reported by
+robin@jessikat.demon.co.uk)
+
+---- November 15th 1996 v0.69 ----
+
+Added auto_execok to tkCon(slaveprocs), fixes "unknown" command bug.
+
+Fix for 'event' to work with plugin.  (nijtmans)
+
+Added '--' and '-filter' options to 'dump'.
+
+---- November 13th 1996 v0.68 ----
+
+Added $tk_library to auto_path for safe slaves loading Tk. (nijtmans)
+
+Made "r" the default mode for tkConSafeOpen. (nijtmans)
+
+Changed global delcarations in tkConInit to avoid conflicts with
+Nijtmans' plus patch.
+
+---- November 11th 1996 v0.67 ----
+
+Fixed weird backslashing in tkConSafeWindow
+
+---- November 8th 1996 v0.66 ----
+
+Further changes for Tk plugin compatibility. (nijtmans)
+
+---- November 7th 1996 v0.65 ----
+
+Started to add to plugin compatible code.  (nijtmans)
+
+Reworked tkConFind* to accept optional args.
+
+Added History menu which display last ten commands in history.
+
+Removed 'auto_execpath' and changed for new version of 'auto_execok' (in
+'which' and 'unknown'), which will be redefined when TkCon is run in Tcl7.5.
+
+The attached environment is now checkpointed at startup (by default
+this is the slave).
+
+Fixed 'dump var' to use list when printing out nested array elements
+
+Added 'update' to puts, as well as better error reporting for tcl_puts.
+(nijtmans)
+
+Improved bracing around elseif statements.
+
+Removed 'warn' alias from distribution.  Seemed superfluous.
+
+Added support for requiring Tk in Tcl8+.
+
+Made TkCon use tkCon(cols) and tkCon(rows) for startup text size.
+
+---- September 30th 1996 v0.64 ----
+
+Changed the way 'idebug' integrates with TkCon.
+
+Changed to require Tk of version [expr $tcl_version-3.4].
+
+Fixed bug in observe_var (upvar shouldn't have had the \#0).
+
+Made Interp->Inspect menu disappear if TkConInspect package was not present.
+
+Made package handling only enabled for Tcl7.5+ interps and reworked
+how packages were recognized.
+
+! Removed virtual events from Console bindings so that they don't screw
+! up the Console bindings (temporary fix).
+
+Changed how initially loaded packages were detected. (nijtmans)
+
+Made all globals visible in tkConInit. (/nijtmans)
+
+---- September 23rd 1996 v0.63 ----
+
+Changed 'tkConFindBox' to not screw up search string.
+
+---- September 20th 1996 v0.62 ----
+
+Added option for automagically ignoring dead interpreter problems. (wart)
+
+Fixed bug for reattaching to default slave via menu. (wart)
+
+Changed how 'observe' spit out trace info for commands.
+
+Modified 'idebug' internals.
+
+Made 'idebug' create its own tkCon(exec) slave for maintaining history.
+
+Fixed long-standing bug in 'lremove' for -all switch.
+
+Made tkCon(SCRIPT) follow links to the true source script.
+
+Added 'idebug puts' and 'idebug echo' methods.
+
+Fixed 'idebug break' to not work at level 0.
+
+Removed line that could improperly set $name and placed a 'catch'
+around the 'interp alias' for 'ls' in tkConInitInterp.
+
+tkConInit(Slave|Interp) now just 'catch'es the renaming of puts.
+
+Added 'tkcon set' and 'tkcon upvar' methods. (nijtmans)
+
+---- September 17th 1996 v0.61 ----
+
+Added 'idebug' interactive debugging proc based off Stephen Uhler's all-Tcl
+debugger (Oct'95 _Linux_Journal_).  Should work w/ or w/o TkCon.
+
+Added back accidental removal of 'ls' alias in slaves.
+
+---- September 15th 1996 v0.60 ----
+
+Added 'tkcon find str' method and find box to TkCon.
+
+Added 'observe{_var}' command for simple tracing of vars/cmds with
+output in the TkCon console window.
+
+Reworked tkConFillAppsMenu to be more efficient and correct.
+
+Added 'echo' as an internal proc and included it in tkCon(slaveprocs).
+
+Removed tkCon(prompt2).
+
+Changed tkCon(lightcmd) default to 1 from 0.
+
+Improved 'tkcon error' to allow it to check the errorInfo of other apps.
+
+'dump var' now outputs nested array values. (loverso)
+
+Changed tkCon(Load|Save) to use the new Tk4.2 dialogs if available.
+
+Fixed tkConPrompt problem where marks were set incorrectly sometimes
+when it was called by an event (such as <Control-1>).
+
+Added bgerror to slaves and 'tkcon bgerror' method. (nijtmans)
+
+Added tcl_unknown along with other minor mods to get TkCon to work better
+with IncrTcl. (nijtmans)
+
+Made <Triple-1> binding not include the prompt.
+
+Add null Console bindings for the tkCon(root) bindings to avoid them
+getting generated spuriously. (Hobbs / Wart)
+
+Added -argv/-- command line option.  This has very limited use, but is very
+good for wrapping TkCon around an existing application which has it's own
+command line args.  It resets $argv in the main interpreter to what remains
+on the command line and TkCon ignores argv.  This carries over to any "New
+Consoles".
+
+Reintroduced state procedures, placed them in Interp menu.  These should
+only be used if you really understand what they do.
+
+Added 'dump command' method.  Usefulness over 'dump proc' is minimal.
+
+Tightened up the command line args, dropped several optional switches.
+
+Placed all the Console bindings into tkConBindings, which is called
+in tkConInitUI.
+
+Added 'tkConInitInterp' which places the tkCon shell commands (already
+available in any tkCon slave) in the interpreter.  It also rewires
+puts to send the result back to tkCon.
+
+Fixed dead attachment problem where attaching to another interp after
+being connected to a dead interp would munge the new interp's name. (H / Wart)
+
+Added 'tkConEvalOther' which evals in the named interpreter.
+
+Removed 'tkConCheckPackages'.  Package handling is now separated into the
+autoloading part in tkConInit and into tkConInterpMenu which determines
+available static libraries and packages for an interpreter.  Menus redesigned.
+
+Changed 'tkcon eval' to 'tkcon master' since eval gave the wrong connotation.
+
+Made '-nontcl' option take a TCL_BOOLEAN argument.
+
+Made 'which' return unknown commands as an error.
+
+Added button into the help window to send the help URL to netscape.
+
+Made history substitution spit out a correctly translated command if
+evaluation doesn't return an error.
+
+Changed history search to use the same event id as regular command line
+history.
+
+Added tkCon(meta) variable which varies the Meta definition based on the
+platform (Unix == Meta; Win == Alt; Mac == Command)
+
+Added 'dump widget' method.  Spits out current widget state as returned
+by '.widget configure'.
+
+Changed 'dump proc' and 'which' to try and auto_load an unknown procedure.
+
+Added 'tkcon history' command to return a source'able history stack.
+
+Fixed off-by-one error in tkConExpand (caused expansion to not work unless
+you were expanding the last thing on the line and also not if a special
+char was the first on the line).
+
+Fixed TkCon package handling to work properly for IncrTcl. (nijtmans)
+
+---- July 31 1996 v0.52 ----
+
+Reversed changes file to have newest at top.
+
+Added 'tkcon version' command.
+
+Fixed scoping problem when attaching to the master interpreter of a
+particular console.
+
+Rewrote the expansion routines to handle spaces in names better (no longer
+requires the user to use grouping as it puts in '\ ' for spaces).
+
+Fixed off-by-one bug in tkConExpandBestMatch(2).
+
+Rewired attachments so that when 'send' is used to attach to an app and an
+error occurs, TkCon determines whether the app still exists to prevent
+multiple errors from arising due to a dead attachment.  If this occurs, it
+prompts the user on whether to return to the primary slave or to check
+periodically for the attached interpreter to come back.  tkConEvalSend was
+added to facilitate this.
+
+Command highlighting is now only attempted when a non-empty character is
+inserted into the command line (%A != {}).
+
+Added Ctrl-2 accelerator to get attach to master interpreter of a console
+and Ctrl-3 to get to attach to the Main interpreter.
+
+Made the attachment to Main set the tkCon(app) to Main (to get around the
+menu -value {} bug) and also set tkConEvalAttached alias to 'tkConMain eval'.
+
+Rewrote tkConPrompt to accept "pre" and "post" args to place before and
+after the prompt is printed.  pre is tagged stdout, post is tagged stdin.
+
+Rewrote 'dump var' to recognize nested arrays, but not output them
+(it's too complicated to do that in source'able form), as well as
+recognize empty arrays.
+
+Rewrote tkConEvalCmd to keep track of errorInfo when errors occur.
+
+Added 'tkcon error' to display the last errorInfo.
+
+Changed dumpproc and dumpvar to dump (proc|var) ...
+
+Added -root argument to set the tkCon(root) variable explicitly.
+
+Changed the -(slave)eval args to append to rather than set their vars
+so that they can be specified multiple times on the command line.
+
+Added a limit argument to tkConMatch{Quote,Pair}.
+
+Rewrote dumpvar to recognize a single array value name (ie: a(b)).
+
+Renamed default non-Unix resource filename from from tkcon.bat to tkcon.cfg.
+
+No longer 'catch' the renaming of puts in a slave, because we'd want to
+know if that threw an error, although it never should...
+
+---- July 14 1996 v0.51 ----
+
+Removed tkConUsage since it was never called.
+
+Changed tkCon(Load|Save) to use tkFileSelect, if it exists.
+
+Added -load and -pkg equivalents for -package.
+
+Added Ctrl-Key-1 binding to reattach to primary slave.
+
+TkCon now will create itself in a different toplevel if there are already
+children of . when tkConInit is called.
+
+Changed tkConInitSlave not to overwrite tcl_puts in a slave if it exists.
+
+Created tkCon(slaveprocs) to identify what procs get dumped into a
+slave each time and tkCon(slavealias) to identify what will be
+aliased back into the main interpreter.
+
+---- July 4 1996 v0.50 ----
+
+Number of history events to keep now set by tkCon(history).
+
+'unknown' reworked (yet again) to properly handle itself in either the slave
+or another interpreter.  History substition was moved into tkConEvalCmd and
+made an option (via tkCon(subhistory)).
+
+Inlined _dir into dir/ls.  It doesn't save any cycles, but it removes
+the need to manage _dir.
+
+Fixed 'dir/ls -f' to denote executable files with a *.
+
+Fixed dir/ls to not die on 'dir -f <pattern>'. (Thanks to steven@indra.com)
+
+Changed tkConExpand to stop at $ as well.
+
+Changed tkConTagProc binding from Console <KeyRelease> to PostCon <KeyPress>.
+It seems to miss a lot less now.
+
+---- July 3 1996 v0.49 ----
+
+Slight mod to <BackSpace>.
+
+Fixed <Delete> binding to not allow deletions of pre-Prompt text when a
+selection is made.
+
+Fixed tkConEvalCmd to properly send commands to foreign interpreters even
+if $tkCon(nontcl) was set.
+
+Made tkConEvalAttached be some type of alias at all times.
+
+Changed 'slavescript' to 'slaveeval' and added an 'eval' option.
+
+---- June 25 1996 v0.48 ----
+
+Fixed 'alias' problem with multiple args.
+
+Updated binding system to automatically set Console bindings to equivalent
+Text bindings, then redefine what we want.
+
+Updated tkConTagProc to eval in attached slaves.  This can make it
+really slow when attached to foreign interpreters.
+
+---- June 25 1996 v0.47 ----
+
+Fixed tkConExpandBest* to be more accurate ([string first] is only valid
+for us when it returns 0).
+
+Updated tkConExpandPathname to work better for attached interpreters.
+
+Renamed tkExpand* to tkConExpand* (they'd become too TkCon oriented).
+
+Changed tkConEvalCmd to 'list' instead of 'concat' command for attached
+interpreters, and to ignore the whole thing if [string match {} $cmd].
+
+Removed many bindings that were exactly duplicated by "Text" binding.
+
+Added tkCon(blinktime) option to allow user to specify blink duration.
+Value must be at least 100 (millisecs).
+
+Removed tkConUpDownLine.  It never varied from tkTextUpDownLine.
+
+Improved package loading to handle bad pkgIndex.tcl entries.
+
+---- June 21 1996 v0.46 ----
+
+Improved package loading to be correct.
+
+Made 'dir' more Mac/Windows friendly (I hope).
+
+---- June 21 1996 v0.45 (skipped v0.44) ----
+
+Added "Non-Tcl Attachments" preference to disallow sends to interpreters
+which may not understand Tcl (ie - SchemeTk, PerlTk).
+
+Rewrote tkConCheckPackages to allow calling it without a widget reference.
+
+Updated tkConEvalCmd.
+
+Added tkConEvalAttached to evaluate more things in the right place.
+
+Rewrote tkConAttach to allow for attaching directly to slave interpreters
+(no send required).  "Attach Console" menu now lists all slave interpreters
+by slave path (with Tk interp name in ()s), separate from foreign interps.
+
+Add tkConInitSlave to create a TkCon slave.
+
+Renamed tkExpand* to tclExpand*.
+
+Updated 'dir' for better output.
+
+Added command line argument support, rearranged tkConInit to support it.
+
+---- June 18 1996 v0.43 ----
+
+Fixed 'unknown' to work in both slave and master interpreter.
+
+Modified 'dir' to be dumpproc'ed into slave.
+
+Rewrote 'clear' to be dumpproc'ed as well.
+
+Fixed 'puts' bug for slaves.
+
+---- June 17 1996 v0.42 ----
+
+Added extra loop to tkConCheckPackages to account for packages that may
+auto-load Tk itself (like Tix or Tksteal).
+
+---- June 15 1996 v0.41 ----
+
+Added 'warn' as an alias back into the main interpreter.
+
+Fixed documentation leftovers (and updated upgrade.html) to include the
+move of the 'main' and 'slave' commands into 'tkcon'.
+
+Fixed problem in 'clear' command
+
+---- June 14 1996 v0.40 Released ----
+
+OK, I need to add some MAJOR changes here...
+
+Added package handling.
+
+Moved to two-level interpreter model (master control/slave execution).
+
+---- June 13 1996 v0.38 ----
+
+Fixed auto_execpath to work on windows
+
+---- June 11 1996 v0.37 ----
+
+Improved 'tkConResource' to get the right script name on all platforms
+under all manner of circumstances
+
+Improved sourcing of tkCon resource file to not throw bogus errors
+
+---- Jun 10 1996 v0.36 ----
+
+Fixed <Control-n> bug (incr $tkCon(event) --> incr tkCon(event))
+
+---- June 8 1996 v0.35 ----
+
+Removed "Resource" from 'Edit' menu
+
+Rewrote 'clear' to accept percentage level
+
+Fixed <Control-s> forward history search bug
+
+---- June 6 1996 v0.34 ----
+
+Added 'clean' alias to revert a slave to its "pristine" state
+
+Added tkConState* procs to monitor state and be able to revert it
+
+Enhanced 'which' and added an 'auto_execpath' proc.
+
+Removed all known global uses of 'tmp*' variables.
+
+Fixed problem in tkExpandPathname that munged pathnames with spaces.
+
+Fixed problem in many places where spaces in directories and command names
+might get things confused.
+
+Fixed problem with non-interactive slaves.
+
+Commented out binding that recreates a deleted console window.
+
+Add tclindex command.
+
+Added support for -full to ls/dir.
+
+Added command buffer save and command buffer search bindings.
+
+Added Prefs menu.
+
+Changed File menu name to Console.
+
+Removed 'Load/Save File' command from File menu (to easy to source) and
+added 'save' command.
+
+Changed dumpvar to use "array set ..." when outputting array values.
+
+Changed tkCon to use tkcon.rc on non-unix machines.
+
+Revamped tkConInit and source file to make sure nothing specific to tkCon
+was set until an Init proc was called.
+
+---- May 10 1996 Made 0.27 Available to the public ----
+
+---- May 8 1996 Released 0.26 Third semi-public release ----
+
+tkConNew now returns the name of the newly created interpreter.
+
+Added 'main' and 'slave' inter-console communication commands.  Also,
+all slave interpreters become commands in all slave consoles (make sure
+not to name procs "slave#") when created.  tkConOtherInterp proc added
+to handle the communication.
+
+Moved tkConDestroy and tkConNew into new proc tkConMainInit to prevent
+resourcing problems with slave interpreters
+
+Fixed 'puts' bug by removing all 'uplevel subst ...' and placing an
+'eval ...' at the beginning.
+
+---- May 7 1996 Released 0.25 Second semi-public release ----
+
+Discovered bug in puts/output sequence - still searching
+
+Added unalias command, fixed alias command to not unalias commands if
+not enough args were passed
+
+Updated 'unknown' to mirror current tcl7.5 'unknown'
+
+Changed var names inside some procs
+
+Added comments to most procs
+
+Fixed off-by-one bug in tkExpandPathname
+
+---- May 4 1996 Released 0.24 First semi-public release ----
+
+Changes file begun Tue May  7 19:09:51 PDT 1996

@@ -1,0 +1,9 @@
+ATOM      1 SI1  SI  X   1       0.000   0.000   0.000  1.00  0.00      UC1 SI 0 
+ATOM      2 SI2  SI  X   1       0.000   2.715   2.715  1.00  0.00      UC1 SI 0 
+ATOM      3 SI3  SI  X   1       2.715   0.000   2.715  1.00  0.00      UC1 SI 0 
+ATOM      4 SI4  SI  X   1       2.715   2.715   0.000  1.00  0.00      UC1 SI 0 
+ATOM      1 SI5  SI  X   1       1.358   1.358   1.358  1.00  0.00      UC1 SI 0 
+ATOM      2 SI6  SI  X   1       1.358   4.073   4.073  1.00  0.00      UC1 SI 0 
+ATOM      3 SI7  SI  X   1       4.073   1.358   4.073  1.00  0.00      UC1 SI 0 
+ATOM      4 SI8  SI  X   1       4.073   4.073   1.358  1.00  0.00      UC1 SI 0 
+END

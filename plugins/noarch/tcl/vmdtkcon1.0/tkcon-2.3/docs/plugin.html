@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: Tcl Plugin Stripped Demo</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TD><FONT SIZE=+3><B>tkcon Documentation</B> (May 2001)</FONT></TD>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH><A HREF="index.html">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2 CLASS="hi"><A HREF="plugin.html" CLASS="hi">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+<P>
+This is the full tkcon script when run inside the plugin.  It feels like a
+stripped down version of tkcon, but the only limitations are those
+established by the plugin.  You can test the basic console features and get
+a feel for the mutli-color output.  Below the demo are some ideas to try
+out.  v2 of the plugin is distributed with a megawidget version of tkcon for
+debugging tclets.  The demo below uses rev 1.28 of tkcon in CVS
+(this correlates to v2.1 of tkcon).
+
+<P>
+<embed src="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/~checkout~/tkcon/tkcon/tkcon.tcl?rev=HEAD&content-type=application/x-tcl" width=630 height=350>
+</P>
+
+Have a look at some of the features: (culled from the
+<A HREF="./">tkcon documentation</A>)
+<UL>
+<LI> <B>Variable / Path / Procedure Name Expansion.</B>  Type in
+<CODE>set tc</CODE> at the prompt.  Hit <I>&lt;Control-Shift-V&gt;</I>.
+<CODE>set tcl_</CODE> should now be visible.
+Hit <I>&lt;Control-Shift-V&gt;</I> again.  You should see the rest of
+the completions printed out for you.  Works the same for procedures
+and files paths (file access restricted from plugin).  Works properly
+when spaces or other funny characters are including in the name.
+
+<LI> <B>Command Highlighting.</B> Note that <CODE>set</CODE> should be in
+green, denoting it is a recognized command in that interpreter.
+
+<LI> <B>Electric Character Matching.</B>  Watch while you type the
+following: <CODE>proc foo { a b } { puts [list $a $b] }</CODE>.  Did you
+notice the blink matching of the braces?  Yes, it's smart.
+
+<LI> <B>Command History.</B>  Use the Up/Down arrows or
+<I>&lt;Control-p&gt;</I>/<I>&lt;Control-n&gt;</I> to peruse the command
+history.  <I>&lt;Control-r&gt;</I>/<I>&lt;Control-s&gt;</I> Actually
+does command history matching (like tcsh or other advanced Unix shells).
+
+<LI> <B>Useful Colorization.</B> Having defined <CODE>foo</CODE> above, type
+in <CODE>foo hey</CODE>.  Note that the error comes back in red.  Go up one
+in the command history and add <CODE> you</CODE> and see that regular
+stdout output comes through in blue (the colors are configurable).
+
+<LI> <B>Cut/Copy/Paste.</B>  You should be able to do that between outside
+windows and TkCon.  The default keys are
+<I>&lt;Control-x&gt;</I>/<I>&lt;Control-c&gt;</I>/<I>&lt;Control-v&gt;</I>.
+
+</UL>
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

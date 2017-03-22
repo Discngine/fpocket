@@ -1,0 +1,15 @@
+REMARK   4 quar COMPLIES WITH FORMAT V. 2.0 
+CRYST1    4.910    4.910    5.402  90.00  90.00 120.00 P 1         
+SCALE1       0.23517   0.00000   0.00000        0.00000
+SCALE2       0.11759   0.20367   0.00000        0.00000
+SCALE3       0.00000   0.00000   0.18512        0.00000
+HETATM    1  SI1 SIO2    0       2.044   1.180   0.000  1.00  0.00      QUARSI
+HETATM    2  O1  SIO2    0       0.639   1.667   0.629  1.00  0.00      QUARO
+HETATM    3  SI2 SIO2    0       2.208  -1.275   3.601  1.00  0.00      QUARSI
+HETATM    4  O2  SIO2    0       2.489   2.175   4.231  1.00  0.00      QUARO
+HETATM    5  SI3 SIO2    0       0.000   2.549   1.801  1.00  0.00      QUARSI
+HETATM    6  O3  SIO2    0       1.124   3.523   2.430  1.00  0.00      QUARO
+HETATM    7  O4  SIO2    0       1.763  -0.280   4.773  1.00  0.00      QUARO
+HETATM    8  O5  SIO2    0       3.128   1.068   1.171  1.00  0.00      QUARO
+HETATM    9  O6  SIO2    0       3.614  -0.788   2.972  1.00  0.00      QUARO
+END

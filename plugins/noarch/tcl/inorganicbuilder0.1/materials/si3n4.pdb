@@ -1,0 +1,16 @@
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ATOM      1  SIA SIN X   1       2.136   1.294   0.725  1.00  0.00      SIN   
+ATOM      2  N2A SIN X   1       3.752   2.033   0.725  1.00  0.00      SIN   
+ATOM      3  SIB SIN X   1       3.920   3.802   0.725  1.00  0.00      SIN   
+ATOM      4  SIC SIN X   1       5.199   1.003   0.725  1.00  0.00      SIN   
+ATOM      5  N1A SIN X   1       5.204   0.008   2.176  1.00  0.00      SIN   
+ATOM      6  N1B SIN X   1       6.643   2.044   0.725  1.00  0.00      SIN   
+ATOM      7  N1C SIN X   1       1.268   1.799   2.176  1.00  0.00      SIN   
+ATOM      8  N1D SIN X   1       4.723   4.252   2.176  1.00  0.00      SIN   
+ATOM      9  SID SIN X   1       6.168   5.294   2.176  1.00  0.00      SIN   
+ATOM     10  SIE SIN X   1       7.448   2.495   2.176  1.00  0.00      SIN   
+ATOM     11  N2B SIN X   1       7.615   4.264   2.176  1.00  0.00      SIN   
+ATOM     12  SIF SIN X   1       9.231   5.003   2.176  1.00  0.00      SIN   
+ATOM     13  N1E SIN X   1      10.112   4.506   0.725  1.00  0.00      SIN   
+ATOM     14  N1F SIN X   1       6.162   6.304   0.725  1.00  0.00      SIN   
+END

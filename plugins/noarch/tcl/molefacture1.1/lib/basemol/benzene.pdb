@@ -1,0 +1,25 @@
+HETATM    1  C     *     1       1.230   0.710   0.000        0.00           C  
+HETATM    2  H     *     1       2.162   1.249   0.000        0.00           H  
+HETATM    3  C     *     1       0.000   1.420   0.000        0.00           C  
+HETATM    4  H     *     1       0.000   2.497   0.000        0.00           H  
+HETATM    5  C     *     1      -1.230   0.710   0.000        0.00           C  
+HETATM    6  H     *     1      -2.162   1.249   0.000        0.00           H  
+HETATM    7  C     *     1      -1.230  -0.710   0.000        0.00           C  
+HETATM    8  H     *     1      -2.162  -1.249   0.000        0.00           H  
+HETATM    9  C     *     1      -0.000  -1.420   0.000        0.00           C  
+HETATM   10  H     *     1      -0.000  -2.497   0.000        0.00           H  
+HETATM   11  C     *     1       1.230  -0.710   0.000        0.00           C  
+HETATM   12  H     *     1       2.162  -1.249   0.000        0.00           H  
+CONECT    1    2    3   11
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9
+CONECT   11    1    9   12
+CONECT   12   11
+END

@@ -1,0 +1,173 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.\"
+.TH FPOCKET 1 "JANUARY 2009" Linux "User Manuals"
+.SH NAME
+fpocket \- find pockets in proteins
+.SH SYNOPSIS
+.B fpocket -f
+.I pdb-file
+.B [OPTIONS]
+
+.B fpocket -F
+.I pdb-list
+.B [OPTIONS]
+
+.SH DESCRIPTION
+.B fpocket
+is a program that performs pocket detection on a protein structure. 
+It uses (a this time) a geometric algorithm based on the Voronoi
+tesselation.
+
+.B fpocket 
+uses qhull to perform the Voronoi tesselation. Make sure you 
+have installed qhull and qvoronoi is accessible through the 
+command line typing qvoronoi in your console.
+Qhull can be downloaded from http://www.qhull.org
+
+The -f option is needed, as it provide the input pdb file.
+One can use -F option instead, to profide a list of pdb file
+instead of a single one.
+
+.SH OPTIONS
+
+.IP -m 
+.I minr 
+.B [float]
+
+Minimum radius criteria for alpha sphere selection. The qhull program
+returns a large set of alpha sphere calculated on the protein. Not all
+of them are necessary to perform the cavity detection. Besides, taking
+all of them would dramatically decrease algorithm's speed.
+
+.B DEFAULT: 3.0
+
+.IP -M
+.I maxr 
+.B [float]
+
+Maximum radius criteria for alpha sphere selection.
+
+.B DEFAULT: 6.0
+
+.IP -i 
+.I nmin 
+.B [integer]
+
+Minimum number of alpha spheres for each pocket. When the clustering is
+done, all pockets containing N <= 
+.I nmin 
+alpha sphere will be removed.
+
+.B DEFAULT: 36
+
+.IP -D 
+.I mina 
+.B [float]
+
+The first basic clustering algorithm distance criteria. Alpha spheres
+separated by a distance lower or equal than 
+.I cdist 
+to each others will be regrouped during this first clustering step.
+
+.B DEFAULT: 1.73
+
+.IP -r
+.I bdist 
+.B [float]
+
+Distance criteria for the last clustering step. Given two groups of alpha spheres
+already clustered with the basic algorithm, if barycenters of the two groups 
+are distant of less than 
+.I bdist 
+from each other, the two groups are merged.
+
+.B DEFAULT: 4.5
+
+.IP -s
+.I sdist [float]
+The single-linkage distance criteria. Given two group of alpha sphere
+already regrouped by the first two clustering steps, 
+if 
+.I snb 
+(see -n option bellow) alpha spheres are separated by a distance 
+lower than 
+.I sdist, 
+merge the two groups.
+
+.B DEFAULT: 2.5
+
+.IP -n 
+.I snb 
+.B [float]
+
+Number of common vertices criteria for the single linkage algorithm.
+Given two group of alpha sphere. If the number of vertice separated by 
+a distance lower than s (given by the -s option) is greater or equal 
+to the number given by this option, just merge the two groups.
+
+.B DEFAULT: 3
+
+.IP -A
+.I anb 
+.B [integer]
+An alpha sphere will be considered as apolar if it has at least 
+.I anb 
+atoms neighbours (4 max. then) having an electronegativity value 
+lower than 2.7 (using the Pauling representation).
+
+.B DEFAULT: 3
+
+.IP -p
+.I minap 
+.B [integer]
+
+Minimum number of apolar alpha spheres for each pocket. If a given pocket has a
+number of apolar alpha shape bellow
+.I minap
+, it will be removed.
+
+.B DEFAULT: 0
+
+.IP -v
+.I mcvol 
+.B [integer]
+
+Number of Monte Carlo iterations for the volume estimation. The more this value is
+high, the more the volume estimation will be accurate, and of course the more the 
+program will be slow. This is the default method used to estimate the volume.
+
+.B DEFAULT: 2500
+
+.IP -b
+.I dvol 
+.B [integer]
+
+This option allows the user to chose a discrete algorithm to calculate the volume of
+each pocket instead of the Monte Carlo method. This algorithm put each pocket into 
+a grid of dimention (1/N*X ; 1/N*Y ; 1/N*Z), N being the value given using this option,
+and X, Y and Z are the box dimensions, determined from extreme coordinates of vertices.
+Then, a triple iteration on each dimensions is used to estimate the volume, checking if
+each points given by the iteration is in one of the pocket's vertices. 
+
+.B Warning: 
+a high value might dramatically slow down the programm, as this algorithm 
+has a maximum complexity of N*N*N*nb_vertices, and a minimum of N*N*N. !!!
+
+.B DEFAULT: Not used by default.
+
+.SH BUGS
+.SH AUTHOR
+.BR Developpers:
+
+Peter Schmidtke <pschmidtke@mmb.pcb.ub.es>
+
+Vincent Le Guilloux <vincent.le-guilloux@univ-orleans.fr>
+
+.BR Supervisor:
+
+Pierre Tuffery
+
+.SH "SEE ALSO"
+.BR dpocket (1),
+.BR tpocket (1),

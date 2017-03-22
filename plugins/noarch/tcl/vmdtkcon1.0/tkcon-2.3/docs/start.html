@@ -1,0 +1,353 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: Getting Started</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: Getting Started</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH CLASS="hi"><A HREF="index.html" CLASS="hi">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+</TD></TR><TR><TD>
+<!-- start secondary navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#BBBBBB width=100%>
+<TR>
+<TH CLASS="hi2"><A HREF="start.html" CLASS="hi2">Getting Started</A></TH>
+<TH><A HREF="bindings.html">Special Bindings</A></TH>
+<TH><A HREF="procs.html">Procedures</A></TH>
+<TH><A HREF="demopic.gif">Screenshot</A></TH>
+</TR>
+<TR>
+<TH><A HREF="dump.html"><CODE>dump</CODE></A></TH>
+<TH><A HREF="tkcon.html"><CODE>tkcon</CODE></A></TH>
+<TH><A HREF="idebug.html"><CODE>idebug</CODE></A></TH>
+<TH><A HREF="observe.html"><CODE>observe</CODE></A></TH>
+</TR>
+</TABLE>
+<!-- end secondary navigation table -->
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+<H3>Resource File:</H3>
+
+TkCon will search for a resource file in "<CODE>$env(HOME)/.tkconrc</CODE>"
+(Unix), "<CODE>$env(HOME)/tkcon.cfg</CODE>" (Windows) or
+"<CODE>$env(PREF_FOLDER)/tkcon.cfg</CODE>" (Macintosh).  On DOS machines,
+"<CODE>$env(HOME)</CODE>" usually refers to "<CODE>C:\</CODE>".  TkCon
+never sources the "<CODE>~/.wishrc</CODE>" file.  The resource file is
+sourced by each new instance of the console.  An example resource file is
+provided below.
+
+<H3>Command Line Arguments</H3>
+
+Except for <CODE>-rcfile</CODE>, command line arguments are handled after
+the TkCon resource file is sourced, but before the slave interpreter or the
+TkCon user interface is initialized.  <CODE>-rcfile</CODE> is handled right
+before it would be sourced, allowing you to specify any alternate file.
+Command line arguments are passed to each new console and will be evaluated
+by each.  To prevent this from happening, you have to say
+<CODE>tkcon main set argv {}; tkcon main set argc 0</CODE>.
+ <P>
+For these options, any unique substring is allowed.
+
+<DL>
+
+<DT> <CODE>-argv</CODE> (also <CODE>--</CODE>)
+<DD> Causes TkCon to stop evaluating arguments and set the remaining args to
+be argv/argc (with <CODE>--</CODE> prepended).  This carries over for any
+further consoles.  This is meant only for wrapping TkCon around programs
+that require their own arguments.
+
+<DT> <CODE>-color-&lt;color&gt;</CODE> <I>color</I>
+<DD> Sets the requested color type to the specified color for tkcon.
+See the <B>Variables</B> section for the recognized
+<i>&lt;color&gt;</i> names.
+
+<DT> <CODE>-eval</CODE> (also <CODE>-main</CODE> or <CODE>-e</CODE>)
+<DD> A tcl script to eval in each main interpreter.  This is evaluated
+after the resource file is loaded and the slave interpreter is created.
+Multiple <CODE>-eval</CODE> switches will be recognized (in order).
+
+<DT> <CODE>-exec</CODE> <I>slavename</I>
+<DD> Sets the named slave that tkcon operates in.  In general, this is only
+useful to set to "" (empty), indicating to tkcon to avoid the
+multi-interpreter model and operate in the main environment.  When this is
+empty, any further arguments will be only used in the first tkcon console
+and not passed onto further new consoles.  This is useful when using tkcon
+as a console for extended wish executables that don't load there commands
+into slave interpreters.
+
+<DT> <CODE>-font</CODE> <I>font</I>
+<DD> Sets the font that tkcon uses for its text windows.  If this isn't
+a fixed width font, tkcon will override it.
+
+<DT> <CODE>-nontcl</CODE> <I>TCL_BOOLEAN</I>
+<DD> Sets <CODE>::tkcon::OPT(nontcl)</CODE> to <I>TCL_BOOLEAN</I>.  Needed
+when attaching to non-Tcl interpreters.
+
+<DT> <CODE>-package</CODE> <I>package_name</I> (also <CODE>-load</CODE>)
+<DD> Packages to automatically load into the slave interpreters (ie - "Tk").
+
+<DT> <CODE>-rcfile</CODE> <I>filename</I>
+<DD> Specify an alternate tkcon resource file name.
+
+<DT> <CODE>-root</CODE> <I>widgetname</I>
+<DD> Makes the named widget the root name of all consoles (ie - .tkcon).
+
+<DT> <CODE>-slave</CODE> <I>tcl_script</I>
+<DD> A tcl script to eval in each slave interpreter.  This will append
+the one specified in the tkcon resource file, if any.
+
+</DL>
+
+Some examples of tkcon command line startup situations:
+<DL>
+
+<DT> <CODE>megawish tkcon.tcl -exec "" -root .tkcon mainfile.tcl</CODE>
+<DD> Use tkcon as a console for your megawish application.  You can avoid
+starting the line with <CODE>megawish</CODE> if that is the default wish
+that tkcon would use.  The <CODE>-root</CODE> ensures that tkcon will not
+conflict with the 
+
+<DT> <CODE>tkcon.tcl -font "Courier 12" -load Tk</CODE>
+<DD> Use the courier font for tkcon and always load Tk in slave
+interpreters at startup.
+
+<DT> <CODE>tkcon.tcl -rcfile ~/.wishrc -color,bg white</CODE>
+<DD> Use the <CODE>~/.wishrc</CODE> file as the resource file, and
+a white background for tkcon's text widgets.
+
+</DL>
+
+<H3>Variables:</H3>
+
+Certain variables in TkCon can be modified to suit your needs.  It's
+easiest to do this in the resource file, but you can do it when time the
+program is running (and some can be changed via the Prefs menu).  All these
+are part of the master interpreter's <code>::tkcon</code> namespace.  The
+modifiable array variables are <CODE>::tkcon::COLOR</CODE> and
+<CODE>::tkcon::OPT</CODE>.  You can call '<CODE>tkcon set
+::tkcon::COLOR</CODE>' when the program is running to check its state.
+Here is an explanation of certain variables you might change or use:
+
+<DL>
+
+<DT> <CODE>::tkcon::COLOR(bg)</CODE>
+<DD> The background color for tkcon text widgets.
+Defaults to the operating system default (determined at startup).
+
+<DT> <CODE>::tkcon::COLOR(blink)</CODE>
+<DD> The background color of the electric brace highlighting, if on.
+Defaults to <font color=#FFFF00>yellow</font>.
+
+<DT> <CODE>::tkcon::COLOR(cursor)</CODE>
+<DD> The background color for the insertion cursor in tkcon.
+Defaults to <font color=#000000>black</font>.
+
+<DT> <CODE>::tkcon::COLOR(disabled)</CODE>
+<DD> The foreground color for disabled menu items.
+Defaults to <font color=#4D4D4D>dark grey</font>.
+
+<DT> <CODE>::tkcon::COLOR(proc)</CODE>
+<DD> The foreground color of a recognized proc, if command highlighting is on.
+Defaults to <font color=#008800>dark green</font>.
+
+<DT> <CODE>::tkcon::COLOR(var)</CODE>
+<DD> The background color of a recognized var, if command highlighting is on.
+Defaults to <font color=#FFC0D0>pink</font>.
+
+<DT> <CODE>::tkcon::COLOR(prompt)</CODE>
+<DD> The foreground color of the prompt as output in the console.
+Defaults to <font color=#8F4433>brown</font>.
+
+<DT> <CODE>::tkcon::COLOR(stdin)</CODE>
+<DD> The foreground color of the stdin for the console.
+Defaults to <font color=#000000>black</font>.
+
+<DT> <CODE>::tkcon::COLOR(stdout)</CODE>
+<DD> The foreground color of the stdout as output in the console.
+Defaults to <font color=#0000FF>blue</font>.
+
+<DT> <CODE>::tkcon::COLOR(stderr)</CODE>
+<DD> The foreground color of stderr as output in the console.
+Defaults to <font color=#FF0000>red</font>.
+ <P>
+
+<DT> <CODE>::tkcon::OPT(autoload)</CODE>
+<DD> Packages to automatically load into the slave interpreter (ie - 'Tk').
+This is a list.  Defaults to {} (none).
+
+<DT> <CODE>::tkcon::OPT(blinktime)</CODE>
+<DD> The amount of time (in millisecs) that braced sections should
+<I>blink</I> for.  Defaults to 500 (.5 secs), must be at least 100.
+
+<DT> <CODE>::tkcon::OPT(blinkrange)</CODE>
+<DD> Whether to blink the entire range for electric brace matching or to
+just blink the actual matching braces (respectively 1 or 0, defaults to 1).
+
+<DT> <CODE>::tkcon::OPT(buffer)</CODE>
+<DD> The size of the console scroll buffer (in lines).
+Defaults to 512.
+
+<DT> <CODE>::tkcon::OPT(calcmode)</CODE>
+<DD> Whether to allow <CODE>expr</CODE> commands to be run at the command
+line without prefixing them with <CODE>expr</CODE> (just a convenience).
+
+<DT> <CODE>::tkcon::OPT(cols)</CODE>
+<DD> Number of columns for the console to start out with.  Defaults to 80.
+
+<DT> <CODE>::tkcon::OPT(dead)</CODE>
+<DD> What to do with dead connected interpreters.  If <CODE>dead</CODE>
+is <i>leave</i>, TkCon automatically exits the dead interpreter.  If
+<CODE>dead</CODE> is <i>ignore</i> then it remains attached waiting for
+the interpreter to reappear.  Otherwise TkCon will prompt you.
+
+<DT> <CODE>::tkcon::OPT(exec)</CODE>
+<DD> This corresponds to the <CODE>-exec</CODE> option above
+
+<DT> <CODE>::tkcon::OPT(font)</CODE>
+<DD> Font to use for tkcon text widgets (also specified with -font).
+Defaults to the system default, or a fixed width equivalent.
+
+<DT> <CODE>::tkcon::OPT(gets)</CODE>
+<DD> Controls whether tkcon will overload the gets command to work with
+tkcon.  The valid values are: <code>congets</code> (the default), which
+will redirect <code>stdin</code> requests to the tkcon window;
+<code>gets</code>, which will pop up a dialog to get input; and {} (empty
+string) which tells tkcon not to overload gets.  This value must be set at
+startup to alter tkcon's behavior.
+
+<DT> <CODE>::tkcon::OPT(history)</CODE>
+<DD> The size of the history list to keep.  Defaults to 48.
+
+<DT> <CODE>::tkcon::OPT(hoterrors)</CODE>
+<DD> Whether hot errors are enabled or not.  When enabled, errors that
+are returned to the console are marked with a link to the error info
+that will pop up in an minimal editor.  This requires more memory because
+each error that occurs will maintain bindings for this feature, as long
+as the error is in the text widget.  Defaults to on.
+
+<DT> <CODE>::tkcon::OPT(library)</CODE>
+<DD> The path to any tcl library directories (these are appended to the
+auto_path when the after the resource file is loaded in).
+
+<DT> <CODE>::tkcon::OPT(lightbrace)</CODE>
+<DD> Whether to use the brace highlighting feature or not
+(respectively 1 or 0, defaults to 1).
+
+<DT> <CODE>::tkcon::OPT(lightcmd)</CODE>
+<DD> Whether to use the command highlighting feature or not
+(respectively 1 or 0, defaults to 1).
+
+<DT> <CODE>::tkcon::OPT(maineval)</CODE>
+<DD> A tcl script to execute in the main interpreter after the slave
+interpreter is created and the user interface is initialized.
+
+<DT> <CODE>::tkcon::OPT(maxmenu)</CODE>
+<DD> A number that specifies the maximum number of packages to show
+vertically in the Interp-&gt;Packages menu before breaking into
+another column.  Defaults to 15.
+
+<DT> <CODE>::tkcon::OPT(nontcl)</CODE>
+<DD> For those who might be using non-Tcl based Tk attachments, set this
+to 1.  It prevents TkCon from trying to evaluate its own Tcl code in an
+attached interpreter.  Also see my <A HREF="nontcl.html">notes for non-Tcl
+based Tk interpreters</A>.
+
+<DT> <CODE>::tkcon::OPT(prompt1)</CODE>
+<DD> Like tcl_prompt1, except it doesn't require you use '<CODE>puts</CODE>'.
+No equivalent for tcl_prompt2 is available (it's unnecessary IMHO).
+<BR>Defaults to {([file tail [pwd]]) [history nextid] % }.
+
+<DT> <CODE>::tkcon::OPT(rows)</CODE>
+<DD> Number of rows for the console to start out with.  Defaults to 20.
+
+<DT> <CODE>::tkcon::OPT(scollypos)</CODE>
+<DD> Y scrollbar position.  Valid values are <CODE>left</CODE> or
+<CODE>right</CODE>.  Defaults to <CODE>left</CODE>.
+
+<DT> <CODE>::tkcon::OPT(showmenu)</CODE>
+<DD> Show the menubar on startup (1 or 0, defaults to 1).
+
+<DT> <CODE>::tkcon::OPT(showmultiple)</CODE>
+<DD> Show multiple matches for path/proc/var name expansion
+(1 or 0, defaults to 1).
+
+<DT> <CODE>::tkcon::OPT(slaveeval)</CODE>
+<DD> A tcl script to execute in each slave interpreter right after it's
+created.  This allows the user to have user defined info always available
+in a slave.  Example:
+<PRE>	set ::tkcon::OPT(slaveeval) {
+		proc foo args { puts $args }
+		lappend auto_path .
+	}</PRE>
+
+<DT> <CODE>::tkcon::OPT(slaveexit)</CODE>
+<DD> Allows the prevention of <CODE>exit</CODE> in slaves from exitting
+the entire application.  If it is equal to <CODE>exit</CODE>, exit will
+exit as usual, otherwise it will just close down that interpreter (and
+any children).  Defaults to <VAR>close</VAR>.
+
+<DT> <CODE>::tkcon::OPT(subhistory)</CODE>
+<DD> Allow history substitution to occur (0 or 1, defaults to 1).  The
+history list is maintained in a single interpreter per TkCon console
+instance.  Thus you have history which can range over a series of attached
+interpreters.
+</DL>
+
+ <P>
+
+An <b>example TkCon resource file</b> might look like:
+
+<PRE style="color: #883333">######################################################
+## My TkCon Resource File
+ 
+# Use a fixed default font
+#tkcon font fixed; # valid on unix
+#tkcon font systemfixed; # valid on win
+tkcon font Courier 12; # valid everywhere
+
+# Keep 50 commands in history
+set ::tkcon::OPT(history) 50
+
+# Use a pink prompt
+set ::tkcon::COLOR(prompt) pink
+######################################################</PRE>
+
+ <p>
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

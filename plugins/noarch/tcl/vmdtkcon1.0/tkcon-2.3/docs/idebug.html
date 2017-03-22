@@ -1,0 +1,126 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: idebug procedure</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: <CODE>idebug</CODE> procedure</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH CLASS="hi"><A HREF="index.html" CLASS="hi">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH><A HREF="limits.html">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+</TD></TR><TR><TD>
+<!-- start secondary navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#BBBBBB width=100%>
+<TR>
+<TH><A HREF="start.html">Getting Started</A></TH>
+<TH><A HREF="bindings.html">Special Bindings</A></TH>
+<TH><A HREF="procs.html">Procedures</A></TH>
+<TH><A HREF="demopic.gif">Screenshot</A></TH>
+</TR>
+<TR>
+<TH><A HREF="dump.html"><CODE>dump</CODE></A></TH>
+<TH><A HREF="tkcon.html"><CODE>tkcon</CODE></A></TH>
+<TH CLASS="hi2"><A HREF="idebug.html" CLASS="hi2"><CODE>idebug</CODE></A></TH>
+<TH><A HREF="observe.html"><CODE>observe</CODE></A></TH>
+</TR>
+</TABLE>
+<!-- end secondary navigation table -->
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+ <P>
+The <B>idebug</B> command provides an interactive debugging environment for
+procedures via TkCon.  You can place <code>idebug break</code> commands
+into your procedure to create breakpoints.  It will pop up the TkCon
+console and put you into a "debugging" mode.  The <code>body, show &amp;
+trace</code> methods are intended for internal use only.
+ <P>
+
+This procedure works for minimal debugging sessions.  Comments are
+encouraged.
+
+<DL>
+
+<DT> <CODE>idebug <b>body</b></CODE> <I>?level?</I>
+<DD> Prints out the body of the command (if it is a procedure) at the
+specified level.  <i>level</i> defaults to the current level.
+
+<DT> <CODE>idebug <b>break</b></CODE> <I>?id?</I>
+<DD> Creates a breakpoint within a procedure.  This will only trigger if
+idebug is on and the id matches the pattern.  If so, TkCon will pop to the
+front with the prompt changed to an idebug prompt.  You are given the basic
+ability to observe the call stack an query/set variables or execute Tcl
+commands at any level.  A separate history is maintained in debugging mode.
+To see the special commands available at the debug prompt, type <B>?</B>
+and hit return.
+
+<DT> <CODE>idebug {echo ?id?}</CODE> <I>?args?</I>
+<DD> Behaves just like <code>echo</code>, but only triggers when idebug is
+on.  You can specify an optional id to further restrict triggering.  If no
+id is specified, it defaults to the name of the command in which the call
+was made.
+
+<DT> <CODE>idebug <b>id</b></CODE> <I>?id?</I>
+<DD> Query or set the idebug id.  This id is used by other idebug methods
+to determine if they should trigger or not.  The idebug id can be a glob
+pattern and defaults to *.
+
+<DT> <CODE>idebug <b>off</b></CODE>
+<DD> Turns idebug off.
+
+<DT> <CODE>idebug <b>on</b></CODE> <I>?id?</I>
+<DD> Turns idebug on.  If <i>id</i> is specified, it sets the id to it.
+
+<DT> <CODE>idebug {puts ?id?}</CODE> <I>args</I>
+<DD> Behaves just like <code>puts</code>, but only triggers when idebug is
+on.  You can specify an optional id to further restrict triggering.  If no
+id is specified, it defaults to the name of the command in which the call
+was made.
+
+<DT> <CODE>idebug <b>show</b></CODE> <I>type ?level? ?VERBOSE?</I>
+<DD> <i>type</i> must be one of vars, locals or globals.  This method
+will output the variables/locals/globals present in a particular level.
+If VERBOSE is added, then it actually 'dump's out the values as well.
+<i>level</i> defaults to the level in which this method was called.
+
+<DT> <CODE>idebug <b>trace</b></CODE> <I>?level?</I>
+<DD> Prints out the stack trace from the specified level up to the top
+level.  <i>level</i> defaults to the current level.
+
+</DL>
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>

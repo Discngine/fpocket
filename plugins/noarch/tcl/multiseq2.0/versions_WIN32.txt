@@ -1,0 +1,26 @@
+# Database names and version numbers, for automatic distribution 
+# and updates for MultiSeq users.
+
+# Format version code
+%VERS 1.0
+
+# Format is as follows:
+# '#' indicates a comment
+# Blank lines are ignored
+# Each line consists of space-seperated fields in the following order:
+#  Key - a unique key used by MultiSeq to identify this database
+#  Description - a text description; MUST be in quotes (ie, "desc")
+#  URL - location to download the file from
+#  BackupURL - location to download the file from if URL is unavailable
+#  Version - most recent version number of the database
+#  Size - size in bytes of the downloaded file
+#  Type - download type; "db" for database or "sw" for software
+#  Required - is this download required for proper operation of MultiSeq?  Y or N
+
+# Software packages.
+blast "BLAST Installation Directory" "" "" "" "" sw N BLASTMAT data BLASTDB ""
+psipred "PSIPRED Installation Directory" "" "" "" "" sw N PSIPREDDATA data PSIPREDDB ""
+editor "Path to external editor" "" "" "" "" sw N
+
+%EVERS 1.0
+

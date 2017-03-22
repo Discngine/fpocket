@@ -1,0 +1,31 @@
+*>>>>>> Combined CHARMM All-Hydrogen Topology File for <<<<<<<<<
+*>>>>>>>>> CHARMM22 Proteins and CHARMM27 Lipids <<<<<<<<<<
+*from
+*>>>>>>>>CHARMM22 All-Hydrogen Topology File for Proteins <<<<<<
+*>>>>>>>>>>>>>>>>>>>>> August 1999 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+*>>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<
+*>>>>>> 410-706-7442 or email: alex,mmiris.ab.umd.edu  <<<<<<<<<
+*and
+*  \\\\\\\ CHARMM27 All-Hydrogen Lipid Topology File ///////
+*  \\\\\\\\\\\\\\\\\\ Developmental /////////////////////////
+*		Alexander D. MacKerell Jr.
+*			August 1999
+* All comments to ADM jr.  email: alex,mmiris.ab.umd.edu
+*		telephone: 410-706-7442
+*
+27  1
+
+MASS	 1 SI 	28.0855  SI ! SI
+
+RESI SI            0.000 
+GROUP
+ATOM SI1  SI 	  0
+ATOM SI2  SI 	  0
+ATOM SI3  SI 	  0
+ATOM SI4  SI 	  0
+ATOM SI5  SI 	  0
+ATOM SI6  SI 	  0
+ATOM SI7  SI 	  0
+ATOM SI8  SI 	  0
+
+END

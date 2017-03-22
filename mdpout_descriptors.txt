@@ -1,0 +1,1 @@
+snapshot pock_volume pock_asa pock_pol_asa pock_apol_asa pock_asa22 pock_pol_asa22 pock_apol_asa22 nb_AS mean_as_ray mean_as_solv_acc apol_as_prop mean_loc_hyd_dens hydrophobicity_score volume_score polarity_score charge_score prop_polar_atm as_density as_max_dst ALA ARG ASN ASP CYS GLN GLU GLY HIS ILE LEU LYS MET PHE PRO SER THR TRP TYR VAL

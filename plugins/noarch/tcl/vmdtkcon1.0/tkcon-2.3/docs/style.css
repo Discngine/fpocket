@@ -1,0 +1,76 @@
+<style type="text/css">
+
+/* default formatting
+ *
+ * we should be able to combine these as body,td,... but IE 5 isn't
+ * isn't standard compliant... (sigh)
+ */
+body {
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+}
+td {
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+}
+th {
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+	font-style: 	bold;
+	text-align:	left;
+}
+p {
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+}
+ul {
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+}
+a { text-decoration: none }
+.hi {
+	font-weight:	bold;
+	color:		#B82619;
+	background:	#FFFFCC;
+	text-decoration: none;
+}
+.hi2 {
+	font-weight:	bold;
+	color:		#B82619;
+	background:	#CCFFCC;
+	text-decoration: none;
+}
+.indent { margin:	3px; }
+
+/* general styles */	
+.heading { 
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	14pt;
+	font-weight: 	bold;
+	color: 		#B82619;
+}
+.subheading { 
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size: 	10pt;
+	font-weight: 	bold;
+	color: 		#B82619;
+}
+
+.err { 
+	font-weight:	bold;
+	color:		#B82619;
+}
+.smallText{
+	font-size: 10px;
+}
+.notsosmallText {
+	font-size: 11px;
+}
+
+/* unordered list without bullets */
+ul.sans { 
+	list-style-type: none;
+	list-style-postition: inside;
+}
+
+</style>

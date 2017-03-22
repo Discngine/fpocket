@@ -1,0 +1,41 @@
+\hypertarget{structptr__node}{
+\section{ptr\_\-node Struct Reference}
+\label{structptr__node}\index{ptr\_\-node@{ptr\_\-node}}
+}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+\hypertarget{structptr__node_ff3a76cac5d9052a20ddeceed0e9b1cf}{
+struct \hyperlink{structptr__node}{ptr\_\-node} $\ast$ \textbf{next}}
+\label{structptr__node_ff3a76cac5d9052a20ddeceed0e9b1cf}
+
+\item 
+\hypertarget{structptr__node_cd388f7d69011add91232e01caeb6a44}{
+void $\ast$ \textbf{ptr}}
+\label{structptr__node_cd388f7d69011add91232e01caeb6a44}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\#\# ----- GENERAL INFORMATION \#\# \#\# FILE \hyperlink{memhandler_8h_source}{memhandler.h} \#\# AUTHORS P. Schmidtke and V. Le Guilloux \#\# LAST MODIFIED 28-11-08 \#\# \#\# ----- SPECIFICATIONS \#\# \#\# This file implements a memory handler. Whenever you call \#\# my\_\-bloc\_\-malloc function, the allocated pointer will be \#\# stored in a simple chained list. Then, if a malloc fails, \#\# or if you call the my\_\-exit function, all allocated variable \#\# will be freed if not NULL of course. Therefore, a bloc \#\# allocated by my\_\-... functions MUST be freed by the my\_\-free, \#\# or a double free error should appears. \#\# \#\# WARNING \#\# \#\# This is an easy way to handle memory. However, if many bloc \#\# are allocated and removed during the programm, it might be \#\# solwed down as for each free, as we have to look for the bloc \#\# to free in the list, and remove it. \#\# \#\# REMEMBER: if you use my\_\-malloc, you MUST use my\_\-free. If you \#\# free a bloc allocated by my\_\-(..), and if you call free\_\-all at \#\# the end, a double free coprruption will occure. \#\# \#\# ----- MODIFICATIONS HISTORY \#\# \#\# 28-11-08 (v) Comments UTD \#\# 01-04-08 (v) Added comments and creation of history \#\# 01-01-08 (vp) Created (random date...) \#\# \#\# ----- TODO or SUGGESTIONS \#\# COPYRIGHT DISCLAIMER
+
+Vincent Le Guilloux, Peter Schmidtke and Pierre Tuffery, hereby disclaim all copyright interest in the program “fpocket” (which performs protein cavity detection) written by Vincent Le Guilloux and Peter Schmidtke.
+
+Vincent Le Guilloux 28 November 2008 Peter Schmidtke 28 November 2008 Pierre Tuffery 28 November 2008
+
+GNU GPL
+
+This file is part of the fpocket package.
+
+fpocket is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+fpocket is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with fpocket. If not, see $<$\href{http://www.gnu.org/licenses/}{\tt http://www.gnu.org/licenses/}$>$. 
+
+Definition at line 79 of file memhandler.c.
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+/home/peter/ETUDES/fpocket/fpocket\_\-svn/dev/src/memhandler.c\end{CompactItemize}

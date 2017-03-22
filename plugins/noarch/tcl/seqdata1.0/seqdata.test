@@ -1,0 +1,133 @@
+############################################################################
+#cr
+#cr            (C) Copyright 1995-2004 The Board of Trustees of the
+#cr                        University of Illinois
+#cr                         All Rights Reserved
+#cr
+############################################################################
+
+# Unit test for the seqdata.tcl file.
+
+#Load the seqdata package.
+append auto_path " " "." " " ".."
+package require seqdata 1.0
+
+# Set up the test environment
+package require tcltest 2.2
+eval tcltest::configure $argv
+namespace eval ::seqdata::test {
+    namespace import ::tcltest::*
+
+    
+    # Test initialization.
+    test {} {} {expr [llength $::SeqData::seqlist]+[array size ::SeqData::seqs]} {0}
+
+
+    # Test reset.
+    set ::SeqData::seqlist {0 1 2 8};
+    set ::SeqData::seqs(0) test
+    ::SeqData::reset
+    test {} {} {expr [llength $::SeqData::seqlist]+[array size ::SeqData::seqs]} {0}
+    
+    
+    # Test nextSeq.
+    ::SeqData::reset
+    test {} {} {::SeqData::nextSeq} {0}
+    set ::SeqData::seqlist {0};
+    test {} {} {::SeqData::nextSeq} {1}
+    set ::SeqData::seqlist {0 1 2};
+    test {} {} {::SeqData::nextSeq} {3}
+    set ::SeqData::seqlist {0 1 2 8};
+    test {} {} {::SeqData::nextSeq} {9}
+    
+    
+    # Test addSeq.
+    ::SeqData::reset
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q R S T U V} TEST_SEQ
+    test {} {} {llength $::SeqData::seqlist} {1}
+    test {} {} {lindex $::SeqData::seqlist 0} {0}
+    test {} {} {llength $::SeqData::seqs(0,seq)} {22}
+    test {} {} {lindex $::SeqData::seqs(0,seq) 3} {D}
+    test {} {} {set r $::SeqData::seqs(0,name)} {TEST_SEQ}    
+    test {} {} {set r $::SeqData::seqs(0,hasStruct)} {N}    
+    test {} {} {set r $::SeqData::seqs(0,firstResidue)} {1}
+    ::SeqData::addSeq {A B C D E} TEST_SEQ2 Y 17
+    test {} {} {llength $::SeqData::seqlist} {2}
+    test {} {} {lindex $::SeqData::seqlist 1} {1}
+    test {} {} {llength $::SeqData::seqs(1,seq)} {5}
+    test {} {} {lindex $::SeqData::seqs(1,seq) 4} {E}
+    test {} {} {set r $::SeqData::seqs(1,name)} {TEST_SEQ2}
+    test {} {} {set r $::SeqData::seqs(1,hasStruct)} {Y}
+    test {} {} {set r $::SeqData::seqs(1,firstResidue)} {17}
+    
+    
+    # Test deleteSequences
+    ::SeqData::reset
+    ::SeqData::addSeq {A B C D E F G H I J K L M} TEST_SEQ1
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O} TEST_SEQ2
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q} TEST_SEQ3
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q R S} TEST_SEQ4
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q R S T U} TEST_SEQ5
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q R S T U V W} TEST_SEQ6
+    test {} {} {list $::SeqData::seqlist} {{0 1 2 3 4 5}}
+    test {} {} {llength $::SeqData::seqs(0,seq)} {13}
+    test {} {} {llength $::SeqData::seqs(1,seq)} {15}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "1,*"]} {15}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "1,*"]} {15}
+    test {} {} {llength $::SeqData::seqs(2,seq)} {17}
+    test {} {} {llength $::SeqData::seqs(3,seq)} {19}
+    test {} {} {llength $::SeqData::seqs(4,seq)} {21}
+    test {} {} {llength $::SeqData::seqs(5,seq)} {23}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "5,*"]} {23}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "5,*"]} {23}
+    ::SeqData::deleteSequences 1
+    test {} {} {list $::SeqData::seqlist} {{0 2 3 4 5}}
+    test {} {} {llength [array names ::SeqData::seqs "1,*"]} {0}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "1,*"]} {0}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "1,*"]} {0}
+    ::SeqData::deleteSequences {2 3 5}
+    test {} {} {list $::SeqData::seqlist} {{0 4}}
+    test {} {} {llength [array names ::SeqData::seqs "2,*"]} {0}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "2,*"]} {0}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "2,*"]} {0}
+    test {} {} {llength [array names ::SeqData::seqs "3,*"]} {0}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "3,*"]} {0}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "3,*"]} {0}
+    test {} {} {llength [array names ::SeqData::seqs "5,*"]} {0}
+    test {} {} {llength [array names ::SeqData::residueToElementMap "5,*"]} {0}
+    test {} {} {llength [array names ::SeqData::elementToResidueMap "5,*"]} {0}
+
+
+
+    # Test getSeq.
+    ::SeqData::reset
+    ::SeqData::addSeq {} TEST_SEQ1
+    ::SeqData::addSeq {A} TEST_SEQ2
+    ::SeqData::addSeq {A B} TEST_SEQ3
+    ::SeqData::addSeq {A B C D E F G H I J K} TEST_SEQ4
+    ::SeqData::addSeq {A B C D E F G H I J K L M N O P Q R S T U V} TEST_SEQ5
+    ::SeqData::addSeq {A B C D E F G H I J FOR M N O} TEST_SEQ6
+    test {} {} {::SeqData::getSeq 0} {}
+    test {} {} {::SeqData::getSeq 1} {A}
+    test {} {} {::SeqData::getSeq 2} {A B}
+    test {} {} {::SeqData::getSeq 3} {A B C D E F G H I J K}
+    test {} {} {::SeqData::getSeq 4} {A B C D E F G H I J K L M N O P Q R S T U V}
+    test {} {} {::SeqData::getSeq 5} {A B C D E F G H I J FOR M N O}
+    test {} {} {lindex [::SeqData::getSeq 5] 10} {FOR}
+        
+    
+    # Test getName.
+    ::SeqData::reset
+    ::SeqData::addSeq {} ""
+    ::SeqData::addSeq {A} TEST_SEQ2
+    ::SeqData::addSeq {A B} TEST_SEQ3
+    test {} {} {::SeqData::getName 0} {}
+    test {} {} {::SeqData::getName 1} {TEST_SEQ2}
+    test {} {} {::SeqData::getName 2} {TEST_SEQ3}
+    
+    
+    # Clean up the test environment.
+    cleanupTests
+    
+}
+namespace delete ::seqdata::test

@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE>tkcon: Limitations</TITLE>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=2 CELLPADDING=0 BGCOLOR=#000000><TR><TD>
+<!-- start header info -->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
+<TR>
+<TH><FONT SIZE=+3>tkcon: Limitations</FONT></TH>
+<TD align=right>
+<A href="http://tkcon.sourceforge.net/"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=11462&type=1" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- end header info -->
+
+</TD></TR><TR><TD>
+<!-- start main navigation table -->
+<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=2 BGCOLOR=#CCCCCC width=100%>
+<TR>
+<TH><A HREF="index.html">Documentation</A></TH>
+<TH><A HREF="purpose.html">Purpose &amp; Features</A></TH>
+<TH CLASS="hi"><A HREF="limits.html" CLASS="hi">Limitations</A></TH>
+<TH><A HREF="todo.html">To&nbsp;Do</A></TH>
+<TH><A HREF="license.terms">License</A></TH>
+</TR><TR>
+<TH COLSPAN=2><A HREF="plugin.html">Online Demo</A>
+(requires <A HREF="http://tcl.activestate.com/software/plugin/">Tk plugin</A>)</TH>
+<TH COLSPAN=3><A HREF="nontcl.html">Using TkCon with other Tk Languages</A></TH>
+</TR>
+</TABLE>
+<!-- end main navigation table -->
+
+</TD></TR><TR><TD BGCOLOR=#FFFFFF>
+<DIV CLASS="indent">
+<H3>Limitations:</H3>
+
+TkCon requires Tk8.0+.  Since TkCon is meant to behave like the original Tk
+console, it does not separate itself from the environment (it does not use
+send to function, except when attached to foreign Tk interpreters).  This
+means that it can be can be altered or destroyed by any sourced
+applications, and it will respond to an application's 'exit' call by
+exiting (by default, slave consoles will only close themselves instead of
+exiting the entire TkCon environment).  However, the widget tree of TkCon
+is hidden from the user environment.
+ <P>
+
+Since TkCon is built for cross-platform capability, <font color=#FF0000>in
+Unix/Windows environments it does not have tty/shell behavior</font>.  This
+means programs like <CODE>vi</CODE> and <CODE>less</CODE> (those that rely
+on tty/shell settings) will not function appropriately (currently they may
+hang TkCon).  Programs like <CODE>ls</CODE> and <CODE>more</CODE> will just
+spit output to the TkCon screen without any special control or formatting
+(note that <CODE>ls</CODE> has been rewritten for TkCon).  You also do not
+get any job (process) control outside of what tcl normally can provide.
+Currently there is no way to handle <CODE>stdin</CODE> input.
+ <P>
+
+When connecting to non-Tcl Tk interpreters (ie - PerlTk, SchemeTk, ...),
+you must use the syntax of the target environment.  See my
+<A HREF="nontcl.html">notes on using other Tk-embedded languages</A> for
+more info.
+</DIV>
+</TD></TR></TABLE>
+
+<HR NOSHADE SIZE=1>
+<ADDRESS><FONT SIZE=2>&copy;
+<A HREF="mailto:jeff.hobbs@acm.org">Jeffrey Hobbs</A></FONT></ADDRESS>
+
+</BODY>
+</HTML>
