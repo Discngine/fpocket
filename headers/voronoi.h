@@ -167,8 +167,8 @@ void set_barycenter(s_vvertice *v) ;
 int is_in_lst_vert(s_vvertice **lst_vert, int nb_vert, int v_id) ;
 int is_in_lst_vert_p(s_vvertice **lst_vert, int nb_vert, s_vvertice *vert);
 
-void write_pqr_vert(FILE *f, s_vvertice *v) ;
-void write_pdb_vert(FILE *f, s_vvertice *v) ;
+void write_pqr_vert(FILE *f, s_vvertice *v, int i) ;
+void write_pdb_vert(FILE *f, s_vvertice *v, int i) ;
 float get_verts_volume_ptr(s_vvertice **verts, int nvert, int niter,float correct);
 float get_convex_hull_volume(s_vvertice **verts, int nvert);
 

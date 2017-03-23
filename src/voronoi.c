@@ -1090,8 +1090,8 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                     xlig_x=pdb->xlig_x[i_explicit_ligand];
                     xlig_y=pdb->xlig_y[i_explicit_ligand];
                     xlig_z=pdb->xlig_z[i_explicit_ligand];
-                    printf("%f %f %f\n",x,y,z);
-                    printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));
+                    /*printf("%f %f %f\n",x,y,z);
+                    printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));*/
                     if(dist(pdb->xlig_x[i_explicit_ligand], pdb->xlig_y[i_explicit_ligand], pdb->xlig_z[i_explicit_ligand], x,y,z)<(1.6)){
                         /*TODO, debug why not working here*/
                         /*TODO: add manual clustering for explicit pockets*/
@@ -1420,16 +1420,16 @@ void DEPR_write_pdb_vert(FILE *f, s_vvertice *v) {
    ## RETURN:
   
  */
-void write_pdb_vert(FILE *f, s_vvertice *v) {
+void write_pdb_vert(FILE *f, s_vvertice *v, int i) {
 
-    if (v->electrostatic_energy <= -0.05) write_pdb_atom_line(f, "HETATM", v->id, " POL",
+    if (v->electrostatic_energy <= -0.05) write_pdb_atom_line(f, "HETATM", i, " POL",
             ' ', "ACC", "O", v->resid, ' ',
             v->x, v->y, v->z, 0.0, 0.0, 0,
             "Ve", -1, 0.0);
-    else if (v->electrostatic_energy >= 0.05) write_pdb_atom_line(f, "HETATM", v->id, " POL", ' ', "DON", "N",
+    else if (v->electrostatic_energy >= 0.05) write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
             v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
             "Ve", -1, 0.0);
-    else write_pdb_atom_line(f, "HETATM", v->id, "APOL", ' ', "STP", "C",
+    else write_pdb_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
             v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
             "Ve", -1, 0.0);
 }
@@ -1459,16 +1459,16 @@ void write_pdb_vert(FILE *f, s_vvertice *v) {
     else write_pqr_atom_line(f, "ATOM", v->id, " POL", ' ', "STP", " ",
                              v->resid, ' ', v->x, v->y, v->z, 0.0, v->ray) ;
 }*/
-void write_pqr_vert(FILE *f, s_vvertice *v) {
+void write_pqr_vert(FILE *f, s_vvertice *v, int i) {
     
-    if (v->electrostatic_energy >= 0.05) write_pqr_atom_line(f, "ATOM", v->id, "   O", ' ',
+    if (v->electrostatic_energy >= 0.05) write_pqr_atom_line(f, "ATOM", i, "   O", ' ',
             "ACC", " ", v->resid, ' ',
             v->x, v->y, v->z, 0.0, v->ray);
-    else if (v->electrostatic_energy <= -0.05) write_pqr_atom_line(f, "ATOM", v->id, "   N", ' ',
+    else if (v->electrostatic_energy <= -0.05) write_pqr_atom_line(f, "ATOM", i, "   N", ' ',
             "DON", " ", v->resid, ' ',
             v->x, v->y, v->z, 0.0, v->ray);
-    else if(v->type == M_APOLAR_AS) write_pqr_atom_line(f, "ATOM", v->id, "   C", ' ', "STP", " ",
+    else if(v->type == M_APOLAR_AS) write_pqr_atom_line(f, "ATOM", i, "   C", ' ', "STP", " ",
             v->resid, ' ', v->x, v->y, v->z, 0.0, v->ray);
-    else write_pqr_atom_line(f, "ATOM", v->id, "   O", ' ', "STP", " ",
+    else write_pqr_atom_line(f, "ATOM", i, "   O", ' ', "STP", " ",
             v->resid, ' ', v->x, v->y, v->z, 0.0, v->ray);
 }

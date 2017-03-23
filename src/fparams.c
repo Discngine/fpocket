@@ -64,14 +64,14 @@ s_fparams* init_def_fparams(void) {
     par->clustering_method = M_CLUSTERING_METHOD;
     par->flag_do_grid_calculations = 0;
     par->npdb = 0;
-    par->model_number = 0;  /**by default consider we do not have an NMR structure*/
+    par->model_number = 0; /**by default consider we do not have an NMR structure*/
     par->pdb_lst = NULL;
     par->flag_do_asa_and_volume_calculations = 1;
     par->db_run = M_DB_RUN;
     par->min_as_density = M_MIN_AS_DENSITY;
     par->topology_path[0] = 0;
     par->fpocket_running = 0;
-    par->xlig_resnumber-1;
+    par->xlig_resnumber - 1;
     return par;
 }
 
@@ -95,10 +95,12 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
     int status = 0;
     s_fparams *par = init_def_fparams();
     int c = 0;
-    short j=0;
+    short j = 0;
     short xflag;
     opterr = 0;
-    static struct option fplong_options[] ={
+    char *pt;
+    short custom_ligand_i=0;
+    static struct option fplong_options[] = {
         {"file", required_argument, 0, M_PAR_PDB_FILE},
         {"min_alpha_size", required_argument, 0, M_PAR_MIN_ASHAPE_SIZE},
         {"max_alpha_size", required_argument, 0, M_PAR_MAX_ASHAPE_SIZE},
@@ -123,57 +125,70 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         optarg = 0;
         c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:",
                 fplong_options, &option_index);
-//        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
+        //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
         switch (c) {
             case 0:
                 break;
             case M_PAR_CUSTOM_LIGAND:
-//                printf("option -f with value `%s'\n", optarg);
+
+                
+                //                printf("option -f with value `%s'\n", optarg);
                 status++;
                 strcpy(par->custom_ligand, optarg);
-                fprintf(stdout,"%s\n",par->custom_ligand);
-                fflush(stdout);
-                par->xlig_resnumber=1224;
-                par->xlig_resname[0]='P';
-                par->xlig_resname[1]='U';
-                par->xlig_resname[2]='8';
                 
-                par->xlig_chain_code[0]='A';
-                par->xlig_chain_code[1]='\0';
+                pt = strtok( par->custom_ligand, ":");
+                while (pt != NULL) {
+                    custom_ligand_i++;
+                    if(custom_ligand_i==1) par->xlig_resnumber =atoi(pt);
+                    else if(custom_ligand_i==2) strncpy(&(par->xlig_resname), pt, 3);
+                    else if(custom_ligand_i==3) strncpy(&(par->xlig_chain_code),pt,1);
+                    int a = atoi(pt);
+                    //printf("%d\n", a);
+                    pt = strtok(NULL, ":");
+                }
+                
+                /*
+                par->xlig_resnumber = 1224;
+                par->xlig_resname[0] = 'P';
+                par->xlig_resname[1] = 'U';
+                par->xlig_resname[2] = '8';
+
+                par->xlig_chain_code[0] = 'A';
+                par->xlig_chain_code[1] = '\0';*/
                 break;
             case M_PAR_PDB_FILE:
-//                printf("option -f with value `%s'\n", optarg);
+                //                printf("option -f with value `%s'\n", optarg);
                 status++;
                 strcpy(par->pdb_path, optarg);
                 break;
             case M_PAR_MIN_ASHAPE_SIZE:
-//                printf("option -m with value `%s'\n", optarg);
+                //                printf("option -m with value `%s'\n", optarg);
                 par->asph_min_size = (float) atof(optarg);
                 status++;
                 break;
             case M_PAR_MAX_ASHAPE_SIZE:
-//                printf("option -M with value `%s'\n", optarg);
+                //                printf("option -M with value `%s'\n", optarg);
                 par->asph_max_size = (float) atof(optarg);
                 status++;
                 break;
             case M_PAR_MIN_POCK_NB_ASPH:
-//                printf("option -i with value `%s'\n", optarg);
+                //                printf("option -i with value `%s'\n", optarg);
                 par->min_pock_nb_asph = (int) atoi(optarg);
                 status++;
                 break;
             case M_PAR_REFINE_MIN_NAPOL_AS:
-//                printf("option -p with value `%s'\n", optarg);
+                //                printf("option -p with value `%s'\n", optarg);
                 par->refine_min_apolar_asphere_prop = (float) atof(optarg);
                 status++;
                 break;
             case M_PAR_CLUST_MAX_DIST:
-//                printf("option -D with value `%s'\n", optarg);
+                //                printf("option -D with value `%s'\n", optarg);
                 par->clust_max_dist = (float) atof(optarg);
                 status++;
                 break;
             case M_PAR_DISTANCE_MEASURE:
-//                printf("option -e with value %s\n", optarg);
+                //                printf("option -e with value %s\n", optarg);
                 //strcpy(par->distance_measure,optarg);      /*might be problematic*/
                 strncpy(&(par->distance_measure), optarg, 1);
                 status++;
@@ -181,7 +196,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 /*memcpy ( &(par->distance_measure), &optarg, sizeof(optarg) );*/
                 break;
             case M_PAR_CLUSTERING_METHOD:
-//                printf("option -C with value %s\n", optarg);
+                //                printf("option -C with value %s\n", optarg);
                 status++;
                 strncpy(&(par->clustering_method), optarg, 1);
                 /*memcpy ( (void *)par->clustering_method,optarg,sizeof(optarg));*/
@@ -193,17 +208,17 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 par->db_run = 1;
                 break;
             case M_PAR_GRID_CALCULATION:
-//                printf("option -x with value `%s'\n", optarg);
+                //                printf("option -x with value `%s'\n", optarg);
                 par->flag_do_grid_calculations = 1;
                 status++;
                 break;
             case M_PAR_MIN_APOL_NEIGH:
-//                printf("option -A with value %s", optarg);
+                //                printf("option -A with value %s", optarg);
                 par->min_apol_neigh = (float) atof(optarg);
                 status++;
                 break;
             case M_PAR_MC_ITER:
-//                printf("option -v with value %s", optarg);
+                //                printf("option -v with value %s", optarg);
                 par->nb_mcv_iter = (int) atoi(optarg);
                 status++;
                 break;

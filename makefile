@@ -22,7 +22,7 @@ TPOCKET	    = tpocket
 DPOCKET	    = dpocket
 MDPOCKET    = mdpocket
 CHECK	    = pcheck
-MYPROGS	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
+MYPROGS	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) # $(PATH_BIN)$(MDPOCKET)
 
 CC          = gcc
 CCQHULL	    = gcc
@@ -141,8 +141,8 @@ $(PATH_BIN)$(TPOCKET): $(TPOBJ) $(QOBJS)
 $(PATH_BIN)$(DPOCKET): $(DPOBJ) $(QOBJS)
 	$(LINKER) $^ -o $@ $(LFLAGS)
 
-#$(PATH_BIN)$(MDPOCKET): $(MDPOBJ) $(QOBJS)
-#	$(LINKER) $^ -o $@ $(LFLAGS)
+$(PATH_BIN)$(MDPOCKET): $(MDPOBJ) $(QOBJS)
+	$(LINKER) $^ -o $@ $(LFLAGS)
 
 install:
 	mkdir -p $(BINDIR)
