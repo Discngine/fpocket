@@ -1,0 +1,144 @@
+
+global function my_distE [v1, v2]
+	return sqrt add sqr (v1 - v2) ;
+endfunction
+
+global function eval_pdb [pdbname, ligname]
+
+	local pdbcode = token first wordsplit [string pdbname, "."] ;
+
+	// Get coords of the ligand
+	local [cpdb, return_code] = task_call ['ReadPDB', [token pdbname],
+						[errmsg:'ignore']] ;
+	if return_code === 'error' then
+		// Change the case, just in case... :p
+		local updbcode = toupper pdbcode ;
+		if updbcode === pdbcode then
+			updbcode = tolower pdbcode ;
+		endif
+		pdbcode = updbcode ;
+
+
+		pdbname = tok_cat cat [pdbcode, '.pdb'] ;
+		[cpdb, return_code] = task_call ['ReadPDB', [token pdbname],
+						[errmsg:'ignore']] ;
+		if return_code === 'error' then
+		// Well its not here obviously...
+			print 'PDB not found' ;
+			return [pdbcode, ligname, -2, -1.0] ;
+		endif
+	endif
+
+	//local cpdb =  ReadPDB pdbname ;
+	local atoms = Atoms[] ;
+	local latoms = atoms | (app token rName aResidue atoms) == ligname ;
+	if isnull latoms then
+		// Change the case, just in case... :p
+		local uligname = toupper ligname ;
+		if uligname === ligname then
+			uligname = tolower ligname ;
+		endif
+		ligname = uligname ;
+		
+
+		latoms = atoms | (app token rName aResidue atoms) == ligname ;
+		if isnull latoms then
+			print 'Ligand not found...' ;
+			return [pdbcode, ligname, -3, -1.0] ;
+		endif
+		 
+	endif
+	local lcoord = aPos latoms ;
+
+	oDestroy cpdb ;
+
+	// Now load fpocket output
+	local fpname = tok_cat totok cat [ string pdbcode, "_out/",
+					  		   pdbcode, "_out.pdb"] ;
+
+
+	[cpdb, return_code] = task_call ['ReadPDB', [token fpname, [center:1]],
+						[errmsg:'ignore']] ;
+
+	if return_code === 'error' then
+		print 'PDB from fpocket not found' ;
+		return [pdbcode, ligname, -4, -1.0] ;
+	endif
+
+	// Store each pocket detected by fpocket using resname
+	local resids =  uniq aResidue (Atoms[] | (app token rName aResidue Atoms[]) == 'STP') ;
+
+	local r, rok, dok, bary, dists, coords, nb_res, mindists, pockets ;
+	for r in resids loop
+		
+		coords = aPos cat rAtoms r ;
+		bary = (app add coords) / length first coords ;
+		dists = apt my_distE [nest bary, tr lcoord] ;
+	
+		// Store all min distance associated with pocket resname
+		mindists = cat [mindists, min dists] ;
+		pockets = cat [pockets, rNumber r] ;
+
+		print [tok_cat ['STP', totok rNumber r], min dists];
+		if anytrue (dists <= 4.0) then
+			rok = cat [rok, r] ;
+			print ["OK", pdbcode, cat rName rok, 
+				min mget [dists,dists <= 4.0]];
+		endif
+	endloop
+
+	// Return -1 if no pocket was found to be OK
+	if length rok <= 0 then 
+		return [pdbcode, ligname, -1, -1.0] ;
+	endif
+	
+	local ID ;
+
+	pockets = 1+ pockets - min pockets;
+
+	// Do their way to evaluate
+	local minid = x_min mindists ;
+	local minpocket = first get [pockets, minid] ;
+
+	ID = minpocket ; 
+
+	// Do ours
+	local xok = x_id mindists | mindists <= 4.0 ;
+	ID = min get[pockets, xok];
+	minid = cat x_id pockets | pockets == ID ;
+	
+	oDestroy cpdb ;
+
+	return [pdbcode, ligname, ID, cat get[mindists, minid]] ;
+endfunction
+
+global function eval_fp tp_input
+
+	local f = fopenr tp_input ;
+	local L, res, data ;
+	oDestroy Atoms[] ;
+	while not isnull (L = first freadb [f, 'line', 1]) loop
+		local v = app token fieldsplit [string L, "\t"] ;
+		print v ;
+		Close[force:1] ;
+		res = cat [res, nest eval_pdb [v[2], v[3]]] ;
+	endloop
+
+	fclose f ;
+	Close[force:1] ;
+
+	print'\n*************' ;
+	print tok_cat ['-> Results: ', totok length res, ' complexes:\n'] ;
+	print res ;
+	print'\n*************' ;
+	print tok_cat ['-> Stats: ', totok length res, ' valid complexes:\n'] ;
+
+	res = third tr res ;
+	res = res | res > -2 ;
+	print tok_cat [ 'Top 1/3: ', totok (length (res | res == 1)/ length res),
+			'/',
+			totok (length (res | (res >= 1 and res <=3))/length res)];
+
+	oDestroy Atoms[] ;
+
+endfunction

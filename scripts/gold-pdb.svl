@@ -1,0 +1,109 @@
+#svl
+
+//	gold-pdb.svl		Parse gold dataset to suitable format for tpocket
+//
+//  	# 17-jan-2009 Created
+//
+//	DESCRIPTION
+//	TODO
+//	REMARKS
+
+function process_dir ;
+
+// ------------------------------------------------------------------
+// FUNCTION:
+//	parse_gold_dataset
+//
+// SPECIFICATION:
+// 	The gold dataset is a set of protein-ligand complexes under the mol2
+//	format, each of them (protein and ligand) being stored in a separate
+//	mol2 file. This function will convert those data in a format well
+//	suited to tpocket, ie. a set of pdb file and the corresponding input
+//  file for tpocket.
+//
+//	Here, ligand are renamed so multiple resname are merged to a single 
+//  one. Also, ligand named '*' are renamed as LIG.
+//
+//	Output files are writen to a directory gold-pdb assumed te be already
+//	created.
+//
+//  PARAMETERS:
+//	@ dir  : The directory containing all directory for each complexe.
+//
+//  RETURN: 
+// ------------------------------------------------------------------
+//
+global function parse_gold_dataset gdir
+	local f = fopenw 'gold-pdb/gold-t.txt';
+
+	local ldir = flist gdir ;
+	local fp_input = apt process_dir [ldir, f] ;
+	
+	fclose f ;
+
+endfunction
+
+// ------------------------------------------------------------------
+// FUNCTION:
+//	process_dir
+//
+// SPECIFICATION:
+// 	Process a directory containing the protein.mol2 and the 
+//	ligand_reference[#].mol2 files by merging both of them and saving
+//	the resulting system in a pdb file.
+//
+//  PARAMETERS:
+//	@ dir  : The directory path.
+//	@ f    : File number where we write tpocket input file.
+//
+//  RETURN: 
+//	The line writen to the file
+// ------------------------------------------------------------------
+//
+local function process_dir [dir, f]
+
+	// Store pdb id
+	local l = length string dir ;
+	local pdbid = token get [string dir, [l-3, l-2, l-1, l]] ;
+	
+	// Load both protein and ligan	
+	local files = flist dir ;
+	
+	local protname = '/protein.mol2' ;
+	if anytrue apt strpos [nest "protein1", app string files] then
+		protname = '/protein1.mol2' ;
+	endif
+
+	local ligandname = '/ligand_reference.mol2' ;
+	if anytrue apt strpos [nest "ligand_reference1", app string files] then
+		ligandname = '/ligand_reference1.mol2' ;
+	endif
+
+	local protch = ReadTriposMOL2 tok_cat [token dir, protname] ;
+	local ligch  = ReadTriposMOL2 tok_cat [dir, ligandname] ;
+
+	local cres = cat cResidues ligch ;
+	local ligname = rName cres ;
+	
+	local pres = ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLU', 'GLN', 'GLY', 
+				  'HIS', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 
+				  'THR', 'TRP', 'TYR', 'VAL'] ;
+
+	ligname = ligname | not app anytrue apt eqE [nest pres, ligname] ;	
+	ligname = last ligname ;	
+
+	if length ligname == 0 or ligname === '*' then
+		ligname = 'LIG' ;
+	endif
+	apt rSetName[cres, ligname] ;
+
+	local pdbout = tok_cat ['gold-pdb', tok_cat ['/', pdbid, '.pdb']] ;
+	WritePDB pdbout ;
+	Close [force:1] ;
+
+	local line = cat tok_cat [pdbout, '\t', pdbout, '\t', ligname];
+	fwrite [f, '{t:}\n', line] ;
+
+	return line ;
+endfunction
+

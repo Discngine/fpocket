@@ -1,0 +1,166 @@
+
+global function my_distE [v1, v2]
+	return sqrt add sqr (v1 - v2) ;
+endfunction
+
+global function eval_pdb [pdbname, ligname]
+
+	local pdbcode = token first wordsplit [string pdbname, "."] ;
+
+	// Get coords of the ligand
+	local [cpdb, return_code] = task_call ['ReadPDB', [token pdbname],
+						[errmsg:'ignore']] ;
+	if return_code === 'error' then
+		// Change the case, just in case... :p
+		local updbcode = toupper pdbcode ;
+		if updbcode === pdbcode then
+			updbcode = tolower pdbcode ;
+		endif
+		pdbcode = updbcode ;
+
+
+		pdbname = tok_cat cat [pdbcode, '.pdb'] ;
+		[cpdb, return_code] = task_call ['ReadPDB', [token pdbname],
+						[errmsg:'ignore']] ;
+		if return_code === 'error' then
+		// Well its not here obviously...
+			print 'PDB not found' ;
+			return [pdbcode, ligname, -2, -1.0] ;
+		endif
+	endif
+
+	//local cpdb =  ReadPDB pdbname ;
+	local atoms = Atoms[] ;
+	local latoms = atoms | (app token rName aResidue atoms) == ligname ;
+	if isnull latoms then
+		// Change the case, just in case... :p
+		local uligname = toupper ligname ;
+		if uligname === ligname then
+			uligname = tolower ligname ;
+		endif
+		ligname = uligname ;
+		
+
+		latoms = atoms | (app token rName aResidue atoms) == ligname ;
+		if isnull latoms then
+			print 'Ligand not found...' ;
+			return [pdbcode, ligname, -3, -1.0] ;
+		endif
+		 
+	endif
+	local lcoord = aPos latoms ;
+
+	oDestroy cpdb ;
+
+	// Now load pocketpicker output
+	local ppname = token cat [first wordsplit [string pdbname, "."],
+			    	  "-PPicker.pdb"] ;
+
+
+	[cpdb, return_code] = task_call ['ReadPDB', [token ppname, [center:1]],
+						[errmsg:'ignore']] ;
+	if return_code === 'error' then
+		print 'PDB from PP not found' ;
+		return [pdbcode, ligname, -4, -1.0] ;
+	endif
+	//cpdb =  ReadPDB ppname ;
+
+	// Store each pocket detected by PP using resname
+	local resids =  uniq aResidue (Atoms[] |
+			m_findmatch ['PC#', app token rName aResidue Atoms[]]) ;
+	local resnames = cat rName resids ;
+
+	local r, rok, dok, bary, dists, coords, nb_res, mindists, pockets ;
+	local lastrname = '';
+	for r in resids loop
+		nb_res = length (resnames | resnames == cat rName r) ;
+
+		if lastrname===rName r or nb_res === 1 then
+		// If this residue has already been seen, or if this residue
+		// is not splitted (typically the first pocket)
+			if not isnull coords then
+				coords = apt cat [coords, aPos cat rAtoms r] ;
+			else
+				coords = aPos cat rAtoms r ;
+			endif
+
+			bary = (app add coords) / length first coords ;
+			dists = apt my_distE [nest bary, tr lcoord] ;
+	
+			// Store all min distance associated with pocket resname
+			mindists = cat [mindists, min dists] ;
+			pockets = cat [pockets, rName r] ;
+
+			print [cat rName r, min dists];
+			if anytrue (dists <= 4.0) then
+				rok = cat [rok, r] ;
+				dok = cat [dok, min dists] ;
+				print ["OK", pdbcode, cat rName rok, 
+					min mget [dists,dists <= 4.0]];
+			endif
+			coords = [] ;
+
+			lastrname = rName r;
+		else
+		// If it's the first time we test a residue that appears 2 times
+		// save coordinates for the next pocket to have the complete
+		// pocket.
+			coords = cat aPos cat rAtoms r ;
+			lastrname = rName r;
+			continue ;
+		endif
+	endloop
+
+	// Return -1 if no pocket was found to be OK
+	if length rok <= 0 then 
+		return [pdbcode, ligname, -1, -1.0] ;
+	endif
+	
+	local id ;
+
+	// Do their way to evaluate
+	local minid = x_min mindists ;
+	local minpocket = first get [pockets, minid] ;
+
+	id = atoi totok second wordsplit [string minpocket, "C"]; 
+
+	// Do ours
+	//local n = rName rok ;
+	//id = min atoi totok app second apt wordsplit [app string n, "C"] ;
+	
+	oDestroy cpdb ;
+
+	return [pdbcode, ligname, id, min mindists] ;
+endfunction
+
+global function eval_pp tp_input
+
+	local f = fopenr tp_input ;
+	local L, res, data ;
+	oDestroy Atoms[] ;
+	while not isnull (L = first freadb [f, 'line', 1]) loop
+		local v = app token fieldsplit [string L, "\t"] ;
+		print v ;
+		Close[force:1] ;
+		res = cat [res, nest eval_pdb [v[2], v[3]]] ;
+	endloop
+
+	fclose f ;
+	Close[force:1] ;
+
+	print'\n*************' ;
+	print tok_cat ['-> Results: ', totok length res, ' complexes:\n'] ;
+	print res ;
+	res = res | ((cat get [tr res, 3]) >= -1) ;
+	print'\n*************' ;
+	print tok_cat ['-> Stats: ', totok length res, ' valid complexes:\n'] ;
+
+	res = third tr res ;
+	res = res | res > -2 ;
+	print tok_cat [ 'Top 1/3: ', totok (length (res | res == 1)/ length res),
+			'/',
+			totok (length (res | (res >= 1 and res <=3))/length res)];
+
+	oDestroy Atoms[] ;
+
+endfunction

@@ -1,0 +1,61 @@
+#svl
+
+
+function process_dir ;
+function WritePDB ;
+
+global function parse_diverse_set gdir
+	local f = fopenw 'astex-diverse-pdb/astex-diverse-t.txt';
+
+	local ldir = flist gdir ;
+	local fp_input = apt process_dir [ldir, f] ;
+	
+	fclose f ;
+endfunction
+
+local function process_dir [dir, f]
+	oDestroy Atoms[] ;
+
+	local files = flist dir ;
+	if length files == 0 then return ; endif	
+
+	// Store pdb id
+	local l = length string dir ;
+	local pdbid = token get [string dir, [l-3, l-2, l-1, l]] ;	
+	
+	// Load both protein and ligan	
+	
+	local protname = '/protein.mol2' ;
+
+	local ligandname = '/ligand.mol' ;
+
+	local protch = ReadTriposMOL2 tok_cat [token dir, protname] ;
+	local ligch  = ReadTriposMOL2 tok_cat [dir, ligandname] ;
+
+	local cres = cat cResidues ligch ;
+	local ligname = rName cres ;
+	
+	local pres = ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLU', 'GLN', 'GLY', 
+				  'HIS', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 
+				  'THR', 'TRP', 'TYR', 'VAL'] ;
+
+	ligname = ligname | not app anytrue apt eqE [nest pres, ligname] ;	
+	ligname = last ligname ;	
+
+	if length ligname == 0 or ligname === '*' then
+		ligname = 'LIG' ;
+	endif
+	apt rSetName[cres, ligname] ;
+
+	local pdbout = tok_cat ['astex-diverse-pdb', tok_cat ['/', pdbid, '.pdb']] ;
+
+	WritePDB pdbout ;
+
+	Close [force:1] ;
+
+	local line = cat tok_cat [pdbout, '\t', pdbout, '\t', ligname];
+	fwrite [f, '{t:}\n', line] ;
+
+	return line ;
+endfunction
+

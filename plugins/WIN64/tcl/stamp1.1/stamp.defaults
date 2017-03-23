@@ -1,0 +1,83 @@
+PAIRWISE 	TRUE	#  Perform pairwise calculations
+TREEWISE 	TRUE	#  Perform treewise calculations
+SCAN 		 FALSE	#  Scan
+SCANMODE	  1
+MAXPITER 	  5	#  Maximum number of iterations to be used during pairwise comparison
+MAXTITER 	  5	#  Maximum number of iterations to be used during treewise comparison
+MAXSITER	  5	#  Maximum number of iterations to be used during scanning (same as MAXPITER)
+NPASS 		  1	#  NPASS=2 ==> do two fits; NPASS=1 ==> do one fit
+DSSP		FALSE	#  Do not read from DSSP files
+first_CUTOFF  	1.0	#  Cutoff to be used when two fits are to be performed
+second_CUTOFF   4.5	#  Second cutoff to be used when two fits are to be performed
+first_E1       20.0	#  First Rossmann and Argos parameter to be used in first fit
+first_E2 	3.8	#  First Rossmann and Argos parameter to be used in second fit
+first_THRESH    2.0     #  If the first comparison does not have an Sc value >= this, then don't continue
+second_E1 	3.8	#  Second Rossmann and Argos parameter to be used in first fit
+second_E2 	3.8	#  Second Rossmann and Argos parameter to be used in second fit
+first_PAIRPEN 	0.0	#  Gap penalty
+second_PAIRPEN  0.0	#
+first_TREEPEN  	0.0	#  Treewise gap penalty (see paper)
+second_TREEPEN  0.0	#
+PAIROUTPUT	FALSE	#  If true, output all possible pairwise alignments
+ALLPAIRS	FALSE	#  If true, write an all pairs output file (to parms.transprefix), and don't store all coordinates
+SCORETOL 	1.0	#  Tolerance for convergance on score (in percent)
+CLUSTMETHOD 	  1	#  1 => cluster on Sc; 0 => cluster on RMS deviation
+PAIRPLOT 	 FALSE	#  Plot a dot plot of the pairwise comparisons
+TREEPLOT 	 FALSE	#  Plot a dot plot of the treewise comparisons
+DISPALL 	 FALSE	#  
+ADD 		0.0	#  Value added to probability matrix
+NSD 		0.1	#  Statistics to be used for calculating Pij' and Sc (see paper)
+NMEAN 	       0.02	#
+STATS 	 	  0	#
+NA 	    -0.9497	#
+NB    	     0.6859	#
+NASD 	    -0.4743	#
+NBSD        0.01522	#
+SLOWSCAN    TRUE	#  The new method of scanning is under development
+SCANCUT	        2.0	#  SCANMODE == 1; only output transformations if Sc > SCANCUT
+SCANSLIDE 	 10	#  The fraction of the query sequence length to move along the sequence being scanned
+SCANALIGN	 FALSE	#  Output the alignments after each comparison
+SCANALLALIGN     FALSE	#  Output alignments after each interation
+SECSCREEN       TRUE    #  Ignore comparisons during scanning when the total difference in 
+SECSCREENMAX   30.0	#	  secondary structure content is > SECSCREENMAX (in percent)
+SCANTRUNC	TRUE	#  If 1, then only compare the query to a portion of the database structure (about the same size)
+SCANTRUNCFACTOR 1.5     #  Only compare the query to sequences of 1.5*query sequence length (or less)
+THRESH 		0.5	#
+BOOLEAN 	  0	#
+second_BOOLCUT 	0.7	#
+first_BOOLCUT   0.4	#
+PAIRALIGN 	 FALSE	#
+PAIRALLALIGN     FALSE	#
+TREEALIGN 	 FALSE  #
+TREEALLALIGN     FALSE	#
+PRECISION      1000	#
+MAX_SEQ_LEN    10000	#
+ROUGHFIT 	 FALSE	#
+ROUGHOUT	 FALSE
+ROUGHOUTFILE     stamp_rough.trans
+SECTYPE 		  1	# Where are listfile secondary structures to come from?
+SCANSEC	 	  1     # Where are database secondary structures to come from?
+CLUST 		  0	#
+COLUMNS		 60	#
+SW		  0  	#
+CCFACTOR	  5     #
+CCADD		TRUE	#
+CO		FALSE
+MINFIT		 10     #  Minimum length of path (ie. sub-alignment) to be considered (default is 1/2 the query length for scans)
+MIN_FRAC       0.50 	#  Minimum fractional length allowed for a database sequence (ie. if the sequence is less than MIN_FRAC * query length, then skip the comparison 
+SCORERISE	 FALSE  #  If true, the comparisons are ceased if the Sc drops after an iteration
+SKIPAHEAD 	 TRUE	#  Scanning only.  If true, then skip ahead to the end of the last output transformation (SCANMODE=1 only)
+SCANSCORE	  6     #  See doc/stamp.doc
+OPD          	TRUE  #
+verbose		FALSE
+listfile	domain.list		#
+treefile  	stamp.tree		#
+ordfile  	stamp.ord		#
+plotfile  	stamp.ps		#
+matfile  	stamp.mat		#
+transprefix  	stamp_trans		#
+database  	dbase.dom		#
+scanfile  	stamp.scan		#
+logfile   	silent			#
+secfile  	stamp.sec		#
+roughalign	roughfit.align 		#
