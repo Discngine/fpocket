@@ -1092,7 +1092,7 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                     xlig_z=pdb->xlig_z[i_explicit_ligand];
                     /*printf("%f %f %f\n",x,y,z);
                     printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));*/
-                    if(dist(pdb->xlig_x[i_explicit_ligand], pdb->xlig_y[i_explicit_ligand], pdb->xlig_z[i_explicit_ligand], x,y,z)<(1.6)){
+                    if(dist(pdb->xlig_x[i_explicit_ligand], pdb->xlig_y[i_explicit_ligand], pdb->xlig_z[i_explicit_ligand], x,y,z)<=(distVatom1)){
                         /*TODO, debug why not working here*/
                         /*TODO: add manual clustering for explicit pockets*/
                         return distVatom1;
