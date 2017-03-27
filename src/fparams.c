@@ -120,8 +120,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
         {0, 0, 0, 0}
     };
-    fprintf(stdout,"xlig_resnumber %d\n",par->xlig_resnumber);
-    fflush(stdout);
+
     while (c != -1) {
 
         /* getopt_long stores the option index here. */
@@ -236,8 +235,6 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 break;
         }
     }
-     fprintf(stdout,"xlig_resnumber %d\n",par->xlig_resnumber);
-    fflush(stdout);
     return (par);
     /*        if(status){
                 return(par);
