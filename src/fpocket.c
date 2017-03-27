@@ -178,9 +178,7 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
         fflush(DEBUG_STREAM);
     }
     
-    if (params->xlig_resnumber == -1) {
-        apply_clustering(pockets, params);
-    }
+    apply_clustering(pockets, params);
     if (DEBUG) {
         fprintf(DEBUG_STREAM, "applied clustering to pockets");
         print_number_of_objects_in_memory();
