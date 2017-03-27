@@ -94,6 +94,8 @@ s_fparams* init_def_fparams(void) {
 s_fparams* get_fpocket_args(int nargs, char **args) {
     int status = 0;
     s_fparams *par = init_def_fparams();
+    fprintf(stdout,"xlig_resnumber %d\n",par->xlig_resnumber);
+    fflush(stdout);
     int c = 0;
     short j = 0;
     short xflag;
