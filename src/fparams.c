@@ -15,7 +15,7 @@
 ##	for the fpocket programm.
 ##
 ## MODIFICATIONS HISTORY
- * (p) introducing explicit pocket detection
+##   26-03-17           (p)  introducing explicit pocket detection
 ##   04-04-16           (p)  Introduced NMR model numbers
 ##   28-08-14           (p)  Introduced novel argument handling + exposure
 ##   28-10-12           (p)  Exposing novel arguments to the user for new clustering

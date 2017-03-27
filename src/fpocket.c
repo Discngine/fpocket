@@ -133,36 +133,39 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
     }
 
     if (DEBUG) print_number_of_objects_in_memory();
-    clusterlib_vertices = prepare_vertices_for_cluster_lib(lvert, params->clustering_method, params->distance_measure);
-    if (DEBUG) fprintf(stdout, "Clustering\n");
-//    fprintf(stdosut,"distance measure : %c\n",clusterlib_vertices->method);
+    
+    if(params->xlig_resnumber==-1){
+    
+        clusterlib_vertices = prepare_vertices_for_cluster_lib(lvert, params->clustering_method, params->distance_measure);
+        if (DEBUG) fprintf(stdout, "Clustering\n");
+    //    fprintf(stdosut,"distance measure : %c\n",clusterlib_vertices->method);
 
-    if (DEBUG) print_number_of_objects_in_memory();
+        if (DEBUG) print_number_of_objects_in_memory();
 
-    cluster_tree = treecluster(lvert->nvert,
-            3,
-            clusterlib_vertices->pos,
-            clusterlib_vertices->mask,
-            clusterlib_vertices->weight,
-            clusterlib_vertices->transpose,
-            clusterlib_vertices->dist,
-            clusterlib_vertices->method,
-            NULL);
-    if (DEBUG) print_number_of_objects_in_memory();
-    if (cluster_tree == NULL) {
-        fprintf(stderr, "Error in creating clustering tree, return NULL pointer...breaking up");
-        return (0);
+        cluster_tree = treecluster(lvert->nvert,
+                3,
+                clusterlib_vertices->pos,
+                clusterlib_vertices->mask,
+                clusterlib_vertices->weight,
+                clusterlib_vertices->transpose,
+                clusterlib_vertices->dist,
+                clusterlib_vertices->method,
+                NULL);
+        if (DEBUG) print_number_of_objects_in_memory();
+        if (cluster_tree == NULL) {
+            fprintf(stderr, "Error in creating clustering tree, return NULL pointer...breaking up");
+            return (0);
+        }
+        int **clusterIds = cuttree_distance(lvert->nvert, cluster_tree, params->clust_max_dist);
+        //int i;
+        if (DEBUG) print_number_of_objects_in_memory();
+        transferClustersToVertices(clusterIds, lvert);
+
+        if (DEBUG) fprintf(DEBUG_STREAM, "freeing clusterlib vertices now\n");
+        free_cluster_lib_vertices(clusterlib_vertices, lvert->nvert);
+        free_cluster_tree(cluster_tree);
+        free_cluster_ids(clusterIds, lvert->nvert);
     }
-    int **clusterIds = cuttree_distance(lvert->nvert, cluster_tree, params->clust_max_dist);
-    int i;
-    if (DEBUG) print_number_of_objects_in_memory();
-    transferClustersToVertices(clusterIds, lvert);
-
-    if (DEBUG) fprintf(DEBUG_STREAM, "freeing clusterlib vertices now\n");
-    free_cluster_lib_vertices(clusterlib_vertices, lvert->nvert);
-    free_cluster_tree(cluster_tree);
-    free_cluster_ids(clusterIds, lvert->nvert);
-
     if (lvert == NULL) {
         fprintf(stderr, "! Vertice calculation failed!\n");
         return NULL;
@@ -217,7 +220,7 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
         if (DEBUG) print_number_of_objects_in_memory();
         reIndexPockets(pockets);
         if (DEBUG) print_number_of_objects_in_memory();
-        int i;
+//        int i;
         
         if (params->fpocket_running && params->flag_do_grid_calculations && params->topology_path) calculate_pocket_energy_grids(pockets, params,pdb);
 //params->fpocket_running && 
