@@ -71,7 +71,7 @@ s_fparams* init_def_fparams(void) {
     par->min_as_density = M_MIN_AS_DENSITY;
     par->topology_path[0] = 0;
     par->fpocket_running = 0;
-    par->xlig_resnumber - 1;
+    par->xlig_resnumber = - 1;
     return par;
 }
 
