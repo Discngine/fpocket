@@ -92,7 +92,7 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
 
     /* Calculate and read voronoi vertices comming from qhull */
 
-//    fprintf(stdout, "========= fpocket algorithm begins =========\n");
+    //    fprintf(stdout, "========= fpocket algorithm begins =========\n");
 
     if (DEBUG) {
         fprintf(stdout, "> Calculating vertices ...\n");
@@ -106,11 +106,11 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
             params->asph_max_size, 0.0, 0.0, 0.0);
 
     /*if(lvert->nvert>8000){*/
-     /*   params->asph_max_size=7.6;
-        params->asph_min_size=3.2;
-        params->clust_max_dist=1.8;
-        params->clustering_method='s';
-        params->min_pock_nb_asph=20;*/
+    /*   params->asph_max_size=7.6;
+       params->asph_min_size=3.2;
+       params->clust_max_dist=1.8;
+       params->clustering_method='s';
+       params->min_pock_nb_asph=20;*/
     /*}else {
         params->asph_max_size=M_MAX_ASHAPE_SIZE_DEFAULT;
         params->asph_min_size=M_MIN_ASHAPE_SIZE_DEFAULT;
@@ -118,10 +118,10 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
         params->clustering_method='a';
         params->min_pock_nb_asph=M_MIN_POCK_NB_ASPH;
     }*/
-    
-   
+
+
     if (DEBUG) {
-         fprintf(stdout,"distance measure : %c\n",params->clustering_method);
+        fprintf(stdout, "distance measure : %c\n", params->clustering_method);
         fprintf(stdout, "%d vertices\n", lvert->nvert);
         fprintf(stdout, "needing %.5f s to read the vertices", (double) (clock() - b) / CLOCKS_PER_SEC);
     }
@@ -133,12 +133,10 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
     }
 
     if (DEBUG) print_number_of_objects_in_memory();
-
-    if(params->xlig_resnumber==-1){
-    
+    if (params->xlig_resnumber == -1) {
         clusterlib_vertices = prepare_vertices_for_cluster_lib(lvert, params->clustering_method, params->distance_measure);
         if (DEBUG) fprintf(stdout, "Clustering\n");
-    //    fprintf(stdosut,"distance measure : %c\n",clusterlib_vertices->method);
+        //    fprintf(stdosut,"distance measure : %c\n",clusterlib_vertices->method);
 
         if (DEBUG) print_number_of_objects_in_memory();
 
@@ -179,8 +177,10 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
         fprintf(DEBUG_STREAM, "\tpocket : %p :\n\tpocket vertice list : %p\n", pockets, pockets->vertices);
         fflush(DEBUG_STREAM);
     }
-
-    apply_clustering(pockets, params);
+    
+    if (params->xlig_resnumber == -1) {
+        apply_clustering(pockets, params);
+    }
     if (DEBUG) {
         fprintf(DEBUG_STREAM, "applied clustering to pockets");
         print_number_of_objects_in_memory();
@@ -189,7 +189,7 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
     if (pockets) {
         reIndexPockets(pockets);
 
-//        fprintf(stdout, "> Calculating descriptors and score...\n");
+        //        fprintf(stdout, "> Calculating descriptors and score...\n");
 
         if (DEBUG)print_number_of_objects_in_memory();
         set_pockets_descriptors(pockets, pdb, params, pdb_w_lig);
@@ -220,10 +220,10 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
         if (DEBUG) print_number_of_objects_in_memory();
         reIndexPockets(pockets);
         if (DEBUG) print_number_of_objects_in_memory();
-//        int i;
-        
-        if (params->fpocket_running && params->flag_do_grid_calculations && params->topology_path) calculate_pocket_energy_grids(pockets, params,pdb);
-//params->fpocket_running && 
+        //        int i;
+
+        if (params->fpocket_running && params->flag_do_grid_calculations && params->topology_path) calculate_pocket_energy_grids(pockets, params, pdb);
+        //params->fpocket_running && 
 
     }
 
