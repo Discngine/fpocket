@@ -133,7 +133,8 @@ c_lst_pockets* search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig) {
     }
 
     if (DEBUG) print_number_of_objects_in_memory();
-    
+    fprintf(stdout,"xlig_resnumber %d\n",params->xlig_resnumber);
+    fflush(stdout);
     if(params->xlig_resnumber==-1){
     
         clusterlib_vertices = prepare_vertices_for_cluster_lib(lvert, params->clustering_method, params->distance_measure);
