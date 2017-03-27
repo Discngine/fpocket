@@ -620,7 +620,9 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
                     else v->type = M_POLAR_AS;
 
                     v->qhullId = i; /* Set index in the qhull file */
-                    v->resid = -1; /* Initialize internal index */
+                    if(pdb->n_xlig_atoms>0) v->resid=1;
+                    
+                    else v->resid = -1; /* Initialize internal index */
 
 //                    printf("intial resid : %d \n",lvvert->pvertices[vInMem-1]->resid);
                     set_barycenter(v); /* Set barycentre */
