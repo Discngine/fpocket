@@ -232,6 +232,8 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 break;
         }
     }
+     fprintf(stdout,"xlig_resnumber %d\n",par->xlig_resnumber);
+    fflush(stdout);
     return (par);
     /*        if(status){
                 return(par);
