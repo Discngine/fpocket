@@ -133,7 +133,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
             case M_PAR_CUSTOM_LIGAND:
 
                 
-                //                printf("option -f with value `%s'\n", optarg);
+                printf("option -r with value `%s'\n", optarg);
                 status++;
                 strcpy(par->custom_ligand, optarg);
                 
