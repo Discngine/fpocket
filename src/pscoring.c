@@ -351,7 +351,7 @@ float drug_score_pocket(s_desc *pdesc) {
     float b2=0.3696134;
     float b3=-0.04671833;
     float score = 1.0 / (1.0 + exp(-(b0 + b1 * (float) pdesc->mean_loc_hyd_dens_norm + b2 * (float) pdesc->as_max_dst+b3*(float)pdesc->surf_pol_vdw22)));
-    fprintf(stdout,"%.3f\t%.3f\t%.3f\n",(float) pdesc->mean_loc_hyd_dens_norm,(float) pdesc->as_max_dst,(float)pdesc->surf_pol_vdw22);
+    
     
     return score;
 

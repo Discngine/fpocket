@@ -788,12 +788,19 @@ void set_normalized_descriptors(c_lst_pockets *pockets)
                     cur = cur->next ;
             }
         }
-        else {
+        else {  /*else not settable as only one pocket has been found*/
+            /*extension using observed distributions on PDB wide pocket analysis
+             from Discngine 3decision(R)
+             select AVG(MIN(MEAN_LOCAL_HYD_DENSITY))
+                from structure_cavity
+                where number_alpha_spheres>30
+                group by cavity_id
+             */
             dcur = cur->pocket->pdesc ;
             dcur->polarity_score_norm=0.0;
             dcur->as_density_norm=0.0;
             dcur->as_max_dst_norm=0.0;
-            dcur->mean_loc_hyd_dens_norm=0.0;
+            dcur->mean_loc_hyd_dens_norm=(dcur->mean_loc_hyd_dens - 8.23) / (24.20 - 8.23);
             dcur->flex=0.0;
             dcur->nas_norm=0.0;
             dcur->prop_asapol_norm=0.0;
