@@ -86,7 +86,7 @@ void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_p
 
 void write_pocket_pqr_DB(const char out[], s_pocket *pocket) {
     node_vertice *vcur = NULL;
-    int i=pocket->rank*1000;
+    int i=0;
     FILE *f = fopen(out, "w");
     if (f && pocket) {
         vcur = pocket->v_lst->first;
@@ -216,7 +216,7 @@ void write_pockets_single_pdb(const char out[], s_pdb *pdb, c_lst_pockets *pocke
 
             while (pockets->current) {
                 pockets->current->pocket->v_lst->current = pockets->current->pocket->v_lst->first;
-
+                i=0;
                 while (pockets->current->pocket->v_lst->current) {
                     i++;
                     write_pdb_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
@@ -422,7 +422,7 @@ void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
  */
 void write_pocket_pqr(const char out[], s_pocket *pocket) {
     node_vertice *vcur = NULL;
-    int i=pocket->rank*1000;
+    int i=0;
     FILE *f = fopen(out, "w");
     if (f && pocket) {
         fprintf(f, "HEADER\n");
