@@ -1054,9 +1054,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                     rpdb_extract_atm_resname(pdb_line, resb);
                     resnbuf=rpdb_extract_atm_resumber(pdb_line);
 
-                    if (pdb->n_xlig_atoms) {
+                    //if (pdb->n_xlig_atoms) {
                         if (pdb_line[16] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {                    
-                        if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
+                        //if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
                             
                             rpdb_extract_atom_coordinates(pdb_line,(pdb->xlig_x+i_explicit_ligand_atom),(pdb->xlig_y+i_explicit_ligand_atom),(pdb->xlig_z+i_explicit_ligand_atom));
                             
@@ -1064,7 +1064,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         }
                             
                         
-                            fflush(stdout);
+                            //fflush(stdout);
                     /* Check if the desired ligand is in HETATM entry */
                     if (ligan && strlen(ligan) > 1 && keep_lig && ligan[0] == resb[0] && ligan[1] == resb[1]
                             && ligan[2] == resb[2]) {
