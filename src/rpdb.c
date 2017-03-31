@@ -806,6 +806,7 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
 //                        if (resb[0] == par->xlig_resname[0] && resb[1] == par->xlig_resname[1] && resb[2] == par->xlig_resname[2]) {
                         if (buf[16] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2]) {
                             pdb->n_xlig_atoms++;
+                            fprintf(stdout,"%d\n",pdb->n_xlig_atoms);
                         }
                     }
                 }
