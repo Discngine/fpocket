@@ -498,6 +498,40 @@ void rpdb_extract_atm_resname(char *pdb_line, char *res_name) {
 
 
 
+/**
+   ## FUNCTION:
+        rpdb_extract_atm_resumber
+
+   ## SPECIFICATION:
+        Extract the residu number for an ATOM or HETATM pdb record. To remember:
+
+        COLUMNS      DATA TYPE        FIELD      DEFINITION
+
+        23 - 26      Residue number     resSeq    Residue number.
+
+        The memory to store the name has to be provided by the user.
+
+   ## PARAMETRES:
+        @ char *pdb_line	: The PDB line containings info
+        @ char *res_name	: Pointer to residue name
+
+   ## RETURN:
+        void
+
+ */
+int rpdb_extract_atm_resumber(char *pdb_line){
+     char *prt,
+            ctmp;
+     int res_id;
+     /* Residue id number */
+    prt = pdb_line + 22;
+    ctmp = pdb_line[26];
+    pdb_line[26] = '\0';
+    res_id = atoi(prt);
+    pdb_line[26] = ctmp;
+    return(res_id);
+}
+
 
 
 /**
@@ -911,6 +945,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
     ihetatm = 0;
     iatm_lig = 0;
     ligfound = 0;
+    int resnbuf=0;
 
     float tmpx, tmpy, tmpz;
     /* Loop over the pdb file */
@@ -927,14 +962,13 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                 if ((pdb_line[16] == ' ' || pdb_line[16] == 'A') && tmpx < 9990 && tmpy < 9990 && tmpz < 9990) { /*if within first occurence*/
                     /* Store ATOM entry */
                     rpdb_extract_atm_resname(pdb_line, resb);
+                    resnbuf=rpdb_extract_atm_resumber(pdb_line);
 
                     if (pdb->n_xlig_atoms) {
-                    
-                        if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
+                        if (pdb_line[16] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
                             rpdb_extract_atom_coordinates(pdb_line,(pdb->xlig_x+i_explicit_ligand_atom),(pdb->xlig_y+i_explicit_ligand_atom),(pdb->xlig_z+i_explicit_ligand_atom));
                             i_explicit_ligand_atom++;
                         }
-                        
                     }
 
                     /* Check if the desired ligand is in such an entry */
