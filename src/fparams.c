@@ -149,6 +149,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     pt = strtok(NULL, ":");
                 }
                 
+                printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);
                 /*
                 par->xlig_resnumber = 1224;
                 par->xlig_resname[0] = 'P';
