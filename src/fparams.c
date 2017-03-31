@@ -145,7 +145,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     else if(custom_ligand_i==2) strncpy(&(par->xlig_resname), pt, 3);
                     else if(custom_ligand_i==3) strncpy(&(par->xlig_chain_code),pt,1);
                     int a = atoi(pt);
-                    //printf("%d\n", a);
+                    printf("%d\n", a);
                     pt = strtok(NULL, ":");
                 }
                 
