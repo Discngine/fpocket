@@ -127,7 +127,7 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 # RULES FOR EXECUTABLES
 #-----------------------------------------------------------
 
-all: $(MYPROGS) $(PATH_BIN)$(CHECK)
+all: $(MYPROGS) # $(PATH_BIN)$(CHECK)
 		
 $(PATH_BIN)$(CHECK): $(CHOBJ) $(QOBJS)
 	$(LINKER) $^ -o $@ $(LFLAGS)
