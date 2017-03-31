@@ -750,6 +750,7 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
             natm_lig = 0;
     int i;
     float x, y, z;
+    int resnbuf;
     int model_flag = 0; /*by default we consider that no particular model is read*/
     int model_read = 0; /*flag tracking the status if a current line is read or not*/
     int cur_model_count = 0; /*when reading NMR models, then count on which model you currently are*/
@@ -780,7 +781,7 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                 /* Check if this is the first occurence of this atom*/
                 rpdb_extract_atm_resname(buf, resb);
                 rpdb_extract_atom_coordinates(buf, &x, &y, &z); /*extract and double check coordinates to avoid issues with wrong coordinates*/
-
+                resnbuf=rpdb_extract_atm_resumber(buf);
                 if ((buf[16] == ' ' || buf[16] == 'A') && x < 9990 && y < 9990 && z < 9990) {
                     /* Atom entry: check if there is a ligand in there (just in case)... */
                     if (ligan && strlen(ligan) > 1 && ligan[0] == resb[0] && ligan[1] == resb[1]
@@ -800,7 +801,8 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                     }
                     /*handle explicit ligand input here*/
                     if (par->xlig_resnumber>-1) {
-                        if (resb[0] == par->xlig_resname[0] && resb[1] == par->xlig_resname[1] && resb[2] == par->xlig_resname[2]) {
+//                        if (resb[0] == par->xlig_resname[0] && resb[1] == par->xlig_resname[1] && resb[2] == par->xlig_resname[2]) {
+                        if (buf[16] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
                             pdb->n_xlig_atoms++;
                         }
                     }
@@ -838,7 +840,7 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
 
                     /*handle explicit ligand input here*/
                     if (par->xlig_resnumber>-1) {
-                        if (resb[0] == par->xlig_resname[0] && resb[1] == par->xlig_resname[1] && resb[2] == par->xlig_resname[2]) {
+                        if (buf[16] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
                             pdb->n_xlig_atoms++;
                         }
                     }
