@@ -842,6 +842,8 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                     if (par->xlig_resnumber>-1) {
                         if (buf[16] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2]) {
                             pdb->n_xlig_atoms++;
+                            fprintf(stdout,"%d\n",pdb->n_xlig_atoms);
+                            fflush(stdout);
                         }
                     }
                 }
@@ -1056,7 +1058,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                     rpdb_extract_atm_resname(pdb_line, resb);
                     resnbuf=rpdb_extract_atm_resumber(pdb_line);
 
-                    //if (pdb->n_xlig_atoms) {
+                    if (pdb->n_xlig_atoms) {
                         if (pdb_line[16] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {                    
                         //if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
                             
@@ -1065,7 +1067,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             i_explicit_ligand_atom++;
                         }
                             
-                        
+                    }    
                             //fflush(stdout);
                     /* Check if the desired ligand is in HETATM entry */
                     if (ligan && strlen(ligan) > 1 && keep_lig && ligan[0] == resb[0] && ligan[1] == resb[1]
