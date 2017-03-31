@@ -148,9 +148,10 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     printf("%d\n", a);*/
                     pt = strtok(NULL, ":");
                 }
-                
-                /*printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);*/
                 /*
+                printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);
+                fprintf(stdout,"%d\n",par->xlig_resnumber);
+                
                 par->xlig_resnumber = 1224;
                 par->xlig_resname[0] = 'P';
                 par->xlig_resname[1] = 'U';
