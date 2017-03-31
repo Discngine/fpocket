@@ -144,12 +144,12 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     if(custom_ligand_i==1) par->xlig_resnumber =atoi(pt);
                     else if(custom_ligand_i==2) strncpy(&(par->xlig_resname), pt, 3);
                     else if(custom_ligand_i==3) strncpy(&(par->xlig_chain_code),pt,1);
-                    int a = atoi(pt);
-                    printf("%d\n", a);
+                    /*int a = atoi(pt);
+                    printf("%d\n", a);*/
                     pt = strtok(NULL, ":");
                 }
                 
-                printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);
+                /*printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);*/
                 /*
                 par->xlig_resnumber = 1224;
                 par->xlig_resname[0] = 'P';
