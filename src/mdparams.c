@@ -157,12 +157,16 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
         strcpy(args_copy[i], args[i]);
     }
 
+
     s_mdparams *par = init_def_mdparams();
     //    for (i = 0; i < nargs; i++) printf(" %s ", args[i]);
 
+
     par->fpar = init_def_fparams();
+
     //    for (i = 0; i < nargs; i++) printf(" %s ", args_copy[i]);
     par->fpar = get_fpocket_args(nargs, args_copy);
+
 
     int c = 0;
     optind = 0;
@@ -342,7 +346,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
                 print_mdpocket_usage(stdout);
             }
         } else if ((!traj_file_defined || !traj_format_defined || !par->fpar->pdb_path)) {
-            fprintf(stdout, "! No input file given... Try again :).\n");
+            fprintf(stdout, "! No input file given... Try again :).%d %d %s\n",traj_file_defined,traj_format_defined,par->fpar->pdb_path);
             free_mdparams(par);
             par = NULL;
             print_mdpocket_usage(stdout);
