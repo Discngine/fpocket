@@ -98,7 +98,7 @@ c_lst_pockets* mdprocess_pdb(s_pdb *pdb, s_mdparams *mdparams, int snnumber);
 
 void mdpocket_characterize(s_mdparams *par) ;
 s_pocket* extract_wanted_vertices(c_lst_pockets *pockets,s_pdb *pdb);
-s_pdb *open_pdb_file(char *pdbname);
+s_pdb *open_pdb_file(char *pdbname,s_mdparams *mdparams);
 void write_md_descriptors(FILE *f, s_pocket *p, int i);
 int *get_wanted_atom_ids(s_pdb *prot,s_pdb *pocket, int *n);
 

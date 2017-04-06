@@ -22,7 +22,7 @@ TPOCKET	    = tpocket
 DPOCKET	    = dpocket
 MDPOCKET    = mdpocket
 CHECK	    = pcheck
-MYPROGS	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) # $(PATH_BIN)$(MDPOCKET)
+MYPROGS	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
 
 CC          = gcc
 CCQHULL	    = gcc

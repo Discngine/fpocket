@@ -19,7 +19,7 @@
 ##      function.
 ##      Once the analysis of the first run is done, the user can specify a zone
 ##      where he wants to measure some cavity descriptors. This task is performed
-##      in a second run, but this time of the mdpocket_characterize function.
+##      in a second run, but this time of the mdpocket_open_pdb_file function.
 ##      Both runs do not yield at all the same results and do not serve the same
 ##      purpose.
 ##      In order to get more informed about the mdpocket methodology, please refer
@@ -152,7 +152,7 @@ void mdpocket_detect(s_mdparams *par) {
                     b = clock(); /*init starting time for this snapshot*/
                     fprintf(stdout, "<mdpocket>s %d/%d - %s:",
                             i + 1, par->nfiles, par->fsnapshot[i]);
-                    cpdb = open_pdb_file(par->fsnapshot[i]); /*open the snapshot*/
+                    cpdb = open_pdb_file(par->fsnapshot[i],par); /*open the snapshot*/
                     //printf("\navant %d\n",get_number_of_objects_in_memory());
 
                     pockets = mdprocess_pdb(cpdb, par, i + 1); /*perform pocket detection*/
@@ -187,12 +187,12 @@ void mdpocket_detect(s_mdparams *par) {
 
                 b = clock(); /*init starting time for this snapshot*/
                 //                                topology_pdb=rpdb_open(par->fpar->pdb_path, NULL, M_DONT_KEEP_LIG);
-                topology_pdb = open_pdb_file(par->fpar->pdb_path);
+                topology_pdb = open_pdb_file(par->fpar->pdb_path,par);
                 //                fprintf(stdout, "topology pdb : %p\n", topology_pdb);
                 //                fflush(stdout);
 
                 /*open the snapshot*/
-                rpdb_read(topology_pdb, NULL, M_KEEP_LIG, 0);
+                rpdb_read(topology_pdb, NULL, M_KEEP_LIG, 0,par->fpar);
 
                 //                s_topology *topol=NULL;
                 //                if(par->fpar->topology_path[0]!=0){
@@ -292,9 +292,9 @@ void mdpocket_detect(s_mdparams *par) {
             normalize_grid(densgrid, n_snapshots);
 
             if (par->nfiles) {
-                cpdb = open_pdb_file(par->fsnapshot[0]); /*open again the first snapshot*/
-            } else cpdb = open_pdb_file(par->fpar->pdb_path); /*open again the first snapshot*/
-            rpdb_read(cpdb, NULL, M_DONT_KEEP_LIG, 0);
+                cpdb = open_pdb_file(par->fsnapshot[0],par); /*open again the first snapshot*/
+            } else cpdb = open_pdb_file(par->fpar->pdb_path,par); /*open again the first snapshot*/
+            rpdb_read(cpdb, NULL, M_DONT_KEEP_LIG, 0,par->fpar);
             project_grid_on_atoms(densgrid, cpdb);
             write_first_bfactor_density(fout[5], cpdb);
             free_pdb_atoms(cpdb);
@@ -305,8 +305,8 @@ void mdpocket_detect(s_mdparams *par) {
                     remove_path(pdb_code);
                     sprintf(cf_name, "%s_out.pdb", pdb_code);
                     cf = fopen(cf_name, "w");
-                    cpdb = open_pdb_file(par->fsnapshot[i]);
-                    rpdb_read(cpdb, NULL, M_DONT_KEEP_LIG, 0);
+                    cpdb = open_pdb_file(par->fsnapshot[i],par);
+                    rpdb_read(cpdb, NULL, M_DONT_KEEP_LIG, 0,par->fpar);
                     project_grid_on_atoms(densgrid, cpdb);
                     write_first_bfactor_density(cf, cpdb);
                     free_pdb_atoms(cpdb);
@@ -363,6 +363,7 @@ void mdpocket_detect(s_mdparams *par) {
 void mdpocket_characterize(s_mdparams *par) {
     int i, natms, j, k;
     s_pdb *topology_pdb = NULL;
+    s_fparams *params = par->fpar;
     FILE *null = fopen("/dev/null", "w"); /*open a /dev/null redir for the pqr concat output*/
     FILE *descfile = NULL; /*file handle for the descriptor file*/
     FILE * fout[2];
@@ -374,8 +375,8 @@ void mdpocket_characterize(s_mdparams *par) {
     int nwanted_atom_ids = 0;
     c_lst_pockets *pockets = NULL; /*handle for the pockets found in one snapshots*/
     //  c_lst_pockets *mdpockets=c_lst_pockets_alloc();     /*handle for one pocket per snapshot in a chained list*/
-    s_pdb *wantedpocket = rpdb_open(par->fwantedpocket, NULL, M_DONT_KEEP_LIG, 0); /*open in the reference pocket (grid points)*/
-    rpdb_read(wantedpocket, NULL, M_DONT_KEEP_LIG, 0); /*read this pocket*/
+    s_pdb *wantedpocket = rpdb_open(par->fwantedpocket, NULL, M_DONT_KEEP_LIG, 0,params); /*open in the reference pocket (grid points)*/
+    rpdb_read(wantedpocket, NULL, M_DONT_KEEP_LIG, 0,params); /*read this pocket*/
 
     s_pdb *cpdb = NULL; /*pdb handle for the current snapshot structure*/
 
@@ -422,7 +423,7 @@ void mdpocket_characterize(s_mdparams *par) {
                         i + 1, par->nfiles, par->fsnapshot[i]);
                 fflush(stdout);
                 fprintf(fout[0], "MODEL        %d\n", i);
-                cpdb = open_pdb_file(par->fsnapshot[i]); /*open the snapshot pdb handle*/
+                cpdb = open_pdb_file(par->fsnapshot[i],par); /*open the snapshot pdb handle*/
                 pockets = mdprocess_pdb(cpdb, par, i + 1); /*perform pocket detection on the current snapshot*/
 
                 if (i == 0)wanted_atom_ids = get_wanted_atom_ids(cpdb, wantedpocket, &nwanted_atom_ids);
@@ -439,7 +440,7 @@ void mdpocket_characterize(s_mdparams *par) {
                     j = 0;
                     node_vertice *nvcur = cpocket->v_lst->first;
                     while (nvcur) {
-                        write_pqr_vert(fout[0], nvcur->vertice);
+                        write_pqr_vert(fout[0], nvcur->vertice,j);
                         tab_vert[j] = nvcur->vertice;
                         nvcur = nvcur->next;
                         j++;
@@ -476,8 +477,8 @@ void mdpocket_characterize(s_mdparams *par) {
             }
         } else {
 
-            topology_pdb = open_pdb_file(par->fpar->pdb_path); /*open the snapshot*/
-            rpdb_read(topology_pdb, NULL, M_KEEP_LIG, 0);
+            topology_pdb = open_pdb_file(par->fpar->pdb_path,par); /*open the snapshot*/
+            rpdb_read(topology_pdb, NULL, M_KEEP_LIG, 0,params);
 
 
 
@@ -589,7 +590,7 @@ void mdpocket_characterize(s_mdparams *par) {
                     j = 0;
                     node_vertice *nvcur = cpocket->v_lst->first;
                     while (nvcur) {
-                        write_pqr_vert(fout[0], nvcur->vertice);
+                        write_pqr_vert(fout[0], nvcur->vertice,j);
                         tab_vert[j] = nvcur->vertice;
                         nvcur = nvcur->next;
                         j++;
@@ -793,9 +794,9 @@ int *get_wanted_atom_ids(s_pdb *prot, s_pdb *pocket, int *n) {
         s_pdb * : A pdb structure handle of the opened file
         TODO : place this function in rpdb.c
  */
-s_pdb *open_pdb_file(char *pdbname) {
+s_pdb *open_pdb_file(char *pdbname,s_mdparams *mdparams) {
     if (pdbname == NULL) return NULL;
-
+    s_fparams *params = mdparams->fpar;
     int len = strlen(pdbname);
     if (len >= M_MAX_PDB_NAME_LEN || len <= 0) {
         fprintf(stderr, "! Invalid length for the pdb file name. (Max: %d, Min 1)\n",
@@ -804,7 +805,7 @@ s_pdb *open_pdb_file(char *pdbname) {
     }
 
     /* Try to open it */
-    s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, 0);
+    s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, 0,params);
     if (pdb) return (pdb);
     return NULL;
 }
@@ -835,7 +836,7 @@ c_lst_pockets* mdprocess_pdb(s_pdb *pdb, s_mdparams *mdparams, int snnumber) {
     if (pdb) {
         /* Actual reading of pdb data and then calculation */
 
-        if (mdparams->flag_MD == 0) rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, 0);
+        if (mdparams->flag_MD == 0) rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, 0,params);
 
         params->fpocket_running = 0;
         pockets = search_pocket(pdb, params, pdb); /*run fpocket*/
