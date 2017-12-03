@@ -1,5 +1,24 @@
-# fpocket
-Fpocket is a very fast open source protein pocket detection algorithm based on Voronoi tessellation. The platform is suited for the scientific community willing to develop new scoring functions and extract pocket descriptors on a large scale level.
+# fpocket project
+The fpocket suite of programs is a very fast open source protein pocket detection algorithm based on Voronoi tessellation. The platform is suited for the scientific community willing to develop new scoring functions and extract pocket descriptors on a large scale level.
+
+## Content
+fpocket: the original pocket prediction on a single protein structure 
+mdpocket: extension of fpocket to analyse conformational ensembles of proteins (MD trajectories for instance)
+dpocket: extract pocket descriptors
+tpocket: test your pocket scoring function
+
+## What's new compared to fpocket 2.0 (old sourceforge repo)
+fpocket: 
+- is now able to consider explicit pockets when you want to calculate properties for a known binding site
+- cli changed a bit
+- pocket flexibility using temperature factors is better considered (less very flexible pockets on very solvent exposed areas)
+- druggability score has been reoptimized vs original paper. Yields now slightly better results than the original implementation.
+- compiler bug on newer compilers fixed
+mdpocket: 
+- can now read Gromacs XTC, netcdf and dcd trajectories
+- can also read prmtop topologies
+- if topology provided, interaction energy grids can be calculated for transient pockets and channels (experimental)
+
 
 ## Getting Started
 
