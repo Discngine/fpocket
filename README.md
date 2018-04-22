@@ -32,6 +32,10 @@ install netcdf-devel on ubuntu type :
 ```
 sudo apt-get install libnetcdf-dev
 ```
+on a RHEL based distribution something like this should do:
+```
+sudo yum install netcdf-devel.x86_64
+```
 
 ### Installing
 
@@ -54,13 +58,13 @@ The source code of fpocket is shipped with samples. They can be found in the dat
 
 ```
 cd data/sample
-fpocket 1UYD.pdb
+fpocket -f 1UYD.pdb
 ```
 fpocket should state when it's beginning to search pocket and also when it's ending the search. Upon completion the folder should now contain a folder called 1UYD_out. Check whether the folder exists and the pdb files contain data and the pocket info file contains results. 
 
 
 ## User Manual
-For now the user manual (still the one from fpocket 2.0) can be found in the doc folder.
+For now the user manual (still the one from fpocket 2.0) can be found in the doc folder. When I have some time to kill (or if somebody else has) we could add that here somewhere.
 
 ## Contributing
 
@@ -70,7 +74,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Peter Schmidtke** - *Initial work* - [pschmidtke](https://github.com/pschmidtke)
-* **Vincent Le Guilloux** - *Initial work* - [pschmidtke](https://github.com/pschmidtke)
+* **Vincent Le Guilloux** - *Initial work* - [leguilv](https://github.com/leguilv)
 
 
 ## License
