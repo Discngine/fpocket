@@ -259,78 +259,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
                 break;
         }
     }
-    /*par->fpar = get_fpocket_args(nargs, args) ;*/
-
-    /* Read arguments by flags 
-    for (i = 1; i < nargs; i++) {
-            if (strlen(args[i]) == 2 && args[i][0] == '-') {
-                    switch (args[i][1]) {
-                            case M_MDPAR_OUTPUT_FILE :
-                                            if(nstats >= 1) fprintf(stdout, "! More than one single file for the stats output file has been given. Ignoring this one.\n") ;
-                                            else {
-                                                    if(i < nargs-1) {
-                                                            if(strlen(args[++i]) < M_MAX_FILE_NAME_LENGTH) {
-                                                                    remove_ext(args[i]) ;
-                                                                    sprintf(par->f_pqr, "%s.pqr", args[i]) ;
-                                                                    sprintf(par->f_freqdx, "%s_freq.dx", args[i]) ;
-                                                                    sprintf(par->f_densdx, "%s_dens.dx", args[i]) ;
-                                                                    sprintf(par->f_freqiso, "%s_freq_iso_0_5.pdb", args[i]) ;
-                                                                    sprintf(par->f_densiso, "%s_dens_iso_8.pdb", args[i]) ;
-                                                                    sprintf(par->f_desc, "%s_descriptors.txt", args[i]) ;
-                                                                    sprintf(par->f_ppdb, "%s_mdpocket.pdb", args[i]) ;
-                                                                    sprintf(par->f_apdb, "%s_mdpocket_atoms.pdb", args[i]) ;
-                                                                    sprintf(par->f_appdb, "%s_all_atom_pdensities.pdb", args[i]) ;
-                                                            }
-                                                            else fprintf(stdout, "! Output file name is too long... Keeping default.") ;
-                                                    }
-                                                    else {
-                                                            fprintf(stdout, "! Invalid output file name argument missing.\n") ;
-                                                            status += 1 ;
-                                                    }
-                                            }
-                                            break ;
-
-                            case M_MDPAR_INPUT_FILE :
-                                            if(i < nargs-1) str_list_file = args[++i] ;
-                                            else {
-                                                    fprintf(stdout, "! Input file name argument missing.\n") ;
-                                                    status += 1 ;
-                                            }
-                                             break ;
-                            case M_MDPAR_INPUT_FILE2 :
-                                            if(npdb >= 1) fprintf(stderr,
-                                                    "! Only first input pdb will be used.\n") ;
-                                            else {
-                                                    strcpy(par->fwantedpocket, args[++i]) ; npdb++ ;
-                                            }
-                                            break ;
-                            case M_MDPAR_SCORING_MODE :
-                                            par->flag_scoring=1;
-                                            break;
-                            case M_MDPAR_OUTPUT_ALL_SNAPSHOTS :
-                                            par->bfact_on_all=1;
-                                            break;
-                            case M_MDPAR_TRAJECTORY :
-                                            if(strlen(args[++i]) < M_MAX_FILE_NAME_LENGTH)  strcpy(par->f_traj, args[i]);traj_file_defined++;
-                                            break;
-                            case M_MDPAR_TRAJECTORY_FORMAT :
-                                            if(strlen(args[++i]) < M_MAX_FILE_NAME_LENGTH) strcpy(par->traj_format, args[i]);traj_format_defined++;
-                                            break;
-                            case M_MDPAR_TOPOLOGY_FILE :
-                                            if(strlen(args[++i]) < M_MAX_FILE_NAME_LENGTH) strcpy(par->f_topo, args[i]);traj_topology_defined++;
-                                            break;
-
-                            default:
-                                    //  Check fpocket parameters!
-                                    if(!is_fpocket_opt(args[i][1])) {
-                                            fprintf(stdout, "> Unknown option '%s'. Ignoring it.\n",
-                                                            args[i]) ;
-                                    }
-                                    break ;
-                    }
-            }
-    }
-     */
+    
     if (status == 0) {
 
         free_mdparams(par);
@@ -600,6 +529,7 @@ void print_mdpocket_usage(FILE *f) {
 \t\tAmber MDCRD with box information    (crdbox)      \n\
 \t\tNetCDF                              (netcdf)         \n\
 \t\tDCD                                 (dcd)        \n\
+\t\tDESRES DTR                          (dtr)        \n\
 \t\tGromacs TRR                         (trr)        \n\
 \t\tGromacs XTC                         (xtc)  \n");
     fprintf(f, "\n\n\033[1mOptional output parameters\033[0m\n");
