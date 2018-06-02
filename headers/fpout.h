@@ -33,6 +33,8 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname) ;
 void write_out_fpocket_info_file(c_lst_pockets *pockets,  char *output_file_name);
 void write_descriptors_DB(c_lst_pockets *pockets, FILE *f);
 void write_out_fpocket_DB(c_lst_pockets *pockets, s_pdb *pdb, char *input_name);
+void write_out_fpocket_info_file(c_lst_pockets *pockets, char *output_file_name);
+
 
 
 #endif

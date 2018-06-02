@@ -95,7 +95,7 @@ void mdpocket_detect(s_mdparams *par) {
     if (!strncmp(par->traj_format, "net", 3)) {
         molfile_netcdfplugin_init();
         molfile_netcdfplugin_register(NULL, register_cb);
-    }
+    }*/
     if (!strncmp(par->traj_format, "dcd", 3)) {
         molfile_dcdplugin_init();
         molfile_dcdplugin_register(NULL, register_cb);
@@ -382,10 +382,11 @@ void mdpocket_characterize(s_mdparams *par) {
     char elecgrid_path[350] = "";
     FILE *f_out_vdwgrid = NULL;
     FILE *f_out_elecgrid = NULL;
+/*
     if (!strncmp(par->traj_format, "net", 3)) {
         molfile_netcdfplugin_init();
         molfile_netcdfplugin_register(NULL, register_cb);
-    }
+    }*/
     if (!strncmp(par->traj_format, "dcd", 3)) {
         molfile_dcdplugin_init();
         molfile_dcdplugin_register(NULL, register_cb);
