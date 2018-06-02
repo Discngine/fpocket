@@ -1,5 +1,13 @@
 #include "../headers/topology.h"
+/*
+ * Copyright <2012> <Vincent Le Guilloux,Peter Schmidtke, Pierre Tuffery>
+ * Copyright <2013-2018> <Peter Schmidtke, Vincent Le Guilloux>
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ */
 static molfile_plugin_t *api;
 static int register_cb(void *v, vmdplugin_t *p) {
   api = (molfile_plugin_t *)p;
@@ -66,7 +74,7 @@ short get_ff_type(char *atom_type){
 }
 
 
-s_topology *init_topology(){
+s_topology *init_topology(void){
     s_topology *topol=my_malloc(sizeof(*topol));
     topol->natoms_topology=0;
     topol->topology_atoms=NULL;
@@ -143,7 +151,7 @@ void read_topology(char *topology_path, s_pdb *pdb){
             topol->ff_charge[i]=atoms[i].charge;
             topol->ff_radius[i]=atoms[i].radius;
             topol->ff_mass[i]=atoms[i].mass;
-            topol->ff_type[i]=&(atoms[i].type);
+            topol->ff_type[i]=atoms[i].type; // PS : 01/06/2018 : dropped & to drop warning
 //            printf("type %s\n",topol->ff_type[i]);
             //str_trim(topol->ff_type[i]);
 //            fprintf(stdout,"mass : %f \t",topol->ff_mass[i]);

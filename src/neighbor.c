@@ -1,6 +1,14 @@
 
 #include "../headers/neighbor.h"
+/*
+ * Copyright <2012> <Vincent Le Guilloux,Peter Schmidtke, Pierre Tuffery>
+ * Copyright <2013-2018> <Peter Schmidtke, Vincent Le Guilloux>
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ */
 /*
 
 ## GENERAL INFORMATION
@@ -31,37 +39,6 @@
 ##
 
  */
-
-/*
-    COPYRIGHT DISCLAIMER
-
-    Vincent Le Guilloux, Peter Schmidtke and Pierre Tuffery, hereby
-        claim all copyright interest in the program “fpocket” (which
-        performs protein cavity detection) written by Vincent Le Guilloux and Peter
-        Schmidtke.
-
-    Vincent Le Guilloux  01 Decembre 2012
-    Peter Schmidtke      01 Decembre 2012
-    Pierre Tuffery       01 Decembre 2012
-
-    GNU GPL
-
-    This file is part of the fpocket package.
-
-    fpocket is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    fpocket is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with fpocket.  If not, see <http://www.gnu.org/licenses/>.
-
- **/
 
 /**
    ## FUNCTION: 
@@ -523,10 +500,10 @@ float count_pocket_lig_vert_ovlp(s_atm **lig, int nlig, s_vvertice **pvert, int 
 
     float vvalx, vvaly, vvalz;
 
-    s_vvertice * ids[nvert];
+    //s_vvertice * ids[nvert];
     for (i = 0; i < nvert; i++) {
         pvert[i]->seen = 0;
-        ids[i] = NULL;
+        //ids[i] = NULL;
     }
 
     s_vvertice *curvp = NULL, *curvm = NULL;
@@ -561,7 +538,7 @@ float count_pocket_lig_vert_ovlp(s_atm **lig, int nlig, s_vvertice **pvert, int 
                     if (dist(curvp->x, curvp->y, curvp->z, vvalx, vvaly, vvalz) < dcrit) {
                         /* Distance OK, see if the molecule have not been already seen. */
                         if (!curvp->seen) {
-                            ids[nb_neigh] = curvp;
+                            //ids[nb_neigh] = curvp;
                             curvp->seen = 1;
                             nb_neigh++;
                         }
@@ -583,7 +560,7 @@ float count_pocket_lig_vert_ovlp(s_atm **lig, int nlig, s_vvertice **pvert, int 
                         /* Distance OK, see if the molecule is not one part of the
                          * input, and if we have not already seen it. */
                         if (!curvm->seen) {
-                            ids[nb_neigh] = curvm;
+                            //ids[nb_neigh] = curvm;
                             curvm->seen = 1;
                             nb_neigh++;
                         }

@@ -1,6 +1,14 @@
 
 #include "../headers/fpout.h"
+/*
+ * Copyright <2012> <Vincent Le Guilloux,Peter Schmidtke, Pierre Tuffery>
+ * Copyright <2013-2018> <Peter Schmidtke, Vincent Le Guilloux>
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ */
 /*
 
 ## GENERAL INFORMATION
@@ -27,38 +35,6 @@
 ##	(v) Handle system command failure, clean!
 
 */
-
-
-/*
-    COPYRIGHT DISCLAIMER
-
-    Vincent Le Guilloux, Peter Schmidtke and Pierre Tuffery, hereby
-	claim all copyright interest in the program “fpocket” (which
-	performs protein cavity detection) written by Vincent Le Guilloux and Peter
-	Schmidtke.
-
-    Vincent Le Guilloux  01 Decembre 2012
-    Peter Schmidtke      01 Decembre 2012
-    Pierre Tuffery       01 Decembre 2012
-
-    GNU GPL
-
-    This file is part of the fpocket package.
-
-    fpocket is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    fpocket is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with fpocket.  If not, see <http://www.gnu.org/licenses/>.
-
-**/
 
 /**
    ## FUNCTION:
@@ -97,11 +73,11 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
 		if(strlen(pdb_path) > 0) sprintf(out_path, "%s/%s_out", pdb_path, pdb_code) ;
 		else sprintf(out_path, "%s_out", pdb_code) ;
 		
-		sprintf(command, "mkdir %s", out_path) ;
+		sprintf(command, "mkdir -p %s", out_path) ;
 		status = system(command) ;
-		/*if(status != 0) {
+		if(status != 0) {
 			return ;
-		}*/
+		}
 		
 		sprintf(out_path, "%s/%s", out_path, pdb_code) ;
 		sprintf(pdb_out_path, "%s_out.pdb", out_path) ;
@@ -229,7 +205,7 @@ void write_out_fpocket_DB(c_lst_pockets *pockets, s_pdb *pdb, char *input_name)/
 	char out_path[350] = "" ;
 	char pdb_out_path[350] = "" ;
 	char command[370] = "" ;
-
+        
 	if(pockets) {
 	// Extract path, pdb code...
 		strcpy(pdb_code, input_name) ;
@@ -239,47 +215,13 @@ void write_out_fpocket_DB(c_lst_pockets *pockets, s_pdb *pdb, char *input_name)/
 		/*sprintf(out_path, "%s/%s_out", pdb_path, pdb_code) ;*/
                 if(strlen(pdb_path) > 0) sprintf(out_path, "%s/%s_out", pdb_path, pdb_code) ;
 		else sprintf(out_path, "%s_out", pdb_code) ;
-		sprintf(command, "mkdir %s", out_path) ;
-		system(command) ;
-/*
-		sprintf(out_path, "%s/%s_out/%s", pdb_path, pdb_code, pdb_code) ;
-		sprintf(pdb_out_path, "%s_out.pdb", out_path) ;
-*/
-	//Write vmd and pymol scripts
-/*
-		sprintf(fout, "%s_out.pdb", pdb_code) ;
-		write_visualization(out_path, fout);
-	// Print the whole pockets informations in a single file
-*/
-		/*sprintf(fout, "%s_pockets.info", out_path) ;
-		FILE *f = fopen(fout, "w") ;
-		if(f) {
-			print_pockets(f, pockets) ;
-			fclose(f) ;
-		}
-*/
+		sprintf(command, "mkdir -p %s", out_path) ;
+		int status=system(command) ;
+                if(!status ){
+                    return;
+                }
 	// Writing full pdb
 		sprintf(pdb_out_path, "%s_out.pdb", out_path) ;
-
-		//write_pockets_single_pdb(pdb_out_path, pdb, pockets) ;
-
-        // Writing topology clusters
-               /* sprintf(pdb_out_path, "%s_topo_connect.pdb", out_path) ;
-
-		write_topology_pdb(pdb_out_path,pockets) ;*/
-	// Writing pockets as a single pqr
-		/*sprintf(fout, "%s_pockets.pqr", out_path) ;
-		write_pockets_single_pqr(fout, pockets) ;*/
-
-        // Writing pocket distance matrix to a file
-                //  sprintf(fout, "%s_dist_mat.txt", out_path) ;
-
-
-	// Writing individual pockets pqr
-
-/*		sprintf(out_path, "%s/%s_out/", pdb_path, pdb_code) ;
-		sprintf(command, "mkdir %s", out_path) ;
-		system(command) ;*/
 
 		write_each_pocket_for_DB(out_path, pockets,pdb) ;
                 //write_each_matrix(out_path,pockets);

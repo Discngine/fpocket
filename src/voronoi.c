@@ -1,6 +1,14 @@
 
 #include "../headers/voronoi.h"
+/*
+ * Copyright <2012> <Vincent Le Guilloux,Peter Schmidtke, Pierre Tuffery>
+ * Copyright <2013-2018> <Peter Schmidtke, Vincent Le Guilloux>
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ */
 /*
 
 ## GENERAL INFORMATION
@@ -31,36 +39,6 @@
 
  */
 
-/*
-    COPYRIGHT DISCLAIMER
-
-    Vincent Le Guilloux and Peter Schmidtke, hereby
-    claim all copyright interest in the program “fpocket” (which
-    performs protein cavity detection) written by Vincent Le Guilloux and Peter
-    Schmidtke.
-
-    Vincent Le Guilloux  01 Decembre 2012
-    Peter Schmidtke      01 Decembre 2012
-    Pierre Tuffery       01 Decembre 2012
-
-    GNU GPL
-
-    This file is part of the fpocket package.
-
-    fpocket is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    fpocket is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with fpocket.  If not, see <http://www.gnu.org/licenses/>.
-
- **/
 
 
 double frand_a_b(double a, double b) {
@@ -293,7 +271,7 @@ s_lst_vvertice* load_vvertices(s_pdb *pdb, int min_apol_neigh, float asph_min_si
                 fill_vvertices(lvvert, tmpn2, pdb->latoms, pdb->natoms,
                         min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor,pdb);
             } else {
-                add_missing_vvertices(lvvert, tmpn2, pdb->latoms, pdb->natoms, min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor,pdb);
+                add_missing_vvertices(lvvert, tmpn2, pdb->latoms, min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor,pdb);
             }
 
         }
@@ -537,6 +515,9 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
     status = fgets(cline, nchar_max, f); /* Load 2nd line containing nbr of coors. */
     status = fgets(nbline, nchar_max, fNb); /* Skip first line */
     status = fgets(nbline, nchar_max, fNb); /* Load 2nd line containing nbr of coors. */
+    if(!status) {
+        return;
+    }
     //status = fgets(vNbline, nchar_max, fvNb) ; /* Skip first line */
     //status = fgets(vNbline, nchar_max, fvNb) ; /* Load 2nd line containing nbr of coors. */
 
@@ -665,7 +646,7 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
     void
   
  */
-void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, int natoms,
+void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, 
         int min_apol_neigh, float asph_min_size, float asph_max_size,
         float xshift, float yshift, float zshift, float avg_bfactor,s_pdb *pdb) {
     FILE *f = NULL; /* File handler for vertices coordinates */
@@ -704,6 +685,9 @@ void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *at
     status = fgets(nbline, nchar_max, fNb); /* Load 2nd line containing nbr of coors. */
     status = fgets(vNbline, nchar_max, fvNb); /* Skip first line */
     status = fgets(vNbline, nchar_max, fvNb); /* Load 2nd line containing nbr of coors. */
+    if(!status) {
+        return;
+    }
     int nverttmp = 0;
     sscanf(cline, "%d", &(nverttmp));
 
@@ -1094,7 +1078,7 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                     xlig_z=pdb->xlig_z[i_explicit_ligand];
                     /*printf("%f %f %f\n",x,y,z);
                     printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));*/
-                    if(dist(pdb->xlig_x[i_explicit_ligand], pdb->xlig_y[i_explicit_ligand], pdb->xlig_z[i_explicit_ligand], x,y,z)<=(distVatom1)){
+                    if(dist(xlig_x, xlig_y, xlig_z, x,y,z)<=(distVatom1)){
                         /*TODO, debug why not working here*/
                         /*TODO: add manual clustering for explicit pockets*/
                         return distVatom1;
@@ -1278,6 +1262,9 @@ float get_convex_hull_volume(s_vvertice **verts, int nvert) {
     status = fgets(cline, nchar_max, ftmp); /* Skip fir=st line */
     //printf("cline : %s\n",cline);
     status = fgets(cline, nchar_max, ftmp); /* Load 2nd line containing nbr of coors. */
+    if(!status || int_status){
+        return(-1);
+    }
     //printf("cline : %s\n",cline);
     float area, volume;
     int tmpint;
