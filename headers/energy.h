@@ -17,6 +17,8 @@
 #include "voronoi_lst.h"
 #include "calc.h"
 #include "atom.h"
+#include <sys/stat.h>
+#include <sys/types.h>
 //#include "math.h"
 
 #define G_GRID_RESOLUTION 0.3
@@ -67,7 +69,7 @@ void set_alpha_sphere_electrostatic_energy(s_vvertice *v,s_grid *g_elec);
 s_min_max_pocket *float_get_min_max_from_pocket(s_pocket *pocket);
 s_pocket_energy_grid *get_pocket_energy(s_pocket *p);
 void add_atom_ids_from_grid_point(s_atm **atom_ids, int *n_atoms, s_atm **atoms_in_grid_point, int n_atoms_in_gridpoint);
-void get_atoms_in_near_grid_points(float pos[3], s_pocket *p, s_pdb_grid *g, int *n_atoms, s_atm **atom_ids);
+void get_atoms_in_near_grid_points(float pos[3],  s_pdb_grid *g, int *n_atoms, s_atm **atom_ids);
 void assign_mean_energies(s_grid *g,int devider);
 
     

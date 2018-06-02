@@ -55,7 +55,6 @@ void calculate_pocket_energy_grids(c_lst_pockets *pockets, s_fparams *params, s_
     //char pdb_out_path[350] = "" ;
     //char info_out_path[350]="";
     //char fout[350] = "" ;
-    char command[370] = "";
     int status;
 
 
@@ -73,9 +72,9 @@ void calculate_pocket_energy_grids(c_lst_pockets *pockets, s_fparams *params, s_
     sprintf(out_path_pockets, "%s/pockets", out_path);
     status = mkdir(out_path_pockets, 0755);
     //status = system(command) ;
-    /*if(status != 0) {
+    if(status != 0) {
             return ;
-    }*/
+    }
     //sprintf(out_path, "%s/%s", out_path, pdb_code) ;
     //sprintf(pdb_out_path, "%s_out.pdb", out_path) ;
     while (cur_node_pocket) {
@@ -106,9 +105,7 @@ void calculate_pocket_energy_grids(c_lst_pockets *pockets, s_fparams *params, s_
 
 void write_grid(s_grid *g, FILE *f) {
     int cx, cy, cz;
-    float cv;
-    float rx, ry, rz;
-    size_t cnt = 0;
+    float cv;   
     /*write the header of the dx file*/
     fprintf(f, "# Data calculated by fpocket\n");
 /*    fprintf(f, "# This is a standard DX file of calculated energies of placing probes into this detected binding site\n");
@@ -157,7 +154,7 @@ void assign_energies(s_grid *g_elec, s_grid *g_vdw, s_pocket *p, s_pdb *pdb) {
                 cartesian_position[1] = g_elec->origin[1] + cy * g_elec->resolution;
                 cartesian_position[2] = g_elec->origin[2] + cz * g_elec->resolution;
                                 //get_atoms_contacted_by_vertices_overlapping_with_grid_point(cartesian_position, p, &(n_atoms), atom_ids);
-                get_atoms_in_near_grid_points(cartesian_position, p, pdb->grid, &(n_atoms), atom_ids);
+                get_atoms_in_near_grid_points(cartesian_position, pdb->grid, &(n_atoms), atom_ids);
                 //                set_energies_to_grid_point(cx, cy, cz, pdb->latoms_p, pdb->natoms, g_elec, g_vdw);
                 set_energies_to_grid_point(cx, cy, cz, atom_ids, n_atoms, g_elec, g_vdw);
 
@@ -175,7 +172,7 @@ void assign_energies(s_grid *g_elec, s_grid *g_vdw, s_pocket *p, s_pdb *pdb) {
         }
     }
 
-    return (NULL);
+    return ;
 }
 
 void set_alpha_sphere_electrostatic_energy(s_vvertice *v, s_grid *g_elec) {
@@ -213,7 +210,6 @@ void set_energies_to_grid_point(int cx, int cy, int cz, s_atm **atom_ids, int n_
     float x = g_elec->origin[0] + g_elec->resolution*cx;
     float y = g_elec->origin[1] + g_elec->resolution*cy;
     float z = g_elec->origin[2] + g_elec->resolution*cz;
-    short cntflag = 0;
     double kb=0.0019872041;
     float T=310;
     float curVdw=0.0;
@@ -237,12 +233,11 @@ void set_energies_to_grid_point(int cx, int cy, int cz, s_atm **atom_ids, int n_
         if (atom_ids[i]->ff_well_depth_set == 1) {
 //            printf("here\n");
             charge = atom_ids[i]->ff_charge / 18.2223; //get_receptor_atom_charge(atom_ids[i]);
-            cntflag = 1;
             d = dist(x, y, z, atom_ids[i]->x, atom_ids[i]->y, atom_ids[i]->z);
             if (d < 1.4) {
                 g_vdw->gridvalues[cx][cy][cz] += 100.0; //try with 0 in case of MD here??
                 g_elec->gridvalues[cx][cy][cz] += 0.0;
-                return (NULL);
+                return;
             } else {
 
                 sigma = sqrt((atom_ids[i]->ff_radius + 1.4) * mm_atom_type_ST[n_mm_atom_type - 1].radius); //by default compare to carbon as probe on the grid
@@ -266,7 +261,7 @@ void set_energies_to_grid_point(int cx, int cy, int cz, s_atm **atom_ids, int n_
 //        g_vdw->gridvalues[cx][cy][cz] = 1000.0;
 //        g_elec->gridvalues[cx][cy][cz] = 0.0;
 //    }
-    return (NULL);
+    return;
 }
 
 void assign_mean_energies(s_grid *g,int devider){
@@ -280,7 +275,7 @@ void assign_mean_energies(s_grid *g,int devider){
     }
 }
 
-void get_atoms_in_near_grid_points(float pos[3], s_pocket *p, s_pdb_grid *g, int *n_atoms, s_atm **atom_ids) {
+void get_atoms_in_near_grid_points(float pos[3], s_pdb_grid *g, int *n_atoms, s_atm **atom_ids) {
     int xidx, yidx, zidx;
 
     int sxidx, syidx, szidx; /*indices nearby xidx,yidx,zidx that are within M_MDP_CUBE_SIDE of this point*/
@@ -344,8 +339,7 @@ unsigned short grid_point_overlaps_with_alpha_sphere(float pos[3], s_vvertice * 
 }
 
 void add_atom_ids_from_grid_point(s_atm **atom_ids, int *n_atoms, s_atm **atoms_in_grid_point, int n_atoms_in_gridpoint) {
-    int i, j;
-    unsigned short flag;
+    int j;
     for (j = 0; j < n_atoms_in_gridpoint; j++) {
         atom_ids[*n_atoms] = atoms_in_grid_point[j];
         *n_atoms = *n_atoms + 1;
@@ -387,7 +381,6 @@ s_grid * init_pocket_grid(s_pocket * p) {
     float initvalue = -0.001;
     my_free(mm);
     int cx, cy, cz;
-    float span = 0.0;
 
     g->resolution = G_GRID_RESOLUTION;
 
@@ -435,7 +428,6 @@ s_grid * init_pocket_grid(s_pocket * p) {
  */
 s_min_max_pocket * float_get_min_max_from_pocket(s_pocket * pocket) {
     if (pocket) {
-        int z;
         float minx = 50000., maxx = -50000., miny = 50000., maxy = -50000., minz = 50000., maxz = -50000.;
         node_vertice *cur_vert = pocket->v_lst->first;
         /*if there a no vertices in m before, first allocate some space*/
