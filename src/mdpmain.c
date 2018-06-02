@@ -51,6 +51,8 @@ int main(int argc, char *argv[])
     /*if(par->fpar->topology_path[0]!=0){
         topol=read_topology(par->fpar);
     }*/
+
+
     if(par && par->fwantedpocket[0]==0) mdpocket_detect(par) ; /* run only pocket detection, 1st way of running mdpocket*/
     else if(par) mdpocket_characterize(par);                    /* run pocket characterization 2nd way of running mdpocket*/
 

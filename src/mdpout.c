@@ -70,11 +70,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 void write_md_grid(s_mdgrid *g, FILE *f, FILE *fiso,s_mdparams *par,float isovalue)
 {
+
     int cx,cy,cz;
     float cv;
     float rx,ry,rz;
     size_t cnt=0;
     /*write the header of the dx file*/
+
+       
     fprintf(f,"# Data calculated by mdpocket, part of the fpocket package\n");
     fprintf(f,"# This is a standard DX file of occurences of cavities within MD trajectories.\n");
     fprintf(f,"# The file can be visualised using the freely available VMD software\n");

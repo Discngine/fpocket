@@ -72,7 +72,13 @@ void mdpocket_detect(s_mdparams *par) {
     int i = 0, j, k;
 
     int n_snapshots = 0;
-    FILE * fout[6]; /*output file handles*/
+
+    FILE * fout1;
+    FILE * fout2;
+    FILE * fout3;
+    FILE * fout4;
+    FILE * fout5;
+    FILE * fout6;
     FILE *timef; /*just an output for performance measurements*/
     c_lst_pockets *pockets = NULL; /*tmp handle for pockets*/
     s_mdgrid *freqgrid = NULL; /*init mdgrid structure*/
@@ -84,6 +90,7 @@ void mdpocket_detect(s_mdparams *par) {
     FILE *cf; /*file handle for current bfact coloured file to write*/
     char cf_name[350] = "";
     char pdb_code[350] = "";
+              
 
     if (!strncmp(par->traj_format, "net", 3)) {
         molfile_netcdfplugin_init();
@@ -114,18 +121,19 @@ void mdpocket_detect(s_mdparams *par) {
     molfile_gromacsplugin_register(NULL, register_cb);
     molfile_lammpsplugin_init();
     molfile_lammpsplugin_register(NULL, register_cb);*/
-
+ 
 
     if (par) {
         /* Opening output files */
         //fout[0] = fopen(par->f_pqr,"w") ;   /*concat pqr output*/
-        fout[1] = fopen(par->f_freqdx, "w"); /*grid dx output*/
-        fout[2] = fopen(par->f_densdx, "w"); /*grid dx output*/
-        fout[3] = fopen(par->f_freqiso, "w"); /*iso pdb output*/
-        fout[4] = fopen(par->f_densiso, "w"); /*iso pdb output*/
-        fout[5] = fopen(par->f_appdb, "w"); /*all atom -> pocket density output on bfactors*/
+        fout1 = fopen(par->f_freqdx, "w"); /*grid dx output*/
+        fout2 = fopen(par->f_densdx, "w"); /*grid dx output*/
+        fout3 = fopen(par->f_freqiso, "w"); /*iso pdb output*/
+        fout4 = fopen(par->f_densiso, "w"); /*iso pdb output*/
+        fout5 = fopen(par->f_appdb, "w"); /*all atom -> pocket density output on bfactors*/
         timef = fopen("time.txt", "w"); /*performance measurement output*/
-        if (fout[1] && fout[2] && fout[3] && fout[4] && fout[5]) {
+        if (fout1 && fout2 && fout3 && fout4 && fout5) {
+          
             //mdconcat=init_md_concat();  /*alloc & init of the mdconcat structure*/
             clock_t b, e; /*for the calculation time measurements*/
             if (par->nfiles) {
@@ -279,7 +287,7 @@ void mdpocket_detect(s_mdparams *par) {
             } else cpdb = open_pdb_file(par->fpar->pdb_path,par); /*open again the first snapshot*/
             rpdb_read(cpdb, NULL, M_DONT_KEEP_LIG, 0,par->fpar);
             project_grid_on_atoms(densgrid, cpdb);
-            write_first_bfactor_density(fout[5], cpdb);
+            write_first_bfactor_density(fout5, cpdb);
             free_pdb_atoms(cpdb);
             if (par->bfact_on_all) {
                 for (i = 0; i < par->nfiles; i++) {
@@ -302,9 +310,15 @@ void mdpocket_detect(s_mdparams *par) {
 
             //   mdconcat->n_snapshots=par->nfiles;      /*updata a variable in the mdconcat structure*/
             //   mdgrid=calculate_md_grid(mdconcat);     /*calculate the actual md grid*/
-            write_md_grid(freqgrid, fout[1], fout[3], par, M_MDP_DEFAULT_ISO_VALUE_FREQ); /*write the grid to a vmd readable dx file*/
-            write_md_grid(densgrid, fout[2], fout[4], par, M_MDP_DEFAULT_ISO_VALUE_DENS); /*write the grid to a vmd readable dx file*/
-            for (i = 1; i < 6; i++) fclose(fout[i]); /*close all output file handles*/
+
+       
+            write_md_grid(freqgrid, fout1, fout3, par, M_MDP_DEFAULT_ISO_VALUE_FREQ); /*write the grid to a vmd readable dx file*/
+            write_md_grid(densgrid, fout2, fout4, par, M_MDP_DEFAULT_ISO_VALUE_DENS); /*write the grid to a vmd readable dx file*/
+            fclose(fout1);
+            fclose(fout2);
+            fclose(fout3);
+            fclose(fout4);
+            fclose(fout5);
 
             /*free the memory for the grids noz*/
             free_md_grid(freqgrid);
@@ -319,7 +333,7 @@ void mdpocket_detect(s_mdparams *par) {
             }
             else */
             for (i = 1; i < 6; i++) {
-                if (!fout[i]) {
+                if (!fout1) {
                     fprintf(stdout, "! Output file couldn't be opened.\n");
                 }
             }
