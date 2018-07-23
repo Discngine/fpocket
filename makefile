@@ -44,14 +44,14 @@ LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/lib
 # BINARIES OBJECTS 
 #------------------------------------------------------------
 
-QOBJS = $(PATH_QHULL)geom2.o $(PATH_QHULL)geom.o $(PATH_QHULL)global.o \
-        $(PATH_QHULL)io.o $(PATH_QHULL)io.h $(PATH_QHULL)libqhull.o \
-        $(PATH_QHULL)mem.o $(PATH_QHULL)merge.o $(PATH_QHULL)poly2.o \
-        $(PATH_QHULL)poly.o $(PATH_QHULL)qset.o \
-        $(PATH_QHULL)random.o $(PATH_QHULL)rboxlib.o \
-        $(PATH_QHULL)stat.o $(PATH_QHULL)user.o \
-        $(PATH_QHULL)usermem.o \
-        $(PATH_QHULL)userprintf.o $(PATH_QHULL)qvoronoi.o $(PATH_QHULL)qconvex.o
+#QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
+        $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/io.h $(PATH_QHULL)/libqhull/libqhull.o \
+        $(PATH_QHULL)/libqhull/mem.o $(PATH_QHULL)/libqhull/merge.o $(PATH_QHULL)/libqhull/poly2.o \
+        $(PATH_QHULL)/libqhull/poly.o $(PATH_QHULL)/libqhull/qset.o \
+        $(PATH_QHULL)/libqhull/random.o $(PATH_QHULL)/libqhull/rboxlib.o \
+        $(PATH_QHULL)/libqhull/stat.o $(PATH_QHULL)libqhull/user.o \
+        $(PATH_QHULL)/libqhull/usermem.o \
+        $(PATH_QHULL)/libqhull/userprintf.o $(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
 CHOBJ = $(PATH_OBJ)check.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)utils.o $(PATH_OBJ)pertable.o $(PATH_OBJ)memhandler.o \
@@ -62,7 +62,7 @@ CHOBJ = $(PATH_OBJ)check.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o  $(PATH_OBJ)fpout.o \
 		$(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o $(PATH_OBJ)voronoi_lst.o \
 		$(PATH_OBJ)neighbor.o $(PATH_OBJ)asa.o $(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o \
-		$(QOBJS)
+		
 
 FPOBJ = $(PATH_OBJ)fpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)utils.o $(PATH_OBJ)pertable.o $(PATH_OBJ)memhandler.o \
@@ -73,7 +73,7 @@ FPOBJ = $(PATH_OBJ)fpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o  $(PATH_OBJ)fpout.o \
 		$(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o $(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)asa.o \
 		$(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o  \
-		$(QOBJS)
+		$(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
 TPOBJ = $(PATH_OBJ)tpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)utils.o $(PATH_OBJ)pertable.o $(PATH_OBJ)memhandler.o \
@@ -85,7 +85,7 @@ TPOBJ = $(PATH_OBJ)tpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)fpout.o $(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o \
 		$(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)neighbor.o $(PATH_OBJ)asa.o\
 		$(PATH_OBJ)clusterlib.o  $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o\
-		$(QOBJS)
+		$(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
 DPOBJ = $(PATH_OBJ)dpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)dpocket.o $(PATH_OBJ)dparams.o  $(PATH_OBJ)voronoi.o \
@@ -128,7 +128,9 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 #-----------------------------------------------------------
 
 all: $(MYPROGS) # $(PATH_BIN)$(CHECK)
-		
+
+cd src/qhull/ && make
+
 $(PATH_BIN)$(CHECK): $(CHOBJ) $(QOBJS)
 	$(LINKER) $^ -o $@ $(LFLAGS)
 
