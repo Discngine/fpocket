@@ -169,6 +169,7 @@ clean:
 	rm -f $(PATH_BIN)$(TPOCKET)
 	rm -f $(PATH_BIN)$(DPOCKET)
 	rm -f $(PATH_BIN)$(MDPOCKET)
+	cd src/qhull && make clean
 
 uninstall:
 	rm -f $(PATH_BIN)$(FPOCKET) $(BINDIR)$(FPOCKET)
