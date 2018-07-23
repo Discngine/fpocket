@@ -140,8 +140,8 @@ s_lst_vvertice* load_vvertices_DEPRECATED(s_pdb *pdb, int min_apol_neigh, float 
     fclose(fvoro);
     fclose(ftmp);
 
-    remove(tmpn1) ;
-    remove(tmpn2) ;
+    //remove(tmpn1) ;
+    //remove(tmpn2) ;
 
 
     return lvvert;
