@@ -11,7 +11,7 @@ PATH_SRC    = src/
 PATH_HEADER = headers/
 PATH_BIN    = bin/
 PATH_MAN    = man/
-PATH_QHULL  = src/qhull/
+PATH_QHULL  = src/qhull/src
 
 BINDIR  = /usr/local/bin/
 MANDIR  = /usr/local/man/man8/
@@ -43,13 +43,14 @@ LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/lib
 #------------------------------------------------------------
 # BINARIES OBJECTS 
 #------------------------------------------------------------
+#QOBJS = $(PATH_QHULL)/src/qvoronoi/qvoronoi.o $(PATH_QHULL)/src/qconvex/qconvex.o
 
 QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
         $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/io.h $(PATH_QHULL)/libqhull/libqhull.o \
         $(PATH_QHULL)/libqhull/mem.o $(PATH_QHULL)/libqhull/merge.o $(PATH_QHULL)/libqhull/poly2.o \
         $(PATH_QHULL)/libqhull/poly.o $(PATH_QHULL)/libqhull/qset.o \
         $(PATH_QHULL)/libqhull/random.o $(PATH_QHULL)/libqhull/rboxlib.o \
-        $(PATH_QHULL)/libqhull/stat.o $(PATH_QHULL)libqhull/user.o \
+        $(PATH_QHULL)/libqhull/stat.o $(PATH_QHULL)/libqhull/user.o \
         $(PATH_QHULL)/libqhull/usermem.o \
         $(PATH_QHULL)/libqhull/userprintf.o $(PATH_QHULL)/libqhull/userprintf_rbox.o $(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
@@ -127,7 +128,10 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 # RULES FOR EXECUTABLES
 #-----------------------------------------------------------
 
-all: $(MYPROGS) # $(PATH_BIN)$(CHECK)
+all: 
+	make qhull
+	make fpocket
+fpocket: $(MYPROGS) # $(PATH_BIN)$(CHECK)
 
 qhull:
 	cd src/qhull/ && make

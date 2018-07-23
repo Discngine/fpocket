@@ -147,7 +147,7 @@ CXX_WARNINGS = -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -W
 #    -Wunknown-pragmas -Wunused-function -Wunused-label -Wunused-parameter -Wunused-value
 
 # Default targets for make
-all : qconvex/qconvex.o qvoronoi/qvoronoi.o
+all: bin-lib bin/rbox bin/qdelaunay bin/qhalf bin/qhull src/qconvex/qconvex.o src/qvoronoi/qvoronoi.o
 #all: bin-lib bin/rbox bin/qconvex bin/qdelaunay bin/qhalf bin/qvoronoi bin/qhull bin/testqset \
      bin/testqset_r qtest bin/user_eg2 bin/user_eg3 bin/user_eg qconvex-prompt
 
@@ -639,21 +639,21 @@ lib/libqhull_r.$(SO): $(LIBQHULLSR_RBOX_OBJS)
 #bin/qconvex: src/qconvex/qconvex.o lib/libqhullstatic.a
 #	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
 
-#bin/qdelaunay: src/qdelaunay/qdelaun.o lib/libqhullstatic.a
-#	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
+bin/qdelaunay: src/qdelaunay/qdelaun.o lib/libqhullstatic.a
+	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
 
-#bin/qhalf: src/qhalf/qhalf.o lib/libqhullstatic.a
-#	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
+bin/qhalf: src/qhalf/qhalf.o lib/libqhullstatic.a
+	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
 
 #bin/qvoronoi: src/qvoronoi/qvoronoi.o lib/libqhullstatic.a
 #	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
 
-#bin/qhull: src/qhull/unix_r.o lib/libqhullstatic_r.a
-#	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic_r -lm
-#	-chmod +x eg/q_test eg/q_eg eg/q_egtest
+bin/qhull: src/qhull/unix_r.o lib/libqhullstatic_r.a
+	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic_r -lm
+	-chmod +x eg/q_test eg/q_eg eg/q_egtest
 
-#bin/rbox: src/rbox/rbox.o lib/libqhullstatic.a
-#	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
+bin/rbox: src/rbox/rbox.o lib/libqhullstatic.a
+	$(CC) -o $@ $< $(CC_OPTS2) -Llib -lqhullstatic -lm
 
 #bin/testqset: src/testqset/testqset.o src/libqhull/qset.o src/libqhull/mem.o src/libqhull/usermem.o
 #	$(CC) -o $@ $^ $(CC_OPTS2) -lm

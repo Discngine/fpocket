@@ -28,8 +28,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include "utils.h"
 
 
-#include "../src/qhull/qvoronoi/qvoronoi.h"
-#include "../src/qhull/qconvex/qconvex.h"
+#include "../src/qhull/src//qvoronoi/qvoronoi.h"
+#include "../src/qhull/src/qconvex/qconvex.h"
 
 #include "memhandler.h"
 
