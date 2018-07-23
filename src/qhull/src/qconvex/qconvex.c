@@ -48,6 +48,7 @@ int isatty(int);  /* returns 1 if stdin is a tty
 /* duplicated in qconvex.htm */
 char hidden_options_qvx[]=" d v H Qbb Qf Qg Qm Qr Qu Qv Qx Qz TR E V Fp Gt Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 ";
 
+
 int run_qconvex(FILE *fin,FILE *fout) {
   int curlong, totlong; /* used !qh_NOmem */
   int exitcode, numpoints, dim;
