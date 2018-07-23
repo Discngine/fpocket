@@ -43,7 +43,7 @@ Download the sources from github via the website or using git clone and then bui
 
 
 ```
-git clone https://github.com/Discngine/fpocket.git .
+git clone https://github.com/Discngine/fpocket.git
 cd fpocket
 make 
 sudo make install
