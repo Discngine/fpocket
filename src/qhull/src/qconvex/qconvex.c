@@ -32,22 +32,8 @@ int isatty(int);  /* returns 1 if stdin is a tty
                    if "Undefined symbol" this can be deleted along with call in main() */
 #endif
 
-/*-<a                             href="../libqhull/qh-qhull.htm#TOC"
-  >-------------------------------</a><a name="prompt">-</a>
 
-  qh_prompt
-    long prompt for qconvex
-
-  notes:
-    restricted version of libqhull.c
-
-  see:
-    concise prompt below
-*/
-
-/* duplicated in qconvex.htm */
-char hidden_options_qvx[]=" d v H Qbb Qf Qg Qm Qr Qu Qv Qx Qz TR E V Fp Gt Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 ";
-
+char hidden_options_qx[]=" d v H Qbb Qf Qg Qm Qr Qu Qv Qx Qz TR E V Fp Gt Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 ";
 
 int run_qconvex(FILE *fin,FILE *fout) {
   int curlong, totlong; /* used !qh_NOmem */
@@ -86,7 +72,7 @@ int run_qconvex(FILE *fin,FILE *fout) {
   qh_init_A(fin, fout, stderr, argc, argv);  /* sets qh qhull_command */
   exitcode= setjmp(qh errexit); /* simple statement for CRAY J916 */
   if (!exitcode) {
-    qh_checkflags(qh qhull_command, hidden_options_qvx);
+    qh_checkflags(qh qhull_command, hidden_options_qx);
     qh_initflags(qh qhull_command);
     points= qh_readpoints(&numpoints, &dim, &ismalloc);
     if (dim >= 5) {
