@@ -74,16 +74,12 @@ int run_qconvex(FILE *fin,FILE *fout) {
 #endif
 
   if ((argc == 1) && isatty( 0 /*stdin*/)) {
-    fprintf(stdout, qh_prompt2, qh_version);
     exit(qh_ERRnone);
   }
   if (argc > 1 && *argv[1] == '-' && !*(argv[1]+1)) {
-    fprintf(stdout, qh_prompta, qh_version, qh_DEFAULTbox,
-                qh_promptb, qh_promptc, qh_promptd, qh_prompte);
     exit(qh_ERRnone);
   }
   if (argc >1 && *argv[1] == '.' && !*(argv[1]+1)) {
-    fprintf(stdout, qh_prompt3, qh_version);
     exit(qh_ERRnone);
   }
   qh_init_A(fin, fout, stderr, argc, argv);  /* sets qh qhull_command */
