@@ -44,7 +44,7 @@ LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/lib
 # BINARIES OBJECTS 
 #------------------------------------------------------------
 
-#QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
+QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
         $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/io.h $(PATH_QHULL)/libqhull/libqhull.o \
         $(PATH_QHULL)/libqhull/mem.o $(PATH_QHULL)/libqhull/merge.o $(PATH_QHULL)/libqhull/poly2.o \
         $(PATH_QHULL)/libqhull/poly.o $(PATH_QHULL)/libqhull/qset.o \
@@ -73,7 +73,7 @@ FPOBJ = $(PATH_OBJ)fpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o  $(PATH_OBJ)fpout.o \
 		$(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o $(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)asa.o \
 		$(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o  \
-		$(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
+		$(QOBJS)
 
 TPOBJ = $(PATH_OBJ)tpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)utils.o $(PATH_OBJ)pertable.o $(PATH_OBJ)memhandler.o \
