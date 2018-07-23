@@ -8,7 +8,14 @@
    see unix.c for full interface
 
    Copyright (c) 1993-2015, The Geometry Center
+    * This file was modified by Vincent Le Guilloux and Peter Schmidtke on 
+ * 4/03/2009 and 23/07/2018 in order to link it to the fpocket program. 
+ * The former main function was replaced by run_qvoronoi(FILE *fin,FILE *fout). 
+ * Else the file remains unchanged as well the rest of the qhull distribution. A
+ * qvoronoi.h file was added.
+ * You can obtain the original source code of this file on www.qhull.org.
 */
+
 
 #include "libqhull/libqhull.h"
 
@@ -225,62 +232,71 @@ Except for 'F.' and 'PG', upper-case options take an argument.\n\
  Angle_max      Centrum_size   Random_dist    Wide_outside\n\
 ";
 
-/*-<a                             href="../libqhull/qh-qhull.htm#TOC"
-  >-------------------------------</a><a name="main">-</a>
 
-  main( argc, argv )
-    processes the command line, calls qhull() to do the work, and exits
-
-  design:
-    initializes data structures
-    reads points
-    finishes initialization
-    computes convex hull and other structures
-    checks the result
-    writes the output
-    frees memory
-*/
-int main(int argc, char *argv[]) {
-  int curlong, totlong; /* used !qh_NOmem */
+int run_qvoronoi(FILE *fin,FILE *fout) {
+  int curlong, i,totlong; /* used !qh_NOmem */
   int exitcode, numpoints, dim;
   coordT *points;
   boolT ismalloc;
+  int argc=6;
+  char *argv[6];
+  argv[0]=malloc(sizeof(char)*200);
+  argv[0]="src/qhull/qvoronoi\0";
+  argv[1]=malloc(sizeof(char)*2);
+  argv[1]="p\0";
+  argv[2]=malloc(sizeof(char)*2);
+  argv[2]="i\0";
+  argv[3]=malloc(sizeof(char)*3);
+  argv[3]="Pp\0";/*
+  argv[5]=malloc(sizeof(char)*6);
+  argv[5]="QR0\0";
+  argv[6]=malloc(sizeof(char)*5);
+  argv[6]="C-0\0";*/
+  argv[4]=malloc(sizeof(char)*4);
+  argv[4]="Qz\0";
+  argv[5]=malloc(sizeof(char)*4);
+  argv[5]="Qt\0";
+  /*argv[6]="R1.0e-5\0";*/
+/*#if __MWERKS__ && __POWERPC__
+  char inBuf[BUFSIZ], outBuf[BUFSIZ], errBuf[BUFSIZ];
+  SIOUXSettings.showstatusline= false;
+  SIOUXSettings.tabspaces= 1;
+  SIOUXSettings.rows= 40;
+  if (setvbuf (stdin, inBuf, _IOFBF, sizeof(inBuf)) < 0 */  /* w/o, SIOUX I/O is slow*/
+  /*|| setvbuf (stdout, outBuf, _IOFBF, sizeof(outBuf)) < 0
+  || (stdout != stderr && setvbuf (stderr, errBuf, _IOFBF, sizeof(errBuf)) < 0)) 
+    fprintf (stderr, "qhull internal warning (main): could not change stdio to fully buffered.\n");
+  argc= ccommand(&argv);
+#endif
 
-  QHULL_LIB_CHECK /* Check for compatible library */
-
-  if ((argc == 1) && isatty( 0 /*stdin*/)) {
+  if ((argc == 1) && isatty( 0 *//*stdin*//*)) {      
     fprintf(stdout, qh_prompt2, qh_version);
     exit(qh_ERRnone);
   }
   if (argc > 1 && *argv[1] == '-' && !*(argv[1]+1)) {
     fprintf(stdout, qh_prompta, qh_version,
-                qh_promptb, qh_promptc, qh_promptd, qh_prompte);
+		qh_promptb, qh_promptc, qh_promptd, qh_prompte);
     exit(qh_ERRnone);
   }
-  if (argc > 1 && *argv[1] == '.' && !*(argv[1]+1)) {
+  if (argc >1 && *argv[1] == '.' && !*(argv[1]+1)) {
     fprintf(stdout, qh_prompt3, qh_version);
     exit(qh_ERRnone);
-  }
-  if (argc > 1 && *argv[1] == '-' && *(argv[1]+1)=='V') {
-      fprintf(stdout, "%s\n", qh_version2);
-      exit(qh_ERRnone);
-  }
-  qh_init_A(stdin, stdout, stderr, argc, argv);  /* sets qh qhull_command */
-  exitcode= setjmp(qh errexit); /* simple statement for CRAY J916 */
+  }*/
+  qh_init_A (fin, fout, stderr, argc, argv);  /* sets qh qhull_command */
+  exitcode= setjmp (qh errexit); /* simple statement for CRAY J916 */
   if (!exitcode) {
-    qh NOerrexit= False;
-    qh_option("voronoi  _bbound-last  _coplanar-keep", NULL, NULL);
+    qh_option ("voronoi  _bbound-last  _coplanar-keep", NULL, NULL);
     qh DELAUNAY= True;     /* 'v'   */
-    qh VORONOI= True;
+    qh VORONOI= True; 
     qh SCALElast= True;    /* 'Qbb' */
-    qh_checkflags(qh qhull_command, hidden_options);
-    qh_initflags(qh qhull_command);
-    points= qh_readpoints(&numpoints, &dim, &ismalloc);
+    /*qh_checkflags (qh qhull_command, hidden_options);*/
+    qh_initflags (qh qhull_command);
+    points= qh_readpoints (&numpoints, &dim, &ismalloc);
     if (dim >= 5) {
-      qh_option("_merge-exact", NULL, NULL);
+      qh_option ("_merge-exact", NULL, NULL);
       qh MERGEexact= True; /* 'Qx' always */
     }
-    qh_init_B(points, numpoints, dim, ismalloc);
+    qh_init_B (points, numpoints, dim, ismalloc);
     qh_qhull();
     qh_check_output();
     qh_produce_output();
@@ -290,14 +306,13 @@ int main(int argc, char *argv[]) {
   }
   qh NOerrexit= True;  /* no more setjmp */
 #ifdef qh_NOmem
-  qh_freeqhull(qh_ALL);
+  qh_freeqhull( True);
 #else
-  qh_freeqhull(!qh_ALL);
-  qh_memfreeshort(&curlong, &totlong);
-  if (curlong || totlong)
-    qh_fprintf_stderr(6263, "qhull internal warning (main): did not free %d bytes of long memory(%d pieces)\n",
+  qh_freeqhull( False);
+  qh_memfreeshort (&curlong, &totlong);
+  if (curlong || totlong) 
+    fprintf (stderr, "qhull internal warning (main): did not free %d bytes of long memory (%d pieces)\n",
        totlong, curlong);
 #endif
   return exitcode;
 } /* main */
-

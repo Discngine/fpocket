@@ -129,7 +129,7 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 
 all: $(MYPROGS) # $(PATH_BIN)$(CHECK)
 
-qhull: 
+qhull:
 	cd src/qhull/ && make
 
 $(PATH_BIN)$(CHECK): $(CHOBJ) $(QOBJS)
