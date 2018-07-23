@@ -36,7 +36,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #include "topology.h"
 
-#define DEBUG 0
+#define DEBUG 1
 
 #define DEBUG_STREAM stdout     /**< define on zhich stream you want to see the debug messages, valid are stdout or stderr*/
 
