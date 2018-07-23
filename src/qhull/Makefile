@@ -148,7 +148,8 @@ CXX_WARNINGS = -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -W
 
 # Default targets for make
 
-all: bin-lib bin/rbox bin/qconvex bin/qdelaunay bin/qhalf bin/qvoronoi bin/qhull bin/testqset \
+all: bin-lib bin/rbox bin/qconvex bin/qdelaunay bin/qhalf bin/qvoronoi bin/qhull 
+#bin/testqset \
      bin/testqset_r qtest bin/user_eg2 bin/user_eg3 bin/user_eg qconvex-prompt
 
 help:
