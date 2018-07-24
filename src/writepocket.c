@@ -99,9 +99,9 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
 
         node_vertice *nvcur = pocket->v_lst->first;
 
-        /*
+       /* 
                                 fprintf(stdout, "A Pocket:\n") ;
-         */
+        */
         while (nvcur) {
             /*
                                             fprintf(stdout, "Vertice %d: %p %d %f\n", i, nvcur->vertice, nvcur->vertice->id, nvcur->vertice->ray) ;
