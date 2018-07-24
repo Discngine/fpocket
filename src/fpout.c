@@ -220,7 +220,6 @@ void write_out_fpocket_DB(c_lst_pockets *pockets, s_pdb *pdb, char *input_name)/
 	// Writing full pdb
 		sprintf(pdb_out_path, "%s_out.pdb", out_path) ;
 
-		fprintf(stdout,"here %s",pdb_out_path);
 		write_each_pocket_for_DB(out_path, pockets,pdb) ;
                 //write_each_matrix(out_path,pockets);
 	}
