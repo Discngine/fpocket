@@ -134,7 +134,7 @@ all:
 fpocket: $(MYPROGS) # $(PATH_BIN)$(CHECK)
 
 qhull:
-	cd src/qhull/ && make -j 12
+	cd src/qhull/ && make
 
 $(PATH_BIN)$(CHECK): $(CHOBJ) $(QOBJS)
 	$(LINKER) $^ -o $@ $(LFLAGS)
