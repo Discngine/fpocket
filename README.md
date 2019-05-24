@@ -66,6 +66,31 @@ fpocket should state when it's beginning to search pocket and also when it's end
 ## User Manual
 For now the user manual (still the one from fpocket 2.0) can be found in the doc folder. When I have some time to kill (or if somebody else has) we could add that here somewhere.
 
+## Frequent issues encountered
+### netcdf issues
+```
+cannot find -lnetcdf
+```
+mdpocket supports reading and writing NETCDF formatted files. In order to use this you need to install the netcdf development libraries on your system. 
+In centos this can be achieved like this : 
+```
+yum install -y epel-release #if the epel repo is not yet activated on your system
+yum install -y netcdf-devel
+
+```
+
+Run make again after installing this library. Mdpocket should build just fine now. 
+
+### stdc++ issues
+```
+cannot find -lstdc++
+```
+You need to install the stc++ static libraries to build fpocket & mdpocket. On centos 7.4 this can be done like this : 
+```
+yum install -y libstc++-static
+```
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
