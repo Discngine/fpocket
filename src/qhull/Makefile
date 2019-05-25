@@ -92,9 +92,16 @@ PRINTC = enscript -2r
 
 #for Gnu's gcc compiler, -O3 for optimization, -g for debugging, -pg for profiling
 # -fpic needed for gcc x86_64-linux-gnu.  Not needed for mingw
-CC        = gcc
+ifeq ($(CXX),g++)
+  CC          = gcc
+  CXX		  = g++:
+else 
+  CC          = clang
+  CXX       = clang
+endif
+
+
 CC_OPTS1  = -O3 -ansi -Isrc -fpic $(CC_WARNINGS)
-CXX       = g++
 
 # libqhullcpp must be before libqhull_r
 CXX_OPTS1 = -O3 -Isrc/ $(CXX_WARNINGS)

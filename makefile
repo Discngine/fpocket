@@ -5,7 +5,6 @@ ARCH	    = LINUXAMD64
 
 PLUGINDIR   = plugins
 
-PATH_GSL    = /home/user/gsl/
 PATH_OBJ    = obj/
 PATH_SRC    = src/
 PATH_HEADER = headers/
@@ -25,21 +24,29 @@ CHECK	    = pcheck
 PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
 PROGMDPOCKET    = $(PATH_BIN)$(MDPOCKET)
 
-CC          = gcc
-CCQHULL	    = gcc
-LINKER      = LD_LIBRARY_PATH=$(PLUGINDIR)/$(ARCH)/molfile gcc
-LINKERQHULL = gcc
+ifeq ($(CXX),g++)
+  CC          = gcc
+  CCQHULL	    = gcc
+  LINKER      = LD_LIBRARY_PATH=$(PLUGINDIR)/$(ARCH)/molfile gcc
+  LINKERQHULL = gcc
+else 
+  CCQHULL	    = clang
+  CC          = clang
+  LINKER      = LD_LIBRARY_PATH=$(PLUGINDIR)/$(ARCH)/molfile clang
+  LINKERQHULL = clang
+endif
 
 CGSL        = -DMD_NOT_USE_GSL -I$(PATH_GSL)include
 COS         = -DM_OS_LINUX
 CDEBUG      = -DMNO_MEM_DEBUG
 CWARN       = -Wall -Wextra -Wwrite-strings -Wstrict-prototypes
 
-CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile #$(CGSL)
+CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
 QCFLAGS     = -O -g -pg -ansi
 
 LGSL        = -L$(PATH_GSL)lib -lgsl -lgslcblas 
-LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/libmolfile_plugin.a -lnetcdf -lstdc++
+LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/libmolfile_plugin.a -lstdc++
+NETCDFFLAGS	= -lnetcdf
 
 #
 #------------------------------------------------------------
@@ -48,13 +55,23 @@ LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/lib
 #QOBJS = $(PATH_QHULL)/src/qvoronoi/qvoronoi.o $(PATH_QHULL)/src/qconvex/qconvex.o
 
 QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
-        $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/io.h $(PATH_QHULL)/libqhull/libqhull.o \
+        $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/libqhull.o \
         $(PATH_QHULL)/libqhull/mem.o $(PATH_QHULL)/libqhull/merge.o $(PATH_QHULL)/libqhull/poly2.o \
         $(PATH_QHULL)/libqhull/poly.o $(PATH_QHULL)/libqhull/qset.o \
         $(PATH_QHULL)/libqhull/random.o $(PATH_QHULL)/libqhull/rboxlib.o \
         $(PATH_QHULL)/libqhull/stat.o $(PATH_QHULL)/libqhull/user.o \
         $(PATH_QHULL)/libqhull/usermem.o \
         $(PATH_QHULL)/libqhull/userprintf.o $(PATH_QHULL)/libqhull/userprintf_rbox.o $(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
+
+
+# QOBJS = $(PATH_QHULL)/libqhull/geom2.o $(PATH_QHULL)/libqhull/geom.o $(PATH_QHULL)/libqhull/global.o \
+#         $(PATH_QHULL)/libqhull/io.o $(PATH_QHULL)/libqhull/io.h $(PATH_QHULL)/libqhull/libqhull.o \
+#         $(PATH_QHULL)/libqhull/mem.o $(PATH_QHULL)/libqhull/merge.o $(PATH_QHULL)/libqhull/poly2.o \
+#         $(PATH_QHULL)/libqhull/poly.o $(PATH_QHULL)/libqhull/qset.o \
+#         $(PATH_QHULL)/libqhull/random.o $(PATH_QHULL)/libqhull/rboxlib.o \
+#         $(PATH_QHULL)/libqhull/stat.o $(PATH_QHULL)/libqhull/user.o \
+#         $(PATH_QHULL)/libqhull/usermem.o \
+#         $(PATH_QHULL)/libqhull/userprintf.o $(PATH_QHULL)/libqhull/userprintf_rbox.o $(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
 CHOBJ = $(PATH_OBJ)check.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)utils.o $(PATH_OBJ)pertable.o $(PATH_OBJ)memhandler.o \
@@ -154,7 +171,7 @@ $(PATH_BIN)$(DPOCKET): $(DPOBJ) $(QOBJS)
 	$(LINKER) $^ -o $@ $(LFLAGS)
 
 $(PATH_BIN)$(MDPOCKET): $(MDPOBJ) $(QOBJS)
-	$(LINKER) $^ -o $@ $(LFLAGS)
+	$(LINKER) $^ -o $@ $(LFLAGS) $(NETCDFFLAGS)
 
 install:
 	mkdir -p $(BINDIR)
