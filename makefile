@@ -22,11 +22,12 @@ TPOCKET	    = tpocket
 DPOCKET	    = dpocket
 MDPOCKET    = mdpocket
 CHECK	    = pcheck
-MYPROGS	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
+PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
+PROGMDPOCKET    = $(PATH_BIN)$(MDPOCKET)
 
 CC          = gcc
 CCQHULL	    = gcc
-LINKER      = gcc
+LINKER      = LD_LIBRARY_PATH=$(PLUGINDIR)/$(ARCH)/molfile gcc
 LINKERQHULL = gcc
 
 CGSL        = -DMD_NOT_USE_GSL -I$(PATH_GSL)include
@@ -39,6 +40,7 @@ QCFLAGS     = -O -g -pg -ansi
 
 LGSL        = -L$(PATH_GSL)lib -lgsl -lgslcblas 
 LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/libmolfile_plugin.a -lnetcdf -lstdc++
+
 #
 #------------------------------------------------------------
 # BINARIES OBJECTS 
@@ -131,7 +133,10 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 all: 
 	make qhull
 	make fpocket
-fpocket: $(MYPROGS) # $(PATH_BIN)$(CHECK)
+	make mdpocket
+fpocket: qhull 	$(PROGFPOCKET) # $(PATH_BIN)$(CHECK)
+mdpocket: qhull $(PROGMDPOCKET)
+
 
 qhull:
 	cd src/qhull/ && make
@@ -173,7 +178,7 @@ clean:
 	rm -f $(PATH_BIN)$(TPOCKET)
 	rm -f $(PATH_BIN)$(DPOCKET)
 	rm -f $(PATH_BIN)$(MDPOCKET)
-	cd src/qhull && make clean
+	cd src/qhull && make clean && rm lib/libqhull*.a
 
 uninstall:
 	rm -f $(PATH_BIN)$(FPOCKET) $(BINDIR)$(FPOCKET)
