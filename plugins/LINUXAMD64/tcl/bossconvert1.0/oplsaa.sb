@@ -1,0 +1,1441 @@
+*****                         Bond Stretching and Angle Bending Parameters - Jan 07 *****
+OW-HW 600.00     0.9572       For TIP4F Water - wlj 1/98  
+OW-LP 900.00     0.1750              "
+***** 529.60     0.9572       J Phys Chem 91, 3349 (1987) for TIP3F (OW-HW)
+*****  38.25     1.5139          "        "      "        for TIP3F (HW-HW)
+C*-HC 340.       1.08
+C -C2 317.       1.522        GLY,ASP,GLU
+C -C3 317.       1.522        END
+C -CA 400.       1.490        wlj 8/97
+C -CB 447.       1.419        GUA
+C -CD 469.       1.40         TYR
+C -CH 317.       1.522        AA
+C -CJ 410.       1.444        URA
+C -CM 410.       1.444        THY
+C -CT 317.       1.522
+C$-CY 317.       1.522        wj
+C$-N$ 490.       1.335        wj
+C -N  490.       1.335        AA
+C -NM 490.       1.335        AA
+C -N* 424.       1.383        CYT,URA
+C -NA 418.       1.388        URAGUA
+C -NC 457.       1.358        CYT
+C -N= 457.       1.290        imine
+C -O  570.       1.229        URAGUA,CYT,AA
+C$-O  570.       1.229        wj             
+C -O2 656.       1.25         GLU,ASP
+C -OH 450.       1.364        TYR
+C -S= 400.       1.640        wlj thioamide, etc.
+NO-ON 550.       1.225        wlj nitro
+CT-NO 375.       1.490        wlj nitro
+CA-NO 400.       1.460        wlj nitro
+N -ON 500.       1.270        wlj pyridine N-oxide
+NC-ON 550.       1.210        wlj nitroso         
+CA-OH 450.       1.364
+CA-OS 450.       1.364        wlj
+CB-OS 340.       1.360        wlj
+CM-OS 450.       1.370        wlj
+CM-OH 450.       1.370        wlj
+C -OS 214.       1.327        J.Comp.Chem.1990,11,1181 SKF8
+C*-C2 317.       1.495        TRP(OL)
+C*-CB 388.       1.459        TRP
+C*-CG 546.       1.352        TRP
+C*-CC 546.       1.352        TRP
+C*-CT 317.       1.495        TRP(OL)
+CS-CT 317.       1.495        wlj
+C*-CW 546.       1.352        TRP
+CA-CW 546.       1.367        pyrrole - wlj
+CU-CS 469.       1.424        wj
+CS-CW 546.       1.367        wj/nm
+CS-CS 469.       1.424         "
+CS-CB 469.       1.424         "
+CS-HA 367.       1.080         "
+CU-NB 410.       1.320         "
+CU-CA 469.       1.421         "
+CU-HA 367.       1.080         "
+NA-NB 400.       1.349         "
+NB-NB 400.       1.280         " could be N-N or N=N
+OS-NB 462.       1.399         "
+OS-CR 462.       1.357         "
+C2-C2 260.       1.526        AA(OL)
+C2-C3 260.       1.526        ILE(OL)
+C3-C3 260.       1.526        Ethane
+C2-CA 317.       1.51         PHE,TYR
+C2-CD 317.       1.51         PHE,TYR
+C2-CC 317.       1.504        HIS
+C2-CH 260.       1.526        AA,SUG
+C2-N  337.       1.449        GLY(OL)
+C2-N2 337.       1.463        ARG(OL)
+C2-N3 367.       1.471        LYS(OL)
+CH-NT 382.       1.448        wlj - MM3 based
+C2-NT 382.       1.448        JACS 112, 8314 (90)
+C3-NT 382.       1.448         " 
+CT-NT 382.       1.448         "
+NT-NT 350.       1.445        wlj
+C2-OH 386.       1.425         SUG(OL),SER
+C2-OS 320.       1.425         SUG(OL)
+CO-OS 320.       1.38         Acetal - wlj 2/93
+CO-C2 260.       1.526          "
+CO-C3 260.       1.526          "
+CW-OS 340.       1.36         Furan  - wlj 4/97
+C2-S  222.       1.81         CYX(OL)
+C2-SH 222.       1.81         CYS(OL)
+C3-CH 260.       1.526        ALA
+C3-CM 317.       1.51         THY(use std C-C)
+C3-N  337.       1.449        TEST!!!!
+C3-N* 337.       1.475        9 methyl bases
+C3-N2 337.       1.463        ARG(OL)
+C3-N3 367.       1.471
+C3-OH 386.       1.425         SUG(OL),SER
+C3-OS 320.       1.425          DMP
+C3-S  222.       1.81         MET(OL)
+C3-SH 222.       1.81         CYS(OL)
+CA-CA 469.       1.40         TRP,TYR,PHE
+CA-C! 469.       1.40  
+C!-C! 385.       1.460        wlj
+C!-CS 385.       1.460        wlj
+C!-CU 385.       1.460        wlj
+C!-CV 385.       1.460        wlj
+C!-CW 385.       1.460        wlj
+C!-CR 385.       1.460        wlj
+C!-C  385.       1.460        wlj
+C!-CM 385.       1.460        wlj
+C!-NA 385.       1.440        wlj
+CA-CB 469.       1.404        ADE
+CA-CD 469.       1.40         PHE,TYR
+CA-CJ 427.       1.433        CYT
+CA-CM 427.       1.433
+CA-CN 469.       1.40         TRP
+CA-CT 317.       1.51         PHE,TYR
+CA-CY 317.       1.49         wlj
+CW-CT 317.       1.504        jtr: HID CB-CG
+CV-CT 317.       1.504        jtr: HIE CB-CG
+CX-CT 317.       1.504        jtr: HIP CB-CG
+CX-CX 520.       1.370        copy from CV-CW for HIP
+CX-NA 427.       1.381        jtr - HIP
+CX-HA 367.       1.08         jtr - HIP
+CA-NY 382.       1.385        jtr - neutral Arg; MLL
+NY-H  434.       1.01         jtr - neutral Arg; MLL
+NC-H  434.       1.01         jtr - neutral Arg; MLL
+CT-NY 382.       1.448        jtr - neutral Arg; MLL
+CA-N2 481.       1.340        ARG
+CQ-N2 481.       1.340        wlj
+CR-N2 481.       1.340        wlj
+CA-NT 481.       1.340        wj/rr anilines
+CA-NA 427.       1.381        GUA
+CQ-N  427.       1.381        wlj
+CA-NC 483.       1.339        ADE,GUA,CYT
+C!-NC 483.       1.339        wlj        
+NC-NC 500.       1.320        wlj pyridazine
+NC-NZ 550.       1.24         wlj  azide
+NZ-NZ 550.       1.12         wlj  azide
+CT-NZ 390.       1.430        wlj 10/04  isonitrile
+CA-NZ 400.       1.410        wlj 10/04  isonitrile
+CA-HA 367.       1.080        PHE, etc.
+CB-CB 520.       1.370        ADE,GUA
+CR-CS 520.       1.370        wj
+CV-CW 520.       1.370        wlj imidazole
+CU-CW 520.       1.370        wlj            
+CB-CD 469.       1.40         TRP
+CB-CN 447.       1.419        TRP
+CB-N* 436.       1.374        ADE,GUA
+CB-NA 436.       1.374        wlj
+CB-NB 414.       1.391        ADE,GUA,HIS
+CB-NC 461.       1.354        ADE,GUA
+CR-NC 461.       1.354        wj
+CC-CF 512.       1.375        HIS
+CC-CG 518.       1.371        HIS
+CC-CT 317.       1.504        HIS
+CC-CV 512.       1.375        HIS
+CW-CW 512.       1.375
+CC-CW 518.       1.371        HIS
+CC-NA 422.       1.385        HIS
+CC-NB 410.       1.394        ADE,GUA,HIS
+CD-CD 469.       1.40         TRP,TYR,PHE
+CD-CN 469.       1.40         TRP
+CA-CC 469.       1.40         TRP
+CD-CC 469.       1.40         TRP
+CE-N* 440.       1.371        ADE,GUA
+CE-NB 529.       1.304        ADE,GUA
+CF-NB 410.       1.394        ADE,GUA,HIS
+CG-NA 427.       1.381        TRP,HIS
+CH-CH 260.       1.526        SUG(as in CH-C2),ILE
+CH-N  337.       1.449        AA
+CH-N* 337.       1.475        ADE,GUA,CYT,URA
+CH-OH 386.       1.425        RSUG,THR
+CH-OS 320.       1.425        SUG
+CI-NC 502.       1.324        ADE
+CJ-CJ 549.       1.350        URA,CYT
+CJ-CM 549.       1.350        THY
+CJ-N* 448.       1.365        URA,CYT
+CK-HA 340.       1.08
+CK-H5 367.       1.08
+CK-N* 440.       1.371
+CK-NA 440.       1.371
+CK-NB 529.       1.304
+C:-CM 700.       1.305        wlj 9/06 allene
+C:-O  700.       1.171        wlj 9/06 ketene
+CM-CM 549.       1.340        wlj
+CM-C= 549.       1.340        wlj 
+CW-C= 549.       1.365
+C=-C= 385.       1.460        wlj 1,3-diene 3/97
+C=-CZ 400.       1.426        wlj 9/06               
+C -CZ 400.       1.444        wlj 9/06
+C=-N= 415.       1.428        wlj azadiene 9/02
+C -C  350.       1.510        wlj oxalic acid, etc.
+C=-C  385.       1.460        wlj acrolein
+CT-C+ 532.8      1.460        wlj - JACS 94, 4632 (1972)
+C+-HC 532.8      1.084        wlj -      "
+CM-CT 317.       1.51         wlj
+C=-CT 317.       1.51         wlj
+CM-HC 340.       1.08         wlj
+CM-H4 367.       1.08  
+C=-HC 340.       1.08         wlj
+HC-C  340.       1.09         wlj 7/96
+CT-CZ 390.       1.470        wlj 9/98 do 11/98
+CA-CZ 400.       1.451        wlj 9/98
+CY-CZ 400.       1.451        wlj
+CZ-NZ 650.       1.157        wlj 9/98
+CZ-CZ 1150.      1.210        do 11/98 - JPOC, 9, 191 (1996)
+HC-CZ 420.       1.080        do 01/99 - JPOC, 9, 191 (1996)
+CM-N* 448.       1.365
+CM-NA 448.       1.365        copy from above for CytH+ (jtr 5-14-91)
+CN-NA 428.       1.38         TRP
+CP-NA 477.       1.343        HIS
+CP-NB 488.       1.335        HIS(MOD)
+CQ-HA 367.       1.08
+CQ-H5 367.       1.08
+CQ-NC 502.       1.324
+CR-HA 367.       1.08
+CR-H5 367.       1.08
+CR-NA 477.       1.343        HIS
+CR-NB 488.       1.335        HIS(MOD)
+CT-CT 268.       1.529        CHARMM 22 parameter file
+CT-HC 340.       1.09         CHARMM 22 parameter file
+DM-Cl 300.       0.30         wlj
+DM-Br 300.       0.30         wlj
+DM-F  300.       0.30         wlj
+DM-HC 340.       0.30         wlj                     
+DM-HO 340.       0.10         wlj                     
+DM-HS 340.       0.10         wlj                     
+DM-H  340.       0.10         wlj
+DM-HA 340.       0.30         wlj                     
+DM-CA 367.       0.30         wlj  
+DM-NC 367.       0.30         wlj      
+DM-N  367.       0.30         wlj      
+DM-NB 367.       0.30         wlj      
+DM-NT 340.       0.30         wlj                       
+DM-N3 340.       0.30         wlj                       
+DM-CT 340.       0.30         wlj                     
+DM-SZ 340.       0.50         wlj                     
+DM-S  340.       0.50         wlj                     
+DM-OS 340.       0.30         wlj                     
+DM-OY 340.       0.30         wlj                     
+DM-OH 340.       0.30         wlj                     
+DM-ON 340.       0.10         wlj                     
+DM-O  553.       0.30         wlj                               
+DM-CM 340.       0.30         wlj
+CT-N  337.       1.449
+CT-NM 337.       1.449
+CT-NC 337.       1.449        wj azide
+CY-N$ 337.       1.449        wj
+CT-N$ 337.       1.449        wj
+CY-N  337.       1.449        wj
+CT-N* 337.       1.475
+CO-N* 337.       1.475        jtr (12/7/01)
+CT-NA 337.       1.475        copy from above for CytH+ (jtr 5-14-91)
+CT-N2 337.       1.463        ARG(OL)
+CT-N3 367.       1.471        LYS(OL)
+CA-N3 400.       1.45         LYS(OL)
+CT-OH 320.       1.41
+NT-OH 320.       1.45         wlj
+NT-OS 320.       1.45         wlj
+N -OH 400.       1.38         wlj
+CT-OS 320.       1.41
+OS-OS 250.       1.47         wlj
+OS-OH 250.       1.47         wlj
+OS-Cl 200.       1.69         wlj
+#####
+Si-CT 187.       1.86         wlj MMFF-based
+Si-Si  94.       2.32         wlj for all Si 
+Si-HC 166.       1.48         wlj stretching
+Si-H  166.       1.48         wlj 
+Si-F  461.       1.57         wlj
+Si-Cl 223.       2.02         wlj
+Si-Br 151.       2.19         wlj
+Si-I  108.       2.44         wlj
+Si-OH 374.       1.64         wlj
+Si-OS 374.       1.64         wlj
+Si-P  108.       2.25         wlj
+Si-NT 266.       1.74         wlj
+Si-S  144.       2.15         wlj
+#####
+CT-S  222.       1.81         CYX(OL)
+CY-S  222.       1.81         wj
+CR-S  250.       1.76         wlj
+CW-S  250.       1.74         wlj
+NB-S  250.       1.73         wlj
+CA-SH 250.       1.74         wlj
+CT-SH 222.       1.81         CYS(OL)
+CT-Cl 245.       1.781        wlj - from MM2 (Tet 31, 1971 (75))
+CA-Cl 300.       1.725        wlj
+CM-Cl 300.       1.725        wlj
+C -Cl 300.       1.79         wlj
+CZ-Cl 330.       1.637        wlj
+CT-Br 245.       1.945        wlj
+CA-Br 300.       1.87         wlj
+CM-Br 300.       1.90         wlj
+C -Br 300.       1.98
+CZ-Br 330.       1.784        wlj
+CA-I  250.       2.08         wlj
+CT-I  200.       2.19         wlj see JPOC 7, 420 (1994)
+CV-HA 367.       1.08
+CV-H4 367.       1.08
+CV-NB 410.       1.394        ADE,GUA,HIS
+CW-NB 410.       1.394
+CW-H4 367.       1.08
+CW-HA 367.       1.08         pyrrole - wlj
+CW-NA 427.       1.381        TRP,HIS
+CY-CY 260.       1.520        cyclopropanes, cyclobutanes - wlj
+CY-CT 280.       1.510             "
+CY-HC 340.       1.088             "
+H -N  434.       1.01         AA
+H -N3 434.       1.01
+H -N* 434.       1.01
+H -N2 434.       1.01         URA,GUA,HIS
+H -NA 434.       1.01         URA,GUA,HIS
+H2-N  434.       1.01         AA
+H2-N2 434.       1.01         ADE,GUA,CYT,GLN,ASN,ARG
+H -NT 434.       1.01
+H3-N2 434.       1.01         ADE,GUA,CYT,GLN,ASN,ARG
+H3-N3 434.       1.01         LYS(OL)
+HO-OH 553.       0.945        SUG(OL) wlj mod 0.96 -> 0.945
+""""" 460.5      0.960        Merz, JCC 15, 1019 (94)
+HO-OS 553.       0.945        SUG(OL)      6/6/94
+HS-SH 274.       1.336        CYS(OL)
+O2-P  525.       1.48          SUG(OL)
+O -P  525.       1.48
+OH-P  230.       1.61          SUG(OL)
+OS-P  230.       1.61          SUG(OL)
+CT-P  212.       1.843         wlj 11/95 MM3 based JACS 114, 8536 (92)
+CA-P  220.       1.78
+CT-P+ 212.       1.820         wlj 9/97
+S -S  166.       2.038        CYX(OL)  SCHERAGA
+C9-C9 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7 530.       1.34           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-CT 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-CH 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C2 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C3 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C7-CT 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C7-CH 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C2 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C3 317.       1.50           OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C3 260.       1.526        Added DSM (from C3-CH)
+CT-C2 260.       1.526        Added DSM (from C2-CH)
+CA-NB 414.       1.391        Added DSM (from CB-NB)
+CA-N  427.       1.381        Added DSM (from GUA)
+CU-N  427.       1.381        wlj                     
+CW-N  427.       1.381        wlj                      
+CB-CT 317.       1.51         Added DSM (from CA-CT)
+CC-CB 520.       1.370        Added DSM (from CB-CB)
+CT-F  367.       1.36         wlj compromise JPCA 7202 (2006)
+***** 367.       1.332        PAK CT-F for CHF3 (emd 5-09-94)
+C2-F  367.       1.38         wlj
+CA-F  420.       1.354        wlj
+CM-F  420.       1.340        wlj
+CZ-F  450.       1.279        wlj
+C -F  420.       1.357        wlj
+CT-CO 268.       1.5290       =CT-CT - wd 3/95
+OH-CO 320.       1.38         =CO-OS - wd 3/96
+HC-CO 340.       1.09         =CT-HC - wd 3/95
+SY-C3 222.       1.81
+SY-CA 340.       1.77
+SY-C8 222.       1.76
+SY-OY 700.       1.44
+SZ-OY 700.       1.53
+SY-N  434.       1.67
+SY-CT 340.       1.77
+SZ-CT 340.       1.79
+U -OU 500.       1.80           J Phys Chem 97, 5685 (1993)
+CZ-S  300.       1.685          wlj 9/06
+CA-S  250.       1.76           thioanisole             copy from CW-S          rcr HIVRT
+CM-S  250.       1.76           hept,                   copy from CW-S          rcr HIVRT
+CM-CY 317.       1.51           hept,                   copy from CM-CT         rcr HIVRT
+CY-NT 382.       1.448          nev,                    copy from CT-NT         rcr HIVRT
+SY-NT 340.       1.77           nev,                    copy from SY-CT         rcr HIVRT
+C -NT 317.       1.522          nev,                    copy from C -CT         rcr HIVRT
+C -CW 400.       1.490          bhap,                   copy from C -CA         rcr HIVRT
+Zn-N   40.       2.05           Merz, JACS 113, 8262 (1991)
+Zn-OH  94.       1.80             "
+Zn-OW  40.       2.05             "
+
+HW-OW-HW    75.00      109.50   For TIP4F Water - wj 1/98
+HW-OW-LP    50.00       54.75   For TIP4F Water - wj 1/98
+********    34.05      104.52   J Phys Chem 91, 3349 (1987) -For TIP3F Water (HW-OW-HW)
+OU-U -OU   150.0       180.0    J Phys Chem 97, 5685 (1993)
+HC-C*-CW    35.        126.8
+HC-C*-CB    35.        126.8
+HC-CS-CW    35.        126.8
+HC-CS-CB    35.        126.8
+HA-CA-CW    35.        126.9    wlj - pyrrole
+HC-C=-CW    35.        122.0    wlj
+HA-CW-CA    35.        130.7    wlj
+HA-CW-C=    35.        130.7    wlj
+HA-CW-NA    35.        121.6    wlj
+CT-CW-NA    70.        121.6    wlj
+C!-CW-NA    70.        121.6    wlj
+CT-CW-OS    70.        121.6    wlj
+C!-CW-OS    70.        121.6    wlj
+CA-CW-NA    70.        121.6    wlj
+HA-CW-CV    35.        130.7    wlj - imidazole
+HA-CV-CW    35.        128.2    wlj
+CM-C:-CM   160.        180.     wlj 9/06
+CM-C:-O    160.        180.     wlj 9/06
+C:-CM-HC    40.        121.0    wlj 9/06
+C:-CM-CT    80.        122.0    wlj 9/06
+C:-CM-CA    80.        122.0    wlj 9/06
+C:-CM-F     80.        125.0    wlj 9/06
+HC-CT-CZ    35.        108.5    wlj
+CT-CT-CZ    58.35      112.7    wlj
+CT-CZ-CZ   150.        180.     do 11/98 - JPOC, 9, 191(1996)
+CA-CZ-CZ   160.        180.     wlj
+S -CZ-CZ   140.        180.     wlj 9/06
+HC-CZ-CZ   112.        180.     do 1/99  - JPOC, 9, 191(1996)
+CA-CA-CZ    70.        120.     wlj
+CT-CZ-NZ   150.        180.     wlj
+N2-CZ-NZ   150.        180.     wlj
+CA-CZ-NZ   150.        180.     wlj
+CM-CZ-NZ   150.        180.     wlj
+HC-CT-NZ    35.        108.5    wlj  10/04 isonitrile
+CA-CA-NZ    80.        120.     wlj  10/04   " 
+CT-NZ-CZ   150.        180.     wlj  10/04   "
+CA-NZ-CZ   170.        180.     wlj  10/04   "
+CT-CX-NA    70.        121.6    jtr - copy from CT-CW-NA for HIP
+HA-CX-CX    35.        130.7    jtr - copy from HA-CW-CV for HIP
+CX-CX-NA     70.       106.3    jtr - copy from CV-CW-NA for HIP
+CX-NA-CR     70.       109.8    jtr - copy from CW-NA-CR for HIP
+C2-C -N     70.        116.6    GLY             GELIN
+C2-C -O     80.        120.4    ASN(OL)         GELIN
+C2-C -O2    70.        117.    GLU(OL)          SCH JPC 79,2379
+C3-C -N     70.        116.6     ACET(OL)        BENEDETTI
+C3-C -O     80.        120.4     ACET(OL)
+C3-C -O2    70.        117.    GLU(OL)          SCH JPC 79,2379
+CA-C -CA    85.        120.     TYR(OL)         GELIN
+CA-C -OH    70.        120.     TYR(OL)        GELIN
+CA-CA-OH    70.        120.
+NC-CA-OH    70.        120.     wlj
+CA-CA-SH    70.        120.     wlj
+CA-CA-OS    70.        120.     wlj
+CM-CM-OS    70.        123.     wlj
+C=-CM-OS    70.        123.     wlj
+CM-CM-OH    70.        123.     wlj
+C=-CM-OH    70.        123.     wlj
+CB-C -NA    70.        111.3    GUA
+CB-C -O     80.        128.8    GUA
+CB-C -N     70.        111.3    wlj
+CS-C -O     80.        128.2    wj
+CD-C -CD    85.        120.     TYR(OL)         GELIN
+CD-C -OH    70.        120.     TYR(OL)        GELIN
+CH-C -N     70.        116.6    AA(OL)
+CH-C -O     80.        120.4    AA(OL)
+CH-C -O2    65.        117.     AA(OL)          SCH JPC 79,2379
+CH-C -OH    70.        115.     ACID(OL)        SCH JPC 79,2379
+CJ-C -NA    70.        114.1    URA
+CJ-C -O     80.        125.3    URA
+CM-C -NA    70.        114.1    THY
+CM-C -O     80.        125.3    THY
+C=-C -O     80.        124.     wlj
+C=-C -HC    80.        116.     wlj
+CT-C -N     70.        116.6
+CT-C -NM    70.        116.6
+CA-C -N     70.        115.5   wlj 8/97 benzamide
+CM-C -N     70.        115.5   wlj
+CT-C -O     80.        120.4
+CA-C -O     80.        120.4   wlj
+CT-C -S=    70.        125.0   wlj
+CT-NO-ON    80.        117.5   wlj  nitro
+CA-NO-ON    80.        117.5   wlj  nitro
+CT-CT-NO    63.        111.1   wlj  nitro
+HC-CT-NO    35.        105.0   wlj  nitro
+CA-CA-NO    85.        120.0   wlj  nitro
+HC-C -N     40.        114.      wlj  
+HC-C -OS    40.        115.       "
+HC-C -OH    40.        115.       "
+O -C -HC    35.        123.0      wlj
+S=-C -HC    35.        127.0      wlj
+NC-C -HC    35.        122.0      wlj
+CT-C -OH    70.        108.    RCOOH  wlj 2/15/95
+CT-C -CT    70.        116.    wlj 7/96
+CT-C -CA    70.        116.    wlj
+C=-C -CT    70.        116.    wlj
+CT-C -O2    70.        117.    GLU(OL)     SCH JPC 79,2379
+CA-C -O2    70.        117.    GLU(OL)     SCH JPC 79,2379
+CT-CT-Cl    69.        109.8               wlj - from MM2
+C -CT-Cl    69.        109.8               wlj
+CA-CA-Cl    75.        120.0               wlj
+CM-CM-Cl    75.        121.5               wlj
+Cl-CM-HC    60.        114.0               wlj
+Cl-CT-Cl    78.        111.7               " Tet 31, 1971 (75)
+HC-CT-Cl    51.        107.6               " see also JACS 121,9198
+CT-CT-Br    69.        110.0               wlj           
+CA-CT-Br    69.        110.0               wlj           
+C -CT-Br    69.        109.8               wlj
+CT-C -Cl    75.        109.0               wlj
+CT-C -Br    75.        109.0               wlj
+O -C -Cl    75.        119.0               wlj
+O -C -Br    75.        119.0               wlj
+CA-CA-Br    75.        120.0               wlj
+CM-CM-Br    75.        120.0               wlj
+Br-CM-HC    60.        114.0               wlj
+Br-CT-Br    78.        111.7               wlj
+HC-CT-Br    51.        107.6               wlj
+CA-CA-I     75.        120.0               wlj
+CT-CT-I     75.        112.0               wlj
+HC-CT-I     75.        111.0               wlj
+CA-CA-F     80.        120.0    wlj
+CM-CM-F     80.        121.5    wlj
+C -CM-F     80.        121.5    wlj
+F -CM-HC    50.        112.0    wlj
+F -CM-F     80.        108.0    wlj
+F -C -O     80.        121.0    wlj
+F -C -CT    80.        111.0    wlj
+N -C -O     80.        122.9    AA(OL)
+NM-C -O     80.        122.9    
+N -C -N     70.        114.2    copy from above for Urea (jtr 5-14-91)
+N -C -S=    70.        125.0    wlj
+N*-C -NA    70.        115.4    URA
+N*-C -NC    70.        118.6    CYT
+NA-C -NA    70.        118.6    copy from above for CytH+ (jtr 5-14-91)
+N*-C -O     80.        120.9    URA,CYT
+NA-C -O     80.        120.6    URA(2),GUA
+NC-C -O     80.        122.5    CYT
+NC-C -NA    70.        118.6
+NA-CM-H4    35.        119.1
+N*-CM-H4    35.        119.1    jtr 12/11/01
+N -CA-HA    35.        119.1    wlj
+O -C -O     80.        126.0     COO- terminal residues
+ON-NO-ON    80.        125.0    wlj  nitro
+O -C -OH    80.        121.0    RCOOH  wlj 2/15/95
+O2-C -O2    80.        126.0     GLU(OL)      SCH JPC 79,2379
+C2-C*-CB    70.        128.6       TRP(OL)
+C2-CA-CB    70.        128.6       TRP(OL)
+C2-C*-CG    70.        125.       TRP(OL)
+C2-C*-CC    70.        125.       TRP(OL)
+C2-C*-CW    70.        125.       TRP(OL)
+CB-C*-CG    85.        106.4       TRP(OL)
+CB-C*-CT    70.        128.6       TRP(OL)
+CB-C*-CW    85.        106.4       TRP(OL)
+CT-C*-CW    70.        125.       TRP(OL)
+C2-CS-CG    70.        125.      
+C2-CS-CC    70.        125.     
+C2-CS-CW    70.        125.    
+CB-CS-CG    85.        106.4    
+CB-CS-CT    70.        128.6   
+CB-CS-CW    85.        106.4  
+CT-CS-CW    70.        125.       TRP(OL)
+C -C2-C2    63.0       112.4      GLU
+C -C2-CH    63.0       112.4      ASP
+C -C2-N     80.0       110.3      GLY   WORK DONE ON 6/23/82
+C -C2-NT    80.0       111.2       GLY   JCP 76, 1439
+C*-C2-CH    63.0       115.6      TRP(OL)
+C2-C2-C2    63.0       112.4       PRO,LYS
+C2-C2-C3    63.0       112.4       alkanes
+C3-C2-C3    63.0       112.4       alkanes
+C2-CH-C3    63.0       112.4       alkanes
+C2-CH-C2    63.0       112.4       alkanes
+C2-C2-CH    63.0       112.4       MET
+C2-CH-OH    80.0       109.5       alcohols
+C3-C2-OH    80.0       109.5       alcohols
+C2-C2-OH    80.0       109.5       alcohols
+C2-C2-N     80.0       111.2       PRO   JCP 76, 1439
+C2-C2-N2    80.0       111.2      ARG   JCP 76, 1439
+C2-C2-N3    80.0       111.2      LYS(OL)   JCP 76, 1439
+**C2-C2-NT    80.0       111.2       PRO   JCP 76, 1439
+CT-CT-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C3-CT-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C2-CT-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+CH-CT-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+CT-C2-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C3-C2-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C2-C2-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+CH-C2-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+CT-CH-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C3-CH-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C2-CH-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+CH-CH-NT    56.2       109.47      wlj - MM3 based - JACS 112, 8314 (90)
+C2-C2-OS    80.0       109.5      THF fit
+C3-CH-OS    80.0       109.5      wlj - guess
+C2-C2-S     50.        114.7      MET            SCHERAGA  JPC 79,1428
+C3-C2-CH    63.0       112.4      ILE
+C3-C2-OS    80.0       109.5       MEE
+CA-C2-CH    63.        114.       PHE(OL)         SCH JPC  79,2379
+CD-C2-CH    63.        114.       PHE(OL)         SCH JPC  79,2379
+CC-C2-CH    63.0       113.1      HIS(OL)
+CH-C2-CH    63.0       112.4      SUG,LEU
+CH-C2-OH    80.0       109.5      SER,end sugar
+CH-C2-OS    80.0       109.5      SUG
+CH-C2-S     50.        114.7      CYX            SCHERAGA  JPC 79,1428
+CH-C2-SH    50.0       108.6      CYS
+C3-C2-CT    63.0       112.4    from C3-C2-CH ILE, alkanes for SKF8
+C2-C2-CA    63.0       112.4    from C2-C2-C3 alkanes for SKF8
+CH-CA-CA    70.        120.     from C2-CA-CA PHE(OL) for SKF8
+C2-CH-CA    63.0       112.4    from C2-CH-C3 alkanes for SKF8
+C -CA-CA    85.        120.     TYR(OL)
+C -CA-HA     35.       120.0
+C2-CA-CA    70.        120.     PHE(OL)
+C2-CA-CD    70.        120.     PHE(OL)
+C2-CD-CD    70.        120.     PHE(OL)
+CA-CA-CA    63.        120.     PHE(OL)
+CA-C!-CA    63.        120.     wlj
+CA-C!-C!    63.        120.     wlj
+CA-CA-C!    63.        120.     wlj
+CA-C!-CR    63.        120.     wlj
+CA-C!-CS    63.        120.     wlj
+CA-C!-CW    63.        120.     wlj
+CA-C!-CU    63.        120.     wlj
+CA-C!-CV    63.        120.     wlj
+CA-CA-CB    63.        120.      TRP(OL)
+CA-CA-CN    85.        120.     TRP(OL)
+CA-CA-CM    70.        124.     wlj/mp
+CA-CM-CT    85.        119.7    wlj/mp
+CA-CA-CT    70.        120.     PHE(OL)
+CA-CA-NT    70.        120.     wlj/rr anilines
+CA-CA-N3    70.        120.     wlj    anilinium
+CA-CA-HA     35.       120. 
+C!-CA-HA     35.       120.     wlj
+CA-CA-DM    10.0        90.     dummy
+HA-CA-DM     2.0        90.     dummy
+CA-NC-DM     5.0       120.0    wlj 8/07
+OY-SZ-DM    10.0        90.     dummy
+CT-NC-NZ     70.       120.0    wlj azide
+NC-NZ-NZ    100.       180.0    wlj azide
+CT-CT-NC     65.       109.0    wlj azide
+NC-CA-HA     35.       116.0    wlj 12/96 based on pyridine
+CA-CA-NC     70.       124.0    wlj   "     "    "     "
+CA-C!-NC     70.       124.0    wlj   "     "    "     "
+C!-CA-NC     70.       124.0    wlj   "     "    "     "
+C!-C!-NC     70.       124.0    wlj   "     "    "     "
+CA-NC-CA     70.       117.0    wlj   "     "    "     "
+CA-NC-C!     70.       117.0    wlj   "     "    "     "
+CA-N -CA     70.       118.0    wlj   pyridine N-oxide  
+CA-N -ON     70.       121.0    wlj   "     "    "     " 
+CA-N -CW     70.       118.0    wlj                     
+CA-N -CS     70.       118.0    wlj                     
+CA-N -CU     70.       118.0    wlj                     
+CT-NC-ON     70.       114.0    wlj   nitroso            
+CA-CA-CW     70.       107.4    wlj  1/97 based on pyrrole
+CW-NA-CW     70.       109.8    wlj   "     "    "     "
+CV-CW-NA     70.       106.3    wlj   "     "  imidazole
+CW-CV-NB     70.       111.0    wlj   "     "    "
+CW-NA-CR     70.       109.8    wlj   "     "    "
+CB-NA-CR     70.       109.8    wlj
+CW-C=-C=     35.       106.0    wlj
+CA-NA-CK     70.       109.8    wlj
+NC-CA-CT     70.       116.0    wlj
+NC-CQ-CT     70.       115.5    wlj
+NB-CV-CT     70.       124.5    wlj
+CA-CV-NB     70.       111.0    wlj
+CA-NC-NC     70.       117.0    wlj  pyridazine
+CT-NC-NC     70.       117.0    wlj  azo
+OS-CW-CS     70.       110.6    wlj  
+OS-CW-C=     70.       110.0    wlj  furan
+CW-OS-CW     70.       106.5    wlj  furan
+CW-OS-CB     70.       106.5    wlj  furan
+CR-OS-CB     70.       106.5    wlj  furan
+OS-CW-HA     35.       113.4    wlj  furan
+S -CW-HA     35.       125.0    wlj 12/07
+S -CR-HA     35.       125.0    wlj 12/07
+S -CW-N      70.       125.0    wlj 12/07
+S -CR-N      70.       125.0    wlj 12/07
+S -CR-NT     70.       120.2    wlj
+NB-CR-NT     70.       126.1    wlj
+S -CW-CV     70.       111.0    wlj
+S -CW-CS     70.       111.0    wlj
+NA-CW-CS     70.       107.7    wj/nm
+CW-CS-CS     70.       107.3     "
+CW-CS-HA     35.       125.7     "
+CW-CS-C!     70.       125.7     "
+CS-CW-C!     70.       132.1     "
+CS-CS-C!     70.       127.5     "
+CS-CW-HA     35.       132.1     "
+CS-CW-CT     70.       132.1     "
+CS-CW-CA     70.       132.1     "
+CS-CS-HA     35.       127.5     "
+CU-NB-NA     70.       104.1     "
+CW-NB-NA     70.       104.1     "
+NB-CU-HA     35.       118.9     "
+NB-CU-CT     70.       118.9     "
+NB-CW-CT     70.       118.9     "
+CU-CS-CW     70.       103.8     "
+CW-CS-CW     70.       103.8     "
+NB-CU-CS     70.       111.9     "
+NB-CW-CS     70.       111.9     "
+CA-CU-HA     35.       128.6     "
+CU-CA-HA     35.       128.2     "
+CU-NB-OS     70.       105.3     "
+NB-NA-CW     56.       113.1     "
+CB-NA-NB     56.       113.1     "
+CR-NA-NB     56.       113.1     "
+NB-NA-H      56.       118.4     "
+NB-NA-CA     70.       118.4     "
+NB-NA-CT     70.       118.4     "
+CW-OS-NB     70.       108.9     "
+NB-CR-OS     70.       115.0     "
+NB-CR-S      70.       115.0     "
+CR-OS-CW     70.       104.0     "
+CV-CW-OS     70.       108.0     "
+HA-CR-OS     35.       117.0     "
+OS-CM-HC     35.       114.5
+CB-CA-HA     35.       120.0
+CC-CA-HA     35.       120.0
+CB-CA-N2    70.        123.5    ADE
+CB-CA-NC    70.        117.3    ADE
+CD-CA-CD    85.        120.     PHE(OL)
+CJ-CA-N2    70.        120.1    CYT
+CJ-CA-NC    70.        121.5    CYT
+CM-CA-N2    70.        120.1
+CA-CA-N2    70.        120.1    wlj
+CM-CA-NC    70.        121.5
+CM-CA-NA    70.        121.5    copy from above for CytH+ (jtr 5-14-91)
+CN-CA-HA     35.       120.0
+NY-CA-NY    70.        111.8    jtr: neutral ARG
+NC-CA-NY    70.        124.1    jtr: neutral ARG
+CA-NC-H     35.        113.0    jtr: neutral ARG
+CA-NY-H     50.        112.5    jtr: neutral ARG
+CA-NY-CT    50.        120.5    jtr: neutral ARG
+H -NY-H     43.6       106.4    jtr: neutral ARG
+CT-NY-H     35.        109.5    jtr: neutral ARG
+CT-CT-NY    80.0       111.2    jtr: neutral ARG
+HC-CT-NY     35.       109.5    jtr: neutral ARG
+N2-CA-N2    70.        120.       ARG(OL)
+N2-CA-NA    70.        116.0    GUA
+N2-CA-NC    70.        119.3    ADE,GUA
+N2-CQ-NC    70.        119.3    wlj    
+N2-CQ-N     70.        116.0    wlj
+NA-CA-NC    70.        123.3    GUA
+C -CB-CB    85.        119.2    GUA
+C -CB-NB    70.        130.     GUA
+N -CQ-NC    70.        123.3    wlj
+C -CS-CW    70.        130.     wj
+C -CB-CW    70.        130.     wj
+C*-CB-CA    85.        134.9     TRP(OL)
+C*-CB-CD    85.        134.9     TRP(OL)
+CA-CB-CA    85.        134.9     TRP(OL)
+C*-CB-CN    85.        108.8     TRP(OL)
+CA-CB-CC    85.        108.8     TRP(OL)
+C*-CB-CC    85.        108.8     TRP(OL)
+CS-CB-CA    85.        134.9     
+CS-CB-CD    85.        134.9     
+CS-CB-CN    85.        108.8     
+CS-CB-CC    85.        108.8     
+CA-CB-CB    85.        117.3    ADE
+CA-CB-CN    85.        116.2     TRP
+CA-CB-NB    70.        132.4    ADE
+CB-CB-N*    70.        106.2    GUA,ADE
+CB-CB-NA    70.        106.2    wlj
+CS-CR-NA    70.        106.2    wj
+CB-CB-NB    70.        111.0    GUA,ADE
+CR-CS-CW    70.        110.4    wj
+CB-CB-NC    70.        127.7    GUA,ADE
+CB-CB-N     70.        127.7    wj
+CS-CR-NC    70.        127.7    wj
+CD-CB-CN    85.        116.2     TRP
+N*-CB-NC    70.        126.2    GUA,ADE
+NA-CB-NC    70.        126.2    wlj
+NB-CB-N     70.        126.2    wj
+NB-CR-N     70.        126.2    wj
+NA-CR-NC    70.        126.2    wj
+C!-CR-OS    70.        122.0    wj 12/06
+C!-CR-NB    70.        130.0    wj 12/06
+CR-NB-NB    70.        109.0    wj 12/06
+CR-OS-CR    70.        107.0    wj 12/06
+C2-CC-CF    70.        131.9     HIS(OL)
+C2-CC-CG    70.        129.05    HIS(OL)
+C2-CC-CV    70.        131.9     HIS(OL)
+C2-CC-CW    70.        129.05    HIS(OL)
+C2-CC-NA    70.        122.2     HIS(OL)
+C2-CC-NB    70.        121.05    HIS(OL)
+CF-CC-NA    70.        105.9     HIS(OL)
+CG-CC-NA    70.        108.75    HIS(OL)
+CG-CC-NB    70.        109.9     HIS(OL)
+CT-CC-CV    70.        120.00    HIS(OL)
+CT-CW-CV    70.        130.7     jtr: HID CB-CG-CD2
+CT-CV-CW    70.        130.7     jtr: HIE CB-CG-CD2
+CT-CX-CX    70.        130.7     jtr: HIP CB-CG-CD2
+CT-CW-CW    70.        120.00
+CT-CC-CW    70.        120.00    HIS(OL)
+CT-CC-NA    70.        120.00    HIS(OL)
+CT-CC-NB    70.        120.00    HIS(OL)
+CV-CC-NA    70.        120.00    HIS(OL)
+CW-CW-NA    70.        120.0
+CW-CC-NA    70.        120.00    HIS(OL)
+CW-CC-NB    70.        120.00    HIS(OL)
+C -CD-CD    85.        120.     TYR(OL)
+CA-CD-CD    85.        120.     PHE
+CB-CD-CD    85.        120.      TRP(OL)
+CD-CD-CD    85.        120.     PHE(OL)
+CD-CD-CN    85.        120.     TRP(OL)
+CD-CD-CC    85.        120.     TRP(OL)
+N*-CE-NB    70.        113.9    ADE,GUA
+CC-CF-NB    70.        109.9     HIS(OL)
+C*-CG-NA    70.        108.7     TRP(OL)
+CA-CA-NA    70.        108.7     TRP(OL)
+C*-CC-NA    70.        108.7     TRP(OL)
+CC-CG-NA    70.        105.9     HIS(OL)
+C -CH-C2    63.0       111.1      AA
+C -CH-C3    63.0       111.1      ALA
+C -CH-CH    63.0       111.1      ILE
+C -CH-N     63.0       110.1      AA     WORK DONE ON 6/23/82
+C -CH-NT    80.0       109.7      AA
+C2-CH-CH    63.0       111.5      SUG,ILE
+C2-CH-N     80.0       109.7      ALA    JACS 94, 2657
+C2-CH-N*    80.0       109.5      SUG
+C2-CH-OS    80.0       109.5      SUG
+C3-CH-C3    63.0       111.5      VAL
+C3-CH-CH    63.0       111.5      ILE
+C3-CH-N     80.        109.5                 **
+C3-CH-OH    80.0       109.5      THR
+CH-CH-CH    63.0       111.5      SUG
+CH-CH-N     80.0       109.7      ILE    JACS 94, 2657
+CH-CH-N*    80.0       109.5      SUG
+CH-CH-OH    80.0       109.5      THR,end sugar
+CH-CH-OS    80.0       109.5      SUG
+N*-CH-OS    80.0       109.5      SUG
+NC-CI-NC    70.        129.1    ADE
+C -CJ-CJ    85.        120.7    URA
+CA-CJ-CJ    85.        117.0    CYT
+CJ-CJ-N*    70.        121.2    CYT
+CM-CJ-N*    70.        121.2    THY
+N*-CK-NB    70.        113.9
+NA-CK-NB    70.        113.9      wlj
+NA-CK-H5    35.        123.05
+N*-CK-H5    35.        123.05
+NB-CK-H5    35.        123.05
+C -CM-C3    85.        119.7      THY
+C -CM-CJ    85.        120.7      THY
+C -CM-CM    85.        120.7
+C -CM-CT     70.       119.7
+C -CA-CT     70.       119.7      wlj
+C -CM-HC     35.       119.7
+C3-CM-CJ    85.        119.7      THY
+CA-CM-CM    85.        117.0
+CA-CM-HC     35.       123.3
+CJ-CM-CT     85.       119.7
+CM-CM-CT     70.       124.0      wlj
+CM-C=-C=     70.       124.0      wlj
+CM-C=-C      70.       118.7      wlj
+CM-C=-CT     70.       124.0      wlj
+C=-C=-CT     70.       124.0      wlj
+CT-CM-C=     70.       124.0      mwm
+CM-CT-CM     63.       112.4      mwm
+CM-CM-HC     35.       120.0      wlj
+CM-CM-H4     35.       119.7
+CM-C=-HC     35.       120.0      wlj
+C=-CM-HC     35.       120.0      wlj
+C=-C=-HC     35.       120.0      wlj
+CT-C -HC     35.       115.0      wlj
+CA-C -HC     35.       115.0      wlj
+CT-CM-HC     35.       117.0      wlj
+HC-CM-HC     35.       117.0      wlj
+CT-CM-CT     70.       130.0      wlj
+CT-C+-CT    172.8      120.0      wlj JACS 94, 4632 (1972)
+CT-C+-HC    144.0      120.0      wlj          "
+CT-CT-C+     63.0      105.0      wlj
+HC-CT-C+     35.0      105.0      wlj
+CM-CM-N*    70.        121.2
+CM-CM-NA    70.        121.2      copy from above for CytH+ (jtr 5-14-91)
+HC-CM-N*     35.       119.1
+HC-CM-NA     35.       119.1      copy from above for CytH+ (jtr 5-14-91)
+CA-CN-CB    85.        122.7      TRP
+CA-CN-NA    70.        132.8    TRP(OL)
+CB-CN-CD    85.        122.7      TRP
+CB-CC-CA    85.        122.7      TRP
+CB-CC-CD    85.        122.7      TRP
+CB-CA-CW    63.0       106.4
+CB-CA-CT    70.        128.6
+CB-CN-NA    70.        104.4
+CB-CC-NA    70.        104.4
+CD-CN-NA    70.        132.8    TRP(OL)
+CA-CC-NA    70.        132.8    TRP(OL)
+CD-CC-NA    70.        132.8    TRP(OL)
+NA-CP-NA    70.        110.75    HISP(OL)
+NA-CP-NB    70.        111.6    HIS(OL)
+HA-CQ-NC     35.       115.45
+H5-CQ-NC     35.       115.45
+NC-CQ-NC    70.        129.1
+HA-CR-NA     35.       120.0
+HA-CX-NA     35.       120.0    jtr: HIP HD2-CD2-NE2
+HA-CR-NB     35.       120.0
+HA-CK-N*     35.       120.0
+HA-CK-NA     35.       120.0      wlj
+HA-CK-NB     35.       120.0      wlj
+NA-CR-NA    70.        120.00    HISP(OL)
+NA-CR-NB    70.        120.00   HIS(OL)
+NA-CR-CT    70.        125.0      wlj
+NB-CR-CT    70.        125.0      wlj
+NA-CR-SY    70.        120.       wlj
+NB-CR-SY    70.        120.       wlj
+NB-CR-S     70.        113.6      wlj
+C -CT-CT    63.0       111.1      AA
+CM-CT-CT    63.0       111.1      " wlj
+CW-CT-HC     35.0      109.5    jtr: HID HB-CB-CG
+CV-CT-HC     35.0      109.5    jtr: HIE HB-CB-CG
+CX-CT-HC     35.0      109.5    jtr: HIP HB-CB-CG
+C -CT-HC     35.       109.5
+C -CT-N     63.0       110.1      AA     WORK DONE ON 6/23/82
+C -CT-NC    63.0       110.1      wj
+C*-CT-CT    63.0       115.6      TRP(OL)
+C*-CT-HC     35.       109.5
+CS-CT-CT    63.0       115.6    wj
+CS-CT-HC     35.       109.5    wj
+CA-CT-CT    63.        114.       PHE(OL)         SCH JPC  79,2379
+CA-CT-HC     35.       109.5
+CA-N3-H3     35.       109.5    wlj anilinium
+CC-CT-CT    63.0       113.1      HIS(OL)
+CW-CT-CT    63.0       114.0     jtr: HID CA-CB-CG
+CV-CT-CT    63.0       114.0     jtr: HIE CA-CB-CG
+CX-CT-CT    63.0       114.0     jtr: HIP CA-CB-CG
+CC-CT-HC     35.       109.5
+CM-CT-HC     35.       109.5
+C=-CT-HC     35.       109.5      wlj
+CT-CT-CT     58.35     112.7      CHARMM 22 parameter file
+C3-CT-C3     40.       109.5
+C2-CT-C2     40.       109.5
+C2-CT-C3     40.       109.5
+C3-CT-C     63.        109.5    from CA-CT-CT 
+CT-CT-HC     37.5      110.7      CHARMM 22 parameter file
+CT-HC-DM     37.5      109.47     wlj
+CT-OS-DM    10.0       109.47     wlj
+CA-OS-DM    10.0       109.47     wlj
+CT-OH-DM    10.0       109.47     wlj
+CA-OH-DM    10.0       109.47     wlj
+OH-HO-DM    10.0       109.47     wlj
+HO-OH-DM    10.0       109.47     wlj
+CT-S -DM    10.0       109.47     wlj
+CT-SH-DM    10.0       109.47     wlj
+SH-HS-DM    10.0       109.47     wlj
+NZ-CZ-DM    10.0       90.0       wlj
+CA-NT-DM    10.0       109.5      wlj
+NO-ON-DM    10.0       109.5      wlj
+C -N -DM    10.0       109.5      wlj
+DM-ON-DM    10.0       109.5      wlj
+DM-NT-H     10.0       100.       wlj
+DM-N -H     10.0       100.       wlj
+DM-N3-CT    10.0       100.       wlj
+DM-N3-CA    10.0       100.       wlj
+DM-N3-CR    10.0       100.       wlj
+CR-OS-DM    10.0       125.       wlj
+CW-OS-DM    10.0       125.       wlj
+NB-OS-DM    10.0       125.       wlj
+NB-NB-DM    10.0       125.       wlj
+CR-NB-DM    10.0       125.       wlj
+NA-NB-DM    10.0       125.       wlj
+CW-S -DM    10.0       130.       wlj
+NB-S -DM    10.0       130.       wlj
+CR-S -DM    10.0       130.       wlj
+CT-CT-N     80.0       109.7      ALA    JACS 94, 2657
+CT-CT-NM    80.0       109.7      ALA    JACS 94, 2657
+CT-CT-N*     50.       109.5
+CT-CO-N*     50.       109.5      jtr (12/7/01)
+CT-CT-N2    80.0       111.2      ARG   JCP 76, 1439
+C -CT-N3    80.0       111.2      Amino terminal residues
+C -CT-NT    80.0       111.2      wlj
+CA-CT-NT    80.0       111.2      wlj
+CA-CT-NA    80.0       111.2      wlj
+CT-CT-N3    80.0       111.2      LYS(OL)   JCP 76, 1439
+CT-CT-OH     50.       109.5
+CA-CT-OH     50.       109.5      wlj
+CT-CT-OS     50.       109.5
+CA-CT-OS     50.       109.5
+CT-CT-S     50.        114.7      CYX            SCHERAGA  JPC 79,1428
+CT-CT-SH    50.0       108.6      CYS
+CA-CT-S     50.        114.7      wlj
+CW-CT-S     50.        114.7      wlj
+CT-NT-H     35.0       109.5
+CA-NT-H     35.0       116.0     wlj    anilines 9/06
+CA-NT-CA    50.0       116.0     wlj    anilines 9/06
+CA-NT-CT    50.0       116.0     wlj    anilines 9/06
+CT-NT-CT    51.8       107.2     wlj - MM3 based JACS 112, 8314 (90)
+CT-NT-CH    51.8       107.2             "
+CT-NT-C2    51.8       107.2             "
+CT-NT-C3    51.8       107.2             "
+CH-NT-CH    51.8       107.2             "
+CH-NT-C2    51.8       107.2             "
+CH-NT-C3    51.8       107.2             "
+C2-NT-C2    51.8       107.2             "
+C2-NT-C3    51.8       107.2             "
+C3-NT-C3    51.8       107.2             "
+HC-CT-HC     33.       107.8      CHARMM 22 parameter file
+DM-CM-HC     10.        90.0      wlj
+DM-C=-HC     10.        90.0      wlj
+DM-CM-CM      2.        90.0      wlj
+DM-CM-C=      2.        90.0      wlj
+DM-C=-C=      2.        90.0      wlj
+DM-C=-CM      2.        90.0      wlj
+DM-HC-DM     33.       109.47     wlj
+DM-HO-DM     33.       109.47     wlj
+DM-HS-DM     33.       109.47     wlj
+DM-H -DM     33.       109.47     wlj
+DM-OS-DM      5.       109.47     wlj
+DM-OH-DM      5.       109.47     wlj
+DM-S -DM      5.       109.47     wlj
+DM-SH-DM      5.       109.47     wlj
+DM-F -DM     33.       109.47     wlj
+DM-Cl-DM     33.       109.47     wlj
+DM-Br-DM     33.       109.47     wlj
+DM-I -DM     33.       109.47     wlj
+CY-CY-HC    37.5       117.2      cyclopropanes - wlj  10/97
+CY-CY-CY    30.0        79.2            "
+CY-CY-CT    37.5       117.2            "
+CY-CT-HC    37.5       110.7            "
+HC-CY-HC     35.       114.3            "
+HC-CY-CT     35.       114.3            "
+CY-CY-N$     80.        89.0      small rings - wj
+CY-N$-C$     50.        94.0            "
+N$-C$-CY     70.        91.0            "
+CY-CY-C$     63.        85.0            "
+N$-C$-O      80.       134.0            "
+CY-C$-O      80.       134.0            "
+HC-CY-N$     35.       111.0            "
+HC-CY-N      35.       108.0            "
+HC-CY-C$    37.5       110.0            "
+CY-CY-N     37.5       126.0            "
+HC-CY-S     37.5       108.0            "
+CY-CY-S      55.       128.0            "
+CY-N -C      55.       128.0            "
+CY-N -H      40.       113.0            "
+N -CY-C$     70.       117.0            "
+N$-CY-S      55.       109.0            "
+C$-N$-CT     55.       127.0            "
+CY-S -CT     62.        94.0            "
+CY-N$-CT     50.       126.0            "
+N$-CT-CT     80.       110.0            "
+N$-CT-HC     35.       109.5            "
+N$-CT-C      80.       113.0            "
+CY-O$-CY     60.        90.0            "
+CY-CY-O$     50.        90.0            "
+CT-CY-O$    37.5       117.2            "
+HC-CY-O$    37.5       117.2            "
+HC-CT-N      35.       109.5
+HC-CT-NM     35.       109.5
+HC-CT-N*     35.       109.5      jtr (12/7/01)
+HC-CO-N*     35.       109.5
+HC-CT-NA     35.       109.5      copy from above for CytH+ (jtr 5-14-91)
+HC-CT-N2     35.       109.5
+HC-CT-N3     35.       109.5
+HC-CT-NT     35.       109.5      JACS 115, 9620 (93)
+DM-H -NT     10.       109.5      wlj
+HC-CT-NC     35.       109.5
+HC-CT-OH     35.       109.5
+HC-CT-OS    35.0       109.5      SUG
+HC-CT-S      35.       109.5
+HC-CT-P      41.       109.5      wlj 11/95 MM3 based JACS 114, 8536 (92)
+CT-CT-P      43.       109.5             "
+CA-CT-P      43.       109.5             "
+CT-CT-P+     43.       109.5      wlj 9/97
+CT-P+-CT     45.       109.5      " AMBER OS-P-OS
+HC-CT-P+     41.       109.5      "
+HC-CT-SH     35.       109.5
+N*-CT-OS     50.       109.5
+N*-CO-OS     50.       109.5     jtr (12/7/01)
+CC-CV-HA     35.       120.0
+CC-CV-NB    70.        120.00    HIS(OL)
+CW-CW-NB    70.        120.00
+HA-CV-NB     35.       120.0
+C*-CW-HA     35.       120.0
+C*-CW-NA    70.        108.7     TRP(OL)
+CC-CW-HA     35.       120.0
+CC-CW-NA    70.        120.00    HIS(OL)
+H4-CW-NA     35.       120.0
+HA-CA-NA     35.       120.0
+C -N -C2    50.        121.9      PRO(OL)
+C -N -C3    50.        121.9      TEST!!!!!!!!
+C -N -CH    50.        121.9      AA(OL)
+C -N -CT    50.        121.9
+C -NM-CT    50.        121.9
+C -N -CA    50.        121.9      wlj
+C -N -H     35.        119.8      AA(OL)
+CQ-NC-DM     5.        119.8      wlj    
+C2-N -C3    50.        121.9
+C -N -H2    35.        120.       GLN,ASN                 **
+C2-N -CH    50.        118.       PRO(OL)         DETAR JACS 99,1232
+C2-N -H     38.        118.4      AA(OL)
+C3-N -H     38.        118.4      TEST!!!!!!!
+CH-N -H     38.        118.4      AA(OL)
+CT-N -CT    50.        118.       PRO(OL)         DETAR JACS 99,1232
+CT-N2-CT    50.        118.       
+CT-NM-CT    50.        118.       PRO(OL)
+CA-N -CT    50.        118.       wj
+CA-NC-CT    50.        118.       wj
+CT-N -H     38.        118.4
+H -N -H     35.        120.       ADE,CYT,GUA,GLN,ASN     **
+H -N2-H     35.        113.       wlj 
+H3-N -H3    35.        120.       ADE,CYT,GUA,GLN,ASN     **
+C -N*-CH    70.        117.6      URA,CYT
+C -N*-CJ    70.        121.6      URA,CYT
+C -N*-CM    70.        121.6      
+C -NA-CM    70.        121.6      copy from above for CytH+ (jtr 5-14-91)
+C -N*-CT     70.       117.6
+C -N*-CO     70.       117.6      jtr 12/11/01
+C -N*-H     35.        119.2
+C3-N*-CB    70.        125.8      9 methylated guan,aden
+C3-N*-CE    70.        128.8      Methylated purines
+C3-N*-CK    70.        128.8
+CB-N*-CE    70.        105.4      GUA,ADE
+CB-N*-CH    70.        125.8      GUA,ADE
+CE-N*-CH    70.        128.8      GUA,ADE
+CE-N*-CT     70.       128.8
+CE-N*-H     35.        127.3
+CH-N*-CJ    70.        121.2      URA,CYT
+CH-N*-CK    70.        128.8
+CJ-N*-CT     70.       121.2
+CJ-N*-H     35.        119.2
+CM-N*-CT     70.       121.2
+CM-N*-CO     70.       121.2       jtr 12/11/01
+CM-N*-H     35.        119.2
+CM-NA-H     35.        119.2       copy from above for CytH+ (jtr 5-14-91)
+C2-N2-CA    50.        123.2       ARG(OL)
+C2-N2-H2    35.        118.4      ARG(OL)
+C2-N2-H3    35.        118.4      ARG(OL)
+C3-N2-CA    50.        123.2       ARG(OL)
+C3-N2-H2    35.        118.4      ARG(OL)
+CA-N2-CT    50.        123.2       ARG(OL)
+CA-N2-H     35.        120.       ARG(OL)
+CQ-N2-H     35.        120.       wlj
+CA-N2-H2    35.        120.       ADE,CYT,GUA,ARG
+CA-N2-H3    35.        120.       ADE,CYT,GUA,ARG
+CT-N2-H3    35.        118.4      ARG(OL)
+CT-N2-H     35.        118.4
+H2-N2-H2    35.        120.       ADE,CYT,GUA,GLN,ASN,ARG
+H3-N2-H3    35.        120.       ADE,CYT,GUA,GLN,ASN,ARG
+C2-N3-H3    35.        109.5      LYS
+C3-N3-H3    35.        109.5
+CT-N3-H3    35.        109.5      LYS
+H3-N3-H3    35.        109.5      LYS
+CT-N3-CT    50.        113.0      proline j.phys chem 1979 p 2361
+CA-N3-CT    55.        114.0      wlj                              
+C -NA-C     70.        126.4      URA
+C -N -C     70.        126.4      wlj
+C -NA-CA    70.        125.2      GUA
+C -N -CQ    70.        125.2      wj
+C -NA-H     35.        116.8      GUA,URA(2)
+CA-NA-H     35.        118.0      GUA
+CQ-N -H     35.        118.0      wlj
+CC-NA-CP    70.        107.30      HIS(OL)
+CC-NA-CR    70.        120.00      HIS(OL)
+CC-NA-H     35.        120.00      HIS(OL)
+CG-NA-CN    70.        111.6      TRP(OL)
+CA-NA-CC    70.        111.6      TRP(OL)
+CC-NA-CC    70.        111.6      TRP(OL)
+CG-NA-CP    70.        107.3      HIS(OL)
+CG-NA-CR    70.        107.3      HIS(OL)
+CG-NA-H     35.        126.35      HIS(OL)
+CN-NA-CW    70.        111.6      TRP(OL)
+CN-NA-H     35.        123.1       TRP
+CP-NA-H     35.        126.35      HIS(OL)
+CR-NA-H     35.        120.00      HIS(OL)
+CW-NA-H     35.        120.00      HIS(OL)
+CX-NA-H     35.        120.00      jtr HIP
+CB-N*-CK    70.        105.4
+CB-N*-CT    70.        125.8
+CB-N*-CO    70.        125.8       jtr (12/7/01)
+CB-N*-H     30.        125.8
+CK-N*-CT    70.        128.8
+CK-N*-CO    70.        128.8       jtr (12/7/01)
+CK-N*-H     30.        128.8
+CB-NA-CK    70.        105.4       wlj
+CB-NA-CT    70.        125.8       wlj
+CB-NA-H     30.        125.8       wlj
+CK-NA-CT    70.        128.8       wlj
+CK-NA-H     30.        128.8       wlj
+CB-NB-CE    70.        103.8      GUA,ADE
+CB-NB-CK    70.        103.8
+CC-NB-CP    70.        105.3       HIS(OL)
+CC-NB-CR    70.        117.0       HIS(OL)
+CF-NB-CP    70.        105.3      HIS(OL)
+CF-NB-CR    70.        105.3      HIS(OL)
+CR-NB-CV    70.        110.0      HIS(OL) wlj 1/97
+CR-NB-CB    70.        110.0      wlj
+CR-NB-CW    70.        110.0
+C -NC-CA    70.        120.5      CYT
+CA-NC-CB    70.        112.2      GUA
+CA-NC-CI    70.        118.6      ADE
+CA-NC-CQ    70.        118.6
+CQ-NC-CQ    70.        118.6      wlj 1,3,5-triazine
+CB-NC-CI    70.        111.0      ADE
+CB-NC-CQ    70.        111.0
+CR-NC-CQ    70.        111.0      wj
+C2-NT-H     43.2       108.1      wlj MM3 based
+C3-NT-H     43.2       108.1      wlj MM3 based
+CH-NT-H     43.2       108.1      wlj MM3 based
+H -NT-H     43.6       106.4      wlj MM3 based
+H -N3-H     43.6       109.5      wlj            
+H -N -OH    35.        110.2      wlj
+C -N -OH    46.        115.7      wlj
+N -OH-HO    49.        105.4      wlj
+C -OH-HO    35.        113.0      TYR(PHENOL)     HARMONY MEOH
+CA-OH-HO    35.        113.0
+C -O -DM    35.        113.0
+DM-O -DM    10.        117.0
+CM-OH-HO    35.        109.0      wj
+C2-OH-HO    55.0       108.5      SUG,SER(OL,mod)
+C3-OH-HO    55.0       108.5      SUG,SER(OL,mod)
+CH-OH-HO    55.0       108.5      THR(OL),SUG
+CT-OH-HO     55.       108.5      
+HO-OH-P     55.0       108.5      SUG(OL)
+C2-OS-C2    100.0      111.8       DME based
+C2-OS-C3    100.0      111.8       DME based
+CH-C -OS    81.        111.4    from FK506, SKF8
+C -OS-CH    83.        116.9    from FK506 C -OS-CZ for SKF8
+C -OS-C2    83.        116.9
+C -OS-C3    83.        116.9
+O -C -OS    83.        123.4    J.Comp.Chem.1990,11,1181 for SKF8
+C -OS-CT    83.        116.9       "
+OS-C -CT    81.        111.4       "
+OS-C -CA    81.        111.4      wlj
+C -OS-CA    83.        116.9      wlj
+CA-CH-OS    80.0       109.5    SUG from AMBER/BOSS for SKF8
+OS-CO-OH     92.6      111.55   Ha,CarbRes 180,207(88)Merz,JCC 15,1019 (94)
+OS-CO-OS     92.6      111.55     ACETAL - wlj 2/93
+C3-OS-CO    100.0      113.0        "
+C2-OS-CO    100.0      113.0        "
+CH-OS-CO    100.0      113.0        "
+C2-CO-OS    80.0       109.5        "
+C3-CO-OS    80.0       109.5        "
+C3-CO-C3    40.0       109.5        "
+C2-C2-CO    63.0       112.4        "
+C3-C2-CO    63.0       112.4        "
+OS-CO-CT    50.        109.5       hexopyranoses :  CT-CT-OS - wd 3/95 Glucose
+CO-CT-CT    58.35      112.7        "            :  CT-CT-CT - wd 6/95 Glucose
+CT-CO-OH    50.        109.5        "            :  CT-CT-OH - wd 6/95 Glucose
+CT-CO-HC    37.5       110.7        "            :  CT-CT-HC - wd 6/95 Glucose
+CO-OH-HO    55.        108.5        "            :  CT-OH-HO - wd 6/95 Glucose
+OS-CO-HC    35.0       109.5        "            :  HC-CT-OS - wd 6/95 Glucose
+CO-OS-CT    60.        109.5        "            :  CT-OS-CT - wd 6/95 Glucose
+CO-CT-HC    37.5       110.7        "            :  CT-CT-HC - wd 6/95 Glucose
+CO-CT-OH    50.        109.5        "            :  CT-CT-OH - wd 6/95 Glucose
+OH-CO-HC    35.0       109.5        "            :  HC-CT-OS - wd 6/95 Glucose
+HC-CO-HC    33.        109.5        "            :  HC-CT-HC - wd 6/95
+C2-OS-HO    55.0       108.5      SUG
+CA-OS-P     100.0      120.5      mll
+C2-OS-P     100.0      120.5      SUG(OL)
+C3-OS-P     100.0      120.5     DMPhos based
+CH-OS-CH    100.0      111.8      SUG(dme based)
+CH-OS-HO    55.0       108.5      SUG
+CH-OS-P     100.0      120.5      SUG
+CT-OS-CT     60.       109.5
+Si-OS-Si     20.       145.0      wlj
+CT-OS-Si     40.       130.0      wlj
+CT-Si-OS     60.       100.0      wlj
+CT-Si-CT     60.       110.0      wlj
+CT-CT-Si     60.       112.0      wlj
+CT-Si-Si     50.       112.0      wlj
+OS-Si-OS     60.       110.0      wlj
+Si-CT-HC     35.       109.5      wlj
+HC-Si-HC     35.       109.5      wlj
+HC-Si-CT     35.       110.5      wlj
+H -Si-H      35.       109.5      wlj
+H -Si-CT     35.       110.5      wlj
+F -Si-CT     35.       110.5      wlj
+Cl-Si-CT     35.       110.5      wlj
+Br-Si-CT     35.       110.5      wlj
+I -Si-CT     35.       110.5      wlj
+CT-OS-CA     75.       111.0      wlj 9/97
+CT-OS-CM     75.       111.0      wlj
+CT-OS-P     100.       120.5
+CT-OH-P     100.       120.5      jtr 12/10/01
+O -C -O2     80.       126.0      adk
+O2-P -O2    140.0      119.9      SUG(OL)
+O2-P -OH    45.0       108.23     SUG(OL)
+O2-P -OS    100.0      108.23     SUG(OL)
+OH-P -OS    45.0       102.6      SUG(OL)
+OS-P -OS    45.0       102.6      SUG(OL)
+O -P -OH    100.0      108.23     SUG(OL)
+O -P -OS    100.0      108.23     SUG(OL)
+OH-P -OH    45.0       102.6      SUG(OL)
+CT-P -OS    45.0       109.5      wlj 11/95
+CT-P -O2    45.0       109.5      wlj 11/95
+CT-P -O     45.0       109.5      wlj 11/95
+CA-P -OS    45.0       109.5      wlj 11/95
+CA-P -OH    45.0       109.5      wlj 11/95
+CA-P -O     45.0       109.5      wlj 11/95
+C2-S -C3    62.         98.9       MET(OL)
+C2-S -LP    150.        96.7
+C2-S -S     68.        103.7       CYX(OL)        SCHERAGA  JPC 79,1428
+C3-S -LP    150.        96.7
+C3-S -S     68.        103.7       CYX(OL)        SCHERAGA  JPC 79,1428
+CT-S -CT    62.         98.9       MET(OL)
+CR-S -CW    74.         90.0       wlj
+CW-S -CW    74.         97.0       wlj
+CT-S -LP    150.        96.7
+CT-S -S     68.        103.7       CYX(OL)        SCHERAGA  JPC 79,1428
+LP-S -LP     10.       160.0
+LP-S -S     150.        96.7
+C2-SH-HS    44.         96.0        CYS(OL)
+C2-SH-LP    150.        96.7
+C3-SH-HS    44.         96.0        CYS(OL)
+C3-SH-LP    150.        96.7
+CT-SH-HS    44.         96.0        CYS(OL)
+CA-SH-HS    50.         96.0        wlj
+CT-SH-LP    150.        96.7
+HS-SH-HS     35.        92.07
+HS-SH-LP    150.        96.7
+LP-SH-LP     10.       160.0
+P -OS-P     100.       120.5
+C9-C8-C8    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8-C7    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8-CT    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8-CH    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8-C2    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C8-C3    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-C8    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-C7    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-CT    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-CH    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-C2    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C9-C7-C3    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-C8    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-C7    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-CT    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-CH    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-C2    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C8-C3    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-C8    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-C7    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-CT    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-CH    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-C2    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C8-C7-C3    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7-C7    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7-CT    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7-CH    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7-C2    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+C7-C7-C3    70.        118.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C8-CT    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C8-CH    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C8-C2    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C8-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CH-C8-CH    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CH-C8-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C2-C8-CH    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C2-C8-C2    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C2-C8-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C3-C8-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C7-CT    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C7-CH    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C7-C2    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CT-C7-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CH-C7-CH    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CH-C7-C2    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CH-C7-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C2-C7-C2    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C2-C7-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+C3-C7-C3    70.        124.     OPLS hydrocarbons ff (jtr 5-14-91)
+CA-OS-C2   100.0       111.8    AMBER(MMOD) 9/9/91
+CA-CT-CA    40.0       109.5      "
+CA-CT-C2    63.0       114.0      "           
+CA-CT-C     63.0       112.0    wlj
+N -CT-C2    80.        109.7    Added DSM (from N -CT-C3)
+HC-CT-C2    35.        109.5    Added DSM (from C -CT-HC)
+C -CT-C2    63.        111.1    Added DSM (from C3-CT-C )
+CT-CA-NA    70.        120.00   Added DSM (from CT-CC-NA)
+CA-NA-CA    70.        125.2    Added DSM (from C -NA-CA)
+CA-CA-NB    70.        108.7    Added DSM (from CA-CA-NA)
+NA-CA-NB    70.        123.3    Added DSM (from NA-CA-NC)
+CA-NB-CA    70.        125.2    Added DSM (from C -NA-CA)
+HA-CA-NB     35.       119.1    Added DSM (from HC-CM-NA)
+CA-CA-N     70.        120.0    Added DSM (from CA-CA-NA)
+CA-N -H     35.        119.8    Added DSM (from C -N -H)
+CU-N -H     35.        119.8    wlj                         
+CW-N -H     35.        119.8    wlj                         
+CS-N -H     35.        119.8    wlj                         
+CB-CT-HC     35.       109.5    Added DSM (from CA-CT-HC)
+CA-CB-CT    70.        120.     Added DSM (from CA-CA-CT)
+CB-CA-NA    70.        108.7    Added DSM (from CA-CA-NA)
+CA-CA-CC    85.        120.     Added DSM (from CA-CA-CA)
+CB-CB-CT    70.        120.     Added DSM (from CA-CA-CT)
+CB-CB-CC    85.        120.     Added DSM (from CA-CA-CA)
+CB-CT-CT    63.        114.     Added DSM (from CA-CT-CT)
+CT-CT-F     50.        109.5    PAK F-CT-HC (emd 5-09-94)
+C2-C2-F     50.        109.5
+CA-CT-F     50.        109.5    wlj 
+CM-CT-F     50.        109.5    wlj 
+F -CT-F     77.        109.1    PAK F-CT-F  (emd 5-09-94)
+HC-CT-F     40.        107.0    wlj
+CT-C -C     80.        117.2    (JP 1-6-91)  SKF8
+C -C -O     80.        121.4    ketone (JP 1-5-91) SKF8
+C -C -N     70.        116.6    (JP 1-5-91) SKF8
+C9-C8-SY    70.        118.
+C8-SY-C3    62.        98.9
+OY-SY-N    120.0      107.0
+OY-SY-OY   104.0      119.0
+OY-SZ-CT    74.0      107.0
+OY-SY-CT    74.0      108.9
+OY-SY-CA    74.       107.2
+N -SY-CA   100.       103.0
+SY-CA-CA    85.       119.4
+SY-CT-HC    35.0      109.5
+SZ-CT-HC    35.0      109.5
+CT-SY-CT    62.0      102.0       
+CA-SY-CT    62.0      102.0
+CR-SY-CT    62.0      102.0
+CT-SZ-CT    62.0       96.0
+CT-CT-SY    50.0      108.6
+CT-CT-SZ    50.0      108.6
+N -SY-CT   100.0      103.0
+SY-N -CT    50.       120.0
+H -N -SY   100.0      111.0
+OS-C -N     81.        111.4    bhap,                   copy from OS-C -CT      rcr HIVRT
+CT-NT-SY    50.0      108.6     bhap,                   copy from CT-CT-SY      rcr HIVRT
+C -CT-F     50.        109.5    bhap,                   copy from CT-CT-F       rcr HIVRT
+SY-CT-F     50.        109.5    bhap,                   copy from CT-CT-F       rcr HIVRT
+SY-NT-H     35.0       115.0    bhap,                   adjusted from CT-NT-H   rcr HIVRT
+C -CW-NA    85.        120.     bhap,                   copy from C -CA-CA      rcr HIVRT
+NT-C -CW    70.        116.0    bhap,                   copy from CT-C -CT      rcr HIVRT
+C -CW-CS    85.        120.     bhap,                   copy from C -CA-CA      rcr HIVRT
+CB-CS-HA     35.       120.0    bhap,                   copy from CB-CA-HA      rcr HIVRT
+CW-C -O     80.        120.4    bhap,                   copy from CA-C -O       rcr HIVRT
+C -NT-CT    63.0       111.1    bhap,                   copy from C -CT-CT      rcr HIVRT
+C -CT-C     63.0       111.1    lac,                    copy from C -CT-CT      rcr HIVRT
+C -CT-OS     50.       109.5    lac,                    copy from CT-CT-OS      rcr HIVRT
+N -CT-OS     50.       109.5    lac,                    copy from CT-CT-OS      rcr HIVRT
+NT-C -O     80.        120.4    nev,                    copy from CT-C -O       rcr HIVRT
+NT-C -CT    70.        116.0    nev,                    copy from CT-C -CT      rcr HIVRT
+CA-NT-C     63.0       112.0    nev,                    copy from CA-CT-C       rcr HIVRT
+CA-NT-SY    50.0      108.6     nev,                    copy from CT-CT-SY      rcr HIVRT
+OY-SY-NT    74.0      108.9     nev,                    copy from OY-SY-CT      rcr HIVRT
+NT-SY-CT    62.0      102.0     nev,                    copy from CT-SY-CT      rcr HIVRT
+NT-CT-S     50.        114.7    nev,                    copy from CT-CT-S       rcr HIVRT
+HC-CY-NT     35.       114.3    nev,                    copy from HC-CY-CT      rcr HIVRT
+CY-CY-NT    37.5       117.2    nev,                    copy from CY-CY-CT      rcr HIVRT
+CA-NT-CY    50.        109.5    nev,                    copy from CA-NT-CT      rcr HIVRT
+NC-CA-Cl    75.        120.0    nev,                    copy from CA-CA-Cl      rcr HIVRT
+NC-CA-NT     70.       116.0    nev,                    copy from NC-CA-CT      rcr HIVRT
+CM-CM-CY     70.       124.0    hept,                   copy from CM-CM-CT      rcr HIVRT
+CM-CY-HC     35.       109.5    hept,                   copy from CM-CT-HC      rcr HIVRT
+CM-CY-CY    63.        114.     hept,                   copy from CA-CT-CT      rcr HIVRT
+C -CM-CY     70.       119.7    hept,                   copy from C -CM-CT      rcr HIVRT
+N*-CM-CT    70.        120.     hept,                   copy from PHE(OL)       rcr HIVRT
+NA-CM-CT    70.        120.     hept,                   copy from PHE(OL)       rcr HIVRT
+S -CM-CM    85.        119.4    hept,                   copy from SY-CA-CA      rcr HIVRT
+S -CM-N*    85.        119.4    hept,                   copy from SY-CA-CA      rcr HIVRT
+S -CM-NA    85.        119.4    hept,                   copy from SY-CA-CA      rcr HIVRT
+N*-CM-OS    70.        120.     hept,                   copy from CA-CA-OS      rcr HIVRT
+NA-CM-OS    70.        120.     hept,                   copy from CA-CA-OS      rcr HIVRT
+CA-S -CM    62.        104.2    hept,                   adjusted from CT-S -CT  rcr HIVRT
+CM-OS-CA    75.        111.0    hept,                   copy from CT-S -CT      rcr HIVRT
+CM-CT-CA    40.0       109.5    hept,                   copy from CA-CT-CA      rcr HIVRT
+S -CA-CA    85.        119.4    thioanisole             copy from SY-CA-CA      rcr HIVRT
+P -CA-CA    85.        119.4    
+CA-S -CT    62.        104.2    thioanisole             adjusted from CT-S -CT  rcr HIVRT
+CZ-S -CT    65.        100.0    wlj 9/06 
+C -N -Zn    20.        126.                             Merz, JACS 113, 8262 (1991)
+HO-OH-Zn   100.        126.
+N -Zn-N     20.        109.5
+N -Zn-O     20.        109.5
+

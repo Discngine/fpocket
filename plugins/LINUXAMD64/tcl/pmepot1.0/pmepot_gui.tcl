@@ -1,7 +1,7 @@
 #
 # Graphical interface for PME plugin
 #
-# $Id: pmepot_gui.tcl,v 1.6 2007/08/06 21:36:48 jim Exp $
+# $Id: pmepot_gui.tcl,v 1.7 2011/03/09 17:14:31 johns Exp $
 #
 package provide pmepot_gui 1.0.1
 
@@ -274,6 +274,10 @@ proc ::PMEPot::GUI::pmepot_gui {} {
   pack $w.menubar -side top -padx 1 -fill x
   menubutton $w.menubar.util -text Utilities -underline 0 -menu $w.menubar.util.menu
   menubutton $w.menubar.help -text Help -underline 0 -menu $w.menubar.help.menu
+  # XXX - set menubutton width to avoid truncation in OS X
+  $w.menubar.util config -width 8
+  $w.menubar.help config -width 5
+
   # Utilities menu.
   menu $w.menubar.util.menu -tearoff no
   $w.menubar.util.menu add command -label "Guess atomic charges from CHARMM parameters." \

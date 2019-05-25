@@ -8,5 +8,5 @@
 # script is sourced, the variable $dir must contain the
 # full path name of this file's directory.
 
-package ifneeded hesstrans 1.0 "source [list [file join $dir hesstrans.tcl]] ; [list load [file join $dir hesstrans.so]] ; set env(HESSTRANSDIR) [list $dir]"
+package ifneeded hesstrans 1.1 [list load [file join $dir hesstrans.so]]
 

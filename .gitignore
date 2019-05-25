@@ -1,3 +1,4 @@
 nbproject
 *.o
 *_out
+.vscode
