@@ -2,3 +2,4 @@ nbproject
 *.o
 *_out
 .vscode
+src/qhull/bin/
