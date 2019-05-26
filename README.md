@@ -41,6 +41,7 @@ sudo yum install netcdf-devel.x86_64
 
 Download the sources from github via the website or using git clone and then build and deploy fpocket using the following commands.
 
+#### Compiling on Linux
 
 ```
 git clone https://github.com/Discngine/fpocket.git
@@ -48,6 +49,15 @@ cd fpocket
 make 
 sudo make install
 ```
+
+#### Compiling on Mac
+```
+git clone https://github.com/Discngine/fpocket.git
+cd fpocket
+make ARCH=MACOSXX86_64
+sudo make install
+```
+
 
 
 End with an example of getting some data out of the system or using it for a little demo

@@ -2,6 +2,7 @@
 # Makefile.
 #------------------------------------------------------------
 ARCH	    = LINUXAMD64
+export ARCH
 
 PLUGINDIR   = plugins
 
