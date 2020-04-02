@@ -73,14 +73,14 @@ z=0
 y=0
 x=0
 
-print "Reading the grid. Depending on the number of data points you have this might take a while...."
+print("Reading the grid. Depending on the number of data points you have this might take a while....")
 path=open(pathOutput,"w")
 
 counter=1
 for count in range(n_entries/3) :
 	c=f.readline().split()
 	if(len(c)!=3) : 
-		print "error reading grid data"
+		print("error reading grid data")
 		sys.exit("exiting the program")
 	for i in range(3):
 		if (iso_value<0 and float(c[i]) < iso_value) or (iso_value > 0 and float(c[i]) > iso_value) :
@@ -98,4 +98,4 @@ for count in range(n_entries/3) :
 path.close()
 f.close()
 
-print "finished writing %s"%(pathOutput)
+print("finished writing %s"%(pathOutput))
