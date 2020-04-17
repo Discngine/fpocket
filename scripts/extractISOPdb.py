@@ -77,7 +77,7 @@ print("Reading the grid. Depending on the number of data points you have this mi
 path=open(pathOutput,"w")
 
 counter=1
-for count in range(n_entries/3) :
+for count in range(n_entries//3) :
 	c=f.readline().split()
 	if(len(c)!=3) : 
 		print("error reading grid data")
