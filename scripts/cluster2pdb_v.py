@@ -14,7 +14,7 @@ if __name__ == "__main__":
 			pdbname = str(basename)+".pdb"
 			pdir = "results/"+basename+"/clusterinfo.txt"
 			
-			print pdbname+" - "+pdir+"\n"
+			print(pdbname+" - "+pdir+"\n")
 
 			f = open(pdir)
 			lines = f.readlines()

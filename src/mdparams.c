@@ -211,7 +211,9 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
 
             case M_MDPAR_INPUT_FILE:
                 str_list_file = optarg;
-                status++;
+
+				status++;
+
                 break;
 
             case M_MDPAR_OUTPUT_FILE:
