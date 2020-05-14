@@ -211,7 +211,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
 
             case M_MDPAR_INPUT_FILE:
                 str_list_file = optarg;
-
+                status++;
                 break;
 
             case M_MDPAR_OUTPUT_FILE:
@@ -246,6 +246,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
         print_mdpocket_usage(stdout);
     } else {
         if (str_list_file) {
+            
             int res = add_list_snapshots(str_list_file, par);
             if (res <= 0) {
                 fprintf(stdout, "! No data has been read.\n");
@@ -292,97 +293,55 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
         int: Number of file read.
 
  */
-int add_list_snapshots(char *str_list_file, s_mdparams *par) {
-    FILE *f;
-    int nread = 0,
-            status;
+int add_list_snapshots(char *str_list_file, s_mdparams *par)
+{
+	FILE *f;
+	int n,
+		nread = 0,
+		status ;
+    int nfiles=0;
+	char buf[M_MAX_PDB_NAME_LEN],
+		 snapbuf[M_MAX_PDB_NAME_LEN*2+6];
 
-    char buf[M_MAX_PDB_NAME_LEN * 2 + 6],
-            snapbuf[M_MAX_PDB_NAME_LEN],
-            infbuf[M_MAX_PDB_NAME_LEN * 2 + 6],
-            origbuf1[20],
-            origbuf2[20],
-            origbuf3[20],
-            resbuf[20],
-            extbuf1[20],
-            extbuf2[20],
-            extbuf3[20];
+	/* Loading data. */
+	f = fopen(str_list_file, "r") ;
 
+	if(f) {
+        //first read the amount of files to read
+		while(fgets(buf, 210, f)) {
+			n = par->nfiles ;
+			status = sscanf(buf, "%s", snapbuf) ;
+            if(status < 1) {
+				fprintf(stderr, "! Skipping row '%s' with bad format (status %d).\n",
+								buf, status) ;
+			}
+			else {
+				nfiles ++;
+			}
+		}
+        fprintf(stdout,"Identified %d snapshots to analyze\n",nfiles);
+        fflush(stdout);
 
-    /* Loading data. */
-    f = fopen(str_list_file, "r");
-    /*
-            printf(str_list_file);
-     */
-    if (f) {
-        while (fgets(buf, 210, f)) {
-            /*
-                                    printf("B: %s\n" , buf);
-             */
-
-            status = sscanf(buf, "%s", snapbuf);
-            if (status < 1) {
-
-                fprintf(stderr, "! Skipping row '%s' with bad format (status %d).\n",
-                        buf, status);
-            } else {
-                if (strncmp(snapbuf, "#origin", 7) == 0) {
-                    //status=sscanf(buf,"%s\t%d\t%d\t%d",infbuf,par->grid_origin[0],par->grid_origin[1],par->grid_origin[2]);
-                    status = sscanf(buf, "%s\t%s\t%s\t%s", infbuf, origbuf1, origbuf2, origbuf3);
-
-                    if (status >= 0) {
-                        if (str_is_float(origbuf1, M_SIGN) && str_is_float(origbuf2, M_SIGN) && str_is_float(origbuf3, M_SIGN)) {
-                            par->grid_origin[0] = atof(origbuf1);
-                            par->grid_origin[1] = atof(origbuf2);
-                            par->grid_origin[2] = atof(origbuf3);
-                            fprintf(stdout, "Grid origin \t\t: %.3f %.3f %.3f\n", par->grid_origin[0], par->grid_origin[1], par->grid_origin[2]);
-                        } else {
-                            fprintf(stderr, "WARNING : failed to parse origin specified in the input, this calculaion will use an automatically detected origin\n");
-                        }
-
-                        //
-                        fflush(stdout);
-                    } else {
-                        fprintf(stderr, "WARNING : failed to read the origin specified in the input file\n");
-                    }
-                } else if (strncmp(snapbuf, "#resolution", 11) == 0) {
-                    //status=sscanf(buf,"%s\t%d\t%d\t%d",infbuf,par->grid_origin[0],par->grid_origin[1],par->grid_origin[2]);
-                    status = sscanf(buf, "%s\t%s", infbuf, resbuf);
-
-                    if (status >= 0) {
-                        if (str_is_float(resbuf, M_NO_SIGN)) {
-
-                            par->grid_spacing = atof(resbuf);
-                            fprintf(stdout, "Grid resolution \t: %.3f\n", par->grid_spacing);
-                        } else fprintf(stderr, "WARNING : failed to parse resolution specified in the input, this calculaion will use an automatically assigned resolution\n");
-
-                        //
-                        fflush(stdout);
-                    } else fprintf(stderr, "WARNING : failed to read the resolution specified in the input file\n");
-                } else if (strncmp(snapbuf, "#extent", 7) == 0) {
-                    //status=sscanf(buf,"%s\t%d\t%d\t%d",infbuf,par->grid_origin[0],par->grid_origin[1],par->grid_origin[2]);
-                    status = sscanf(buf, "%s\t%s\t%s\t%s", infbuf, extbuf1, extbuf2, extbuf3);
-
-                    if (status >= 0) {
-                        if (str_is_float(extbuf1, M_NO_SIGN) && str_is_float(extbuf2, M_NO_SIGN) && str_is_float(extbuf3, M_NO_SIGN)) {
-
-                            par->grid_extent[0] = (int) atof(extbuf1), par->grid_extent[1] = (int) atof(extbuf2), par->grid_extent[2] = (int) atof(extbuf3);
-                            fprintf(stdout, "Grid extent \t\t: %d %d %d\n", par->grid_extent[0], par->grid_extent[1], par->grid_extent[2]);
-                        } else fprintf(stderr, "WARNING : failed to parse extent specified in the input, this calculaion will use an automatically assigned grid extent\n");
-
-                        //
-                        fflush(stdout);
-                    } else fprintf(stderr, "WARNING : failed to read the extent specified in the input file\n");
-                } else {
-                    nread += add_snapshot(snapbuf, par);
+        if(nfiles>0){
+            par->fsnapshot = (char**) my_malloc( (nfiles) * sizeof (char*));
+            fseek(f, 0, SEEK_SET);
+            while(fgets(buf, 210, f)) {
+                status = sscanf(buf, "%s", snapbuf) ;
+                if(status < 1) {
+                    fprintf(stderr, "! Skipping row '%s' with bad format (status %d).\n",
+                                    buf, status) ;
+                }
+                else {
+                    nread += add_snapshot(snapbuf, par) ;
                 }
             }
         }
-    } else {
-        fprintf(stderr, "! File %s doesn't exists\n", str_list_file);
-    }
-    fclose(f);
-    return nread;
+	}
+	else {
+		fprintf(stderr, "! File %s doesn't exists\n", str_list_file) ;
+	}
+        fclose(f);
+        return nread ;
 }
 
 /**
@@ -406,14 +365,11 @@ int add_list_snapshots(char *str_list_file, s_mdparams *par) {
  */
 int add_snapshot(char *snapbuf, s_mdparams *par) {
     int nm1;
-
     FILE *f = fopen_pdb_check_case(snapbuf, "r");
+
     if (f) {
         nm1 = par->nfiles;
         par->nfiles += 1;
-
-
-        par->fsnapshot = (char**) my_realloc(par->fsnapshot, (par->nfiles) * sizeof (char*));
 
         par->fsnapshot[nm1] = (char *) my_malloc((strlen(snapbuf) + 1) * sizeof (char));
 
