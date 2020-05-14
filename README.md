@@ -51,7 +51,10 @@ sudo make install
 ```
 
 #### Compiling on Mac
+Install MacPorts https://www.macports.org/ for instance (needed for netcdf install)
 ```
+sudo port install netcdf
+export LIBRARY_PATH=/opt/local/lib
 git clone https://github.com/Discngine/fpocket.git
 cd fpocket
 make ARCH=MACOSXX86_64
