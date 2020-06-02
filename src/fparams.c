@@ -724,7 +724,7 @@ void print_pocket_usage(FILE *f) {
     fprintf(f, "\t-%c --%s\t\t: Put this flag if you want to write fpocket\n\
 \t\t\t\t\t\t  descriptors to the standard output\n", M_PAR_DB_RUN, M_PAR_LONG_DB_RUN);
 
-    fprintf(f, "\n\n\033[1mOptional input parameters\033[0m\n");
+    fprintf(f, "\n\n\033[1mOZZAZZA input parameters\033[0m\n");
     fprintf(f, "\t-%c --%s (int)\t\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
     fprintf(f, "\t-%c --%s (string)\t\t: File name of a topology file (Amber prmtop).\t\n", M_PAR_TOPOLOGY, M_PAR_LONG_TOPOLOGY);
     fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n", M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
