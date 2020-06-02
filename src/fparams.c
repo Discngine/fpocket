@@ -141,7 +141,9 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 break;
             case M_PAR_CUSTOM_LIGAND:
 
-                
+                //parse ligand specification that has to be given as 
+                //residuenumber:residuename:chain_code
+                //for 1uyd for instance 1224:PU8:A
                 
                 status++;
                 strcpy(par->custom_ligand, optarg);
@@ -156,17 +158,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     printf("%d\n", a);*/
                     pt = strtok(NULL, ":");
                 }
-                /*
-                printf("%s\t%s\n",par->xlig_resname,par->xlig_chain_code);
-                fprintf(stdout,"%d\n",par->xlig_resnumber);
                 
-                par->xlig_resnumber = 1224;
-                par->xlig_resname[0] = 'P';
-                par->xlig_resname[1] = 'U';
-                par->xlig_resname[2] = '8';
-
-                par->xlig_chain_code[0] = 'A';
-                par->xlig_chain_code[1] = '\0';*/
                 break;
             case M_PAR_PDB_FILE:
                 //                printf("option -f with value `%s'\n", optarg);
@@ -733,8 +725,9 @@ void print_pocket_usage(FILE *f) {
 \t\t\t\t\t\t  descriptors to the standard output\n", M_PAR_DB_RUN, M_PAR_LONG_DB_RUN);
 
     fprintf(f, "\n\n\033[1mOptional input parameters\033[0m\n");
-    fprintf(f, "\t-%c --%s (int)\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
+    fprintf(f, "\t-%c --%s (int)\t\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
     fprintf(f, "\t-%c --%s (string)\t\t: File name of a topology file (Amber prmtop).\t\n", M_PAR_TOPOLOGY, M_PAR_LONG_TOPOLOGY);
+    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n", M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
 
     fprintf(f, "\n\n\033[1mOptional pocket detection parameters\033[0m (default parameters)           \n\
 \t-%c --%s (float)\t\t: Minimum radius of an alpha-sphere.\t(%.1f)\n", M_PAR_MIN_ASHAPE_SIZE, M_PAR_LONG_MIN_ASHAPE_SIZE, M_MAX_ASHAPE_SIZE_DEFAULT);

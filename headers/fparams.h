@@ -105,7 +105,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_MODEL_FLAG_LONG "model_number" /**<flag for anamyzing a specific model in multimodel structures*/
 
 #define M_PAR_CUSTOM_LIGAND 'r' /**flag, to define detection of explicit pockets around the specified ligand*/
-#define M_PAR_USTOM_LIGAND_LONG "custom_ligand"
+#define M_PAR_CUSTOM_LIGAND_LONG "custom_ligand"
 
 
 #define M_FP_USAGE "\n\
