@@ -43,16 +43,16 @@ Download the sources from github via the website or using git clone and then bui
 
 #### Compiling on Linux
 
-```
+```bash
 git clone https://github.com/Discngine/fpocket.git
 cd fpocket
 make 
 sudo make install
 ```
 
-#### Compiling on Mac
+#### Compiling on OSX
 Install MacPorts https://www.macports.org/ for instance (needed for netcdf install)
-```
+```bash
 sudo port install netcdf
 export LIBRARY_PATH=/opt/local/lib
 git clone https://github.com/Discngine/fpocket.git
