@@ -144,3 +144,10 @@ Here you can find more information on how to build the molfile plugin on CentOS 
 [compile molfile plugin on centos 7.4 - Discngine blog post](https://www.discngine.com/blog/2019/5/25/building-the-vmd-molfile-plugin-from-source-code)
 Once built, copy the architecture folder into the fpocket/plugins directory and make sure to declare this architecture in the ARCH variable in the Makefile. Finally run make again.
 If you manage to build for other architectures and it works, I'd be happy to accept PR's with the relevant plugin architectures as I cannot build all of them on my own ;).
+
+
+## Read next
+
+* [Getting Started](GETTINGSTARTED.md)
+
+* [Advanced Features](ADVANCED.md)

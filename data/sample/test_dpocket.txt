@@ -1,3 +1,3 @@
-data/sample/3LKF.pdb   pc1	
+data/sample/3LKF.pdb   pc
 data/sample/1ATP.pdb   atp
 data/sample/7TAA.pdb   abc

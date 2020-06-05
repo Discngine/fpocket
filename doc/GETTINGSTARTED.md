@@ -4,6 +4,7 @@
 
 * [fpocket basics](#fpocket-simple-pocket-detection)
 * [dpocket basics](#dpocket-descriptor-extraction)
+* [tpocket basics](#tpocket-scoring-ranging-and-evaluation)
 
 ## fpocket - simple pocket detection
 
@@ -76,4 +77,50 @@ Here we analyze three pdb files. Note that the ligand name should be separated b
 
 `dpocket -f sample/test_dpocket.txt`
 
+dpocket will yield 3 results files in the current directory. These files will be by default :
+
+    - dpout_explicitp.txt
+    - dpout_fpocketnp.txt
+    - dpout_fpocketp.txt
+
+If you want to change naming of these files, use the `-o` flag in command line to define a new prefix for the fpocket output files, for example `my_test` as prefix would yield `my_test_explicitp.txt`. The three output files contain the in fpocket implemented pocket descriptors for each binding pocket found by fpocket :
+
+- __fpocketp.txt__:  describes all binding pockets found by fpocket that match one of the detection criteria. In other word, fpocket found several pocket in the protein, and this file will contain descriptors of pocket that are considered to be the binding pocket using some detection criteria.
+- __fpocketnp.txt__: describes on the contrary all pockets found by fpocket that are not found to be the actual pocket using the detection criteria.
+- __explicitp.txt__: describes the pockets explicitely defined. By explicitely defined here, we mean that the pocket will be defined as all vertices/atoms situated at a given distance of the ligand (4A by default), regardless of what fpocket found during the algorithm.
+
+
+The ouput files are tab separated ASCII text files that are easy to parse using statistical software such as R. Thus statistical analysis of pocket descriptors becomes a very straightforward and easy process. Basically, the two first files might be used to establish a new scoring function as they describe what fpocket finds, while the last file could be used for a more detailed and accurate analysis of the exact part of the protein that interact with the ligand.
+For more details of the output refer to the output section below, or to [advanced dpocket features](#dpocket-advanced).
+
+
+### Basic input
+
+#### Mandatory:
+
+	flag -f : a dpocket input file, this file  has to contain the path to the PDB file, as well as the residuename of the reference ligand, separated by tabulation.
+
+#### Optional:
+
+	flag -o : the prefix you want to give to dpocket output files
+dpocket offers much more optional parameters in order to guide the pocket detection. For this see Advanced features chapter – [advanced dpocket features](#dpocket-advanced).
+
+### Output
+
+Refer to [advanced dpocket features](#dpocket-advanced) for a detailed description of the dpocket output files. 
+
+In conclusion of this first very easy dpocket run, you can see that you have a very fast and reliable tool to extract pocket descriptors, of binding pockets and “non binding pockets” on a large scale level. These descriptor files provide an excellent tool for further statistical analysis and model building, which leads immediately to your wish to write a new scoring function for ranking pockets using the different descriptors. Well, fpocket, dpocket and tpocket are very useful tools to do exactly this! So go ahead. Lets suppose you have passed several thousands of PDB files and analyzed statistically the significance of all descriptors. You have set up a new scoring function. Now you have an external test set of PDB files you haven't tested. How can you evaluate your scoring function? This is actually also a very easy task, using tpocket.
+
+
+## tpocket scoring ranging and evaluation
+
+As already mentioned in the previous paragraph, tpocket can be used in order to evaluate rapidly cavity scoring functions. If you are for example in the pharmaceutical industry and you want to set up the ultimate drugability prediction score, you might be able to do this with fpocket and dpocket. Afterwards you can actually test your method using tpocket. T is an acronym for testing, here. 
+
+Something fancy we did not tell you about before is that you can also test your scoring function on apo structures using tpocket. The only requirement is the need to align holo and apo structure to obtain superposed apo and holo pockets. But lets explain this with an example. Of course, testing a holo dataset is even more easy, you just need to provide the resname of the ligand and tpocket will do the rest.
+
+### Example – tpocket on apo structures
+
+If you had a look to the fpocket paper, you might have seen that the algorithm was validated on a dataset of 48 proteins previously used to evaluate several pocket detection algorithms. As fpocket programmers are, by definition, very nice people, they have included this data set (holo and aligned apo structures) in the distribution of fpocket, released as `fpocket-1.0-data`.  
+
+So let us use this set as example here. When you extract the dataset in your folder you should have a data folder containing among others two files, pp_apo-t.txt and pp_cplx-t.txt. The first file is a tpocket input file in order to assess the capacity of the scoring function to rank correctly known binding sites on apo structures. The second file is also a tpocket inputfile, but this time for known binding sites on holo structures. Here is a part of pp_apo-t.txt :
 
