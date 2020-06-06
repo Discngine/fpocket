@@ -66,6 +66,14 @@ make ARCH=MACOSXX86_64
 sudo make install
 ```
 
+#### Using conda
+
+There's also a conda package of fpocket available thanks to Simon Bray. You can install fpocket using conda with:
+```
+conda config --add channels conda-forge
+conda install fpocket
+```
+
 ### Running fpocket
 
 You can run fpocket using the following command line as an example:
