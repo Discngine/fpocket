@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0422
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8010
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4900
+HEADER 5  - Mean B-factor of pocket residues  : 0.2299
+HEADER 6  - Hydrophobicity Score              : 27.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 2.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.1293
+HEADER 10  -Pocket volume (convex hull)       : 12.3309
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM    125   CB SER A  31      17.326  19.576  14.038  0.00  0.00           C 0
+ATOM    126   OG SER A  31      17.732  19.950  15.347  0.00  0.00           O 0
+ATOM    158  ND2 ASN A  35      17.494  21.267  10.632  0.00  0.00           N 0
+ATOM    157  OD1 ASN A  35      15.956  22.734   9.894  0.00  0.00           O 0
+ATOM    149  CG2 ILE A  34      12.680  22.906  11.627  0.00  0.00           C 0
+ATOM    122   CA SER A  31      15.810  19.311  13.908  0.00  0.00           C 0
+ATOM    150  CD1 ILE A  34      11.667  21.954  14.572  0.00  0.00           C 0
+ATOM   1177    N GLY A 168      16.023  22.831  21.164  0.73  2.19           N 0
+ATOM   1175    C GLY A 167      16.348  24.073  20.818  0.00  0.00           C 0
+ATOM   1174   CA GLY A 167      15.573  24.649  19.628  0.00  0.00           C 0
+ATOM   1178   CA GLY A 168      16.782  22.051  22.118  0.00  0.00           C 0
+ATOM   1172   CB ALA A 166      12.281  22.382  18.138  0.00  0.00           C 0
+ATOM     94    O ALA A  27      16.870  17.872  17.453  0.55  1.07           O 0
+ATOM    117   CB MET A  30      13.128  18.094  17.405  0.00  0.00           C 0
+ATOM     95   CB ALA A  27      18.043  18.164  20.565  0.00  0.00           C 0
+ATOM   1173    N GLY A 167      14.393  23.879  19.246  0.38  2.19           N 0
+ATOM     92   CA ALA A  27      16.913  17.410  19.844  0.00  0.00           C 0
+TER
+END
