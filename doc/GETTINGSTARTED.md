@@ -169,10 +169,60 @@ In order to be able to track some nifty properties of your cavities, like the so
 
 But first of all, what is a selected pocket here? Here, this means a PDB file containing dummy atoms at the positions of grid points that overlap with grid points in the pocket grid you calculated in the first run (frequency or density grid). How can you obtain these dummy atoms? This can be done in two different ways.
 
-CONTINUE HERE
+__The fast way:__ The first, easy and not very accurate way is to use the defaut pdb files coming from the first run of mdpocket to detect the pocket grids. If you read this manual with a huge attention and did not fall asleep in between, then you remember that mdpocket provides two files called `mdpout_freq_iso_0_5.pdb` and `mdpout_dens_8.pdb`. These files contain dummy atoms at grid point positions that were extracted at grid points having a given value or higher (iso-value of 0.5 and 8 respectively). Now you can use one of these files (depending on if you are more comfortable with one or the other grid, and open them in a molecular viewer that is able to edit structures. PyMOL is an excellent choice to perform this task. Simply select all dummy atoms in the zone of interest (your pocket you want to track) and then create an object with this selection. In the end, the result should look somehow like this:
 
+![pocket selection](images/pymol2.png)
 
+Here the red cloud corresponds to the grid points I have selected by hand. You can now save the grid points that you selected as a PDB file and use this as an input for tracking the properties of the cavity.
 
+__The better way:__ In order to get a good estimate of the volume and extent of the pocket you will notice that the default output pdb files for the two grids are not always sufficient, because of their predefined iso-values. This why you should extract the grid points as a PDB file using your own choice of iso-values. As a general rule, take the iso-values as low as possible. You should still be able to distinguish the different pockets in the density grid, but it's volume should not be very tiny!
+
+You can extract these grid points using a python script that is available in the scripts directory of the fpocket distribution, called `extractIso.py`. Simply execute it with `python extractIso.py` to see how to use it.
+
+### Basic Input
+#### Mandatory (running mode 1 - detecting pockets):
+##### either: 
+    --trajectory_file   : input trajectory file in one of the supported formats
+    --trajectory_format : (dcd,xtc,netcdf,crd,crdbox,dtr,trr)
+    -f                  : topology of the structure as input PDB file
+
+##### or : 
+	-L: a mdpocket input file, this file has to contain the paths to the PDB files of all snapshots (one path per line)
+
+#### Mandatory (running mode 2 - calculating descriptors):
+##### either: 
+
+    --trajectory_file   : input trajectory file in one of the supported formats
+    --trajectory_format : (dcd,xtc,netcdf,crd,crdbox,dtr,trr)
+    -f                  : topology of the structure as input PDB file
+    --selected_pocket   : a PDB file containing the sitepoints in the pocket to be selected
+
+##### or : 
+
+	-L: a mdpocket input file, this file has to contain the paths to the PDB files of all snapshots (one path per line)
+    --selected_pocket   : a PDB file containing the sitepoints in the pocket to be selected
+
+#### Optional:
+
+	-o : the prefix you want to give to mdpocket output files
+
+Note that mdpocket determines its running mode by the input given by the user. Thus if you do not provide a wanted pocket using the --selected_pocket flag, mdpocket will automatically only perform cavity detection. mdpocket offers much more optional parameters in order to guide the pocket detection. All fpocket parameters for pocket clustering and filtering are also available in mdpocket. For this see [advanced mdpocket features](#mdpocket-advanced).
+
+### Output (running mode 1 - pocket detection)
+
+* `mdpout_dens_grid.dx`: A dx formatted grid output. This grid contains the number of Voronoi vertices seen per snapshot nearby the grid point. It can be easily visualized using VMD.
+* `mdpout_freq_grid.dx`: Similar to the prevous file, this grid file contains the frequency of opening of a pocket at each grid point. It can be visualized using VMD.
+* `mdpout_dens_iso_8.pdb`: A pdb file of all grid point positions corresponding to grid points having 8 or more Voronoi vertices nearby per snapshot. This file is provided in order to be able to edit the grid points using PyMOL and select only the points defining the pocket of interest. This pocket of interest should be used as input of mdpocket in the 2nd running mode. If you want to extract gridpoints with other isovalues, use the provided `extractISO.py` file in the scripts directory.
+* `mdpout_freq_iso_0_5.pdb`: A pdb file of all grid point positions corresponding to grid points that are 50% of the trajectory overlapping with a pocket. This file is provided in order to be able to edit the grid points using PyMOL and select only the points defining the pocket of interest. This pocket of interest should be used as input of mdpocket in the 2nd running mode. If you want to extract gridpoints with other isovalues, use the provided `extractISO.py` file in the scripts directory.
+
+### Output (running mode 2 - pocket characterization)
+
+* `mdpout_mdpocket.pdb`: A pdb file containing all Voronoi vertices within the selected pocket region for all snapshots. This file is an NMR like file, containing each snapshot as 
+separated model. This file is best viewed using PyMOL and can be used to create pocket motion movies.
+
+* `mdpout_mdpocket_atoms.pdb`: A pdb file containing all receptor atoms surrounding the selected pocket region. Like the previous output file, this is a NMR like file, containing each snapshot as separated model. This file can be viewed with VMD and PyMOL.
+
+* `mdpout_descriptors.txt`: A text file containing the fpocket pocket descriptors of the selected pocket region for each snapshot. This file can be easily analyzed using standard statistical software like R.
 
 ## dpocket descriptor extraction
 
@@ -322,5 +372,133 @@ Using standard parameters on the example tpocket list given in the example parag
 Summarizing features of tpocket, one could retain, that tpocket is a very fast way to test fpockets performance on your own dataset and test your own scoring functions for ranking purposes of identified binding sites.
 
 You have finished the Getting started section. We hope that you notice the usefulness (hopefully;) of this package of programs for the research of new features, descriptors and scoring functions in the binding site identification field. Well, this was only a very fast overview over the very basic features of fpocket, dpocket and tpocket. If you want to dive into development of your own pocket descriptors and scoring functions, or if you want to change the pocket detection parameters for your purposes, continue with the Advanced features section, next.
+
+
+# Advanced Features
+
+You want to know more about fpocket? This is the section for you, here we tried to compile in a (we hope) comprehensive manner the most important details of fpocket, dpocket and tpocket, to which you have access by command line. It is primordial to know, that fpockets performance was assessed and scoring function was established for standard parameters. The performance of pocket detection and scoring is highly dependent on these parameters, so keep in mind that you might have to adapt scoring to your specific problem.
+Note that this section does not provide too much information about the theoretical background of the way fpocket works. In order to learn more about this read the Materials & Methods of the [freely available paper on the BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-168) website. Nevertheless, we tried to keep it as clear as possible, using some application examples.
+
+## fpocket advanced
+
+### Input command line arguments
+
+#### Mandatory:
+The simplest way to run fpocket is either by providing a single pdb file, or by providing a list of pdb file, stored in a simple text file. You will need one of these two input to run fpocket:
+
+    -f string : one standard PDB filename that you want to analyze with fpocket
+##### or:
+    -F string : filename of a simple list of pdb files.
+
+
+#### Optional:
+
+    -m float: (default 3.4Å) This flag enables the user to modify the minimum radius an alpha sphere might have in a binding pocket. An alpha sphere is a contact sphere, that touches 4 atoms in 3D space without having any internal atoms. Here 3Å allow filtering of too small (protein internal) alpha spheres. I you want to analyze internal interstices, lower this parameter. In the contrary, if you want to analyze more solvent exposed cavities, you can raise this parameter in order to filter out too buried cavities.
+
+    -M float: (default 6.2Å) Here you can modify the maximum radius of alpha spheres in a pocket. An alpha sphere is a contact sphere, that touches 4 atoms in 3D space without having any internal atoms. Here 7Å allow to filter out too large contact spheres, that are lying on the protein surface. If you want to analyze very flat and solvent exposed surface depressions, raise this parameter. For analysis of buried parts of the protein you can lower this parameter. Higher radii might be more interesting for identification of protein protein binding sites or polysaccharide binding sites. Smaller radii enable detection of buried cavities for small organic molecules (drugs, for instance).
+
+    -l int: (None) If you have an input PDB file of an NMR structure or one with multiple models you can specify which model (conformation) you'd like to analyse
+
+    -C char: (default s) The clustering method to be used here. By default a pairwise single linkage clustering is used here. 
+        's': pairwise single linkage clustering,
+        'm': pairwise maximum- (or complete-) linkage clustering, 
+        'a': pairwise average-linkage clustering, 
+        'c': pairwise centroid-linkage clustering
+
+    -e char: (default e) The distance measure used for the clustering algorithm. 
+        'e': Euclidean distance
+        'b': City-block distance
+        'c': correlation
+        'a': absolute value of the correlation
+        'u': uncentered correlation
+        'x': absolute uncentered correlation
+        's': Spearman's rank correlation
+        'k': Kendall's tau
+
+    -i int: (default 15) This flag indicates how many alpha spheres a pocket must contain at least in order to figure in the results provided by fpocket. This parameter enables filtering of too small cavities. Thus, if you want to analyze smaller cavities also, lower this parameter, if you are only interested in huge cavities, like NADP binding sites, you can raise it in order to retain only very few pockets in the end. To give you an idea, a rather big cavity, like a NADP binding site, can have hundreds of alpha spheres. Thus, 30 as standard parameter enables also to keep smaller binding sites.
+
+    -A int: (default 3) Fpocket distinguishes between two types of alpha spheres. Polar alpha spheres and apolar alpha spheres. This flag ranges from 0 to 4 and modifies the definition of the alpha sphere type. By default, an alpha sphere contacting at least 3 apolar atoms (having an electronegativity below 2.8) is considered as apolar. If this is not the case it is considered as polar.
+
+    -D float: (default 2.4Å) this parameter changed compared to the previous versions of fpocket as we completely replaced the clustering algorithms entirely. This measure is now used to analyze a hierarchical distance and cut sub-trees at the desired distance. The bigger the distance, the larger the clusters you'll get. 
+
+    -p float: (default 0.0) This is another parameter for filtering unwanted pockets. It defines the maximum ratio of apolar alpha spheres and the number of alpha spheres in a pocket in order to keep the pocket in the results list. That is to say, by default every pocket is kept (0.0). Now, if you would like to filter rather hydrophobic pockets, raise this parameter and very polar cavities will be filtered out. This parameter is a ratio, not a percentage, thus it ranges from 0 to 1.
+
+    -v int: (default 2500) By default, pockets volume are calculated using a monte-carlo algorithm. Basically, the algorithm picks a random point in the space and check if it is included in any alpha sphere, and stores this status. This is repeated N times, and we estimate the volume of the pocket using ratio between the number of hit and the number of iteration, scaled by the size of the box. This parameter defines the number of iteration to perform. Of course, the higher the value is, the greater the accuracy will be, but the performance will be slowed down.
+
+    -b (none): (NOT USED BY DEFAULT) This option allows the user to chose a discrete algorithm  to calculate  the  volume of each pocket instead of the Monte Carlo method. This algorithm puts each pocket into a grid of  dimention (1/N*X  ;  1/N*Y  ;  1/N*Z),  N being the value given using this option, and X, Y and Z being the box dimensions,  determined using coordinates of vertices. Then, a triple iteration on each dimensions is used to estimate the volume, checking if each points  given  by the iteration is in one of the pocket’s vertices. This parameter defines the grid discretization. If this parameter is used, this algorithm will be used instead of the Monte Carlo algorithm. 
+    Warning: Although this algorithm could be more accurate, a high value might dramatically slow down the program, as this algorithm has a maximum complexity of N*N*N*nb_vertices, and a minimum of N*N*N !!!
+    
+
+    -d (none): Option allowing you to output pockets and properties in a condensed format. This will put to the stdout pocket properties in a tab separated string and write pocket files in a subfolder
+
+    -r string: (None) This parameter allows you to run fpocket in a restricted mode. Let's suppose you have a very shallow or large pocket with a ligand inside and the automatic pocket prediction always splits up you pocket or you have only a part of the pocket found. Specifying your ligand residue with -r allows you to detect and characterize you ligand binding site explicitely. For instance for `1UYD.pdb` you can specify `-r 1224:PU8:A` (residue number of the ligand: residue name of the ligand: chain of the ligand)
+
+    -y string: (filename) EXPERIMENTAL: here you can specify a topology filename in the Amber prmtop format. This can then be used by fpocket & mdpocket to calculate energy grids for your pockets. NB: you have to specify the -x flag to run energy calculations
+
+    -x None: (None) EXPERIMENTAL: specify this flag if you want to run energy calculations on calculated pockets. That's not fully functional and only one or two probes are currently generated and output density grids written. Use with caution
+    
+
+###  Output files description
+
+fpocket yields output directly in the directory of the data file, creating a directory using the name of the PDB file followed bu the _out extension. Here, the command ll sample/3LKF_out of the current sample run would look something like this:
+
+        total 332
+        -rw-r--r-- 1 peter users    769 Nov 29 00:14 3LKF.pml
+        -rw-r--r-- 1 peter users    698 Nov 29 00:14 3LKF.tcl
+        -rwxr-xr-x 1 peter users     30 Nov 29 00:14 3LKF_PYMOL.sh
+        -rwxr-xr-x 1 peter users     41 Nov 29 00:14 3LKF_VMD.sh
+        -rw-r--r-- 1 peter users 245835 Nov 29 00:14 3LKF_out.pdb
+        -rw-r--r-- 1 peter users   6725 Nov 29 00:14 3LKF_pockets.info
+        -rw-r--r-- 1 peter users  49355 Nov 29 00:14 3LKF_pockets.pqr
+        -rw-r--r-- 1 peter users   4073 Nov 29 00:14 3LKF_info.txt
+        drwxr-xr-x 2 peter users   4096 Nov 29 00:14 pockets
+
+As you can see, fpocket provides a lot of files and another subdirectory. However, majority of these files are necessary for easy visualization of binding pockets. Lets explain the content and utility of each file:
+
+* `3LKF_info.txt`: this file contains human readable information (descriptors) about the pockets found on the protein, here an extract:
+    Pocket 1 :
+            Score :         0.490
+            Druggability Score :    0.019
+            Number of Alpha Spheres :       21
+            Total SASA :    19.687
+            Polar SASA :    7.611
+            Apolar SASA :   12.076
+            Volume :        270.934
+            Mean local hydrophobic density :        3.000
+            Mean alpha sphere radius :      3.816
+            Mean alp. sph. solvent access :         0.519
+            Apolar alpha sphere proportion :        0.190
+            Hydrophobicity score:   23.889
+            ...
+
+* `3LKF.pml`: this is a PyMOL script for visualization of binding pockets using PyMOL
+* `3LKF.tcl`: this a tcl script for visualization of binding pockets using VMD
+* `3LKF_PYMOL.sh`: this is the executable script to launch fast visualization using PYMOL
+* `3LKF_VMD.sh`: this is the executable script to launch fast visualization using VMD
+* `3LKF_out.pdb`: this is the most important file, it contains the initial PDB structure given as input. Non cofactor HETATM occurrences will be stripped off in this file compared to the original PDB input file. The PDB file contains centers of alpha spheres using the HETATM definition as dummy atoms. These alpha sphere centers are attached in the end of the PDB file, using the STP residue name (for site point). Apolar alpha spheres carry the atom name APOL, polar alpha spheres the atom name POL. Pockets are sets of alpha spheres. They can be distinguished by residue number. Thus residue STP 1 would be the first binding pocket according to fpocket. To show this more clearly here is an extract of the `3LKF_out.pdb`:
+        
+        ATOM   2346    O LYS A 299       5.196  17.918 108.327  0.00  0.00           O 0
+        ATOM   2347   CB LYS A 299       7.597  17.980 106.440  0.00  0.00           C 0
+        ATOM   2348   CG LYS A 299       8.273  17.265 105.299  0.00  0.00           C 0
+        ATOM   2349   CD LYS A 299       9.679  16.827 105.636  0.00  0.00           C 0
+        ATOM   2350   CE LYS A 299      10.371  16.314 104.370  0.00  0.00           C 0
+        ATOM   2351   NZ LYS A 299      11.749  15.794 104.597  0.00  0.00           N 0
+        ATOM   2352  OXT LYS A 299       5.240  20.009 107.670  0.58  9.64           O 0
+        HETATM    1 APOL STP C   1      27.849  33.435 123.906  0.00  0.00          Ve  
+        HETATM    2 APOL STP C   1      29.108  33.195 122.206  0.00  0.00          Ve  
+        HETATM    3 APOL STP C   1      28.611  33.141 119.797  0.00  0.00          Ve  
+        HETATM    4 APOL STP C   1      26.830  32.143 118.779  0.00  0.00          Ve  
+
+* `3LKF_pockets.pqr`: This file contains all alpha sphere centers, as the 3LKF_out.pdb file, but contains no information about the protein structure. Furthermore using the pqr format enables writing of the van der Waals radius of atoms explicitely in this file. Here this possibility was used to output the radii of alpha spheres of a pocket. Charging this pqr file, one can analyze more precisely the volume recognized by fpocket. Note that, currently only VMD supports reading this format correctly. PyMOL is able to read pqr file, but does not interpret van der Waals radii.    
+
+* `pockets/`: Well, again a subdirectory. But I promise, it's the last one. For development purposes or easy analysis, fpocket proposes this directory which contains according to the current example:
+
+        pocket0_atm.pdb   pocket2_vert.pqr  pocket5_atm.pdb   pocket7_vert.pqr
+        pocket0_vert.pqr  pocket3_atm.pdb   pocket5_vert.pqr  pocket8_atm.pdb
+        pocket1_atm.pdb   pocket3_vert.pqr  pocket6_atm.pdb   pocket8_vert.pqr
+        pocket1_vert.pqr  pocket4_atm.pdb   pocket6_vert.pqr  pocket9_atm.pdb
+        pocket2_atm.pdb   pocket4_vert.pqr  pocket7_atm.pdb   pocket9_vert.pqr
+
+* `*_atm.pdb`: These files contain only the atoms contacted by alpha spheres in the given pocket. Complementary to this information, `*_vert.pqr` files contain only the centers and radii of alpha spheres within the respective pocket. As extensions mention, atoms are output in the PDB file format and alpha sphere centers in the PQR file format.
 
 
