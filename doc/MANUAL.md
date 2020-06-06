@@ -12,6 +12,4 @@ fpocket is a protein pocket prediction algorithm. Given a PDB protein structure 
 
 * [Installation](INSTALLATION.md)
 
-* [Getting Started](GETTINGSTARTED.md)
-
-* [Advanced Features](ADVANCED.md)
+* [Getting Started & Advanced Features](GETTINGSTARTED.md)

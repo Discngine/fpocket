@@ -1,11 +1,31 @@
-# Getting started
+# Getting started & Advanced guides
 
-#### Quicklinks:
+##### fpocket
 
 * [fpocket basics](#fpocket-simple-pocket-detection)
+* [fpocket advanced](#fpocket-advanced)
+
+##### mdpocket
+
 * [mdpocket basics](#mdpocket-pocket-detection-on-md-trajectories)
+* [mdpocket advanced](#mdpocket-advanced)
+
+##### dpocket
+
 * [dpocket basics](#dpocket-descriptor-extraction)
+* [dpocket advanced](#dpocket-advanced)
+
+##### tpocket
+
 * [tpocket basics](#tpocket-scoring-ranging-and-evaluation)
+* [tpocket advanced](#tpocket-advanced)
+
+##### other
+
+* [pocket descriptors](#pocket-descriptors)
+* [cofactor definitions](#Cofactor-definition)
+* [customizing fpocket/mdpocket](#Customizing-fpocket)
+
 
 ## fpocket - simple pocket detection
 
@@ -455,7 +475,7 @@ fpocket yields output directly in the directory of the data file, creating a dir
 
 As you can see, fpocket provides a lot of files and another subdirectory. However, majority of these files are necessary for easy visualization of binding pockets. Lets explain the content and utility of each file:
 
-* `3LKF_info.txt`: this file contains human readable information (descriptors) about the pockets found on the protein, here an extract:
+* `3LKF_info.txt`: this file contains human readable information (descriptors) about the pockets found on the protein. Notably this file contains a pocket score (likeliness this is a small molecule binding site) and a druggability score (how druggable the binding site is) Here an extract:
     Pocket 1 :
             Score :         0.490
             Druggability Score :    0.019
@@ -477,9 +497,6 @@ As you can see, fpocket provides a lot of files and another subdirectory. Howeve
 * `3LKF_VMD.sh`: this is the executable script to launch fast visualization using VMD
 * `3LKF_out.pdb`: this is the most important file, it contains the initial PDB structure given as input. Non cofactor HETATM occurrences will be stripped off in this file compared to the original PDB input file. The PDB file contains centers of alpha spheres using the HETATM definition as dummy atoms. These alpha sphere centers are attached in the end of the PDB file, using the STP residue name (for site point). Apolar alpha spheres carry the atom name APOL, polar alpha spheres the atom name POL. Pockets are sets of alpha spheres. They can be distinguished by residue number. Thus residue STP 1 would be the first binding pocket according to fpocket. To show this more clearly here is an extract of the `3LKF_out.pdb`:
         
-        ATOM   2346    O LYS A 299       5.196  17.918 108.327  0.00  0.00           O 0
-        ATOM   2347   CB LYS A 299       7.597  17.980 106.440  0.00  0.00           C 0
-        ATOM   2348   CG LYS A 299       8.273  17.265 105.299  0.00  0.00           C 0
         ATOM   2349   CD LYS A 299       9.679  16.827 105.636  0.00  0.00           C 0
         ATOM   2350   CE LYS A 299      10.371  16.314 104.370  0.00  0.00           C 0
         ATOM   2351   NZ LYS A 299      11.749  15.794 104.597  0.00  0.00           N 0
@@ -501,4 +518,455 @@ As you can see, fpocket provides a lot of files and another subdirectory. Howeve
 
 * `*_atm.pdb`: These files contain only the atoms contacted by alpha spheres in the given pocket. Complementary to this information, `*_vert.pqr` files contain only the centers and radii of alpha spheres within the respective pocket. As extensions mention, atoms are output in the PDB file format and alpha sphere centers in the PQR file format.
 
+### A word on druggability
 
+With the [Understanding Druggability paper](https://pubs.acs.org/doi/abs/10.1021/jm100574m) we introduced an alternative scoring function in fpocket allowing you to assess the likelihood of a binding site to bind small druglike molecules. Since the publication the score has been retrained and performance improved (no paper for that work out). Roughly, if you get a druggability score of 0 or close to 0 it's predicted no-druggable with drug like molecules. If the score is above 0.5 there might be a chance to find drug-like molecules.
+The druggability assessment is done using some of the pocket descriptors extracted by fpocket. IT DOES BY NO MEANS indicate that no molecule binds to a pocket. I.E. a peptide binding site will bind peptides, but peptides won't necessarily be considered as drug-like molecules. 
+
+## mdpocket advanced
+
+A lot of the functionality of mdpocket has already been covered in the Getting started section. However, there is at least one little functionality that you can access via mdpocket that you don't know about yet.
+
+### Detect transient druggable binding pockets
+
+The current version of fpocket contains two scoring methods to score the pockets. The first one is the original fpocket score, published in the first release and the scientific paper. Later, a second pocket score was added. This score, called druggability score intends to assess at what point the identified pocket is likely to bind drug like molecules. This drug score is a value between 0 and 1, 0 signifying that the pocket is likely to not bind a drug like molecule and 1, that it is very likely to bind the latter. In combination with mdpocket the drug score can be of use when someone wants to assess if during a MD trajectory somewhere “druggable” pockets appear. You can do this during the first explorative mdpocket run (without studying a particular pocket), by specifying the `-S` flag in command line when calling mdpocket. This flag will yield mdpocket not to do the following thing: For each snapshot fpocket is run normally and a druggability score is associated to each pocket. Voronoi vertices near to grid points are used to map the drug score to each grid point (instead of counting them, we increment by the drug score of the pocket). We thus recommend to analyze the frequency grid when running mdpocket with `-S`. You will immediately notice that much less pockets are found in the grid at higher iso-values. This can also help to focus initially on your drug binding site (if you are coming from big pharma), especially for the tedious pocket selection by hand, this is very handy.
+
+If you want to draw conclusions about the “mean druggability” of some pockets using the frequency grid you should beware of the fact, that the mean drug score that you see there (the iso-value) is very underestimated compared to values you obtain on crystal structures.
+
+Last, but very important : if you plan to run a mdpocket calculation using `-S`, you should use the fpocket default pocket detection parameters. Using different parameters, like for channels etc makes strictly no sense as the druggability score was trained using the default fpocket parameters.
+
+### Detect different types of pockets
+
+Fpocket was initially created to detect small molecule binding sites on proteins. That is what most people are interested in (a big assumption, we know). But as we want to please a maximum number of you, distinguished fpocket users, we try to keep fpocket as flexible as possible via these various (probably a bit opaque) command line arguments. These arguments become very interesting when one is interested in a different type of pocket detection. For instance, detecting channels and gaz pathways in a protein is a completely different topic compared to finding drug binding sites.
+
+If one wants to identify transient internal pockets and channels one could modify the pocket detection parameters for fpocket / mdpocket. Here we give examples of typical parameters and what type of pockets you are likely to get back from fpocket / mdpocket :
+
+__Detect small molecule binding sites__ : Use the default parameters (don't specify anything)
+
+__Detect putative channels and small cavities__ : -m 2.8 -M 5.5 -i 3 
+
+__Detect pockets where sterically water binding is possible__ : -m 3.5 -M 5.5 -i 3 
+
+__Detect rather big, external pockets__ : -m 3.5 -M 10.0 -i 3
+
+### Additional scripts
+
+In order to facilitate some simple tasks for conversion, extraction and creation of input files the fpocket distribution contains some additional python scripts that can be of use for some specific tasks but do not have anything to do in a concrete way with the pocket detection itself. This is why they are not included as standalone program here.
+
+* `createMDPocketInputFile.py`: This is a standard python script (that should work out of the box on all machines having python installed on it) that takes the path of all the snapshot PDB files of a MD trajectory as input and creates a valid mdpocket input file (alpha numerically sorted list of paths). We recommend you to use this script if you need a valid mdpocket input file without worrying about how to order in a alphanumeric way your file names to form a valid list.
+
+* `extractISO.py`: This is a python script that makes use of the numpy library. If you do not have numpy installed this will not work. However installing numpy is a rather good idea as this is a very nice library ;). The script takes as input a mdpocket dx grid file, a filename (the one you want for the output) and a wanted isvalue. The script will write all grid point coordinates from the dx file having a grid value higher or equal than the wanted isovalue to the output file.
+
+
+## dpocket advanced
+
+Input command line arguments
+
+### Mandatory:
+
+    -f : a dpocket input file, this file has to contain the path to the PDB file, as well as the residuename (PDB HET residue tag, like “hem”, for heme) of the reference ligand, separated by a tabulation. 
+
+See the [Getting started section of dpocket](#dpocket-descriptor-extraction) for an example of such a file.
+
+### Optional:
+
+    -o : (default dpout) the prefix you want to give to dpocket output files. The standard will produce three output files named dpout_fpocketnp.txt, dpout_fpocketp.txt, dpout_explicitp.txt.
+
+    -e : Use the first explicit interface definition (default): we define  the explicit pocket  as  being  all  atoms  contacted  by  alpha spheres situated at a distance of d A° from any ligand atom.
+
+    -E : Use  the  second  explicit  interface  definition: we define the explicit pocket as being all atoms situated at a distance  of  d A° from any ligand atom.
+
+    -d : The distance criteria used for the explicit pocket definition.
+    Last, all optional parameters used by fpocket are also accessible on command line through dpocket. Refer to the preceding paragraph to see details about fpocket parameters.
+
+### Output files description
+
+As shown in the example, dpocket creates 3 output files. Lets describe them a bit more in detail here:
+
+* `dpout_explicitp.txt`: This file contains all pocket descriptors implemented in fpocket of the explicitly defined binding pocket. What does this mean, explicitly? In the input you have associated a ligand identification to each PDB file. This ligand is used by fpocket in order to identify the actual binding pocket. 
+
+        pdb ligand overlap lig_vol pocket_vol nb_alpha_spheres mean_asph_ray
+        data/3LKF.pdb PC 100.00   132.90  1678.64    29  3.94
+        data/1ATP.pdb ATP 100.00   322.62  2127.53    65  3.59
+        data/7TAA.pdb ABC 100.00   608.66  4977.48    97  4.20
+
+Note that this is only an extract of this file. It contains a lot of columns (descriptors) that are not represented here. The first line describes the nature of the entry. The next line recapitulates the pdb structure analyzed (`data/sample/3LKF.pdb`), the ligand used as reference (PC). Next the overlap between the actual and found binding pocket is shown, here 100% as this is an explicitly defined binding pocket. The next entries can be used as descriptors, like the ligand volume, the pocket volume, the number of alpha spheres in the binding pocket, the mean alpha sphere radius ... For a complete list of all implemented descriptors in fpocket, refer to the Advanced features – [Pocket descriptors section](#pocket-descriptors).
+
+The volumes calculated here are not accurate at all. If you want to calculate accurate volumes you have to change parameters for volume calculation. As volume calculations are generally over-estimated using alpha sphere approaches, especially for open binding pockets, this calculation is made available, but uses the minimum sampling for the calculation. For more accurate calculation significantly more calculation time would be necessary. You can provide a higher sampling via the `-v` flag in the command line.
+
+* `dpout_fpocketnp.txt`: This file contains the same kind of descriptors as the preceding one, but this time for pockets identified by fpocket, that are “non binding pockets”. Non binding pockets means here, that the pockets do not correspond to the pocket where the reference ligand binds. Be careful, this does not necessarily mean that other pockets do not bind anything.
+
+* `dpout_fpocketp.txt`: The last file is also formated the same way as the preceding both. This file contains the binding pocket, this time identified by fpocket and not explicitly by the ligand.
+
+## tpocket advanced
+
+This program of the fpocket package is certainly very useful for testing new scoring methods rapidly on a large dataset of protein ligand complexes. However one might encounter difficulties to understand results, interest, advantages and drawbacks of this methodology. In order to facilitate your understanding of this package we provide some more fundamental information first, before treating more practical questions about tpocket.
+
+### Input command line arguments
+
+#### Mandatory:
+
+    -L : a tpocket input file. This file has to contain the paths to the PDB files (apo, holo or holo,holo if you want to test fpocket only on holo structures), as well as the residuename (PDB HET residue tag, like “hem” for heme) of the reference ligand, separated by tabulations.
+
+#### Optional:
+	-o : (default ./stats_p.txt) The filename you want to give to tpocket detailed statistics.
+	-e : (default ./stats_g.txt) The filename you want to give to tpocket global statistics.
+	-d : Distance  criteria used for one of the 3 definition of a pocket: All atoms situated at a distance lower of equal that d will be  considered as part of the actual pocket.
+	-k : Keep fpocket output for each pdb test.
+
+Last, all optional parameters used by fpocket are also accessible on command line through tpocket. Refer to [fpocket advanced](#fpocket-advanced) for fpocket parameters.
+
+### Actual pocket definition for evaluation of fpocket
+
+Delimiting, and more generally defining what is the exact binding pocket of a protein in an automated way is not that easy. Finding a criteria that evaluate correctly the ability of fpocket to detect the actual binding site of a protein is consequently even more difficult.  
+
+Tpocket makes use of 6 different ways to determine if a pocket found by fpocket could be considered as the actual binding pocket, with respect to a given ligand:
+
+*	1 – The actual binding site is reduced to a single point, the barycenter of the pocket (calculated using alpha spheres). The binding pocket is defined as the pocket which barycenter is situated at a distance of 4A of any ligand atom. It corresponds to the Ppc discussed in the paper.
+
+*	2 – The actual binding pocket is defined by the set of atoms that are in contact with alpha sphere that are nearby (< 3A) the actual ligand. This set of atoms is then compared to all atoms contacted by all voronoi vertices included in each pocket found by fpocket. WARNING: this is currently not safely usable for an holo/apo dataset.
+
+*	3 – The actual binding pocket is defined by the set of atoms that are nearby (4A) the actual ligand. The same procedure as for the first definition is then applied to say whether a pocket can be considered as the actual pocket or not. WARNING: this is currently not safely usable for an holo/apo dataset.
+
+*	4 – The actual binding pocket is defined by the set of alpha sphere nearby (< 3A) the actual ligand. Then, for a given pocket, we calculate the correspondence between alpha sphere in the pocket, and alpha sphere in the actual binding pocket. If this ratio exceed a certain value (25%), we consider this pocket as being the actual pocket.
+
+*	5 – For a given pocket, we calculate the proportion of ligand atom that are nearby (< 3A) at least one alpha sphere of pocket. If this proportion exceed a certain value (50%), we consider this pocket as being the actual pocket.
+
+*	6 – A combination of both 5th and 6th criteria described above. If both 4th and 5th criterion are satisfied, then this criteria is. This corresponds to the MOc (Mutual Overlap criterion) discussed in the paper.
+
+The reason why we choose 3A for the criteria 2, 4 and 5 is quite simple: as in the current algorithm, the minimum radius of an alpha sphere is 3A, a ligand atom situated at a distance lower or equal than this value can be considered as included in this alpha sphere, and therefore detected. Of course, this applies to alpha sphere with higher radius too.
+
+All of these criteria have their strengths and witnesses, that's why we choose to implement all of them.
+
+
+
+## Pocket descriptors
+
+In order to discriminate an interesting pocket from a lot of uninteresting ones, fpocket uses descriptors for each pocket. A scoring function, using these descriptors, was trained to well identify what we generally call “binding site”. Here are set together all descriptors implemented in fpocket. The ones that are currently used for scoring are marked with a *, and the one having the tag normalized associated with have a normalized (ie. scaled to a [0, 1] range, the highest (resp the lowest) value of a given descriptor being set to 1 (resp 0))  equivalent descriptor.
+
+### Number of alpha spheres (normalized)
+
+As the title says, this is surely the most simple descriptor. The number of alpha spheres reflects generally more or less proportionally the size of the cavity.
+
+### Density of the cavity (normalized)
+
+This descriptor tends to measure the density and “buriedness” of a pocket. It is nothing else than the mean value of all alpha sphere pair to pair distances in the binding pocket. Thus, a small value indicates a rather big compactness of the binding pocket and thus a rather burried pocket. Larger values give indication about more extended and exposed cavities.
+
+### Polarity Score (normalized)
+
+In the contrary to hydrophobicity this descriptor tries to measure the hydrophilicity character of a binding pocket. To each residue of the binding pocket a polarity score is assigned (as published on http://www.info.univ-angers.fr/~gh/Idas/proprietes.htm). The final polarity score is the mean of all polarity scores of all residues in the binding pocket. This is extremely approximative, so should not be overestimated. Each residue is evaluated only once.
+
+### Mean local hydrophobic density (normalized)
+
+This descriptor tries to identify if the binding pocket contains local parts that are rather hydrophobic. For each apolar alpha sphere the number of apolar alpha sphere neighbors is detected by seeking for overlapping apolar alpha spheres. The sum of all apolar alpha sphere neighbors is divided by the total number of apolar alpha spheres in the pocket. Last this score is normalized compared to other binding pockets.
+
+### Proportion of apolar alpha spheres (normalized)
+
+This descriptor, returned as percentage, reflects the proportion of apolar alpha spheres among all alpha spheres of one pocket identified by fpocket. This can reflect somehow the hydrophobic/-philic character of a binding pocket.
+
+### Druggability Score
+
+The druggability score is a numerical value between 0 and 1 associated to each pocket using a logistic function. This scores intends to assess the likeliness of the pocket to bind a small drug like molecule. A low score indicates that drug like molecules are likely to not bind to this pocket. A druggability score at 0.5 (the threshold) indicates that binding of prodrugs or druglike molecules can be possible. 1 indicates that binding of druglike molecules is very likely. The theoretical basis of the score is currently in the lengthy process of scientific publication.
+
+### Maximum distance between two alpha sphere (normalized)
+
+This descriptor store the maximum distance found between two alpha sphere in a given pocket.
+
+### Hydrophobicity Score
+
+This descriptor is based on a residue based hydrophobicity scale published by Monera & al. in the Journal of Protein Science 1, 319-329 (1995). For all residues implicated in the binding site the mean hydrophobicity score is calculated and is used as descriptor for the whole pocket. Each residue is evaluated only once.
+
+### Charge Score
+
+According to (http://www.info.univ-angers.fr/~gh/Idas/proprietes.htm) the charge of each amino acid in the binding site is tracked. The mean charge for all amino acids in contact with at least one alpha sphere of the pocket is calculated to form this charge score. Each residue is evaluated only once.
+
+### Volume Score
+
+Similarly to other descriptors, this one is based on data published on (http://www.info.univ-angers.fr/~gh/Idas/proprietes.htm). This data resumes relative volume of different amino acids. In order to calculate this descriptor the mean volume score of all amino acids in contact with at least one alpha sphere of the pocket is calculated. Each residue is evaluated only once.
+
+### Composition of amino acids
+
+As the name indicates, fpocket tracks the composition in amino acids of binding pockets. If at least one atom of a residue is in contact with at least one alpha sphere of a binding pocket it is accounted to be part of the binding site. This descriptor is returned as cumulative list, for instance you can find 2 valines, 3 glutamates etc... in the binding site.
+Occurences of amino acids in different descriptor outputs are given in the following order : Ala, Cys, Asp, Glu, Phe, Gly, His, Ile, Lys, Leu, Met, Asn, Pro, Gln, Arg, Ser, Thr, Val, Trp, Tyr.
+
+### Pocket volume
+
+As indicated by the name, this descriptor tries to evaluate the volume of a binding pocket using a Monte-Carlo algorithm that calculates full volume occupied by all alpha sphere in a given pocket. The number of iteration of this algorithm can be controlled using fpocket input parameters.
+
+### Polar Surface Area
+
+This descriptor provides an estimation of the polar surface area of the pocket based on information of the receptor atoms. The method used to calculate the area only provides an approximation, but should be good enough to get some rather relevant estimates.
+
+### Apolar Surface Area
+
+See polar surface area in the previous point, only for apolar atoms.
+
+### Total Surface Area
+
+The sum of the polar and apolar surface area of the pocket, that is to say the receptor side surface area of the pocket.
+
+### B-factor score (normalized)
+
+Please handle with a lot of care this score with native crystal structures. This score is based on the mean B-factor of all atoms of the binding pocket (atoms that are contacted by at least one alpha sphere). As the B factor does not necessarily reflect flexibility in crystal structures, this score is somehow abusive. However, one could imagine performing molecular dynamics or other in order to determine relative flexibility of atoms and store this information in the B-factor column of the PDB file format.
+
+This descriptor is normalized with other pockets of the same protein.
+
+### List of abbreviations used in dpocket & mdpocket output
+
+- pdb : pdb file name
+- lig : ligand HET ID
+- overlap : overlap of atoms in the actual pocket versus atoms in the pocket identified with fpocket
+- PP-crit : binary PocketPicker criterion (1 if the ligand is < 4A from the center of mass of the alpha spheres, 0 else)
+- PP-dst : the minimum distance between the center of mass of the pocket and the ligand
+- crit4 : proportion of ligand atoms that have at least one vertice that lies within 3 A
+- crit5 : proportion of alpha spheres that lie within 3A from any ligand atom
+- crit6 : binary criterion that is 1 if crit4 >=0.5 and crit5>=0.2, 0 else
+- crit6_continue : a continuous measure of crit6, but this is experimental and we currently don't use it...
+- lig_vol : volume of the ligand
+- pock_vol : volume of the pocket
+- nb_AS : number of alpha spheres
+- nb_AS_norm : number of alpha spheres normalized by all pockets on the protein
+- mean_as_ray : mean alpha sphere radius
+- mean_as_solv_acc : mean alpha sphere solvent accessibility
+- apol_as_prop : proportion of apolar alpha spheres in the pocket
+- apol_as_prop_norm : normalized proportion of apolar alpha spheres
+- mean_loc_hyd_dens : mean local hydrophobic density
+- mean_loc_hyd_dens_norm : normalized mean local hydrophobic density
+- polarity_score_norm : normalized polarity score
+- flex : measure of the flexibility of the pocket (B-factor based)
+- prop_polar_atm : proportion of polar atoms
+- as_density : alpha sphere density
+- as_density_norm : normalized alpha sphere density
+- as_max_dst : maximum distance between the center of mass and all alpha spheres
+- as_max_dst_norm : normalized as_max_dst
+- drug_score : druggability score
+- pock_asa : solvent accessible surface area of the pocket
+- pock_pol_asa : polar solvent accessible surface area of the pocket
+- pock_apol_asa : apolar solvent accessible surface area of the pocket
+- pock_asa22 : accessible surface area using a probe of 2.2 A instead of 1.4
+- pock_pol_asa22 : see pock_pol_asa and pock_asa22
+- pock_apol_asa22 : see pocket_apol_asa and pock_asa22
+
+## Cofactor definition
+
+fpocket, dpocket and tpocket contain in the current release a fixed set of cofactors. So far so good, but what for? Cofactors are often structurally necessary or must be present in the protein structure for ligand binding. The PDB nomenclature, however, treats them as usual hetero atoms, using the HETATM tag. This is the tag that fpocket uses to identify and eliminate crystallographic waters and possible ligands of holo protein structures. In order to force fpocket to keep the cofactor you are interested in, that is to say, to consider it as entire part of the protein structure for binding pocket detection, a list list of HETATM names is defined in the beginning of the `rpdb.c` file under (https://github.com/Discngine/fpocket/blob/master/src/rpdb.c#L39) the name `static const char *ST_keep_hetatm[]`. The next line of code defines the number of cofactors defined in this list :  `static const int ST_nb_keep_hetatm = 111` ;
+
+If you would like to add a new cofactor, you have to modifiy this code. First you add the whished HETATM tag to `ST_keep_hetatm` in the end of the list. Thus for example, `“MSE”` will become `“MSE”,”PTE”` if your  cofactor has the HETATM tag PTE. Do not forget to increment the `ST_nb_keep_hetatm` variable to `112`, else this cofactor will not be taken into account.
+
+Next you have to recompile the program, before being able to use this new definition.
+In future releases this cofactor definition will be done dynamically with an external list.
+
+The following list resumes the cofactors fpocket considers as recurrent in the PDB and useful to keep in protein structures in a systematic manner.
+
+## Customizing fpocket
+
+This section will introduce several ways of customizing fpocket by modifying the source code. We will first gives all instructions needed to recompile and rebuild the full package when any modification of the source code has to be taken into account. Then, we will describe how to write a new scoring function, and how to write your own descriptors and include it to dpocket output. We will not show the full content of the function to modify as we want to stay as concise as possible. The newly added code for these examples will be highlighted in blue.
+
+### How to rebuild the package
+
+After any modification to the fpocket source code, you will logically need to rebuild the package so the modification could be taken into account. Here is the current procedure to do so:
+
+Go to your fpocket codebase: 
+
+```bash
+make uninstall
+make clean
+```
+
+Then, you will have to perform the installation process again to rebuild the package.
+
+### Writing your own scoring function
+
+Writing your own scoring function using currently implemented descriptors is a simple task, provided that you are not afraid to write one line of C code. Currently, the fpocket algorithm sort pockets using each pocket score. Each score is calculated by a single function. The source file src/pscoring.c contains the definition of this function that have the following prototype:
+```C
+float score_pocket(s_desc *pdesc) ;
+```
+
+The function takes as argument a pointer to a structure that contains all descriptors currently available in fpocket, and is called for each pocket to be scored. All descriptors available have been described previously, and you can check the exact name given to each of them in the source file headers/descriptors.h that defines the s_desc structure shown here.
+
+Lets say that you just want to score pockets according to the number of alpha sphere of each pocket. To do so, you just have to change the content of score_pocket function and return the right value:
+
+```C
+float score_pocket(s_desc *pdesc)
+	{
+		float score = (float) pdesc->nb_asph ;
+		return score ;
+	}
+```
+
+Although this example is really simple, you may now understand that you can write any kind of scoring function, like a linear or non-linear combination of descriptors derived from a regression model or any other method. The only limitation is the use of available descriptors implemented in fpocket.
+
+Of course, although the current scoring function has very satisfying performances using only 4 of the available descriptors, you may want to implement your own set. The next section will give you the basics to do so.
+
+### Writing your own descriptor
+
+So what if you want to write your own descriptors? Well this will be a little more difficult than writing your own scoring function, but nothing is impossible!
+
+Suppose that we want to add a new (and very simple) descriptor: the maximum alpha sphere radius in a given pocket.
+
+First of all, you have to add the variable that will store your descriptor to the structure containing all descriptors.  This has to be done in the descriptor.h source file, in the definition of the structure `s_desc`. We will add the following line:
+
+```C
+typedef struct s_desc
+	{	...
+		float as_max_r ;
+	} s_desc ;
+
+```
+
+After adding our variable, we need to give a default value when no calculation have been performed, lets say -1. This is done in the function reset_desc located in the same file:
+
+```C
+void reset_desc(s_desc *desc)
+	{	...
+		desc->as_max_r = -1.0 ;
+	}
+
+```
+
+Let's now implement our descriptor. Go to the `src/descriptor.c` source file. In this file, you fill find the main function that calculate descriptors based on a list of atoms and a list of alpha sphere. Here is the prototype of this function:
+
+```C
+void set_descriptors( s_atm **tatoms, int natoms,
+			    	  s_vvertice **tvert, int nvert,
+			    	  s_desc *desc) ;
+```
+
+As you can see, the function takes in argument a list of atoms, a list of vertices, and an input/output descriptor structure that will actually store all descriptors calculated. When descriptors has to be calculated on a given pocket, we first get all atoms and vertices of the pocket, and we call this function using those atoms and vertices as arguments. The calculation then use information on atoms and vertices to calculate descriptors.
+
+Based on those parameters, you will have to write your own code in this function, and update in consequent the desc variable given in argument so the descriptor value could be stored. Lets do this. You will probably notice that the current code is not fully modular. This is because of computational optimization: a fully modular code sometimes requires additional loop and treatment compared to an optimized code. Anyway, the task is still very simple. Lets go into the part of the code that will do the job.
+
+```C
+	void set_descriptors( s_atm **tatoms, int natoms,
+			    	  s_vvertice **tvert, int nvert,
+			    	  s_desc *desc)
+	{	...
+		float as_max_r = -1.0 ; /* Declare and initialize the descriptor */
+		...
+
+		for(i = 0 ; i < nvert ; i++) {
+			/* Loop through all vertices and update descriptors */
+			vcur = tvert[i] ;
+			if(vcur->ray > as_max_r) as_max_r = vcur->ray ;
+			...
+		}
+		...
+		desc->as_max_r = as_max_r ; 	/* Store the descriptor */
+	}
+```
+
+That's it, your descriptor is implemented, as each pocket descriptors is automatically calculated using this function at the end of the fpocket algorithm. Thus, it can now be used in the scoring function described previously, after rebuilding the package of course.
+
+### Normalizing your descriptors
+
+An advantage of normalization is that two descriptors generated from pockets of two different proteins can be compared to each other at a certain degree, depending on the normalization process. For example, if we normalize the number of alpha sphere between 0 and 1 (well here it's more a scaling than a normalization), the largest pocket of any protein will always have 1 as value for the normalized descriptor.
+
+To do so, we can't use the exact same process as adding a given descriptor, because all descriptors of all pockets  need to be calculated before the normalization step. Consequently, the calculation of all normalized descriptors is currently performed in the `src/pocket.c` source file. In this file, the function `set_normalized_descriptors` does the job, and have the following prototype:
+
+```C
+void set_normalized_descriptors(c_lst_pockets *pockets)
+```
+
+As you can see, it simply takes in argument a list of pockets, in fact a simple chained list, e.g. all pockets found in a given protein. Of course each pocket contained in this structure have a descriptor structure associated with.
+
+Lets now enter more deeply into the code, and implement a normalized version of the new descriptors so it ranges between 0 and 1. The first step is similar to the first step needed to implement a new descriptors: you need to add a variable that will store this normalized descriptor in the structures pdesc:
+
+```C
+typedef struct s_desc
+	{	...
+		float as_max_r ;
+		float as_max_r_norm ;
+	} s_desc ;
+```
+
+You can now add the default initialization of this descriptor:
+
+```C
+void reset_desc(s_desc *desc)
+	{	...
+		desc->as_max_r = -1.0 ;
+		desc->as_max_r_norm = -1.0 ;
+	}
+```
+
+Lets implement the descriptor now. Go to the `src/pocket.c` source file, set_normalized_descriptor function. To calculate the normalized descriptor, we need the min and max value of the non-normalized descriptors. Next, we have to loop on the pocket list, update the min and max if necessary, and perform the normalization at the end of the loop. So easy:
+
+```C
+void set_normalized_descriptors(c_lst_pockets *pockets)
+	{	...
+		/* Declare min and max */
+		float 	as_max_r_m = 1000,  	/* Initialize to a large value*/
+			as_max_r_M = -1.0 ;		/* Initialize to a small value */
+		...
+		cur = pockets->first ;
+		/* Perform a first processing step, e.g. to set min and max */
+		while(cur) {
+			dcur = pcur->pdesc ;
+            if(cur == pockets->first) {
+				...
+				/* If it is the first pocket, min = max = pocket */
+				as_max_r_m =  as_max_r_M = dcur->as_max_r ;
+			}
+			else {
+				...
+				/* If it is the Nth != 1 pocket, check and update
+				   min and max if necessary*/
+				if(dcur->as_max_r > as_max_r_M)
+					as_max_r_M = dcur-> as_max_r ;
+				else if(dcur->as_max_r < as_max_m)
+					as_max_r_m = dcur->as_max_r ;
+			}
+			cur = cur->next ;
+		}
+		
+		/* Perform a second loop to do the actual normalisation */
+		cur = pockets->first ;
+		while(cur) {
+			dcur = cur->pocket->pdesc ;
+			...
+			dcur->as_max_r_norm = (dcur->as_max_r - as_max_r_m)
+						   / (as_max_r_M - as_max_r_m) ;
+		}
+	}
+
+```
+
+And that's it. There is a little bit more effort to provide here to normalize the descriptor, but we believe it's not that much to do.
+
+Unfortunately, we haven't taken the time to automatically add any new descriptor to the dpocket input. So basically here, your descriptors is implemented and can be used by a scoring function, but is not written to the dpocket output. The next paragraph will learn you how to so, it's very easy.
+
+### Including your descriptor in dpocket
+
+Although it would be possible, we haven't taken the time to construct a system that would detect and add automatically any new descriptor to the dpocket output.
+
+So let's do this manually. The dpocket output format is defined by 3 macros in the dpocket.h header file:
+
+```C
+#define M_DP_OUTP_HEADER "pdb lig ...”
+#define M_DP_OUTP_FORMAT "%s %s ...”
+#define M_DP_OUTP_VAR (fc, l, ovlp, status, dst, lv, d) fc, l, ...
+```
+
+The first macro defines the header of the output file. The second macro corresponds to the format of each value to output given to the fprintf function. Finally, the last macro is the list of variables, with d being the pointer to the descriptor structure defined previously. Basically, writing the dpocket output for each pocket requires two main processes: write the header, and loop to write each pocket descriptor.
+
+To include our descriptor into the dpocket output, we just need to add the header label of the descriptor, add the output format of the descriptor, and add the descriptor itself. Those three steps will modify the first, the second, and the third macro defined previously, respectively. The only difficulty is to keep the correspondence between of all 3 positions (header, format and variable) in the line: column number (position) of the header corresponding to the number of alpha sphere must correspond the that of the format and variable. For example, if we want to add our normalized variable at the first position of dpocket output, it would give:
+
+```C
+#define M_DP_OUTP_HEADER "as_max_r pdb lig ...”
+#define M_DP_OUTP_FORMAT "%3.5f %s %s ...”
+#define M_DP_OUTP_VAR (fc, l, ovlp, status, dst, lv, d) d->as_max_r, 										    fc, l, ovlp, ...
+```
+
+That's all. Remember to be careful on this step: adding a new descriptor to dpocket is really easy in theory, but losing the correspondence between header, format and variable position columns is easy too, in which case interpretation, visualization and analysis of dpocket output can become somehow difficult or even meaningless.
+
+### Including your descriptor in mdpocket
+
+Adding a descriptor to mdpocket works pretty much the same way than in dpocket. So write your own descriptor like described previously for dpocket. The only difference is the last step, instead of modifying the dpocket.h macros you should modify the macros of mdpocket.h. They are constructed exactly the same way and are even somehow easier because smaller:
+
+```C
+#define M_MDP_OUTP_HEADER "snapshot pock_volume nb_AS...”
+#define M_MDP_OUTP_FORMAT "%d %4.2f %d %4.2f %4.2f %4.2f..."
+#define M_MDP_OUTP_VAR(i, d) i, d->volume ...
+```
+
+Simply add the header of your descriptor the output header macro, the output format to the format macro and the variable to the variable macro, exactly like in the previously described dpocket.h file.
