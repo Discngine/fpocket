@@ -107,6 +107,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_CUSTOM_LIGAND 'r' /**flag, to define detection of explicit pockets around the specified ligand*/
 #define M_PAR_CUSTOM_LIGAND_LONG "custom_ligand"
 
+#define M_PAR_DROP_CHAINS 'c' /**flag, to define which chain are dropped before the pocket detection*/
+#define M_PAR_DROP_CHAINS_LONG "drop_chains"
+
 
 #define M_FP_USAGE "\n\
 ***** USAGE (fpocket) *****\n\

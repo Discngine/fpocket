@@ -124,6 +124,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         {"topology_file", required_argument, 0, M_PAR_TOPOLOGY},
         {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
         {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
+        {"custom_chains", required_argument, 0, M_PAR_DROP_CHAINS},
         {0, 0, 0, 0}
     };
 
@@ -132,13 +133,17 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         /* getopt_long stores the option index here. */
         int option_index = 0;
         optarg = 0;
-        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:",
+        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:c:",
                 fplong_options, &option_index);
         //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
         switch (c) {
             case 0:
                 break;
+
+            case M_PAR_DROP_CHAINS :
+                status++;
+                
             case M_PAR_CUSTOM_LIGAND:
 
                 //parse ligand specification that has to be given as 
