@@ -212,12 +212,13 @@ void fill_coord_grid(s_pdb *pdb) {
             g->atom_ptr[xidx][yidx][zidx].latoms[0] = pdb->latoms_p[i];
             g->atom_ptr[xidx][yidx][zidx].natoms = 1;
         } else {
-            //            fprintf(stdout,"NUmber of atoms per coord grid point : %d\n",g->atom_ptr[xidx][yidx][zidx].natoms);
-            //            fflush(stdout);
+                       fprintf(stdout,"NUmber of atoms per coord grid point : %d\n",g->atom_ptr[xidx][yidx][zidx].natoms);
+                       printf("x:%d y:%d z:%d", xidx,yidx,zidx);
+                       fflush(stdout);
             if (g->atom_ptr[xidx][yidx][zidx].natoms < n_max) {
                 fflush(stdout);
                 *(g->atom_ptr[xidx][yidx][zidx].latoms + g->atom_ptr[xidx][yidx][zidx].natoms) = *(pdb->latoms_p + i);
-            } else fprintf(stderr, "exceeding memory size for each grid element");
+            } else fprintf(stderr, "exceeding memory size for each grid element\n");
             g->atom_ptr[xidx][yidx][zidx].natoms += 1;
         }
 
@@ -950,7 +951,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
         ihetatm,
         iatm_lig,
         ligfound;
-    
+
     char pdb_line[M_PDB_BUF_LEN],
             resb[5]; /* Buffer for the current residue name */
             //fprintf("%c",resb);
@@ -973,12 +974,21 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
     /* Loop over the pdb file */
     if (model_number > 0) model_flag = 1; /*here we indicate that a particular model should be read only*/
     while (fgets(pdb_line, M_PDB_LINE_LEN + 2, pdb->fpdb)) {
+    //printf("%c %c",params->chain_delete[0],pdb_line[21]);
+        
         if (!strncmp(pdb_line, "MODEL", 5) && model_number > 0) {
             cur_model_count++;
             if (cur_model_count == model_number) model_read = 1;
         }
         if (model_flag == 0 || model_read == 1) {
             if (strncmp(pdb_line, "ATOM ", 5) == 0) {
+                //printf("%c|%c ",params->chain_delete[0],pdb_line[21]);
+                if(params->chain_delete != NULL){/* deleting the chains we want to delete from pdb file*/
+                    if(pdb_line[21] != params->chain_delete[0]){
+                        //printf("%s\n",params->chain_delete);
+                        
+                    
+                
                 rpdb_extract_atom_coordinates(pdb_line, &tmpx, &tmpy, &tmpz); /*extract and double check coordinates to avoid issues with wrong coordinates*/
                 //printf("%f ",tmpx);
                 //printf("%c ",pdb_line[16]); /* column 16 check for configuration of the residue e.g A,B */
@@ -1077,8 +1087,8 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         iatoms++;
                     }
                 }
-
-
+                    }
+                }
             } else if (strncmp(pdb_line, "HETATM", 6) == 0) {
                 rpdb_extract_atom_coordinates(pdb_line, &tmpx, &tmpy, &tmpz); /*extract and double check coordinates to avoid issues with wrong coordinates*/
                 if ((pdb_line[16] == ' ' || pdb_line[16] == 'A') && tmpx < 9990 && tmpy < 9990 && tmpz < 9990) {/*first occurence*/
@@ -1094,9 +1104,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             
                             i_explicit_ligand_atom++;
                         }
-                            
+
                     }    
-                            //fflush(stdout);
+                    //fflush(stdout);
                     /* Check if the desired ligand is in HETATM entry */
                     if (ligan && strlen(ligan) > 1 && keep_lig && ligan[0] == resb[0] && ligan[1] == resb[1]
                             && ligan[2] == resb[2]) {

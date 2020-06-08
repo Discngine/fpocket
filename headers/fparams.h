@@ -192,7 +192,7 @@ typedef struct s_fparams
 		  asph_min_size,	 	/**< Minimum size of alpha spheres to keep */
                 min_as_density,                 /**<Minimum alpha sphere density for a pocket to be retained*/
 		  asph_max_size ;		/**< Maximum size of alpha spheres to keep */
-
+	char chain_delete[1]; /*chosen chain to delete before calculation*/
 
 
 } s_fparams ;

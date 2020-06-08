@@ -101,7 +101,7 @@ s_fparams* init_def_fparams(void) {
  */
 s_fparams* get_fpocket_args(int nargs, char **args) {
     int status = 0;
-    s_fparams *par = init_def_fparams();
+    s_fparams *par = init_def_fparams(); /*default param initialy*/
     int c = 0;
     short j = 0;
     short xflag;
@@ -142,8 +142,19 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 break;
 
             case M_PAR_DROP_CHAINS :
+            /*drop the selected chains from the pdb file*/
+                strcpy(par->custom_ligand, optarg); /*par->custom_ligand contains the arg given in cmd line*/
+                //printf("%s and %s",par->custom_ligand,optarg);
+                const char  *separators  = ",:"; /* defining separators for drop chains args*/
+                pt = strtok( par->custom_ligand, separators);
+                while (pt != NULL) {
+                    strncpy(&(par->chain_delete), pt, 1);
+                    pt = strtok(NULL, separators);
+                }
+                printf("%s\n",par->chain_delete);
                 status++;
-                
+                break;
+
             case M_PAR_CUSTOM_LIGAND:
 
                 //parse ligand specification that has to be given as 
@@ -151,9 +162,13 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 //for 1uyd for instance 1224:PU8:A
                 
                 status++;
-                strcpy(par->custom_ligand, optarg);
                 
+                strcpy(par->custom_ligand, optarg);
+                //printf("%s and %s",par->custom_ligand,optarg);
                 pt = strtok( par->custom_ligand, ":");
+                
+                
+
                 while (pt != NULL) {
                     custom_ligand_i++;
                     if(custom_ligand_i==1) par->xlig_resnumber =atoi(pt);
