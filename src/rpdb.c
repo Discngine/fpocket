@@ -787,6 +787,9 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
         }
         if (model_flag == 0 || model_read == 1) {
             if (!strncmp(buf, "ATOM ", 5)) {
+                if(par->chain_delete != NULL){// deleting the chains we want to delete from pdb file
+                    if(buf[21] != par->chain_delete[0]){
+                        printf("%c",buf[21]);
                 /* Check if this is the first occurence of this atom*/
                 rpdb_extract_atm_resname(buf, resb);
                 rpdb_extract_atom_coordinates(buf, &x, &y, &z); /*extract and double check coordinates to avoid issues with wrong coordinates*/
@@ -865,14 +868,16 @@ s_pdb* rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         }
                     }
                 }
-            }/*
+            }
+            
+            /*
 		else if (!strncmp(buf, "HEADER", 6))
 			strncpy(pdb->header, buf, M_PDB_BUF_LEN) ;
 */
 
             else if (model_read == 1 && !strncmp(buf, "ENDMDL", 6)) model_read = 0;
             else if (model_number == 0 && !strncmp(buf, "END", 3)) break;
-
+                }}
         }
     }
     if (pdb->n_xlig_atoms) {
@@ -982,11 +987,12 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
         }
         if (model_flag == 0 || model_read == 1) {
             if (strncmp(pdb_line, "ATOM ", 5) == 0) {
-                //printf("%c|%c ",params->chain_delete[0],pdb_line[21]);
-                if(params->chain_delete != NULL){/* deleting the chains we want to delete from pdb file*/
+                
+              
+                if(params->chain_delete != NULL){// deleting the chains we want to delete from pdb file
                     if(pdb_line[21] != params->chain_delete[0]){
                         //printf("%s\n",params->chain_delete);
-                        
+                       
                     
                 
                 rpdb_extract_atom_coordinates(pdb_line, &tmpx, &tmpy, &tmpz); /*extract and double check coordinates to avoid issues with wrong coordinates*/
@@ -1000,9 +1006,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                     //printf("%s ",(pdb_line));
                     resnbuf=rpdb_extract_atm_resumber(pdb_line);
                    
-                    //printf("%d ", pdb->n_xlig_atoms);
-                    //printf("%c", pdb_line[21]);
-                    //printf("%c",params->xlig_chain_code[0]); 
+                    
 
                     /* Enter this if when arg in command line is -r */
                     if (pdb->n_xlig_atoms) {
