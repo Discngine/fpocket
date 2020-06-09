@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0820
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6030
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4001
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 42.3636
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.3184
+HEADER 10  -Pocket volume (convex hull)       : 2.2427
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   1245   CA ARG E 165      14.814  -0.287  -8.335  0.00  0.00           C 0
+ATOM   1686   CB VAL E 219      17.393  -5.524 -10.220  0.00  0.00           C 0
+ATOM   1612  CD1 ILE E 209      20.583  -3.041  -9.258  0.00  0.00           C 0
+ATOM   1685    O VAL E 219      15.724  -6.452  -7.582  0.62  3.21           O 0
+ATOM   1688  CG2 VAL E 219      16.449  -4.471 -10.833  0.00  0.00           C 0
+ATOM   1695  OD1 ASP E 220      12.980  -3.453  -8.516  0.59  3.21           O 0
+ATOM   1729   CB ALA E 223      15.297  -5.551  -4.153  0.00  0.00           C 0
+ATOM   1247    O ARG E 165      15.996   0.577  -6.414  0.42  8.57           O 0
+ATOM   1583  CD2 LEU E 205      21.487  -1.300  -5.351  0.00  0.00           C 0
+ATOM   1534    O CYS E 199      20.416   0.681  -8.038  0.52  1.07           O 0
+ATOM   1567    O TYR E 204      19.201  -4.777  -3.931  0.42  3.21           O 0
+ATOM   1568   CB TYR E 204      18.169  -3.106  -1.552  0.00  0.00           C 0
+ATOM   1541    N THR E 201      20.126   1.181  -3.203  0.32  2.19           N 0
+ATOM   1538   CA GLY E 200      19.720   1.639  -5.452  0.00  0.00           C 0
+ATOM   1263    N LEU E 167      13.718  -0.744  -3.462  0.00  0.00           N 0
+ATOM   1246    C ARG E 165      14.898   0.347  -6.945  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0776
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9875
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4629
+HEADER 5  - Mean B-factor of pocket residues  : 0.6482
+HEADER 6  - Hydrophobicity Score              : 32.4286
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 2.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.6017
+HEADER 10  -Pocket volume (convex hull)       : 3.7789
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM    235  ND2 ASN A  49      18.281  -7.499  -3.298  0.59  2.19           N 0
+ATOM    659   CB ALA A 122      16.174  -9.522   0.052  0.00  0.00           C 0
+ATOM    576  CG2 ILE A  96      15.186 -12.887  -1.952  0.00  0.00           C 0
+ATOM    655    N ALA A 122      18.449  -9.531   0.945  0.57  1.09           N 0
+ATOM    624    O ALA A 102      20.195 -14.090  -0.913  0.45  4.29           O 0
+ATOM    627   CA GLY A 103      21.714 -14.846  -3.216  0.00  0.00           C 0
+ATOM    575  CG1 ILE A  96      15.329 -15.031  -3.297  0.00  0.00           C 0
+ATOM    234  OD1 ASN A  49      19.979  -8.167  -4.540  0.00  0.00           O 0
+ATOM    629    O GLY A 103      22.908 -12.771  -3.269  0.30  5.36           O 0
+ATOM    652   CA GLY A 121      20.812  -9.913   1.271  0.00  0.00           C 0
+ATOM    577  CD1 ILE A  96      14.474 -14.736  -4.564  0.00  0.00           C 0
+ATOM    472   CE MET A  81      13.445 -10.721  -4.444  0.00  0.00           C 0
+ATOM    233   CG ASN A  49      18.916  -7.558  -4.440  0.00  0.00           C 0
+ATOM    232   CB ASN A  49      18.281  -6.853  -5.612  0.00  0.00           C 0
+TER
+END

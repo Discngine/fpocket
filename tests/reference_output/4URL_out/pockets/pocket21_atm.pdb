@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0240
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7013
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4976
+HEADER 5  - Mean B-factor of pocket residues  : 0.6064
+HEADER 6  - Hydrophobicity Score              : -2.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.7335
+HEADER 10  -Pocket volume (convex hull)       : 11.1962
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.3333
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   5511   CD ARG B 399      49.857  28.064  -7.595  0.00  0.00           C 0
+ATOM   5514  NH1 ARG B 399      48.937  26.412  -5.469  0.72  8.75           N 0
+ATOM   5491  OE2 GLU B 396      47.779  32.968  -4.463  0.00  0.00           O 0
+ATOM   1778  CE2 TYR A 266      45.831  27.941  -8.625  0.00  0.00           C 0
+ATOM   5509   CB ARG B 399      50.361  30.132  -9.018  0.00  0.00           C 0
+ATOM   1780   OH TYR A 266      46.956  28.963 -10.465  0.49  6.43           O 0
+ATOM   1776  CD2 TYR A 266      45.522  26.797  -7.889  0.00  0.00           C 0
+ATOM   5486    O GLU B 396      51.490  32.852  -6.969  0.40  7.50           O 0
+ATOM   5508    O ARG B 399      50.941  33.074 -10.259  0.77  7.50           O 0
+ATOM   5507    C ARG B 399      50.752  31.962 -10.756  0.00  0.00           C 0
+ATOM   5490  OE1 GLU B 396      48.343  32.622  -2.358  0.44  5.36           O 0
+ATOM   5487   CB GLU B 396      51.072  32.133  -3.701  0.00  0.00           C 0
+ATOM   5489   CD GLU B 396      48.626  32.926  -3.541  0.00  0.00           C 0
+ATOM   5484   CA GLU B 396      51.543  31.454  -5.002  0.00  0.00           C 0
+ATOM   5476   CB ARG B 395      53.563  27.558  -4.136  0.00  0.00           C 0
+ATOM   5450    O ARG B 392      52.869  30.139  -1.640  0.00  0.00           O 0
+ATOM   5478   CD ARG B 395      52.342  25.415  -4.323  0.00  0.00           C 0
+ATOM   5452   CG ARG B 392      51.047  29.146   1.210  0.00  0.00           C 0
+ATOM   5483    N GLU B 396      52.539  30.435  -4.674  0.00  0.00           N 0
+ATOM   5448   CA ARG B 392      53.425  28.785   0.245  0.00  0.00           C 0
+TER
+END

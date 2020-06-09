@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0813
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8170
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5812
+HEADER 5  - Mean B-factor of pocket residues  : 0.6158
+HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 133.5639
+HEADER 10  -Pocket volume (convex hull)       : 1.9142
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    764    O TYR A  99      27.955  20.779  80.311  0.70  1.07           O 0
+ATOM    761    N TYR A  99      26.358  19.300  78.639  0.64  1.09           N 0
+ATOM    967  CD1 ILE A 124      30.114  21.018  77.854  0.00  0.00           C 0
+ATOM    759  OD1 ASP A  98      29.154  16.631  75.757  0.00  0.00           O 0
+ATOM    749    O VAL A  97      26.637  14.844  76.325  0.00  0.00           O 0
+ATOM    771   CZ TYR A  99      26.046  15.958  82.151  0.00  0.00           C 0
+ATOM    754   CA ASP A  98      26.374  17.537  76.964  0.00  0.00           C 0
+ATOM    770  CE2 TYR A  99      25.133  15.993  81.119  0.00  0.00           C 0
+ATOM    772   OH TYR A  99      26.489  14.737  82.601  0.48  9.64           O 0
+ATOM    789   CB LYS A 102      30.136  19.311  82.498  0.00  0.00           C 0
+ATOM    769  CE1 TYR A  99      26.549  17.140  82.695  0.00  0.00           C 0
+ATOM    788    O LYS A 102      30.089  17.692  85.011  0.48  8.57           O 0
+TER
+END

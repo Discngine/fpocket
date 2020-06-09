@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0307
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2352
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7590
+HEADER 5  - Mean B-factor of pocket residues  : 0.5742
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 269.9208
+HEADER 10  -Pocket volume (convex hull)       : 1.5717
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM    758   CB TYR A 112     505.493 210.810 567.818  0.00  0.00           C 0
+ATOM    757    O TYR A 112     505.607 210.410 570.872  0.69  5.36           O 0
+ATOM    767   CA LYS A 113     503.181 211.325 571.776  0.00  0.00           C 0
+ATOM    756    C TYR A 112     504.637 210.329 570.111  0.00  0.00           C 0
+ATOM    766    N LYS A 113     503.413 210.721 570.469  0.00  0.00           N 0
+ATOM    770   CB LYS A 113     501.971 212.260 571.715  0.00  0.00           C 0
+ATOM    454    O HIS A  74     504.505 213.878 565.385  0.62  4.29           O 0
+ATOM    455   CB HIS A  74     505.352 216.374 564.541  0.00  0.00           C 0
+ATOM    451    N HIS A  74     502.980 216.959 564.359  0.71  2.19           N 0
+ATOM    445   OG SER A  53     500.606 216.834 568.542  0.56  9.64           O 0
+ATOM    444   CB SER A  53     500.191 218.065 567.977  0.00  0.00           C 0
+ATOM    450   CB LYS A  73     501.899 219.678 563.391  0.00  0.00           C 0
+ATOM    458  CD2 HIS A  74     506.772 218.444 563.872  0.00  0.00           C 0
+ATOM    446    N LYS A  73     500.601 218.466 565.076  0.74  2.19           N 0
+ATOM    462   CA ARG A  75     501.990 213.444 566.382  0.00  0.00           C 0
+ATOM    453    C HIS A  74     503.606 214.658 565.051  0.00  0.00           C 0
+TER
+END

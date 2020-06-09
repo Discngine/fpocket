@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.7151
+HEADER 1  - Drug Score                        : 0.1960
+HEADER 2  - Number of alpha spheres           :    67
+HEADER 3  - Mean alpha-sphere radius          : 3.9050
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4811
+HEADER 5  - Mean B-factor of pocket residues  : 0.3632
+HEADER 6  - Hydrophobicity Score              : 20.6000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 439.0684
+HEADER 10  -Pocket volume (convex hull)       : 54.5360
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.5238
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.3134
+ATOM    416    O ILE A  74      10.889  -2.093  -5.183  0.00  0.00           O 0
+ATOM    990  CG2 THR A 168      10.901  -7.876  -6.719  0.00  0.00           C 0
+ATOM    211  CG2 ILE A  46      14.547  -3.672  -2.588  0.00  0.00           C 0
+ATOM   1006  CG2 VAL A 170      11.191  -6.403  -2.801  0.00  0.00           C 0
+ATOM    437  OD2 ASP A  76      13.899  -4.857  -9.357  0.00  0.00           O 0
+ATOM    463    C GLY A  80      11.541 -11.262 -11.001  0.00  0.00           C 0
+ATOM    264  OE1 GLU A  53      17.866  -9.548 -12.868  0.00  0.00           O 0
+ATOM    465    N MET A  81      11.399 -11.412  -9.695  0.00  0.00           N 0
+ATOM    464    O GLY A  80      12.216 -12.044 -11.674  0.00  0.00           O 0
+ATOM    241   OG SER A  50      15.512  -3.130  -7.833  0.00  0.00           O 0
+ATOM    263   CD GLU A  53      16.955  -8.844 -13.364  0.00  0.00           C 0
+ATOM    987    O THR A 168      10.217  -4.261  -8.263  0.00  0.00           O 0
+ATOM    989  OG1 THR A 168      11.374  -8.400  -9.008  0.00  0.00           O 0
+ATOM    461    N GLY A  80      11.755  -9.692 -12.758  0.00  0.00           N 0
+ATOM    262   CG GLU A  53      16.962  -7.343 -13.194  0.00  0.00           C 0
+ATOM    261   CB GLU A  53      17.996  -6.749 -12.276  0.00  0.00           C 0
+ATOM    470   CG MET A  81      12.596 -11.319  -6.848  0.00  0.00           C 0
+ATOM    466   CA MET A  81      12.010 -12.537  -8.981  0.00  0.00           C 0
+ATOM    232   CB ASN A  49      18.281  -6.853  -5.612  0.00  0.00           C 0
+ATOM    208    O ILE A  46      17.223  -3.671  -4.526  0.00  0.00           O 0
+ATOM    988   CB THR A 168      11.063  -7.324  -8.129  0.00  0.00           C 0
+ATOM    457   NE ARG A  79      16.829 -11.495 -15.566  0.00  0.00           N 0
+ATOM    454   CB ARG A  79      13.723 -10.961 -15.175  0.00  0.00           C 0
+ATOM    791  NH2 ARG A 138      11.668 -14.683 -13.039  0.62  5.47           N 0
+ATOM    472   CE MET A  81      13.445 -10.721  -4.444  0.00  0.00           C 0
+ATOM    588   CZ PHE A  97      12.106  -9.624  -1.276  0.00  0.00           C 0
+ATOM    212  CD1 ILE A  46      15.517  -5.599  -0.049  0.00  0.00           C 0
+ATOM    265  OE2 GLU A  53      16.004  -9.317 -14.014  0.00  0.00           O 0
+ATOM    458   CZ ARG A  79      17.946 -12.190 -15.361  0.00  0.00           C 0
+ATOM    460  NH2 ARG A  79      18.926 -11.683 -14.624  0.77  1.09           N 0
+ATOM    478   CG PRO A  82      14.000 -16.474  -9.485  0.00  0.00           C 0
+ATOM    459  NH1 ARG A  79      18.093 -13.395 -15.890  0.00  0.00           N 0
+ATOM    235  ND2 ASN A  49      18.281  -7.499  -3.298  0.59  2.19           N 0
+ATOM    659   CB ALA A 122      16.174  -9.522   0.052  0.00  0.00           C 0
+ATOM    231    O ASN A  49      18.890  -6.240  -8.825  0.00  0.00           O 0
+ATOM    230    C ASN A  49      18.672  -5.616  -7.793  0.00  0.00           C 0
+ATOM    456   CD ARG A  79      15.693 -11.954 -16.358  0.00  0.00           C 0
+ATOM    479   CD PRO A  82      13.607 -15.156  -8.925  0.00  0.00           C 0
+ATOM    436  OD1 ASP A  76      12.712  -5.005 -11.212  0.00  0.00           O 0
+TER
+END

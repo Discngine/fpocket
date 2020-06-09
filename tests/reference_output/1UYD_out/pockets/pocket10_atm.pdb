@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0628
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9820
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5960
+HEADER 5  - Mean B-factor of pocket residues  : 0.1384
+HEADER 6  - Hydrophobicity Score              : 10.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.7581
+HEADER 10  -Pocket volume (convex hull)       : 5.5840
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1154  OE1 GLU A 163       4.650  27.819  25.764  0.43  6.43           O 0
+ATOM   1152   CG GLU A 163       5.161  25.638  24.967  0.00  0.00           C 0
+ATOM   1016   CD LYS A 147       5.052  27.779  21.976  0.00  0.00           C 0
+ATOM   1167   OG SER A 165       8.291  27.410  20.578  0.68  6.43           O 0
+ATOM   1204  CG2 THR A 171       9.908  26.194  29.049  0.00  0.00           C 0
+ATOM   1150    O GLU A 163       7.888  23.714  26.395  0.70  2.14           O 0
+ATOM   1203  OG1 THR A 171       7.661  25.327  28.824  0.56  4.29           O 0
+ATOM   1184    O SER A 169      12.438  22.965  24.150  0.58  1.07           O 0
+ATOM   1186   OG SER A 169      14.353  25.376  25.217  0.00  0.00           O 0
+ATOM   1162    N SER A 165       9.174  24.740  21.459  0.65  2.19           N 0
+ATOM   1166   CB SER A 165       9.474  26.784  20.137  0.00  0.00           C 0
+ATOM   1171    O ALA A 166      13.261  24.393  21.119  0.42  5.36           O 0
+ATOM   1188   CA PHE A 170      11.288  22.362  26.702  0.00  0.00           C 0
+ATOM   1157   CA SER A 164       8.406  23.292  23.261  0.00  0.00           C 0
+TER
+END

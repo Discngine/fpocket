@@ -8,13 +8,13 @@ The documentation below here is just a quick & rough overview.
 
 ## Content
 
-* fpocket: the original pocket prediction on a single protein structure 
-* mdpocket: extension of fpocket to analyse conformational ensembles of proteins (MD trajectories for instance)
-* dpocket: extract pocket descriptors
-* tpocket: test your pocket scoring function
+* __fpocket__   : the original pocket prediction on a single protein structure 
+* __mdpocket__  : extension of fpocket to analyse conformational ensembles of proteins (MD trajectories for instance)
+* __dpocket__   : extract pocket descriptors
+* __tpocket__   : test your pocket scoring function
 
 ## What's new compared to fpocket 2.0 (old sourceforge repo)
-fpocket: 
+__fpocket__: 
 - is now able to consider explicit pockets when you want to calculate properties for a known binding site
 - cli changed a bit
 - pocket flexibility using temperature factors is better considered (less very flexible pockets on very solvent exposed areas)
@@ -32,7 +32,8 @@ mdpocket:
 ### Prerequisites
 
 The most recent versions (starting with fpocket 3.0) make use of the molfile plugin from VMD. This plugin is shipped with fpocket. However, now you need to install the netcdf library on your system. This is typically called netcdf-devel or so, depending on you linux distribution.
-fpocket needs to be compiled to run on your machine. For this you'll need the gnu c compiler (or another one, but didn't test with others than GCC).
+fpocket needs to be compiled to run on your machine. For this you'll need the gnu c compiler (or another one).
+
 install netcdf-devel on ubuntu type : 
 ```
 sudo apt-get install libnetcdf-dev
@@ -40,6 +41,15 @@ sudo apt-get install libnetcdf-dev
 on a RHEL based distribution something like this should do:
 ```
 sudo yum install netcdf-devel.x86_64
+```
+
+on OSX:
+
+Install MacPorts https://www.macports.org/ for instance (needed for netcdf install)
+
+```bash
+sudo port install netcdf
+export LIBRARY_PATH=/opt/local/lib
 ```
 
 ### Installing
@@ -56,10 +66,7 @@ sudo make install
 ```
 
 #### Compiling on Mac
-Install MacPorts https://www.macports.org/ for instance (needed for netcdf install)
-```bash
-sudo port install netcdf
-export LIBRARY_PATH=/opt/local/lib
+```
 git clone https://github.com/Discngine/fpocket.git
 cd fpocket
 make ARCH=MACOSXX86_64
@@ -73,6 +80,38 @@ There's also a conda package of fpocket available thanks to Simon Bray. You can 
 conda config --add channels conda-forge
 conda install fpocket
 ```
+
+#### Testing your installation
+
+In order to test if the compilation went well you can compare results from fpocket sample files to reference results shipped with fpocket. The easiest way to do that is by using pytest. If you do not have pytest yet, you can install the required library using the conda environment file in the tests folder: 
+
+```bash
+conda env create -f tests/environment.yml
+conda activate fpocket_test
+```
+
+Once your conda environment activated you can run 
+
+```
+pytest
+
+```
+
+If everything works fine you should get something like this output here:
+```bash
+fpocket_test) Mac-Pro:fpocket peter$ pytest 
+============================================================= test session starts ==============================================================
+platform darwin -- Python 3.7.7, pytest-5.4.2, py-1.8.1, pluggy-0.13.1
+rootdir: /Users/peter/Documents/Work/fpocket_git/fpocket
+collected 4 items                                                                                                                              
+
+tests/test_fpocket.py ....                                                                                                               [100%]
+
+============================================================== 4 passed in 40.92s ==============================================================
+
+```
+If something fails in there you'll have a rather verbose and red output ... trust me you'll notice and panic ;)
+
 
 ### Running fpocket
 
