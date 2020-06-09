@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.4366
+HEADER 1  - Drug Score                        : 0.3704
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.5466
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3614
+HEADER 5  - Mean B-factor of pocket residues  : 0.0742
+HEADER 6  - Hydrophobicity Score              : 47.7273
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 133.9112
+HEADER 10  -Pocket volume (convex hull)       : 4.2448
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM   2460    O ALA A 311      51.337  27.045  13.616  0.65  3.21           O 0
+ATOM   2484  CG1 VAL A 314      48.268  27.198  15.380  0.00  0.00           C 0
+ATOM   2461   CB ALA A 311      53.251  26.206  16.066  0.00  0.00           C 0
+ATOM   2611  NE2 GLN A 331      49.279  31.788  15.542  0.81  1.09           N 0
+ATOM   2608   CG GLN A 331      51.190  32.823  16.569  0.00  0.00           C 0
+ATOM   2490   CB ALA A 315      50.324  29.658  11.624  0.00  0.00           C 0
+ATOM   2606    O GLN A 331      54.457  32.362  16.530  0.57  3.21           O 0
+ATOM   2819   CG LEU A 358      55.629  29.359  13.845  0.00  0.00           C 0
+ATOM   2820  CD1 LEU A 358      54.887  28.311  13.033  0.00  0.00           C 0
+ATOM   2390    N ALA A 302      52.023  28.128  22.151  0.53  1.09           N 0
+ATOM   2643    O TYR A 335      54.392  31.371  22.533  0.55  2.14           O 0
+ATOM   2394   CB ALA A 302      54.467  27.960  22.199  0.00  0.00           C 0
+ATOM   2637  CD2 HIS A 334      56.082  27.905  18.724  0.00  0.00           C 0
+ATOM   2858  CD1 ILE A 362      53.007  33.583  11.408  0.00  0.00           C 0
+ATOM   2383   CB PHE A 301      49.630  28.410  20.089  0.00  0.00           C 0
+ATOM   2326  OE2 GLU A 294      50.514  31.658  20.341  0.42  3.21           O 0
+ATOM   2631   CA HIS A 334      56.939  30.853  18.942  0.00  0.00           C 0
+ATOM   2386  CD2 PHE A 301      50.342  26.268  19.014  0.00  0.00           C 0
+TER
+END

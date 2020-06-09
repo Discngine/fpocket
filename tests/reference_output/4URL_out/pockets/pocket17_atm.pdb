@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0493
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9587
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6777
+HEADER 5  - Mean B-factor of pocket residues  : 0.4543
+HEADER 6  - Hydrophobicity Score              : -15.1111
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 311.6417
+HEADER 10  -Pocket volume (convex hull)       : 14.9138
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3478
+ATOM   1989   CA ARG A 295      53.354   7.733 -18.389  0.00  0.00           C 0
+ATOM   1993   CG ARG A 295      54.185   5.414 -19.208  0.00  0.00           C 0
+ATOM   2145  ND2 ASN A 313      59.546  10.149 -16.816  0.57  7.66           N 0
+ATOM   1992   CB ARG A 295      53.211   6.202 -18.328  0.00  0.00           C 0
+ATOM   2031  OD1 ASP A 299      56.424   8.020 -22.010  0.68  6.43           O 0
+ATOM   1985   CB THR A 294      52.328   9.838 -14.445  0.00  0.00           C 0
+ATOM   1987  CG2 THR A 294      53.726  10.418 -14.222  0.00  0.00           C 0
+ATOM   1986  OG1 THR A 294      51.431  10.429 -13.508  0.62  2.14           O 0
+ATOM   1967  CG2 THR A 291      51.184   3.933 -11.677  0.00  0.00           C 0
+ATOM   2023  OD1 ASN A 298      55.907  11.796 -16.749  0.66  2.14           O 0
+ATOM   2159    N GLY A 316      53.152  12.866 -11.067  0.40  5.47           N 0
+ATOM   2197  NH2 ARG A 320      49.669  10.552  -9.336  0.00  0.00           N 0
+ATOM   2160   CA GLY A 316      51.703  12.654 -11.144  0.00  0.00           C 0
+ATOM   1988    N ARG A 295      52.589   8.367 -17.326  0.00  0.00           N 0
+ATOM   1964    O THR A 291      51.422   6.145 -15.607  0.58  3.21           O 0
+ATOM   1962   CA THR A 291      50.431   5.559 -13.525  0.00  0.00           C 0
+ATOM   1965   CB THR A 291      50.907   4.136 -13.168  0.00  0.00           C 0
+ATOM   1955    O LYS A 290      49.303   8.190 -13.379  0.00  0.00           O 0
+ATOM   1961    N THR A 291      49.159   5.958 -12.884  0.00  0.00           N 0
+ATOM   1956   CB LYS A 290      47.505   7.687 -10.669  0.00  0.00           C 0
+ATOM   2021   CB ASN A 298      56.169  11.504 -19.109  0.00  0.00           C 0
+ATOM   1954    C LYS A 290      48.708   7.246 -12.852  0.00  0.00           C 0
+TER
+END

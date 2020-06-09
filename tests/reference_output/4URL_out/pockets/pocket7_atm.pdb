@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1391
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1833
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7013
+HEADER 5  - Mean B-factor of pocket residues  : 0.3928
+HEADER 6  - Hydrophobicity Score              : -14.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 333.6963
+HEADER 10  -Pocket volume (convex hull)       : 13.2314
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   3538    N GLY B 140      44.869 -20.934  49.879  0.42  4.37           N 0
+ATOM   3714    C LYS B 164      50.712 -19.090  47.167  0.00  0.00           C 0
+ATOM   3715    O LYS B 164      51.135 -18.062  47.699  0.67  3.21           O 0
+ATOM   3708    O THR B 163      48.860 -21.967  48.519  0.54  4.29           O 0
+ATOM   3720    O LYS B 165      47.150 -18.800  45.535  0.79  1.07           O 0
+ATOM   3185  ND2 ASN B  77      50.643 -11.320  41.111  0.81  5.47           N 0
+ATOM   3726    N THR B 166      47.336 -16.658  44.820  0.78  2.19           N 0
+ATOM   3182   CB ASN B  77      49.056 -13.083  40.703  0.00  0.00           C 0
+ATOM   3721   CB LYS B 165      50.063 -17.654  44.077  0.00  0.00           C 0
+ATOM   3730   CB THR B 166      45.279 -15.357  45.405  0.00  0.00           C 0
+ATOM   3530    N ASP B 139      42.732 -19.169  48.988  0.57  2.19           N 0
+ATOM   3732  CG2 THR B 166      45.865 -14.021  45.212  0.00  0.00           C 0
+ATOM   3718   CA LYS B 165      49.377 -17.851  45.454  0.00  0.00           C 0
+ATOM   3181    O ASN B  77      46.863 -11.730  41.774  0.62  3.21           O 0
+ATOM   3719    C LYS B 165      47.844 -17.812  45.279  0.00  0.00           C 0
+ATOM   3729    O THR B 166      46.837 -15.562  42.465  0.00  0.00           O 0
+TER
+END
