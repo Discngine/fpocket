@@ -55,6 +55,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #define M_DB_RUN 0  /**< default value for running fpocket for populating a database, 0 default*/
 
+#define M_MAX_CHAINS_DELETE 10 
 
 #define M_MIN_AS_DENSITY 0.7
 
@@ -192,7 +193,7 @@ typedef struct s_fparams
 		  asph_min_size,	 	/**< Minimum size of alpha spheres to keep */
                 min_as_density,                 /**<Minimum alpha sphere density for a pocket to be retained*/
 		  asph_max_size ;		/**< Maximum size of alpha spheres to keep */
-	char chain_delete[1]; /*chosen chain to delete before calculation*/
+	char chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
 
 
 } s_fparams ;

@@ -147,8 +147,10 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 //printf("%s and %s",par->custom_ligand,optarg);
                 const char  *separators  = ",:"; /* defining separators for drop chains args*/
                 pt = strtok( par->custom_ligand, separators);
+                int n = 0;
                 while (pt != NULL) {
-                    strncpy(&(par->chain_delete), pt, 1);
+                    strncpy(&(par->chain_delete[n]), pt, 1);
+                    n++;
                     pt = strtok(NULL, separators);
                 }
                 printf("%s\n",par->chain_delete);
