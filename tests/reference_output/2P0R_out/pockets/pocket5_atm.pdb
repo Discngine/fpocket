@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1811
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9786
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6920
+HEADER 5  - Mean B-factor of pocket residues  : 0.5799
+HEADER 6  - Hydrophobicity Score              : 0.3000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 419.1633
+HEADER 10  -Pocket volume (convex hull)       : 39.8522
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   3064    O LEU B  81      25.055  11.323  62.744  0.40  3.21           O 0
+ATOM   3105  OG1 THR B  87      21.556  16.691  64.142  0.00  0.00           O 0
+ATOM   3113  OD1 ASP B  88      21.151  14.046  62.450  0.15  1.07           O 0
+ATOM   3087  OG1 THR B  85      21.264  14.190  65.814  0.67  2.14           O 0
+ATOM   3072    O GLY B  82      25.220  12.020  66.598  0.37  4.29           O 0
+ATOM   3070   CA GLY B  82      26.845  11.586  64.888  0.00  0.00           C 0
+ATOM   3727  OD2 ASP B 164      27.104  13.875  58.046  0.00  0.00           O 0
+ATOM   3724   CB ASP B 164      24.795  14.507  57.842  0.00  0.00           C 0
+ATOM   3721   CA ASP B 164      24.049  15.409  56.847  0.00  0.00           C 0
+ATOM   3725   CG ASP B 164      26.116  13.950  57.284  0.00  0.00           C 0
+ATOM   3720    N ASP B 164      22.872  15.993  57.478  0.44  1.09           N 0
+ATOM   3726  OD1 ASP B 164      26.176  13.563  56.095  0.60  2.14           O 0
+ATOM   3745  ND2 ASN B 166      28.722  12.268  53.639  0.00  0.00           N 0
+ATOM   3737  NE2 HIS B 165      27.054  16.312  51.297  0.00  0.00           N 0
+ATOM   3719   CB ALA B 163      21.283  18.472  58.972  0.00  0.00           C 0
+ATOM   3718    O ALA B 163      23.028  17.937  56.383  0.00  0.00           O 0
+ATOM   3753  OE1 GLU B 167      22.106  11.996  60.333  0.00  0.00           O 0
+ATOM   3717    C ALA B 163      22.406  17.192  57.129  0.00  0.00           C 0
+ATOM   3735  CD2 HIS B 165      25.842  16.481  51.921  0.00  0.00           C 0
+ATOM   3728    N HIS B 165      23.955  14.992  54.444  0.00  0.00           N 0
+TER
+END

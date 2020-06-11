@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.1290
+HEADER 1  - Drug Score                        : 0.0062
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9089
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5543
+HEADER 5  - Mean B-factor of pocket residues  : 0.6989
+HEADER 6  - Hydrophobicity Score              : 48.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.3646
+HEADER 10  -Pocket volume (convex hull)       : 5.5416
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   2898    N GLN B  62       4.310  15.765  39.131  0.70  2.19           N 0
+ATOM   2913  CG2 ILE B  63       8.711  15.979  40.180  0.00  0.00           C 0
+ATOM   2932   CZ PHE B  65       8.337  14.112  43.810  0.00  0.00           C 0
+ATOM   2895   CB PRO B  61       5.290  13.261  40.922  0.00  0.00           C 0
+ATOM   2902   CB GLN B  62       3.810  17.968  38.262  0.00  0.00           C 0
+ATOM    592    C GLU A  93       6.418  21.829  40.536  0.00  0.00           C 0
+ATOM   2903   CG GLN B  62       2.406  17.910  38.889  0.00  0.00           C 0
+ATOM    593    O GLU A  93       5.835  22.348  41.499  0.71  5.36           O 0
+ATOM    598  OE2 GLU A  93       9.144  18.323  44.060  0.62  3.21           O 0
+ATOM    594   CB GLU A  93       8.061  20.768  42.117  0.00  0.00           C 0
+ATOM    591   CA GLU A  93       7.722  21.058  40.678  0.00  0.00           C 0
+ATOM   3688  CE1 PHE B 159       7.455  13.230  49.003  0.00  0.00           C 0
+ATOM   3146   CB GLU B  93       8.285  17.935  49.039  0.00  0.00           C 0
+ATOM   3678  CG1 VAL B 158      10.109  14.478  47.433  0.00  0.00           C 0
+ATOM   3145    O GLU B  93       6.194  16.566  50.007  0.00  0.00           O 0
+ATOM   2852   CZ PHE B  56       3.514  12.979  46.047  0.00  0.00           C 0
+ATOM   3149  OE1 GLU B  93       8.651  19.729  46.632  0.69  6.43           O 0
+TER
+END

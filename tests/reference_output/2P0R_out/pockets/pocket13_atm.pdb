@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0820
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7225
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4364
+HEADER 5  - Mean B-factor of pocket residues  : 0.3783
+HEADER 6  - Hydrophobicity Score              : 12.4444
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.5779
+HEADER 10  -Pocket volume (convex hull)       : 2.2755
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0952
+ATOM   2326  OG1 THR A 310      23.627  14.948  21.980  0.19  1.07           O 0
+ATOM   2364    O GLU A 316      16.868  14.413  22.498  0.75  3.21           O 0
+ATOM   2308    O CYS A 308      22.353  16.541  17.977  0.52  6.43           O 0
+ATOM   2324    O THR A 310      22.136  12.406  21.546  0.51  1.07           O 0
+ATOM   2035   CD ARG A 275      16.219  17.938  17.519  0.00  0.00           C 0
+ATOM   2389  NE1 TRP A 318      18.042  14.969  15.742  0.88  1.09           N 0
+ATOM   2368  OE1 GLU A 316      17.497  19.414  20.501  0.39  5.36           O 0
+ATOM   2175  OD1 ASP A 291      18.718  11.210  21.579  0.45  5.36           O 0
+ATOM   2356  OD2 ASP A 314      20.129  16.993  24.467  0.89  2.14           O 0
+ATOM   2366   CG GLU A 316      15.874  17.823  21.140  0.00  0.00           C 0
+ATOM   2318  CD2 HIS A 309      21.843  10.869  17.925  0.00  0.00           C 0
+ATOM   2387  CD1 TRP A 318      17.614  13.778  16.247  0.00  0.00           C 0
+ATOM   2312   CA HIS A 309      22.628  13.955  17.104  0.00  0.00           C 0
+ATOM   2365   CB GLU A 316      16.239  17.397  22.573  0.00  0.00           C 0
+ATOM   2371   CA PHE A 317      15.124  13.309  20.636  0.00  0.00           C 0
+ATOM   2321    N THR A 310      23.295  13.549  19.385  0.00  0.00           N 0
+TER
+END

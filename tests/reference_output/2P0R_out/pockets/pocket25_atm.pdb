@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.0393
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8832
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5940
+HEADER 5  - Mean B-factor of pocket residues  : 0.3243
+HEADER 6  - Hydrophobicity Score              : 35.5556
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.6296
+HEADER 10  -Pocket volume (convex hull)       : 3.9526
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   1915    O ILE A 261      13.856  19.579   9.511  0.52  6.43           O 0
+ATOM   1645  CD2 LEU A 224      11.587  22.875  12.978  0.00  0.00           C 0
+ATOM   1912    N ILE A 261      12.689  19.674  12.107  0.61  2.19           N 0
+ATOM   1909   CA GLY A 260      13.270  20.237  14.391  0.00  0.00           C 0
+ATOM   2298   CA LEU A 307      21.227  16.759  12.632  0.00  0.00           C 0
+ATOM   2300    O LEU A 307      20.489  16.933  14.864  0.00  0.00           O 0
+ATOM   2289    O ARG A 306      22.157  19.171  11.626  0.00  0.00           O 0
+ATOM   2392  CZ2 TRP A 318      17.107  16.601  14.075  0.00  0.00           C 0
+ATOM   2039  NH2 ARG A 275      16.578  21.454  16.505  0.00  0.00           N 0
+ATOM   1904    O THR A 259      13.861  22.310  16.199  0.68  3.21           O 0
+ATOM   1927  OD2 ASP A 262      17.732  18.746   9.225  0.00  0.00           O 0
+ATOM   2394  CH2 TRP A 318      16.034  16.802  13.247  0.00  0.00           C 0
+ATOM   2037   CZ ARG A 275      16.901  20.193  16.712  0.00  0.00           C 0
+ATOM   2038  NH1 ARG A 275      18.104  19.777  16.363  0.00  0.00           N 0
+TER
+END

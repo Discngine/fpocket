@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0465
+HEADER 1  - Drug Score                        : 0.0142
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9281
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6600
+HEADER 5  - Mean B-factor of pocket residues  : 0.4483
+HEADER 6  - Hydrophobicity Score              : -9.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.6914
+HEADER 10  -Pocket volume (convex hull)       : 34.3167
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.4815
+ATOM   2424   CG LYS A 322       5.133   5.657   9.702  0.00  0.00           C 0
+ATOM   2426   CE LYS A 322       4.989   3.124   9.316  0.00  0.00           C 0
+ATOM   2460   CB ALA A 326       1.969   5.869  15.007  0.00  0.00           C 0
+ATOM   2427   NZ LYS A 322       4.063   3.369   8.180  0.00  0.00           N 0
+ATOM   2422    O LYS A 322       4.086   7.520  12.471  0.67  5.36           O 0
+ATOM   2434  OD1 ASP A 323       7.277   4.557  13.455  0.67  9.64           O 0
+ATOM   2451   CB LYS A 325       1.910  10.505  12.327  0.00  0.00           C 0
+ATOM   2457   CA ALA A 326       1.238   7.178  15.369  0.00  0.00           C 0
+ATOM   1525   CG LYS A 210      -3.295   8.952  13.937  0.00  0.00           C 0
+ATOM   1527   CE LYS A 210      -2.765   7.664  16.012  0.00  0.00           C 0
+ATOM   2455   NZ LYS A 325       1.878  10.755   7.855  0.00  5.47           N 0
+ATOM   1521   CA LYS A 210      -3.872  10.844  12.313  0.00  0.00           C 0
+ATOM   2453   CD LYS A 325       1.829  11.818  10.143  0.00  0.00           C 0
+ATOM   1516    O THR A 209      -1.667  12.542  11.972  0.00  0.00           O 0
+ATOM   1523    O LYS A 210      -5.188  10.334  10.406  0.00  0.00           O 0
+ATOM   1541    O ALA A 212      -3.631  14.355   6.775  0.67  7.50           O 0
+ATOM   1538    N ALA A 212      -4.369  14.239   9.363  0.00  0.00           N 0
+ATOM   2454   CE LYS A 325       2.590  10.873   9.182  0.00  0.00           C 0
+ATOM   1542   CB ALA A 212      -2.278  15.543   9.525  0.00  0.00           C 0
+ATOM   1546    O PRO A 213      -1.160  15.349   5.530  0.31  3.21           O 0
+ATOM   2456    N ALA A 326       1.926   8.328  14.798  0.00  0.00           N 0
+ATOM   2449    C LYS A 325       1.316   9.500  14.591  0.00  0.00           C 0
+ATOM   2450    O LYS A 325       0.172   9.754  14.989  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0796
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6975
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4878
+HEADER 5  - Mean B-factor of pocket residues  : 0.7292
+HEADER 6  - Hydrophobicity Score              : 12.4444
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.9432
+HEADER 10  -Pocket volume (convex hull)       : 3.9774
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4939  CD1 TRP B 318      17.137  27.686  74.036  0.00  0.00           C 0
+ATOM   4864   CA HIS B 309      22.129  28.277  73.108  0.00  0.00           C 0
+ATOM   4876    O THR B 310      21.382  29.646  69.077  0.00  0.00           O 0
+ATOM   4869  ND1 HIS B 309      20.537  30.941  72.382  0.31  1.09           N 0
+ATOM   4860    O CYS B 308      22.565  25.688  72.144  0.42  6.43           O 0
+ATOM   4873    N THR B 310      22.749  28.547  70.824  0.58  1.09           N 0
+ATOM   4727  OD1 ASP B 291      18.000  30.080  68.274  0.15  2.14           O 0
+ATOM   4941  NE1 TRP B 318      17.808  26.621  74.561  0.71  2.19           N 0
+ATOM   4587   CD ARG B 275      16.125  23.579  73.215  0.00  0.00           C 0
+ATOM   4590  NH1 ARG B 275      18.492  22.362  74.246  0.64  7.66           N 0
+ATOM   4920  OE1 GLU B 316      17.612  21.822  70.107  0.20  5.36           O 0
+ATOM   4918   CG GLU B 316      15.839  23.221  69.462  0.00  0.00           C 0
+ATOM   4908  OD2 ASP B 314      19.680  25.558  66.699  0.69  5.36           O 0
+ATOM   4916    O GLU B 316      16.330  26.515  67.848  0.57  1.07           O 0
+ATOM   4922    N PHE B 317      14.575  26.203  69.228  0.00  0.00           N 0
+ATOM   4923   CA PHE B 317      14.621  27.498  69.883  0.00  0.00           C 0
+TER
+END

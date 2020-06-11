@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0299
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0333
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5431
+HEADER 5  - Mean B-factor of pocket residues  : 0.7315
+HEADER 6  - Hydrophobicity Score              : 13.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.3010
+HEADER 10  -Pocket volume (convex hull)       : 10.1933
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3922   CD LYS B 188      -1.622  15.955  51.452  0.00  0.00           C 0
+ATOM   2850  CE1 PHE B  56       2.378  12.753  46.755  0.00  0.00           C 0
+ATOM   3157  CD1 LEU B  94       3.656  13.994  51.957  0.00  0.00           C 0
+ATOM   3899   CG GLU B 185      -1.228  11.605  49.092  0.00  0.00           C 0
+ATOM   3920   CB LYS B 188      -0.327  14.528  53.052  0.00  0.00           C 0
+ATOM   2868    O SER B  58      -2.600  12.325  43.922  0.32  8.57           O 0
+ATOM   3902  OE2 GLU B 185      -3.259  12.131  47.991  0.33  4.29           O 0
+ATOM   3900   CD GLU B 185      -2.159  11.549  47.897  0.00  0.00           C 0
+ATOM   2848  CD1 PHE B  56       1.475  11.829  46.324  0.00  0.00           C 0
+ATOM   3924   NZ LYS B 188      -3.354  16.996  49.960  0.06  9.84           N 0
+ATOM    354  NE2 GLN A  62       1.217  20.100  50.698  0.46  9.84           N 0
+ATOM   3923   CE LYS B 188      -2.528  17.163  51.213  0.00  0.00           C 0
+ATOM    353  OE1 GLN A  62       1.389  18.286  52.065  0.59  2.14           O 0
+ATOM   3145    O GLU B  93       6.194  16.566  50.007  0.00  0.00           O 0
+ATOM   2852   CZ PHE B  56       3.514  12.979  46.047  0.00  0.00           C 0
+TER
+END
