@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0666
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.2261
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6484
+HEADER 5  - Mean B-factor of pocket residues  : 0.3460
+HEADER 6  - Hydrophobicity Score              : -2.2222
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.6776
+HEADER 10  -Pocket volume (convex hull)       : 12.7634
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2273
+ATOM   1381   CD ARG A 217      12.661  17.177  -2.036  0.00  0.00           C 0
+ATOM   1360    O LYS A 215       8.702  15.897   0.950  0.55  3.21           O 0
+ATOM   1358   CA LYS A 215       7.781  17.029   2.839  0.00  0.00           C 0
+ATOM   1369    O GLU A 216       7.556  17.803  -1.612  0.00  0.00           O 0
+ATOM   1359    C LYS A 215       7.698  16.456   1.411  0.00  0.00           C 0
+ATOM   1384  NH1 ARG A 217      15.135  17.512  -0.714  0.00  0.00           N 0
+ATOM   1361   CB LYS A 215       8.457  15.948   3.717  0.00  0.00           C 0
+ATOM   1139   CB PHE A 187      14.452  13.418   0.943  0.00  0.00           C 0
+ATOM   1362   CG LYS A 215       8.698  16.317   5.160  0.00  0.00           C 0
+ATOM   1152  OD1 ASP A 188      17.470  16.559   0.528  0.57  1.07           O 0
+ATOM   1153  OD2 ASP A 188      18.187  17.255   2.490  0.45  8.57           O 0
+ATOM   1135    N PHE A 187      15.443  12.021   2.744  0.00  0.00           N 0
+ATOM   1134  ND2 ASN A 186      18.280  13.120   4.182  0.61  1.09           N 0
+ATOM   1133  OD1 ASN A 186      17.962  13.546   6.315  0.48  6.43           O 0
+ATOM   1119    O PHE A 185      13.505  10.393   5.763  0.00  0.00           O 0
+ATOM   1346  NH2 ARG A 212      11.384  11.770   4.291  0.50  4.37           N 0
+ATOM   1365   NZ LYS A 215      10.147  14.261   7.978  0.22  9.84           N 0
+ATOM   1364   CE LYS A 215       9.673  15.462   7.264  0.00  0.00           C 0
+ATOM   1128   CA ASN A 186      16.072  11.023   4.864  0.00  0.00           C 0
+ATOM   1363   CD LYS A 215       9.078  15.085   5.935  0.00  0.00           C 0
+ATOM   1327  OD2 ASP A 210      10.578  12.833   1.842  0.32  2.14           O 0
+TER
+END

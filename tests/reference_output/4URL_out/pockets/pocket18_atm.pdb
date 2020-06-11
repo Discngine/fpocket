@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0488
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8637
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6759
+HEADER 5  - Mean B-factor of pocket residues  : 0.6422
+HEADER 6  - Hydrophobicity Score              : 28.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.0050
+HEADER 10  -Pocket volume (convex hull)       : 6.2164
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2455    O LYS A 362      43.362   7.575 -26.405  0.67  4.29           O 0
+ATOM   1629   CB PHE A 247      38.680   6.296 -23.284  0.00  0.00           C 0
+ATOM   1621    O THR A 246      36.745   8.826 -23.959  0.00  0.00           O 0
+ATOM   2458   CD LYS A 362      40.334   3.887 -26.616  0.00  0.00           C 0
+ATOM   2456   CB LYS A 362      41.773   5.202 -24.971  0.00  0.00           C 0
+ATOM   1632  CD2 PHE A 247      40.044   8.374 -22.941  0.00  0.00           C 0
+ATOM   2479    O PHE A 365      44.103  11.250 -30.155  0.00  0.00           O 0
+ATOM   2478    C PHE A 365      44.277  10.415 -29.272  0.00  0.00           C 0
+ATOM   2487    N TYR A 366      43.776  10.544 -28.038  0.00  0.00           N 0
+ATOM   2524  OE2 GLU A 369      41.779  10.601 -33.358  0.73  7.50           O 0
+ATOM   2488   CA TYR A 366      43.000  11.730 -27.619  0.00  0.00           C 0
+ATOM   2520   CB GLU A 369      42.693  13.649 -32.273  0.00  0.00           C 0
+ATOM   2493  CD1 TYR A 366      40.487  13.140 -25.966  0.00  0.00           C 0
+ATOM   2530   CG LYS A 370      41.259  16.560 -28.459  0.00  0.00           C 0
+ATOM   2532   CE LYS A 370      38.816  16.732 -29.094  0.00  0.00           C 0
+ATOM   2491   CB TYR A 366      42.463  11.564 -26.165  0.00  0.00           C 0
+ATOM   2480   CB PHE A 365      44.301   8.029 -30.126  0.00  0.00           C 0
+ATOM   2490    O TYR A 366      43.556  13.979 -28.329  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0082
+HEADER 1  - Drug Score                        : 0.0749
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9613
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7421
+HEADER 5  - Mean B-factor of pocket residues  : 0.3462
+HEADER 6  - Hydrophobicity Score              : 11.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 372.9926
+HEADER 10  -Pocket volume (convex hull)       : 14.3731
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.2000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1219  CG2 THR A 173     478.597 213.918 561.349  0.00  0.00           C 0
+ATOM   1190   CG ARG A 170     484.796 216.445 563.530  0.00  0.00           C 0
+ATOM   1194  NH1 ARG A 170     486.443 216.641 560.004  0.00  0.00           N 0
+ATOM   1191   CD ARG A 170     485.622 217.340 562.616  0.00  0.00           C 0
+ATOM   1185    N ARG A 170     483.870 213.769 564.989  0.00  0.00           N 0
+ATOM   1157    O GLU A 166     485.511 215.617 566.778  0.76  1.07           O 0
+ATOM   1184   CB ALA A 169     482.387 213.840 567.856  0.00  0.00           C 0
+ATOM   1155   CA GLU A 166     485.666 216.437 569.028  0.00  0.00           C 0
+ATOM   1158   CB GLU A 166     486.007 217.928 569.043  0.00  0.00           C 0
+ATOM   1159   CG GLU A 166     485.499 218.665 570.279  0.00  0.00           C 0
+ATOM   1218  OG1 THR A 173     479.430 213.527 563.604  0.64  5.36           O 0
+ATOM   1182    C ALA A 169     482.880 213.050 565.525  0.00  0.00           C 0
+ATOM   1183    O ALA A 169     481.907 212.676 564.860  0.00  0.00           O 0
+ATOM   1224   CB ARG A 174     482.719 211.076 558.406  0.00  0.00           C 0
+ATOM   1220    N ARG A 174     480.980 211.264 560.115  0.00  0.00           N 0
+ATOM   1221   CA ARG A 174     481.235 210.894 558.726  0.00  0.00           C 0
+ATOM   1186   CA ARG A 170     483.873 214.050 563.556  0.00  0.00           C 0
+ATOM   1189   CB ARG A 170     485.033 214.979 563.201  0.00  0.00           C 0
+ATOM   1188    O ARG A 170     483.312 212.628 561.701  0.59  3.21           O 0
+ATOM   1217   CB THR A 173     479.627 213.197 562.219  0.00  0.00           C 0
+ATOM    405   CE MET A  47     486.263 212.887 559.298  0.00  0.00           C 0
+ATOM   1226   CD ARG A 174     482.587 211.324 555.898  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0640
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8988
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5797
+HEADER 5  - Mean B-factor of pocket residues  : 0.3120
+HEADER 6  - Hydrophobicity Score              : 17.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.2969
+HEADER 10  -Pocket volume (convex hull)       : 2.1675
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4844    O LEU B 307      54.015  36.606  20.163  0.00  0.00           O 0
+ATOM   4830  OD1 ASN B 305      55.716  39.980  22.224  0.30  4.29           O 0
+ATOM   4858    N THR B 309      51.834  39.939  18.596  0.60  3.28           N 0
+ATOM   4863  OG1 THR B 309      50.479  41.529  20.341  0.66  9.64           O 0
+ATOM   4797    O ARG B 302      53.282  36.418  24.262  0.67  6.43           O 0
+ATOM   4831  ND2 ASN B 305      55.002  39.703  24.357  0.56  5.47           N 0
+ATOM   4803  NH1 ARG B 302      50.152  36.294  18.568  0.68  1.09           N 0
+ATOM   4800   CD ARG B 302      49.188  34.698  20.723  0.00  0.00           C 0
+ATOM   4864  CG2 THR B 309      48.500  41.839  18.986  0.00  0.00           C 0
+ATOM   4861    O THR B 309      48.948  39.415  16.608  0.78  6.43           O 0
+ATOM   4859   CA THR B 309      50.390  40.177  18.389  0.00  0.00           C 0
+ATOM   4801   NE ARG B 302      48.950  34.454  19.294  0.75  2.19           N 0
+ATOM   4798   CB ARG B 302      50.940  34.737  22.596  0.00  0.00           C 0
+ATOM   4802   CZ ARG B 302      49.417  35.218  18.302  0.00  0.00           C 0
+TER
+END
