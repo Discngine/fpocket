@@ -746,7 +746,7 @@ void print_pocket_usage(FILE *f) {
     fprintf(f, "\t-%c --%s\t\t: Put this flag if you want to write fpocket\n\
 \t\t\t\t\t\t  descriptors to the standard output\n", M_PAR_DB_RUN, M_PAR_LONG_DB_RUN);
 
-    fprintf(f, "\n\n\033[1mOZZAZZA input parameters\033[0m\n");
+    fprintf(f, "\n\n\033[1mOptional input parameters\033[0m\n");
     fprintf(f, "\t-%c --%s (int)\t\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
     fprintf(f, "\t-%c --%s (string)\t\t: File name of a topology file (Amber prmtop).\t\n", M_PAR_TOPOLOGY, M_PAR_LONG_TOPOLOGY);
     fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n", M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
@@ -771,7 +771,8 @@ void print_pocket_usage(FILE *f) {
 \t\t\t\t\t\t  an a-sphere to be considered as apolar.   (%d)\n", M_PAR_MIN_APOL_NEIGH, M_PAR_LONG_MIN_APOL_NEIGH, M_MIN_APOL_NEIGH_DEFAULT);
     fprintf(f, "\t-%c --%s (integer)\t: Number of Monte-Carlo iteration for the      \n\
 \t\t\t\t\t\t  calculation of each pocket volume.(%d)\n", M_PAR_MC_ITER, M_PAR_LONG_MC_ITER, M_MC_ITER);
-
+fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be deleted before pocket detection,      \n\
+\t\t\t\t\t\t  able to delete up to (%d) chains (ie : -c A,B,E)\n", M_PAR_DROP_CHAINS, M_PAR_DROP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
 
 }

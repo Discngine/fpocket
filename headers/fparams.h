@@ -55,7 +55,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #define M_DB_RUN 0  /**< default value for running fpocket for populating a database, 0 default*/
 
-#define M_MAX_CHAINS_DELETE 10 
+#define M_MAX_CHAINS_DELETE 20 
 
 #define M_MIN_AS_DENSITY 0.7
 

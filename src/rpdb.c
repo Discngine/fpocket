@@ -1436,6 +1436,22 @@ void free_pdb_atoms(s_pdb *pdb)
     }
 }
 
+/**
+   ## FUNCTION:
+        chains_to_delete
+
+
+   ## SPECIFICATION:
+        Delete selected chains before pocket calculation
+        If the chain is deleted return 0 and 1 if the chain is not deleted
+
+   ## PARAMETRES:
+        @ char *chains_selected: chains selected to be deleted
+        @ char *current_line_chain : current line in the pdb file
+   ## RETURN:
+        int
+
+ */
 int chains_to_delete(char *chains_selected, char *current_line_chain)
 { /*deletes the chains selected by command -c, returns true if the chain correspond false if not*/
     int is_deleted = 1;
