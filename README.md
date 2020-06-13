@@ -1,5 +1,6 @@
 
 ![fpocket logo](doc/images/fpocket_logo.png)
+[![Build Status](https://dev.azure.com/3decision/fpocket/_apis/build/status/Discngine.fpocket?branchName=master)](https://dev.azure.com/3decision/fpocket/_build/latest?definitionId=2&branchName=master)
 
 The fpocket suite of programs is a very fast open source protein pocket detection algorithm based on Voronoi tessellation. The platform is suited for the scientific community willing to develop new scoring functions and extract pocket descriptors on a large scale level.
 
