@@ -33,7 +33,7 @@ mdpocket:
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites (if you want to compile it)
 
 The most recent versions (starting with fpocket 3.0) make use of the molfile plugin from VMD. This plugin is shipped with fpocket. However, now you need to install the netcdf library on your system. This is typically called netcdf-devel or so, depending on you linux distribution.
 fpocket needs to be compiled to run on your machine. For this you'll need the gnu c compiler (or another one).
@@ -55,6 +55,35 @@ Install MacPorts https://www.macports.org/ for instance (needed for netcdf insta
 sudo port install netcdf
 export LIBRARY_PATH=/opt/local/lib
 ```
+
+### Docker Image
+
+#### Using the official fpocket docker image
+
+The following command will pull the latest fpocket docker image from the dockerhub. 
+
+```bash
+docker pull fpocket/fpocket
+```
+
+#### Building the docker image
+
+
+You can create a docker image with fpocket using the provided Dockerfile of the repo (obviously you'd need docker to do that): 
+
+```bash
+docker build -t fpocket/fpocket .
+```
+
+#### Using the docker image
+
+This will build fpocket into your local fpocket/fpocket image. You can then run fpocket/mdpocket etc using: 
+
+```bash
+docker run -v `pwd`:/WORKDIR fpocket/fpocket fpocket -f data/sample/1UYD.pdb
+```
+
+Here you mount your current directory with your input files into the preconfigured `/WORKDIR` in the docker container and then run fpocket on a file in that mounted folder.
 
 ### Installing
 
@@ -146,6 +175,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Peter Schmidtke** - *Initial work* - [pschmidtke](https://github.com/pschmidtke)
 * **Vincent Le Guilloux** - *Initial work* - [leguilv](https://github.com/leguilv)
+* **Mael Shorkar** - *Chain handling* - [leguilv](https://github.com/shorkarmael)
 
 
 ## License
