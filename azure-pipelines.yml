@@ -6,13 +6,12 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
 
 jobs:
  - job: build_environment
-    displayName: Build Environment
-    steps:
+   pool:
+      vmImage: 'ubuntu-latest'
+   steps:
       - script: conda env create --file tests/environment.yml --name fpocket_test
         displayName: Create Anaconda environment
       - script: conda env list
