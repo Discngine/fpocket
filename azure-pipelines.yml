@@ -21,6 +21,7 @@ jobs:
           targetType: 'inline'
           script: |
             eval "$(conda shell.bash hook)"
+            sudo apt-get install libnetcdf-dev
             conda activate fpocket_test
             make
             pytest
