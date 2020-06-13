@@ -8,7 +8,7 @@ trigger:
 
 
 jobs:
- - job: build_environment
+ - job: build_and_test_linux
    pool:
       vmImage: 'ubuntu-latest'
    steps:
@@ -26,3 +26,22 @@ jobs:
             make
             pytest
         displayName: Active
+
+ - job: build_and_test_mac
+   pool:
+      vmImage: 'macOS-latest'
+   steps:
+      - script: conda env create --file tests/environment.yml --name fpocket_test
+        displayName: Create Anaconda environment
+      - script: conda env list
+        displayName:  environment installation verification
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            eval "$(conda shell.bash hook)"
+            conda activate fpocket_test
+            make fpocket
+            pytest
+        displayName: Active
+
