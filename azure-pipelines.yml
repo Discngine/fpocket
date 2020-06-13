@@ -31,6 +31,7 @@ jobs:
    pool:
       vmImage: 'macOS-10.14'
    steps:
+      - bash: sudo chown -R $USER $CONDA
       - script: conda env create --file tests/environment.yml --name fpocket_test
         displayName: Create Anaconda environment
       - script: conda env list
