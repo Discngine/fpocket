@@ -3,9 +3,10 @@
 # Add steps that publish test results, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/c-cpp/gcc
 
-trigger:
-- master
+trigger: none                       # will disable CI builds entirely i.e. merges, check-ins do not trigger this build
 
+pr:
+  - master                          # trigger on a PR to master
 
 jobs:
  - job: build_and_test_linux
