@@ -9,12 +9,20 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-
-- script: |
-    sudo apt-get install libnetcdf-dev
-    conda env create -f tests/environment.yml
-    make
-    conda activate fpocket_test
-    pytest
-  displayName: 'make'
+jobs:
+ - job: build_environment
+    displayName: Build Environment
+    steps:
+      - script: conda env create --file tests/environment.yml --name fpocket_test
+        displayName: Create Anaconda environment
+      - script: conda env list
+        displayName:  environment installation verification
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            eval "$(conda shell.bash hook)"
+            conda activate fpocket_test
+            make
+            pytest
+        displayName: Active
