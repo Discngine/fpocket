@@ -42,7 +42,7 @@ jobs:
           script: |
             eval "$(conda shell.bash hook)"
             conda activate fpocket_test
-            make fpocket
+            make fpocket ARCH=MACOSXX86_64
             pytest
         displayName: Active
 
