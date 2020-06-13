@@ -13,5 +13,8 @@ steps:
 
 - script: |
     sudo apt-get install libnetcdf-dev
+    conda env create -f tests/environment.yml
     make
+    conda activate fpocket_test
+    pytest
   displayName: 'make'
