@@ -10,6 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+
 - script: |
+    sudo apt-get install libnetcdf-dev
     make
   displayName: 'make'
