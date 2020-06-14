@@ -1,5 +1,4 @@
 FROM centos:7
-MAINTAINER Peter Schmidtke
 
 #RUN yum -y install epel-release && yum -y update && yum -y install gcc gcc-c++ make netcdf-devel; yum clean all
 RUN yum -y install gcc gcc-c++ make netcdf-devel; yum clean all
