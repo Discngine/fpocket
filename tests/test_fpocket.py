@@ -104,7 +104,5 @@ def test_drop_chain():
     pdb_list=['2P0R']
     for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="-c D")
-    '''Testing the long parameter version of drop chains'''
-    for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="--drop_chains D")
 
