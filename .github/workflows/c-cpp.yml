@@ -15,10 +15,16 @@ jobs:
       run: sudo apt-get install libnetcdf-dev
     - name: make
       run: make fpocket
-    
-  build-macos:
-    runs-on: macos-latest
+
+  test-linux: 
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: make
-      run: make fpocket -ARCH=MACOSXX86_64
+    - uses: actions/checkout@v1
+    - name: Update Conda environment with "requirements.yml"
+      uses: matthewrmshin/conda-action@v1
+      with:
+        args: conda env update -f ./tests/environment.yml
+    - name: Run "pytest" with the Conda environment
+      uses: matthewrmshin/conda-action@v1
+      with:
+        args: pytest
