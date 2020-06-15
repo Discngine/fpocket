@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0425
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.1515
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6662
+HEADER 5  - Mean B-factor of pocket residues  : 0.6215
+HEADER 6  - Hydrophobicity Score              : 7.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 373.4230
+HEADER 10  -Pocket volume (convex hull)       : 14.4928
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0769
+ATOM    946    N HIS A 138      -4.980  41.020  26.242  0.71  4.37           N 0
+ATOM    952  ND1 HIS A 138      -8.760  40.087  27.971  0.00  0.00           N 0
+ATOM    951   CG HIS A 138      -7.632  39.853  27.212  0.00  0.00           C 0
+ATOM    953  CD2 HIS A 138      -6.914  38.923  27.886  0.00  0.00           C 0
+ATOM    942   CG GLN A 137      -3.192  39.180  28.919  0.00  0.00           C 0
+ATOM    991  CD1 LEU A 142      -1.285  42.907  30.241  0.00  0.00           C 0
+ATOM     16  NH2 ARG A  20      -3.523  46.470  30.335  0.39  6.56           N 0
+ATOM    992  CD2 LEU A 142      -1.176  44.692  28.544  0.00  0.00           C 0
+ATOM    950   CB HIS A 138      -7.368  40.553  25.917  0.00  0.00           C 0
+ATOM    955  NE2 HIS A 138      -7.616  38.616  29.028  0.00  0.00           N 0
+ATOM    954  CE1 HIS A 138      -8.725  39.333  29.054  0.00  0.00           C 0
+ATOM    941   CB GLN A 137      -2.452  40.010  27.942  0.00  0.00           C 0
+ATOM    969  OE1 GLU A 140      -3.869  46.477  26.485  0.00  0.00           O 0
+ATOM    956    N SER A 139      -5.695  42.080  23.651  0.00  0.00           N 0
+ATOM    961   OG SER A 139      -7.884  42.715  22.532  0.52  8.57           O 0
+ATOM    966   CB GLU A 140      -3.061  44.958  24.340  0.00  0.00           C 0
+ATOM    960   CB SER A 139      -6.763  43.066  21.741  0.00  0.00           C 0
+ATOM    959    O SER A 139      -4.246  44.175  21.351  0.00  0.00           O 0
+ATOM    968   CD GLU A 140      -3.066  47.054  25.726  0.00  0.00           C 0
+ATOM    967   CG GLU A 140      -2.367  46.262  24.643  0.00  0.00           C 0
+ATOM    970  OE2 GLU A 140      -2.795  48.262  25.823  0.00  0.00           O 0
+TER
+END

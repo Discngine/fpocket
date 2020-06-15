@@ -141,5 +141,5 @@ s_atom_ptr_list *init_atom_ptr_list(void);
 
 
 short get_mm_type_from_element(char *symbol);
-
+int chains_to_delete(char *chains_selected, char *current_line_chain);
 #endif

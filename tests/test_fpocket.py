@@ -98,6 +98,18 @@ def test_pdb_list_different_clustering_threshold():
     pdb_list=['1UYD','3LKF','1ATP','4URL','5WA6','7TAA']
     for pdb_code in pdb_list:
         fpocket_out_test_default_different(pdb_code,params="-D 3.6")
+
+
+
+def test_drop_chain():
+    """
+    Test a list of chains to drop from a pdb file
+    """
+    pdb_list=['2P0R']
+    for pdb_code in pdb_list:
+        fpocket_out_test_default_equal(pdb_code,params="-c D")
+        fpocket_out_test_default_equal(pdb_code,params="--drop_chains D")
+
     
     
 def test_explicit_pocket_detection():
@@ -108,3 +120,4 @@ def test_explicit_pocket_detection():
     for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="-r 1224:PU8:A",explicit=True)
     
+

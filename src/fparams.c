@@ -101,14 +101,14 @@ s_fparams* init_def_fparams(void) {
  */
 s_fparams* get_fpocket_args(int nargs, char **args) {
     int status = 0;
-    s_fparams *par = init_def_fparams();
+    s_fparams *par = init_def_fparams(); /*default param initialy*/
     int c = 0;
     short j = 0;
     short xflag;
     opterr = 0;
     char *pt;
     short custom_ligand_i=0;
-    static struct option fplong_options[] = {
+    static struct option fplong_options[] = {  /*long options args located in fparams.h*/
         {"file", required_argument, 0, M_PAR_PDB_FILE},
         {"min_alpha_size", required_argument, 0, M_PAR_MIN_ASHAPE_SIZE},
         {"max_alpha_size", required_argument, 0, M_PAR_MAX_ASHAPE_SIZE},
@@ -124,6 +124,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         {"topology_file", required_argument, 0, M_PAR_TOPOLOGY},
         {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
         {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
+        {M_PAR_DROP_CHAINS_LONG, required_argument, 0, M_PAR_DROP_CHAINS}, /*drop chains*/
         {0, 0, 0, 0}
     };
 
@@ -132,13 +133,30 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         /* getopt_long stores the option index here. */
         int option_index = 0;
         optarg = 0;
-        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:",
+        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:c:",
                 fplong_options, &option_index);
         //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
         switch (c) {
             case 0:
                 break;
+
+            case M_PAR_DROP_CHAINS :
+            /*drop the selected chains from the pdb file*/
+                strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
+                //printf("%s and %s",par->custom_ligand,optarg);
+                const char  *separators  = ",:"; /* defining separators for drop chains args*/
+                pt = strtok( par->chain_delete, separators);
+                int n = 0;
+                while (pt != NULL) {
+                    strncpy(&(par->chain_delete[n]), pt, 1);
+                    n++;
+                    pt = strtok(NULL, separators);
+                }
+                printf("%s\n",par->chain_delete);
+                status++;
+                break;
+
             case M_PAR_CUSTOM_LIGAND:
 
                 //parse ligand specification that has to be given as 
@@ -146,9 +164,13 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 //for 1uyd for instance 1224:PU8:A
                 
                 status++;
-                strcpy(par->custom_ligand, optarg);
                 
+                strcpy(par->custom_ligand, optarg);
+                //printf("%s and %s",par->custom_ligand,optarg);
                 pt = strtok( par->custom_ligand, ":");
+                
+                
+
                 while (pt != NULL) {
                     custom_ligand_i++;
                     if(custom_ligand_i==1) par->xlig_resnumber =atoi(pt);
@@ -749,7 +771,8 @@ void print_pocket_usage(FILE *f) {
 \t\t\t\t\t\t  an a-sphere to be considered as apolar.   (%d)\n", M_PAR_MIN_APOL_NEIGH, M_PAR_LONG_MIN_APOL_NEIGH, M_MIN_APOL_NEIGH_DEFAULT);
     fprintf(f, "\t-%c --%s (integer)\t: Number of Monte-Carlo iteration for the      \n\
 \t\t\t\t\t\t  calculation of each pocket volume.(%d)\n", M_PAR_MC_ITER, M_PAR_LONG_MC_ITER, M_MC_ITER);
-
+fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be deleted before pocket detection,      \n\
+\t\t\t\t\t\t  able to delete up to (%d) chains (ie : -c A,B,E)\n", M_PAR_DROP_CHAINS, M_PAR_DROP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
 
 }

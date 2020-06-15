@@ -220,7 +220,7 @@ You can extract these grid points using a python script that is available in the
 ##### or : 
 
 	-L: a mdpocket input file, this file has to contain the paths to the PDB files of all snapshots (one path per line)
-    --selected_pocket   : a PDB file containing the sitepoints in the pocket to be selected
+	--selected_pocket   : a PDB file containing the sitepoints in the pocket to be selected
 
 #### Optional:
 
@@ -414,17 +414,17 @@ The simplest way to run fpocket is either by providing a single pdb file, or by 
 #### Optional:
 
     -m float: (default 3.4Å) This flag enables the user to modify the minimum radius an alpha sphere might have in a binding pocket. An alpha sphere is a contact sphere, that touches 4 atoms in 3D space without having any internal atoms. Here 3Å allow filtering of too small (protein internal) alpha spheres. I you want to analyze internal interstices, lower this parameter. In the contrary, if you want to analyze more solvent exposed cavities, you can raise this parameter in order to filter out too buried cavities.
-
+    
     -M float: (default 6.2Å) Here you can modify the maximum radius of alpha spheres in a pocket. An alpha sphere is a contact sphere, that touches 4 atoms in 3D space without having any internal atoms. Here 7Å allow to filter out too large contact spheres, that are lying on the protein surface. If you want to analyze very flat and solvent exposed surface depressions, raise this parameter. For analysis of buried parts of the protein you can lower this parameter. Higher radii might be more interesting for identification of protein protein binding sites or polysaccharide binding sites. Smaller radii enable detection of buried cavities for small organic molecules (drugs, for instance).
-
+    
     -l int: (None) If you have an input PDB file of an NMR structure or one with multiple models you can specify which model (conformation) you'd like to analyse
-
+    
     -C char: (default s) The clustering method to be used here. By default a pairwise single linkage clustering is used here. 
         's': pairwise single linkage clustering,
         'm': pairwise maximum- (or complete-) linkage clustering, 
         'a': pairwise average-linkage clustering, 
         'c': pairwise centroid-linkage clustering
-
+    
     -e char: (default e) The distance measure used for the clustering algorithm. 
         'e': Euclidean distance
         'b': City-block distance
@@ -434,29 +434,31 @@ The simplest way to run fpocket is either by providing a single pdb file, or by 
         'x': absolute uncentered correlation
         's': Spearman's rank correlation
         'k': Kendall's tau
-
+    
     -i int: (default 15) This flag indicates how many alpha spheres a pocket must contain at least in order to figure in the results provided by fpocket. This parameter enables filtering of too small cavities. Thus, if you want to analyze smaller cavities also, lower this parameter, if you are only interested in huge cavities, like NADP binding sites, you can raise it in order to retain only very few pockets in the end. To give you an idea, a rather big cavity, like a NADP binding site, can have hundreds of alpha spheres. Thus, 30 as standard parameter enables also to keep smaller binding sites.
-
+    
     -A int: (default 3) Fpocket distinguishes between two types of alpha spheres. Polar alpha spheres and apolar alpha spheres. This flag ranges from 0 to 4 and modifies the definition of the alpha sphere type. By default, an alpha sphere contacting at least 3 apolar atoms (having an electronegativity below 2.8) is considered as apolar. If this is not the case it is considered as polar.
-
+    
     -D float: (default 2.4Å) this parameter changed compared to the previous versions of fpocket as we completely replaced the clustering algorithms entirely. This measure is now used to analyze a hierarchical distance and cut sub-trees at the desired distance. The bigger the distance, the larger the clusters you'll get. 
-
+    
     -p float: (default 0.0) This is another parameter for filtering unwanted pockets. It defines the maximum ratio of apolar alpha spheres and the number of alpha spheres in a pocket in order to keep the pocket in the results list. That is to say, by default every pocket is kept (0.0). Now, if you would like to filter rather hydrophobic pockets, raise this parameter and very polar cavities will be filtered out. This parameter is a ratio, not a percentage, thus it ranges from 0 to 1.
-
+    
     -v int: (default 2500) By default, pockets volume are calculated using a monte-carlo algorithm. Basically, the algorithm picks a random point in the space and check if it is included in any alpha sphere, and stores this status. This is repeated N times, and we estimate the volume of the pocket using ratio between the number of hit and the number of iteration, scaled by the size of the box. This parameter defines the number of iteration to perform. Of course, the higher the value is, the greater the accuracy will be, but the performance will be slowed down.
-
+    
     -b (none): (NOT USED BY DEFAULT) This option allows the user to chose a discrete algorithm  to calculate  the  volume of each pocket instead of the Monte Carlo method. This algorithm puts each pocket into a grid of  dimention (1/N*X  ;  1/N*Y  ;  1/N*Z),  N being the value given using this option, and X, Y and Z being the box dimensions,  determined using coordinates of vertices. Then, a triple iteration on each dimensions is used to estimate the volume, checking if each points  given  by the iteration is in one of the pocket’s vertices. This parameter defines the grid discretization. If this parameter is used, this algorithm will be used instead of the Monte Carlo algorithm. 
     Warning: Although this algorithm could be more accurate, a high value might dramatically slow down the program, as this algorithm has a maximum complexity of N*N*N*nb_vertices, and a minimum of N*N*N !!!
-    
+
 
     -d (none): Option allowing you to output pockets and properties in a condensed format. This will put to the stdout pocket properties in a tab separated string and write pocket files in a subfolder
-
+    
     -r string: (None) This parameter allows you to run fpocket in a restricted mode. Let's suppose you have a very shallow or large pocket with a ligand inside and the automatic pocket prediction always splits up you pocket or you have only a part of the pocket found. Specifying your ligand residue with -r allows you to detect and characterize you ligand binding site explicitely. For instance for `1UYD.pdb` you can specify `-r 1224:PU8:A` (residue number of the ligand: residue name of the ligand: chain of the ligand)
-
+    
     -y string: (filename) EXPERIMENTAL: here you can specify a topology filename in the Amber prmtop format. This can then be used by fpocket & mdpocket to calculate energy grids for your pockets. NB: you have to specify the -x flag to run energy calculations
-
+    
     -x None: (None) EXPERIMENTAL: specify this flag if you want to run energy calculations on calculated pockets. That's not fully functional and only one or two probes are currently generated and output density grids written. Use with caution
     
+    -c char : (Default is none): Use this flag to chose which chains you want to delete before running fpocket. The selected chains can be specified with ',' or ':' delimiters, for example you can use it '-c B,D' or '-c B:D'. You can delete up to 20 different chains.
+
 
 ###  Output files description
 
@@ -571,11 +573,11 @@ See the [Getting started section of dpocket](#dpocket-descriptor-extraction) for
 ### Optional:
 
     -o : (default dpout) the prefix you want to give to dpocket output files. The standard will produce three output files named dpout_fpocketnp.txt, dpout_fpocketp.txt, dpout_explicitp.txt.
-
+    
     -e : Use the first explicit interface definition (default): we define  the explicit pocket  as  being  all  atoms  contacted  by  alpha spheres situated at a distance of d A° from any ligand atom.
-
+    
     -E : Use  the  second  explicit  interface  definition: we define the explicit pocket as being all atoms situated at a distance  of  d A° from any ligand atom.
-
+    
     -d : The distance criteria used for the explicit pocket definition.
     Last, all optional parameters used by fpocket are also accessible on command line through dpocket. Refer to the preceding paragraph to see details about fpocket parameters.
 

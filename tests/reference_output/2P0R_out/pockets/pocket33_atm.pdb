@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : 0.0056
+HEADER 1  - Drug Score                        : 0.0098
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9046
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6220
+HEADER 5  - Mean B-factor of pocket residues  : 0.3783
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.3591
+HEADER 10  -Pocket volume (convex hull)       : 4.3371
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   1618    O GLU A 221       9.633  24.324   8.108  0.60  1.07           O 0
+ATOM   1651   CG LYS A 225      12.595  26.168   7.409  0.00  0.00           C 0
+ATOM   1642   CB LEU A 224       9.952  24.392  11.875  0.00  0.00           C 0
+ATOM   1645  CD2 LEU A 224      11.587  22.875  12.978  0.00  0.00           C 0
+ATOM   1653   CE LYS A 225      13.634  24.531   5.773  0.00  0.00           C 0
+ATOM   1915    O ILE A 261      13.856  19.579   9.511  0.52  6.43           O 0
+ATOM   1916   CB ILE A 261      10.921  19.633  10.305  0.00  0.00           C 0
+ATOM   1643   CG LEU A 224      10.843  24.201  13.096  0.00  0.00           C 0
+ATOM    706  CD2 LEU A 108      15.143  25.813  18.025  0.00  0.00           C 0
+ATOM   1904    O THR A 259      13.861  22.310  16.199  0.68  3.21           O 0
+ATOM    705  CD1 LEU A 108      12.705  25.190  17.699  0.00  0.00           C 0
+ATOM    703   CB LEU A 108      13.411  27.619  17.589  0.00  0.00           C 0
+ATOM   1641    O LEU A 224      10.763  27.660  11.810  0.53  6.43           O 0
+ATOM    702    O LEU A 108      14.548  29.949  16.096  0.55  6.43           O 0
+ATOM   1620   CG GLU A 221      10.570  21.677   6.115  0.00  0.00           C 0
+ATOM   1646    N LYS A 225      10.430  26.718   9.800  0.00  0.00           N 0
+ATOM   1647   CA LYS A 225      11.347  27.613   9.082  0.00  0.00           C 0
+ATOM   1640    C LEU A 224      10.250  26.796  11.114  0.00  0.00           C 0
+TER
+END

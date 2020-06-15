@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0257
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1475
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5838
+HEADER 5  - Mean B-factor of pocket residues  : 0.9013
+HEADER 6  - Hydrophobicity Score              : -32.8333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 165.1588
+HEADER 10  -Pocket volume (convex hull)       : 1.0501
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   5040  OD1 ASP B 329      -4.110  28.263  71.437  0.44  3.21           O 0
+ATOM   4280  OD2 ASP B 235      -6.824  24.823  69.708  0.00  0.00           O 0
+ATOM   5038   CB ASP B 329      -3.793  25.907  71.086  0.00  0.00           C 0
+ATOM   5037    O ASP B 329      -3.449  24.343  74.036  0.69  2.14           O 0
+ATOM   4064  NE2 GLN B 208      -9.127  22.189  74.752  0.00  0.00           N 0
+ATOM   5050   NZ LYS B 330      -7.354  22.505  71.342  0.64  2.19           N 0
+ATOM   4076   CB LYS B 210      -5.462  28.842  77.518  0.00  0.00           C 0
+ATOM   4072    N LYS B 210      -3.856  26.964  77.789  0.00  0.00           N 0
+ATOM   4060   CB GLN B 208      -6.383  22.970  77.037  0.00  0.00           C 0
+ATOM   4062   CD GLN B 208      -8.648  22.456  75.968  0.00  0.00           C 0
+ATOM   4063  OE1 GLN B 208      -9.306  23.049  76.822  0.74  7.50           O 0
+ATOM   4087   CD GLU B 211      -9.985  27.355  80.115  0.00  0.00           C 0
+ATOM   4085   CB GLU B 211      -7.953  25.859  80.562  0.00  0.00           C 0
+ATOM   4077   CG LYS B 210      -4.830  29.399  76.245  0.00  0.00           C 0
+ATOM   4081    N GLU B 211      -5.741  26.429  79.713  0.00  0.00           N 0
+TER
+END

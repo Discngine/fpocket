@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
                     for (i = 0 ; i < params->npdb ; i++) {
 
                                         printf("> Protein %d / %d : %s", i, params->npdb,
-                                                                                                           params->pdb_lst[i]) ;
+                                                                        params->pdb_lst[i]) ;
                                         if(i == params->npdb - 1) fprintf(stdout, "\n") ;
                                         else fprintf(stdout, "\r") ;
                                         fflush(stdout) ;

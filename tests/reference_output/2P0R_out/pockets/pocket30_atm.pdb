@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0220
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0255
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6195
+HEADER 5  - Mean B-factor of pocket residues  : 0.4194
+HEADER 6  - Hydrophobicity Score              : 17.8000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 415.1244
+HEADER 10  -Pocket volume (convex hull)       : 32.8138
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3636
+ATOM   2425   CD LYS A 322       5.902   4.315   9.555  0.00  0.00           C 0
+ATOM   2002  CG2 ILE A 271      12.991   7.718   8.149  0.00  0.00           C 0
+ATOM   2003  CD1 ILE A 271      13.393   5.749   6.018  0.00  0.00           C 0
+ATOM   2423   CB LYS A 322       6.127   6.811   9.910  0.00  0.00           C 0
+ATOM   1957  CD2 PHE A 266      16.408   3.328   8.177  0.00  0.00           C 0
+ATOM   2157  NE1 TRP A 289      14.633   6.315  11.961  0.00  0.00           N 0
+ATOM   1959  CE2 PHE A 266      16.467   2.245   9.053  0.00  0.00           C 0
+ATOM   2148   OG SER A 288      12.645   2.630  14.846  0.00  0.00           O 0
+ATOM   2204  OE2 GLU A 295      15.495   1.877  13.893  0.57  4.29           O 0
+ATOM   2407   CB ALA A 320      10.463   7.470  11.981  0.00  0.00           C 0
+ATOM   2004    N GLU A 272      11.835  10.646   6.665  0.45  2.19           N 0
+ATOM   2008   CB GLU A 272       9.976  12.205   6.834  0.00  0.00           C 0
+ATOM   2011  OE1 GLU A 272       7.448  12.227   5.684  0.59  5.36           O 0
+ATOM   1997   CA ILE A 271      13.385   8.955   5.927  0.00  0.00           C 0
+ATOM   1988    O ARG A 270      12.882   8.375   3.223  0.35  5.36           O 0
+ATOM   2147   CB SER A 288      12.960   4.000  14.966  0.00  0.00           C 0
+ATOM   2435  OD2 ASP A 323       9.168   4.811  14.506  0.82  1.07           O 0
+ATOM   2419    N LYS A 322       6.663   9.052  10.744  0.68  3.28           N 0
+ATOM   2007    O GLU A 272      10.837  10.995   9.347  0.00  0.00           O 0
+ATOM   2009   CG GLU A 272       9.787  12.438   5.352  0.00  0.00           C 0
+ATOM   2010   CD GLU A 272       8.360  12.758   5.019  0.00  0.00           C 0
+ATOM   1994  NH1 ARG A 270      11.913  13.050   1.890  0.00  0.00           N 0
+ATOM   2012  OE2 GLU A 272       8.158  13.552   4.090  0.00  0.00           O 0
+TER
+END

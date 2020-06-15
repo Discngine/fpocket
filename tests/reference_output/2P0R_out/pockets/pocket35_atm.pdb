@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0201
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8193
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4869
+HEADER 5  - Mean B-factor of pocket residues  : 0.2711
+HEADER 6  - Hydrophobicity Score              : -3.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.4362
+HEADER 10  -Pocket volume (convex hull)       : 1.5830
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   1167   CB ALA A 163      20.931  22.647  31.840  0.00  0.00           C 0
+ATOM   2344    O ASP A 313      18.861  14.595  29.914  0.00  0.00           O 0
+ATOM   2091    O GLY A 281      16.614  16.985  30.335  0.33  4.29           O 0
+ATOM   2350   CA ASP A 314      18.405  16.344  27.714  0.00  0.00           C 0
+ATOM    551    O THR A  87      18.666  23.823  29.423  0.65  1.07           O 0
+ATOM   2058  NH2 ARG A 277      15.434  21.460  27.932  0.00  0.00           N 0
+ATOM   2352    O ASP A 314      16.543  17.844  27.274  0.00  0.00           O 0
+ATOM    549   CA THR A  87      18.617  23.744  27.032  0.00  0.00           C 0
+ATOM    554  CG2 THR A  87      20.315  22.397  25.602  0.00  0.00           C 0
+ATOM    576   SG CYS A  90      16.781  22.002  32.323  0.00  0.00           S 0
+ATOM   2353   CB ASP A 314      19.371  17.085  26.766  0.00  0.00           C 0
+ATOM    552   CB THR A  87      20.117  23.528  26.669  0.00  0.00           C 0
+TER
+END
