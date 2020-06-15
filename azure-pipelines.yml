@@ -1,0 +1,49 @@
+# C/C++ with GCC
+# Build your C/C++ project with GCC using make.
+# Add steps that publish test results, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/c-cpp/gcc
+
+trigger: none                       # will disable CI builds entirely i.e. merges, check-ins do not trigger this build
+
+pr:
+  - master                          # trigger on a PR to master
+
+jobs:
+ - job: build_and_test_linux
+   pool:
+      vmImage: 'ubuntu-latest'
+   steps:
+      - script: conda env create --file tests/environment.yml --name fpocket_test
+        displayName: Create Anaconda environment
+      - script: conda env list
+        displayName:  environment installation verification
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            eval "$(conda shell.bash hook)"
+            sudo apt-get install libnetcdf-dev
+            conda activate fpocket_test
+            make
+            pytest
+        displayName: Active
+
+ - job: build_and_test_mac
+   pool:
+      vmImage: 'macOS-10.14'
+   steps:
+      - bash: sudo chown -R $USER $CONDA
+      - script: conda env create --file tests/environment.yml --name fpocket_test
+        displayName: Create Anaconda environment
+      - script: conda env list
+        displayName:  environment installation verification
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            eval "$(conda shell.bash hook)"
+            conda activate fpocket_test
+            make fpocket ARCH=MACOSXX86_64
+            pytest
+        displayName: Active
+
