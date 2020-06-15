@@ -15,12 +15,9 @@ jobs:
       run: sudo apt-get install libnetcdf-dev
     - name: make
       run: make fpocket
-    - uses: actions/checkout@v1
-    - name: Update Conda environment with "requirements.yml"
-      uses: matthewrmshin/conda-action@v1
-      with:
-        args: conda env update -f ./tests/environment.yml
-    - name: Run "pytest" with the Conda environment
-      uses: matthewrmshin/conda-action@v1
-      with:
-        args: pytest
+    - name: create conda environment
+      run: conda env create -f ./tests/environment.yml
+    - name: activate conda environment
+      run: conda activate fpocket_test
+    - name: Run pytest
+      run: pytest
