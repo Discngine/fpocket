@@ -108,7 +108,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
     opterr = 0;
     char *pt;
     short custom_ligand_i=0;
-    static struct option fplong_options[] = {
+    static struct option fplong_options[] = {  /*long options args located in fparams.h*/
         {"file", required_argument, 0, M_PAR_PDB_FILE},
         {"min_alpha_size", required_argument, 0, M_PAR_MIN_ASHAPE_SIZE},
         {"max_alpha_size", required_argument, 0, M_PAR_MAX_ASHAPE_SIZE},
@@ -124,7 +124,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         {"topology_file", required_argument, 0, M_PAR_TOPOLOGY},
         {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
         {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
-        {"custom_chains", required_argument, 0, M_PAR_DROP_CHAINS},
+        {M_PAR_DROP_CHAINS_LONG, required_argument, 0, M_PAR_DROP_CHAINS}, /*drop chains*/
         {0, 0, 0, 0}
     };
 
@@ -143,10 +143,10 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
 
             case M_PAR_DROP_CHAINS :
             /*drop the selected chains from the pdb file*/
-                strcpy(par->custom_ligand, optarg); /*par->custom_ligand contains the arg given in cmd line*/
+                strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
                 //printf("%s and %s",par->custom_ligand,optarg);
                 const char  *separators  = ",:"; /* defining separators for drop chains args*/
-                pt = strtok( par->custom_ligand, separators);
+                pt = strtok( par->chain_delete, separators);
                 int n = 0;
                 while (pt != NULL) {
                     strncpy(&(par->chain_delete[n]), pt, 1);
