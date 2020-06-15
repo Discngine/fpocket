@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build-linux:
+  build-and-test-linux:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -15,10 +15,6 @@ jobs:
       run: sudo apt-get install libnetcdf-dev
     - name: make
       run: make fpocket
-
-  test-linux: 
-    runs-on: ubuntu-latest
-    steps:
     - uses: actions/checkout@v1
     - name: Update Conda environment with "requirements.yml"
       uses: matthewrmshin/conda-action@v1
