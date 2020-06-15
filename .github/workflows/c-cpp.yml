@@ -12,11 +12,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make
+      run: make fpocket
     
   build-macos:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -ARCH=MACOSXX86_64
+      run: make fpocket -ARCH=MACOSXX86_64
