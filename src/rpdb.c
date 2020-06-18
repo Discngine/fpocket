@@ -847,7 +847,6 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                 //printf("%s",par->chain_delete ); // deleting the chains we want to delete from pdb file
                 if (chains_to_delete(par->chain_delete, buf[21]))
                 {
-
                     /* Check if this is the first occurence of this atom*/
                     rpdb_extract_atm_resname(buf, resb);
                     rpdb_extract_atom_coordinates(buf, &x, &y, &z); /*extract and double check coordinates to avoid issues with wrong coordinates*/
@@ -858,7 +857,6 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         /* Atom entry: check if there is a ligand in there (just in case)... */
                         if (ligan && strlen(ligan) > 1 && ligan[0] == resb[0] && ligan[1] == resb[1] && ligan[2] == resb[2])
                         {
-
                             if (keep_lig)
                             {
                                 natm_lig++;
@@ -890,6 +888,12 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                                 pdb->n_xlig_atoms++;
                                 fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
                             }
+                        }
+
+                        if (buf[21] == par->chain_as_ligand[0])
+                        {
+                            pdb->n_xlig_atoms++;
+                            //fprintf(stdout, "%d\t", pdb->n_xlig_atoms);
                         }
                     }
                 }
@@ -948,6 +952,11 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                             {
                                 pdb->n_xlig_atoms++;
                             }
+                        }
+                        if (buf[21] == par->chain_as_ligand[0])
+                        {
+                            pdb->n_xlig_atoms++;
+                            //fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
                         }
                     }
                 }
@@ -1097,12 +1106,27 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         /* Enter this if when arg in command line is -r */
                         if (pdb->n_xlig_atoms)
                         {
-
                             if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
                             {
+                                
                                 rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
                                 i_explicit_ligand_atom++;
                             }
+                        }
+
+                        /* Enter this if when arg in command line is -a */
+                        if (pdb_line[21] == params->chain_as_ligand[0])
+                        {
+                            //printf("%f | %f | %f \n", pdb->xlig_x[i_explicit_ligand_atom-1], *pdb->xlig_y, *pdb->xlig_z);
+
+                            //printf("%f\t|", *(pdb->xlig_x + i_explicit_ligand_atom));
+                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+                            
+                            //printf("%f\t", *(pdb->xlig_x + i_explicit_ligand_atom));
+                            //printf("%d\n", i_explicit_ligand_atom);
+
+                            i_explicit_ligand_atom++;
+                
                         }
 
                         /* Check if the desired ligand is in such an entry */
@@ -1206,6 +1230,12 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
 
                                 i_explicit_ligand_atom++;
                             }
+                        }
+                        if (pdb_line[21] == params->chain_as_ligand[0])
+                        {
+                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+                            //printf("%d\n", i_explicit_ligand_atom);
+                            i_explicit_ligand_atom++;
                         }
                         //fflush(stdout);
                         /* Check if the desired ligand is in HETATM entry */

@@ -125,6 +125,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
         {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
         {M_PAR_DROP_CHAINS_LONG, required_argument, 0, M_PAR_DROP_CHAINS}, /*drop chains*/
+        {M_PAR_CHAIN_AS_LIGAND_LONG, required_argument, 0, M_PAR_CHAIN_AS_LIGAND}, /*chain as ligand*/
         {0, 0, 0, 0}
     };
 
@@ -133,12 +134,28 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
         /* getopt_long stores the option index here. */
         int option_index = 0;
         optarg = 0;
-        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:c:",
+        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:c:a:",
                 fplong_options, &option_index);
         //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
         switch (c) {
             case 0:
+                break;
+
+            case M_PAR_CHAIN_AS_LIGAND :
+                /*select the chains as ligand*/
+                strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
+                const char  *separatorss  = ",:"; /* defining separators*/
+                pt = strtok( par->chain_as_ligand, separatorss);
+                int nn = 0;
+                while (pt != NULL) {
+                    strncpy(&(par->chain_as_ligand[nn]), pt, 1);
+                    nn++;
+                    pt = strtok(NULL, separatorss);
+                }
+                
+                printf("%s\n",par->chain_as_ligand);
+                status++;
                 break;
 
             case M_PAR_DROP_CHAINS :
@@ -168,8 +185,6 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 strcpy(par->custom_ligand, optarg);
                 //printf("%s and %s",par->custom_ligand,optarg);
                 pt = strtok( par->custom_ligand, ":");
-                
-                
 
                 while (pt != NULL) {
                     custom_ligand_i++;
