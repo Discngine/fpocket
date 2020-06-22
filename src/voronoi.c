@@ -1080,9 +1080,12 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                     printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));*/
                     if(dist(xlig_x, xlig_y, xlig_z, x,y,z)<=(distVatom1)){
                         /*TODO, debug why not working here*/
+                        //printf("xl:%f|yl:%f|zl:%f\t x:%f|y:%f|z:%f\n", xlig_x, xlig_y, xlig_z,x,y,z);
+                        //printf("here %f\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));
                         /*TODO: add manual clustering for explicit pockets*/
                         return distVatom1;
                     };
+                    
                 }
                 return(-1.0);
             }

@@ -150,11 +150,13 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 int nn = 0;
                 while (pt != NULL) {
                     strncpy(&(par->chain_as_ligand[nn]), pt, 1);
+                    strncpy(&(par->chain_delete[nn]), pt, 1);
                     nn++;
                     pt = strtok(NULL, separatorss);
                 }
                 
-                printf("%s\n",par->chain_as_ligand);
+                printf("lig %s\n",par->chain_as_ligand);
+                printf("del %s\n",par->chain_delete);
                 status++;
                 break;
 
