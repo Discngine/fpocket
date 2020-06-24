@@ -93,10 +93,12 @@ s_lst_vvertice* load_vvertices_DEPRECATED(s_pdb *pdb, int min_apol_neigh, float 
     FILE *fvoro = fopen(tmpn1, "w+");
     FILE *ftmp = fopen(tmpn2, "w");
 
+    
     if (fvoro != NULL) {
         lvvert = (s_lst_vvertice *) my_malloc(sizeof (s_lst_vvertice));
         lvvert->h_tr = NULL;
         /* Loop a first time to get out how many heavy atoms are in the file */
+        
         for (i = 0; i < pdb->natoms; i++) {
             ca = (pdb->latoms) + i;
             if (strcmp(ca->symbol, "H") != 0) {
@@ -180,7 +182,6 @@ s_lst_vvertice* load_vvertices(s_pdb *pdb, int min_apol_neigh, float asph_min_si
     char tmpn2[250] = "";
 
     pid_t pid = getpid();
-
 
     sprintf(tmpn1, "/tmp/qvoro_in_fpocket_%d.dat", pid);
     sprintf(tmpn2, "/tmp/qvoro_out_fpocket_%d.dat", pid);
@@ -601,7 +602,10 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
                     else v->type = M_POLAR_AS;
 
                     v->qhullId = i; /* Set index in the qhull file */
-                    if(pdb->n_xlig_atoms>0) v->resid=1;
+                    if(pdb->n_xlig_atoms>0) {
+                        printf("%d ",pdb->n_xlig_atoms );
+                        v->resid=1;
+                    }
                     
                     else v->resid = -1; /* Initialize internal index */
 
@@ -1080,8 +1084,8 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                     printf("here %d\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));*/
                     if(dist(xlig_x, xlig_y, xlig_z, x,y,z)<=(distVatom1)){
                         /*TODO, debug why not working here*/
-                        //printf("xl:%f|yl:%f|zl:%f\t x:%f|y:%f|z:%f\n", xlig_x, xlig_y, xlig_z,x,y,z);
-                        //printf("here %f\n",dist(xlig_x,xlig_y,xlig_z, x,y,z));
+                        //printf("xl:%.2f|yl:%.2f|zl:%.2f\t x:%.2f|y:%.2f|z:%.2f\n", xlig_x, xlig_y, xlig_z,x,y,z);
+                        //printf("here %f\t %f\n",dist(xlig_x,xlig_y,xlig_z, x,y,z),distVatom1);
                         /*TODO: add manual clustering for explicit pockets*/
                         return distVatom1;
                     };

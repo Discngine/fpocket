@@ -144,20 +144,21 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
 
             case M_PAR_CHAIN_AS_LIGAND :
                 /*select the chains as ligand*/
+                status++;
                 strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
                 const char  *separatorss  = ",:"; /* defining separators*/
                 pt = strtok( par->chain_as_ligand, separatorss);
                 int nn = 0;
                 while (pt != NULL) {
                     strncpy(&(par->chain_as_ligand[nn]), pt, 1);
-                    strncpy(&(par->chain_delete[nn]), pt, 1);
+                    //strncpy(&(par->chain_delete[nn]), pt, 1);
                     nn++;
                     pt = strtok(NULL, separatorss);
                 }
-                
+                par->xlig_resnumber = 100;
                 printf("lig %s\n",par->chain_as_ligand);
                 printf("del %s\n",par->chain_delete);
-                status++;
+                
                 break;
 
             case M_PAR_DROP_CHAINS :
@@ -172,6 +173,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     n++;
                     pt = strtok(NULL, separators);
                 }
+                
                 printf("%s\n",par->chain_delete);
                 status++;
                 break;
