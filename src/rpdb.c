@@ -1500,7 +1500,7 @@ void free_pdb_atoms(s_pdb *pdb)
  */
 int chains_to_delete(char *chains_selected, char *current_line_chain, int is_chain_kept)
 { /*deletes the chains selected by command -c, returns true if the chain correspond false if not*/
-    printf("%d", is_chain_kept);
+    
     if (is_chain_kept == 0)
     {
         int is_deleted = 1;
