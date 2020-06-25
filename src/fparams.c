@@ -155,7 +155,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     nn++;
                     pt = strtok(NULL, separatorss);
                 }
-                par->xlig_resnumber = 100;
+                par->xlig_resnumber = 0;
                 printf("lig %s\n",par->chain_as_ligand);
                 printf("del %s\n",par->chain_delete);
                 
@@ -769,6 +769,7 @@ void print_pocket_usage(FILE *f) {
     fprintf(f, "\t-%c --%s (int)\t\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
     fprintf(f, "\t-%c --%s (string)\t\t: File name of a topology file (Amber prmtop).\t\n", M_PAR_TOPOLOGY, M_PAR_LONG_TOPOLOGY);
     fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n", M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
+    fprintf(f, "\t-%c --%s (char)\t\t: Character specifying a chain as a ligand\t\n", M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG);
 
     fprintf(f, "\n\n\033[1mOptional pocket detection parameters\033[0m (default parameters)           \n\
 \t-%c --%s (float)\t\t: Minimum radius of an alpha-sphere.\t(%.1f)\n", M_PAR_MIN_ASHAPE_SIZE, M_PAR_LONG_MIN_ASHAPE_SIZE, M_MAX_ASHAPE_SIZE_DEFAULT);
