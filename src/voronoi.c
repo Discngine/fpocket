@@ -603,7 +603,6 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
 
                     v->qhullId = i; /* Set index in the qhull file */
                     if(pdb->n_xlig_atoms>0) {
-                        printf("%d ",pdb->n_xlig_atoms );
                         v->resid=1;
                     }
                     

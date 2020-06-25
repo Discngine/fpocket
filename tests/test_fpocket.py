@@ -109,6 +109,7 @@ def test_drop_chain():
     for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="-c D")
         fpocket_out_test_default_equal(pdb_code,params="--drop_chains D")
+        fpocket_out_test_default_equal(pdb_code,params="-k A,B,C,E")
 
     
     
