@@ -201,15 +201,6 @@ extern int molfile_dtrplugin_fini(void);
 extern int molfile_maeffplugin_init(void);
 extern int molfile_maeffplugin_register(void *, vmdplugin_register_cb);
 extern int molfile_maeffplugin_fini(void);
-extern int molfile_vtfplugin_init(void);
-extern int molfile_vtfplugin_register(void *, vmdplugin_register_cb);
-extern int molfile_vtfplugin_fini(void);
-extern int molfile_webpdbplugin_init(void);
-extern int molfile_webpdbplugin_register(void *, vmdplugin_register_cb);
-extern int molfile_webpdbplugin_fini(void);
-extern int molfile_netcdfplugin_init(void);
-extern int molfile_netcdfplugin_register(void *, vmdplugin_register_cb);
-extern int molfile_netcdfplugin_fini(void);
 
 #define MOLFILE_INIT_ALL \
     molfile_abinitplugin_init(); \
@@ -277,9 +268,6 @@ extern int molfile_netcdfplugin_fini(void);
     molfile_xyzplugin_init(); \
     molfile_dtrplugin_init(); \
     molfile_maeffplugin_init(); \
-    molfile_vtfplugin_init(); \
-    molfile_webpdbplugin_init(); \
-    molfile_netcdfplugin_init(); \
 
 #define MOLFILE_REGISTER_ALL(v, cb) \
     molfile_abinitplugin_register(v, cb); \
@@ -347,9 +335,6 @@ extern int molfile_netcdfplugin_fini(void);
     molfile_xyzplugin_register(v, cb); \
     molfile_dtrplugin_register(v, cb); \
     molfile_maeffplugin_register(v, cb); \
-    molfile_vtfplugin_register(v, cb); \
-    molfile_webpdbplugin_register(v, cb); \
-    molfile_netcdfplugin_register(v, cb); \
 
 #define MOLFILE_FINI_ALL \
     molfile_abinitplugin_fini(); \
@@ -417,9 +402,6 @@ extern int molfile_netcdfplugin_fini(void);
     molfile_xyzplugin_fini(); \
     molfile_dtrplugin_fini(); \
     molfile_maeffplugin_fini(); \
-    molfile_vtfplugin_fini(); \
-    molfile_webpdbplugin_fini(); \
-    molfile_netcdfplugin_fini(); \
 
 #ifdef __cplusplus
 }

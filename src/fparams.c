@@ -769,9 +769,11 @@ void free_fparams(s_fparams *p) {
  */
 void print_pocket_usage(FILE *f) {
     f = (f == NULL) ? stdout : f;
+    if(1){
 
+    }
     /*fprintf(f, M_FP_USAGE) ;*/
-
+    else{
     fprintf(f, "\n\
 :||: \033[1mfpocket 3.0\033[0m :||:\n\
         \n");
@@ -816,7 +818,7 @@ fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be deleted before poc
 fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be kept before pocket detection,      \n\
 \t\t\t\t\t\t  able to keep up to (%d) chains (ie : -k A,B,C,E)\n", M_PAR_KEEP_CHAINS, M_PAR_KEEP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
-
+    }
 }
 
 /**

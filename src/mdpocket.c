@@ -72,7 +72,7 @@ void mdpocket_detect(s_mdparams *par) {
     int i = 0, j, k;
 
     int n_snapshots = 0;
-
+    
     FILE * fout1;
     FILE * fout2;
     FILE * fout3;
@@ -93,8 +93,8 @@ void mdpocket_detect(s_mdparams *par) {
 
 
     if (!strncmp(par->traj_format, "net", 3)) {
-        molfile_netcdfplugin_init();
-        molfile_netcdfplugin_register(NULL, register_cb);
+        //molfile_netcdfplugin_init();
+        //molfile_netcdfplugin_register(NULL, register_cb);
     }
     if (!strncmp(par->traj_format, "dcd", 3)) {
         molfile_dcdplugin_init();
