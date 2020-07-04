@@ -36,6 +36,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 void process_pdb(char *pdbname, s_fparams *params) ;
-
-void open_mmcif(const char *filepath, const char *filetype, int natoms);
 #endif
