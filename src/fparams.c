@@ -176,7 +176,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     pt = strtok(NULL, separators);
                 }
                 par->chain_is_kept = 0;
-                printf("%s\n",par->chain_delete);
+                //printf("%s\n",par->chain_delete);
                 status++;
                 break;
                 
@@ -193,7 +193,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                     nk++;
                     pt = strtok(NULL, separator);
                 }
-                printf("%s\n",par->chain_delete);
+                //printf("%s\n",par->chain_delete);
                 par->chain_is_kept = 1;
                 status++;
                 break;
