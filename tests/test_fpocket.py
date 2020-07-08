@@ -109,6 +109,7 @@ def test_drop_chain():
     for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="-c D")
         fpocket_out_test_default_equal(pdb_code,params="--drop_chains D")
+        fpocket_out_test_default_equal(pdb_code,params="-k A,B,C,E")
 
     
     
@@ -119,5 +120,13 @@ def test_explicit_pocket_detection():
     pdb_list=['1UYD']
     for pdb_code in pdb_list:
         fpocket_out_test_default_equal(pdb_code,params="-r 1224:PU8:A",explicit=True)
+
+def test_chain_as_ligand():
+    """
+    Test fpocket explicit pocket detection of the PU8 binding site.
+    """
+    pdb_list=['2P0R_mod']
+    for pdb_code in pdb_list:
+        fpocket_out_test_default_equal(pdb_code,params="-a D")
     
 

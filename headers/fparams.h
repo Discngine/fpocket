@@ -111,6 +111,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_DROP_CHAINS 'c' /**flag, to define which chain are dropped before the pocket detection*/
 #define M_PAR_DROP_CHAINS_LONG "drop_chains"
 
+#define M_PAR_KEEP_CHAINS 'k' /**flag, to define which chains are kept before the pocket detection*/
+#define M_PAR_KEEP_CHAINS_LONG "keep_chains"
+
+#define M_PAR_CHAIN_AS_LIGAND 'a' /**flag, to define which chains are defined as a ligand*/
+#define M_PAR_CHAIN_AS_LIGAND_LONG "chain_as_ligand"
+
+
 
 #define M_FP_USAGE "\n\
 ***** USAGE (fpocket) *****\n\
@@ -194,7 +201,8 @@ typedef struct s_fparams
                 min_as_density,                 /**<Minimum alpha sphere density for a pocket to be retained*/
 		  asph_max_size ;		/**< Maximum size of alpha spheres to keep */
 	char chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
-
+	char chain_as_ligand[M_MAX_CHAINS_DELETE];
+	int chain_is_kept;/* To choose if we keep the chains or not*/
 
 } s_fparams ;
 
