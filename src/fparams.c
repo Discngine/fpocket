@@ -145,7 +145,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
             case 0:
                 break;
 
-            case M_PAR_CHAIN_AS_LIGAND :
+            case M_PAR_CHAIN_AS_LIGAND : /*option with -a "name of the chain" to be specified as a ligand*/
                 /*select the chains as ligand*/
                 status++;
                 strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
@@ -163,7 +163,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 
                 break;
 
-            case M_PAR_DROP_CHAINS :
+            case M_PAR_DROP_CHAINS : /*option with -c "name of the chains"*/
             /*drop the selected chains from the pdb file*/
                 strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
                 //printf("%s and %s",par->custom_ligand,optarg);
@@ -180,7 +180,7 @@ s_fparams* get_fpocket_args(int nargs, char **args) {
                 status++;
                 break;
                 
-            case M_PAR_KEEP_CHAINS :
+            case M_PAR_KEEP_CHAINS : /*option with -k "name of the chains"*/
             /*drop the selected chains from the pdb file*/
                 
                 strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/

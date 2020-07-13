@@ -9,6 +9,9 @@ extern "C" {
 extern int molfile_abinitplugin_init(void);
 extern int molfile_abinitplugin_register(void *, vmdplugin_register_cb);
 extern int molfile_abinitplugin_fini(void);
+extern int molfile_amiraplugin_init(void);
+extern int molfile_amiraplugin_register(void *, vmdplugin_register_cb);
+extern int molfile_amiraplugin_fini(void);
 extern int molfile_avsplugin_init(void);
 extern int molfile_avsplugin_register(void *, vmdplugin_register_cb);
 extern int molfile_avsplugin_fini(void);
@@ -201,9 +204,13 @@ extern int molfile_dtrplugin_fini(void);
 extern int molfile_maeffplugin_init(void);
 extern int molfile_maeffplugin_register(void *, vmdplugin_register_cb);
 extern int molfile_maeffplugin_fini(void);
+extern int molfile_orcaplugin_init(void);
+extern int molfile_orcaplugin_register(void *, vmdplugin_register_cb);
+extern int molfile_orcaplugin_fini(void);
 
 #define MOLFILE_INIT_ALL \
     molfile_abinitplugin_init(); \
+    molfile_amiraplugin_init(); \
     molfile_avsplugin_init(); \
     molfile_babelplugin_init(); \
     molfile_basissetplugin_init(); \
@@ -268,9 +275,11 @@ extern int molfile_maeffplugin_fini(void);
     molfile_xyzplugin_init(); \
     molfile_dtrplugin_init(); \
     molfile_maeffplugin_init(); \
+    molfile_orcaplugin_init(); \
 
 #define MOLFILE_REGISTER_ALL(v, cb) \
     molfile_abinitplugin_register(v, cb); \
+    molfile_amiraplugin_register(v, cb); \
     molfile_avsplugin_register(v, cb); \
     molfile_babelplugin_register(v, cb); \
     molfile_basissetplugin_register(v, cb); \
@@ -335,9 +344,11 @@ extern int molfile_maeffplugin_fini(void);
     molfile_xyzplugin_register(v, cb); \
     molfile_dtrplugin_register(v, cb); \
     molfile_maeffplugin_register(v, cb); \
+    molfile_orcaplugin_register(v, cb); \
 
 #define MOLFILE_FINI_ALL \
     molfile_abinitplugin_fini(); \
+    molfile_amiraplugin_fini(); \
     molfile_avsplugin_fini(); \
     molfile_babelplugin_fini(); \
     molfile_basissetplugin_fini(); \
@@ -402,6 +413,7 @@ extern int molfile_maeffplugin_fini(void);
     molfile_xyzplugin_fini(); \
     molfile_dtrplugin_fini(); \
     molfile_maeffplugin_fini(); \
+    molfile_orcaplugin_fini(); \
 
 #ifdef __cplusplus
 }

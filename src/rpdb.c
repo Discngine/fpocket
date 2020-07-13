@@ -834,7 +834,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
         if (!strncmp(buf, "MODEL", 5) && model_number > 0)
         {
             cur_model_count++;
-            //printf("model : %d\n",cur_model_count);
+            printf("model : %d\n", cur_model_count);
             if (cur_model_count == model_number)
                 model_read = 1;
         }
@@ -892,12 +892,12 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                             pdb->n_xlig_atoms++;
                             fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
                         }
-                    }
 
-                    if (buf[21] == par->chain_as_ligand[0])
-                    {
-                        pdb->n_xlig_atoms++;
-                        //fprintf(stdout, "%d\t", pdb->n_xlig_atoms);
+                        if (buf[21] == par->chain_as_ligand[0])
+                        {
+                            pdb->n_xlig_atoms++;
+                            //fprintf(stdout, "%d\t", pdb->n_xlig_atoms);
+                        }
                     }
                 }
             }
@@ -926,7 +926,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         else if (ligan && strlen(ligan) == 1 && ligan[0] == buf[21])
                         {
                             if (keep_lig)
-                                natm_lig++;
+                            natm_lig++;
                             natoms++;
                         }
                         else
@@ -1208,7 +1208,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             atom->radius = pte_get_vdw_ray(atom->symbol);
                             atom->electroneg = pte_get_enegativity(atom->symbol);
                             atom->sort_x = -1;
-
+                            //printf("type : %s, id : %d, name : %s, aloc : %c, res_name : %s, chain  : %s, res_id : %d, pdb_insert : %c, occupancy : %f, b_factor : %f, symbol : %s, charge : %d\n",
+                             //atom->type, atom->id,atom->name ,atom->pdb_aloc,atom->res_name,atom->chain,atom->res_id,atom->pdb_insert,atom->occupancy,atom->bfactor, atom->symbol,atom->charge);
+                            //printf("electroneg : %s\n",atom->symbol);
                             atoms_p[iatoms] = atom;
                             iatoms++;
                         }
@@ -1336,6 +1338,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                     {
 
                                         atom = atoms + iatoms;
+
                                         rpdb_extract_pdb_atom(pdb_line, atom->type, &(atom->id),
                                                               atom->name, &(atom->pdb_aloc), atom->res_name,
                                                               atom->chain, &(atom->res_id), &(atom->pdb_insert),
@@ -1348,7 +1351,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                         atom->radius = pte_get_vdw_ray(atom->symbol);
                                         atom->electroneg = pte_get_enegativity(atom->symbol);
                                         atom->sort_x = -1;
-
+                                        
                                         atoms_p[iatoms] = atom;
                                         pdb->lhetatm[ihetatm] = atom;
                                         ihetatm++;
@@ -1500,7 +1503,7 @@ void free_pdb_atoms(s_pdb *pdb)
  */
 int chains_to_delete(char *chains_selected, char *current_line_chain, int is_chain_kept)
 { /*deletes the chains selected by command -c, returns true if the chain correspond false if not*/
-    
+
     if (is_chain_kept == 0)
     {
         int is_deleted = 1;
@@ -1517,18 +1520,18 @@ int chains_to_delete(char *chains_selected, char *current_line_chain, int is_cha
         return is_deleted;
     }
     else
-    {      
-            int is_deleted = 0;
-            int i = 0;
-            for (i = 0; i < M_MAX_CHAINS_DELETE; i++)
+    {
+        int is_deleted = 0;
+        int i = 0;
+        for (i = 0; i < M_MAX_CHAINS_DELETE; i++)
+        {
+            if (chains_selected[i] == current_line_chain)
             {
-                if (chains_selected[i] == current_line_chain)
-                {
-                    //printf("%c_%c ", chains_selected[i],current_line_chain);
-                    is_deleted = 1;
-                }
+                //printf("%c_%c ", chains_selected[i],current_line_chain);
+                is_deleted = 1;
             }
-            //printf("\n");
-            return is_deleted;
+        }
+        //printf("\n");
+        return is_deleted;
     }
 }

@@ -56,12 +56,10 @@ static int register_cb(void *v, vmdplugin_t *p)
 int main(int argc, char *argv[])
 {
 
-        const char *cif_path = "/home/maels/fpocket/data/sample/2P0R.cif";
-        const char *cif_format = "pdbx";
-
-        int cif_nb;
-        open_mmcif(cif_path, cif_format, cif_nb);
+        
+        
         s_fparams *params = get_fpocket_args(argc, argv);
+        
         params->fpocket_running = 1;
         /* If parameters parsing is ok */
         if (params)
@@ -69,13 +67,14 @@ int main(int argc, char *argv[])
                 if (!params->db_run)
                         fprintf(stdout, "***** POCKET HUNTING BEGINS ***** \n");
                 //                print_fparams(params,stdout);
+                
                 if (params->pdb_lst != NULL)
                 {
                         /* Handle a list of pdb */
                         int i;
                         for (i = 0; i < params->npdb; i++)
                         {
-
+                                
                                 printf("> Protein %d / %d : %s", i, params->npdb,
                                        params->pdb_lst[i]);
                                 if (i == params->npdb - 1)
@@ -94,7 +93,8 @@ int main(int argc, char *argv[])
                                 print_pocket_usage(stdout);
                         }
                         else
-                        {
+                        {       
+                                
                                 process_pdb(params->pdb_path, params);
                         }
                 }
@@ -150,9 +150,14 @@ void process_pdb(char *pdbname, s_fparams *params)
         /* Try to open it */
         if (DEBUG)
                 print_number_of_objects_in_memory();
-        s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+      //  s_pdb *pdb2 = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG,params->model_number, params);
+      s_pdb *pdb = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+        s_pdb *pdb_w_lig = open_mmcif(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
+        
+        
+       // s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
 
-        s_pdb *pdb_w_lig = rpdb_open(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
+       // s_pdb *pdb_w_lig = rpdb_open(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
         if (DEBUG)
                 print_number_of_objects_in_memory();
 
@@ -164,9 +169,14 @@ void process_pdb(char *pdbname, s_fparams *params)
         if (pdb)
         {
                 /* Actual reading of pdb data and then calculation */
-                rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
 
-                rpdb_read(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
+                read_mmcif(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+
+                read_mmcif(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
+
+                //rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+
+                //rpdb_read(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
 
                 //                        fprintf(stdout,"Init coordinate grid\n");
                 create_coord_grid(pdb);
