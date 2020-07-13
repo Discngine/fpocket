@@ -1451,8 +1451,10 @@ void rpdb_print(s_pdb *pdb)
  */
 void free_pdb_atoms(s_pdb *pdb)
 {
+  
     if (pdb)
     {
+        
         if (pdb->lhetatm)
         {
             my_free(pdb->lhetatm);
@@ -1469,8 +1471,9 @@ void free_pdb_atoms(s_pdb *pdb)
             my_free(pdb->latm_lig);
             pdb->latm_lig = NULL;
         }
+        
         if (pdb->fpdb)
-        {
+        {  
             fclose(pdb->fpdb);
             pdb->fpdb = NULL;
         }
@@ -1501,7 +1504,7 @@ void free_pdb_atoms(s_pdb *pdb)
         int
 
  */
-int chains_to_delete(char *chains_selected, char *current_line_chain, int is_chain_kept)
+int chains_to_delete(char *chains_selected, char current_line_chain, int is_chain_kept)
 { /*deletes the chains selected by command -c, returns true if the chain correspond false if not*/
 
     if (is_chain_kept == 0)

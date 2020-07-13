@@ -150,14 +150,13 @@ void process_pdb(char *pdbname, s_fparams *params)
         /* Try to open it */
         if (DEBUG)
                 print_number_of_objects_in_memory();
-      //  s_pdb *pdb2 = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG,params->model_number, params);
+      
       s_pdb *pdb = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
         s_pdb *pdb_w_lig = open_mmcif(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
         
         
-       // s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
-
-       // s_pdb *pdb_w_lig = rpdb_open(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
+        //s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+        //s_pdb *pdb_w_lig = rpdb_open(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
         if (DEBUG)
                 print_number_of_objects_in_memory();
 
@@ -171,7 +170,6 @@ void process_pdb(char *pdbname, s_fparams *params)
                 /* Actual reading of pdb data and then calculation */
 
                 read_mmcif(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
-
                 read_mmcif(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
 
                 //rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);

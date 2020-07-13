@@ -38,7 +38,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
         natoms = 0,
         natm_lig = 0;
     int i;
-    float x, y, z;
+    
     int resnbuf = 0;
     int model_flag = 0;      /*by default we consider that no particular model is read*/
     int model_read = 0;      /*flag tracking the status if a current line is read or not*/
@@ -49,6 +49,8 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
     pdb->xlig_x = NULL;
     pdb->xlig_y = NULL;
     pdb->xlig_z = NULL;
+
+    pdb->fpdb = fopen_pdb_check_case(fpath, "r"); /*just so free pdb doesnt crash*/
 
     /***************************************************************/
 
@@ -141,10 +143,9 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
             }
             else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] == par->chain_as_ligand[0]))
             {
-                
+
                 if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
                 {
-                    
 
                     if (chains_to_delete(par->chain_delete, at_in[i].chain[0], par->chain_is_kept))
                     {
@@ -264,7 +265,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
     ligfound = 0;
     int resnbuf = 0;
 
-    float tmpx, tmpy, tmpz; /* storing the coordinates x,y,z*/
+    
 
     /*******************************************************************************/
     molfile_pdbxplugin_init();
@@ -354,6 +355,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 atom->mass = at_in[i].mass;
                                 atom->radius = at_in[i].radius;
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
+                                guess_flag +=1;
                                 atom->sort_x = -1;
 
                                 atoms_p[iatoms] = atom;
@@ -391,6 +393,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 atom->radius = at_in[i].radius;
 
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
+                                guess_flag +=1;
 
                                 /* Store additional information not given in the pdb 
                                 atom->mass = pte_get_mass(atom->symbol);
@@ -433,6 +436,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             atom->mass = at_in[i].mass;
                             atom->radius = at_in[i].radius;
                             atom->electroneg = pte_get_enegativity(atom->symbol);
+                            guess_flag +=1;
 
                             /* Store additional information not given in the pdb */
 
@@ -449,7 +453,6 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
             }
             else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] == params->chain_as_ligand[0]))
             {
-                
 
                 if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
                 { /*first occurence*/
@@ -485,7 +488,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         {
                             atom = atoms + iatoms;
                             strcpy(atom->type, at_in[i].atom_type);
-                            
+
                             atom->id = i + 1;
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
@@ -504,6 +507,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             atom->mass = at_in[i].mass;
                             atom->radius = at_in[i].radius;
                             atom->electroneg = pte_get_enegativity(atom->symbol);
+                            guess_flag +=1;
                             atom->sort_x = -1;
 
                             atoms_p[iatoms] = atom;
@@ -521,7 +525,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
 
                                 atom = atoms + iatoms;
                                 strcpy(atom->type, at_in[i].atom_type);
-                                
+
                                 atom->id = i + 1;
                                 strcpy(atom->name, at_in[i].type);
                                 atom->pdb_aloc = at_in[i].altloc[0];
@@ -540,6 +544,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 atom->mass = at_in[i].mass;
                                 atom->radius = at_in[i].radius;
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
+                                guess_flag +=1;
                                 atom->sort_x = -1;
 
                                 atoms_p[iatoms] = atom;
@@ -552,12 +557,11 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         }
                         else if (pdb->lhetatm)
                         {
-                            
 
                             /* Keep specific HETATM given in the static list ST_keep_hetatm. */
                             if ((keep_lig && !ligan && strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3)) || (keep_lig && at_in[i].chain[0] == params->chain_as_ligand[0]))
                             {
-                                
+
                                 atom = atoms + iatoms;
                                 strcpy(atom->type, at_in[i].atom_type);
                                 atom->id = i + 1;
@@ -578,6 +582,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 atom->mass = at_in[i].mass;
                                 atom->radius = at_in[i].radius;
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
+                                guess_flag +=1;
                                 atom->sort_x = -1;
 
                                 atoms_p[iatoms] = atom;
@@ -596,7 +601,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                         atom = atoms + iatoms;
 
                                         strcpy(atom->type, at_in[i].atom_type);
-                                        
+
                                         atom->id = i + 1;
                                         strcpy(atom->name, at_in[i].type);
                                         atom->pdb_aloc = at_in[i].altloc[0];
@@ -615,13 +620,14 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                         atom->mass = at_in[i].mass;
                                         atom->radius = at_in[i].radius;
                                         atom->electroneg = pte_get_enegativity(atom->symbol);
+                                        guess_flag +=1;
                                         atom->sort_x = -1;
 
                                         atoms_p[iatoms] = atom;
                                         pdb->lhetatm[ihetatm] = atom;
                                         ihetatm++;
                                         iatoms++;
-                            
+
                                         break;
                                     }
                                 }
@@ -667,7 +673,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
 
     if (ligan && keep_lig && (ligfound == 0 || pdb->natm_lig <= 0))
     {
-        fprintf(stderr, ">! Warning: ligand '%s' not found in the pdb...\n", ligan);
+        fprintf(stderr, ">!  Warning: ligand '%s' not found in the pdb...\n", ligan);
         if (pdb->latm_lig)
             fprintf(stderr, "! Ligand list is not NULL however...\n");
         if (ligfound == 1)
@@ -685,6 +691,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
 						but not in rpdb_open!\n",
                 ligan);
     }
+    
     api->close_file_read(h_in);
 }
 
@@ -719,7 +726,7 @@ void write_files(molfile_atom_t *at_in, molfile_timestep_t ts_in, int inatoms, i
     void *h_out;
     const char *filepath = "./data/sample/1UYD_wrote.cif";
     h_out = api->open_file_write(filepath, filetype, inatoms);
-    api->write_structure(h_out, &optflags, at_in);
+    api->write_structure(h_out, optflags, at_in);
     api->write_timestep(h_out, &ts_in);
     api->close_file_write(h_out);
 }
