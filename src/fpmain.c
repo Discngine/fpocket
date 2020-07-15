@@ -45,21 +45,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
 */
 
-static molfile_plugin_t *api;
-
-static int register_cb(void *v, vmdplugin_t *p)
-{
-        api = (molfile_plugin_t *)p;
-        return 0;
-}
-
 int main(int argc, char *argv[])
 {
 
-        
-        
         s_fparams *params = get_fpocket_args(argc, argv);
-        
+
         params->fpocket_running = 1;
         /* If parameters parsing is ok */
         if (params)
@@ -67,14 +57,13 @@ int main(int argc, char *argv[])
                 if (!params->db_run)
                         fprintf(stdout, "***** POCKET HUNTING BEGINS ***** \n");
                 //                print_fparams(params,stdout);
-                
+
                 if (params->pdb_lst != NULL)
                 {
                         /* Handle a list of pdb */
                         int i;
                         for (i = 0; i < params->npdb; i++)
                         {
-                                
                                 printf("> Protein %d / %d : %s", i, params->npdb,
                                        params->pdb_lst[i]);
                                 if (i == params->npdb - 1)
@@ -93,8 +82,8 @@ int main(int argc, char *argv[])
                                 print_pocket_usage(stdout);
                         }
                         else
-                        {       
-                                
+                        {
+
                                 process_pdb(params->pdb_path, params);
                         }
                 }
@@ -150,11 +139,14 @@ void process_pdb(char *pdbname, s_fparams *params)
         /* Try to open it */
         if (DEBUG)
                 print_number_of_objects_in_memory();
-      
-      s_pdb *pdb = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
-        s_pdb *pdb_w_lig = open_mmcif(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
-        
-        
+
+       
+        s_pdb *pdb = open_file_format(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+       s_pdb *pdb_w_lig = open_file_format(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
+
+       // s_pdb *pdb = open_mmcif(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+       // s_pdb *pdb_w_lig = open_mmcif(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
+
         //s_pdb *pdb = rpdb_open(pdbname, NULL, M_DONT_KEEP_LIG, params->model_number, params);
         //s_pdb *pdb_w_lig = rpdb_open(pdbname, NULL, M_KEEP_LIG, params->model_number, params);
         if (DEBUG)
@@ -168,12 +160,14 @@ void process_pdb(char *pdbname, s_fparams *params)
         if (pdb)
         {
                 /* Actual reading of pdb data and then calculation */
+                
+                read_file_format(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+                read_file_format(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
 
-                read_mmcif(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
-                read_mmcif(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
+                //read_mmcif(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
+                //read_mmcif(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
 
                 //rpdb_read(pdb, NULL, M_DONT_KEEP_LIG, params->model_number, params);
-
                 //rpdb_read(pdb_w_lig, NULL, M_KEEP_LIG, params->model_number, params);
 
                 //                        fprintf(stdout,"Init coordinate grid\n");
@@ -231,4 +225,28 @@ void process_pdb(char *pdbname, s_fparams *params)
         }
         else
                 fprintf(stderr, "! PDB reading failed!\n");
+}
+
+s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+{
+        s_pdb *pdb;
+        if (strstr(par->pdb_path, ".cif")) /*strstr finds the substring and here we search for the file extension we want */       
+                pdb =  open_mmcif(fpath, NULL, keep_lig, par->model_number, par);
+        else if (strstr(par->pdb_path, ".pdb"))
+                pdb = rpdb_open(fpath, NULL, keep_lig, par->model_number, par);
+
+        return pdb;
+}
+
+
+void read_file_format(s_pdb *pdb, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+{
+        
+        if (strstr(par->pdb_path, ".cif")){ /*strstr finds the substring and here we search for the file extension we want */           
+                read_mmcif(pdb, NULL, keep_lig, par->model_number, par);    
+        }
+        else if (strstr(par->pdb_path, ".pdb"))
+                rpdb_read(pdb, NULL, keep_lig, par->model_number, par);
+
+        
 }

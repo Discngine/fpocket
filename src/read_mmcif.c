@@ -74,7 +74,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
     ts_in.coords = (float *)malloc(3 * inatoms * sizeof(float)); /*allocating space for the coords*/
     rc2 = api->read_structure(h_in, &optflags, at_in);
     rc = api->read_next_timestep(h_in, inatoms, &ts_in);
-    printf("%s | %s |%d\n", fpath, filetype, inatoms);
+    //printf("%s | %s |%d\n", fpath, filetype, inatoms);
     //print_molfile_atom_t(at_in, ts_in, inatoms);
 
     /*-----------------------------------------------------------*/
@@ -194,7 +194,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                     if (at_in[i].chain[0] == par->chain_as_ligand[0])
                     {
                         pdb->n_xlig_atoms++;
-                        fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
+                        //fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
                     }
                 }
             }
