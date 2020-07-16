@@ -635,7 +635,7 @@ static int parseNumberAtoms(pdbxParser *parser)
       parser->table[tableSize] = COLUMN_CHARGE;
       column_exists[COLUMN_CHARGE] = true;
     }
-    else if (0 == strcmp(wordbuffer, "pdbx_PDB_model_num"))
+    else if (0 == strcmp(wordbuffer, "label_alt_id"))
     {
       parser->table[tableSize] = COLUMN_MODEL_NUM;
       column_exists[COLUMN_MODEL_NUM] = true;
@@ -1142,7 +1142,8 @@ static int parseStructure(molfile_atom_t *atoms, int *optflags, pdbxParser *pars
         (strlen(namebuffer) == 0 || strlen(namebuffer) > 3))
     {
       // atom->name and atom-> are the same
-      strcpy(atom->name, atom->type);
+      strcpy(atom->name, namebuffer);
+      //strcpy(atom->name, atom->type);
     }
     else
     {
