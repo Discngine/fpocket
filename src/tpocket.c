@@ -662,13 +662,13 @@ void check_pockets(c_lst_pockets *pockets, s_atm **accpck, int naccpck, s_atm **
         int n_lig_molecules=1;
         char chain_tmp[2];
         int resnumber_tmp;
-        strcpy(chain_tmp,lig[0]->chain);
+        strncpy(chain_tmp,lig[0]->chain,2);
         resnumber_tmp = lig[0]->res_id;
         
         for (j = 1 ; j < nalig ; j++) {
-            if(strcmp(chain_tmp,lig[j]->chain) !=0 || resnumber_tmp!=lig[j]->res_id){
+            if(strncmp(chain_tmp,lig[j]->chain,2) !=0 || resnumber_tmp!=lig[j]->res_id){
                 n_lig_molecules++;
-                strcpy(chain_tmp,lig[j]->chain);
+                strncpy(chain_tmp,lig[j]->chain,2);
                 resnumber_tmp =lig[j]->res_id;
             }
         }

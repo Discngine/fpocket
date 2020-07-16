@@ -616,7 +616,7 @@ float count_atm_prop_vert_neigh(s_atm **lig, int nlig, s_vvertice **pvert, int n
     float tmp = 0.0;
     char chain_tmp[2];
     int resnumber_tmp;
-    strcpy(chain_tmp, lig[0]->chain);
+    strncpy(chain_tmp, lig[0]->chain,2);
     resnumber_tmp = lig[0]->res_id;
 
     s_vvertice *curvp = NULL, *curvm = NULL;
@@ -626,9 +626,9 @@ float count_atm_prop_vert_neigh(s_atm **lig, int nlig, s_vvertice **pvert, int n
     multi_nb_lig_atoms[0] = 0;
     for (i = 0; i < nlig; i++) {
         /*check if we are in a new ligand molecule*/
-        if (strcmp(chain_tmp, lig[i]->chain) != 0 || resnumber_tmp != lig[i]->res_id) {
+        if (strncmp(chain_tmp, lig[i]->chain,2) != 0 || resnumber_tmp != lig[i]->res_id) {
             c_lig_mol++;
-            strcpy(chain_tmp, lig[i]->chain);
+            strncpy(chain_tmp, lig[i]->chain,2);
             resnumber_tmp = lig[i]->res_id;
             multi_nb_neigh[c_lig_mol] = 0;
             multi_nb_lig_atoms[c_lig_mol] = 0;

@@ -148,6 +148,7 @@ void write_md_pocket_atoms(FILE *f,int *ids,s_pdb *prot, int nids, int sn){
             cura=prot->latoms_p[j];
             if(cura->id==ids[i]){
                 flag=1;
+                
                 write_pdb_atom_line(f, "ATOM", cura->id, cura->name,
 						 cura->pdb_aloc, cura->res_name, cura->chain,
 						 cura->res_id, cura->pdb_insert, cura->x, cura->y, cura->z, cura->occupancy,

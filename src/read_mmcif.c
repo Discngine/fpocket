@@ -341,7 +341,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 strcpy(atom->name, at_in[i].type);
                                 atom->pdb_aloc = at_in[i].altloc[0];
                                 strcpy(atom->res_name, at_in[i].resname);
-                                strcpy(atom->chain, at_in[i].chain);
+                                strncpy(atom->chain, at_in[i].chain,2);
                                 atom->res_id = at_in[i].resid;
                                 atom->pdb_insert = ' ';
                                 atom->x = ts_in.coords[(3 * i)];
@@ -378,7 +378,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 strcpy(atom->name, at_in[i].type);
                                 atom->pdb_aloc = at_in[i].altloc[0];
                                 strcpy(atom->res_name, at_in[i].resname);
-                                strcpy(atom->chain, at_in[i].chain);
+                                strncpy(atom->chain, at_in[i].chain,2);
                                 atom->res_id = at_in[i].resid;
                                 atom->pdb_insert = ' ';
                                 atom->x = ts_in.coords[(3 * i)];
@@ -422,7 +422,10 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strcpy(atom->chain, at_in[i].chain);
+                            //fprintf(stdout,"%s |%s|%d\n", atom->chain, at_in[i].chain,i);
+                            //fflush(stdout);
+                            strncpy(atom->chain, at_in[i].chain,2);
+                            //fprintf(stdout,"%s |%s|%d\n", atom->chain, at_in[i].chain,i);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = ' ';
                             atom->x = ts_in.coords[(3 * i)];
@@ -493,7 +496,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strcpy(atom->chain, at_in[i].chain);
+                            strncpy(atom->chain, at_in[i].chain,2);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = ' ';
                             atom->x = ts_in.coords[(3 * i)];
@@ -530,7 +533,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 strcpy(atom->name, at_in[i].type);
                                 atom->pdb_aloc = at_in[i].altloc[0];
                                 strcpy(atom->res_name, at_in[i].resname);
-                                strcpy(atom->chain, at_in[i].chain);
+                                strncpy(atom->chain, at_in[i].chain,2);
                                 atom->res_id = at_in[i].resid;
                                 atom->pdb_insert = ' ';
                                 atom->x = ts_in.coords[(3 * i)];
@@ -568,7 +571,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 strcpy(atom->name, at_in[i].type);
                                 atom->pdb_aloc = at_in[i].altloc[0];
                                 strcpy(atom->res_name, at_in[i].resname);
-                                strcpy(atom->chain, at_in[i].chain);
+                                strncpy(atom->chain, at_in[i].chain,2);
                                 atom->res_id = at_in[i].resid;
                                 atom->pdb_insert = ' ';
                                 atom->x = ts_in.coords[(3 * i)];
@@ -606,7 +609,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                         strcpy(atom->name, at_in[i].type);
                                         atom->pdb_aloc = at_in[i].altloc[0];
                                         strcpy(atom->res_name, at_in[i].resname);
-                                        strcpy(atom->chain, at_in[i].chain);
+                                        strncpy(atom->chain, at_in[i].chain,2);
                                         atom->res_id = at_in[i].resid;
                                         atom->pdb_insert = ' ';
                                         atom->x = ts_in.coords[(3 * i)];
@@ -714,7 +717,7 @@ void print_molfile_atom_t(molfile_atom_t *at_in, molfile_timestep_t ts_in, int i
         printf("altloc: %s\t", at_in[j].altloc);
         //printf("insertion : %s\t", at_in[j].insertion);
         printf("bfactor : %f\n", at_in[j].bfactor);
-        //printf("mass : %f\t", at_in[j].mass);
+        //printf("mass : %f\t", at_in[j].mass); 
         //printf("charge : %f\t", at_in[j].charge);
         //printf("radius : %f\t", at_in[j].radius);
         //printf("occupancy : %f\n", at_in[j].occupancy);

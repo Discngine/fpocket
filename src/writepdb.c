@@ -69,7 +69,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
 */
 void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
-						 char alt_loc, const char res_name[], const char chain[], 
+						 char alt_loc, const char res_name[], const char *chain, 
 						 int res_id, const char insert, float x, float y, float z, float occ, 
 						 float bfactor, int abpa, const char *symbol, int charge,float abpa_prob) 
 {
@@ -106,8 +106,9 @@ void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom
         float finalabpa=0.0;
         if(abpa) finalabpa=abpa_prob;
         
-        status = fprintf(f, "%-6s%5s %4s%c%-4s%c%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
- 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain[0], 
+		//printf("%s \t",chain);
+        status = fprintf(f, "%-6s%5s %4s%c%-4s%4s%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
+ 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain, 
  						 res_id_buf, insert, x, y, z, finalabpa, bfactor, symbol, charge_buf);
 
         
@@ -180,8 +181,10 @@ void write_pqr_atom_line(FILE *f, const char *rec_name, int id, const char *atom
  	}
  	else sprintf(charge_buf, "%2d", charge) ;
 */ 	
- 	status = fprintf(f, "%-6s%5s %4s%c%-4s%c%4s%c   %8.3f%8.3f%8.3f  %6.2f   %6.2f\n",
- 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain[0], 
+
+	//printf("i%s \t",chain);
+ 	status = fprintf(f, "%-6s%5s %4s%c%-4s%4s%4s%c   %8.3f%8.3f%8.3f  %6.2f   %6.2f\n",
+ 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain, 
  						 res_id_buf, insert, x, y, z, charge,radius) ;
 }
 

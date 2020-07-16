@@ -322,7 +322,7 @@ int countResidues(s_atm *atoms, int natoms, char chain[2]){
     s_atm *curatom = NULL ;
     for(i=0;i<natoms;i++){
         curatom = &(atoms[i]) ;
-        if(!strncmp(curatom->chain,chain,1) ){
+        if(!strncmp(curatom->chain,chain,2) ){
             if(firstRes==-1) firstRes=curatom->res_id;
             lastRes=curatom->res_id;
             if(curRes!=curatom->res_id){
@@ -373,8 +373,8 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
             if(element_in_std_res(firstatom->res_name))             desc->characterChain1=0;
             else if(element_in_nucl_acid(firstatom->res_name))      desc->characterChain1=1;
             else if(element_in_kept_res(firstatom->res_name))       desc->characterChain1=2;
-            strcpy(desc->nameChain1,firstatom->chain);
-            strcpy(curChainName,firstatom->chain);
+            strncpy(desc->nameChain1,firstatom->chain,2);
+            strncpy(curChainName,firstatom->chain,2);
             desc->numResChain1 = countResidues(all_atoms,all_natoms,firstatom->chain);
 
             for(i = 0 ; i < natoms ; i++) {
@@ -418,7 +418,7 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
             }
 
             if(!desc->numResChain2) desc->numResChain2 = countResidues(all_atoms,all_natoms,curatom->chain);
-            strcpy(desc->nameChain2,curChainName);
+            strncpy(desc->nameChain2,curChainName,2);
 
             /*fprintf(stdout,":%s:",desc->ligTag);*/
             desc->hydrophobicity_score = desc->hydrophobicity_score/ (float) nb_res_ids ;
