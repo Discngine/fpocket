@@ -466,6 +466,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         {
                             //if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
 
+
                             *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
                             *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
                             *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
@@ -475,7 +476,6 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                     }
                     if (at_in[i].chain[0] == params->chain_as_ligand[0])
                     {
-
                         *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
                         *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
                         *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];

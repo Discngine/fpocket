@@ -36,7 +36,7 @@ typedef struct s_atm
     float x, y, z ;		/**< Coords */
     char name[5],		/**< Atom name */
          type[7],		/**< Atom type */
-         chain[3],		/**< Chain name */
+         chain[16],		/**< Chain name */
          symbol[3],		/**< Chemical symbol of the atom */
          res_name[8];		/**< Atom residue name */
 

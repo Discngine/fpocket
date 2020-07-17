@@ -105,7 +105,7 @@ typedef struct {
  */
 typedef struct {
   /* these fields absolutely must be set or initialized to empty */
-  char atom_type[8];
+  char atom_type[8];  /**< ATOM or HETATM                        */
   char name[16];      /**< required atom name string             */
   char type[16];      /**< required atom type string             */
   char resname[8];    /**< required residue name string          */
@@ -120,7 +120,7 @@ typedef struct {
   /* chains for existing PDBx/mmCIF files.                       */
   char chain[4];      /**< required chain name, or ""            */
 #else
-  char chain[2];      /**< required chain name, or ""            */
+  char chain[16];      /**< required chain name, or ""            */
 #endif
   /* rest are optional; use optflags to specify what's present   */
   char altloc[2];     /**< optional PDB alternate location code  */
