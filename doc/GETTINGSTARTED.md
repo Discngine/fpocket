@@ -462,6 +462,8 @@ The simplest way to run fpocket is either by providing a single pdb file, or by 
     -k char : (Default is none): Use this flag to chose which chains you want to keep before running fpocket. The selected chains can be specified with ',' or ':' delimiters, for example you can use it '-k A,B,E' or '-k A:B:E'. You can keep up to 20 different chains.
     
     -a char : (Default is none): With this flag you can select a chain you want to be considered as a ligand. Works the same way as the "-r" flag but with a whole chain. Only a single chain can be chosen, for example '-a D'.
+    
+    -w char : (Default is d) : With this flag you are able to choose what kind of writing file output you want, d -> default (same format outpout as input)| b -> both pdb and mmcif | p -> pdb | m -> mmcif
 
 
 ###  Output files description

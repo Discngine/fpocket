@@ -930,9 +930,13 @@ void print_pocket_usage(FILE *f)
     fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be kept before pocket detection,      \n\
 \t\t\t\t\t\t  able to keep up to (%d) chains (ie : -k A,B,C,E)\n",
             M_PAR_KEEP_CHAINS, M_PAR_KEEP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
+    fprintf(f, "\t-%c --%s (char)\t\t\t: Writing mode to be used after pocket detection,      \n\
+\t\t\t\t\t\t  d -> default (same format outpout as input)\n\
+\t\t\t\t\t\t  b -> both pdb and mmcif | p ->pdb | m -> mmcif\n",
+            M_PAR_WRITE_MODE, M_PAR_WRITE_MODE_LONG);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
 }
-
+/*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
 /**
    ## FUNCTION: 
         print_fparams
