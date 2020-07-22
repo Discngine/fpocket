@@ -117,6 +117,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_CHAIN_AS_LIGAND 'a' /**flag, to define which chains are defined as a ligand*/
 #define M_PAR_CHAIN_AS_LIGAND_LONG "chain_as_ligand"
 
+#define M_PAR_WRITE_MODE 'w' /**flag, to define which chains are defined as a ligand*/
+#define M_PAR_WRITE_MODE_LONG "write_mode"
+
+
 
 
 #define M_FP_USAGE "\n\
@@ -203,6 +207,7 @@ typedef struct s_fparams
 	char chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
 	char chain_as_ligand[M_MAX_CHAINS_DELETE];
 	int chain_is_kept;/* To choose if we keep the chains or not*/
+	char write_par; /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
 
 } s_fparams ;
 

@@ -68,6 +68,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
    ## RETURN:
   
 */
+
+extern char read_mode;
+
 void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
 						 char alt_loc, const char res_name[], const char chain[], 
 						 int res_id, const char insert, float x, float y, float z, float occ, 
