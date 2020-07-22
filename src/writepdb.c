@@ -188,3 +188,39 @@ void write_pqr_atom_line(FILE *f, const char *rec_name, int id, const char *atom
  						 res_id_buf, insert, x, y, z, charge,radius) ;
 }
 
+void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
+						 char alt_loc, const char res_name[], const char chain[], 
+						 int res_id, const char insert, float x, float y, float z, float occ, 
+						 float bfactor, int abpa, const char *symbol, int charge,float abpa_prob) 
+{
+	int status = 0 ;
+	char id_buf[6] = "*****",
+		 res_id_buf[5] = "****",
+		 charge_buf[3] = "  \0";
+	
+	if (id < 100000) sprintf(id_buf, "%5d", id);
+	else sprintf(id_buf, "%05x", id);
+
+	if (res_id < 10000) sprintf(res_id_buf, "%4d", res_id);
+	else if (res_id < 65536) sprintf(res_id_buf, "%04x", res_id);
+	else sprintf(res_id_buf, "****");
+
+	alt_loc = (alt_loc == '\0')? ' ': alt_loc;
+
+	if(charge == -1) sprintf(charge_buf, " 0") ;
+	else sprintf(charge_buf, "%2d", charge) ;
+	
+
+	 float finalabpa=0.0;
+        if(abpa) finalabpa=abpa_prob;
+
+	status = fprintf(f,"%-6s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s %s\n",
+						rec_name,id_buf,symbol,atom_name,res_name,chain,res_id_buf,x,y,z,occ,charge_buf,chain);	
+	
+
+
+	/*"ATOM %d %s %s . %s %s . %d ? %f %f %f %f %f %s\n",
+            i + 1, atoms[i].name, atoms[i].type, atoms[i].resname, atoms[i].chain,
+            atoms[i].resid, *x, *y, *z, atoms[i].occupancy,
+            atoms[i].charge, atoms[i].chain);*/
+}

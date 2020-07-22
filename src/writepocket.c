@@ -32,6 +32,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
  */
 
+/*header for the mmcif writing*/
+static const char atomSiteHeader[] =
+    "loop_\n"
+    "_atom_site.group_PDB\n"
+    "_atom_site.id\n"
+    "_atom_site.type_symbol\n"
+    "_atom_site.label_atom_id\n"
+    "_atom_site.label_alt_id\n"
+    "_atom_site.label_comp_id\n"
+    "_atom_site.label_asym_id\n"
+    "_atom_site.label_entity_id\n"
+    "_atom_site.label_seq_id\n"
+    "_atom_site.pdbx_PDB_ins_code\n"
+    "_atom_site.Cartn_x\n"
+    "_atom_site.Cartn_y\n"
+    "_atom_site.Cartn_z\n"
+    "_atom_site.occupancy\n"
+    "_atom_site.pdbx_formal_charge\n"
+    "_atom_site.auth_asym_id\n";
 
 
 void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_pdb *pdb) {
@@ -217,6 +236,46 @@ void write_pockets_single_pdb(const char out[], s_pdb *pdb, c_lst_pockets *pocke
     }
 }
 
+void write_pockets_single_mmcif(const char out[], s_pdb *pdb, c_lst_pockets *pockets) {
+    node_pocket *nextPocket;
+    node_vertice *nextVertice;
+    int i=0;
+    FILE *f = fopen(out, "w");
+    fprintf(f,"%s",atomSiteHeader);/*print the header*/
+    if (f) {
+        if (pdb) {
+            if (pdb->latoms) write_mmcif_atoms(f, pdb->latoms, pdb->natoms);
+        }
+    
+    if (pockets) {
+            pockets->current = pockets->first;
+
+            while (pockets->current) {
+                pockets->current->pocket->v_lst->current = pockets->current->pocket->v_lst->first;
+                i=0;
+                while (pockets->current->pocket->v_lst->current) {
+                    i++;
+                    write_pdb_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
+
+                    nextVertice = pockets->current->pocket->v_lst->current->next;
+                    pockets->current->pocket->v_lst->current = nextVertice;
+                }
+                
+                              //                  printf("pocket %d\n",pockets->current->pocket->rank);
+                 
+                nextPocket = pockets->current->next;
+                pockets->current = nextPocket;
+            }
+        }
+        fprintf(f,"# \n");/*end of mmcif file*/
+      fclose(f);
+    } else {
+        fprintf(stderr, "! The file %s could not be opened!\n", out);
+    }
+
+
+}
+
 /**
    ## FUNCTION: 
         write_pdb_atoms
@@ -246,6 +305,23 @@ void write_pdb_atoms(FILE *f, s_atm *atoms, int natoms) {
                 atom->charge, atom->abpa_sourrounding_prob);
     }
 }
+
+void write_mmcif_atoms(FILE *f, s_atm *atoms, int natoms) {
+    s_atm *atom = NULL;
+    int i = 0;
+    for (i = 0; i < natoms; i++) {
+        atom = atoms + i;
+        //atom->chain[1]='\0';
+        //printf("%d:%s|symb:%s\t",i,atom->chain,atom->symbol);
+        write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
+                atom->res_name, atom->chain, atom->res_id,
+                atom->pdb_insert, atom->x, atom->y, atom->z,
+                atom->dA, atom->a0, atom->abpa, atom->symbol,
+                atom->charge, atom->abpa_sourrounding_prob);
+    }
+
+}
+
 
 /**
    ## FUNCTION:
@@ -378,6 +454,8 @@ void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
             sprintf(out, "%s/pocket%d_atm.pdb", out_path, i);
             write_pocket_pdb(out, pcur->pocket);
 
+            sprintf(out, "%s/pocket%d_atm.cif", out_path, i);
+            write_pocket_mmcif(out, pcur->pocket);
             pcur = pcur->next;
             i++;
         }
@@ -524,6 +602,80 @@ void write_pocket_pdb(const char out[], s_pocket *pocket) {
         }
 
         fprintf(f, "TER\nEND\n");
+        fclose(f);
+    } else {
+        if (!f) fprintf(stderr, "! The file %s could not be opened!\n", out);
+        else fprintf(stderr, "! Invalid pocket to write in write_pocket_pqr !\n");
+    }
+
+    my_free(atms);
+}
+
+
+void write_pocket_mmcif(const char out[], s_pocket *pocket) {
+    node_vertice *vcur = NULL;
+    int i = 0;
+    int cur_size = 0,
+            cur_allocated = 10;
+
+    s_atm **atms = (s_atm**) my_malloc(sizeof (s_atm*)*10);
+    s_atm *atom = NULL;
+
+    FILE *f = fopen(out, "w");
+    if (f && pocket) {
+
+        fprintf(f, "_struct.pdbx_descriptor\n");
+        fprintf(f, "This is a mmcif format file writen by the programm fpocket.                 \n");
+        fprintf(f, "It represents the atoms contacted by the voronoi vertices of the pocket.  \n");
+        fprintf(f, "                                                                           \n");
+        fprintf(f, "Information about the pocket %5d:\n", pocket->v_lst->first->vertice->resid);
+        fprintf(f, "0  - Pocket Score                      : %.4f\n", pocket->score);
+        fprintf(f, "1  - Drug Score                        : %.4f\n", pocket->pdesc->drug_score);
+        fprintf(f, "2  - Number of alpha spheres           : %5d\n", pocket->pdesc->nb_asph);
+        fprintf(f, "3  - Mean alpha-sphere radius          : %.4f\n", pocket->pdesc->mean_asph_ray);
+        fprintf(f, "4  - Mean alpha-sphere Solvent Acc.    : %.4f\n", pocket->pdesc->masph_sacc);
+        fprintf(f, "5  - Mean B-factor of pocket residues  : %.4f\n", pocket->pdesc->flex);
+        fprintf(f, "6  - Hydrophobicity Score              : %.4f\n", pocket->pdesc->hydrophobicity_score);
+        fprintf(f, "7  - Polarity Score                    : %5d\n", pocket->pdesc->polarity_score);
+        fprintf(f, "8  - Amino Acid based volume Score     : %.4f\n", pocket->pdesc->volume_score);
+        fprintf(f, "9  - Pocket volume (Monte Carlo)       : %.4f\n", pocket->pdesc->volume);
+        fprintf(f, "10  -Pocket volume (convex hull)       : %.4f\n", pocket->pdesc->convex_hull_volume);
+        fprintf(f, "11 - Charge Score                      : %5d\n", pocket->pdesc->charge_score);
+        fprintf(f, "12 - Local hydrophobic density Score   : %.4f\n", pocket->pdesc->mean_loc_hyd_dens);
+        fprintf(f, "13 - Number of apolar alpha sphere     : %5d\n", pocket->nAlphaApol);
+        fprintf(f, "14 - Proportion of apolar alpha sphere : %.4f\n", pocket->pdesc->apolar_asphere_prop);
+        fprintf(f,"# \n");
+        /* First get the list of atoms */
+        vcur = pocket->v_lst->first;
+        fprintf(f,"%s",atomSiteHeader);
+        while (vcur) {
+            for (i = 0; i < 4; i++) {
+                if (!is_in_lst_atm(atms, cur_size, vcur->vertice->neigh[i]->id)) {
+                    if (cur_size >= cur_allocated - 1) {
+                        cur_allocated *= 2;
+                        atms = (s_atm**) my_realloc(atms, sizeof (s_atm) * cur_allocated);
+                    }
+                    atms[cur_size] = vcur->vertice->neigh[i];
+                    cur_size++;
+                }
+
+            }
+            vcur = vcur->next;
+        }
+
+        /* Then write atoms... */
+
+        for (i = 0; i < cur_size; i++) {
+            atom = atms[i];
+
+            write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
+                    atom->res_name, atom->chain, atom->res_id,
+                    atom->pdb_insert, atom->x, atom->y, atom->z,
+                    atom->dA, atom->a0, atom->abpa, atom->symbol,
+                    atom->charge, atom->abpa_sourrounding_prob);
+        }
+
+        fprintf(f, "# \n");
         fclose(f);
     } else {
         if (!f) fprintf(stderr, "! The file %s could not be opened!\n", out);

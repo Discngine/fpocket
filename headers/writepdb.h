@@ -25,4 +25,9 @@ void write_pqr_atom_line(FILE *f, const char *rec_name, int id, const char *atom
 						 char alt_loc, const char *res_name, const char *chain, 
 						 int res_id, const char insert, float x, float y, float z, float charge, 
 						 float radius);
+
+void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
+						 char alt_loc, const char res_name[], const char chain[], 
+						 int res_id, const char insert, float x, float y, float z, float occ, 
+						 float bfactor, int abpa, const char *symbol, int charge,float abpa_prob) ;
 #endif

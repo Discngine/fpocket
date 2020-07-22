@@ -729,7 +729,7 @@ void print_molfile_atom_t(molfile_atom_t *at_in, molfile_timestep_t ts_in, int i
 void write_files(molfile_atom_t *at_in, molfile_timestep_t ts_in, int inatoms, int optflags, char *filetype)
 {
     void *h_out;
-    const char *filepath = "./data/sample/1ORC_wrote.cif";
+    const char *filepath = "./data/sample/2P0R_wrote.cif";
     h_out = api->open_file_write(filepath, filetype, inatoms);
     api->write_structure(h_out, optflags, at_in);
     api->write_timestep(h_out, &ts_in);

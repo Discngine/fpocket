@@ -41,4 +41,7 @@ void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets,s_pd
 void write_pocket_pqr_DB(const char out[], s_pocket *pocket);
 void write_pocket_pdb_DB(const char out[], s_pocket *pocket,s_pdb *pdb);
 
+void write_mmcif_atoms(FILE *f, s_atm *atoms, int natoms);
+void write_pockets_single_mmcif(const char out[], s_pdb *pdb, c_lst_pockets *pockets);
+
 #endif
