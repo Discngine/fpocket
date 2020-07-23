@@ -1,0 +1,66 @@
+data_pocket54_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    54:
+0  - Pocket Score                      : -0.0113
+1  - Drug Score                        : 0.0049
+2  - Number of alpha spheres           :    32
+3  - Mean alpha-sphere radius          : 4.0414
+4  - Mean alpha-sphere Solvent Acc.    : 0.6160
+5  - Mean B-factor of pocket residues  : 0.3814
+6  - Hydrophobicity Score              : 16.2500
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 354.4969
+10  -Pocket volume (convex hull)       : 29.2954
+11 - Charge Score                      :     3
+12 - Local hydrophobic density Score   : 17.0000
+13 - Number of apolar alpha sphere     :    18
+14 - Proportion of apolar alpha sphere : 0.5625
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    14025    C   CB .  ARG   D .  220 ?  -53.267 -71.130 -35.251  0.00  0   D
+ATOM    14027    C   CD .  ARG   D .  220 ?  -54.320 -73.379 -35.745  0.00  0   D
+ATOM    14006    O    O .  LYS   D .  218 ?  -57.372 -69.518 -33.019 -3.35  0   D
+ATOM    13822    C  CG2 .  THR   D .  194 ?  -53.185 -71.067 -39.103  0.00  0   D
+ATOM    14021    N    N .  ARG   D .  220 ?  -53.936 -69.165 -33.938  0.00  0   D
+ATOM    14026    C   CG .  ARG   D .  220 ?  -54.040 -72.318 -34.684  0.00  0   D
+ATOM    14020    N  NE2 .  GLN   D .  219 ?  -55.787 -64.944 -34.567 -0.42  0   D
+ATOM    13821    O  OG1 .  THR   D .  194 ?  -51.454 -69.450 -38.591  0.00  0   D
+ATOM    14024    O    O .  ARG   D .  220 ?  -51.681 -68.236 -35.185 -2.14  0   D
+ATOM    13843    C  CD1 .  PHE   D .  197 ?  -51.450 -64.509 -40.424  0.00  0   D
+ATOM    13828    O  OG1 .  THR   D .  195 ?  -52.620 -68.758 -44.108 -5.76  0   D
+ATOM    13826    O    O .  THR   D .  195 ?  -50.668 -67.478 -42.063 -1.07  0   D
+ATOM    13820    C   CB .  THR   D .  194 ?  -51.995 -70.268 -39.632  0.00  0   D
+ATOM    13845    C  CE1 .  PHE   D .  197 ?  -51.362 -64.624 -39.044  0.00  0   D
+ATOM    13874    N   NZ .  LYS   D .  200 ?  -58.045 -64.638 -36.388  0.00  0   D
+ATOM    13847    C   CZ .  PHE   D .  197 ?  -51.730 -63.556 -38.234  0.00  0   D
+ATOM    13872    C   CD .  LYS   D .  200 ?  -56.777 -62.687 -37.339  0.00  0   D
+ATOM    13844    C  CD2 .  PHE   D .  197 ?  -52.268 -62.268 -40.184  0.00  0   D
+ATOM    13842    C   CG .  PHE   D .  197 ?  -51.899 -63.331 -41.011  0.00  0   D
+ATOM    13846    C  CE2 .  PHE   D .  197 ?  -52.180 -62.376 -38.801  0.00  0   D
+ATOM    14523    C   CE .  MET   D .  287 ?  -55.600 -62.093 -42.982  0.00  0   D
+ATOM    13841    C   CB .  PHE   D .  197 ?  -51.982 -63.202 -42.505  0.00  0   D
+ATOM    14522    S   SD .  MET   D .  287 ?  -56.620 -61.395 -41.680  0.00  0   D
+ATOM    13873    C   CE .  LYS   D .  200 ?  -58.137 -63.296 -37.034  0.00  0   D
+# 

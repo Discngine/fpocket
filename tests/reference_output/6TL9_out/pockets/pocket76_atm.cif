@@ -1,0 +1,69 @@
+data_pocket76_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    76:
+0  - Pocket Score                      : -0.1809
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    40
+3  - Mean alpha-sphere radius          : 3.8205
+4  - Mean alpha-sphere Solvent Acc.    : 0.4782
+5  - Mean B-factor of pocket residues  : 0.2602
+6  - Hydrophobicity Score              : 13.2000
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 5.4000
+9  - Pocket volume (Monte Carlo)       : 321.1342
+10  -Pocket volume (convex hull)       : 24.5474
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 11.0000
+13 - Number of apolar alpha sphere     :    12
+14 - Proportion of apolar alpha sphere : 0.3000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     7173    O   OH .  TYR   G .  114 ?  -39.020 -53.387 -25.900 -2.95  0   G
+ATOM     7020    N  NH2 .  ARG   G .   93 ?  -40.996 -53.667 -30.557  0.00  0   G
+ATOM     6127    O   OH .  TYR   F .  114 ?  -35.525 -58.003 -26.546  0.00  0   F
+ATOM     6092    O    O .  ARG   F .  110 ?  -41.713 -59.769 -26.133 -4.43  0   F
+ATOM     7139    C   CB .  ARG   G .  110 ?  -33.452 -53.368 -24.516  0.00  0   G
+ATOM     7138    O    O .  ARG   G .  110 ?  -33.597 -51.607 -26.643  0.00  0   G
+ATOM     7141    C   CD .  ARG   G .  110 ?  -33.025 -55.716 -23.846  0.00  0   G
+ATOM     6125    C  CE2 .  TYR   F .  114 ?  -35.437 -59.070 -24.386  0.00  0   F
+ATOM     7019    N  NH1 .  ARG   G .   93 ?  -39.507 -51.983 -30.112  0.00  0   G
+ATOM     7140    C   CG .  ARG   G .  110 ?  -33.037 -54.276 -23.380  0.00  0   G
+ATOM     7134    N  NE2 .  GLN   G .  109 ?  -36.031 -54.739 -19.615 -2.19  0   G
+ATOM     5973    N  NH1 .  ARG   F .   93 ?  -36.126 -59.548 -30.183 -4.12  0   F
+ATOM     6108    C   CB .  ALA   F .  112 ?  -37.492 -60.944 -26.898  0.00  0   F
+ATOM     7154    C   CB .  ALA   G .  112 ?  -37.805 -50.359 -27.145  0.00  0   G
+ATOM     6086    C   CD .  GLN   F .  109 ?  -38.129 -57.763 -19.647  0.00  0   F
+ATOM     6095    C   CD .  ARG   F .  110 ?  -41.967 -55.638 -23.364  0.00  0   F
+ATOM     6094    C   CG .  ARG   F .  110 ?  -41.933 -57.063 -22.873  0.00  0   F
+ATOM     6083    O    O .  GLN   F .  109 ?  -39.318 -60.138 -23.553 -1.07  0   F
+ATOM     7129    O    O .  GLN   G .  109 ?  -35.737 -51.234 -23.937  0.00  0   G
+ATOM     6093    C   CB .  ARG   F .  110 ?  -41.619 -57.993 -24.018  0.00  0   F
+ATOM     7171    C  CE2 .  TYR   G .  114 ?  -39.278 -51.855 -24.088  0.00  0   G
+ATOM     7133    O  OE1 .  GLN   G .  109 ?  -37.741 -53.297 -19.634 -1.07  0   G
+ATOM     6088    N  NE2 .  GLN   F .  109 ?  -38.612 -56.583 -19.316  0.00  0   F
+ATOM     6085    C   CG .  GLN   F .  109 ?  -39.109 -58.740 -20.221  0.00  0   F
+ATOM     6087    O  OE1 .  GLN   F .  109 ?  -36.942 -58.037 -19.489 -1.07  0   F
+ATOM     7132    C   CD .  GLN   G .  109 ?  -36.559 -53.564 -19.903  0.00  0   G
+ATOM     7131    C   CG .  GLN   G .  109 ?  -35.630 -52.573 -20.560  0.00  0   G
+# 

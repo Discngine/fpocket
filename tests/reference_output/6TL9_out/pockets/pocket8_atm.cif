@@ -1,0 +1,58 @@
+data_pocket8_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     8:
+0  - Pocket Score                      : 0.0530
+1  - Drug Score                        : 0.0013
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.5337
+4  - Mean alpha-sphere Solvent Acc.    : 0.4547
+5  - Mean B-factor of pocket residues  : 0.3487
+6  - Hydrophobicity Score              : 8.4286
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.4286
+9  - Pocket volume (Monte Carlo)       : 83.9218
+10  -Pocket volume (convex hull)       : 0.9170
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 11.0000
+13 - Number of apolar alpha sphere     :    12
+14 - Proportion of apolar alpha sphere : 0.5455
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2900    C   CG .  PRO   C .  101 ?   11.025 -29.494 -47.035  0.00  0   C
+ATOM     2907    O   OG .  SER   C .  102 ?    5.669 -30.021 -49.135 -6.43  0   C
+ATOM     2899    C   CB .  PRO   C .  101 ?   10.025 -28.514 -47.519  0.00  0   C
+ATOM      913    O   OH .  TYR   A .  114 ?   11.956 -31.254 -51.010 -1.21  0   A
+ATOM     3033    C  CD1 .  ILE   C .  119 ?    8.287 -35.206 -49.678  0.00  0   C
+ATOM     3032    C  CG2 .  ILE   C .  119 ?    5.694 -33.437 -49.648  0.00  0   C
+ATOM      880    C   CG .  ARG   A .  110 ?   11.650 -36.779 -47.853  0.00  0   A
+ATOM      879    C   CB .  ARG   A .  110 ?   12.430 -36.479 -49.122  0.00  0   A
+ATOM      872    C   CD .  GLN   A .  109 ?   12.502 -32.879 -44.955  0.00  0   A
+ATOM     2901    C   CD .  PRO   C .  101 ?   10.403 -30.197 -45.882  0.00  0   C
+ATOM     3018    O  OD1 .  ASN   C .  117 ?    6.934 -33.364 -45.373  0.00  0   C
+ATOM     3019    N  ND2 .  ASN   C .  117 ?    8.406 -34.912 -45.979 -1.09  0   C
+ATOM     2902    N    N .  SER   C .  102 ?    6.966 -29.135 -46.623  0.00  0   C
+ATOM      874    N  NE2 .  GLN   A .  109 ?   11.363 -33.415 -44.560  0.00  0   A
+ATOM      869    O    O .  GLN   A .  109 ?   14.506 -34.082 -49.021  0.00  0   A
+ATOM      871    C   CG .  GLN   A .  109 ?   13.484 -33.839 -45.567  0.00  0   A
+# 

@@ -1,0 +1,73 @@
+data_pocket10_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    10:
+0  - Pocket Score                      : 0.0367
+1  - Drug Score                        : 0.0898
+2  - Number of alpha spheres           :    52
+3  - Mean alpha-sphere radius          : 3.9625
+4  - Mean alpha-sphere Solvent Acc.    : 0.6080
+5  - Mean B-factor of pocket residues  : 0.1228
+6  - Hydrophobicity Score              : -5.0000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.0000
+9  - Pocket volume (Monte Carlo)       : 341.0489
+10  -Pocket volume (convex hull)       : 21.4657
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 26.0000
+13 - Number of apolar alpha sphere     :    27
+14 - Proportion of apolar alpha sphere : 0.5192
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3110    N    N .  ASP   A .  179 ?   22.374  -5.875  40.344  0.00  0   A
+ATOM     3114    C   CB .  ASP   A .  179 ?   20.241  -5.638  41.519  0.00  0   A
+ATOM     3080    O    O .  ASN   A .  177 ?   23.388  -8.720  38.091  0.00  0   A
+ATOM     3122    N    N .  SER   A .  180 ?   23.287  -6.550  42.834  0.00  0   A
+ATOM     3170    C   CG .  TYR   A .  183 ?   24.790 -11.704  40.790  0.00  0   A
+ATOM     3082    C   CG .  ASN   A .  177 ?   19.843 -10.742  37.240  0.00  0   A
+ATOM     3171    C  CD1 .  TYR   A .  183 ?   24.252 -12.895  41.255  0.00  0   A
+ATOM     3083    O  OD1 .  ASN   A .  177 ?   18.897 -10.169  37.786  0.00  0   A
+ATOM     3743    C   CG .  GLN   A .  216 ?   15.675  -7.998  45.144  0.00  0   A
+ATOM     3739    O    O .  GLN   A .  216 ?   17.645  -4.222  45.710 -2.14  0   A
+ATOM     3741    C   CB .  GLN   A .  216 ?   15.924  -6.512  45.046  0.00  0   A
+ATOM     3735    C   CA .  GLN   A .  216 ?   16.015  -5.819  46.409  0.00  0   A
+ATOM     3786    C   CA .  GLY   A .  219 ?   21.293  -3.968  47.512  0.00  0   A
+ATOM     3785    N    N .  GLY   A .  219 ?   20.030  -3.515  48.063 -2.19  0   A
+ATOM     3173    C  CE1 .  TYR   A .  183 ?   23.580 -13.749  40.408  0.00  0   A
+ATOM     3175    C   CZ .  TYR   A .  183 ?   23.423 -13.409  39.081  0.00  0   A
+ATOM     3172    C  CD2 .  TYR   A .  183 ?   24.617 -11.382  39.453  0.00  0   A
+ATOM     3174    C  CE2 .  TYR   A .  183 ?   23.940 -12.226  38.598  0.00  0   A
+ATOM     3126    C   CB .  SER   A .  180 ?   23.586  -8.430  44.371  0.00  0   A
+ATOM     3749    N  NE2 .  GLN   A .  216 ?   16.077  -9.993  43.843  0.00  0   A
+ATOM     3117    O  OD2 .  ASP   A .  179 ?   19.048  -6.453  39.638 -2.14  0   A
+ATOM     3747    O  OE1 .  GLN   A .  216 ?   15.532  -8.105  42.749 -4.29  0   A
+ATOM     3081    C   CB .  ASN   A .  177 ?   21.174 -10.039  37.039  0.00  0   A
+ATOM     3113    O    O .  ASP   A .  179 ?   21.967  -5.031  43.844 -3.21  0   A
+ATOM     3112    C    C .  ASP   A .  179 ?   22.349  -5.610  42.821  0.00  0   A
+ATOM     3729    O    O .  GLY   A .  215 ?   15.634  -5.833  49.155 -5.36  0   A
+ATOM     3745    C   CD .  GLN   A .  216 ?   15.753  -8.705  43.805  0.00  0   A
+ATOM     3078    C   CA .  ASN   A .  177 ?   21.098  -8.547  37.354  0.00  0   A
+ATOM     3079    C    C .  ASN   A .  177 ?   22.457  -7.982  37.762  0.00  0   A
+ATOM     3084    N  ND2 .  ASN   A .  177 ?   19.767 -11.993  36.804 -1.93  0   A
+ATOM     3176    O   OH .  TYR   A .  183 ?   22.748 -14.261  38.238  0.00  0   A
+# 

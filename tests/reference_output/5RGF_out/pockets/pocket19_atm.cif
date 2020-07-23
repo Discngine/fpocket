@@ -1,0 +1,60 @@
+data_pocket19_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    19:
+0  - Pocket Score                      : -0.0481
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    29
+3  - Mean alpha-sphere radius          : 3.7033
+4  - Mean alpha-sphere Solvent Acc.    : 0.5057
+5  - Mean B-factor of pocket residues  : 0.1391
+6  - Hydrophobicity Score              : -27.6667
+7  - Polarity Score                    :     2
+8  - Amino Acid based volume Score     : 2.3333
+9  - Pocket volume (Monte Carlo)       : 158.1058
+10  -Pocket volume (convex hull)       : 2.6173
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.1724
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    10034    O  OD1 .  ASN   B .  289 ?   -6.223  -2.520  39.611  0.00  0   B
+ATOM    10035    N  ND2 .  ASN   B .  289 ?   -8.329  -2.481  40.390 -1.26  0   B
+ATOM     4868    O  OD2 .  ASP   A .  287 ?   -4.251   4.273  41.950  0.00  0   A
+ATOM     4887    N  ND2 .  ASN   A .  289 ?   -9.151   4.026  39.749  0.00  0   A
+ATOM     4886    O  OD1 .  ASN   A .  289 ?   -8.992   3.725  37.531 -2.95  0   A
+ATOM     4885    C   CG .  ASN   A .  289 ?   -8.618   4.283  38.562  0.00  0   A
+ATOM    10023    C    C .  GLY   B .  288 ?   -7.019  -1.746  35.968  0.00  0   B
+ATOM     4875    C    C .  GLY   A .  288 ?   -5.597   2.939  36.623  0.00  0   A
+ATOM     4866    C   CG .  ASP   A .  287 ?   -3.799   4.057  40.805  0.00  0   A
+ATOM     4865    C   CB .  ASP   A .  287 ?   -2.785   2.922  40.672  0.00  0   A
+ATOM     4873    N    N .  GLY   A .  288 ?   -3.772   2.031  38.059 -2.19  0   A
+ATOM     4880    N    N .  ASN   A .  289 ?   -5.762   3.874  37.560  0.00  0   A
+ATOM     4874    C   CA .  GLY   A .  288 ?   -4.594   1.838  36.883  0.00  0   A
+ATOM    10013    C   CB .  ASP   B .  287 ?  -11.934  -1.683  35.836  0.00  0   B
+ATOM    10022    C   CA .  GLY   B .  288 ?   -7.746  -0.641  35.233  0.00  0   B
+ATOM    10016    O  OD2 .  ASP   B .  287 ?  -12.252  -3.079  37.739 -0.95  0   B
+ATOM    10014    C   CG .  ASP   B .  287 ?  -11.512  -2.821  36.766  0.00  0   B
+ATOM    10021    N    N .  GLY   B .  288 ?   -9.189  -0.792  35.184 -2.19  0   B
+# 

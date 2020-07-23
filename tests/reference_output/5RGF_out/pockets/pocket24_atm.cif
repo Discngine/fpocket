@@ -1,0 +1,55 @@
+data_pocket24_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    24:
+0  - Pocket Score                      : -0.1460
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.9757
+4  - Mean alpha-sphere Solvent Acc.    : 0.4576
+5  - Mean B-factor of pocket residues  : 0.2601
+6  - Hydrophobicity Score              : 14.0000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.5714
+9  - Pocket volume (Monte Carlo)       : 234.5335
+10  -Pocket volume (convex hull)       : 6.1483
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.1875
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5625    O  OG1 .  THR   B .   30 ?    4.208  -6.182  24.605 -6.43  0   B
+ATOM      781    O  OE2 .  GLU   A .   48 ?    7.879  -2.032  27.455 -7.90  0   A
+ATOM     5640    C  CG2 .  THR   B .   31 ?    3.315  -4.248  27.941  0.00  0   B
+ATOM     5623    O    O .  THR   B .   30 ?    3.844  -7.508  27.671  0.00  0   B
+ATOM      801    O  OD1 .  ASN   A .   49 ?    7.478  -2.196  23.134 -1.07  0   A
+ATOM      802    N  ND2 .  ASN   A .   49 ?    9.254  -3.448  22.578 -6.31  0   A
+ATOM     1548    C   CZ .  PHE   A .   92 ?   12.344  -6.138  23.343  0.00  0   A
+ATOM     1546    C  CE1 .  PHE   A .   92 ?   11.784  -6.310  22.096  0.00  0   A
+ATOM     5624    C   CB .  THR   B .   30 ?    4.228  -7.600  24.820  0.00  0   B
+ATOM     5626    C  CG2 .  THR   B .   30 ?    4.371  -8.311  23.482  0.00  0   B
+ATOM     5529    N  NE2 .  GLN   B .   26 ?    6.580  -6.480  18.855 -7.66  0   B
+ATOM     4714    C   CB .  ALA   A .  277 ?    6.070  -6.696  30.567  0.00  0   A
+ATOM     5526    C   CG .  GLN   B .   26 ?    4.253  -6.042  19.343  0.00  0   B
+# 

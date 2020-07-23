@@ -1,0 +1,64 @@
+data_pocket26_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    26:
+0  - Pocket Score                      : -0.0130
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    25
+3  - Mean alpha-sphere radius          : 4.0815
+4  - Mean alpha-sphere Solvent Acc.    : 0.6965
+5  - Mean B-factor of pocket residues  : 0.5290
+6  - Hydrophobicity Score              : -3.0000
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.3750
+9  - Pocket volume (Monte Carlo)       : 349.2400
+10  -Pocket volume (convex hull)       : 9.5784
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.1600
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4480    C   CG .  LYS   E .   40 ?  -69.149 -66.364 -13.044  0.00  0   E
+ATOM     5177    C   CA .  LYS   E .  128 ?  -66.586 -71.346 -13.806  0.00  0   E
+ATOM     4465    O    O .  ASP   E .   38 ?  -69.241 -71.490 -18.068  0.00  0   E
+ATOM     5170    O    O .  GLN   E .  127 ?  -66.794 -68.575 -14.201 -1.07  0   E
+ATOM     4481    C   CD .  LYS   E .   40 ?  -70.038 -66.333 -11.806  0.00  0   E
+ATOM     5185    N    N .  LYS   E .  129 ?  -67.486 -73.198 -12.494 -1.93  0   E
+ATOM     4475    N    N .  LYS   E .   40 ?  -68.544 -66.975 -15.974  0.00  0   E
+ATOM     4479    C   CB .  LYS   E .   40 ?  -69.859 -65.793 -14.279  0.00  0   E
+ATOM     4463    C   CA .  ASP   E .   38 ?  -69.603 -71.075 -20.400  0.00  0   E
+ATOM     4464    C    C .  ASP   E .   38 ?  -69.194 -70.670 -18.986  0.00  0   E
+ATOM     4443    O    O .  LEU   E .   35 ?  -70.784 -68.228 -22.367 -0.54  0   E
+ATOM     4468    O  OD1 .  ASP   E .   38 ?  -71.938 -72.688 -20.574  0.00  0   E
+ATOM     5180    C   CB .  LYS   E .  128 ?  -66.773 -71.804 -15.257  0.00  0   E
+ATOM     4470    N    N .  ALA   E .   39 ?  -68.800 -69.395 -18.813  0.00  0   E
+ATOM     4473    O    O .  ALA   E .   39 ?  -69.475 -66.838 -18.012 -1.07  0   E
+ATOM     4472    C    C .  ALA   E .   39 ?  -68.798 -67.457 -17.203  0.00  0   E
+ATOM     4447    C  CD2 .  LEU   E .   35 ?  -72.564 -65.314 -19.078  0.00  0   E
+ATOM     4483    N   NZ .  LYS   E .   40 ?  -70.315 -66.980  -9.430 -5.89  0   E
+ATOM     4482    C   CE .  LYS   E .   40 ?  -69.390 -66.949 -10.598  0.00  0   E
+ATOM     5189    C   CB .  LYS   E .  129 ?  -68.872 -74.839 -11.317  0.00  0   E
+ATOM     4471    C   CA .  ALA   E .   39 ?  -68.273 -68.875 -17.557  0.00  0   E
+ATOM     4289    O  OD1 .  ASN   E .   16 ?  -66.182 -71.143  -9.051  0.00  0   E
+# 

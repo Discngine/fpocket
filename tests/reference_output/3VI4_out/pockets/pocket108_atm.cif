@@ -1,0 +1,54 @@
+data_pocket108_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   108:
+0  - Pocket Score                      : -0.0771
+1  - Drug Score                        : 0.0022
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 4.0441
+4  - Mean alpha-sphere Solvent Acc.    : 0.5266
+5  - Mean B-factor of pocket residues  : 0.3886
+6  - Hydrophobicity Score              : 9.5000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 193.7274
+10  -Pocket volume (convex hull)       : 1.7771
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 10.0000
+13 - Number of apolar alpha sphere     :    11
+14 - Proportion of apolar alpha sphere : 0.7333
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2587    C  CG2 .  THR   A .  341 ?   -0.947  13.730  -9.409  0.00  0   A
+ATOM     2121    O  OE2 .  GLU   A .  279 ?   -0.203   9.615 -12.714 -2.14  0   A
+ATOM     2564    C   CG .  PRO   A .  338 ?   -5.012  14.237 -10.128  0.00  0   A
+ATOM     2120    O  OE1 .  GLU   A .  279 ?   -0.109   9.681 -14.918 -0.54  0   A
+ATOM     2462    C  CE1 .  TYR   A .  325 ?   -2.153   9.961 -10.066  0.00  0   A
+ATOM     2565    C   CD .  PRO   A .  338 ?   -6.145  14.408 -11.102  0.00  0   A
+ATOM     2117    C   CB .  GLU   A .  279 ?   -2.777   8.323 -14.673  0.00  0   A
+ATOM     2106    O    O .  SER   A .  277 ?   -7.987   8.216 -12.374  0.00  0   A
+ATOM     2113    N    N .  GLU   A .  279 ?   -4.341   6.617 -13.728  0.00  0   A
+ATOM     2460    C  CD1 .  TYR   A .  325 ?   -2.863  10.729  -9.157  0.00  0   A
+ATOM     2119    C   CD .  GLU   A .  279 ?   -0.540   9.190 -13.844  0.00  0   A
+ATOM     2484    O   OH .  TYR   A .  327 ?   -7.395  10.919  -9.302 -1.07  0   A
+# 

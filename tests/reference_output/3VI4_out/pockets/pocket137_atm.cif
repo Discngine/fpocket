@@ -1,0 +1,63 @@
+data_pocket137_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   137:
+0  - Pocket Score                      : -0.1125
+1  - Drug Score                        : 0.0028
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 4.0681
+4  - Mean alpha-sphere Solvent Acc.    : 0.6529
+5  - Mean B-factor of pocket residues  : 0.4565
+6  - Hydrophobicity Score              : 1.5556
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 3.2222
+9  - Pocket volume (Monte Carlo)       : 468.4473
+10  -Pocket volume (convex hull)       : 29.5881
+11 - Charge Score                      :    -3
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.2917
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    14964    C   CA .  ALA   D .  342 ?  -39.147 -64.459 -22.698  0.00  0   D
+ATOM    14785    C   CB .  GLU   D .  319 ?  -33.161 -58.710 -23.371  0.00  0   D
+ATOM    14963    N    N .  ALA   D .  342 ?  -39.216 -63.407 -21.681  0.00  0   D
+ATOM    14967    C   CB .  ALA   D .  342 ?  -38.272 -65.604 -22.204  0.00  0   D
+ATOM    14320    O  OD2 .  ASP   D .  259 ?  -38.410 -63.578 -30.630 -6.83  0   D
+ATOM    14966    O    O .  ALA   D .  342 ?  -40.826 -64.975 -24.340 -3.21  0   D
+ATOM    14780    C  CG2 .  THR   D .  318 ?  -38.350 -60.693 -26.588  0.00  0   D
+ATOM    14778    C   CB .  THR   D .  318 ?  -37.046 -59.907 -26.451  0.00  0   D
+ATOM    14952    O    O .  LEU   D .  340 ?  -38.614 -59.387 -22.579 -4.29  0   D
+ATOM    14958    C   CA .  SER   D .  341 ?  -39.628 -61.221 -20.744  0.00  0   D
+ATOM    14947    O  OG1 .  THR   D .  339 ?  -36.116 -56.216 -21.353 -1.62  0   D
+ATOM    14945    O    O .  THR   D .  339 ?  -39.126 -56.195 -20.147 -0.54  0   D
+ATOM    14961    C   CB .  SER   D .  341 ?  -40.278 -61.802 -19.495  0.00  0   D
+ATOM    14995    N  ND2 .  ASN   D .  346 ?  -41.155 -57.660 -18.338 -2.35  0   D
+ATOM    14957    N    N .  SER   D .  341 ?  -40.221 -59.937 -21.093  0.00  0   D
+ATOM    14794    C   CB .  GLU   D .  320 ?  -32.749 -59.760 -28.657  0.00  0   D
+ATOM    14790    N    N .  GLU   D .  320 ?  -32.915 -58.668 -26.484 -2.19  0   D
+ATOM    14795    C   CG .  GLU   D .  320 ?  -31.821 -60.935 -28.877  0.00  0   D
+ATOM    14781    N    N .  GLU   D .  319 ?  -35.163 -58.330 -24.713 -2.19  0   D
+ATOM    14779    O  OG1 .  THR   D .  318 ?  -36.425 -59.707 -27.732 -4.29  0   D
+ATOM    14798    O  OE2 .  GLU   D .  320 ?  -32.607 -63.000 -29.787  0.00  0   D
+# 

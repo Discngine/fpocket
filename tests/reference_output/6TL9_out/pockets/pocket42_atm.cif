@@ -1,0 +1,60 @@
+data_pocket42_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    42:
+0  - Pocket Score                      : -0.0513
+1  - Drug Score                        : 0.0010
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.9991
+4  - Mean alpha-sphere Solvent Acc.    : 0.6513
+5  - Mean B-factor of pocket residues  : 0.3956
+6  - Hydrophobicity Score              : 3.6000
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.8000
+9  - Pocket volume (Monte Carlo)       : 207.5456
+10  -Pocket volume (convex hull)       : 4.0739
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 13.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.6364
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      230    C   CD .  LYS   A .   29 ?   23.468 -25.871 -29.770  0.00  0   A
+ATOM      229    C   CG .  LYS   A .   29 ?   24.596 -25.632 -30.747  0.00  0   A
+ATOM      255    O  OE1 .  GLU   A .   32 ?   28.742 -25.662 -30.117 -4.69  0   A
+ATOM      228    C   CB .  LYS   A .   29 ?   24.651 -26.706 -31.818  0.00  0   A
+ATOM      190    C  CE1 .  PHE   A .   25 ?   21.468 -30.505 -28.974  0.00  0   A
+ATOM      188    C  CD1 .  PHE   A .   25 ?   21.482 -29.591 -30.017  0.00  0   A
+ATOM      262    C   CG .  LYS   A .   33 ?   27.300 -32.529 -31.492  0.00  0   A
+ATOM      189    C  CD2 .  PHE   A .   25 ?   22.106 -31.315 -31.525  0.00  0   A
+ATOM      191    C  CE2 .  PHE   A .   25 ?   22.102 -32.226 -30.482  0.00  0   A
+ATOM      258    C   CA .  LYS   A .   33 ?   29.370 -31.619 -32.722  0.00  0   A
+ATOM      257    N    N .  LYS   A .   33 ?   29.471 -30.183 -32.998  0.00  0   A
+ATOM      285    O   OG .  SER   A .   36 ?   32.596 -31.292 -30.352 -0.54  0   A
+ATOM      187    C   CG .  PHE   A .   25 ?   21.778 -29.992 -31.306  0.00  0   A
+ATOM      192    C   CZ .  PHE   A .   25 ?   21.783 -31.815 -29.212  0.00  0   A
+ATOM      264    C   CE .  LYS   A .   33 ?   27.598 -33.866 -29.388  0.00  0   A
+ATOM      250    C    C .  GLU   A .   32 ?   30.624 -29.498 -32.884  0.00  0   A
+ATOM      252    C   CB .  GLU   A .   32 ?   29.981 -27.258 -32.011  0.00  0   A
+ATOM      227    O    O .  LYS   A .   29 ?   26.977 -28.676 -32.922 -0.40  0   A
+# 

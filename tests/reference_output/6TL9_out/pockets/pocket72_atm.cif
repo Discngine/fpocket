@@ -1,0 +1,66 @@
+data_pocket72_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    72:
+0  - Pocket Score                      : -0.1467
+1  - Drug Score                        : 0.0016
+2  - Number of alpha spheres           :    34
+3  - Mean alpha-sphere radius          : 3.9510
+4  - Mean alpha-sphere Solvent Acc.    : 0.4956
+5  - Mean B-factor of pocket residues  : 0.5857
+6  - Hydrophobicity Score              : 33.6667
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.6667
+9  - Pocket volume (Monte Carlo)       : 385.4206
+10  -Pocket volume (convex hull)       : 24.4854
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 13.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.4118
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5210    O    O .  LEU   E .  132 ?  -66.107 -84.755  -9.412  0.00  0   E
+ATOM     5206    N  ND2 .  ASN   E .  131 ?  -65.491 -83.655 -14.808 -3.03  0   E
+ATOM     4169    N    N .  HIS   E .    3 ?  -64.080 -85.989 -16.451 -1.09  0   E
+ATOM     5205    O  OD1 .  ASN   E .  131 ?  -66.899 -83.310 -13.094  0.00  0   E
+ATOM     4170    C   CA .  HIS   E .    3 ?  -62.823 -86.645 -16.092  0.00  0   E
+ATOM     5208    C   CA .  LEU   E .  132 ?  -65.122 -82.596  -9.157  0.00  0   E
+ATOM     5222    C  CD2 .  HIS   F .    3 ?  -59.217 -87.827  -8.484  0.00  0   F
+ATOM     5209    C    C .  LEU   E .  132 ?  -66.014 -83.745  -8.718  0.00  0   E
+ATOM     5218    O    O .  HIS   F .    3 ?  -58.436 -86.935 -12.471 -1.21  0   F
+ATOM     4171    C    C .  HIS   E .    3 ?  -61.669 -85.679 -15.784  0.00  0   E
+ATOM     4172    O    O .  HIS   E .    3 ?  -60.550 -86.137 -15.551 -2.55  0   E
+ATOM     4193    C   CD .  PRO   E .    5 ?  -59.646 -81.936 -13.194  0.00  0   E
+ATOM     4179    N    N .  MET   E .    4 ?  -61.923 -84.360 -15.791  0.00  0   E
+ATOM     4180    C   CA .  MET   E .    4 ?  -60.884 -83.355 -15.522  0.00  0   E
+ATOM     4192    C   CG .  PRO   E .    5 ?  -59.794 -81.335 -11.828  0.00  0   E
+ATOM     5224    N  NE2 .  HIS   F .    3 ?  -58.663 -87.032  -7.507  0.00  0   F
+ATOM     4259    C  CH2 .  TRP   E .   12 ?  -57.869 -80.813  -8.227  0.00  0   E
+ATOM     5214    C  CD2 .  LEU   E .  132 ?  -62.597 -80.723  -8.452  0.00  0   E
+ATOM     4257    C  CZ2 .  TRP   E .   12 ?  -58.963 -80.015  -8.053  0.00  0   E
+ATOM     5211    C   CB .  LEU   E .  132 ?  -64.891 -81.616  -7.989  0.00  0   E
+ATOM     5202    O    O .  ASN   E .  131 ?  -63.810 -81.876 -11.523 -1.48  0   E
+ATOM     4187    N    N .  PRO   E .    5 ?  -60.891 -81.531 -13.868  0.00  0   E
+ATOM     5229    C   CB .  MET   F .    4 ?  -56.660 -84.187 -11.385  0.00  0   F
+ATOM     5231    S   SD .  MET   F .    4 ?  -56.302 -83.657  -8.640  0.00  0   F
+# 

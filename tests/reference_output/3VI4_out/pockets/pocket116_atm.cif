@@ -1,0 +1,55 @@
+data_pocket116_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   116:
+0  - Pocket Score                      : -0.0879
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.6861
+4  - Mean alpha-sphere Solvent Acc.    : 0.4135
+5  - Mean B-factor of pocket residues  : 0.5141
+6  - Hydrophobicity Score              : -10.0000
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.3750
+9  - Pocket volume (Monte Carlo)       : 135.6601
+10  -Pocket volume (convex hull)       : 1.1284
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.3125
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    20224    N    N .  LYS   G .  147 ?    7.746 -42.654 -74.301 -2.19  0   G
+ATOM    20215    C   CZ .  TYR   G .  145 ?    5.393 -44.537 -69.875  0.00  0   G
+ATOM    20221    C   CB .  PRO   G .  146 ?    8.132 -45.651 -73.611  0.00  0   G
+ATOM    20216    O   OH .  TYR   G .  145 ?    6.167 -44.581 -68.742 -2.14  0   G
+ATOM    20213    C  CE1 .  TYR   G .  145 ?    5.002 -43.327 -70.421  0.00  0   G
+ATOM    19196    C   CG .  PRO   G .   12 ?    9.637 -43.643 -66.998  0.00  0   G
+ATOM    19957    O  OE2 .  GLU   G .  110 ?    9.873 -38.546 -69.776 -2.14  0   G
+ATOM    19954    C   CG .  GLU   G .  110 ?    8.174 -38.592 -68.119  0.00  0   G
+ATOM    20485    O   OH .  TYR   G .  178 ?    6.540 -38.678 -71.187  0.00  0   G
+ATOM    19195    C   CB .  PRO   G .   12 ?    8.228 -43.456 -66.524  0.00  0   G
+ATOM    20229    C   CG .  LYS   G .  147 ?    9.899 -40.509 -73.290  0.00  0   G
+ATOM    20240    O  OD2 .  ASP   G .  148 ?   12.221 -45.165 -74.170 -0.54  0   G
+ATOM    19182    O   OG .  SER   G .   10 ?   13.000 -40.024 -68.424 -4.69  0   G
+# 

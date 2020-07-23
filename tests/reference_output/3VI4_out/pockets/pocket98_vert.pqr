@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    98:
+HEADER 0  - Pocket Score                      : -0.0660
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8161
+HEADER 4  - Mean alpha-sphere SA              : 0.4480
+HEADER 5  - Mean B-factor                     : 0.3998
+HEADER 6  - Hydrophobicity Score              : 13.5714
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.4286
+HEADER 9  - Real volume (approximation)       : 264.6171
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 12.0000
+HEADER 12 - Number of apolar alpha sphere     :    13
+HEADER 13 - Proportion of apolar alpha sphere : 0.6190
+ATOM      1    O STP    98     -27.545 -80.931 -58.461    0.00     4.23
+ATOM      2    C STP    98     -27.645 -80.757 -58.432    0.00     4.16
+ATOM      3    C STP    98     -28.776 -79.083 -57.518    0.00     3.41
+ATOM      4    O STP    98     -25.421 -78.046 -54.251    0.00     3.45
+ATOM      5    O STP    98     -27.691 -76.615 -55.741    0.00     3.72
+ATOM      6    C STP    98     -27.670 -76.706 -55.747    0.00     3.75
+ATOM      7    C STP    98     -28.671 -78.038 -57.407    0.00     3.76
+ATOM      8    C STP    98     -28.869 -78.070 -57.385    0.00     3.63
+ATOM      9    O STP    98     -25.496 -77.980 -54.373    0.00     3.43
+ATOM     10    O STP    98     -25.420 -78.050 -54.324    0.00     3.45
+ATOM     11    C STP    98     -27.288 -79.195 -58.379    0.00     4.24
+ATOM     12    O STP    98     -26.485 -79.669 -58.543    0.00     4.54
+ATOM     13    O STP    98     -26.201 -79.286 -58.012    0.00     4.24
+ATOM     14    C STP    98     -28.461 -77.909 -57.505    0.00     3.89
+ATOM     15    C STP    98     -28.917 -77.188 -58.255    0.00     3.51
+ATOM     16    C STP    98     -28.744 -77.486 -57.852    0.00     3.67
+ATOM     17    C STP    98     -28.916 -77.126 -58.036    0.00     3.52
+ATOM     18    C STP    98     -27.650 -76.695 -55.901    0.00     3.77
+ATOM     19    C STP    98     -27.642 -76.735 -55.898    0.00     3.79
+ATOM     20    C STP    98     -26.858 -77.224 -56.086    0.00     3.65
+ATOM     21    O STP    98     -28.123 -81.979 -58.643    0.00     4.33
+TER
+END

@@ -1,0 +1,61 @@
+data_pocket22_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    22:
+0  - Pocket Score                      : 0.0512
+1  - Drug Score                        : 0.0013
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 3.8201
+4  - Mean alpha-sphere Solvent Acc.    : 0.6634
+5  - Mean B-factor of pocket residues  : 0.4931
+6  - Hydrophobicity Score              : 19.3333
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.1111
+9  - Pocket volume (Monte Carlo)       : 321.2917
+10  -Pocket volume (convex hull)       : 18.6047
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 5.0000
+13 - Number of apolar alpha sphere     :     6
+14 - Proportion of apolar alpha sphere : 0.3158
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    15911    C   CB .  SER   E .   22 ?  -75.106 -60.919   1.666  0.00  0   E
+ATOM    16327    O    O .  PHE   E .   76 ?  -74.073 -58.811  -1.291 -2.14  0   E
+ATOM    15924    C   CG .  ARG   E .   24 ?  -78.840 -56.383   1.299  0.00  0   E
+ATOM    15916    O    O .  CYS   E .   23 ?  -75.450 -56.316   0.054  0.00  0   E
+ATOM    16339    C   CB .  THR   E .   77 ?  -72.797 -61.552  -2.440  0.00  0   E
+ATOM    16341    C  CG2 .  THR   E .   77 ?  -73.348 -61.527  -3.876  0.00  0   E
+ATOM    16302    N    N .  SER   E .   72 ?  -75.960 -56.589  -7.464  0.00  0   E
+ATOM    16301    O    O .  GLY   E .   71 ?  -74.368 -56.526  -9.075  0.00  0   E
+ATOM    16300    C    C .  GLY   E .   71 ?  -74.726 -56.790  -7.923  0.00  0   E
+ATOM    16307    O   OG .  SER   E .   72 ?  -78.495 -57.505  -7.227  0.00  0   E
+ATOM    16298    N    N .  GLY   E .   71 ?  -72.880 -58.388  -7.486 -0.42  0   E
+ATOM    16322    O    O .  ALA   E .   75 ?  -76.001 -57.113  -4.867 -1.07  0   E
+ATOM    16323    C   CB .  ALA   E .   75 ?  -78.590 -57.555  -3.428  0.00  0   E
+ATOM    15926    N   NE .  ARG   E .   24 ?  -80.355 -58.264   1.844 -3.28  0   E
+ATOM    15929    N  NH2 .  ARG   E .   24 ?  -81.409 -60.258   2.322  0.00  0   E
+ATOM    16321    C    C .  ALA   E .   75 ?  -76.200 -56.863  -3.679  0.00  0   E
+ATOM    16303    C   CA .  SER   E .   72 ?  -76.983 -55.863  -8.206  0.00  0   E
+ATOM    16299    C   CA .  GLY   E .   71 ?  -73.756 -57.377  -6.927  0.00  0   E
+ATOM    16296    C   CB .  SER   E .   70 ?  -71.788 -61.030  -7.649  0.00  0   E
+# 

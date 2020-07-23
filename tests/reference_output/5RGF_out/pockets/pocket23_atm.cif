@@ -1,0 +1,66 @@
+data_pocket23_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    23:
+0  - Pocket Score                      : -0.1172
+1  - Drug Score                        : 0.0006
+2  - Number of alpha spheres           :    31
+3  - Mean alpha-sphere radius          : 3.8592
+4  - Mean alpha-sphere Solvent Acc.    : 0.4579
+5  - Mean B-factor of pocket residues  : 0.1395
+6  - Hydrophobicity Score              : -7.3636
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 3.4545
+9  - Pocket volume (Monte Carlo)       : 377.9983
+10  -Pocket volume (convex hull)       : 29.3026
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     6
+14 - Proportion of apolar alpha sphere : 0.1935
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4753    O    O .  SER   A .  280 ?    0.361  -8.254  40.573  0.00  0   A
+ATOM     4754    C   CB .  SER   A .  280 ?   -0.052  -9.897  38.010  0.00  0   A
+ATOM     5663    N   NZ .  LYS   B .   33 ?   -4.749 -10.334  36.918  0.00  0   B
+ATOM     4751    C   CA .  SER   A .  280 ?    0.061  -8.386  38.209  0.00  0   A
+ATOM    10031    O    O .  ASN   B .  289 ?   -7.160  -6.197  36.813 -0.14  0   B
+ATOM     4781    C  CG2 .  THR   A .  282 ?   -0.645  -3.990  40.872  0.00  0   A
+ATOM     4779    C   CB .  THR   A .  282 ?    0.672  -3.347  41.299  0.00  0   A
+ATOM     4780    O  OG1 .  THR   A .  282 ?    1.069  -3.889  42.563 -1.21  0   A
+ATOM     4963    C   CE .  LYS   A .  293 ?    1.475   1.366  42.776  0.00  0   A
+ATOM    10051    C  CE2 .  PHE   B .  290 ?   -4.154  -4.802  32.790  0.00  0   B
+ATOM     4674    C   CA .  PRO   A .  274 ?   -1.741  -1.900  33.710  0.00  0   A
+ATOM    10049    C  CD2 .  PHE   B .  290 ?   -5.034  -5.523  33.561  0.00  0   B
+ATOM     4744    C   CB .  ALA   A .  279 ?    0.051  -5.622  34.616  0.00  0   A
+ATOM     4743    O    O .  ALA   A .  279 ?    0.210  -5.691  37.841 -2.55  0   A
+ATOM     5662    C   CE .  LYS   B .   33 ?   -3.876  -9.930  35.783  0.00  0   B
+ATOM    10024    O    O .  GLY   B .  288 ?   -5.783  -1.763  35.954 -1.07  0   B
+ATOM     4673    N    N .  PRO   A .  274 ?   -1.141  -0.989  34.698  0.00  0   A
+ATOM    10029    C   CA .  ASN   B .  289 ?   -7.193  -3.842  37.232  0.00  0   B
+ATOM    10034    O  OD1 .  ASN   B .  289 ?   -6.223  -2.520  39.611  0.00  0   B
+ATOM     4668    O  OD2 .  ASP   A .  273 ?    0.208  -0.253  39.944 -3.21  0   A
+ATOM     4865    C   CB .  ASP   A .  287 ?   -2.785   2.922  40.672  0.00  0   A
+ATOM     4873    N    N .  GLY   A .  288 ?   -3.772   2.031  38.059 -2.19  0   A
+ATOM     4742    C    C .  ALA   A .  279 ?    0.629  -6.414  36.928  0.00  0   A
+ATOM     4665    C   CB .  ASP   A .  273 ?   -0.039  -0.751  37.641  0.00  0   A
+# 

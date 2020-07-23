@@ -237,7 +237,7 @@ void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char at
 	//status = fprintf(f, "%-7s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s %4s %4s %2s %4s\n",
 	//				 rec_name, id_buf, symbol, atom_name, res_name, chain, res_id_buf, x, y, z, occ, charge_buf, res_id_buf, res_name, chain, atom_name);
 
-	status = fprintf(f, "%-7s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s  %2s\n",
+	status = fprintf(f, "%-7s %-6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s  %2s\n",
 					 rec_name, id_buf, symbol, atom_name, res_name, chain, res_id_buf, x, y, z, occ, charge_buf, chain);
 
 	/*"ATOM %d %s %s . %s %s . %d ? %f %f %f %f %f %s\n",

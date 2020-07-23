@@ -1,0 +1,65 @@
+data_pocket44_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    44:
+0  - Pocket Score                      : -0.0545
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    25
+3  - Mean alpha-sphere radius          : 3.9947
+4  - Mean alpha-sphere Solvent Acc.    : 0.6387
+5  - Mean B-factor of pocket residues  : 0.2460
+6  - Hydrophobicity Score              : 11.5000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.7500
+9  - Pocket volume (Monte Carlo)       : 415.8549
+10  -Pocket volume (convex hull)       : 36.6013
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 5.0000
+13 - Number of apolar alpha sphere     :     6
+14 - Proportion of apolar alpha sphere : 0.2400
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1496    C   CA .  SER   B .   58 ?   14.780 -43.773 -34.379  0.00  0   B
+ATOM     1467    O    O .  GLN   B .   54 ?   15.710 -46.806 -32.706 -5.36  0   B
+ATOM     1932    N    N .  GLY   B .  111 ?   10.485 -48.833 -32.597 -1.09  0   B
+ATOM     1490    O    O .  ILE   B .   57 ?   13.694 -45.362 -36.445  0.00  0   B
+ATOM     1516    O    O .  SER   B .   60 ?   10.978 -44.577 -37.530 -3.21  0   B
+ATOM     1498    O    O .  SER   B .   58 ?   13.589 -41.784 -34.908  0.00  0   B
+ATOM     1471    O  OE1 .  GLN   B .   54 ?   15.142 -50.377 -28.151 -3.35  0   B
+ATOM     1933    C   CA .  GLY   B .  111 ?   11.040 -49.590 -31.483  0.00  0   B
+ATOM     1470    C   CD .  GLN   B .   54 ?   14.357 -50.822 -29.001  0.00  0   B
+ATOM     1472    N  NE2 .  GLN   B .   54 ?   13.312 -51.550 -28.654  0.00  0   B
+ATOM     1923    C    C .  ARG   B .  110 ?    9.488 -47.964 -32.447  0.00  0   B
+ATOM     1499    C   CB .  SER   B .   58 ?   15.647 -43.295 -33.219  0.00  0   B
+ATOM     1468    C   CB .  GLN   B .   54 ?   15.363 -49.326 -30.744  0.00  0   B
+ATOM     1924    O    O .  ARG   B .  110 ?    8.931 -47.765 -31.371  0.00  0   B
+ATOM     1935    O    O .  GLY   B .  111 ?   10.760 -51.634 -30.290 -2.28  0   B
+ATOM     1934    C    C .  GLY   B .  111 ?   10.268 -50.831 -31.087  0.00  0   B
+ATOM     1922    C   CA .  ARG   B .  110 ?    9.026 -47.215 -33.717  0.00  0   B
+ATOM     1931    N  NH2 .  ARG   B .  110 ?    7.039 -42.095 -34.271  0.00  0   B
+ATOM     1940    C   CB .  ALA   B .  112 ?    6.797 -51.648 -30.866  0.00  0   B
+ATOM     1805    N  NH1 .  ARG   B .   93 ?    4.477 -51.652 -27.897  0.00  0   B
+ATOM     1926    C   CG .  ARG   B .  110 ?    7.259 -45.649 -34.685  0.00  0   B
+ATOM     1936    N    N .  ALA   B .  112 ?    9.039 -50.989 -31.607  0.00  0   B
+ATOM     1925    C   CB .  ARG   B .  110 ?    7.663 -46.537 -33.522  0.00  0   B
+# 

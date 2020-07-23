@@ -1,0 +1,61 @@
+data_pocket8_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     8:
+0  - Pocket Score                      : 0.0856
+1  - Drug Score                        : 0.0022
+2  - Number of alpha spheres           :    28
+3  - Mean alpha-sphere radius          : 3.7160
+4  - Mean alpha-sphere Solvent Acc.    : 0.4226
+5  - Mean B-factor of pocket residues  : 0.2995
+6  - Hydrophobicity Score              : 30.7000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.8000
+9  - Pocket volume (Monte Carlo)       : 160.9423
+10  -Pocket volume (convex hull)       : 9.1709
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.2500
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    17165    O  OG1 .  THR   E .  183 ?  -61.744 -62.754  36.391 -1.48  0   E
+ATOM    17038    C   CB .  SER   E .  167 ?  -61.548 -61.241  29.413  0.00  0   E
+ATOM    18835    O    O .  THR   F .  181 ?  -58.046 -57.274  32.705 -1.07  0   F
+ATOM    18852    O   OG .  SER   F .  183 ?  -57.829 -63.770  34.045 -4.29  0   F
+ATOM    17153    O   OG .  SER   E .  181 ?  -60.212 -65.233  33.087 -1.07  0   E
+ATOM    17151    O    O .  SER   E .  181 ?  -63.169 -63.839  32.426 -1.07  0   E
+ATOM    18755    C   CB .  PHE   F .  171 ?  -57.901 -63.086  29.335  0.00  0   F
+ATOM    18847    N    N .  SER   F .  183 ?  -56.097 -61.768  33.425 -1.09  0   F
+ATOM    18765    O    O .  PRO   F .  172 ?  -58.633 -59.134  29.091 -1.07  0   F
+ATOM    17021    O    O .  LEU   E .  165 ?  -64.531 -61.417  34.333 -1.07  0   E
+ATOM    18780    C  CG2 .  VAL   F .  174 ?  -62.287 -57.305  30.188  0.00  0   F
+ATOM    17028    C    C .  ASN   E .  166 ?  -64.647 -61.139  30.579  0.00  0   E
+ATOM    18778    C   CB .  VAL   F .  174 ?  -62.104 -56.267  31.288  0.00  0   F
+ATOM    17022    C   CB .  LEU   E .  165 ?  -64.813 -58.355  35.061  0.00  0   E
+ATOM    18838    C  CG2 .  THR   F .  181 ?  -58.630 -57.898  36.291  0.00  0   F
+ATOM    18836    C   CB .  THR   F .  181 ?  -58.697 -56.500  35.672  0.00  0   F
+ATOM    18840    C   CA .  LEU   F .  182 ?  -56.326 -59.403  33.084  0.00  0   F
+ATOM    17164    C   CB .  THR   E .  183 ?  -62.592 -62.204  37.403  0.00  0   E
+ATOM    18797    N  NE2 .  GLN   F .  176 ?  -62.293 -56.470  39.498 -0.84  0   F
+# 

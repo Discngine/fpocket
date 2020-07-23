@@ -1,0 +1,56 @@
+data_pocket9_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     9:
+0  - Pocket Score                      : 0.0466
+1  - Drug Score                        : 0.0006
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 3.5203
+4  - Mean alpha-sphere Solvent Acc.    : 0.4574
+5  - Mean B-factor of pocket residues  : 0.6522
+6  - Hydrophobicity Score              : 8.8571
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.7143
+9  - Pocket volume (Monte Carlo)       : 70.6737
+10  -Pocket volume (convex hull)       : 0.6003
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.4737
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1357    C   CB .  LYS   B .   40 ?   20.720 -63.793 -42.492  0.00  0   B
+ATOM     1696    C   CB .  GLU   B .   80 ?   16.595 -66.586 -42.036  0.00  0   B
+ATOM     1358    C   CG .  LYS   B .   40 ?   21.390 -63.215 -41.247  0.00  0   B
+ATOM     1699    O  OE1 .  GLU   B .   80 ?   17.326 -64.076 -43.248 -1.07  0   B
+ATOM     1359    C   CD .  LYS   B .   40 ?   21.979 -64.310 -40.347  0.00  0   B
+ATOM     1692    N    N .  GLU   B .   80 ?   15.668 -66.958 -39.790  0.00  0   B
+ATOM     1701    N    N .  ASP   B .   81 ?   17.832 -68.801 -40.006  0.00  0   B
+ATOM     1382    C   CB .  LYS   B .   43 ?   19.258 -62.590 -36.588  0.00  0   B
+ATOM     1577    C   CA .  GLY   B .   67 ?   14.342 -62.438 -40.058  0.00  0   B
+ATOM     1688    C  CE3 .  TRP   B .   79 ?   15.230 -63.296 -36.336  0.00  0   B
+ATOM     1365    O    O .  LEU   B .   41 ?   18.944 -61.038 -40.492 -2.14  0   B
+ATOM     1384    C   CD .  LYS   B .   43 ?   19.961 -64.835 -35.717  0.00  0   B
+ATOM     1682    C   CB .  TRP   B .   79 ?   16.069 -66.465 -36.741  0.00  0   B
+ATOM     1706    C   CG .  ASP   B .   81 ?   19.724 -68.817 -37.719  0.00  0   B
+# 

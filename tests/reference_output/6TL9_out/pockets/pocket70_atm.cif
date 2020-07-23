@@ -1,0 +1,56 @@
+data_pocket70_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    70:
+0  - Pocket Score                      : -0.1281
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.9376
+4  - Mean alpha-sphere Solvent Acc.    : 0.5843
+5  - Mean B-factor of pocket residues  : 0.6680
+6  - Hydrophobicity Score              : -6.1429
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.1429
+9  - Pocket volume (Monte Carlo)       : 179.4339
+10  -Pocket volume (convex hull)       : 2.0761
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.1875
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5236    O    O .  PRO   F .    5 ?  -51.640 -83.045 -14.098 -4.29  0   F
+ATOM     6230    N   NZ .  LYS   F .  128 ?  -47.126 -82.330  -9.586 -1.93  0   F
+ATOM     5228    O    O .  MET   F .    4 ?  -53.927 -85.132 -12.715  0.00  0   F
+ATOM     6249    C   CB .  ASN   F .  131 ?  -51.613 -87.159 -14.027  0.00  0   F
+ATOM     5232    C   CE .  MET   F .    4 ?  -54.855 -83.922  -7.610  0.00  0   F
+ATOM     5251    C   CG .  PRO   F .    7 ?  -50.147 -80.027  -9.311  0.00  0   F
+ATOM     6229    C   CE .  LYS   F .  128 ?  -46.501 -82.183 -10.931  0.00  0   F
+ATOM     5246    N    N .  PRO   F .    7 ?  -52.109 -80.096 -10.554 -1.09  0   F
+ATOM     5242    C    C .  CYS   F .    6 ?  -53.022 -80.446 -11.480  0.00  0   F
+ATOM     5250    C   CB .  PRO   F .    7 ?  -51.285 -79.824  -8.357  0.00  0   F
+ATOM     6234    O    O .  LYS   F .  129 ?  -47.083 -83.609 -14.869 -0.40  0   F
+ATOM     6245    N    N .  ASN   F .  131 ?  -50.559 -85.542 -15.553 -0.42  0   F
+ATOM     5252    C   CD .  PRO   F .    7 ?  -50.651 -79.926 -10.703  0.00  0   F
+ATOM     5230    C   CG .  MET   F .    4 ?  -55.725 -84.371 -10.196  0.00  0   F
+# 

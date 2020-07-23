@@ -1,0 +1,63 @@
+data_pocket10_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    10:
+0  - Pocket Score                      : 0.0464
+1  - Drug Score                        : 0.0007
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.9582
+4  - Mean alpha-sphere Solvent Acc.    : 0.6957
+5  - Mean B-factor of pocket residues  : 0.2236
+6  - Hydrophobicity Score              : 16.1667
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 3.6667
+9  - Pocket volume (Monte Carlo)       : 413.8377
+10  -Pocket volume (convex hull)       : 34.7636
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 6.6667
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.4091
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      369    C  CG2 .  THR   A .   47 ?   25.432 -38.267 -59.827  0.00  0   A
+ATOM      371    C   CA .  ALA   A .   48 ?   28.307 -40.595 -56.483  0.00  0   A
+ATOM      374    C   CB .  ALA   A .   48 ?   29.650 -41.226 -56.832  0.00  0   A
+ATOM      370    N    N .  ALA   A .   48 ?   28.134 -39.340 -57.221 -0.42  0   A
+ATOM      100    C  CE1 .  HIS   A .   13 ?   29.375 -45.002 -51.903  0.00  0   A
+ATOM      101    N  NE2 .  HIS   A .   13 ?   29.704 -43.730 -52.112 -4.37  0   A
+ATOM      373    O    O .  ALA   A .   48 ?   27.785 -41.308 -54.241 -1.07  0   A
+ATOM      403    C   CB .  PHE   A .   52 ?   26.511 -42.523 -51.158  0.00  0   A
+ATOM      400    C   CA .  PHE   A .   52 ?   25.011 -42.499 -51.510  0.00  0   A
+ATOM      434    O  OE1 .  GLN   A .   55 ?   23.394 -46.452 -51.412 -1.88  0   A
+ATOM      433    C   CD .  GLN   A .   55 ?   22.250 -46.938 -51.394  0.00  0   A
+ATOM      431    C   CB .  GLN   A .   55 ?   21.225 -44.698 -51.011  0.00  0   A
+ATOM      435    N  NE2 .  GLN   A .   55 ?   21.996 -48.140 -51.893  0.00  0   A
+ATOM      432    C   CG .  GLN   A .   55 ?   21.077 -46.189 -50.803  0.00  0   A
+ATOM      398    O  OD2 .  ASP   A .   51 ?   22.970 -42.507 -57.746  0.00  0   A
+ATOM      396    C   CG .  ASP   A .   51 ?   23.432 -41.518 -57.117  0.00  0   A
+ATOM      366    O    O .  THR   A .   47 ?   25.950 -39.014 -56.730  0.00  0   A
+ATOM      395    C   CB .  ASP   A .   51 ?   24.148 -41.771 -55.820  0.00  0   A
+ATOM      399    N    N .  PHE   A .   52 ?   24.804 -41.794 -52.756  0.00  0   A
+ATOM      393    C    C .  ASP   A .   51 ?   23.638 -41.768 -53.370  0.00  0   A
+ATOM      394    O    O .  ASP   A .   51 ?   22.645 -42.346 -52.942  0.00  0   A
+# 

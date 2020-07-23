@@ -1,0 +1,58 @@
+data_pocket68_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    68:
+0  - Pocket Score                      : -0.1235
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 4.1018
+4  - Mean alpha-sphere Solvent Acc.    : 0.6261
+5  - Mean B-factor of pocket residues  : 0.4907
+6  - Hydrophobicity Score              : 41.4444
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.5556
+9  - Pocket volume (Monte Carlo)       : 236.2073
+10  -Pocket volume (convex hull)       : 5.7981
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.1818
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      889    O    O .  GLY   A .  111 ?   17.836 -35.067 -53.003 -0.14  0   A
+ATOM      758    C   CZ .  ARG   A .   93 ?   13.394 -30.472 -56.399  0.00  0   A
+ATOM      760    N  NH2 .  ARG   A .   93 ?   13.162 -30.816 -57.658  0.00  0   A
+ATOM      759    N  NH1 .  ARG   A .   93 ?   12.891 -31.213 -55.420 -4.12  0   A
+ATOM      725    C   CB .  PHE   A .   90 ?   21.778 -30.953 -55.877  0.00  0   A
+ATOM      737    C   CG .  ARG   A .   91 ?   17.486 -27.841 -58.170  0.00  0   A
+ATOM      732    N    N .  ARG   A .   91 ?   20.267 -28.602 -57.203  0.00  0   A
+ATOM      757    N   NE .  ARG   A .   93 ?   14.106 -29.386 -56.121  0.00  0   A
+ATOM      735    O    O .  ARG   A .   91 ?   18.515 -27.902 -55.159  0.00  0   A
+ATOM      891    C   CA .  ALA   A .  112 ?   16.300 -32.895 -52.158  0.00  0   A
+ATOM      390    C  CD2 .  LEU   A .   50 ?   22.593 -35.145 -55.660  0.00  0   A
+ATOM      426    N  NE2 .  GLN   A .   54 ?   19.474 -37.024 -54.616 -1.01  0   A
+ATOM      716    O    O .  LEU   A .   89 ?   23.202 -32.631 -58.157  0.00  0   A
+ATOM      894    C   CB .  ALA   A .  112 ?   14.917 -32.372 -52.488  0.00  0   A
+ATOM      756    C   CD .  ARG   A .   93 ?   14.391 -28.908 -54.771  0.00  0   A
+ATOM      895    N    N .  VAL   A .  113 ?   17.656 -30.935 -51.738 -2.19  0   A
+# 

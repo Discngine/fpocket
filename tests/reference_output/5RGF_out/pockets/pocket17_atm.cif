@@ -1,0 +1,62 @@
+data_pocket17_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    17:
+0  - Pocket Score                      : -0.0219
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.8871
+4  - Mean alpha-sphere Solvent Acc.    : 0.5743
+5  - Mean B-factor of pocket residues  : 0.2544
+6  - Hydrophobicity Score              : -1.1429
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.1429
+9  - Pocket volume (Monte Carlo)       : 307.5072
+10  -Pocket volume (convex hull)       : 15.6127
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.3182
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6961    C   CB .  ASN   B .  108 ?   -0.920   5.171  -9.781  0.00  0   B
+ATOM     6910    C   CA .  THR   B .  105 ?   -0.583   9.971  -9.723  0.00  0   B
+ATOM     6914    O  OG1 .  THR   B .  105 ?    1.162  11.401 -10.595  0.00  0   B
+ATOM     6964    N  ND2 .  ASN   B .  108 ?   -0.861   5.433 -12.185  0.00  0   B
+ATOM     6915    C  CG2 .  THR   B .  105 ?    1.265  10.814  -8.258  0.00  0   B
+ATOM     6169    N  NE2 .  GLN   B .   60 ?    4.686   7.485  -5.230  0.00  0   B
+ATOM     6118    O  OE2 .  GLU   B .   57 ?    3.501   4.207  -0.586 -3.21  0   B
+ATOM     7032    O  OD1 .  ASN   B .  112 ?    2.872   1.205  -4.468  0.00  0   B
+ATOM     6166    C   CG .  GLN   B .   60 ?    5.559   7.164  -3.011  0.00  0   B
+ATOM     6180    C   CA .  GLY   B .   61 ?    6.954   3.359  -1.168  0.00  0   B
+ATOM     6977    C  CG2 .  VAL   B .  109 ?    0.886   7.850  -5.294  0.00  0   B
+ATOM     7030    C   CB .  ASN   B .  112 ?    0.640   1.545  -5.275  0.00  0   B
+ATOM     6960    O    O .  ASN   B .  108 ?   -1.175   3.746  -6.877 -2.14  0   B
+ATOM     6959    C    C .  ASN   B .  108 ?   -1.420   4.873  -7.321  0.00  0   B
+ATOM     6912    O    O .  THR   B .  105 ?   -1.056   8.487  -7.895  0.00  0   B
+ATOM     6972    C   CA .  VAL   B .  109 ?   -0.745   5.922  -5.225  0.00  0   B
+ATOM     6976    C  CG1 .  VAL   B .  109 ?   -0.374   7.377  -3.203  0.00  0   B
+ATOM     6974    O    O .  VAL   B .  109 ?   -1.443   4.364  -3.524  0.00  0   B
+ATOM     6971    N    N .  VAL   B .  109 ?   -1.212   5.985  -6.609  0.00  0   B
+ATOM     6179    N    N .  GLY   B .   61 ?    6.321   4.624  -0.888 -1.09  0   B
+# 

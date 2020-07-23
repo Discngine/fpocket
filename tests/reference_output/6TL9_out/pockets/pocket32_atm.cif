@@ -1,0 +1,57 @@
+data_pocket32_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    32:
+0  - Pocket Score                      : -0.0298
+1  - Drug Score                        : 0.0024
+2  - Number of alpha spheres           :    18
+3  - Mean alpha-sphere radius          : 3.8242
+4  - Mean alpha-sphere Solvent Acc.    : 0.4781
+5  - Mean B-factor of pocket residues  : 0.8036
+6  - Hydrophobicity Score              : 34.3750
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.2500
+9  - Pocket volume (Monte Carlo)       : 98.9211
+10  -Pocket volume (convex hull)       : 1.2026
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 16.0000
+13 - Number of apolar alpha sphere     :    17
+14 - Proportion of apolar alpha sphere : 0.9444
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5124    C  CD1 .  LEU   E .  120 ?  -61.854 -45.901 -17.363  0.00  0   E
+ATOM     7056    C   CB .  THR   G .   99 ?  -57.046 -46.719 -17.185  0.00  0   G
+ATOM     5092    C   CG .  GLU   E .  116 ?  -62.236 -46.982 -14.025  0.00  0   E
+ATOM     5122    C   CB .  LEU   E .  120 ?  -62.364 -47.798 -18.920  0.00  0   E
+ATOM     5135    C   CB .  ALA   E .  122 ?  -59.841 -53.058 -18.012  0.00  0   E
+ATOM     7057    O  OG1 .  THR   G .   99 ?  -57.422 -46.476 -18.541 -2.14  0   G
+ATOM     5129    O    O .  ALA   E .  121 ?  -59.164 -50.936 -20.522 -5.36  0   E
+ATOM     4663    C   CG .  PRO   E .   63 ?  -56.467 -52.020 -15.591  0.00  0   E
+ATOM     4689    C  CH2 .  TRP   E .   65 ?  -63.834 -51.174 -15.574  0.00  0   E
+ATOM     5020    C  CD1 .  TYR   E .  107 ?  -61.009 -50.826 -12.072  0.00  0   E
+ATOM     4662    C   CB .  PRO   E .   63 ?  -57.025 -52.618 -14.334  0.00  0   E
+ATOM     5022    C  CE1 .  TYR   E .  107 ?  -60.338 -49.626 -11.870  0.00  0   E
+ATOM     7055    O    O .  THR   G .   99 ?  -55.856 -48.351 -15.085 -1.07  0   G
+ATOM     4687    C  CZ2 .  TRP   E .   65 ?  -63.576 -51.681 -16.820  0.00  0   E
+ATOM     5024    C   CZ .  TYR   E .  107 ?  -58.981 -49.630 -11.623  0.00  0   E
+# 

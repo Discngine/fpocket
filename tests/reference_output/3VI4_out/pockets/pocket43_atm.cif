@@ -1,0 +1,58 @@
+data_pocket43_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    43:
+0  - Pocket Score                      : 0.0040
+1  - Drug Score                        : 0.0034
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 4.0165
+4  - Mean alpha-sphere Solvent Acc.    : 0.6018
+5  - Mean B-factor of pocket residues  : 0.4794
+6  - Hydrophobicity Score              : 38.6667
+7  - Polarity Score                    :     2
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 234.7708
+10  -Pocket volume (convex hull)       : 3.1309
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 11.0000
+13 - Number of apolar alpha sphere     :    12
+14 - Proportion of apolar alpha sphere : 0.7059
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     8419    C  CG1 .  ILE   C .   70 ?  -32.399 -53.706 -76.748  0.00  0   C
+ATOM     8405    O  OG1 .  THR   C .   68 ?  -35.198 -50.671 -81.134 -2.14  0   C
+ATOM     8328    C  CD2 .  LEU   C .   57 ?  -30.811 -50.337 -80.340  0.00  0   C
+ATOM     8410    O    O .  PRO   C .   69 ?  -35.763 -55.161 -78.984 -3.35  0   C
+ATOM     8325    C   CB .  LEU   C .   57 ?  -32.277 -50.226 -78.271  0.00  0   C
+ATOM     8979    C  CE2 .  PHE   C .  142 ?  -28.017 -53.913 -79.966  0.00  0   C
+ATOM     8415    C   CA .  ILE   C .   70 ?  -33.788 -55.757 -77.135  0.00  0   C
+ATOM     8420    C  CG2 .  ILE   C .   70 ?  -31.341 -56.006 -76.583  0.00  0   C
+ATOM     8977    C  CD2 .  PHE   C .  142 ?  -27.497 -55.068 -80.523  0.00  0   C
+ATOM     8976    C  CD1 .  PHE   C .  142 ?  -27.610 -56.154 -78.389  0.00  0   C
+ATOM     8425    O    O .  GLU   C .   71 ?  -31.629 -60.419 -77.435 -3.35  0   C
+ATOM     8975    C   CG .  PHE   C .  142 ?  -27.281 -56.200 -79.741  0.00  0   C
+ATOM     8974    C   CB .  PHE   C .  142 ?  -26.708 -57.449 -80.353  0.00  0   C
+ATOM     8980    C   CZ .  PHE   C .  142 ?  -28.333 -53.879 -78.615  0.00  0   C
+ATOM     8422    N    N .  GLU   C .   71 ?  -33.806 -58.113 -77.726 -0.84  0   C
+ATOM     8426    C   CB .  GLU   C .   71 ?  -34.190 -60.343 -78.722  0.00  0   C
+# 

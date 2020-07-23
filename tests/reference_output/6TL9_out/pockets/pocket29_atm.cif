@@ -1,0 +1,58 @@
+data_pocket29_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    29:
+0  - Pocket Score                      : -0.0257
+1  - Drug Score                        : 0.0012
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.7588
+4  - Mean alpha-sphere Solvent Acc.    : 0.4911
+5  - Mean B-factor of pocket residues  : 0.7074
+6  - Hydrophobicity Score              : 24.3333
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.4444
+9  - Pocket volume (Monte Carlo)       : 230.7488
+10  -Pocket volume (convex hull)       : 8.6683
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.3333
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6615    O  OD1 .  ASN   G .   45 ?  -37.425 -30.942 -25.995 -2.28  0   G
+ATOM     6953    C   CG .  MET   G .   86 ?  -40.835 -33.003 -30.917  0.00  0   G
+ATOM     6936    O    O .  PRO   G .   84 ?  -43.509 -32.865 -26.489 -8.57  0   G
+ATOM     6955    C   CE .  MET   G .   86 ?  -39.405 -30.649 -31.006  0.00  0   G
+ATOM     6931    C   CB .  SER   G .   83 ?  -43.139 -29.480 -23.727  0.00  0   G
+ATOM     6943    O    O .  LEU   G .   85 ?  -44.782 -35.152 -29.408 -4.02  0   G
+ATOM     6938    C   CG .  PRO   G .   84 ?  -46.814 -30.745 -26.898  0.00  0   G
+ATOM     6954    S   SD .  MET   G .   86 ?  -39.131 -32.400 -30.915  0.00  0   G
+ATOM     6932    O   OG .  SER   G .   83 ?  -42.222 -30.352 -23.091  0.00  0   G
+ATOM     6600    N   NZ .  LYS   G .   43 ?  -38.878 -29.698 -23.158 -4.37  0   G
+ATOM     6939    C   CD .  PRO   G .   84 ?  -45.644 -30.226 -26.142  0.00  0   G
+ATOM     6604    O    O .  ILE   G .   44 ?  -37.600 -35.440 -26.281 -1.07  0   G
+ATOM     6900    N  NE1 .  TRP   G .   79 ?  -41.274 -34.610 -24.436 -2.19  0   G
+ATOM     6949    C   CA .  MET   G .   86 ?  -42.337 -35.032 -30.720  0.00  0   G
+ATOM     6962    C   CD .  PRO   G .   87 ?  -44.365 -35.481 -32.826  0.00  0   G
+ATOM     6948    N    N .  MET   G .   86 ?  -42.521 -35.167 -29.283 -2.19  0   G
+# 

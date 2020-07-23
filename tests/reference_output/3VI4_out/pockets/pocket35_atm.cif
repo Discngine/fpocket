@@ -1,0 +1,59 @@
+data_pocket35_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    35:
+0  - Pocket Score                      : 0.0239
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 4.0068
+4  - Mean alpha-sphere Solvent Acc.    : 0.5620
+5  - Mean B-factor of pocket residues  : 0.4056
+6  - Hydrophobicity Score              : 12.5000
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.7000
+9  - Pocket volume (Monte Carlo)       : 222.2446
+10  -Pocket volume (convex hull)       : 4.3567
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     0
+14 - Proportion of apolar alpha sphere : 0.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3184    N  NH2 .  ARG   A .  423 ?  -11.963   6.938  16.309 -0.17  0   A
+ATOM      797    N  ND1 .  HIS   A .  108 ?  -16.954   5.887  15.721 -4.37  0   A
+ATOM     1287    C   CB .  PHE   A .  172 ?  -16.464   2.912  12.550  0.00  0   A
+ATOM      789    O    O .  ALA   A .  107 ?  -12.625   3.024  16.014 -1.07  0   A
+ATOM     3165    N  NH2 .  ARG   A .  420 ?   -9.984   4.089  11.407 -2.35  0   A
+ATOM     1289    C  CD1 .  PHE   A .  172 ?  -15.198   1.076  13.680  0.00  0   A
+ATOM     1301    N    N .  LYS   A .  174 ?  -18.728   7.952  11.697 -1.09  0   A
+ATOM     1286    O    O .  PHE   A .  172 ?  -16.026   4.897  10.198 -3.21  0   A
+ATOM     1868    O  OE1 .  GLU   A .  246 ?  -18.132   9.020   9.321 -2.14  0   A
+ATOM     1869    O  OE2 .  GLU   A .  246 ?  -17.601  11.121   9.591 -0.14  0   A
+ATOM     1803    C  CG2 .  VAL   A .  237 ?  -15.297   6.759   7.462  0.00  0   A
+ATOM     1297    O    O .  THR   A .  173 ?  -18.159   6.004  12.709  0.00  0   A
+ATOM     1281    O  OE1 .  GLU   A .  171 ?  -11.887   5.464   8.306 -1.62  0   A
+ATOM     1283    N    N .  PHE   A .  172 ?  -15.430   2.217  10.419  0.00  0   A
+ATOM      795    C   CB .  HIS   A .  108 ?  -16.030   3.605  16.185  0.00  0   A
+ATOM     1302    C   CA .  LYS   A .  174 ?  -18.746   8.755  12.934  0.00  0   A
+ATOM     1296    C    C .  THR   A .  173 ?  -18.474   6.642  11.688  0.00  0   A
+# 

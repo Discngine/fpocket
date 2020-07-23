@@ -1,0 +1,56 @@
+data_pocket10_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    10:
+0  - Pocket Score                      : -0.0595
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.8492
+4  - Mean alpha-sphere Solvent Acc.    : 0.5074
+5  - Mean B-factor of pocket residues  : 0.4606
+6  - Hydrophobicity Score              : 4.3333
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 257.1627
+10  -Pocket volume (convex hull)       : 5.8206
+11 - Charge Score                      :    -3
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.2000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      271    O  OD2 .  ASP   A .   38 ?  -23.670  -2.447 -24.193 -1.62  0   A
+ATOM      681    C  CE2 .  TYR   A .   88 ?  -20.089   0.903 -23.663  0.00  0   A
+ATOM      696    C   CB .  ALA   A .   90 ?  -20.499   3.896 -25.754  0.00  0   A
+ATOM     1138    O  OD2 .  ASP   A .  143 ?  -25.516   3.183 -28.021  0.00  0   A
+ATOM      679    C  CD2 .  TYR   A .   88 ?  -21.046   0.784 -22.664  0.00  0   A
+ATOM      268    C   CB .  ASP   A .   38 ?  -23.653  -2.703 -21.830  0.00  0   A
+ATOM      676    C   CB .  TYR   A .   88 ?  -21.768   0.846 -20.246  0.00  0   A
+ATOM      672    N    N .  TYR   A .   88 ?  -23.090   2.069 -18.609  0.00  0   A
+ATOM      267    O    O .  ASP   A .   38 ?  -24.472  -2.448 -18.913 -0.81  0   A
+ATOM     1136    C   CG .  ASP   A .  143 ?  -25.154   4.277 -27.556  0.00  0   A
+ATOM      675    O    O .  TYR   A .   88 ?  -23.182   3.381 -21.122  0.00  0   A
+ATOM     1137    O  OD1 .  ASP   A .  143 ?  -25.787   4.865 -26.641  0.00  0   A
+ATOM      668    C   CG .  GLU   A .   87 ?  -25.848   4.129 -18.189  0.00  0   A
+ATOM      552    O   OH .  TYR   A .   73 ?  -27.390   0.570 -16.982  0.00  0   A
+# 

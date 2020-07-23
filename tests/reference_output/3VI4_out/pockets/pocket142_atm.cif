@@ -1,0 +1,71 @@
+data_pocket142_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   142:
+0  - Pocket Score                      : -0.1178
+1  - Drug Score                        : 0.0034
+2  - Number of alpha spheres           :    30
+3  - Mean alpha-sphere radius          : 3.8909
+4  - Mean alpha-sphere Solvent Acc.    : 0.6145
+5  - Mean B-factor of pocket residues  : 0.5254
+6  - Hydrophobicity Score              : 9.0833
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 3.5833
+9  - Pocket volume (Monte Carlo)       : 458.9977
+10  -Pocket volume (convex hull)       : 62.5417
+11 - Charge Score                      :     3
+12 - Local hydrophobic density Score   : 12.4000
+13 - Number of apolar alpha sphere     :    15
+14 - Proportion of apolar alpha sphere : 0.5000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    19813    C   CZ .  PHE   G .   92 ?   16.457 -27.552 -65.458  0.00  0   G
+ATOM    21120    N  NE2 .  GLN   H .   39 ?   14.253 -23.538 -68.357 -2.19  0   H
+ATOM    21154    C   CA .  GLY   H .   44 ?   19.485 -26.698 -68.278  0.00  0   H
+ATOM    19790    C  CD1 .  ILE   G .   90 ?   12.804 -29.380 -68.047  0.00  0   G
+ATOM    19921    N    N .  GLY   G .  106 ?   18.748 -31.200 -65.075 -3.70  0   G
+ATOM    21135    O    O .  PRO   H .   41 ?   16.663 -27.445 -73.731  0.00  0   H
+ATOM    21153    N    N .  GLY   H .   44 ?   19.984 -26.864 -69.643 -0.42  0   H
+ATOM    19811    C  CE1 .  PHE   G .   92 ?   17.643 -27.998 -64.896  0.00  0   G
+ATOM    21142    O    O .  GLY   H .   42 ?   21.106 -29.153 -72.956  0.00  0   H
+ATOM    21141    C    C .  GLY   H .   42 ?   20.410 -28.154 -73.099  0.00  0   H
+ATOM    21140    C   CA .  GLY   H .   42 ?   19.315 -28.140 -74.157  0.00  0   H
+ATOM    19788    C  CG1 .  ILE   G .   90 ?   12.165 -30.250 -66.979  0.00  0   G
+ATOM    19936    C   CB .  LYS   G .  108 ?   12.342 -35.034 -67.544  0.00  0   G
+ATOM    19938    C   CD .  LYS   G .  108 ?   11.555 -34.105 -69.720  0.00  0   G
+ATOM    19789    C  CG2 .  ILE   G .   90 ?   14.213 -30.579 -65.558  0.00  0   G
+ATOM    21124    O    O .  ARG   H .   40 ?   18.415 -25.000 -72.357  0.00  0   H
+ATOM    21119    O  OE1 .  GLN   H .   39 ?   14.445 -22.908 -70.506 -0.95  0   H
+ATOM    21118    C   CD .  GLN   H .   39 ?   14.958 -23.148 -69.410  0.00  0   H
+ATOM    21117    C   CG .  GLN   H .   39 ?   16.449 -23.019 -69.207  0.00  0   H
+ATOM    19173    O    O .  PRO   G .    9 ?   15.453 -36.563 -66.935 -0.40  0   G
+ATOM    19932    N    N .  LYS   G .  108 ?   13.731 -35.081 -65.523  0.00  0   G
+ATOM    19924    O    O .  GLY   G .  106 ?   18.004 -33.890 -65.025 -1.07  0   G
+ATOM    19920    C   CB .  ALA   G .  105 ?   21.653 -31.924 -66.504  0.00  0   G
+ATOM    21145    C    C .  HIS   H .   43 ?   21.261 -26.651 -69.958  0.00  0   H
+ATOM    21144    C   CA .  HIS   H .   43 ?   21.672 -26.949 -71.386  0.00  0   H
+ATOM    21146    O    O .  HIS   H .   43 ?   22.091 -26.238 -69.141 -3.21  0   H
+ATOM    21149    N  ND1 .  HIS   H .   43 ?   24.753 -26.917 -72.946 -2.35  0   H
+ATOM    19923    C    C .  GLY   G .  106 ?   17.269 -33.121 -64.400  0.00  0   G
+ATOM    19922    C   CA .  GLY   G .  106 ?   17.565 -31.631 -64.332  0.00  0   G
+# 

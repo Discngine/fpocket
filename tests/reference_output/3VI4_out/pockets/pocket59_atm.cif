@@ -1,0 +1,63 @@
+data_pocket59_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    59:
+0  - Pocket Score                      : -0.0184
+1  - Drug Score                        : 0.0071
+2  - Number of alpha spheres           :    27
+3  - Mean alpha-sphere radius          : 3.8677
+4  - Mean alpha-sphere Solvent Acc.    : 0.4405
+5  - Mean B-factor of pocket residues  : 0.5700
+6  - Hydrophobicity Score              : 7.4286
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 3.1429
+9  - Pocket volume (Monte Carlo)       : 252.6587
+10  -Pocket volume (convex hull)       : 14.5068
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 11.0000
+13 - Number of apolar alpha sphere     :    12
+14 - Proportion of apolar alpha sphere : 0.4444
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    16833    N  ND2 .  ASN   E .  142 ?  -57.154 -72.090  29.956 -1.09  0   E
+ATOM    16669    O  OG1 .  THR   E .  119 ?  -59.931 -77.087  29.378 -3.21  0   E
+ATOM    18543    O  OG1 .  THR   F .  142 ?  -55.557 -75.740  33.919  0.00  0   F
+ATOM    16667    O    O .  THR   E .  119 ?  -61.217 -75.329  31.637  0.00  0   E
+ATOM    18878    C  CG2 .  THR   F .  187 ?  -54.010 -75.645  31.468  0.00  0   F
+ATOM    18506    C   CB .  THR   F .  137 ?  -58.551 -82.150  32.488  0.00  0   F
+ATOM    18527    C   CB .  MET   F .  140 ?  -53.267 -81.072  32.099  0.00  0   F
+ATOM    18877    O  OG1 .  THR   F .  187 ?  -52.404 -76.633  30.003 -4.29  0   F
+ATOM    16670    C  CG2 .  THR   E .  119 ?  -60.703 -79.320  29.716  0.00  0   E
+ATOM    18508    C  CG2 .  THR   F .  137 ?  -59.285 -82.675  31.252  0.00  0   F
+ATOM    18544    C  CG2 .  THR   F .  142 ?  -55.232 -73.484  34.627  0.00  0   F
+ATOM    16682    C   CB .  SER   E .  121 ?  -59.615 -74.402  35.787  0.00  0   E
+ATOM    16831    C   CG .  ASN   E .  142 ?  -58.449 -72.180  29.716  0.00  0   E
+ATOM    16668    C   CB .  THR   E .  119 ?  -60.597 -77.926  30.326  0.00  0   E
+ATOM    18507    O  OG1 .  THR   F .  137 ?  -59.442 -81.306  33.225 -6.83  0   F
+ATOM    18876    C   CB .  THR   F .  187 ?  -52.733 -76.465  31.383  0.00  0   F
+ATOM    18526    O    O .  MET   F .  140 ?  -54.411 -80.818  34.941 -2.14  0   F
+ATOM    18528    C   CG .  MET   F .  140 ?  -52.758 -81.813  30.867  0.00  0   F
+ATOM    18530    C   CE .  MET   F .  140 ?  -51.264 -79.854  29.556  0.00  0   F
+ATOM    16830    C   CB .  ASN   E .  142 ?  -58.894 -73.212  28.699  0.00  0   E
+ATOM    16840    O  OD1 .  ASN   E .  143 ?  -57.295 -74.737  26.292 -3.62  0   E
+# 
