@@ -30,6 +30,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 void write_visualization(char *pdb_name,char *pdb_out_name);
 void write_vmd(char *pdb_name,char *pdb_out_name);
 void write_pymol(char *pdb_name,char *pdb_out_name);
+void write_vmd_mmcif(char *pdb_name,char *pdb_out_name);
+void write_pymol_mmcif(char *pdb_name, char *pdb_out_name);
 
 #endif
  

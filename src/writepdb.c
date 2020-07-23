@@ -71,54 +71,60 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 extern char read_mode;
 
-void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
-						 char alt_loc, const char res_name[], const char chain[], 
-						 int res_id, const char insert, float x, float y, float z, float occ, 
-						 float bfactor, int abpa, const char *symbol, int charge,float abpa_prob) 
+void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[],
+						 char alt_loc, const char res_name[], const char chain[],
+						 int res_id, const char insert, float x, float y, float z, float occ,
+						 float bfactor, int abpa, const char *symbol, int charge, float abpa_prob)
 {
 	/* Example of pdb record: */
 	/* Position:          1         2         3         4         5         6 */
 	/* Position: 123456789012345678901234567890123456789012345678901234567890 */
 	/* Record:   ATOM    145  N   VAL A  25      32.433  16.336  57.540  1.00 */
-	
+
 	/* Position: 6         7         8 */
 	/* Position: 012345678901234567890 */
 	/* Record:   0 11.92           N   */
 
-	int status = 0 ;
+	int status = 0;
 	char id_buf[6] = "*****",
 		 res_id_buf[5] = "****",
 		 charge_buf[3] = "  ";
-	
-	if (id < 100000) sprintf(id_buf, "%5d", id);
-	else sprintf(id_buf, "%05x", id);
 
-	if (res_id < 10000) sprintf(res_id_buf, "%4d", res_id);
-	else if (res_id < 65536) sprintf(res_id_buf, "%04x", res_id);
-	else sprintf(res_id_buf, "****");
+	if (id < 100000)
+		sprintf(id_buf, "%5d", id);
+	else
+		sprintf(id_buf, "%05x", id);
 
-	alt_loc = (alt_loc == '\0')? ' ': alt_loc;
+	if (res_id < 10000)
+		sprintf(res_id_buf, "%4d", res_id);
+	else if (res_id < 65536)
+		sprintf(res_id_buf, "%04x", res_id);
+	else
+		sprintf(res_id_buf, "****");
 
-	if(charge == -1) sprintf(charge_buf, "  ") ;
-	else sprintf(charge_buf, "%2d", charge) ;
+	alt_loc = (alt_loc == '\0') ? ' ' : alt_loc;
 
-      /*status = fprintf(f, "%-6s%5s %4s%c%-4s%c%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
+	if (charge == -1)
+		sprintf(charge_buf, "  ");
+	else
+		sprintf(charge_buf, "%2d", charge);
+
+	/*status = fprintf(f, "%-6s%5s %4s%c%-4s%c%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
  						 rec_name, id_buf, atom_name, alt_loc, res_name, chain[0], 
  						 res_id_buf, insert, x, y, z, occ, bfactor, symbol, charge_buf);*/
-        
-        float finalabpa=0.0;
-        if(abpa) finalabpa=abpa_prob;
-        
-		//printf("%s \t",chain);
-        status = fprintf(f, "%-6s%5s %4s%c%-4s%s%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
- 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain, 
- 						 res_id_buf, insert, x, y, z, finalabpa, bfactor, symbol, charge_buf);
 
-        
-	 //printf OUT (       "ATOM%7d %-5s%4s%5d    %8.3f%8.3f%8.3f  1.00%6.2f      %4s \n",
-	   //$num,$atomname,$resname,$resnum,$x,$y,$z,$w,$segname);
+	float finalabpa = 0.0;
+	if (abpa)
+		finalabpa = abpa_prob;
+
+	//printf("%s \t",chain);
+	status = fprintf(f, "%-6s%5s %4s%c%-4s%s%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
+					 rec_name, id_buf, atom_name, alt_loc, res_name, chain,
+					 res_id_buf, insert, x, y, z, finalabpa, bfactor, symbol, charge_buf);
+
+	//printf OUT (       "ATOM%7d %-5s%4s%5d    %8.3f%8.3f%8.3f  1.00%6.2f      %4s \n",
+	//$num,$atomname,$resname,$resnum,$x,$y,$z,$w,$segname);
 }
-
 
 /**
    ## FUNCTION: 
@@ -151,76 +157,88 @@ void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom
    ## RETURN:
   
 */
-void write_pqr_atom_line(FILE *f, const char *rec_name, int id, const char *atom_name, 
-						 char alt_loc, const char *res_name, const char *chain, 
-						 int res_id, const char insert, float x, float y, float z, float charge, 
-						 float radius) 
+void write_pqr_atom_line(FILE *f, const char *rec_name, int id, const char *atom_name,
+						 char alt_loc, const char *res_name, const char *chain,
+						 int res_id, const char insert, float x, float y, float z, float charge,
+						 float radius)
 {
 	/* Example of pdb record: */
 	/* Position:          1         2         3         4         5         6 */
 	/* Position: 123456789012345678901234567890123456789012345678901234567890 */
 	/* Record:   ATOM    145  N   VAL A  25      32.433  16.336  57.540  1.00 */
-	
+
 	/* Position: 6         7         8 */
 	/* Position: 012345678901234567890 */
 	/* Record:   0 11.92           N   */
-	
-	int status ;
- 	char id_buf[7],
- 		 res_id_buf[6];
-/* 		 charge_buf[3] ; */
- 	
- 	if (id < 100000) sprintf(id_buf, "%5d", id);
- 	else sprintf(id_buf, "%05x", id);
 
- 	if (res_id < 10000) sprintf(res_id_buf, "%4d", res_id);
- 	else if (res_id < 65536) sprintf(res_id_buf, "%04x", res_id);
- 	
- 	alt_loc = (alt_loc == '\0')? ' ': alt_loc;
- 	
-/* 	if(charge == -1) { 
+	int status;
+	char id_buf[7],
+		res_id_buf[6];
+	/* 		 charge_buf[3] ; */
+
+	if (id < 100000)
+		sprintf(id_buf, "%5d", id);
+	else
+		sprintf(id_buf, "%05x", id);
+
+	if (res_id < 10000)
+		sprintf(res_id_buf, "%4d", res_id);
+	else if (res_id < 65536)
+		sprintf(res_id_buf, "%04x", res_id);
+
+	alt_loc = (alt_loc == '\0') ? ' ' : alt_loc;
+
+	/* 	if(charge == -1) { 
  		charge_buf[0] = charge_buf[1] = ' ' ;
  		charge_buf[2] = '\0' ;
  	}
  	else sprintf(charge_buf, "%2d", charge) ;
-*/ 	
+*/
 
 	//printf("i%s \t",chain);
- 	status = fprintf(f, "%-6s%5s %4s%c%-4s%s%4s%c   %8.3f%8.3f%8.3f  %6.2f   %6.2f\n",
- 						 rec_name, id_buf, atom_name, alt_loc, res_name, chain, 
- 						 res_id_buf, insert, x, y, z, charge,radius) ;
+	status = fprintf(f, "%-6s%5s %4s%c%-4s%s%4s%c   %8.3f%8.3f%8.3f  %6.2f   %6.2f\n",
+					 rec_name, id_buf, atom_name, alt_loc, res_name, chain,
+					 res_id_buf, insert, x, y, z, charge, radius);
 }
 
-void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[], 
-						 char alt_loc, const char res_name[], const char chain[], 
-						 int res_id, const char insert, float x, float y, float z, float occ, 
-						 float bfactor, int abpa, const char *symbol, int charge,float abpa_prob) 
+void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char atom_name[],
+						   char alt_loc, const char res_name[], const char chain[],
+						   int res_id, const char insert, float x, float y, float z, float occ,
+						   float bfactor, int abpa, const char *symbol, int charge, float abpa_prob)
 {
-	int status = 0 ;
+	int status = 0;
 	char id_buf[6] = "*****",
 		 res_id_buf[5] = "****",
 		 charge_buf[3] = "  \0";
-	
-	if (id < 100000) sprintf(id_buf, "%5d", id);
-	else sprintf(id_buf, "%05x", id);
 
-	if (res_id < 10000) sprintf(res_id_buf, "%4d", res_id);
-	else if (res_id < 65536) sprintf(res_id_buf, "%04x", res_id);
-	else sprintf(res_id_buf, "****");
+	if (id < 100000)
+		sprintf(id_buf, "%5d", id);
+	else
+		sprintf(id_buf, "%05x", id);
 
-	alt_loc = (alt_loc == '\0')? ' ': alt_loc;
+	if (res_id < 10000)
+		sprintf(res_id_buf, "%4d", res_id);
+	else if (res_id < 65536)
+		sprintf(res_id_buf, "%04x", res_id);
+	else
+		sprintf(res_id_buf, "****");
 
-	if(charge == -1) sprintf(charge_buf, " 0") ;
-	else sprintf(charge_buf, "%2d", charge) ;
-	
+	alt_loc = (alt_loc == '\0') ? ' ' : alt_loc;
 
-	 float finalabpa=0.0;
-        if(abpa) finalabpa=abpa_prob;
+	if (charge == -1)
+		sprintf(charge_buf, " 0");
+	else
+		sprintf(charge_buf, "%2d", charge);
 
-	status = fprintf(f,"%-6s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s %s\n",
-						rec_name,id_buf,symbol,atom_name,res_name,chain,res_id_buf,x,y,z,occ,charge_buf,chain);	
-	
+	float finalabpa = 0.0;
+	if (abpa)
+		finalabpa = abpa_prob;
 
+	//status = fprintf(f, "%-7s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s %4s %4s %2s %4s\n",
+	//				 rec_name, id_buf, symbol, atom_name, res_name, chain, res_id_buf, x, y, z, occ, charge_buf, res_id_buf, res_name, chain, atom_name);
+
+	status = fprintf(f, "%-7s %6s %3s %4s . %4s %3s . %s ? %8.3f%8.3f%8.3f%6.2f %2s  %2s\n",
+					 rec_name, id_buf, symbol, atom_name, res_name, chain, res_id_buf, x, y, z, occ, charge_buf, chain);
 
 	/*"ATOM %d %s %s . %s %s . %d ? %f %f %f %f %f %s\n",
             i + 1, atoms[i].name, atoms[i].type, atoms[i].resname, atoms[i].chain,

@@ -54,6 +54,28 @@ static const char atomSiteHeader[] =
     "_atom_site.pdbx_formal_charge\n"
     "_atom_site.auth_asym_id\n";
 
+    /*static const char atomSiteHeader[] =
+    "loop_\n"
+    "_atom_site.group_PDB\n"
+    "_atom_site.id\n"
+    "_atom_site.type_symbol\n"
+    "_atom_site.label_atom_id\n"
+    "_atom_site.label_alt_id\n"
+    "_atom_site.label_comp_id\n"
+    "_atom_site.label_asym_id\n"
+    "_atom_site.label_entity_id\n"
+    "_atom_site.label_seq_id\n"
+    "_atom_site.pdbx_PDB_ins_code\n"
+    "_atom_site.Cartn_x\n"
+    "_atom_site.Cartn_y\n"
+    "_atom_site.Cartn_z\n"
+    "_atom_site.occupancy\n"
+    "_atom_site.pdbx_formal_charge\n"
+    "_atom_site.auth_seq_id\n"
+    "_atom_site.auth_comp_id\n"
+    "_atom_site.auth_asym_id\n"
+    "_atom_site.auth_atom_id\n";*/
+
 
 void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_pdb *pdb) {
     int out_len = strlen(out_path);
@@ -244,7 +266,13 @@ void write_pockets_single_mmcif(const char out[], s_pdb *pdb, c_lst_pockets *poc
     node_pocket *nextPocket;
     node_vertice *nextVertice;
     int i=0;
+    char tmp[250];
+    strcpy(tmp,out);
+    remove_ext(tmp);
+    remove_path(tmp);
+
     FILE *f = fopen(out, "w");
+    fprintf(f,"data_%s\n# \n",tmp);
     fprintf(f,"%s",atomSiteHeader);/*print the header*/
     if (f) {
         if (pdb) {
@@ -628,10 +656,14 @@ void write_pocket_mmcif(const char out[], s_pocket *pocket) {
 
     s_atm **atms = (s_atm**) my_malloc(sizeof (s_atm*)*10);
     s_atm *atom = NULL;
-
+    char tmp[250];
     FILE *f = fopen(out, "w");
+    strcpy(tmp,out);
+    remove_ext(tmp);
+    remove_path(tmp);
     if (f && pocket) {
-
+        fprintf(f, "data_%s\n# \n",tmp);
+        fprintf(f, "loop_\n",tmp);
         fprintf(f, "_struct.pdbx_descriptor\n");
         fprintf(f, "This is a mmcif format file writen by the programm fpocket.                 \n");
         fprintf(f, "It represents the atoms contacted by the voronoi vertices of the pocket.  \n");
@@ -655,6 +687,7 @@ void write_pocket_mmcif(const char out[], s_pocket *pocket) {
         fprintf(f,"# \n");
         /* First get the list of atoms */
         vcur = pocket->v_lst->first;
+        
         fprintf(f,"%s",atomSiteHeader);
         while (vcur) {
             for (i = 0; i < 4; i++) {
