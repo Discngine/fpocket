@@ -57,7 +57,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
  */
 
-char write_mode = 'd'; /*write mode : d -> default | b -> both pdb and mmcif | 
+char write_mode[10] = "d"; /*write mode : d -> default | b -> both pdb and mmcif | 
                         p ->pdb | m  -> mmcif*/
 
 s_fparams *init_def_fparams(void)
@@ -86,7 +86,7 @@ s_fparams *init_def_fparams(void)
     par->fpocket_running = 0;
     par->xlig_resnumber = -1;
     par->chain_is_kept = 0;
-    par->write_par = 'd';
+    par->write_par[0] = 'd';
     return par;
 }
 
@@ -156,13 +156,21 @@ s_fparams *get_fpocket_args(int nargs, char **args)
 
         case M_PAR_WRITE_MODE: /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
             status++;
-            if (optarg[0] != 'd' && optarg[0] != 'b' && optarg[0] != 'p' && optarg[0] != 'm')
+            if (optarg[0] != 'd' && optarg[0] != 'b' && optarg[0] != 'p' && optarg[0] != 'm' && strcmp(optarg, "both") && strcmp(optarg, "pdb") && strcmp(optarg, "cif") && strcmp(optarg, "mmcif"))
             { /*if args is not a correct arg break*/
                 printf("Writing mode invalid, set to default\n");
                 break;
             }
-            par->write_par = optarg[0];
-            write_mode = par->write_par;
+            if (strcmp(optarg, "cif"))
+            {
+                strcpy(par->write_par, "mmcif");
+                strcpy(write_mode, par->write_par);
+            }
+            else
+            {
+                strcpy(par->write_par, optarg);
+                strcpy(write_mode, par->write_par);
+            }
 
             break;
 
@@ -324,15 +332,16 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             break;
         }
     }
-    if (strstr(par->pdb_path, ".cif") && par->write_par == 'd')
+    if (strstr(par->pdb_path, ".cif") && par->write_par[0] == 'd')
     {
-        par->write_par = 'm';
-        write_mode = par->write_par;
+        strcpy(par->write_par, "m");
+        strcpy(write_mode, par->write_par);
+        printf("%c", write_mode[0]);
     }
-    else if (strstr(par->pdb_path, ".pdb") && par->write_par == 'd')
+    else if (strstr(par->pdb_path, ".pdb") && par->write_par[0] == 'd')
     {
-        par->write_par = 'p';
-        write_mode = par->write_par;
+        strcpy(par->write_par, "p");
+        strcpy(write_mode, par->write_par);
     }
     return (par);
     /*        if(status){
@@ -932,7 +941,7 @@ void print_pocket_usage(FILE *f)
             M_PAR_KEEP_CHAINS, M_PAR_KEEP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
     fprintf(f, "\t-%c --%s (char)\t\t\t: Writing mode to be used after pocket detection,      \n\
 \t\t\t\t\t\t  d -> default (same format outpout as input)\n\
-\t\t\t\t\t\t  b -> both pdb and mmcif | p ->pdb | m -> mmcif\n",
+\t\t\t\t\t\t  b or both -> both pdb and mmcif | p or pdb ->pdb | m or cif or mmcif-> mmcif\n",
             M_PAR_WRITE_MODE, M_PAR_WRITE_MODE_LONG);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
 }

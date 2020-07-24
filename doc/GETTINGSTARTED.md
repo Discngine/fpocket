@@ -463,7 +463,7 @@ The simplest way to run fpocket is either by providing a single pdb file, or by 
     
     -a char : (Default is none): With this flag you can select a chain you want to be considered as a ligand. Works the same way as the "-r" flag but with a whole chain. Only a single chain can be chosen, for example '-a D'.
     
-    -w char : (Default is d) : With this flag you are able to choose what kind of writing file output you want, d -> default (same format outpout as input)| b -> both pdb and mmcif | p -> pdb | m -> mmcif
+    -w char : (Default is 'd') : With this flag you are able to choose what kind of writing file output you want, 'd' -> default (same format outpout as input)| 'b' or "both"-> both pdb and mmcif | 'p' or "pdb"-> pdb | 'm' or "cif" or "mmcif" -> mmcif, for example "-w cif" or "-w p"
 
 
 ###  Output files description

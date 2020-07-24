@@ -52,7 +52,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	void
   
 */
-extern char write_mode;
+extern char write_mode[10];
 void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
 {
    char pdb_code[350] = "";
@@ -95,14 +95,14 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
       write_visualization(out_path, fout);
       
       /* Writing full pdb */
-      if(write_mode == 'p' || write_mode == 'b'){
+      if(write_mode[0] == 'p' || write_mode[0] == 'b'){
       sprintf(pdb_out_path, "%s_out.pdb", out_path);
 
       write_pockets_single_pdb(pdb_out_path, pdb, pockets);
       }
 
       /*Writing full mmcif*/
-      if(write_mode == 'm' || write_mode == 'b'){
+      if(write_mode[0] == 'm' || write_mode[0] == 'b'){
       sprintf(mmcif_out_path, "%s_out.cif", out_path);
       write_pockets_single_mmcif(mmcif_out_path, pdb, pockets);
       }

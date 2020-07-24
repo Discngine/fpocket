@@ -207,7 +207,7 @@ typedef struct s_fparams
 	char chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
 	char chain_as_ligand[M_MAX_CHAINS_DELETE];
 	int chain_is_kept;/* To choose if we keep the chains or not*/
-	char write_par; /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
+	char write_par[10]; /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
 
 } s_fparams ;
 

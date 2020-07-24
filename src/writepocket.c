@@ -34,7 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /*header for the mmcif writing*/
 
-extern char write_mode;
+extern char write_mode[10];
 static const char atomSiteHeader[] =
     "loop_\n"
     "_atom_site.group_PDB\n"
@@ -483,12 +483,12 @@ void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
 
             write_pocket_pqr(out, pcur->pocket);
             
-            if(write_mode == 'p' || write_mode == 'b'){
+            if(write_mode[0] == 'p' || write_mode[0] == 'b'){
             sprintf(out, "%s/pocket%d_atm.pdb", out_path, i);
             write_pocket_pdb(out, pcur->pocket);
             }
 
-            if(write_mode == 'm' || write_mode == 'b'){
+            if(write_mode[0] == 'm' || write_mode[0] == 'b'){
             sprintf(out, "%s/pocket%d_atm.cif", out_path, i);
             write_pocket_mmcif(out, pcur->pocket);
             }
