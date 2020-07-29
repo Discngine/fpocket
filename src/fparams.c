@@ -161,15 +161,17 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 printf("Writing mode invalid, set to default\n");
                 break;
             }
-            if (strcmp(optarg, "cif"))
+            if (!strcmp(optarg, "cif"))
             {
                 strcpy(par->write_par, "mmcif");
                 strcpy(write_mode, par->write_par);
+                
             }
             else
             {
                 strcpy(par->write_par, optarg);
                 strcpy(write_mode, par->write_par);
+                
             }
 
             break;
@@ -178,7 +180,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             /*select the chains as ligand*/
             status++;
             strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
-            const char *separatorss = ",:";       /* defining separators*/
+            const char *separatorss = ",";       /* defining separators*/
             pt = strtok(par->chain_as_ligand, separatorss);
             int nn = 0;
             while (pt != NULL)
@@ -201,11 +203,13 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             int n = 0;
             while (pt != NULL)
             {
-                strncpy(&(par->chain_delete[n]), pt, 1);
+                strncpy(&(par->chain_delete[n]), pt,1);
+                
                 n++;
                 pt = strtok(NULL, separators);
             }
             par->chain_is_kept = 0;
+            
             //printf("%s\n",par->chain_delete);
             status++;
             break;
@@ -336,7 +340,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     {
         strcpy(par->write_par, "m");
         strcpy(write_mode, par->write_par);
-        printf("%c", write_mode[0]);
+        //printf("%c", write_mode[0]);
     }
     else if (strstr(par->pdb_path, ".pdb") && par->write_par[0] == 'd')
     {

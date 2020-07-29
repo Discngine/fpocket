@@ -841,7 +841,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
         if (model_flag == 0 || model_read == 1)
         {
 
-            if (!strncmp(buf, "ATOM ", 5) && buf[21] != par->chain_as_ligand[0])
+            if (!strncmp(buf, "ATOM ", 5) && !is_ligand(par->chain_as_ligand,buf[21]))
             {
 
                 //printf("%s",par->chain_delete ); // deleting the chains we want to delete from pdb file
@@ -893,7 +893,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                             fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
                         }
 
-                        if (buf[21] == par->chain_as_ligand[0])
+                        if (is_ligand(par->chain_as_ligand,buf[21]))
                         {
                             pdb->n_xlig_atoms++;
                             //fprintf(stdout, "%d\t", pdb->n_xlig_atoms);
@@ -901,7 +901,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                     }
                 }
             }
-            else if (!strncmp(buf, "HETATM", 6) || (!strncmp(buf, "ATOM ", 5) && buf[21] == par->chain_as_ligand[0]))
+            else if (!strncmp(buf, "HETATM", 6) || (!strncmp(buf, "ATOM ", 5) && is_ligand(par->chain_as_ligand,buf[21])))
             {
                 if (chains_to_delete(par->chain_delete, buf[21], par->chain_is_kept))
                 {
@@ -932,13 +932,13 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         else
                         {
                             /* Keep specific HETATM given in the static list ST_keep_hetatm */
-                            if ((keep_lig && !ligan && strncmp(resb, "HOH", 3) && strncmp(resb, "WAT", 3) && strncmp(resb, "TIP", 3)) || (keep_lig && buf[21] == par->chain_as_ligand[0]))
+                            if ((keep_lig && !ligan && strncmp(resb, "HOH", 3) && strncmp(resb, "WAT", 3) && strncmp(resb, "TIP", 3)) || (keep_lig && is_ligand(par->chain_as_ligand,buf[21])))
                             {
                                 //printf("%s|%c ",resb,buf[21]);
                                 natoms++;
                                 nhetatm++;
                             }
-                            else if (buf[21] != par->chain_as_ligand[0])
+                            else if (!is_ligand(par->chain_as_ligand,buf[21]))
                             {
                                 for (i = 0; i < ST_nb_keep_hetatm; i++)
                                 {
@@ -962,7 +962,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                             pdb->n_xlig_atoms++;
                         }
                     }
-                    if (buf[21] == par->chain_as_ligand[0])
+                    if (is_ligand(par->chain_as_ligand,buf[21]))
                     {
                         pdb->n_xlig_atoms++;
                         //fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
@@ -1095,7 +1095,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
         if (model_flag == 0 || model_read == 1)
         {
 
-            if (strncmp(pdb_line, "ATOM ", 5) == 0 && pdb_line[21] != params->chain_as_ligand[0])
+            if (strncmp(pdb_line, "ATOM ", 5) == 0 && !is_ligand(params->chain_as_ligand,pdb_line[21]))
             {
 
                 if (chains_to_delete(params->chain_delete, pdb_line[21], params->chain_is_kept)) // deleting the chains we want to delete from pdb file
@@ -1127,7 +1127,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                     }
 
                     /* Enter this if when arg in command line is -a */
-                    if (pdb_line[21] == params->chain_as_ligand[0])
+                    if (is_ligand(params->chain_as_ligand,pdb_line[21]))
                     {
                         rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
                         i_explicit_ligand_atom++;
@@ -1217,7 +1217,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                     }
                 }
             }
-            else if (strncmp(pdb_line, "HETATM", 6) == 0 || (strncmp(pdb_line, "ATOM ", 5) == 0 && pdb_line[21] == params->chain_as_ligand[0]))
+            else if (strncmp(pdb_line, "HETATM", 6) == 0 || (strncmp(pdb_line, "ATOM ", 5) == 0 && is_ligand(params->chain_as_ligand,pdb_line[21])))
             {
                 if (chains_to_delete(params->chain_delete, pdb_line[21], params->chain_is_kept)) // deleting the chains we want to delete from pdb file
                 {
@@ -1243,7 +1243,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             i_explicit_ligand_atom++;
                         }
                     }
-                    if (pdb_line[21] == params->chain_as_ligand[0])
+                    if (is_ligand(params->chain_as_ligand,pdb_line[21]))
                     {
 
                         rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
@@ -1307,7 +1307,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         {
 
                             /* Keep specific HETATM given in the static list ST_keep_hetatm. */
-                            if ((keep_lig && !ligan && strncmp(resb, "HOH", 3) && strncmp(resb, "WAT", 3) && strncmp(resb, "TIP", 3)) || (keep_lig && pdb_line[21] == params->chain_as_ligand[0]))
+                            if ((keep_lig && !ligan && strncmp(resb, "HOH", 3) && strncmp(resb, "WAT", 3) && strncmp(resb, "TIP", 3)) || (keep_lig && is_ligand(params->chain_as_ligand,pdb_line[21])))
                             {
 
                                 atom = atoms + iatoms;
@@ -1329,7 +1329,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                 ihetatm++;
                                 iatoms++;
                             }
-                            else if (pdb_line[21] != params->chain_as_ligand[0])
+                            else if (!is_ligand(params->chain_as_ligand,pdb_line[21]))
                             {
 
                                 for (i = 0; i < ST_nb_keep_hetatm; i++)
@@ -1537,4 +1537,18 @@ int chains_to_delete(char *chains_selected, char current_line_chain, int is_chai
         //printf("\n");
         return is_deleted;
     }
+}
+
+int is_ligand(char *chains_selected, char current_line_chain){
+    int is_a_ligand = 0;
+    int i;
+    for (i = 0; i < M_MAX_CHAINS_DELETE; i++)
+        {
+            if (chains_selected[i] == current_line_chain)
+            {
+                //printf("%c_%c ", chains_selected[i],current_line_chain);
+                is_a_ligand = 1;
+            }
+        }
+    return is_a_ligand;
 }

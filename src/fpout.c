@@ -95,6 +95,7 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
       write_visualization(out_path, fout);
       
       /* Writing full pdb */
+      //printf("%s\n",write_mode);
       if(write_mode[0] == 'p' || write_mode[0] == 'b'){
       sprintf(pdb_out_path, "%s_out.pdb", out_path);
 

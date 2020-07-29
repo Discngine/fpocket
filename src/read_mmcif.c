@@ -89,7 +89,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
         {
             if (at_in[i].altloc[0] == '.')
                 at_in[i].altloc[0] = ' ';
-            if (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] != par->chain_as_ligand[0])
+            if (!strncmp(at_in[i].atom_type, "ATOM", 4) && !is_ligand(par->chain_as_ligand,at_in[i].chain[0]))
             {
                 if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
                 {
@@ -133,7 +133,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                             //fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
                         }
 
-                        if (at_in[i].chain[0] == par->chain_as_ligand[0])
+                        if (is_ligand(par->chain_as_ligand,at_in[i].chain[0]))
                         {
                             pdb->n_xlig_atoms++;
                             //fprintf(stdout, "%d\t", pdb->n_xlig_atoms);
@@ -141,7 +141,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                     }
                 }
             }
-            else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] == par->chain_as_ligand[0]))
+            else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && is_ligand(par->chain_as_ligand,at_in[i].chain[0])))
             {
 
                 if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
@@ -163,14 +163,14 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                         else
                         {
                             /* Keep specific HETATM given in the static list ST_keep_hetatm */
-                            if ((keep_lig && !ligan && strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3)) || (keep_lig && at_in[i].chain[0] == par->chain_as_ligand[0]))
+                            if ((keep_lig && !ligan && strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3)) || (keep_lig && is_ligand(par->chain_as_ligand,at_in[i].chain[0])))
                             {
                                 //printf("N hetatm : %d\n", nhetatm);
                                 //printf("%s|%c ",resb,buf[21]);
                                 natoms++;
                                 nhetatm++;
                             }
-                            else if (at_in[i].chain[0] != par->chain_as_ligand[0])
+                            else if (!is_ligand(par->chain_as_ligand,at_in[i].chain[0]))
                             {
                                 for (j = 0; j < ST_nb_keep_hetatm; j++)
                                 {
@@ -191,7 +191,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                             pdb->n_xlig_atoms++;
                         }
                     }
-                    if (at_in[i].chain[0] == par->chain_as_ligand[0])
+                    if (is_ligand(par->chain_as_ligand,at_in[i].chain[0]))
                     {
                         pdb->n_xlig_atoms++;
                         //fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
@@ -299,7 +299,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
         if (model_flag == 0 || model_read == 1)
         {
             //printf("%c \n",at_in[i].altloc[0]);
-            if (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] != params->chain_as_ligand[0])
+            if (!strncmp(at_in[i].atom_type, "ATOM", 4) && !is_ligand(params->chain_as_ligand,at_in[i].chain[0]))
             {
                 //printf("TYPE : %s ` %d \n",at_in[i].name,i );
                 //printf("%c \n",at_in[i].altloc[0]); /* column 16 check for configuration of the residue e.g A,B */
@@ -320,7 +320,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                     }
 
                     /* Enter this if when arg in command line is -a */
-                    if (at_in[i].chain[0] == params->chain_as_ligand[0])
+                    if (is_ligand(params->chain_as_ligand,at_in[i].chain[0]))
                     {
                         *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
                         *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
@@ -455,7 +455,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                     }
                 }
             }
-            else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && at_in[i].chain[0] == params->chain_as_ligand[0]))
+            else if (!strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && is_ligand(params->chain_as_ligand,at_in[i].chain[0])))
             {
 
                 if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
@@ -475,7 +475,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             i_explicit_ligand_atom++;
                         }
                     }
-                    if (at_in[i].chain[0] == params->chain_as_ligand[0])
+                    if (is_ligand(params->chain_as_ligand,at_in[i].chain[0]))
                     {
                         *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
                         *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
@@ -563,7 +563,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         {
 
                             /* Keep specific HETATM given in the static list ST_keep_hetatm. */
-                            if ((keep_lig && !ligan && strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3)) || (keep_lig && at_in[i].chain[0] == params->chain_as_ligand[0]))
+                            if ((keep_lig && !ligan && strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3)) || (keep_lig && is_ligand(params->chain_as_ligand,at_in[i].chain[0])))
                             {
 
                                 atom = atoms + iatoms;
@@ -594,7 +594,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                 ihetatm++;
                                 iatoms++;
                             }
-                            else if (at_in[i].chain[0] != params->chain_as_ligand[0])
+                            else if (!is_ligand(params->chain_as_ligand,at_in[i].chain[0]))
                             {
 
                                 for (j = 0; j < ST_nb_keep_hetatm; j++)
