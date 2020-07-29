@@ -72,3 +72,8 @@ def test_pdb_list_mmcif_both():
     mmcif_list = ['6X3P']
     for cif_code in mmcif_list:
         fpocket_out_test_default_equal(cif_code, params="-w both")
+
+def test_mmcif_ligand():
+    mmcif_list = ['1QNH']
+    for cif_code in mmcif_list:
+        fpocket_out_test_default_equal(cif_code, params="-a C,D")
