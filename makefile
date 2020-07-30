@@ -22,7 +22,8 @@ TPOCKET	    = tpocket
 DPOCKET	    = dpocket
 MDPOCKET    = mdpocket
 CHECK	    = pcheck
-PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
+PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET)
+PROGALL		= $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
 PROGMDPOCKET    = $(PATH_BIN)$(MDPOCKET)
 
 ifeq ($(CXX),g++)
@@ -40,7 +41,10 @@ endif
 CGSL        = -DMD_NOT_USE_GSL -I$(PATH_GSL)include
 COS         = -DM_OS_LINUX
 CDEBUG      = -DMNO_MEM_DEBUG
-CWARN       = -Wall -Wextra -Wwrite-strings -Wstrict-prototypes
+CWARN       = -W
+
+
+-Wextra -Wwrite-strings -Wstrict-prototypes
 
 CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
 QCFLAGS     = -O -g -pg -ansi
@@ -149,9 +153,7 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 #-----------------------------------------------------------
 
 all: 
-	make qhull
-	make fpocket
-	make mdpocket
+	qhull $(PROGALL)
 fpocket: qhull 	$(PROGFPOCKET) # $(PATH_BIN)$(CHECK)
 mdpocket: qhull $(PROGMDPOCKET)
 
