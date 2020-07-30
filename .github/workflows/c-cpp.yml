@@ -22,6 +22,6 @@ jobs:
     - name : init
       run : conda init
     - name: activate conda environment
-      run : conda activate fpocket_test
+      run : source activate fpocket_test
     - name: Run pytest
       run: pytest
