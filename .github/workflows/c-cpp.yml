@@ -19,6 +19,8 @@ jobs:
       run: conda env update -f ./tests/environment.yml
     - name : miniconda setup      
       run : source /usr/share/miniconda/etc/profile.d/conda.sh
+    - name : init
+      run : conda init
     - name: activate conda environment
       run : conda activate fpocket_test 
     - name: Run pytest
