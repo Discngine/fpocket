@@ -41,10 +41,7 @@ endif
 CGSL        = -DMD_NOT_USE_GSL -I$(PATH_GSL)include
 COS         = -DM_OS_LINUX
 CDEBUG      = -DMNO_MEM_DEBUG
-CWARN       = -W
-
-
--Wextra -Wwrite-strings -Wstrict-prototypes
+CWARN       = -W -Wextra -Wwrite-strings -Wstrict-prototypes
 
 CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
 QCFLAGS     = -O -g -pg -ansi
@@ -152,8 +149,7 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 # RULES FOR EXECUTABLES
 #-----------------------------------------------------------
 
-all: 
-	qhull $(PROGALL)
+all: qhull $(PROGALL)
 fpocket: qhull 	$(PROGFPOCKET) # $(PATH_BIN)$(CHECK)
 mdpocket: qhull $(PROGMDPOCKET)
 
