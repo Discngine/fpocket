@@ -20,6 +20,6 @@ jobs:
     - name : miniconda setup      
       run : source /usr/share/miniconda/etc/profile.d/conda.sh
     - name: activate conda environment
-      run : source activate fpocket_test
+      run : activate fpocket_test
     - name: Run pytest
       run: pytest
