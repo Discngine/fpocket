@@ -16,10 +16,10 @@ jobs:
     - name: make
       run: make fpocket
     - name: create conda environment
-      uses: matthewrmshin/conda-action@v1.1
-      with: 
-        args: conda env update -f ./tests/environment.yml     
+      run: conda env update -f ./tests/environment.yml   
+    - name: eval 
+      run: eval "$(conda shell.bash hook)"
+    - name : activate
+      run : conda activate fpocket_test
     - name: run pytest
-      uses: matthewrmshin/conda-action@v1.1
-      with: 
-        args: pytest
+      run: pytest
