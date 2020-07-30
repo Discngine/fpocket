@@ -154,6 +154,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         case 0:
             break;
 
+
         case M_PAR_WRITE_MODE: /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
             status++;
             if (optarg[0] != 'd' && optarg[0] != 'b' && optarg[0] != 'p' && optarg[0] != 'm' && strcmp(optarg, "both") && strcmp(optarg, "pdb") && strcmp(optarg, "cif") && strcmp(optarg, "mmcif"))
@@ -171,10 +172,14 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             {
                 strcpy(par->write_par, optarg);
                 strcpy(write_mode, par->write_par);
-                
-            }
+               }
 
             break;
+ 
+               
+                
+
+           
 
         case M_PAR_CHAIN_AS_LIGAND: /*option with -a "name of the chain" to be specified as a ligand*/
             /*select the chains as ligand*/
@@ -191,8 +196,11 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             }
             par->xlig_resnumber = 0;
             //printf("lig %s\n",par->chain_as_ligand);
+      break;
+           
 
-            break;
+
+           
 
         case M_PAR_DROP_CHAINS:                /*option with -c "name of the chains"*/
                                                /*drop the selected chains from the pdb file*/
