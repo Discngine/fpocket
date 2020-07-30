@@ -16,6 +16,10 @@ jobs:
     - name: make
       run: make fpocket
     - name: create conda environment
-      run: conda env update -f ./tests/environment.yml     
-    - name: activate conda environment
-      run : pytest
+      uses: fpocket/conda-action@v1
+      with: 
+        args: conda env update -f ./tests/environment.yml     
+    - name: run pytest
+      uses: fpocket/conda-action@v1
+      with: 
+        args: pytest
