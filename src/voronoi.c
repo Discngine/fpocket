@@ -1513,80 +1513,64 @@ void DEPR_write_pdb_vert(FILE *f, s_vvertice *v)
  */
 void write_pdb_vert(FILE *f, s_vvertice *v, int i)
 {
-    /* getting the file name*/
-    int fd;
-    char fd_path[255];
-    char *filename = malloc(255);
-    ssize_t n;
 
-    fd = fileno(f);
-    sprintf(fd_path, "/proc/self/fd/%d", fd);
-    n = readlink(fd_path, filename, 255);
-    if (n < 0)
-        filename = NULL;
-    filename[n] = '\0';
-    //fprintf(stdout,"%s\n",filename);
-
-    if (strstr(filename, ".pdb"))
+    if (v->electrostatic_energy <= -0.05)
     {
-        if (v->electrostatic_energy <= -0.05)
-        {
-            write_pdb_atom_line(f, "HETATM", i, " POL",
-                                ' ', "ACC", "O", v->resid, ' ',
-                                v->x, v->y, v->z, 0.0, 0.0, 0,
-                                "Ve", -1, 0.0);
-            /*write_mmcif_atom_line(f, "HETATM", i, " POL",
+        write_pdb_atom_line(f, "HETATM", i, " POL",
+                            ' ', "ACC", "O", v->resid, ' ',
+                            v->x, v->y, v->z, 0.0, 0.0, 0,
+                            "Ve", -1, 0.0);
+        /*write_mmcif_atom_line(f, "HETATM", i, " POL",
                             ' ', "ACC", "O", v->resid, ' ',
                             v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);*/
-        }
-        else if (v->electrostatic_energy >= 0.05)
-        {
-            write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
-                                v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                                "Ve", -1, 0.0);
-            /*write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
+    }
+    else if (v->electrostatic_energy >= 0.05)
+    {
+        write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
+                            v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                            "Ve", -1, 0.0);
+        /*write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
                             v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);*/
-        }
-        else
-        {
-            write_pdb_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
-                                v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                                "Ve", -1, 0.0);
-            /* write_mmcif_atom_line(f, "HETATM", i, " POL",
+    }
+    else
+    {
+        write_pdb_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
+                            v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                            "Ve", -1, 0.0);
+        /* write_mmcif_atom_line(f, "HETATM", i, " POL",
                             ' ', "ACC", "O", v->resid, ' ',
                             v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);*/
-        }
-    }
-    else if (strstr(filename, ".cif"))
-    {
-        if (v->electrostatic_energy <= -0.05)
-        {
-
-            write_mmcif_atom_line(f, "HETATM", i, " POL",
-                                  ' ', "ACC", "O", v->resid, ' ',
-                                  v->x, v->y, v->z, 0.0, 0.0, 0,
-                                  "V", -1, 0.0);
-        }
-        else if (v->electrostatic_energy >= 0.05)
-        {
-
-            write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
-                                  v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                                  "V", -1, 0.0);
-        }
-        else
-        {
-
-            write_mmcif_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
-                                  v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                                  "V", -1, 0.0);
-        }
     }
 }
 
+void write_mmcif_vert(FILE *f, s_vvertice *v, int i)
+{
+    if (v->electrostatic_energy <= -0.05)
+    {
+
+        write_mmcif_atom_line(f, "HETATM", i, " POL",
+                              ' ', "ACC", "O", v->resid, ' ',
+                              v->x, v->y, v->z, 0.0, 0.0, 0,
+                              "V", -1, 0.0);
+    }
+    else if (v->electrostatic_energy >= 0.05)
+    {
+
+        write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
+                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                              "V", -1, 0.0);
+    }
+    else
+    {
+
+        write_mmcif_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
+                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                              "V", -1, 0.0);
+    }
+}
 /**
    ## FUNCTION:
     write_pqr_vertice

@@ -243,8 +243,11 @@ void write_pockets_single_pdb(const char out[], s_pdb *pdb, c_lst_pockets *pocke
                 i=0;
                 while (pockets->current->pocket->v_lst->current) {
                     i++;
+                    
+                    if(strstr(out,".pdb"))
                     write_pdb_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
-
+                    else if(strstr(out,".cif"))
+                    write_mmcif_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
                     nextVertice = pockets->current->pocket->v_lst->current->next;
                     pockets->current->pocket->v_lst->current = nextVertice;
                 }
@@ -287,8 +290,12 @@ void write_pockets_single_mmcif(const char out[], s_pdb *pdb, c_lst_pockets *poc
                 i=0;
                 while (pockets->current->pocket->v_lst->current) {
                     i++;
-                    write_pdb_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
 
+                    if(strstr(out,".pdb"))
+                    write_pdb_vert(f, pockets->current->pocket->v_lst->current->vertice,i);
+                    else if(strstr(out,".cif"))
+                    write_mmcif_vert(f, pockets->current->pocket->v_lst->current->vertice,i);    
+                    
                     nextVertice = pockets->current->pocket->v_lst->current->next;
                     pockets->current->pocket->v_lst->current = nextVertice;
                 }
@@ -663,7 +670,7 @@ void write_pocket_mmcif(const char out[], s_pocket *pocket) {
     remove_path(tmp);
     if (f && pocket) {
         fprintf(f, "data_%s\n# \n",tmp);
-        fprintf(f, "loop_\n",tmp);
+        fprintf(f, "loop_\n");
         fprintf(f, "_struct.pdbx_descriptor\n");
         fprintf(f, "This is a mmcif format file writen by the programm fpocket.                 \n");
         fprintf(f, "It represents the atoms contacted by the voronoi vertices of the pocket.  \n");
