@@ -17,10 +17,9 @@ jobs:
       run: make fpocket
     - name: create conda environment
       run: conda env update -f ./tests/environment.yml
-    - name : info      
-      run : conda info | grep -i 'base environment'
+    - name : miniconda setup      
+      run : /usr/share/miniconda/etc/profile.d/conda.sh
     - name: activate conda environment
       run : conda activate fpocket_test 
-    
     - name: Run pytest
       run: pytest
