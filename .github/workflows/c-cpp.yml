@@ -27,4 +27,4 @@ jobs:
             conda activate fpocket_test
     - name: run pytest
       run: |
-           pytest
+           fpocket/pytest
