@@ -27,5 +27,5 @@ jobs:
             conda activate fpocket_test
     - name: run pytest
       run: |
-           PATH="/usr/share/miniconda/bin/fpocket"
+           export PATH="/usr/share/miniconda/bin/:$PATH"
            pytest
