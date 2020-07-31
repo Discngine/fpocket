@@ -23,6 +23,5 @@ jobs:
       run: conda env update -f ./tests/environment.yml   
     - name : activate
       run : |
-            eval "$(conda shell.bash hook)"
             conda activate fpocket_test
             pytest
