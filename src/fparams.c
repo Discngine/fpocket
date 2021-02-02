@@ -898,7 +898,7 @@ void print_pocket_usage(FILE *f)
     /*fprintf(f, M_FP_USAGE) ;*/
 
     fprintf(f, "\n\
-:||: \033[1mfpocket 3.0\033[0m :||:\n\
+:||: \033[1mfpocket 4.0\033[0m :||:\n\
         \n");
     fprintf(f, "\033[1mMandatory parameters\033[0m : \n\
 \tfpocket -%c --%s pdb or cif file                                      \n\
@@ -951,6 +951,8 @@ void print_pocket_usage(FILE *f)
     fprintf(f, "\t-%c --%s (char)\t\t\t: Name of the chains to be kept before pocket detection,      \n\
 \t\t\t\t\t\t  able to keep up to (%d) chains (ie : -k A,B,C,E)\n",
             M_PAR_KEEP_CHAINS, M_PAR_KEEP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
+    fprintf(f, "\t-%c --%s (char)\t\t: consider this chain as a ligand explicitly (i.e. -%c D)\n",
+            M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG,M_PAR_CHAIN_AS_LIGAND);
     fprintf(f, "\t-%c --%s (char)\t\t\t: Writing mode to be used after pocket detection,      \n\
 \t\t\t\t\t\t  d -> default (same format outpout as input)\n\
 \t\t\t\t\t\t  b or both -> both pdb and mmcif | p or pdb ->pdb | m or cif or mmcif-> mmcif\n",

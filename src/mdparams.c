@@ -441,7 +441,7 @@ void print_mdpocket_usage(FILE *f) {
     //	fprintf(f, M_MDP_USAGE) ;
 
     fprintf(f, "\n\
-:||: \033[1mmdpocket (fpocket 3.0)\033[0m :||:\n\
+:||: \033[1mmdpocket (fpocket 4.0)\033[0m :||:\n\
         \n");
     fprintf(f, "\033[1m1: Pocket Exploration: Mandatory parameters\033[0m : \n\
 \t mdpocket --%s trajectory file \n\
