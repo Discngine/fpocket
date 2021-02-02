@@ -18,6 +18,8 @@ The documentation below here is just a quick & rough overview.
 
 ## What's new compared to fpocket 2.0 (old sourceforge repo)
 __fpocket__: 
+- fpocket now supports mmCIF as input and output format together with the classical PDB format
+- support was added to define / delete and handle protein chains or sets of them to enable characterization of protein protein binding epitopes
 - is now able to consider explicit pockets when you want to calculate properties for a known binding site
 - cli changed a bit
 - pocket flexibility using temperature factors is better considered (less very flexible pockets on very solvent exposed areas)
