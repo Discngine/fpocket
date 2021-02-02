@@ -901,7 +901,7 @@ void print_pocket_usage(FILE *f)
 :||: \033[1mfpocket 3.0\033[0m :||:\n\
         \n");
     fprintf(f, "\033[1mMandatory parameters\033[0m : \n\
-\tfpocket -%c --%s pdbFile                                       \n\
+\tfpocket -%c --%s pdb or cif file                                      \n\
 \t[ fpocket -%c --%s fileList ]                                  \n",
             M_PAR_PDB_FILE, M_PAR_LONG_PDB_FILE, M_PAR_PDB_LIST, M_PAR_LONG_PDB_LIST);
 
