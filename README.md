@@ -179,7 +179,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Peter Schmidtke** - *Initial work* - [pschmidtke](https://github.com/pschmidtke)
 * **Vincent Le Guilloux** - *Initial work* - [leguilv](https://github.com/leguilv)
-* **Mael Shorkar** - *Chain handling* - [leguilv](https://github.com/shorkarmael)
+* **Mael Shorkar** - *Chain handling, MMCIF support* - [shorkarmael](https://github.com/shorkarmael)
 
 
 ## License
