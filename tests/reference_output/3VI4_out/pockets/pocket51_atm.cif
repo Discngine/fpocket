@@ -1,0 +1,70 @@
+data_pocket51_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    51:
+0  - Pocket Score                      : -0.0100
+1  - Drug Score                        : 0.0435
+2  - Number of alpha spheres           :    40
+3  - Mean alpha-sphere radius          : 3.9606
+4  - Mean alpha-sphere Solvent Acc.    : 0.4503
+5  - Mean B-factor of pocket residues  : 0.4037
+6  - Hydrophobicity Score              : 40.6667
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 358.9728
+10  -Pocket volume (convex hull)       : 34.5275
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 20.0000
+13 - Number of apolar alpha sphere     :    21
+14 - Proportion of apolar alpha sphere : 0.5250
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    14421    C  CG1 .  VAL   D .  274 ?  -42.819 -48.860 -57.209  0.00  0   D
+ATOM    11040    C   CZ .  PHE   C .  414 ?  -44.321 -44.740 -57.229  0.00  0   C
+ATOM    11039    C  CE2 .  PHE   C .  414 ?  -44.763 -44.378 -58.494  0.00  0   C
+ATOM    14430    C  CD2 .  LEU   D .  275 ?  -48.934 -47.312 -55.960  0.00  0   D
+ATOM    14427    C   CB .  LEU   D .  275 ?  -46.899 -47.696 -54.633  0.00  0   D
+ATOM    14416    N    N .  VAL   D .  274 ?  -43.145 -50.483 -54.536 -1.09  0   D
+ATOM    14423    N    N .  LEU   D .  275 ?  -44.548 -48.228 -54.445  0.00  0   D
+ATOM    14407    O    O .  GLY   D .  272 ?  -43.207 -53.349 -56.532 -4.29  0   D
+ATOM    14573    C  CD1 .  TYR   D .  293 ?  -51.258 -52.202 -55.833  0.00  0   D
+ATOM    14570    O    O .  TYR   D .  293 ?  -47.890 -51.321 -53.323 -5.36  0   D
+ATOM    14560    O    O .  HIS   D .  292 ?  -47.705 -55.144 -53.204 -0.14  0   D
+ATOM    14575    C  CE1 .  TYR   D .  293 ?  -51.435 -51.343 -56.909  0.00  0   D
+ATOM    14577    C   CZ .  TYR   D .  293 ?  -51.488 -49.976 -56.685  0.00  0   D
+ATOM    11021    C   CD .  PRO   C .  412 ?  -48.962 -42.449 -57.657  0.00  0   C
+ATOM    11012    C   CB .  THR   C .  411 ?  -50.809 -43.866 -59.874  0.00  0   C
+ATOM     8217    C   CE .  LYS   C .   41 ?  -46.045 -53.795 -61.928  0.00  0   C
+ATOM     8046    C   CZ .  PHE   C .   18 ?  -45.214 -50.085 -61.153  0.00  0   C
+ATOM    14578    O   OH .  TYR   D .  293 ?  -51.660 -49.093 -57.724 -4.43  0   D
+ATOM     8044    C  CE1 .  PHE   C .   18 ?  -45.620 -49.650 -62.401  0.00  0   C
+ATOM     8218    N   NZ .  LYS   C .   41 ?  -45.463 -54.876 -61.086 -2.77  0   C
+ATOM    14564    C  CD2 .  HIS   D .  292 ?  -51.039 -56.147 -54.521  0.00  0   D
+ATOM    11219    O    O .  GLY   C .  439 ?  -46.781 -44.803 -64.261 -4.29  0   C
+ATOM    11013    O  OG1 .  THR   C .  411 ?  -50.235 -44.004 -61.179 -1.88  0   C
+ATOM    11014    C  CG2 .  THR   C .  411 ?  -51.981 -44.841 -59.714  0.00  0   C
+ATOM    11217    C   CA .  GLY   C .  439 ?  -45.045 -43.945 -62.866  0.00  0   C
+ATOM    11213    C  CE1 .  PHE   C .  438 ?  -42.481 -47.153 -60.634  0.00  0   C
+ATOM    11018    O    O .  PRO   C .  412 ?  -46.895 -42.235 -60.601 -1.07  0   C
+ATOM    14568    C   CA .  TYR   D .  293 ?  -49.498 -53.054 -53.091  0.00  0   D
+# 

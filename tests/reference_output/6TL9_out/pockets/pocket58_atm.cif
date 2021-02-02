@@ -1,0 +1,56 @@
+data_pocket58_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    58:
+0  - Pocket Score                      : -0.0972
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.9462
+4  - Mean alpha-sphere Solvent Acc.    : 0.5773
+5  - Mean B-factor of pocket residues  : 0.4675
+6  - Hydrophobicity Score              : 35.0000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.5714
+9  - Pocket volume (Monte Carlo)       : 273.5612
+10  -Pocket volume (convex hull)       : 5.6436
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     1
+14 - Proportion of apolar alpha sphere : 0.0625
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6887    O    O .  LEU   G .   78 ?  -45.361 -35.872 -20.035 -3.21  0   G
+ATOM     6906    N    N .  GLU   G .   80 ?  -42.671 -33.370 -17.984 -1.09  0   G
+ATOM     6895    O    O .  TRP   G .   79 ?  -44.645 -32.750 -18.873 -0.14  0   G
+ATOM     6907    C   CA .  GLU   G .   80 ?  -42.905 -32.715 -16.699  0.00  0   G
+ATOM     6888    C   CB .  LEU   G .   78 ?  -47.627 -33.948 -21.171  0.00  0   G
+ATOM     6805    O    O .  SER   G .   69 ?  -48.072 -37.670 -19.410 -2.14  0   G
+ATOM     6909    O    O .  GLU   G .   80 ?  -44.063 -30.725 -16.055 -0.54  0   G
+ATOM     6474    C  CH2 .  TRP   G .   27 ?  -43.771 -37.599 -13.851  0.00  0   G
+ATOM     6507    N  NE2 .  GLN   G .   31 ?  -43.091 -35.028 -11.571 -2.77  0   G
+ATOM     6807    O   OG .  SER   G .   69 ?  -47.104 -38.217 -16.359  0.00  0   G
+ATOM     6793    O    O .  GLY   G .   67 ?  -41.989 -36.465 -18.579 -1.07  0   G
+ATOM     6473    C  CZ3 .  TRP   G .   27 ?  -44.224 -38.123 -12.640  0.00  0   G
+ATOM     6890    C  CD1 .  LEU   G .   78 ?  -49.832 -32.804 -21.106  0.00  0   G
+ATOM     6911    C   CG .  GLU   G .   80 ?  -41.544 -34.398 -15.374  0.00  0   G
+# 

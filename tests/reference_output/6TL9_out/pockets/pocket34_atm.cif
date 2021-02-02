@@ -1,0 +1,63 @@
+data_pocket34_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    34:
+0  - Pocket Score                      : -0.0301
+1  - Drug Score                        : 0.0026
+2  - Number of alpha spheres           :    21
+3  - Mean alpha-sphere radius          : 4.0337
+4  - Mean alpha-sphere Solvent Acc.    : 0.7181
+5  - Mean B-factor of pocket residues  : 0.7335
+6  - Hydrophobicity Score              : 3.6000
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.8000
+9  - Pocket volume (Monte Carlo)       : 260.4846
+10  -Pocket volume (convex hull)       : 6.9005
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 16.0000
+13 - Number of apolar alpha sphere     :    17
+14 - Proportion of apolar alpha sphere : 0.8095
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4396    C   CB .  LYS   E .   29 ?  -66.892 -56.275 -24.647  0.00  0   E
+ATOM     4397    C   CG .  LYS   E .   29 ?  -67.691 -55.556 -25.729  0.00  0   E
+ATOM     4398    C   CD .  LYS   E .   29 ?  -66.811 -54.918 -26.778  0.00  0   E
+ATOM     4423    O  OE1 .  GLU   E .   32 ?  -70.557 -58.555 -26.147 -1.07  0   E
+ATOM     4399    C   CE .  LYS   E .   29 ?  -67.543 -54.805 -28.102  0.00  0   E
+ATOM     4356    C  CD1 .  PHE   E .   25 ?  -62.707 -56.104 -26.566  0.00  0   E
+ATOM     4358    C  CE1 .  PHE   E .   25 ?  -62.091 -56.804 -27.586  0.00  0   E
+ATOM     4395    O    O .  LYS   E .   29 ?  -67.023 -59.286 -23.410 -1.48  0   E
+ATOM     4355    C   CG .  PHE   E .   25 ?  -62.595 -56.525 -25.256  0.00  0   E
+ATOM     4359    C  CE2 .  PHE   E .   25 ?  -61.267 -58.370 -26.015  0.00  0   E
+ATOM     4430    C   CG .  LYS   E .   33 ?  -64.485 -62.282 -24.695  0.00  0   E
+ATOM     4357    C  CD2 .  PHE   E .   25 ?  -61.879 -57.674 -24.993  0.00  0   E
+ATOM     4431    C   CD .  LYS   E .   33 ?  -64.010 -63.642 -25.189  0.00  0   E
+ATOM     4432    C   CE .  LYS   E .   33 ?  -63.366 -63.533 -26.554  0.00  0   E
+ATOM     4453    O   OG .  SER   E .   36 ?  -67.147 -66.293 -25.258 -2.14  0   E
+ATOM     4426    C   CA .  LYS   E .   33 ?  -66.559 -63.079 -23.454  0.00  0   E
+ATOM     4360    C   CZ .  PHE   E .   25 ?  -61.372 -57.933 -27.303  0.00  0   E
+ATOM     4420    C   CB .  GLU   E .   32 ?  -70.137 -60.485 -24.199  0.00  0   E
+ATOM     4418    C    C .  GLU   E .   32 ?  -68.949 -62.485 -23.277  0.00  0   E
+ATOM     4425    N    N .  LYS   E .   33 ?  -67.655 -62.138 -23.206  0.00  0   E
+ATOM     4419    O    O .  GLU   E .   32 ?  -69.321 -63.621 -23.569 -3.21  0   E
+# 

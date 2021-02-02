@@ -1,0 +1,57 @@
+data_pocket110_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   110:
+0  - Pocket Score                      : -0.0805
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    18
+3  - Mean alpha-sphere radius          : 4.1877
+4  - Mean alpha-sphere Solvent Acc.    : 0.6340
+5  - Mean B-factor of pocket residues  : 0.4564
+6  - Hydrophobicity Score              : 17.4000
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 3.2000
+9  - Pocket volume (Monte Carlo)       : 302.9893
+10  -Pocket volume (convex hull)       : 4.2860
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.2778
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    17483    C  CD2 .  HIS   F .    3 ?  -44.249 -46.239   6.799  0.00  0   F
+ATOM    17638    O  OG1 .  THR   F .   25 ?  -43.236 -43.388   3.715 -2.55  0   F
+ATOM    17468    N  NE2 .  GLN   F .    1 ?  -39.478 -50.338   1.523  0.00  0   F
+ATOM    17480    C   CB .  HIS   F .    3 ?  -44.931 -46.246   4.241  0.00  0   F
+ATOM    17482    N  ND1 .  HIS   F .    3 ?  -45.659 -47.770   6.102 -0.17  0   F
+ATOM    17465    C   CG .  GLN   F .    1 ?  -41.325 -49.434   0.223  0.00  0   F
+ATOM    17472    O    O .  VAL   F .    2 ?  -46.598 -47.931   1.821 -1.62  0   F
+ATOM    17481    C   CG .  HIS   F .    3 ?  -44.931 -46.716   5.681  0.00  0   F
+ATOM    17463    O    O .  GLN   F .    1 ?  -43.550 -46.541   0.428 -3.21  0   F
+ATOM    17464    C   CB .  GLN   F .    1 ?  -41.649 -48.246  -0.663  0.00  0   F
+ATOM    17466    C   CD .  GLN   F .    1 ?  -39.829 -49.599   0.469  0.00  0   F
+ATOM    17641    C   CA .  GLY   F .   26 ?  -43.317 -43.208  -1.120  0.00  0   F
+ATOM    17637    C   CB .  THR   F .   25 ?  -42.836 -42.180   3.046  0.00  0   F
+ATOM    17640    N    N .  GLY   F .   26 ?  -43.378 -42.288   0.007  0.00  0   F
+ATOM    17467    O  OE1 .  GLN   F .    1 ?  -38.998 -49.080  -0.285 -0.14  0   F
+# 

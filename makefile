@@ -22,7 +22,8 @@ TPOCKET	    = tpocket
 DPOCKET	    = dpocket
 MDPOCKET    = mdpocket
 CHECK	    = pcheck
-PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
+PROGFPOCKET	    = $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET)
+PROGALL		= $(PATH_BIN)$(FPOCKET) $(PATH_BIN)$(TPOCKET) $(PATH_BIN)$(DPOCKET) $(PATH_BIN)$(MDPOCKET)
 PROGMDPOCKET    = $(PATH_BIN)$(MDPOCKET)
 
 ifeq ($(CXX),g++)
@@ -40,7 +41,7 @@ endif
 CGSL        = -DMD_NOT_USE_GSL -I$(PATH_GSL)include
 COS         = -DM_OS_LINUX
 CDEBUG      = -DMNO_MEM_DEBUG
-CWARN       = -Wall -Wextra -Wwrite-strings -Wstrict-prototypes
+CWARN       = -W -Wextra -Wwrite-strings -Wstrict-prototypes
 
 CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
 QCFLAGS     = -O -g -pg -ansi
@@ -82,7 +83,7 @@ CHOBJ = $(PATH_OBJ)check.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)descriptors.o $(PATH_OBJ)aa.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o  $(PATH_OBJ)fpout.o \
 		$(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o $(PATH_OBJ)voronoi_lst.o \
-		$(PATH_OBJ)neighbor.o $(PATH_OBJ)asa.o $(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o \
+		$(PATH_OBJ)neighbor.o $(PATH_OBJ)asa.o $(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o $(PATH_OBJ)read_mmcif.o \
 		
 
 FPOBJ = $(PATH_OBJ)fpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
@@ -93,7 +94,7 @@ FPOBJ = $(PATH_OBJ)fpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)descriptors.o $(PATH_OBJ)aa.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o  $(PATH_OBJ)fpout.o \
 		$(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o $(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)asa.o \
-		$(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o  \
+		$(PATH_OBJ)clusterlib.o $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o $(PATH_OBJ)read_mmcif.o \
 		$(QOBJS)
 
 TPOBJ = $(PATH_OBJ)tpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
@@ -105,7 +106,7 @@ TPOBJ = $(PATH_OBJ)tpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)aa.o $(PATH_OBJ)fpocket.o $(PATH_OBJ)write_visu.o \
 		$(PATH_OBJ)fpout.o $(PATH_OBJ)atom.o $(PATH_OBJ)writepocket.o \
 		$(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)neighbor.o $(PATH_OBJ)asa.o\
-		$(PATH_OBJ)clusterlib.o  $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o\
+		$(PATH_OBJ)clusterlib.o  $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o $(PATH_OBJ)read_mmcif.o\
 		$(PATH_QHULL)/qvoronoi/qvoronoi.o $(PATH_QHULL)/qconvex/qconvex.o
 
 DPOBJ = $(PATH_OBJ)dpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
@@ -116,7 +117,7 @@ DPOBJ = $(PATH_OBJ)dpmain.o $(PATH_OBJ)psorting.o $(PATH_OBJ)pscoring.o \
 		$(PATH_OBJ)writepdb.o $(PATH_OBJ)memhandler.o $(PATH_OBJ)pocket.o \
 		$(PATH_OBJ)refine.o $(PATH_OBJ)fparams.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)fpout.o $(PATH_OBJ)writepocket.o \
-		$(PATH_OBJ)write_visu.o $(PATH_OBJ)asa.o\
+		$(PATH_OBJ)write_visu.o $(PATH_OBJ)asa.o $(PATH_OBJ)read_mmcif.o\
 		$(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)clusterlib.o $(QOBJS) $(PATH_OBJ)energy.o \
 		$(PATH_OBJ)topology.o
 
@@ -128,7 +129,7 @@ MDPOBJ = $(PATH_OBJ)mdpmain.o $(PATH_OBJ)mdpocket.o $(PATH_OBJ)mdpbase.o $(PATH_
 		$(PATH_OBJ)writepdb.o $(PATH_OBJ)memhandler.o $(PATH_OBJ)pocket.o \
 		$(PATH_OBJ)refine.o $(PATH_OBJ)fparams.o \
 		$(PATH_OBJ)fpocket.o $(PATH_OBJ)fpout.o \
-		$(PATH_OBJ)writepocket.o $(PATH_OBJ)write_visu.o $(PATH_OBJ)asa.o \
+		$(PATH_OBJ)writepocket.o $(PATH_OBJ)write_visu.o $(PATH_OBJ)asa.o $(PATH_OBJ)read_mmcif.o\
 		$(PATH_OBJ)voronoi_lst.o $(PATH_OBJ)clusterlib.o $(QOBJS) $(PATH_OBJ)energy.o $(PATH_OBJ)topology.o
 
 #------------------------------------------------------------
@@ -148,10 +149,7 @@ $(PATH_OBJ)%.o: $(PATH_SRC)%.cpp
 # RULES FOR EXECUTABLES
 #-----------------------------------------------------------
 
-all: 
-	make qhull
-	make fpocket
-	make mdpocket
+all: qhull $(PROGALL)
 fpocket: qhull 	$(PROGFPOCKET) # $(PATH_BIN)$(CHECK)
 mdpocket: qhull $(PROGMDPOCKET)
 

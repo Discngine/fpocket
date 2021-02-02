@@ -1,0 +1,84 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0741
+HEADER 1  - Drug Score                        : 0.0437
+HEADER 2  - Number of V. Vertices             :    62
+HEADER 3  - Mean alpha-sphere radius          : 3.9042
+HEADER 4  - Mean alpha-sphere SA              : 0.5145
+HEADER 5  - Mean B-factor                     : 0.4036
+HEADER 6  - Hydrophobicity Score              : 2.0417
+HEADER 7  - Polarity Score                    :    17
+HEADER 8  - Volume Score                      : 3.9583
+HEADER 9  - Real volume (approximation)       : 732.5318
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 19.5238
+HEADER 12 - Number of apolar alpha sphere     :    21
+HEADER 13 - Proportion of apolar alpha sphere : 0.3387
+ATOM      1    C STP    15     -45.297 -40.138 -50.567    0.00     3.91
+ATOM      2    O STP    15     -49.142 -37.218 -59.314    0.00     3.64
+ATOM      3    C STP    15     -48.704 -39.626 -53.659    0.00     4.51
+ATOM      4    C STP    15     -48.251 -39.879 -53.943    0.00     4.05
+ATOM      5    C STP    15     -47.220 -40.548 -51.345    0.00     4.31
+ATOM      6    C STP    15     -45.264 -40.139 -50.568    0.00     3.90
+ATOM      7    C STP    15     -45.382 -38.125 -51.279    0.00     3.49
+ATOM      8    C STP    15     -45.251 -40.148 -50.554    0.00     3.89
+ATOM      9    O STP    15     -44.273 -40.643 -49.533    0.00     3.57
+ATOM     10    O STP    15     -48.477 -37.880 -56.693    0.00     3.43
+ATOM     11    O STP    15     -49.048 -37.287 -59.237    0.00     3.63
+ATOM     12    O STP    15     -50.446 -38.331 -56.406    0.00     4.36
+ATOM     13    O STP    15     -50.673 -38.149 -57.041    0.00     4.27
+ATOM     14    O STP    15     -48.170 -37.326 -58.848    0.00     3.41
+ATOM     15    O STP    15     -51.384 -40.036 -56.778    0.00     3.53
+ATOM     16    C STP    15     -45.836 -37.770 -51.380    0.00     3.74
+ATOM     17    C STP    15     -47.947 -41.555 -51.870    0.00     4.21
+ATOM     18    C STP    15     -48.220 -41.171 -51.979    0.00     4.64
+ATOM     19    O STP    15     -50.121 -37.257 -58.814    0.00     3.68
+ATOM     20    O STP    15     -50.827 -38.160 -56.954    0.00     4.36
+ATOM     21    O STP    15     -50.869 -38.237 -56.979    0.00     4.30
+ATOM     22    O STP    15     -51.286 -38.495 -56.539    0.00     4.51
+ATOM     23    C STP    15     -48.166 -39.113 -52.193    0.00     4.46
+ATOM     24    C STP    15     -49.076 -39.551 -53.759    0.00     4.59
+ATOM     25    C STP    15     -49.837 -39.506 -54.238    0.00     4.60
+ATOM     26    O STP    15     -49.915 -38.271 -55.907    0.00     4.20
+ATOM     27    O STP    15     -50.599 -38.394 -56.121    0.00     4.53
+ATOM     28    O STP    15     -50.664 -38.604 -55.880    0.00     4.57
+ATOM     29    C STP    15     -50.256 -43.749 -52.377    0.00     3.69
+ATOM     30    C STP    15     -50.021 -42.553 -52.335    0.00     4.25
+ATOM     31    O STP    15     -49.306 -38.833 -47.688    0.00     4.33
+ATOM     32    O STP    15     -44.748 -43.297 -47.100    0.00     3.58
+ATOM     33    C STP    15     -44.979 -40.940 -48.455    0.00     3.76
+ATOM     34    C STP    15     -45.407 -40.887 -48.448    0.00     3.85
+ATOM     35    O STP    15     -50.424 -38.093 -46.601    0.00     4.53
+ATOM     36    O STP    15     -44.657 -41.766 -46.523    0.00     3.52
+ATOM     37    O STP    15     -44.759 -43.284 -47.096    0.00     3.59
+ATOM     38    O STP    15     -44.568 -44.496 -46.292    0.00     3.43
+ATOM     39    O STP    15     -44.394 -44.196 -46.463    0.00     3.55
+ATOM     40    O STP    15     -44.695 -41.767 -46.567    0.00     3.54
+ATOM     41    O STP    15     -44.743 -43.307 -47.079    0.00     3.59
+ATOM     42    O STP    15     -44.187 -43.717 -46.334    0.00     3.53
+ATOM     43    O STP    15     -46.066 -40.967 -46.794    0.00     3.45
+ATOM     44    O STP    15     -44.125 -43.534 -46.186    0.00     3.48
+ATOM     45    O STP    15     -46.058 -40.958 -46.751    0.00     3.42
+ATOM     46    C STP    15     -46.041 -40.962 -46.730    0.00     3.41
+ATOM     47    O STP    15     -44.480 -42.064 -46.319    0.00     3.43
+ATOM     48    O STP    15     -48.615 -39.512 -48.297    0.00     4.39
+ATOM     49    O STP    15     -47.265 -40.097 -47.820    0.00     3.90
+ATOM     50    O STP    15     -46.294 -40.859 -47.247    0.00     3.65
+ATOM     51    O STP    15     -46.585 -40.552 -47.471    0.00     3.74
+ATOM     52    C STP    15     -45.690 -40.941 -48.338    0.00     3.93
+ATOM     53    O STP    15     -44.834 -43.248 -47.129    0.00     3.57
+ATOM     54    O STP    15     -45.973 -41.144 -47.150    0.00     3.63
+ATOM     55    C STP    15     -45.950 -40.733 -48.681    0.00     3.98
+ATOM     56    C STP    15     -47.460 -39.751 -49.268    0.00     4.42
+ATOM     57    O STP    15     -45.243 -41.503 -47.738    0.00     3.84
+ATOM     58    O STP    15     -44.856 -43.008 -47.168    0.00     3.59
+ATOM     59    O STP    15     -45.189 -41.697 -47.312    0.00     3.81
+ATOM     60    O STP    15     -52.807 -39.560 -45.402    0.00     3.51
+ATOM     61    O STP    15     -51.080 -39.334 -45.486    0.00     3.57
+ATOM     62    O STP    15     -50.723 -38.334 -46.186    0.00     4.30
+TER
+END

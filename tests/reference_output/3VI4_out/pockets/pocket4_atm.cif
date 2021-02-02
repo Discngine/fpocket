@@ -1,0 +1,56 @@
+data_pocket4_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     4:
+0  - Pocket Score                      : 0.1005
+1  - Drug Score                        : 0.0015
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 3.7531
+4  - Mean alpha-sphere Solvent Acc.    : 0.4583
+5  - Mean B-factor of pocket residues  : 0.6592
+6  - Hydrophobicity Score              : 19.7143
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.5714
+9  - Pocket volume (Monte Carlo)       : 173.4990
+10  -Pocket volume (convex hull)       : 1.8821
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 7.0000
+13 - Number of apolar alpha sphere     :     8
+14 - Proportion of apolar alpha sphere : 0.4706
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4322    O   OG .  SER   A .  570 ?   20.236  24.827  22.293 -1.07  0   A
+ATOM     4305    N  ND2 .  ASN   A .  568 ?   24.733  27.469  18.417 -1.09  0   A
+ATOM     3776    C   CB .  GLU   A .  504 ?   26.111  29.847  22.430  0.00  0   A
+ATOM     3779    O  OE1 .  GLU   A .  504 ?   27.730  27.450  23.048  0.00  0   A
+ATOM     4301    O    O .  ASN   A .  568 ?   22.652  30.339  20.724  0.00  0   A
+ATOM     4308    C    C .  PHE   A .  569 ?   19.412  28.014  20.605  0.00  0   A
+ATOM     3761    O    O .  THR   A .  502 ?   20.478  28.910  24.050  0.00  0   A
+ATOM     3763    O  OG1 .  THR   A .  502 ?   20.962  26.159  25.888  0.00  0   A
+ATOM     3762    C   CB .  THR   A .  502 ?   21.370  27.278  26.682  0.00  0   A
+ATOM     3990    C  CG2 .  THR   A .  530 ?   27.935  28.825  25.924  0.00  0   A
+ATOM     3760    C    C .  THR   A .  502 ?   20.882  29.253  25.162  0.00  0   A
+ATOM     3765    N    N .  VAL   A .  503 ?   21.678  30.303  25.363  0.00  0   A
+ATOM     3767    C    C .  VAL   A .  503 ?   23.589  31.385  24.231  0.00  0   A
+ATOM     3988    C   CB .  THR   A .  530 ?   27.067  29.304  27.085  0.00  0   A
+# 

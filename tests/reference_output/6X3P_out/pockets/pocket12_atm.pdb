@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0958
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0882
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6505
+HEADER 5  - Mean B-factor of pocket residues  : 0.1707
+HEADER 6  - Hydrophobicity Score              : -17.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.7274
+HEADER 10  -Pocket volume (convex hull)       : 0.9529
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1859   CD ARG A 230     -20.088  36.534 -25.181  0.00  0.00           C 0
+ATOM   1857   CB ARG A 230     -18.206  35.930 -23.697  0.00  0.00           C 0
+ATOM   1858   CG ARG A 230     -19.217  35.376 -24.689  0.00  0.00           C 0
+ATOM   1856    O ARG A 230     -15.890  34.484 -24.734  0.65  1.07           O 0
+ATOM   1862  NH1 ARG A 230     -21.069  38.399 -27.122  0.00  0.00           N 0
+ATOM   1878  CD2 HIS A 232     -13.845  34.152 -28.867  0.00  0.00           C 0
+ATOM   1874    O HIS A 232     -18.300  32.516 -30.024  0.45  9.64           O 0
+ATOM   1861   CZ ARG A 230     -21.183  37.089 -27.347  0.00  0.00           C 0
+ATOM   1872   CA HIS A 232     -16.339  32.494 -28.698  0.00  0.00           C 0
+ATOM   1863  NH2 ARG A 230     -21.703  36.671 -28.500  0.45  8.75           N 0
+ATOM   1860   NE ARG A 230     -20.724  36.207 -26.461  0.70  1.09           N 0
+ATOM   1867    O PRO A 231     -17.971  32.711 -26.510  0.00  0.00           O 0
+TER
+END

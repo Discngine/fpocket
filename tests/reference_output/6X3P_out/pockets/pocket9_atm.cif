@@ -1,0 +1,64 @@
+data_pocket9_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     9:
+0  - Pocket Score                      : -0.0327
+1  - Drug Score                        : 0.0021
+2  - Number of alpha spheres           :    26
+3  - Mean alpha-sphere radius          : 3.9837
+4  - Mean alpha-sphere Solvent Acc.    : 0.6812
+5  - Mean B-factor of pocket residues  : 0.4171
+6  - Hydrophobicity Score              : 11.0000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.7143
+9  - Pocket volume (Monte Carlo)       : 263.2454
+10  -Pocket volume (convex hull)       : 16.9759
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 14.0000
+13 - Number of apolar alpha sphere     :    15
+14 - Proportion of apolar alpha sphere : 0.5769
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2135    O  OD1 .  ASN   A .  262 ?  -33.699  31.956 -17.146 -3.62  0   A
+ATOM     2132    O    O .  ASN   A .  262 ?  -32.885  29.849 -21.497  0.00  0   A
+ATOM     2167    C  CG2 .  VAL   A .  266 ?  -31.099  31.575 -23.858  0.00  0   A
+ATOM     2133    C   CB .  ASN   A .  262 ?  -32.267  30.542 -18.392  0.00  0   A
+ATOM     2157    C   CB .  ASP   A .  265 ?  -36.013  30.993 -22.672  0.00  0   A
+ATOM     2160    O  OD2 .  ASP   A .  265 ?  -37.250  31.831 -20.827 -4.02  0   A
+ATOM     2130    C   CA .  ASN   A .  262 ?  -33.462  30.008 -19.155  0.00  0   A
+ATOM     2136    N  ND2 .  ASN   A .  262 ?  -31.643  31.578 -16.342 -1.26  0   A
+ATOM     2134    C   CG .  ASN   A .  262 ?  -32.600  31.429 -17.243  0.00  0   A
+ATOM     1943    C  CG2 .  THR   A .  240 ?  -27.880  37.097 -18.946  0.00  0   A
+ATOM     1941    C   CB .  THR   A .  240 ?  -27.008  36.544 -20.105  0.00  0   A
+ATOM     1912    O    O .  LYS   A .  237 ?  -27.492  33.733 -22.139  0.00  0   A
+ATOM     1914    C   CG .  LYS   A .  237 ?  -30.001  35.966 -25.014  0.00  0   A
+ATOM     1910    C   CA .  LYS   A .  237 ?  -27.867  35.079 -24.051  0.00  0   A
+ATOM     1942    O  OG1 .  THR   A .  240 ?  -26.561  37.642 -20.911 -5.76  0   A
+ATOM     1949    C  CG1 .  ILE   A .  241 ?  -28.858  31.646 -19.751  0.00  0   A
+ATOM     1951    C  CD1 .  ILE   A .  241 ?  -29.471  30.609 -20.756  0.00  0   A
+ATOM     1913    C   CB .  LYS   A .  237 ?  -29.192  34.721 -24.707  0.00  0   A
+ATOM     1976    C   CB .  SER   A .  244 ?  -27.081  34.355 -14.162  0.00  0   A
+ATOM     1940    O    O .  THR   A .  240 ?  -26.098  34.847 -17.384  0.00  0   A
+ATOM     1977    O   OG .  SER   A .  244 ?  -27.362  32.976 -14.364 -1.07  0   A
+ATOM     1945    C   CA .  ILE   A .  241 ?  -26.947  32.383 -18.274  0.00  0   A
+# 

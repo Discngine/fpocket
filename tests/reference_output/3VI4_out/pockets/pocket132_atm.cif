@@ -1,0 +1,54 @@
+data_pocket132_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   132:
+0  - Pocket Score                      : -0.1095
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    18
+3  - Mean alpha-sphere radius          : 3.9951
+4  - Mean alpha-sphere Solvent Acc.    : 0.5594
+5  - Mean B-factor of pocket residues  : 0.3550
+6  - Hydrophobicity Score              : 3.6250
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.6250
+9  - Pocket volume (Monte Carlo)       : 148.5687
+10  -Pocket volume (convex hull)       : 2.0004
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.1667
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      554    O   OG .  SER   A .   77 ?  -13.789 -25.410  12.540  0.00  0   A
+ATOM      709    O   OG .  SER   A .   97 ?   -6.601 -24.388  11.255 -0.14  0   A
+ATOM      695    N    N .  LYS   A .   96 ?  -11.490 -22.319   9.986  0.00  0   A
+ATOM      344    O    O .  GLY   A .   48 ?   -8.423 -26.644  14.244  0.00  0   A
+ATOM      689    C  CD1 .  TYR   A .   95 ?  -12.848 -26.252   6.529  0.00  0   A
+ATOM      665    C   CG .  PRO   A .   92 ?  -14.540 -29.223   9.860  0.00  0   A
+ATOM      708    C   CB .  SER   A .   97 ?   -6.911 -23.778  10.019  0.00  0   A
+ATOM      684    C   CA .  TYR   A .   95 ?  -12.741 -23.422   8.258  0.00  0   A
+ATOM      687    C   CB .  TYR   A .   95 ?  -12.156 -23.865   6.910  0.00  0   A
+ATOM      704    N    N .  SER   A .   97 ?   -8.820 -22.284  10.432  0.00  0   A
+ATOM      351    C  CG2 .  VAL   A .   49 ?   -9.765 -23.405  15.194  0.00  0   A
+ATOM      677    O    O .  GLU   A .   94 ?  -14.735 -24.869   9.563  0.00  0   A
+# 

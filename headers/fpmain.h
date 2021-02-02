@@ -25,12 +25,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include "fparams.h"
 #include "fpout.h"
 #include "topology.h"
+#include "read_mmcif.h"
 
 #include "memhandler.h"
+
+#include "libmolfile_plugin.h"
+#include "molfile_plugin.h"
 
 /* ------------------------------PROTOTYPES-----------------------------------*/
 
 
 void process_pdb(char *pdbname, s_fparams *params) ;
-
+s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par);
+void read_file_format(s_pdb *pdb, const char *ligan, const int keep_lig, int model_number, s_fparams *par);
 #endif

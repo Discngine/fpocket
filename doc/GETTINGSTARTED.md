@@ -37,6 +37,10 @@ Here you have a very simple and straightforward example of how to run fpocket on
 
 `fpocket -f sample/1UYD.pdb`
 
+It is also possible to run fpocket on a PDBx/mmcif file type, for example :
+
+`fpocket -f sample/2P0R.cif`
+
 It is mandatory to give a PDB input file using the -f flag in command line. If nothing is given, fpocket prints the fpocket usage/help to the screen. fpocket will use standard parameters for the detection of pockets. Fore more information about these parameters see the [advanced fpocket features](#fpocket-advanced).
 
 If fpocket works properly the output on the screen should look like this :
@@ -63,7 +67,7 @@ A script for fast visualization using PyMOL is also provided. PyMOL provides nic
 
 #### Mandatory (1 OR 2):
 
-	1: flag -f :    one standard PDB file name.
+	1: flag -f :    one standard PDB or PDBx/mmcif file name.
 	2: flag -F :    one text file containing a simple list of pdb path
 
 #### Optional:
@@ -462,6 +466,8 @@ The simplest way to run fpocket is either by providing a single pdb file, or by 
     -k char : (Default is none): Use this flag to choose which chains you want to keep before running fpocket. The selected chains can be specified with ',' or ':' delimiters, for example you can use it '-k A,B,E' or '-k A:B:E'. You can keep up to 20 different chains.
     
     -a char : (Default is none): With this flag you can select a chain you want to be considered as a ligand. Works the same way as the "-r" flag but with a whole chain. Only a single chain can be chosen, for example '-a D'.
+    
+    -w char : (Default is 'd') : With this flag you are able to choose what kind of writing file output you want, 'd' -> default (same format outpout as input)| 'b' or "both"-> both pdb and mmcif | 'p' or "pdb"-> pdb | 'm' or "cif" or "mmcif" -> mmcif, for example "-w cif" or "-w p"
 
 
 ###  Output files description

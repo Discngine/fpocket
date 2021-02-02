@@ -152,6 +152,11 @@ You can run fpocket using the following command line as an example:
 fpocket -f 1uyd.pdb
 ```
 
+fpocket now also eats cif as input, so this would work as well. Make sure to use proper file extensions
+```bash
+fpocket -f 1uyd.cif
+```
+
 This will detect all pockets on the input pdb file, named 1uyd.pdb
 If you want to get all command line args for fpocket, simply type `fpocket``
 

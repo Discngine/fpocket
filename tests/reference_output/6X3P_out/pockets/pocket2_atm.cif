@@ -1,0 +1,68 @@
+data_pocket2_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     2:
+0  - Pocket Score                      : 0.1999
+1  - Drug Score                        : 0.2296
+2  - Number of alpha spheres           :    41
+3  - Mean alpha-sphere radius          : 4.0368
+4  - Mean alpha-sphere Solvent Acc.    : 0.4915
+5  - Mean B-factor of pocket residues  : 0.1835
+6  - Hydrophobicity Score              : 63.1429
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 5.5714
+9  - Pocket volume (Monte Carlo)       : 360.0045
+10  -Pocket volume (convex hull)       : 18.9920
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 37.0000
+13 - Number of apolar alpha sphere     :    38
+14 - Proportion of apolar alpha sphere : 0.9268
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      258    C  CD1 .  TYR   A .   37 ?  -29.456  -6.136 -18.888  0.00  0   A
+ATOM      550    C  CE2 .  TYR   A .   73 ?  -25.989  -0.571 -15.477  0.00  0   A
+ATOM      552    O   OH .  TYR   A .   73 ?  -27.390   0.570 -16.982  0.00  0   A
+ATOM      551    C   CZ .  TYR   A .   73 ?  -27.122   0.196 -15.670  0.00  0   A
+ATOM      548    C  CD2 .  TYR   A .   73 ?  -25.663  -1.009 -14.201  0.00  0   A
+ATOM      547    C  CD1 .  TYR   A .   73 ?  -27.643  -0.023 -13.328  0.00  0   A
+ATOM      225    C  CZ2 .  TRP   A .   33 ?  -27.654  -9.237 -12.163  0.00  0   A
+ATOM       32    C  CG1 .  ILE   A .    9 ?  -24.781  -6.096  -8.923  0.00  0   A
+ATOM       34    C  CD1 .  ILE   A .    9 ?  -24.647  -4.901  -9.829  0.00  0   A
+ATOM      544    O    O .  TYR   A .   73 ?  -27.279  -1.993  -8.771 -1.07  0   A
+ATOM      218    C   CB .  TRP   A .   33 ?  -24.197  -7.602 -15.425  0.00  0   A
+ATOM      277    C  CG1 .  VAL   A .   39 ?  -23.571  -3.668 -16.058  0.00  0   A
+ATOM      224    C  CE3 .  TRP   A .   33 ?  -27.321  -8.446 -14.856  0.00  0   A
+ATOM      221    C  CD2 .  TRP   A .   33 ?  -26.214  -8.502 -14.011  0.00  0   A
+ATOM      219    C   CG .  TRP   A .   33 ?  -24.827  -8.168 -14.174  0.00  0   A
+ATOM      652    C  CG2 .  ILE   A .   85 ?  -22.377  -3.061 -12.629  0.00  0   A
+ATOM      549    C  CE1 .  TYR   A .   73 ?  -27.978   0.432 -14.601  0.00  0   A
+ATOM      256    C   CB .  TYR   A .   37 ?  -26.938  -6.279 -18.650  0.00  0   A
+ATOM      267    O    O .  ASP   A .   38 ?  -24.472  -2.448 -18.913 -0.81  0   A
+ATOM      264    N    N .  ASP   A .   38 ?  -24.755  -4.618 -20.740 -1.51  0   A
+ATOM      257    C   CG .  TYR   A .   37 ?  -28.325  -6.904 -18.643  0.00  0   A
+ATOM      545    C   CB .  TYR   A .   73 ?  -26.155  -1.353 -11.755  0.00  0   A
+ATOM      223    C  CE2 .  TRP   A .   33 ?  -26.402  -8.877 -12.667  0.00  0   A
+ATOM      227    C  CH2 .  TRP   A .   33 ?  -28.709  -9.250 -13.048  0.00  0   A
+ATOM      226    C  CZ3 .  TRP   A .   33 ?  -28.544  -8.890 -14.387  0.00  0   A
+ATOM      546    C   CG .  TYR   A .   73 ?  -26.470  -0.747 -13.109  0.00  0   A
+# 

@@ -1,0 +1,58 @@
+data_pocket97_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    97:
+0  - Pocket Score                      : -0.0659
+1  - Drug Score                        : 0.0000
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 4.0924
+4  - Mean alpha-sphere Solvent Acc.    : 0.5526
+5  - Mean B-factor of pocket residues  : 0.8765
+6  - Hydrophobicity Score              : 0.4286
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.0000
+9  - Pocket volume (Monte Carlo)       : 280.5897
+10  -Pocket volume (convex hull)       : 13.0284
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     0
+14 - Proportion of apolar alpha sphere : 0.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4419    N  NH1 .  ARG   A .  583 ?   16.872  15.563  27.153  0.00  0   A
+ATOM       34    O  OD1 .  ASP   A .    4 ?   10.547  10.937  22.340 -5.09  0   A
+ATOM     4417    N   NE .  ARG   A .  583 ?   14.789  16.027  28.047  0.00  0   A
+ATOM     4416    C   CD .  ARG   A .  583 ?   14.349  16.875  26.940  0.00  0   A
+ATOM       45    C   CB .  GLU   A .    6 ?   14.825  10.670  19.595  0.00  0   A
+ATOM     3379    N  NH1 .  ARG   A .  449 ?   12.097  15.156  20.359 -3.28  0   A
+ATOM       49    O  OE2 .  GLU   A .    6 ?   15.925  14.041  19.617  0.00  0   A
+ATOM     3380    N  NH2 .  ARG   A .  449 ?   12.112  17.403  20.845 -3.45  0   A
+ATOM     4414    C   CB .  ARG   A .  583 ?   12.155  17.198  25.743  0.00  0   A
+ATOM     4410    N    N .  ARG   A .  583 ?   10.071  15.890  26.023 -1.09  0   A
+ATOM     4415    C   CG .  ARG   A .  583 ?   12.873  17.197  27.080  0.00  0   A
+ATOM       35    O  OD2 .  ASP   A .    4 ?   11.472  10.209  20.491  0.00  0   A
+ATOM       54    C   CB .  ALA   A .    7 ?   13.615   7.108  22.557  0.00  0   A
+ATOM     4373    C  CG2 .  VAL   A .  577 ?   11.025  15.115  30.777  0.00  0   A
+ATOM     4401    O    O .  GLY   A .  581 ?    8.982  11.687  27.522  0.00  0   A
+ATOM     4420    N  NH2 .  ARG   A .  583 ?   16.259  14.661  29.176  0.00  0   A
+# 

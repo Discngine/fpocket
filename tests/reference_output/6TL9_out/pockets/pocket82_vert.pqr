@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    82:
+HEADER 0  - Pocket Score                      : -0.2141
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0883
+HEADER 4  - Mean alpha-sphere SA              : 0.5891
+HEADER 5  - Mean B-factor                     : 0.4237
+HEADER 6  - Hydrophobicity Score              : 18.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 6.0000
+HEADER 9  - Real volume (approximation)       : 217.6833
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 16.0000
+HEADER 12 - Number of apolar alpha sphere     :    17
+HEADER 13 - Proportion of apolar alpha sphere : 1.0000
+ATOM      1    C STP    82     -36.634 -68.755  -1.371    0.00     4.54
+ATOM      2    C STP    82     -36.466 -68.541  -1.574    0.00     4.28
+ATOM      3    C STP    82     -36.547 -68.635  -1.300    0.00     4.50
+ATOM      4    C STP    82     -35.793 -66.742  -0.886    0.00     3.75
+ATOM      5    C STP    82     -38.046 -69.037  -3.112    0.00     4.17
+ATOM      6    C STP    82     -37.172 -68.722  -3.400    0.00     3.72
+ATOM      7    C STP    82     -37.251 -69.180  -1.975    0.00     4.58
+ATOM      8    C STP    82     -40.096 -68.719  -2.704    0.00     3.74
+ATOM      9    C STP    82     -39.265 -68.987  -4.373    0.00     3.50
+ATOM     10    C STP    82     -39.029 -69.051  -4.332    0.00     3.55
+ATOM     11    C STP    82     -38.217 -69.119  -3.541    0.00     3.98
+ATOM     12    C STP    82     -39.890 -68.844  -1.796    0.00     4.10
+ATOM     13    C STP    82     -38.105 -69.041  -3.035    0.00     4.20
+ATOM     14    C STP    82     -38.098 -69.044  -3.059    0.00     4.20
+ATOM     15    C STP    82     -38.075 -69.055  -3.077    0.00     4.20
+ATOM     16    C STP    82     -38.088 -69.051  -2.961    0.00     4.22
+ATOM     17    C STP    82     -37.979 -69.108  -2.824    0.00     4.29
+TER
+END

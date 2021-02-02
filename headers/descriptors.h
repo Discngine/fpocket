@@ -24,6 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include "atom.h"
 #include "aa.h"
 #include "utils.h"
+//#include "asa.h"
 
 
 /* --------------------------------STRUCTURES---------------------------------*/
@@ -87,6 +88,10 @@ typedef struct s_desc
 } s_desc ;
 
 /* ------------------------------PROTOTYPES---------------------------------- */
+
+//explicit definition from asa.h 
+void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert);
+
 
 s_desc* allocate_s_desc(void) ;
 void reset_desc(s_desc *desc) ;

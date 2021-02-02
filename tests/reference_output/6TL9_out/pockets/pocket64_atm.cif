@@ -1,0 +1,62 @@
+data_pocket64_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    64:
+0  - Pocket Score                      : -0.1093
+1  - Drug Score                        : 0.0008
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 4.1837
+4  - Mean alpha-sphere Solvent Acc.    : 0.5302
+5  - Mean B-factor of pocket residues  : 0.6391
+6  - Hydrophobicity Score              : 24.8182
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.3636
+9  - Pocket volume (Monte Carlo)       : 322.6677
+10  -Pocket volume (convex hull)       : 14.9735
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.2917
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3132    N  NE2 .  HIS   D .    3 ?  -35.152 -42.770 -37.505 -5.47  0   D
+ATOM     3140    C   CE .  MET   D .    4 ?  -32.429 -42.982 -38.549  0.00  0   D
+ATOM     6657    O  OD1 .  ASP   G .   51 ?  -30.022 -41.859 -32.215  0.00  0   G
+ATOM     3131    C  CE1 .  HIS   D .    3 ?  -35.092 -44.062 -37.819  0.00  0   D
+ATOM     6629    C  CG2 .  THR   G .   47 ?  -32.097 -39.329 -34.138  0.00  0   G
+ATOM     6650    C  CD2 .  LEU   G .   50 ?  -34.883 -42.361 -29.943  0.00  0   G
+ATOM     6686    N  NE2 .  GLN   G .   54 ?  -33.177 -45.729 -29.242  0.00  0   G
+ATOM     6685    O  OE1 .  GLN   G .   54 ?  -31.074 -45.194 -29.754  0.00  0   G
+ATOM     3166    C   CG .  GLN   D .    8 ?  -25.950 -44.991 -35.609  0.00  0   D
+ATOM     6658    O  OD2 .  ASP   G .   51 ?  -27.930 -42.301 -32.781 -4.29  0   G
+ATOM     6976    O    O .  LEU   G .   89 ?  -37.624 -41.433 -31.979 -0.95  0   G
+ATOM     6628    O  OG1 .  THR   G .   47 ?  -34.088 -37.946 -34.106 -3.21  0   G
+ATOM     2175    C  CH2 .  TRP   C .   12 ?  -28.861 -43.039 -37.603  0.00  0   C
+ATOM     3169    N  NE2 .  GLN   D .    8 ?  -26.467 -42.844 -34.650  0.00  0   D
+ATOM     3161    N    N .  GLN   D .    8 ?  -26.247 -47.485 -37.191 -3.28  0   D
+ATOM     3139    S   SD .  MET   D .    4 ?  -31.507 -44.542 -38.627  0.00  0   D
+ATOM     2174    C  CZ3 .  TRP   C .   12 ?  -28.431 -44.145 -38.340  0.00  0   C
+ATOM     3155    C   CA .  PRO   D .    7 ?  -27.942 -48.659 -38.541  0.00  0   D
+ATOM     3158    C   CB .  PRO   D .    7 ?  -28.137 -49.921 -37.685  0.00  0   D
+ATOM     6966    O    O .  HIS   G .   88 ?  -39.161 -40.145 -34.588 -4.29  0   G
+# 

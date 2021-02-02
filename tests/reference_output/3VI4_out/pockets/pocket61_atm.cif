@@ -1,0 +1,63 @@
+data_pocket61_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    61:
+0  - Pocket Score                      : -0.0227
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 3.9046
+4  - Mean alpha-sphere Solvent Acc.    : 0.5420
+5  - Mean B-factor of pocket residues  : 0.4017
+6  - Hydrophobicity Score              : 24.8182
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 394.6518
+10  -Pocket volume (convex hull)       : 24.2860
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     0
+14 - Proportion of apolar alpha sphere : 0.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    17779    N  NH2 .  ARG   F .   40 ?  -69.877 -45.036  18.475 -0.59  0   F
+ATOM    17794    O    O .  HIS   F .   43 ?  -68.999 -49.178  14.502 -4.29  0   F
+ATOM    17821    O  OE2 .  GLU   F .   46 ?  -68.482 -43.499  14.695 -3.21  0   F
+ATOM    17795    C   CB .  HIS   F .   43 ?  -69.350 -48.706  17.171  0.00  0   F
+ATOM    17797    N  ND1 .  HIS   F .   43 ?  -71.525 -48.314  18.352 -2.35  0   F
+ATOM    17799    C  CE1 .  HIS   F .   43 ?  -72.012 -48.193  19.603  0.00  0   F
+ATOM    17961    N   NZ .  LYS   F .   63 ?  -72.846 -40.630  16.637  0.00  0   F
+ATOM    16534    O    O .  PHE   E .  101 ?  -69.382 -43.233   5.634 -3.21  0   E
+ATOM    16547    O  OG1 .  THR   E .  102 ?  -72.288 -44.078   5.640 -3.62  0   E
+ATOM    17818    C   CG .  GLU   F .   46 ?  -68.430 -43.341  12.291  0.00  0   F
+ATOM    17943    N  ND2 .  ASN   F .   61 ?  -69.908 -39.523  10.125 -6.98  0   F
+ATOM    16548    C  CG2 .  THR   E .  102 ?  -72.594 -46.292   6.576  0.00  0   E
+ATOM    16543    C   CA .  THR   E .  102 ?  -70.551 -45.668   5.226  0.00  0   E
+ATOM    17808    O    O .  LEU   F .   45 ?  -68.033 -47.386  10.548  0.00  0   F
+ATOM    16549    N    N .  PHE   E .  103 ?  -69.551 -47.655   6.149 -1.09  0   E
+ATOM    17820    O  OE1 .  GLU   F .   46 ?  -70.207 -42.586  13.681  0.00  0   F
+ATOM    17819    C   CD .  GLU   F .   46 ?  -69.082 -43.127  13.653  0.00  0   F
+ATOM    16528    C   CB .  PRO   E .  100 ?  -71.255 -39.563   5.922  0.00  0   E
+ATOM    17822    N    N .  TRP   F .   47 ?  -66.598 -43.448   9.198 -1.09  0   F
+ATOM    17814    C   CA .  GLU   F .   46 ?  -66.862 -44.937  11.056  0.00  0   F
+ATOM    16529    C   CG .  PRO   E .  100 ?  -72.721 -39.823   6.077  0.00  0   E
+# 

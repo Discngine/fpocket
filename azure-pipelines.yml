@@ -30,7 +30,7 @@ jobs:
 
  - job: build_and_test_mac
    pool:
-      vmImage: 'macOS-10.14'
+      vmImage: 'macOS-10.15'
    steps:
       - bash: sudo chown -R $USER $CONDA
       - script: conda env create --file tests/environment.yml --name fpocket_test

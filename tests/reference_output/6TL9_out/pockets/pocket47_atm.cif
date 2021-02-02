@@ -1,0 +1,56 @@
+data_pocket47_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    47:
+0  - Pocket Score                      : -0.0580
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.8878
+4  - Mean alpha-sphere Solvent Acc.    : 0.6406
+5  - Mean B-factor of pocket residues  : 0.5342
+6  - Hydrophobicity Score              : 19.6250
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.1250
+9  - Pocket volume (Monte Carlo)       : 216.1153
+10  -Pocket volume (convex hull)       : 5.2968
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.3333
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6471    C  CE3 .  TRP   G .   27 ?  -43.919 -39.414 -12.262  0.00  0   G
+ATOM     7081    O    O .  SER   G .  102 ?  -49.752 -42.535 -11.787  0.00  0   G
+ATOM     6473    C  CZ3 .  TRP   G .   27 ?  -44.224 -38.123 -12.640  0.00  0   G
+ATOM     7100    S   SG .  CYS   G .  105 ?  -45.492 -42.264 -14.440  0.00  0   G
+ATOM     6829    N  NH2 .  ARG   G .   71 ?  -54.664 -41.315 -12.869 -2.19  0   G
+ATOM     6825    C   CD .  ARG   G .   71 ?  -55.306 -38.799 -13.996  0.00  0   G
+ATOM     7085    C   CA .  GLY   G .  103 ?  -51.280 -42.786 -14.131  0.00  0   G
+ATOM     6810    C    C .  ARG   G .   70 ?  -51.362 -39.864 -17.974  0.00  0   G
+ATOM     6819    N    N .  ARG   G .   71 ?  -52.399 -39.159 -17.532  0.00  0   G
+ATOM     6811    O    O .  ARG   G .   70 ?  -51.145 -41.017 -17.607  0.00  0   G
+ATOM     6807    O   OG .  SER   G .   69 ?  -47.104 -38.217 -16.359  0.00  0   G
+ATOM     7201    S   SG .  CYS   G .  118 ?  -47.142 -43.272 -13.820  0.00  0   G
+ATOM     6820    C   CA .  ARG   G .   71 ?  -53.388 -39.680 -16.589  0.00  0   G
+ATOM     6823    C   CB .  ARG   G .   71 ?  -54.500 -38.629 -16.375  0.00  0   G
+# 

@@ -209,13 +209,13 @@ void desc_pocket(char fcomplexe[], const char ligname[], s_dparams *par,
         int n_lig_molecules=1;
         char chain_tmp[2];
         int resnumber_tmp;
-        strcpy(chain_tmp,lig[0]->chain);
+        strncpy(chain_tmp,lig[0]->chain,2);
         resnumber_tmp = lig[0]->res_id;
         
         for (j = 1 ; j < nal ; j++) {
             if(strcmp(chain_tmp,lig[j]->chain) !=0 || resnumber_tmp!=lig[j]->res_id){
                 n_lig_molecules++;
-                strcpy(chain_tmp,lig[j]->chain);
+                strncpy(chain_tmp,lig[j]->chain,2);
                 resnumber_tmp =lig[j]->res_id;
             }
         }

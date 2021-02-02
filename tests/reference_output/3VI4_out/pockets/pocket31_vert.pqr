@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0311
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9367
+HEADER 4  - Mean alpha-sphere SA              : 0.6531
+HEADER 5  - Mean B-factor                     : 0.3650
+HEADER 6  - Hydrophobicity Score              : 22.8750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.7500
+HEADER 9  - Real volume (approximation)       : 291.6578
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.3333
+ATOM      1    C STP    31     -16.447 -65.069 -50.504    0.00     3.59
+ATOM      2    O STP    31     -16.514 -64.996 -50.501    0.00     3.53
+ATOM      3    O STP    31     -16.914 -65.658 -50.489    0.00     3.78
+ATOM      4    C STP    31     -16.551 -65.770 -50.503    0.00     3.94
+ATOM      5    C STP    31     -11.175 -61.698 -53.137    0.00     4.29
+ATOM      6    C STP    31     -11.200 -61.283 -53.499    0.00     3.88
+ATOM      7    O STP    31     -11.629 -61.968 -52.869    0.00     4.53
+ATOM      8    O STP    31     -17.942 -66.195 -50.055    0.00     3.78
+ATOM      9    O STP    31     -12.258 -62.231 -53.329    0.00     4.13
+ATOM     10    C STP    31     -12.662 -62.242 -53.923    0.00     3.61
+ATOM     11    O STP    31     -12.062 -63.080 -53.292    0.00     4.48
+ATOM     12    O STP    31     -12.562 -62.780 -53.934    0.00     3.80
+ATOM     13    O STP    31     -15.125 -65.857 -51.189    0.00     4.28
+ATOM     14    O STP    31     -13.311 -64.768 -53.068    0.00     4.33
+ATOM     15    O STP    31     -14.627 -64.568 -52.960    0.00     3.46
+ATOM     16    O STP    31     -12.977 -60.786 -53.260    0.00     3.54
+ATOM     17    O STP    31     -13.150 -60.736 -53.345    0.00     3.45
+ATOM     18    O STP    31     -12.805 -60.654 -52.468    0.00     3.43
+ATOM     19    C STP    31     -15.534 -66.018 -51.005    0.00     4.23
+ATOM     20    C STP    31     -15.328 -65.981 -51.101    0.00     4.27
+ATOM     21    O STP    31     -15.393 -66.200 -51.017    0.00     4.33
+TER
+END

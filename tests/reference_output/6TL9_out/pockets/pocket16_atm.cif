@@ -1,0 +1,56 @@
+data_pocket16_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    16:
+0  - Pocket Score                      : 0.0199
+1  - Drug Score                        : 0.0016
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.8018
+4  - Mean alpha-sphere Solvent Acc.    : 0.4787
+5  - Mean B-factor of pocket residues  : 0.3061
+6  - Hydrophobicity Score              : 34.3750
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.2500
+9  - Pocket volume (Monte Carlo)       : 99.1564
+10  -Pocket volume (convex hull)       : 1.0911
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 15.0000
+13 - Number of apolar alpha sphere     :    16
+14 - Proportion of apolar alpha sphere : 1.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      954    C   CB .  LEU   A .  120 ?   15.659 -24.171 -37.954  0.00  0   A
+ATOM      924    C   CG .  GLU   A .  116 ?   15.167 -23.875 -42.760  0.00  0   A
+ATOM     2880    C   CB .  THR   C .   99 ?   11.150 -27.446 -39.545  0.00  0   C
+ATOM      956    C  CD1 .  LEU   A .  120 ?   13.950 -23.127 -39.492  0.00  0   A
+ATOM      967    C   CB .  ALA   A .  122 ?   17.804 -29.724 -38.835  0.00  0   A
+ATOM      495    C   CG .  PRO   A .   63 ?   14.624 -31.622 -40.989  0.00  0   A
+ATOM      961    O    O .  ALA   A .  121 ?   15.665 -28.689 -36.439 -1.07  0   A
+ATOM     2879    O    O .  THR   C .   99 ?   11.631 -29.397 -41.650  0.00  0   C
+ATOM      854    C  CE1 .  TYR   A .  107 ?   15.793 -27.174 -44.877  0.00  0   A
+ATOM      494    C   CB .  PRO   A .   63 ?   15.552 -31.569 -42.183  0.00  0   A
+ATOM      856    C   CZ .  TYR   A .  107 ?   14.864 -28.161 -45.136  0.00  0   A
+ATOM      521    C  CH2 .  TRP   A .   65 ?   19.317 -25.538 -41.090  0.00  0   A
+ATOM      519    C  CZ2 .  TRP   A .   65 ?   19.508 -25.990 -39.813  0.00  0   A
+ATOM      852    C  CD1 .  TYR   A .  107 ?   17.114 -27.519 -44.623  0.00  0   A
+# 

@@ -15,9 +15,14 @@ jobs:
       run: sudo apt-get install libnetcdf-dev
     - name: make
       run: make fpocket
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
     - name: create conda environment
-      run: conda env update -f ./tests/environment.yml
-    - name: activate conda environment
-      run: conda activate fpocket_test
-    - name: Run pytest
-      run: pytest
+      run: conda env update -f ./tests/environment.yml   
+    - name : activate
+      run : |
+            eval "$(conda shell.bash hook)"
+            conda activate fpocket_test
+            pytest

@@ -1,0 +1,101 @@
+data_pocket90_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    90:
+0  - Pocket Score                      : -0.4770
+1  - Drug Score                        : 0.0468
+2  - Number of alpha spheres           :   100
+3  - Mean alpha-sphere radius          : 3.9893
+4  - Mean alpha-sphere Solvent Acc.    : 0.5013
+5  - Mean B-factor of pocket residues  : 0.6170
+6  - Hydrophobicity Score              : 27.3529
+7  - Polarity Score                    :     9
+8  - Amino Acid based volume Score     : 4.8235
+9  - Pocket volume (Monte Carlo)       : 896.6111
+10  -Pocket volume (convex hull)       : 270.7812
+11 - Charge Score                      :     4
+12 - Local hydrophobic density Score   : 34.8163
+13 - Number of apolar alpha sphere     :    49
+14 - Proportion of apolar alpha sphere : 0.4900
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5796    C   CB .  PRO   F .   73 ?  -19.446 -66.840 -24.502  0.00  0   F
+ATOM     3352    C   CD .  LYS   D .   29 ?  -17.058 -69.080 -31.213  0.00  0   D
+ATOM     3312    C  CE1 .  PHE   D .   25 ?  -14.883 -64.568 -30.433  0.00  0   D
+ATOM     3354    N   NZ .  LYS   D .   29 ?  -16.033 -69.816 -29.085 -5.89  0   D
+ATOM     5795    O    O .  PRO   F .   73 ?  -19.714 -69.775 -25.695 -1.21  0   F
+ATOM     3310    C  CD1 .  PHE   D .   25 ?  -14.860 -65.501 -31.458  0.00  0   D
+ATOM     3350    C   CB .  LYS   D .   29 ?  -18.114 -68.267 -33.320  0.00  0   D
+ATOM     5901    C  CD2 .  LEU   F .   85 ?  -31.539 -72.106 -27.468  0.00  0   F
+ATOM     5963    C  CG2 .  VAL   F .   92 ?  -30.865 -68.052 -26.178  0.00  0   F
+ATOM     5830    C  CD1 .  TRP   F .   77 ?  -27.073 -70.382 -25.847  0.00  0   F
+ATOM     5957    N    N .  VAL   F .   92 ?  -31.355 -66.505 -28.582 -1.51  0   F
+ATOM     5990    C  CG2 .  VAL   F .   96 ?  -24.669 -63.605 -27.285  0.00  0   F
+ATOM     5992    C   CA .  SER   F .   97 ?  -20.796 -62.739 -24.983  0.00  0   F
+ATOM     5995    C   CB .  SER   F .   97 ?  -20.159 -61.894 -26.076  0.00  0   F
+ATOM     3386    C   CE .  LYS   D .   33 ?  -20.524 -60.552 -31.657  0.00  0   D
+ATOM     5996    O   OG .  SER   F .   97 ?  -20.613 -60.554 -25.987 -0.81  0   F
+ATOM     3349    O    O .  LYS   D .   29 ?  -20.292 -66.238 -34.594 -3.21  0   D
+ATOM     3311    C  CD2 .  PHE   D .   25 ?  -15.460 -63.812 -33.011  0.00  0   D
+ATOM     3309    C   CG .  PHE   D .   25 ?  -15.134 -65.129 -32.760  0.00  0   D
+ATOM     3415    C  CD2 .  LEU   D .   37 ?  -25.001 -56.869 -34.068  0.00  0   D
+ATOM     3407    O   OG .  SER   D .   36 ?  -25.243 -61.320 -32.793 -1.88  0   D
+ATOM     5978    O    O .  GLY   F .   94 ?  -26.706 -60.038 -26.415  0.00  0   F
+ATOM     3405    O    O .  SER   D .   36 ?  -28.445 -59.696 -33.093  0.00  0   D
+ATOM     3406    C   CB .  SER   D .   36 ?  -26.423 -62.012 -32.417  0.00  0   D
+ATOM     3353    C   CE .  LYS   D .   29 ?  -16.893 -70.213 -30.237  0.00  0   D
+ATOM     5950    C   CB .  ARG   F .   91 ?  -32.086 -66.087 -31.886  0.00  0   F
+ATOM     3375    C   CG .  GLU   D .   32 ?  -23.757 -69.015 -33.671  0.00  0   D
+ATOM     3400    C  CD1 .  LEU   D .   35 ?  -27.975 -67.674 -37.273  0.00  0   D
+ATOM     3398    C   CB .  LEU   D .   35 ?  -27.844 -65.271 -36.533  0.00  0   D
+ATOM     3378    O  OE2 .  GLU   D .   32 ?  -23.905 -70.646 -31.929  0.00  0   D
+ATOM     3403    C   CA .  SER   D .   36 ?  -27.516 -61.886 -33.475  0.00  0   D
+ATOM     3402    N    N .  SER   D .   36 ?  -27.203 -62.702 -34.656 -1.09  0   D
+ATOM     5952    C   CD .  ARG   F .   91 ?  -32.238 -63.822 -33.019  0.00  0   F
+ATOM     5969    C   CG .  ARG   F .   93 ?  -32.661 -61.836 -29.155  0.00  0   F
+ATOM     5965    C   CA .  ARG   F .   93 ?  -30.625 -62.070 -27.604  0.00  0   F
+ATOM     3377    O  OE1 .  GLU   D .   32 ?  -22.291 -69.150 -31.795 -7.50  0   D
+ATOM     3351    C   CG .  LYS   D .   29 ?  -18.170 -69.303 -32.215  0.00  0   D
+ATOM     3387    N   NZ .  LYS   D .   33 ?  -20.928 -59.167 -31.297 -1.51  0   D
+ATOM     3384    C   CG .  LYS   D .   33 ?  -20.538 -62.314 -33.424  0.00  0   D
+ATOM     3380    C   CA .  LYS   D .   33 ?  -22.610 -63.218 -34.606  0.00  0   D
+ATOM     3313    C  CE2 .  PHE   D .   25 ?  -15.484 -62.883 -31.984  0.00  0   D
+ATOM     3314    C   CZ .  PHE   D .   25 ?  -15.197 -63.265 -30.703  0.00  0   D
+ATOM     3374    C   CB .  GLU   D .   32 ?  -23.343 -67.560 -33.817  0.00  0   D
+ATOM     3379    N    N .  LYS   D .   33 ?  -22.744 -64.661 -34.837  0.00  0   D
+ATOM     3372    C    C .  GLU   D .   32 ?  -23.913 -65.323 -34.757  0.00  0   D
+ATOM     5772    N  NH2 .  ARG   F .   70 ?  -23.457 -67.267 -24.902 -1.51  0   F
+ATOM     5771    N  NH1 .  ARG   F .   70 ?  -23.326 -69.477 -25.477  0.00  0   F
+ATOM     5832    N  NE1 .  TRP   F .   77 ?  -26.910 -69.054 -25.529 -2.61  0   F
+ATOM     5961    C   CB .  VAL   F .   92 ?  -30.228 -66.686 -26.386  0.00  0   F
+ATOM     3373    O    O .  GLU   D .   32 ?  -24.970 -64.772 -34.464  0.00  0   D
+ATOM     3371    C   CA .  GLU   D .   32 ?  -23.900 -66.828 -35.042  0.00  0   D
+ATOM     5960    O    O .  VAL   F .   92 ?  -29.320 -64.471 -28.159 -5.76  0   F
+ATOM     3396    C    C .  LEU   D .   35 ?  -28.094 -62.949 -35.635  0.00  0   D
+ATOM     3376    C   CD .  GLU   D .   32 ?  -23.285 -69.650 -32.371  0.00  0   D
+ATOM     5975    N    N .  GLY   F .   94 ?  -29.466 -60.182 -26.539 -2.61  0   F
+ATOM     5987    O    O .  VAL   F .   96 ?  -22.691 -64.655 -24.194  0.00  0   F
+ATOM     5989    C  CG1 .  VAL   F .   96 ?  -26.726 -64.093 -25.917  0.00  0   F
+ATOM     3385    C   CD .  LYS   D .   33 ?  -21.157 -61.014 -32.943  0.00  0   D
+ATOM     5988    C   CB .  VAL   F .   96 ?  -25.202 -64.130 -25.955  0.00  0   F
+# 

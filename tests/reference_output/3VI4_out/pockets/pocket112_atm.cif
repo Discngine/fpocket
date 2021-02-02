@@ -1,0 +1,68 @@
+data_pocket112_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   112:
+0  - Pocket Score                      : -0.0826
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    37
+3  - Mean alpha-sphere radius          : 3.9366
+4  - Mean alpha-sphere Solvent Acc.    : 0.4645
+5  - Mean B-factor of pocket residues  : 0.5583
+6  - Hydrophobicity Score              : -9.1000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.8000
+9  - Pocket volume (Monte Carlo)       : 413.3375
+10  -Pocket volume (convex hull)       : 42.0018
+11 - Charge Score                      :     3
+12 - Local hydrophobic density Score   : 5.0000
+13 - Number of apolar alpha sphere     :     6
+14 - Proportion of apolar alpha sphere : 0.1622
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    18451    C   CG .  PRO   F .  128 ?  -50.187 -65.996  44.327  0.00  0   F
+ATOM    19090    C   CB .  VAL   F .  216 ?  -46.563 -71.464  47.063  0.00  0   F
+ATOM    19092    C  CG2 .  VAL   F .  216 ?  -45.656 -70.249  46.913  0.00  0   F
+ATOM    16728    O   OG .  SER   E .  127 ?  -51.272 -64.834  51.262  0.00  0   E
+ATOM    16737    O  OE2 .  GLU   E .  128 ?  -48.769 -61.241  46.037 -2.14  0   E
+ATOM    19066    C   CD .  LYS   F .  213 ?  -46.412 -62.865  43.818  0.00  0   F
+ATOM    19068    N   NZ .  LYS   F .  213 ?  -45.856 -61.269  45.685 -0.17  0   F
+ATOM    16733    C   CB .  GLU   E .  128 ?  -50.560 -61.409  48.112  0.00  0   E
+ATOM    19103    O    O .  ARG   F .  218 ?  -51.945 -72.162  48.648 -4.69  0   F
+ATOM    16713    O    O .  PRO   E .  125 ?  -56.861 -66.740  47.566  0.00  0   E
+ATOM    16718    C   CA .  SER   E .  126 ?  -54.621 -65.185  47.181  0.00  0   E
+ATOM    18464    O    O .  ALA   F .  130 ?  -55.043 -71.900  43.911 -5.36  0   F
+ATOM    18449    O    O .  PRO   F .  128 ?  -53.069 -66.452  43.062  0.00  0   F
+ATOM    18465    C   CB .  ALA   F .  130 ?  -51.885 -71.978  43.508  0.00  0   F
+ATOM    16706    O    O .  PRO   E .  124 ?  -57.617 -67.583  44.810  0.00  0   E
+ATOM    16729    N    N .  GLU   E .  128 ?  -52.105 -62.674  49.567 -1.09  0   E
+ATOM    18461    N    N .  ALA   F .  130 ?  -53.348 -70.388  42.378 -2.19  0   F
+ATOM    19086    N    N .  VAL   F .  216 ?  -46.994 -71.083  44.659 -1.09  0   F
+ATOM    19072    O    O .  LYS   F .  214 ?  -45.685 -67.994  43.741 -6.17  0   F
+ATOM    16723    N    N .  SER   E .  127 ?  -53.694 -64.894  49.403 -1.93  0   E
+ATOM    16727    C   CB .  SER   E .  127 ?  -52.625 -65.056  51.612  0.00  0   E
+ATOM    16721    C   CB .  SER   E .  126 ?  -53.507 -64.640  46.290  0.00  0   E
+ATOM    16708    C   CG .  PRO   E .  124 ?  -58.197 -70.602  45.968  0.00  0   E
+ATOM    19102    C    C .  ARG   F .  218 ?  -52.682 -73.016  48.160  0.00  0   F
+ATOM    19089    O    O .  VAL   F .  216 ?  -49.214 -72.429  45.506 -1.07  0   F
+ATOM    18450    C   CB .  PRO   F .  128 ?  -49.992 -66.695  43.032  0.00  0   F
+# 

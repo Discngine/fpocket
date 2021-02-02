@@ -1,0 +1,63 @@
+data_pocket127_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   127:
+0  - Pocket Score                      : -0.1014
+1  - Drug Score                        : 0.0007
+2  - Number of alpha spheres           :    26
+3  - Mean alpha-sphere radius          : 3.9757
+4  - Mean alpha-sphere Solvent Acc.    : 0.5419
+5  - Mean B-factor of pocket residues  : 0.4734
+6  - Hydrophobicity Score              : -7.0000
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 5.1250
+9  - Pocket volume (Monte Carlo)       : 267.6360
+10  -Pocket volume (convex hull)       : 18.8504
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 7.0000
+13 - Number of apolar alpha sphere     :     8
+14 - Proportion of apolar alpha sphere : 0.3077
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    17961    N   NZ .  LYS   F .   63 ?  -72.846 -40.630  16.637  0.00  0   F
+ATOM    17956    O    O .  LYS   F .   63 ?  -70.683 -35.313  15.021 -4.43  0   F
+ATOM    17960    C   CE .  LYS   F .   63 ?  -71.805 -40.526  15.578  0.00  0   F
+ATOM    17958    C   CG .  LYS   F .   63 ?  -72.052 -38.264  14.436  0.00  0   F
+ATOM    17993    C   CE .  LYS   F .   67 ?  -66.294 -35.362  19.884  0.00  0   F
+ATOM    18164    O  OD1 .  ASP   F .   90 ?  -65.220 -38.611  20.123 -1.07  0   F
+ATOM    18141    O  OG1 .  THR   F .   87 ?  -67.232 -38.081  24.551 -0.40  0   F
+ATOM    18165    O  OD2 .  ASP   F .   90 ?  -65.032 -37.432  21.970  0.00  0   F
+ATOM    18156    O  OE1 .  GLU   F .   89 ?  -69.861 -43.792  22.254 -2.55  0   F
+ATOM    17779    N  NH2 .  ARG   F .   40 ?  -69.877 -45.036  18.475 -0.59  0   F
+ATOM    17778    N  NH1 .  ARG   F .   40 ?  -67.829 -44.059  18.241 -4.37  0   F
+ATOM    18157    O  OE2 .  GLU   F .   89 ?  -71.797 -43.218  23.106  0.00  0   F
+ATOM    17759    N   NZ .  LYS   F .   38 ?  -66.030 -41.736  18.185 -3.28  0   F
+ATOM    18155    C   CD .  GLU   F .   89 ?  -70.566 -43.041  22.974  0.00  0   F
+ATOM    18154    C   CG .  GLU   F .   89 ?  -69.924 -41.878  23.730  0.00  0   F
+ATOM    18153    C   CB .  GLU   F .   89 ?  -68.697 -41.290  23.037  0.00  0   F
+ATOM    18152    O    O .  GLU   F .   89 ?  -66.482 -42.158  21.186  0.00  0   F
+ATOM    17991    C   CG .  LYS   F .   67 ?  -65.384 -34.984  17.572  0.00  0   F
+ATOM    17969    C  CD2 .  PHE   F .   64 ?  -66.602 -37.692  14.908  0.00  0   F
+ATOM    17971    C  CE2 .  PHE   F .   64 ?  -66.747 -38.964  15.445  0.00  0   F
+ATOM    17972    C   CZ .  PHE   F .   64 ?  -67.621 -39.866  14.853  0.00  0   F
+# 

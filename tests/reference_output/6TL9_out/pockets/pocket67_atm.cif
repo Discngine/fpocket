@@ -1,0 +1,65 @@
+data_pocket67_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    67:
+0  - Pocket Score                      : -0.1213
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    37
+3  - Mean alpha-sphere radius          : 3.8360
+4  - Mean alpha-sphere Solvent Acc.    : 0.4944
+5  - Mean B-factor of pocket residues  : 0.5595
+6  - Hydrophobicity Score              : 13.0000
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 506.5693
+10  -Pocket volume (convex hull)       : 68.1239
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 12.7143
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.3784
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      246    O  OE1 .  GLN   A .   31 ?   30.824 -23.732 -37.040  0.00  0   A
+ATOM      220    C   CG .  GLU   A .   28 ?   27.602 -22.124 -33.832  0.00  0   A
+ATOM      256    O  OE2 .  GLU   A .   32 ?   30.303 -24.108 -30.198  0.00  0   A
+ATOM      223    O  OE2 .  GLU   A .   28 ?   28.220 -20.433 -32.241  0.00  0   A
+ATOM      221    C   CD .  GLU   A .   28 ?   27.586 -20.702 -33.291  0.00  0   A
+ATOM      222    O  OE1 .  GLU   A .   28 ?   26.929 -19.847 -33.929  0.00  0   A
+ATOM      219    C   CB .  GLU   A .   28 ?   26.353 -22.486 -34.617  0.00  0   A
+ATOM      229    C   CG .  LYS   A .   29 ?   24.596 -25.632 -30.747  0.00  0   A
+ATOM      255    O  OE1 .  GLU   A .   32 ?   28.742 -25.662 -30.117 -4.69  0   A
+ATOM      231    C   CE .  LYS   A .   29 ?   23.030 -24.598 -29.083  0.00  0   A
+ATOM      200    N  ND2 .  ASN   A .   26 ?   21.444 -23.240 -32.203 -1.68  0   A
+ATOM      822    C   CB .  SER   A .  102 ?   22.227 -17.239 -37.538  0.00  0   A
+ATOM      821    O    O .  SER   A .  102 ?   23.505 -17.963 -39.875  0.00  0   A
+ATOM      823    O   OG .  SER   A .  102 ?   22.273 -16.675 -36.241 -2.95  0   A
+ATOM      199    O  OD1 .  ASN   A .   26 ?   23.160 -24.056 -33.417 -1.07  0   A
+ATOM      948    C  CG2 .  ILE   A .  119 ?   19.762 -18.898 -35.314  0.00  0   A
+ATOM      939    O    O .  CYS   A .  118 ?   20.910 -22.703 -37.381  0.00  0   A
+ATOM      213    C  CZ3 .  TRP   A .   27 ?   28.138 -23.437 -40.149  0.00  0   A
+ATOM      211    C  CE3 .  TRP   A .   27 ?   26.878 -23.626 -39.622  0.00  0   A
+ATOM      215    N    N .  GLU   A .   28 ?   25.213 -24.088 -36.116  0.00  0   A
+ATOM      940    C   CB .  CYS   A .  118 ?   22.048 -21.025 -39.626  0.00  0   A
+ATOM      198    C   CG .  ASN   A .   26 ?   21.952 -23.801 -33.299  0.00  0   A
+ATOM      253    C   CG .  GLU   A .   32 ?   30.330 -25.788 -31.892  0.00  0   A
+# 

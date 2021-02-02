@@ -1,0 +1,59 @@
+data_pocket18_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    18:
+0  - Pocket Score                      : -0.0274
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.8102
+4  - Mean alpha-sphere Solvent Acc.    : 0.5583
+5  - Mean B-factor of pocket residues  : 0.2291
+6  - Hydrophobicity Score              : -1.3333
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.5000
+9  - Pocket volume (Monte Carlo)       : 234.5657
+10  -Pocket volume (convex hull)       : 6.0234
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 1.0000
+13 - Number of apolar alpha sphere     :     2
+14 - Proportion of apolar alpha sphere : 0.0909
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      992    N  NE2 .  GLN   A .   60 ?   22.842  -7.134   4.121  0.00  0   A
+ATOM     1811    C  CG2 .  THR   A .  105 ?   26.722 -10.481   5.522  0.00  0   A
+ATOM     1860    N  ND2 .  ASN   A .  108 ?   30.858  -5.480   4.773  0.00  0   A
+ATOM     1857    C   CB .  ASN   A .  108 ?   29.129  -4.999   6.393  0.00  0   A
+ATOM     1806    C   CA .  THR   A .  105 ?   28.954  -9.660   6.336  0.00  0   A
+ATOM     1810    O  OG1 .  THR   A .  105 ?   28.777 -11.179   4.466  0.00  0   A
+ATOM     1808    O    O .  THR   A .  105 ?   27.651  -8.114   7.634 -1.07  0   A
+ATOM     1934    O  OD1 .  ASN   A .  112 ?   22.559  -0.914   6.520 -2.14  0   A
+ATOM     1930    C   CB .  ASN   A .  112 ?   24.680  -1.081   7.648  0.00  0   A
+ATOM     1932    C   CG .  ASN   A .  112 ?   23.646  -0.385   6.759  0.00  0   A
+ATOM     1873    C  CG2 .  VAL   A .  109 ?   24.454  -7.312   7.422  0.00  0   A
+ATOM     1867    N    N .  VAL   A .  109 ?   26.745  -5.519   8.425  0.00  0   A
+ATOM      989    C   CG .  GLN   A .   60 ?   20.610  -6.550   4.789  0.00  0   A
+ATOM      941    O  OE2 .  GLU   A .   57 ?   19.567  -3.469   7.930 -1.07  0   A
+ATOM     1855    C    C .  ASN   A .  108 ?   27.504  -4.442   8.209  0.00  0   A
+ATOM     1868    C   CA .  VAL   A .  109 ?   25.332  -5.390   8.775  0.00  0   A
+ATOM     1856    O    O .  ASN   A .  108 ?   27.046  -3.294   8.250  0.00  0   A
+# 

@@ -1,0 +1,58 @@
+data_pocket66_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    66:
+0  - Pocket Score                      : -0.1198
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 4.1963
+4  - Mean alpha-sphere Solvent Acc.    : 0.4910
+5  - Mean B-factor of pocket residues  : 0.5376
+6  - Hydrophobicity Score              : -27.6250
+7  - Polarity Score                    :     8
+8  - Amino Acid based volume Score     : 4.3750
+9  - Pocket volume (Monte Carlo)       : 297.4954
+10  -Pocket volume (convex hull)       : 5.7332
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     0
+14 - Proportion of apolar alpha sphere : 0.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6239    N   NZ .  LYS   F .  129 ?  -44.338 -85.462 -21.737 -1.26  0   F
+ATOM     5336    N  ND2 .  ASN   F .   16 ?  -44.757 -80.015 -21.365 -3.03  0   F
+ATOM     6238    C   CE .  LYS   F .  129 ?  -43.690 -84.931 -20.507  0.00  0   F
+ATOM     5570    N  ND2 .  ASN   F .   45 ?  -39.201 -79.606 -23.730 -1.51  0   F
+ATOM     5567    C   CB .  ASN   F .   45 ?  -39.711 -79.373 -26.057  0.00  0   F
+ATOM     5327    O  OE1 .  GLU   F .   15 ?  -46.408 -85.189 -24.207 -0.40  0   F
+ATOM     6221    N  NE2 .  GLN   F .  127 ?  -41.582 -79.011 -19.781 -3.28  0   F
+ATOM     5595    O  OD1 .  ASP   F .   49 ?  -45.053 -76.986 -25.194  0.00  0   F
+ATOM     5324    C   CB .  GLU   F .   15 ?  -47.817 -83.518 -22.482  0.00  0   F
+ATOM     5325    C   CG .  GLU   F .   15 ?  -48.472 -84.121 -23.708  0.00  0   F
+ATOM     5568    C   CG .  ASN   F .   45 ?  -38.796 -79.852 -24.970  0.00  0   F
+ATOM     5320    N    N .  GLU   F .   15 ?  -49.194 -81.496 -22.578 -2.19  0   F
+ATOM     5529    N   NZ .  LYS   F .   40 ?  -38.067 -80.934 -18.699  0.00  0   F
+ATOM     5554    N   NZ .  LYS   F .   43 ?  -36.116 -81.630 -22.412 -4.12  0   F
+ATOM     5596    O  OD2 .  ASP   F .   49 ?  -42.905 -77.388 -24.802 -0.81  0   F
+ATOM     5335    O  OD1 .  ASN   F .   16 ?  -44.716 -81.351 -19.580 -2.14  0   F
+# 

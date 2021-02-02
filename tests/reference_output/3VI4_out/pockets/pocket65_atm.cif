@@ -1,0 +1,64 @@
+data_pocket65_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    65:
+0  - Pocket Score                      : -0.0251
+1  - Drug Score                        : 0.0139
+2  - Number of alpha spheres           :    28
+3  - Mean alpha-sphere radius          : 3.7362
+4  - Mean alpha-sphere Solvent Acc.    : 0.4080
+5  - Mean B-factor of pocket residues  : 0.2554
+6  - Hydrophobicity Score              : 2.8000
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.2000
+9  - Pocket volume (Monte Carlo)       : 259.5671
+10  -Pocket volume (convex hull)       : 11.3617
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 13.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.5000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6603    O    O .  ASN   B .  277 ?    9.990  -9.649  -6.187 -6.17  0   B
+ATOM     6804    C   CG .  HIS   B .  301 ?    9.706  -7.212 -10.591  0.00  0   B
+ATOM     6604    C   CB .  ASN   B .  277 ?    7.668 -11.052  -7.688  0.00  0   B
+ATOM     2659    N  NH2 .  ARG   A .  350 ?    5.240  -5.511  -5.507 -4.37  0   A
+ATOM     6780    N    N .  SER   B .  298 ?    4.801  -7.000 -10.563  0.00  0   B
+ATOM     6785    O   OG .  SER   B .  298 ?    5.997  -4.501 -10.287  0.00  0   B
+ATOM     6600    N    N .  ASN   B .  277 ?    7.421 -10.342  -5.377  0.00  0   B
+ATOM     6805    N  ND1 .  HIS   B .  301 ?   10.570  -6.572  -9.797 -1.09  0   B
+ATOM     6807    C  CE1 .  HIS   B .  301 ?   11.399  -7.461  -9.232  0.00  0   B
+ATOM     2640    C  CD1 .  PHE   A .  348 ?   10.264  -2.753  -8.012  0.00  0   A
+ATOM     2423    O  OE1 .  GLU   A .  320 ?    6.731  -2.608  -8.744  0.00  0   A
+ATOM     6597    C   CB .  PRO   B .  276 ?    7.482  -7.621  -3.560  0.00  0   B
+ATOM     6774    C   CA .  PRO   B .  297 ?    5.193  -9.369 -10.201  0.00  0   B
+ATOM     2834    C   CB .  PHE   A .  375 ?   10.037  -1.924  -0.378  0.00  0   A
+ATOM     2638    C   CB .  PHE   A .  348 ?   10.823  -2.025  -5.658  0.00  0   A
+ATOM     2870    C   CG .  GLN   A .  380 ?   14.934  -2.841  -0.404  0.00  0   A
+ATOM     2836    C  CD1 .  PHE   A .  375 ?    9.333  -4.176   0.478  0.00  0   A
+ATOM     2835    C   CG .  PHE   A .  375 ?    8.992  -2.958  -0.102  0.00  0   A
+ATOM     6598    C   CG .  PRO   B .  276 ?    7.274  -6.971  -2.236  0.00  0   B
+ATOM     2637    O    O .  PHE   A .  348 ?    8.744  -1.164  -3.640 -3.21  0   A
+ATOM     2639    C   CG .  PHE   A .  348 ?   11.224  -2.463  -7.041  0.00  0   A
+ATOM     2641    C  CD2 .  PHE   A .  348 ?   12.568  -2.608  -7.376  0.00  0   A
+# 

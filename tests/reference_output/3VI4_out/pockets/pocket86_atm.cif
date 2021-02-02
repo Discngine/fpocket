@@ -1,0 +1,55 @@
+data_pocket86_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    86:
+0  - Pocket Score                      : -0.0527
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    18
+3  - Mean alpha-sphere radius          : 3.8813
+4  - Mean alpha-sphere Solvent Acc.    : 0.5933
+5  - Mean B-factor of pocket residues  : 0.5994
+6  - Hydrophobicity Score              : 50.5714
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 3.8571
+9  - Pocket volume (Monte Carlo)       : 128.0980
+10  -Pocket volume (convex hull)       : 1.7687
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.3889
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    18706    O    O .  LEU   F .  164 ?  -44.196 -70.373  28.776 -1.07  0   F
+ATOM    18663    O  OG1 .  THR   F .  158 ?  -43.218 -63.423  28.849 -5.09  0   F
+ATOM    18694    C   CA .  GLY   F .  162 ?  -40.106 -67.515  28.240  0.00  0   F
+ATOM    18715    C   CB .  SER   F .  165 ?  -44.337 -70.268  25.265  0.00  0   F
+ATOM    18665    N    N .  TRP   F .  159 ?  -44.435 -66.719  31.226  0.00  0   F
+ATOM    18733    C  CG2 .  VAL   F .  168 ?  -48.420 -70.232  28.312  0.00  0   F
+ATOM    18671    C  CD1 .  TRP   F .  159 ?  -47.791 -67.852  31.462  0.00  0   F
+ATOM    18714    O    O .  SER   F .  165 ?  -47.350 -70.972  25.224  0.00  0   F
+ATOM    18712    C   CA .  SER   F .  165 ?  -45.207 -71.003  26.292  0.00  0   F
+ATOM    18732    C  CG1 .  VAL   F .  168 ?  -49.763 -68.146  28.385  0.00  0   F
+ATOM    18654    O    O .  VAL   F .  157 ?  -46.916 -63.352  29.360 -1.21  0   F
+ATOM    18659    C   CA .  THR   F .  158 ?  -44.601 -64.361  30.625  0.00  0   F
+ATOM    18731    C   CB .  VAL   F .  168 ?  -49.615 -69.504  27.714  0.00  0   F
+# 

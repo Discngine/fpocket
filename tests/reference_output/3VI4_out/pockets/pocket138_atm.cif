@@ -1,0 +1,55 @@
+data_pocket138_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   138:
+0  - Pocket Score                      : -0.1126
+1  - Drug Score                        : 0.0035
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.8440
+4  - Mean alpha-sphere Solvent Acc.    : 0.4790
+5  - Mean B-factor of pocket residues  : 0.8290
+6  - Hydrophobicity Score              : 64.3333
+7  - Polarity Score                    :     1
+8  - Amino Acid based volume Score     : 4.8333
+9  - Pocket volume (Monte Carlo)       : 198.8508
+10  -Pocket volume (convex hull)       : 3.2312
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 9.0000
+13 - Number of apolar alpha sphere     :    10
+14 - Proportion of apolar alpha sphere : 0.6250
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    12000    C   CB .  MET   C .  546 ?  -25.832   7.533 -77.462  0.00  0   C
+ATOM    11806    C  CD2 .  PHE   C .  521 ?  -30.211   7.536 -74.542  0.00  0   C
+ATOM    11818    N    N .  ALA   C .  523 ?  -31.798  11.382 -78.877 -1.09  0   C
+ATOM    11822    C   CB .  ALA   C .  523 ?  -31.912   9.648 -80.595  0.00  0   C
+ATOM    11814    C   CB .  LEU   C .  522 ?  -29.748  13.693 -77.652  0.00  0   C
+ATOM    11817    C  CD2 .  LEU   C .  522 ?  -28.600  15.268 -79.270  0.00  0   C
+ATOM    12002    S   SD .  MET   C .  546 ?  -27.308   5.448 -76.412  0.00  0   C
+ATOM    12003    C   CE .  MET   C .  546 ?  -26.922   4.645 -77.970  0.00  0   C
+ATOM    11867    C  CD1 .  LEU   C .  529 ?  -32.352   4.373 -77.693  0.00  0   C
+ATOM    11803    C   CB .  PHE   C .  521 ?  -32.097   9.019 -75.301  0.00  0   C
+ATOM    12007    O    O .  LYS   C .  547 ?  -28.174  11.621 -75.654 -2.14  0   C
+ATOM    12004    N    N .  LYS   C .  547 ?  -25.630  10.414 -76.629 -1.51  0   C
+ATOM    12008    C   CB .  LYS   C .  547 ?  -25.354  12.860 -76.516  0.00  0   C
+# 

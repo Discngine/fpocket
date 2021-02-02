@@ -1,0 +1,71 @@
+data_pocket131_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   131:
+0  - Pocket Score                      : -0.1084
+1  - Drug Score                        : 0.0007
+2  - Number of alpha spheres           :    42
+3  - Mean alpha-sphere radius          : 3.9641
+4  - Mean alpha-sphere Solvent Acc.    : 0.5284
+5  - Mean B-factor of pocket residues  : 0.4745
+6  - Hydrophobicity Score              : -6.1667
+7  - Polarity Score                    :     9
+8  - Amino Acid based volume Score     : 3.3333
+9  - Pocket volume (Monte Carlo)       : 434.8210
+10  -Pocket volume (convex hull)       : 55.9893
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 8.2000
+13 - Number of apolar alpha sphere     :    10
+14 - Proportion of apolar alpha sphere : 0.2381
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     7453    C  CG1 .  VAL   B .  385 ?    9.834   9.638 -39.692  0.00  0   B
+ATOM     7452    C   CB .  VAL   B .  385 ?   10.589   9.663 -41.017  0.00  0   B
+ATOM     7535    C   CB .  ASN   B .  397 ?    9.948   2.039 -42.081  0.00  0   B
+ATOM     7454    C  CG2 .  VAL   B .  385 ?    9.604   9.687 -42.180  0.00  0   B
+ATOM     7536    C   CG .  ASN   B .  397 ?    8.696   1.658 -42.851  0.00  0   B
+ATOM     7530    O   OG .  SER   B .  396 ?    8.968   3.541 -37.094  0.00  0   B
+ATOM     7537    O  OD1 .  ASN   B .  397 ?    7.800   0.992 -42.313 -2.28  0   B
+ATOM     7430    O    O .  LYS   B .  382 ?   12.468   7.587 -43.526 -4.29  0   B
+ATOM     7426    S   SG .  CYS   B .  381 ?   14.044   6.958 -37.747  0.00  0   B
+ATOM     7451    O    O .  VAL   B .  385 ?   13.106   9.916 -39.537  0.00  0   B
+ATOM     7458    O    O .  ASN   B .  386 ?   11.626  12.661 -36.792 -6.17  0   B
+ATOM     7457    C    C .  ASN   B .  386 ?   12.829  12.418 -36.859  0.00  0   B
+ATOM     7494    N  ND2 .  ASN   B .  391 ?    7.796  10.991 -31.616 -3.45  0   B
+ATOM     7492    C   CG .  ASN   B .  391 ?    8.723  10.180 -31.116  0.00  0   B
+ATOM     7491    C   CB .  ASN   B .  391 ?   10.158  10.640 -31.230  0.00  0   B
+ATOM     7513    O    O .  LYS   B .  394 ?   13.519   6.586 -34.294 -0.40  0   B
+ATOM     7464    C   CA .  GLY   B .  387 ?   12.984  12.069 -34.446  0.00  0   B
+ATOM     7408    O   OG .  SER   B .  379 ?   14.762   9.313 -34.813  0.00  0   B
+ATOM     7442    O  OD1 .  ASN   B .  383 ?   10.537   5.958 -46.189 -6.83  0   B
+ATOM     7514    C   CB .  LYS   B .  394 ?   11.695   5.504 -32.022  0.00  0   B
+ATOM     7272    O  OE1 .  GLU   B .  361 ?    8.715   1.159 -34.119 -2.95  0   B
+ATOM     7516    C   CD .  LYS   B .  394 ?   10.021   5.337 -30.146  0.00  0   B
+ATOM     7490    O    O .  ASN   B .  391 ?   12.687   9.067 -32.011 -1.07  0   B
+ATOM     7528    O    O .  SER   B .  396 ?   11.882   2.791 -39.669 -1.07  0   B
+ATOM     7538    N  ND2 .  ASN   B .  397 ?    8.625   2.077 -44.124  0.00  0   B
+ATOM     7493    O  OD1 .  ASN   B .  391 ?    8.448   9.103 -30.589 -0.40  0   B
+ATOM     7515    C   CG .  LYS   B .  394 ?   11.116   4.619 -30.931  0.00  0   B
+ATOM     7425    C   CB .  CYS   B .  381 ?   14.042   6.881 -39.556  0.00  0   B
+ATOM     7525    N    N .  SER   B .  396 ?   11.608   3.238 -37.011 -1.09  0   B
+# 

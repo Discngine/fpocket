@@ -1,0 +1,64 @@
+data_pocket22_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    22:
+0  - Pocket Score                      : -0.0721
+1  - Drug Score                        : 0.0029
+2  - Number of alpha spheres           :    26
+3  - Mean alpha-sphere radius          : 4.0928
+4  - Mean alpha-sphere Solvent Acc.    : 0.6505
+5  - Mean B-factor of pocket residues  : 0.1985
+6  - Hydrophobicity Score              : 23.3750
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.5000
+9  - Pocket volume (Monte Carlo)       : 406.4958
+10  -Pocket volume (convex hull)       : 22.3687
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 8.1818
+13 - Number of apolar alpha sphere     :    11
+14 - Proportion of apolar alpha sphere : 0.4231
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1908    N   NZ .  LYS   A .  111 ?   33.582  -0.523   9.808  0.00  0   A
+ATOM     2799    O  OG1 .  THR   A .  161 ?   31.348   0.676  13.967 -4.29  0   A
+ATOM     2774    O  OE1 .  GLN   A .  160 ?   36.735  -0.054  16.677  0.00  0   A
+ATOM     2768    C   CB .  GLN   A .  160 ?   34.899   1.980  17.138  0.00  0   A
+ATOM     2795    C   CA .  THR   A .  161 ?   31.106   2.861  14.974  0.00  0   A
+ATOM     2800    C  CG2 .  THR   A .  161 ?   29.450   2.000  13.283  0.00  0   A
+ATOM     2797    O    O .  THR   A .  161 ?   29.809   4.864  14.763 -1.07  0   A
+ATOM     2847    C   CB .  ALA   A .  164 ?   32.504   7.163  13.669  0.00  0   A
+ATOM     1907    C   CE .  LYS   A .  111 ?   32.233  -0.383  10.434  0.00  0   A
+ATOM     1992    O  OG1 .  THR   A .  115 ?   27.444   3.526  10.915 -1.88  0   A
+ATOM     2853    N    N .  ALA   A .  165 ?   29.391   7.901  14.326  0.00  0   A
+ATOM     1993    C  CG2 .  THR   A .  115 ?   26.414   5.295   9.654  0.00  0   A
+ATOM     2717    C  CG2 .  ILE   A .  157 ?   32.705  -2.968  14.585  0.00  0   A
+ATOM     2716    C  CG1 .  ILE   A .  157 ?   34.696  -4.103  15.642  0.00  0   A
+ATOM     2718    C  CD1 .  ILE   A .  157 ?   34.611  -5.416  14.896  0.00  0   A
+ATOM     2764    C    C .  GLN   A .  160 ?   32.843   3.310  16.617  0.00  0   A
+ATOM     2794    N    N .  THR   A .  161 ?   31.994   2.449  16.053  0.00  0   A
+ATOM     2845    C    C .  ALA   A .  164 ?   30.495   8.602  14.068  0.00  0   A
+ATOM     2846    O    O .  ALA   A .  164 ?   30.473   9.633  13.386  0.00  0   A
+ATOM     2766    O    O .  GLN   A .  160 ?   32.913   4.495  16.270 -1.21  0   A
+ATOM     2854    C   CA .  ALA   A .  165 ?   28.120   8.283  13.724  0.00  0   A
+ATOM     1845    C  CG2 .  THR   A .  107 ?   32.373  -5.551  11.081  0.00  0   A
+# 
