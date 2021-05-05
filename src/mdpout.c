@@ -82,7 +82,7 @@ void write_md_grid(s_mdgrid *g, FILE *f, FILE *fiso,s_mdparams *par,float isoval
     fprintf(f,"# This is a standard DX file of occurences of cavities within MD trajectories.\n");
     fprintf(f,"# The file can be visualised using the freely available VMD software\n");
     fprintf(f,"# fpocket parameters used to create this dx file : \n");
-    fprintf(f,"# \t-m %2.f (min alpha sphere size) -M %.2f (max alpha sphere size)\n",par->fpar->asph_min_size, par->fpar->asph_max_size);
+    fprintf(f,"# \t-m %.2f (min alpha sphere size) -M %.2f (max alpha sphere size)\n",par->fpar->asph_min_size, par->fpar->asph_max_size);
     fprintf(f,"# \t-i %d (min number of alpha spheres per pocket)\n",par->fpar->min_pock_nb_asph);
     if(par->flag_scoring) fprintf(f,"# \t-S (Map drug score to density map!)\n");
     fprintf(f,"object 1 class gridpositions counts %d %d %d\n",g->nx,g->ny,g->nz);
