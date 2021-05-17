@@ -426,6 +426,7 @@ void mdpocket_characterize(s_mdparams *par) {
                 fflush(stdout);
                 fprintf(fout[0], "MODEL        %d\n", i);
                 cpdb = open_pdb_file(par->fsnapshot[i],par); /*open the snapshot pdb handle*/
+                par->fpar->flag_do_asa_and_volume_calculations = 0; /*don't do ASA and volume calculations here as they are expensive and we don't need the results here*/
                 pockets = mdprocess_pdb(cpdb, par, i + 1); /*perform pocket detection on the current snapshot*/
 
                 if (i == 0)wanted_atom_ids = get_wanted_atom_ids(cpdb, wantedpocket, &nwanted_atom_ids);
@@ -450,6 +451,7 @@ void mdpocket_characterize(s_mdparams *par) {
 
                     /*get atoms contacted by the pocket*/
                     pocket_atoms = get_pocket_contacted_atms(cpocket, &natms);
+                    par->fpar->flag_do_asa_and_volume_calculations = 1; /*do ASA and volume calculations*/
                     set_descriptors(pocket_atoms, natms, tab_vert, cpocket->v_lst->n_vertices, cpocket->pdesc, par->fpar->nb_mcv_iter, cpdb, par->fpar->flag_do_asa_and_volume_calculations);
 
                     my_free(pocket_atoms); /*free current pocket atoms*/
@@ -547,6 +549,7 @@ void mdpocket_characterize(s_mdparams *par) {
                     cur_atom->y = ts_in.coords[3 * j + 1];
                     cur_atom->z = ts_in.coords[3 * j + 2];
                 }
+                par->fpar->flag_do_asa_and_volume_calculations = 0; /*don't do ASA and volume calculations here as they are expensive and we don't need the results here*/
                 pockets = mdprocess_pdb(topology_pdb, par, k); /*perform pocket detection on the current snapshot*/
 //                fprintf(stdout, "natoms : %d\n", topology_pdb->natoms);
                 fprintf(stdout, "\r");
@@ -600,6 +603,7 @@ void mdpocket_characterize(s_mdparams *par) {
 
                     /*get atoms contacted by the pocket*/
                     pocket_atoms = get_pocket_contacted_atms(cpocket, &natms);
+                    par->fpar->flag_do_asa_and_volume_calculations = 1; /* do ASA and volume calculations. */ 
                     set_descriptors(pocket_atoms, natms, tab_vert, cpocket->v_lst->n_vertices, cpocket->pdesc, par->fpar->nb_mcv_iter, topology_pdb, par->fpar->flag_do_asa_and_volume_calculations);
                     //if (par->fpar->flag_do_grid_calculations && k == 1) vdw_grid = init_pocket_grid(cpocket);
                     my_free(pocket_atoms); /*free current pocket atoms*/
