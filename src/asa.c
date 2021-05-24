@@ -306,8 +306,13 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
-                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray) vrefburried=0;
+                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray) {
+                            vrefburried=0;
+                            break;}
                     }
+                }
+                if(!vrefburried){
+                    break;
                 }
             }
             while(!burried && j< n_sa && !vrefburried){
@@ -365,8 +370,13 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
-                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray) vrefburried=0;
+                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray){
+                            vrefburried=0;
+                            break;}
                     }
+                }
+                    if(!vrefburried){
+                    break;
                 }
             }
             while(!burried && j< n_sa && !vrefburried){
