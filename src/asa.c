@@ -100,7 +100,7 @@ int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_s
                 sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
                 sa[*n_sa-1]=i;
                 }
-            break;
+            continue;
         }
         if(strncmp(a->symbol,"H",1)){
             flag=0;
