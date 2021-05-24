@@ -1,4 +1,5 @@
 #include "../headers/asa.h"
+#include  <stdlib.h>
 /*
  * Copyright <2012> <Vincent Le Guilloux,Peter Schmidtke, Pierre Tuffery>
  * Copyright <2013-2018> <Peter Schmidtke, Vincent Le Guilloux>
@@ -81,7 +82,7 @@ int atom_in_list(s_atm *a, s_atm **atoms, int natoms){
         int * : atom ids of surrounding atoms
  */
 
-int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_sa){
+int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_sa, s_atm **ua, int n_ua){
     s_atm *a=NULL;
     int *sa=NULL;
     int i,z,flag=0;
@@ -89,6 +90,18 @@ int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_s
     for(i=0;i<pdb->natoms;i++){
         a=pdb->latoms_p[i];
         //consider only heavy atoms for vdw incr.
+        if(atom_in_list(a, ua, n_ua)){
+            *n_sa=*n_sa+1;
+            if(sa==NULL){
+                sa=(int *)malloc(sizeof(int));
+                sa[*n_sa-1]=i;
+                }
+            else {
+                sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
+                sa[*n_sa-1]=i;
+                }
+            break;
+        }
         if(strncmp(a->symbol,"H",1)){
             flag=0;
             for(z=0;z<nvert && !flag;z++){
@@ -255,10 +268,10 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
     int n_sa = 0;
     int n_ua = 0;
     int i;
-    sa=get_surrounding_atoms_idx(tvert,nvert,pdb, &n_sa);
     /*ua=get_unique_atoms_DEPRECATED(tvert,nvert, &n_ua,pdb->latoms_p,pdb->natoms);*/
 
     ua=get_unique_atoms_DEPRECATED(tvert,nvert, &n_ua);
+    sa=get_surrounding_atoms_idx(tvert, nvert, pdb, &n_sa,ua,n_ua);
     float *abpatmp=NULL;
     abpatmp=(float *)my_malloc(sizeof(float)*n_ua);
 /*
@@ -306,7 +319,7 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
-                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray) {
+                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray){
                             vrefburried=0;
                             break;}
                     }
@@ -370,12 +383,12 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
-                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray){
-                            vrefburried=0;
-                            break;}
+                        if(ddist(tx,ty,tz,tvert[iv]->x,tvert[iv]->y,tvert[iv]->z)<=tvert[iv]->ray*tvert[iv]->ray) 
+                          {vrefburried=0;
+                           break;}
                     }
                 }
-                    if(!vrefburried){
+                if(!vrefburried){
                     break;
                 }
             }
