@@ -87,38 +87,78 @@ int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_s
     int *sa=NULL;
     int i,z,flag=0;
     *n_sa=0;
+    s_vvertice *vcur = NULL;
+
+    float xmin = 0.0, xmax = 0.0,
+          ymin = 0.0, ymax = 0.0,
+          zmin = 0.0, zmax = 0.0,
+          xtmp = 0.0, ytmp = 0.0, ztmp = 0.0;
+          
+    for(i=0; i<nvert; i++){
+        vcur = tvert[i];
+        if(i==0){
+            xmin = vcur->x - vcur->ray - M_PADDING;
+            xmax = vcur->x + vcur->ray + M_PADDING;
+            ymin = vcur->y - vcur->ray - M_PADDING;
+            ymax = vcur->y + vcur->ray + M_PADDING;
+            zmin = vcur->z - vcur->ray - M_PADDING;
+            zmax = vcur->z + vcur->ray + M_PADDING;
+        }
+        else{
+            if (xmin > (xtmp = vcur->x - vcur->ray - M_PADDING))
+                xmin = xtmp;
+            else if (xmax < (xtmp = vcur->x + vcur->ray + M_PADDING))
+                xmax = xtmp;
+
+            if (ymin > (ytmp = vcur->y - vcur->ray - M_PADDING))
+                ymin = ytmp;
+            else if (ymax < (ytmp = vcur->y + vcur->ray + M_PADDING))
+                ymax = ytmp;
+
+            if (zmin > (ztmp = vcur->z - vcur->ray - M_PADDING))
+                zmin = ztmp;
+            else if (zmax < (ztmp = vcur->z + vcur->ray + M_PADDING))
+                zmax = ztmp;
+        }
+    }
+
     for(i=0;i<pdb->natoms;i++){
         a=pdb->latoms_p[i];
         //consider only heavy atoms for vdw incr.
-        if(atom_in_list(a, ua, n_ua)){
-            *n_sa=*n_sa+1;
-            if(sa==NULL){
-                sa=(int *)malloc(sizeof(int));
-                sa[*n_sa-1]=i;
-                }
-            else {
-                sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
-                sa[*n_sa-1]=i;
-                }
-            continue;
-        }
-        if(strncmp(a->symbol,"H",1)){
-            flag=0;
-            for(z=0;z<nvert && !flag;z++){
-                //flag=atom_not_in_list(a,sa,*n_sa);
-                flag=in_tab(sa,*n_sa,i);
-                if(!flag && ddist(a->x,a->y,a->z,tvert[z]->x,tvert[z]->y,tvert[z]->z)<(tvert[z]->ray+M_PADDING)*(tvert[z]->ray+M_PADDING)){
-                    *n_sa=*n_sa+1;
-                    if(sa==NULL){
-                        sa=(int *)malloc(sizeof(int));
-                        sa[*n_sa-1]=i;
-                    }
-                    else {
-                        sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
-                        sa[*n_sa-1]=i;
-                    }
-                }
-            }
+        xtmp = a->x;
+        ytmp = a->y;
+        ztmp = a->z;
+        if(xtmp>=xmin && xtmp<=xmax && ytmp>=ymin && ytmp<=ymax && ztmp>=zmin && ztmp<=zmax){
+          if(atom_in_list(a, ua, n_ua)){
+              *n_sa=*n_sa+1;
+              if(sa==NULL){
+                  sa=(int *)malloc(sizeof(int));
+                  sa[*n_sa-1]=i;
+                  }
+              else {
+                  sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
+                  sa[*n_sa-1]=i;
+                  }
+              continue;
+          }
+          if(strncmp(a->symbol,"H",1)){
+              flag=0;
+              for(z=0;z<nvert && !flag;z++){
+                  //flag=atom_not_in_list(a,sa,*n_sa);
+                  flag=in_tab(sa,*n_sa,i);
+                  if(!flag && ddist(a->x,a->y,a->z,tvert[z]->x,tvert[z]->y,tvert[z]->z)<(tvert[z]->ray+M_PADDING)*(tvert[z]->ray+M_PADDING)){
+                      *n_sa=*n_sa+1;
+                      if(sa==NULL){
+                          sa=(int *)malloc(sizeof(int));
+                          sa[*n_sa-1]=i;
+                      }
+                      else {
+                          sa=(int *)realloc(sa,sizeof(int)*(*n_sa));
+                          sa[*n_sa-1]=i;
+                      }
+                  }
+              }
+           }
         }
     }
     return sa;
@@ -228,7 +268,43 @@ s_atm **get_unique_atoms_DEPRECATED(s_vvertice **tvert,int nvert, int *n_ua)
     return ua;
 }
 
-
+int **nei_vert_of_ua(s_vvertice **tvert, int nvert, s_atm **ua, int n_ua){
+    int **reverse_neis;
+    reverse_neis =(int **)malloc(n_ua*sizeof(int *));
+    for (int i=0; i<n_ua; i++){
+        reverse_neis[i] = (int *)malloc(nvert*sizeof(int *));
+    }
+    for(int i=0; i<n_ua; i++){
+        for(int j=0; j < nvert; j++){
+            reverse_neis[i][j] = -1;
+        }
+    }
+    //memset(reverse_neis, -1, sizeof(reverse_neis[0][0]) * n_ua * nvert);
+    s_atm **neighs = NULL ;
+    s_atm *a = NULL;
+    int i=0, z=0, j=0;
+    int n_reverse_neigh;
+    //fprintf(stdout, "%d, %d", nvert, n_ua);
+    //fprintf(stdout, "%d", reverse_neis[0][0]);
+    for(i=0; i<n_ua; i++){
+        n_reverse_neigh=0;
+        for(z=0; z<nvert; z++){
+            for(j=0; j<4; j++){
+                a = tvert[z]->neigh[j];
+                if(ua[i] == a){
+                   if(ua[i]->id != a->id) {
+                     fprintf(stdout,"WARNING asa.c: atom in the list but with different ID!") ;
+                   }
+                   //fprintf(stdout, "%d, %d", i, z);
+                   reverse_neis[i][n_reverse_neigh]=z;
+                   n_reverse_neigh += 1;
+                }
+            }
+        }
+    }
+    //fprintf(stdout, "%d", reverse_neis[0][0]);
+    return reverse_neis;
+}
 /**
    ## FUNCTION:
         set_ASA
@@ -268,10 +344,21 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
     int n_sa = 0;
     int n_ua = 0;
     int i;
+    //int **reverse_neis = NULL;
+    //qsort(tvert, nvert,sizeof(tvert[0]),cmp_vert);
+    //sa=get_surrounding_atoms_idx(tvert,nvert,pdb, &n_sa);
     /*ua=get_unique_atoms_DEPRECATED(tvert,nvert, &n_ua,pdb->latoms_p,pdb->natoms);*/
 
     ua=get_unique_atoms_DEPRECATED(tvert,nvert, &n_ua);
     sa=get_surrounding_atoms_idx(tvert, nvert, pdb, &n_sa,ua,n_ua);
+    //int **reverse_neis = nei_vert_of_ua(tvert, nvert, ua, n_ua);;
+    //reverse_neis = nei_vert_of_ua(tvert, nvert, ua, n_ua);
+    //fprintf(stdout, "%d", reverse_neis[0][0]);
+    //for(int i=0; i<n_ua; i++){
+    //    for(int j=0; j<nvert; j++){
+    //        fprintf(stdout, "%d ", reverse_neis[i][j]);
+    //    }
+    //}
     float *abpatmp=NULL;
     abpatmp=(float *)my_malloc(sizeof(float)*n_ua);
 /*
@@ -316,6 +403,15 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             ty=cura->y+curpts[3*k+1]*(cura->radius+M_PROBE_SIZE);
             tz=cura->z+curpts[3*k+2]*(cura->radius+M_PROBE_SIZE);
             vrefburried=1;
+            //for(iv=0; iv<nvert; iv++){
+            //    int vertidx = reverse_neis[i][iv];
+            //    if(vertidx == -1){
+            //        break;
+            //    }
+            //    if(ddist(tx,ty,tz,tvert[vertidx]->x,tvert[vertidx]->y,tvert[vertidx]->z)<=tvert[vertidx]->ray*tvert[vertidx]->ray){
+            //                vrefburried=0;
+            //                break;}
+            //}
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
@@ -380,6 +476,15 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
             ty=cura->y+curpts[3*k+1]*(cura->radius+M_PROBE_SIZE2);
             tz=cura->z+curpts[3*k+2]*(cura->radius+M_PROBE_SIZE2);
             vrefburried=1;
+            //for(iv=0; iv<nvert; iv++){
+            //    int vertidx = reverse_neis[i][iv];
+            //    if(vertidx == -1){
+            //        break;
+            //    }
+            //    if(ddist(tx,ty,tz,tvert[vertidx]->x,tvert[vertidx]->y,tvert[vertidx]->z)<=tvert[vertidx]->ray*tvert[vertidx]->ray){
+            //                vrefburried=0;
+            //                break;}
+            //}
             for(iv=0;iv<nvert;iv++){
                 for(vidx=0;vidx<4;vidx++){
                     if(cura==tvert[iv]->neigh[vidx]){
@@ -435,6 +540,7 @@ void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert)
     
     free(ua);
     free(sa);
+    //free(reverse_neis);
     my_free(abpatmp);
 
     sa=NULL;
@@ -477,3 +583,6 @@ float *get_points_on_sphere(int nop) {
 }
 
 
+int cmp_vert(s_vvertice *verta, s_vvertice *vertb){
+    return ((verta->ray > vertb->ray)? -1 : 1);
+}
