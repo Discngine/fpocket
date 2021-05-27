@@ -52,6 +52,6 @@ int atom_not_in_list(s_atm *a,s_atm **atoms,int natoms);
 void set_ASA(s_desc *desc,s_pdb *pdb, s_vvertice **tvert,int nvert);
 int *get_unique_atoms(s_vvertice **tvert,int nvert, int *n_ua,s_atm **p,int na);
 float *get_points_on_sphere(int nop);
-int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_sa);
+int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_sa, s_atm **ua, int n_ua);
 
 #endif

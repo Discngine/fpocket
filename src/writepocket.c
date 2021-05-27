@@ -136,6 +136,8 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
     int n_sa = 0;
     int *sa = NULL; /*surrounding atoms container*/
     s_vvertice **tab_vert = NULL;
+    int n_ua = 0;
+    s_atm **ua = NULL;
 
     FILE *f = fopen(out, "w");
     if (f && pocket) {
@@ -157,7 +159,9 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
             nvcur = nvcur->next;
             nvert++;
         }
-        sa = (int *) get_surrounding_atoms_idx(tab_vert, nvert, pdb, &n_sa);
+        ua=get_unique_atoms_DEPRECATED(tab_vert,nvert, &n_ua);
+        sa=get_surrounding_atoms_idx(tab_vert, nvert, pdb, &n_sa,ua,n_ua);
+        //sa = (int *) get_surrounding_atoms_idx(tab_vert, nvert, pdb, &n_sa);
         for (i = 0; i < n_sa; i++) {
             //atom = pocket->sou_atoms[i] ;
             atom = pdb->latoms_p[sa[i]];
