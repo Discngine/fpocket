@@ -128,8 +128,8 @@ int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_s
         xtmp = a->x;
         ytmp = a->y;
         ztmp = a->z;
-        if(xtmp>=xmin && xtmp<=xmax && ytmp>=ymin && ytmp<=ymax && ztmp>=zmin && ztmp<=zmax){
-          if(atom_in_list(a, ua, n_ua)){
+        if(atom_in_list(a, ua, n_ua)){
+            if(strncmp(a->symbol, "H",1)){
               *n_sa=*n_sa+1;
               if(sa==NULL){
                   sa=(int *)malloc(sizeof(int));
@@ -141,6 +141,9 @@ int *get_surrounding_atoms_idx(s_vvertice **tvert,int nvert,s_pdb *pdb, int *n_s
                   }
               continue;
           }
+        }
+        if(xtmp>=xmin && xtmp<=xmax && ytmp>=ymin && ytmp<=ymax && ztmp>=zmin && ztmp<=zmax){
+
           if(strncmp(a->symbol,"H",1)){
               flag=0;
               for(z=0;z<nvert && !flag;z++){
