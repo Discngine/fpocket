@@ -1,7 +1,8 @@
-FROM centos:7
+FROM ubuntu:18.04
 
-#RUN yum -y install epel-release && yum -y update && yum -y install gcc gcc-c++ make netcdf-devel; yum clean all
-RUN yum -y install gcc gcc-c++ make netcdf-devel; yum clean all
+RUN apt -y update
+RUN apt-get install -y build-essential
+RUN apt-get install -y libnetcdf-dev libnetcdff-dev
 
 # all of this mess is essentially to have a minimalistic build at the end
 COPY makefile /opt/fpocket/
