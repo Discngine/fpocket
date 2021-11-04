@@ -1,8 +1,6 @@
-FROM debian:bullseye
-
-#RUN yum -y install epel-release && yum -y update && yum -y install gcc gcc-c++ make netcdf-devel; yum clean all
-RUN apt update
-RUN apt install -y gcc g++ make libnetcdf-dev
+FROM debian:bullseye-slim
+RUN groupadd -r fpocket && useradd --no-log-init -r -g fpocket fpocket
+RUN apt update -y && apt install -y gcc g++ make libnetcdf-dev && rm -rf /var/lib/apt/lists/*
 
 # all of this mess is essentially to have a minimalistic build at the end
 COPY makefile /opt/fpocket/
@@ -18,8 +16,7 @@ COPY plugins/noarch /opt/fpocket/plugins/noarch
 
 WORKDIR /opt/fpocket
 
-RUN make; make install; make clean
-
-WORKDIR /WORKDIR
-
+RUN make && make install && make clean
+USER fpocket
+WORKDIR /tmp
 CMD ["fpocket"]

@@ -12,8 +12,11 @@ PATH_HEADER = headers/
 PATH_BIN    = bin/
 PATH_MAN    = man/
 PATH_QHULL  = src/qhull/src
+PATH_LIB	= $(PLUGINDIR)/$(ARCH)/molfile/
 
 BINDIR  = /usr/local/bin/
+LIBDIR  = /usr/local/lib/
+
 MANDIR  = /usr/local/man/man8/
 
 
@@ -180,6 +183,7 @@ install:
 	cp $(PATH_BIN)$(DPOCKET) $(BINDIR)
 	cp $(PATH_BIN)$(MDPOCKET) $(BINDIR)
 	cp $(PATH_MAN)* $(MANDIR)
+	cp $(PATH_LIB)* $(LIBDIR)
 
 check:
 	./$(PATH_BIN)$(CHECK)
