@@ -186,7 +186,8 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                     }
                     if (par->xlig_resnumber > -1)
                     {
-                        if (at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2])
+
+                        if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
                         {
                             pdb->n_xlig_atoms++;
                         }
@@ -463,7 +464,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                     //printf("ATOM TYPE: %s",at_in[i].atom_type);
                     if (pdb->n_xlig_atoms)
                     {
-                        if (at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2])
+                        if ((at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == params->xlig_chain_code[0] && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]))
                         {
                             //if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
 
