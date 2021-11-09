@@ -816,7 +816,8 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
     pdb->xlig_x = NULL;
     pdb->xlig_y = NULL;
     pdb->xlig_z = NULL;
-
+    pdb->model_flag=0;
+    pdb->model_number=model_number;
     /* Open the PDB file in read-only mode */
     pdb->fpdb = fopen_pdb_check_case(fpath, "r");
 
@@ -827,18 +828,27 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
         return NULL;
     }
     //printf("Model Number : %d\n",model_number);
-    if (model_number > 0)
-        model_flag = 1; /*here we indicate that a particular model should be read only*/
+    if (model_number > 0) {
+        //first check if there are multiple conformations in the PDB file or not: 
+
+        while (fgets(buf, M_PDB_LINE_LEN + 2, pdb->fpdb))
+        {
+            if (!strncmp(buf, "MODEL", 5) && model_number > 0){
+                pdb->model_flag=1;       /*here we indicate that a particular model should be read only*/
+            }
+        }
+        rewind(pdb->fpdb);
+     }
+    
     while (fgets(buf, M_PDB_LINE_LEN + 2, pdb->fpdb))
     {
-        if (!strncmp(buf, "MODEL", 5) && model_number > 0)
+        if (!strncmp(buf, "MODEL", 5) && model_number > 0 && pdb->model_flag)
         {
             cur_model_count++;
-            printf("model : %d\n", cur_model_count);
             if (cur_model_count == model_number)
                 model_read = 1;
         }
-        if (model_flag == 0 || model_read == 1)
+        if (pdb->model_flag == 0 || model_read == 1)
         {
 
             if (!strncmp(buf, "ATOM ", 5) && !is_ligand(par->chain_as_ligand,buf[21]))
@@ -977,7 +987,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
 
             else if (model_read == 1 && !strncmp(buf, "ENDMDL", 6))
                 model_read = 0;
-            else if (model_number == 0 && !strncmp(buf, "END", 3))
+            else if (pdb->model_flag == 0 && !strncmp(buf, "END", 3))
                 break;
         }
     }
@@ -1081,18 +1091,16 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
 
     float tmpx, tmpy, tmpz; /* storing the coordinates x,y,z*/
     /* Loop over the pdb file */
-    if (model_number > 0)
-        model_flag = 1; /*here we indicate that a particular model should be read only*/
     while (fgets(pdb_line, M_PDB_LINE_LEN + 2, pdb->fpdb))
     {
 
-        if (!strncmp(pdb_line, "MODEL", 5) && model_number > 0)
+        if (!strncmp(pdb_line, "MODEL", 5) && model_number > 0 && pdb->model_flag)
         {
             cur_model_count++;
             if (cur_model_count == model_number)
                 model_read = 1;
         }
-        if (model_flag == 0 || model_read == 1)
+        if (pdb->model_flag == 0 || model_read == 1)
         {
 
             if (strncmp(pdb_line, "ATOM ", 5) == 0 && !is_ligand(params->chain_as_ligand,pdb_line[21]))
@@ -1371,7 +1379,7 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
             }
             else if (model_read == 1 && !strncmp(pdb_line, "ENDMDL", 6))
                 model_read = 0;
-            else if (model_number == 0 && !strncmp(pdb_line, "END ", 3))
+            else if (pdb->model_flag == 0 && !strncmp(pdb_line, "END ", 3))
                 break;
         }
     }
