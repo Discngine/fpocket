@@ -207,6 +207,9 @@ extern int molfile_maeffplugin_fini(void);
 extern int molfile_orcaplugin_init(void);
 extern int molfile_orcaplugin_register(void *, vmdplugin_register_cb);
 extern int molfile_orcaplugin_fini(void);
+extern int molfile_qcschemaplugin_init(void);
+extern int molfile_qcschemaplugin_register(void *, vmdplugin_register_cb);
+extern int molfile_qcschemaplugin_fini(void);
 
 #define MOLFILE_INIT_ALL \
     molfile_abinitplugin_init(); \
@@ -276,6 +279,7 @@ extern int molfile_orcaplugin_fini(void);
     molfile_dtrplugin_init(); \
     molfile_maeffplugin_init(); \
     molfile_orcaplugin_init(); \
+    molfile_qcschemaplugin_init(); \
 
 #define MOLFILE_REGISTER_ALL(v, cb) \
     molfile_abinitplugin_register(v, cb); \
@@ -345,6 +349,7 @@ extern int molfile_orcaplugin_fini(void);
     molfile_dtrplugin_register(v, cb); \
     molfile_maeffplugin_register(v, cb); \
     molfile_orcaplugin_register(v, cb); \
+    molfile_qcschemaplugin_register(v, cb); \
 
 #define MOLFILE_FINI_ALL \
     molfile_abinitplugin_fini(); \
@@ -414,6 +419,7 @@ extern int molfile_orcaplugin_fini(void);
     molfile_dtrplugin_fini(); \
     molfile_maeffplugin_fini(); \
     molfile_orcaplugin_fini(); \
+    molfile_qcschemaplugin_fini(); \
 
 #ifdef __cplusplus
 }
