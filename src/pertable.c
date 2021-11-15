@@ -242,6 +242,60 @@ float pte_get_enegativity(const char *symbol)
 	return -1 ;
 }
 
+
+
+/**
+   ## FUNCTION:
+	pte_get_element_from_number
+  
+   ## SPECIFICATION:
+	Returns the symbol for a given element through the atomic number
+  
+   ## PARAMETERS:	
+	@ const char *symbol: The symbol of the element in the periodic table
+  
+   ## RETURN:
+	char*: atom element symbol
+  
+*/
+char *pte_get_element_from_number(int atomicnumber)
+{
+	char tmp[3] ;
+	if(atomicnumber>0 && atomicnumber<112){
+	
+		tmp[0] = ST_pte_symbol[atomicnumber][0] ;
+		tmp[1] = ST_pte_symbol[atomicnumber][1] ;
+		tmp[2] = '\0';
+		return tmp;
+	} 
+	return -1 ;
+}
+
+/**
+   ## FUNCTION:
+	pte_get_enegativity_from_number
+  
+   ## SPECIFICATION:
+	Returns the electronegativity (Pauling) value for a given element
+  
+   ## PARAMETERS:	
+	@ const char *symbol: The symbol of the element in the periodic table
+  
+   ## RETURN:
+	float: electrobegativity of Pauling corresponding to symbol
+  
+*/
+float pte_get_enegativity_from_number(int atomicnumber)
+{
+	if(atomicnumber>0 && atomicnumber<112)
+		return ST_pte_electronegativity[atomicnumber] ;
+		
+	
+
+	return -1 ;
+}
+
+
 /**
    ## FUNCTION:
 	is_valid_element

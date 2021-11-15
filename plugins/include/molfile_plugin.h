@@ -120,10 +120,12 @@ typedef struct {
   /* chains for existing PDBx/mmCIF files.                       */
   char chain[4];      /**< required chain name, or ""            */
 #else
-  char chain[2];      /**< required chain name, or ""            */
+  char chain[16];      /**< required chain name, or ""            */
 #endif
   /* rest are optional; use optflags to specify what's present   */
   char altloc[2];     /**< optional PDB alternate location code  */
+  char chain_auth[16];      /**< optional author chain name ""            */
+  int resid_auth;          /**< optional author integer residue ID           */
   char insertion[2];  /**< optional PDB insertion code           */
   float occupancy;    /**< optional occupancy value              */
   float bfactor;      /**< optional B-factor value               */
@@ -131,6 +133,7 @@ typedef struct {
   float charge;       /**< optional charge value                 */
   float radius;       /**< optional radius value                 */
   int atomicnumber;   /**< optional element atomic number        */
+  int modelnumber;    /**< optional model number                 */
 
 #if 0
   char complex[16];
@@ -165,6 +168,8 @@ typedef struct {
 #define MOLFILE_ALTLOC        0x0040 /**< Multiple conformations present   */
 #define MOLFILE_ATOMICNUMBER  0x0080 /**< Atomic element number provided   */
 #define MOLFILE_BONDSSPECIAL  0x0100 /**< Only non-standard bonds provided */
+#define MOLFILE_CHAIN_AUTH    0x0120 /**< if Author chain id provided      */
+#define MOLFILE_RESID_AUTH    0x0120 /**< if Author resid id provided      */
 #if defined(DESRES_CTNUMBER)
 #define MOLFILE_CTNUMBER      0x0200 /**< ctnumber provided */
 #endif

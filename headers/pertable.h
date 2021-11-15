@@ -28,6 +28,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 float pte_get_vdw_ray(const char *symbol) ;
 float pte_get_mass(const char *symbol) ;
 float pte_get_enegativity(const char *symbol) ;
+float pte_get_enegativity_from_number(int atomicnumber) ;
+char *pte_get_element_from_number(int atomicnumber);
 int is_valid_element(const char *str, int ignore_case) ;
 int element_in_std_res(char *res_name);
 int element_in_nucl_acid(char *res_name);
