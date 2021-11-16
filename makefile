@@ -1,6 +1,7 @@
 #------------------------------------------------------------
 # Makefile.
 #------------------------------------------------------------
+#ARCH	    = MACOSXX86_64
 ARCH	    = LINUXAMD64
 export ARCH
 
@@ -51,7 +52,8 @@ QCFLAGS     = -O -g -pg -ansi
 
 LGSL        = -L$(PATH_GSL)lib -lgsl -lgslcblas 
 LFLAGS	    = -lm -L$(PLUGINDIR)/$(ARCH)/molfile $(PLUGINDIR)/$(ARCH)/molfile/libmolfile_plugin.a -lstdc++
-NETCDFFLAGS	= -lnetcdf
+NETCDFFLAGS	= 
+#-lnetcdf
 
 #
 #------------------------------------------------------------
