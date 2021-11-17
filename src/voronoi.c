@@ -76,18 +76,14 @@ s_lst_vvertice *load_vvertices_DEPRECATED(s_pdb *pdb, int min_apol_neigh, float 
 
     char tmpn1[250] = "";
     char tmpn2[250] = "";
-
+    const char *env = getenv("TMPDIR");
     pid_t pid = getpid();
-
-    sprintf(tmpn1, "/tmp/qvoro_in_fpocket_%d.dat", pid);
-    sprintf(tmpn2, "/tmp/qvoro_out_fpocket_%d.dat", pid);
-    printf(tmpn1);
+    if (!env)
+        env = "/tmp/";
+    sprintf(tmpn1, "%s/qvoro_in_fpocket_%d.dat", env,pid);
+    sprintf(tmpn2, "%s/qvoro_out_fpocket_%d.dat", env, pid);
 
     srand(time(NULL));
-    /*
-        sprintf(tmpn1, "qvoro_in_fpocket_%d.dat", pid) ;
-        sprintf(tmpn2, "qvoro_out_fpocket_%d.dat", pid) ;
-     */
 
     FILE *fvoro = fopen(tmpn1, "w+");
     FILE *ftmp = fopen(tmpn2, "w");
@@ -190,20 +186,16 @@ s_lst_vvertice *load_vvertices(s_pdb *pdb, int min_apol_neigh, float asph_min_si
     char tmpn1[250] = "";
     char tmpn2[250] = "";
 
+    const char *env = getenv("TMPDIR");
     pid_t pid = getpid();
+    if (!env) env = "/tmp/";
+    sprintf(tmpn1, "%s/qvoro_in_fpocket_%d.dat", env,pid);
+    sprintf(tmpn2, "%s/qvoro_out_fpocket_%d.dat", env, pid);
 
-    sprintf(tmpn1, "/tmp/qvoro_in_fpocket_%d.dat", pid);
-    sprintf(tmpn2, "/tmp/qvoro_out_fpocket_%d.dat", pid);
-    //    fprintf(stdout, tmpn1);
-    /*fflush(stdout);*/
+
+
 
     srand(time(NULL));
-    /*
-        sprintf(tmpn1, "qvoro_in_fpocket_%d.dat", pid) ;
-        sprintf(tmpn2, "qvoro_out_fpocket_%d.dat", pid) ;
-     */
-
-    //    FILE *fvoro = fopen(tmpn1, "w+") ;
 
     //if (fvoro != NULL) {
     lvvert = (s_lst_vvertice *)my_malloc(sizeof(s_lst_vvertice));
@@ -1324,8 +1316,11 @@ float get_convex_hull_volume(s_vvertice **verts, int nvert)
     char cline[nchar_max];
     if (nvert < 10)
         return (0.0);
-    sprintf(tmpn1, "/tmp/qhull_in_fpocket_%d.dat", pid);
-    sprintf(tmpn2, "/tmp/qhull_out_fpocket_%d.dat", pid);
+
+    const char *env = getenv("TMPDIR");
+    if (!env) env = "/tmp/";
+    sprintf(tmpn1, "%s/qhull_in_fpocket_%d.dat", env,pid);
+    sprintf(tmpn2, "%s/qhull_out_fpocket_%d.dat", env,pid);
     FILE *ftmp = fopen(tmpn2, "w");
     FILE *fvoro = fopen(tmpn1, "w+");
     /* Write the header for qvoronoi */
