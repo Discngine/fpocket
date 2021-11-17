@@ -78,11 +78,11 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
     model_flag=1;
     for (i = 0; i < inatoms; i++) /*loop to go through all atoms*/
     {
+        //if(!at_in[i].altloc[0])  fprintf(stdout,"altloc in open:%sx\n",at_in[i].altloc);
         if (at_in[i].altloc[0] == '.' || at_in[i].altloc[0] == '\0')
             at_in[i].altloc[0] = ' ';
         if (at_in[i].modelnumber==model_number && !strncmp(at_in[i].atom_type, "ATOM", 4) && !is_ligand(par->chain_as_ligand,at_in[i].chain[0]))
         {
-
             if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
             {
                 if (chains_to_delete(par->chain_delete, at_in[i].chain[0], par->chain_is_kept))
