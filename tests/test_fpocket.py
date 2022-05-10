@@ -54,12 +54,13 @@ def fpocket_out_test_default_equal(pdb_code,params="",explicit=False):
             if os.path.isfile(test_out):
                 compare_all_but_volume(test_out,reference_out)
             else: #that the pockets folder
+                print(filename)
                 pocket_file_list=os.listdir(reference_folder+pdb_code+"_out/"+filename)
                 for pocket_file_name in pocket_file_list:
                     test_out='data/sample/'+pdb_code+'_out/'+filename+'/'+pocket_file_name
                     reference_out=reference_folder+pdb_code+'_out/'+filename+'/'+pocket_file_name
                     compare_all_but_volume(test_out,reference_out)
-    os.system("rm -rf data/sample/"+pdb_code+"_out")
+    # os.system("rm -rf data/sample/"+pdb_code+"_out")
 
 def test_pdb_list_equal():
     """

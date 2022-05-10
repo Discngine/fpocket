@@ -88,8 +88,13 @@ void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom
 	int status = 0;
 	char id_buf[6] = "*****",
 		 res_id_buf[5] = "****",
-		 charge_buf[3] = "  ";
+		 charge_buf[3] = "  ",
+		 insert_buf = ' ';
 
+	if(insert!=NULL) {
+		insert_buf=insert;
+	}
+	
 	if (id < 100000)
 		sprintf(id_buf, "%5d", id);
 	else
@@ -117,13 +122,11 @@ void write_pdb_atom_line(FILE *f, const char rec_name[], int id, const char atom
 	if (abpa)
 		finalabpa = abpa_prob;
 
-	//printf("%s \t",chain);
+
 	status = fprintf(f, "%-6s%5s %4s%c%-4s%s%4s%c   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s%2s\n",
 					 rec_name, id_buf, atom_name, alt_loc, res_name, chain,
-					 res_id_buf, insert, x, y, z, finalabpa, bfactor, symbol, charge_buf);
+					 res_id_buf, insert_buf, x, y, z, finalabpa, bfactor, symbol, charge_buf);
 
-	//printf OUT (       "ATOM%7d %-5s%4s%5d    %8.3f%8.3f%8.3f  1.00%6.2f      %4s \n",
-	//$num,$atomname,$resname,$resnum,$x,$y,$z,$w,$segname);
 }
 
 /**

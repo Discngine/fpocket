@@ -161,7 +161,6 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
         for (i = 0; i < n_sa; i++) {
             //atom = pocket->sou_atoms[i] ;
             atom = pdb->latoms_p[sa[i]];
-            
             write_pdb_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
                     atom->res_name, atom->chain, atom->res_id,
                     atom->pdb_insert, atom->x, atom->y, atom->z,

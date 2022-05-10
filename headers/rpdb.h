@@ -81,7 +81,8 @@ typedef struct s_pdb
     int n_xlig_atoms;   /**number of atoms in xlig array ( number of atoms of selected atom*/
     int natoms,			/**< Number of atoms */
             nhetatm,		/**< Number of HETATM */
-            natm_lig ;		/**< Number of ligand atoms */
+            natm_lig,       /**< Number of ligand atoms */
+            natoms_h ;		/**< Number of hydrogen atoms */
 
     float A, B, C, 			/**< Side lengths of the unit cell */
           alpha, beta, gamma ;	/**< Angle between B and C, A and C, A and C */

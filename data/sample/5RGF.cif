@@ -3,7 +3,7 @@ data_5RGF
 _entry.id   5RGF 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.330 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -36,18 +36,19 @@ _audit_author.identifier_ORCID
 'Chica, R.A.'         5 ? 
 # 
 _citation.id                        primary 
-_citation.title                     'Evolution of an enzyme conformational ensembles guides the design of an efficient biocatalyst' 
-_citation.journal_abbrev            'To be published' 
-_citation.journal_volume            ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.year                      ? 
-_citation.pdbx_database_id_PubMed   ? 
-_citation.pdbx_database_id_DOI      ? 
+_citation.title                     
+'Ensemble-based enzyme design can recapitulate the effects of laboratory directed evolution in silico.' 
+_citation.journal_abbrev            'Nat Commun' 
+_citation.journal_volume            11 
+_citation.page_first                4808 
+_citation.page_last                 4808 
+_citation.year                      2020 
+_citation.pdbx_database_id_PubMed   32968058 
+_citation.pdbx_database_id_DOI      10.1038/s41467-020-18619-x 
 _citation.journal_id_ASTM           ? 
-_citation.country                   ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_id_CSD            0353 
+_citation.country                   UK 
+_citation.journal_id_ISSN           2041-1723 
+_citation.journal_id_CSD            ? 
 _citation.book_publisher            ? 
 # 
 loop_
@@ -55,11 +56,15 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.identifier_ORCID 
 _citation_author.ordinal 
-primary 'Broom, A.'           ? 1 
-primary 'Rakotoharisoa, R.V.' ? 2 
-primary 'Thompson, M.'        ? 3 
-primary 'Fraser, J.'          ? 4 
-primary 'Chica, R.A.'         ? 5 
+primary 'Broom, A.'           ?                   1 
+primary 'Rakotoharisoa, R.V.' ?                   2 
+primary 'Thompson, M.C.'      0000-0002-6099-2027 3 
+primary 'Zarifi, N.'          0000-0003-4748-7082 4 
+primary 'Nguyen, E.'          ?                   5 
+primary 'Mukhametzhanov, N.'  ?                   6 
+primary 'Liu, L.'             0000-0003-1283-1410 7 
+primary 'Fraser, J.S.'        0000-0002-5080-2859 8 
+primary 'Chica, R.A.'         0000-0003-3789-9841 9 
 # 
 _cell.entry_id           5RGF 
 _cell.length_a           76.410 
@@ -18221,11 +18226,15 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-07-22 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-07-22 
+2 'Structure model' 1 1 2020-12-02 
+3 'Structure model' 1 2 2021-05-12 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -18234,6 +18243,41 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references' 
+2 3 'Structure model' 'Structure summary'   
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation           
+2 2 'Structure model' citation_author    
+3 3 'Structure model' pdbx_deposit_group 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_CSD'          
+4  2 'Structure model' '_citation.journal_id_ISSN'         
+5  2 'Structure model' '_citation.journal_volume'          
+6  2 'Structure model' '_citation.page_first'              
+7  2 'Structure model' '_citation.page_last'               
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 2 'Structure model' '_citation.title'                   
+11 2 'Structure model' '_citation.year'                    
+12 3 'Structure model' '_pdbx_deposit_group.group_type'    
 # 
 loop_
 _pdbx_refine_tls.pdbx_refine_id 
@@ -18489,6 +18533,7 @@ _pdbx_audit_support.ordinal                1
 _pdbx_deposit_group.group_title         'Crystal structures of HG-series of Kemp Eliminases at Room-temperature' 
 _pdbx_deposit_group.group_description   'Crystal structure of Kemp eliminase HG4 with bound transition state analogue, 277K' 
 _pdbx_deposit_group.group_id            G_1002148 
+_pdbx_deposit_group.group_type          undefined 
 # 
 _pdbx_entity_instance_feature.ordinal        1 
 _pdbx_entity_instance_feature.comp_id        6NT 
