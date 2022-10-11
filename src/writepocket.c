@@ -607,7 +607,7 @@ void write_pocket_pdb(const char out[], s_pocket *pocket) {
         fprintf(f, "HEADER 7  - Polarity Score                    : %5d\n", pocket->pdesc->polarity_score);
         fprintf(f, "HEADER 8  - Amino Acid based volume Score     : %.4f\n", pocket->pdesc->volume_score);
         fprintf(f, "HEADER 9  - Pocket volume (Monte Carlo)       : %.4f\n", pocket->pdesc->volume);
-        fprintf(f, "HEADER 10  -Pocket volume (convex hull)       : %.4f\n", pocket->pdesc->convex_hull_volume);
+        fprintf(f, "HEADER 10 - Pocket volume (convex hull)       : %.4f\n", pocket->pdesc->convex_hull_volume);
         fprintf(f, "HEADER 11 - Charge Score                      : %5d\n", pocket->pdesc->charge_score);
         fprintf(f, "HEADER 12 - Local hydrophobic density Score   : %.4f\n", pocket->pdesc->mean_loc_hyd_dens);
         fprintf(f, "HEADER 13 - Number of apolar alpha sphere     : %5d\n", pocket->nAlphaApol);
