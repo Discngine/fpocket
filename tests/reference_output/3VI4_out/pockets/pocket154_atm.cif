@@ -15,7 +15,7 @@ Information about the pocket   154:
 6  - Hydrophobicity Score              : 23.2500
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 234.4315
+9  - Pocket volume (Monte Carlo)       : 232.7594
 10  -Pocket volume (convex hull)       : 6.8380
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 0.0000

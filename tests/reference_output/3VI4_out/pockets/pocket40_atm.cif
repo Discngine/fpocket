@@ -15,7 +15,7 @@ Information about the pocket    40:
 6  - Hydrophobicity Score              : 18.0714
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.4286
-9  - Pocket volume (Monte Carlo)       : 359.3516
+9  - Pocket volume (Monte Carlo)       : 373.7434
 10  -Pocket volume (convex hull)       : 70.1718
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 16.4800

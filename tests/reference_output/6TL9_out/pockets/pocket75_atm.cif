@@ -15,7 +15,7 @@ Information about the pocket    75:
 6  - Hydrophobicity Score              : 14.6250
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.1250
-9  - Pocket volume (Monte Carlo)       : 193.6522
+9  - Pocket volume (Monte Carlo)       : 186.6494
 10  -Pocket volume (convex hull)       : 4.8316
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 2.0000

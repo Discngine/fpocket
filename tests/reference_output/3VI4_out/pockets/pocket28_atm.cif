@@ -15,7 +15,7 @@ Information about the pocket    28:
 6  - Hydrophobicity Score              : 35.9706
 7  - Polarity Score                    :    13
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 892.3864
+9  - Pocket volume (Monte Carlo)       : 880.8256
 10  -Pocket volume (convex hull)       : 388.6824
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 21.8378

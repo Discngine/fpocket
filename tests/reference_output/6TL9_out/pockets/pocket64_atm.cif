@@ -15,7 +15,7 @@ Information about the pocket    64:
 6  - Hydrophobicity Score              : 24.8182
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.3636
-9  - Pocket volume (Monte Carlo)       : 322.6677
+9  - Pocket volume (Monte Carlo)       : 321.7899
 10  -Pocket volume (convex hull)       : 14.9735
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.0000

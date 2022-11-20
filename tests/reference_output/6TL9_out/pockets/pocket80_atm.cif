@@ -15,7 +15,7 @@ Information about the pocket    80:
 6  - Hydrophobicity Score              : 38.7857
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.1429
-9  - Pocket volume (Monte Carlo)       : 538.0969
+9  - Pocket volume (Monte Carlo)       : 578.5554
 10  -Pocket volume (convex hull)       : 172.6303
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 13.7692

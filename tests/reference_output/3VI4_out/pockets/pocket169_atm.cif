@@ -15,7 +15,7 @@ Information about the pocket   169:
 6  - Hydrophobicity Score              : 11.3333
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 3.1667
-9  - Pocket volume (Monte Carlo)       : 393.7257
+9  - Pocket volume (Monte Carlo)       : 402.3896
 10  -Pocket volume (convex hull)       : 43.5062
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 4.0000
