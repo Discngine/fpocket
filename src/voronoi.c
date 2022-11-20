@@ -1488,33 +1488,27 @@ void write_pdb_vert(FILE *f, s_vvertice *v, int i)
 
     if (v->electrostatic_energy <= -0.05)
     {
-        write_pdb_atom_line(f, "HETATM", i, " POL",
-                            ' ', "ACC", "O", v->resid, ' ',
-                            v->x, v->y, v->z, 0.0, 0.0, 0,
+        write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "ACC", "O",
+                            v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);
-        /*write_mmcif_atom_line(f, "HETATM", i, " POL",
-                            ' ', "ACC", "O", v->resid, ' ',
-                            v->x, v->y, v->z, 0.0, 0.0, 0,
-                            "Ve", -1, 0.0);*/
     }
     else if (v->electrostatic_energy >= 0.05)
     {
         write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
                             v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);
-        /*write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
-                            v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                            "Ve", -1, 0.0);*/
     }
-    else
+    else if (v->type == M_APOLAR_AS)
     {
         write_pdb_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
                             v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
                             "Ve", -1, 0.0);
-        /* write_mmcif_atom_line(f, "HETATM", i, " POL",
-                            ' ', "ACC", "O", v->resid, ' ',
-                            v->x, v->y, v->z, 0.0, 0.0, 0,
-                            "Ve", -1, 0.0);*/
+    }
+    else
+    {
+        write_pdb_atom_line(f, "HETATM", i, " POL", ' ', "STP", "C",
+                            v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                            "Ve", -1, 0.0);
     }
 }
 
@@ -1522,25 +1516,27 @@ void write_mmcif_vert(FILE *f, s_vvertice *v, int i)
 {
     if (v->electrostatic_energy <= -0.05)
     {
-
-        write_mmcif_atom_line(f, "HETATM", i, " POL",
-                              ' ', "ACC", "O", v->resid, ' ',
-                              v->x, v->y, v->z, 0.0, 0.0, 0,
-                              "V", -1, 0.0);
+        write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "ACC", "O",
+                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                              "Ve", -1, 0.0);
     }
     else if (v->electrostatic_energy >= 0.05)
     {
-
         write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
                               v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                              "V", -1, 0.0);
+                              "Ve", -1, 0.0);
+    }
+    else if (v->type == M_APOLAR_AS)
+    {
+        write_mmcif_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
+                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+                              "Ve", -1, 0.0);
     }
     else
     {
-
-        write_mmcif_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
+        write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "STP", "C",
                               v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
-                              "V", -1, 0.0);
+                              "Ve", -1, 0.0);
     }
 }
 /**
