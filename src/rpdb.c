@@ -901,11 +901,11 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         //                        if (resb[0] == par->xlig_resname[0] && resb[1] == par->xlig_resname[1] && resb[2] == par->xlig_resname[2]) {
                         // fprintf(stdout,"%s\t%s\n",buf[16],par->xlig_chain_code);
 
-                        if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
-                        {
-                            pdb->n_xlig_atoms++;
-                            fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
-                        }
+                        // if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
+                        // {
+                        //     pdb->n_xlig_atoms++;
+                        //     fprintf(stdout, "%d\n", pdb->n_xlig_atoms);
+                        // }
 
                         if (is_ligand(par->chain_as_ligand, buf[21]))
                         {
@@ -914,7 +914,18 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
                         }
                     }
                 }
+                if (x < 9990 && y < 9990 && z < 9990)
+                {
+                    if (par->xlig_resnumber > -1)
+                    {
+                        if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
+                        {
+                            pdb->n_xlig_atoms++;
+                        }
+                    }
+                }
             }
+
             else if (!strncmp(buf, "HETATM", 6) || (!strncmp(buf, "ATOM ", 5) && is_ligand(par->chain_as_ligand, buf[21])))
             {
                 if (chains_to_delete(par->chain_delete, buf[21], par->chain_is_kept))
@@ -969,17 +980,31 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
 
                     /*handle explicit ligand input here*/
 
-                    if (par->xlig_resnumber > -1)
-                    {
-                        if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
-                        {
-                            pdb->n_xlig_atoms++;
-                        }
-                    }
+                    // if (par->xlig_resnumber > -1)
+                    // {
+                    //     if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
+                    //     {
+                    //         pdb->n_xlig_atoms++;
+                    //     }
+                    // }
                     if (is_ligand(par->chain_as_ligand, buf[21]))
                     {
                         pdb->n_xlig_atoms++;
                         // fprintf(stdout, "H%d\t", pdb->n_xlig_atoms);
+                    }
+                }
+                if (x < 9990 && y < 9990 && z < 9990)
+                {
+                    rpdb_extract_atm_resname(buf, resb);
+                    resnbuf = rpdb_extract_atm_resumber(buf);
+
+                    if (par->xlig_resnumber > -1)
+                    {
+                        if (buf[21] == par->xlig_chain_code[0] && resnbuf == par->xlig_resnumber && par->xlig_resname[0] == resb[0] && par->xlig_resname[1] == resb[1] && par->xlig_resname[2] == resb[2])
+                        {
+
+                            pdb->n_xlig_atoms++;
+                        }
                     }
                 }
             }
@@ -987,7 +1012,7 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
             /*
         else if (!strncmp(buf, "HEADER", 6))
             strncpy(pdb->header, buf, M_PDB_BUF_LEN) ;
-*/
+    */
 
             else if (model_read == 1 && !strncmp(buf, "ENDMDL", 6))
                 model_read = 0;
@@ -1023,7 +1048,6 @@ s_pdb *rpdb_open(char *fpath, const char *ligan, const int keep_lig, int model_n
         pdb->latm_lig = (s_atm **)my_calloc(natm_lig, sizeof(s_atm *));
     else
         pdb->latm_lig = NULL;
-
     pdb->natoms = natoms;
     pdb->nhetatm = nhetatm;
     pdb->natm_lig = natm_lig;
@@ -1128,15 +1152,15 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         resnbuf = rpdb_extract_atm_resumber(pdb_line);
                     }
                     /* Enter this if when arg in command line is -r */
-                    if (pdb->n_xlig_atoms)
-                    {
-                        if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
-                        {
+                    // if (pdb->n_xlig_atoms)
+                    // {
+                    //     if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
+                    //     {
 
-                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
-                            i_explicit_ligand_atom++;
-                        }
-                    }
+                    //         rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+                    //         i_explicit_ligand_atom++;
+                    //     }
+                    // }
 
                     /* Enter this if when arg in command line is -a */
                     if (is_ligand(params->chain_as_ligand, pdb_line[21]))
@@ -1228,6 +1252,21 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         }
                     }
                 }
+                if (tmpx < 9990 && tmpy < 9990 && tmpz < 9990)
+                {
+                    if (pdb->n_xlig_atoms)
+                    {
+                        rpdb_extract_atm_resname(pdb_line, resb);
+                        resnbuf = rpdb_extract_atm_resumber(pdb_line);
+
+                        if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
+                        {
+
+                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+                            i_explicit_ligand_atom++;
+                        }
+                    }
+                }
             }
             else if (strncmp(pdb_line, "HETATM", 6) == 0 || (strncmp(pdb_line, "ATOM ", 5) == 0 && is_ligand(params->chain_as_ligand, pdb_line[21])))
             {
@@ -1244,17 +1283,17 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                         resnbuf = rpdb_extract_atm_resumber(pdb_line);
                     }
 
-                    if (pdb->n_xlig_atoms)
-                    {
-                        if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
-                        {
-                            // if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
+                    // if (pdb->n_xlig_atoms)
+                    // {
+                    //     if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
+                    //     {
+                    //         // if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
 
-                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+                    //         rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
 
-                            i_explicit_ligand_atom++;
-                        }
-                    }
+                    //         i_explicit_ligand_atom++;
+                    //     }
+                    // }
                     if (is_ligand(params->chain_as_ligand, pdb_line[21]))
                     {
 
@@ -1372,6 +1411,23 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+
+                if (tmpx < 9990 && tmpy < 9990 && tmpz < 9990)
+                {
+
+                    if (pdb->n_xlig_atoms)
+                    {
+                        resnbuf = rpdb_extract_atm_resumber(pdb_line);
+                        rpdb_extract_atm_resname(pdb_line, resb);
+                        if (pdb_line[21] == params->xlig_chain_code[0] && resnbuf == params->xlig_resnumber && params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2])
+                        {
+
+                            rpdb_extract_atom_coordinates(pdb_line, (pdb->xlig_x + i_explicit_ligand_atom), (pdb->xlig_y + i_explicit_ligand_atom), (pdb->xlig_z + i_explicit_ligand_atom));
+
+                            i_explicit_ligand_atom++;
                         }
                     }
                 }

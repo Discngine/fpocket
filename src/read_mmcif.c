@@ -115,15 +115,23 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                 if (par->xlig_resnumber > -1)
                 {
 
-                    if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
-                    {
-                        pdb->n_xlig_atoms++;
-                    }
+                    // if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
+                    // {
+                    //     pdb->n_xlig_atoms++;
+                    // }
 
                     if (is_ligand(par->chain_as_ligand, at_in[i].chain[0]))
                     {
                         pdb->n_xlig_atoms++;
                     }
+                }
+            }
+            if (par->xlig_resnumber > -1)
+            {
+
+                if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
+                {
+                    pdb->n_xlig_atoms++;
                 }
             }
         }
@@ -169,14 +177,15 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
                         }
                     }
                 }
-                if (par->xlig_resnumber > -1)
-                {
-                    if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
-                    {
-                        pdb->n_xlig_atoms++;
-                    }
-                }
+
                 if (is_ligand(par->chain_as_ligand, at_in[i].chain[0]))
+                {
+                    pdb->n_xlig_atoms++;
+                }
+            }
+            if (par->xlig_resnumber > -1)
+            {
+                if ((at_in[i].chain[0] == par->xlig_chain_code[0] && at_in[i].resid == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]))
                 {
                     pdb->n_xlig_atoms++;
                 }
@@ -285,17 +294,6 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
             if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
             { /*if within first occurence*/
                 /* Enter this if when arg in command line is -r */
-                if (pdb->n_xlig_atoms)
-                {
-                    if (at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2])
-                    {
-
-                        *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
-                        *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
-                        *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
-                        i_explicit_ligand_atom++;
-                    }
-                }
 
                 /* Enter this if when arg in command line is -a */
                 if (is_ligand(params->chain_as_ligand, at_in[i].chain[0]))
@@ -434,25 +432,24 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                     }
                 }
             }
+            if (pdb->n_xlig_atoms)
+            {
+                if (at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2])
+                {
+
+                    *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
+                    *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
+                    *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
+                    i_explicit_ligand_atom++;
+                }
+            }
         }
         else if (at_in[i].modelnumber == model_number && !strncmp(at_in[i].atom_type, "HETATM", 6) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && is_ligand(params->chain_as_ligand, at_in[i].chain[0])))
         {
 
             if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
             { /*first occurence*/
-                if (pdb->n_xlig_atoms)
-                {
-                    if ((at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == params->xlig_chain_code[0] && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]))
-                    {
-                        // if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
 
-                        *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
-                        *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
-                        *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
-
-                        i_explicit_ligand_atom++;
-                    }
-                }
                 if (is_ligand(params->chain_as_ligand, at_in[i].chain[0]))
                 {
                     *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
@@ -615,6 +612,19 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             }
                         }
                     }
+                }
+            }
+            if (pdb->n_xlig_atoms)
+            {
+                if ((at_in[i].chain[0] == params->xlig_chain_code[0] && at_in[i].resid == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]) || (at_in[i].chain_auth[0] == params->xlig_chain_code[0] && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]))
+                {
+                    // if (params->xlig_resname[0] == resb[0] && params->xlig_resname[1] == resb[1] && params->xlig_resname[2] == resb[2]) {
+
+                    *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
+                    *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
+                    *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
+
+                    i_explicit_ligand_atom++;
                 }
             }
         }
