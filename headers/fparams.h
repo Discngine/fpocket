@@ -108,6 +108,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_CUSTOM_LIGAND 'r' /**flag, to define detection of explicit pockets around the specified ligand*/
 #define M_PAR_CUSTOM_LIGAND_LONG "custom_ligand"
 
+#define M_PAR_CUSTOM_POCKET 'P' /** flag to define a specific location to calculate the binding site on*/
+#define M_PAR_CUSTOM_POCKET_LONG "custom_pocket"
+
 #define M_PAR_DROP_CHAINS 'c' /**flag, to define which chain are dropped before the pocket detection*/
 #define M_PAR_DROP_CHAINS_LONG "drop_chains"
 
@@ -175,20 +178,23 @@ more information.\n\
 typedef struct s_fparams
 {
 	char pdb_path[M_MAX_PDB_NAME_LEN] ;	/**< The pdb file */
-        char topology_path[M_MAX_PDB_NAME_LEN]; /**< a putative topology file*/
-        char custom_ligand[M_MAX_PDB_NAME_LEN]; /**container for custom pocket detection using a particular ligand*/
+	char topology_path[M_MAX_PDB_NAME_LEN]; /**< a putative topology file*/
+	char custom_ligand[M_MAX_PDB_NAME_LEN]; /**container for custom pocket detection using a particular ligand*/
 	char **pdb_lst ;
-        char xlig_chain_code[3];
-        char xlig_resname[3];
-        int xlig_resnumber;
-        char distance_measure;
-        char clustering_method;
+	char xlig_chain_code[3];
+	char xlig_resname[3];
+	int xlig_resnumber;
+	int xpocket_n; /**number of residues defining the pocket to consider*/
+	char **xpocket_chain_code;
+	char *xpocket_insertion_code;
+	char distance_measure;
+	char clustering_method;
 	int npdb ;      /**< number of pdb files*/
-        short fpocket_running;
-        int flag_do_asa_and_volume_calculations; /**<if 1, asa and volume calculations are performed(slower), if 0, not*/
-        int db_run;                 /**< flag for running fpocket for db population*/
-        int model_number;           /**<number of model to be analyzed>*/
-        unsigned short flag_do_grid_calculations; /**< if 1 do grid calculations and output these*/
+	short fpocket_running;
+	int flag_do_asa_and_volume_calculations; /**<if 1, asa and volume calculations are performed(slower), if 0, not*/
+	int db_run;                 /**< flag for running fpocket for db population*/
+	int model_number;           /**<number of model to be analyzed>*/
+	unsigned short flag_do_grid_calculations; /**< if 1 do grid calculations and output these*/
 	int min_apol_neigh,		 /**< Min number of apolar neighbours for an a-sphere
 								to be an apolar a-sphere */
 		nb_mcv_iter,		 /**< Number of iteration for the Monte Carlo volume

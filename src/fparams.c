@@ -133,6 +133,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                                              {"topology_file", required_argument, 0, M_PAR_TOPOLOGY},
                                              {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
                                              {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
+                                             {"custom_pocket", required_argument, 0, M_PAR_CUSTOM_POCKET},
                                              {M_PAR_DROP_CHAINS_LONG, required_argument, 0, M_PAR_DROP_CHAINS},         /*drop chains*/
                                              {M_PAR_CHAIN_AS_LIGAND_LONG, required_argument, 0, M_PAR_CHAIN_AS_LIGAND}, /*chain as ligand*/
                                              {M_PAR_KEEP_CHAINS_LONG, required_argument, 0, M_PAR_KEEP_CHAINS},         /*chain as ligand*/
@@ -145,7 +146,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         /* getopt_long stores the option index here. */
         int option_index = 0;
         optarg = 0;
-        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:c:a:k:w:",
+        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:P:c:a:k:w:",
                         fplong_options, &option_index);
         //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
@@ -268,6 +269,36 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             }
 
             break;
+
+        case M_PAR_CUSTOM_POCKET:
+
+            //parse pocket specification that has to be given as
+            //residuenumber1:insertion_code1:chain_code1.residuenumber2:insertion_code2:chain_code2& ....
+            //for 1uyd for instance 127::A.128::A 
+
+            status++;
+
+            strcpy(par->custom_pocket, optarg);
+            fprintf(stdout,"%s and %s",par->custom_pocket,optarg);
+            fflush(stdout);
+            pt = strtok(par->custom_pocket, ".");
+
+            while (pt != NULL)
+            {
+                custom_ligand_i++;
+                if (custom_ligand_i == 1)
+                    par->xlig_resnumber = atoi(pt);
+                else if (custom_ligand_i == 2)
+                    strncpy(&(par->xlig_resname), pt, 3);
+                else if (custom_ligand_i == 3)
+                    strncpy(&(par->xlig_chain_code), pt, 1);
+                /*int a = atoi(pt);
+                    printf("%d\n", a);*/
+                pt = strtok(NULL, ":");
+            }
+
+            break;
+    
         case M_PAR_PDB_FILE:
             //                printf("option -f with value `%s'\n", optarg);
             status++;
