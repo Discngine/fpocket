@@ -180,6 +180,7 @@ typedef struct s_fparams
 	char pdb_path[M_MAX_PDB_NAME_LEN] ;	/**< The pdb file */
 	char topology_path[M_MAX_PDB_NAME_LEN]; /**< a putative topology file*/
 	char custom_ligand[M_MAX_PDB_NAME_LEN]; /**container for custom pocket detection using a particular ligand*/
+	char custom_pocket_arg[M_MAX_PDB_NAME_LEN];
 	char **pdb_lst ;
 	char xlig_chain_code[3];
 	char xlig_resname[3];

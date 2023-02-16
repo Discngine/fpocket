@@ -278,10 +278,10 @@ s_fparams *get_fpocket_args(int nargs, char **args)
 
             status++;
 
-            strcpy(par->custom_pocket, optarg);
-            fprintf(stdout,"%s and %s",par->custom_pocket,optarg);
+            strcpy(par->custom_pocket_arg, optarg);
+            fprintf(stdout,"%s and %s",par->custom_pocket_arg,optarg);
             fflush(stdout);
-            pt = strtok(par->custom_pocket, ".");
+            pt = strtok(par->custom_pocket_arg, ".");
 
             while (pt != NULL)
             {
@@ -294,7 +294,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                     strncpy(&(par->xlig_chain_code), pt, 1);
                 /*int a = atoi(pt);
                     printf("%d\n", a);*/
-                pt = strtok(NULL, ":");
+                pt = strtok(NULL, ".");
             }
 
             break;
