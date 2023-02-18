@@ -87,6 +87,7 @@ s_fparams *init_def_fparams(void)
     par->xlig_resnumber = -1;
     par->chain_is_kept = 0;
     par->write_par[0] = 'd';
+    par->xpocket_n=0;
     return par;
 }
 
@@ -111,10 +112,13 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     int status = 0;
     s_fparams *par = init_def_fparams(); /*default param initialy*/
     int c = 0;
+    int apti= 0;
+    int pti=0;
     short j = 0;
     short xflag;
     opterr = 0;
     char *pt;
+    char *apt;
     short custom_ligand_i = 0;
 
     static struct option fplong_options[] = {/*long options args located in fparams.h*/
@@ -279,24 +283,41 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             status++;
 
             strcpy(par->custom_pocket_arg, optarg);
-            fprintf(stdout,"%s and %s",par->custom_pocket_arg,optarg);
+            fprintf(stdout,"%s and %s\n",par->custom_pocket_arg,optarg);
             fflush(stdout);
-            pt = strtok(par->custom_pocket_arg, ".");
 
+            /*count residues first*/
+            pt = strtok(par->custom_pocket_arg, ".");
             while (pt != NULL)
             {
-                custom_ligand_i++;
-                if (custom_ligand_i == 1)
-                    par->xlig_resnumber = atoi(pt);
-                else if (custom_ligand_i == 2)
-                    strncpy(&(par->xlig_resname), pt, 3);
-                else if (custom_ligand_i == 3)
-                    strncpy(&(par->xlig_chain_code), pt, 1);
-                /*int a = atoi(pt);
-                    printf("%d\n", a);*/
+                par->xpocket_n++;
                 pt = strtok(NULL, ".");
             }
+            fprintf(stdout,"found %d residues\n",par->xpocket_n);
+            fflush(stdout);
+            
+            pt = strtok(par->custom_pocket_arg, ".");
+            par->xpocket_chain_code=(char *) my_malloc(par->xpocket_n*sizeof(char));
+            par->xpocket_insertion_code=(char *) my_malloc(par->xpocket_n*sizeof(char));
+            par->xpocket_residue_number=(unsigned short *) my_malloc(par->xpocket_n*sizeof(unsigned short));
+            pti=0;
+            while (pt != NULL)
+            {
 
+                apt=strtok(pt,":");
+                apti=0;
+                while(apt !=NULL){
+                    fprintf(stdout,"here\n");
+                    fflush(stdout);
+                    if(apti==0) &(par->xpocket_residue_number+pti)=atoi(apt);//fprintf(stdout,"residuenumber: %d\n", atoi(apt));
+
+                    // if(apti==1) fprintf(stdout,"insertioncode: %c\n", )
+                    apt=strtok(NULL,":");
+                    apti++;
+                }
+                pt = strtok(NULL, ".");
+                pti++;
+            }
             break;
     
         case M_PAR_PDB_FILE:
