@@ -35,7 +35,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ##	27-11-08	(v)  PDB file check moved in fpmain + minor modif + relooking
 ##	01-04-08	(v)  Added comments and creation of history
 ##	01-01-08	(vp) Created (random date...)
-##	
+##
 ## TODO or SUGGESTIONS
 ##
 ##	(v) Check and update if necessary comments of each function!!
@@ -46,18 +46,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /**
    ## FUNCTION:
         init_def_fparams
-  
+
    ## SPECIFICATION:
         Initialisation of default parameters
-  
+
    ## PARAMETRES: void
-  
-   ## RETURN: 
+
+   ## RETURN:
         s_fparams*: Pointer to allocated paramers.
-  
+
  */
 
-char write_mode[10] = "d"; /*write mode : d -> default | b -> both pdb and mmcif | 
+char write_mode[10] = "d"; /*write mode : d -> default | b -> both pdb and mmcif |
                         p ->pdb | m  -> mmcif*/
 
 s_fparams *init_def_fparams(void)
@@ -87,38 +87,39 @@ s_fparams *init_def_fparams(void)
     par->xlig_resnumber = -1;
     par->chain_is_kept = 0;
     par->write_par[0] = 'd';
-    par->xpocket_n=0;
+    par->xpocket_n = 0;
     return par;
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         get_fpocket_args
-  
-   ## SPECIFICATION: 
+
+   ## SPECIFICATION:
         This function analyse the user's command line and parse it to store parameters
         for the pocket finder programm.
-  
+
    ## PARAMETRES:
         @ int nargs   :  Number of arguments
         @ char **args : Arguments of main program
-  
-   ## RETURN: 
+
+   ## RETURN:
         s_params*: Pointer to parameters
-  
+
  */
 s_fparams *get_fpocket_args(int nargs, char **args)
 {
     int status = 0;
     s_fparams *par = init_def_fparams(); /*default param initialy*/
     int c = 0;
-    int apti= 0;
-    int pti=0;
+    int apti = 0;
+    int pti = 0;
     short j = 0;
     short xflag;
     opterr = 0;
     char *pt;
     char *apt;
+    char *residue_string[M_MAX_CUSTOM_PÖCKET_LEN];
     short custom_ligand_i = 0;
 
     static struct option fplong_options[] = {/*long options args located in fparams.h*/
@@ -159,7 +160,6 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         case 0:
             break;
 
-
         case M_PAR_WRITE_MODE: /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
             status++;
             if (optarg[0] != 'd' && optarg[0] != 'b' && optarg[0] != 'p' && optarg[0] != 'm' && strcmp(optarg, "both") && strcmp(optarg, "pdb") && strcmp(optarg, "cif") && strcmp(optarg, "mmcif"))
@@ -171,26 +171,20 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             {
                 strcpy(par->write_par, "mmcif");
                 strcpy(write_mode, par->write_par);
-                
             }
             else
             {
                 strcpy(par->write_par, optarg);
                 strcpy(write_mode, par->write_par);
-               }
+            }
 
             break;
- 
-               
-                
-
-           
 
         case M_PAR_CHAIN_AS_LIGAND: /*option with -a "name of the chain" to be specified as a ligand*/
             /*select the chains as ligand*/
             status++;
             strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
-            const char *separatorss = ",";       /* defining separators*/
+            const char *separatorss = ",";        /* defining separators*/
             pt = strtok(par->chain_as_ligand, separatorss);
             int nn = 0;
             while (pt != NULL)
@@ -200,30 +194,26 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 pt = strtok(NULL, separatorss);
             }
             par->xlig_resnumber = 0;
-            //printf("lig %s\n",par->chain_as_ligand);
-      break;
-           
-
-
-           
+            // printf("lig %s\n",par->chain_as_ligand);
+            break;
 
         case M_PAR_DROP_CHAINS:                /*option with -c "name of the chains"*/
                                                /*drop the selected chains from the pdb file*/
             strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
-            //printf("%s and %s",par->custom_ligand,optarg);
+            // printf("%s and %s",par->custom_ligand,optarg);
             const char *separators = ",:"; /* defining separators for drop chains args*/
             pt = strtok(par->chain_delete, separators);
             int n = 0;
             while (pt != NULL)
             {
-                strncpy(&(par->chain_delete[n]), pt,1);
-                
+                strncpy(&(par->chain_delete[n]), pt, 1);
+
                 n++;
                 pt = strtok(NULL, separators);
             }
             par->chain_is_kept = 0;
-            
-            //printf("%s\n",par->chain_delete);
+
+            // printf("%s\n",par->chain_delete);
             status++;
             break;
 
@@ -231,7 +221,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                                 /*drop the selected chains from the pdb file*/
 
             strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
-            //printf("%s and %s",par->custom_ligand,optarg);
+            // printf("%s and %s",par->custom_ligand,optarg);
             const char *separator = ",:"; /* defining separators for drop chains args*/
             pt = strtok(par->chain_delete, separator);
             int nk = 0;
@@ -241,21 +231,21 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 nk++;
                 pt = strtok(NULL, separator);
             }
-            //printf("%s\n",par->chain_delete);
+            // printf("%s\n",par->chain_delete);
             par->chain_is_kept = 1;
             status++;
             break;
 
         case M_PAR_CUSTOM_LIGAND:
 
-            //parse ligand specification that has to be given as
-            //residuenumber:residuename:chain_code
-            //for 1uyd for instance 1224:PU8:A
+            // parse ligand specification that has to be given as
+            // residuenumber:residuename:chain_code
+            // for 1uyd for instance 1224:PU8:A
 
             status++;
 
             strcpy(par->custom_ligand, optarg);
-            //printf("%s and %s",par->custom_ligand,optarg);
+            // printf("%s and %s",par->custom_ligand,optarg);
             pt = strtok(par->custom_ligand, ":");
 
             while (pt != NULL)
@@ -276,50 +266,47 @@ s_fparams *get_fpocket_args(int nargs, char **args)
 
         case M_PAR_CUSTOM_POCKET:
 
-            //parse pocket specification that has to be given as
-            //residuenumber1:insertion_code1:chain_code1.residuenumber2:insertion_code2:chain_code2& ....
-            //for 1uyd for instance 127::A.128::A 
+            // parse pocket specification that has to be given as
+            // residuenumber1:insertion_code1:chain_code1.residuenumber2:insertion_code2:chain_code2& ....
+            // for 1uyd for instance 127::A.128::A
 
             status++;
 
             strcpy(par->custom_pocket_arg, optarg);
-            fprintf(stdout,"%s and %s\n",par->custom_pocket_arg,optarg);
-            fflush(stdout);
-
+            char *rest = par->custom_pocket_arg;
+            char *rest2;
             /*count residues first*/
-            pt = strtok(par->custom_pocket_arg, ".");
-            while (pt != NULL)
-            {
+            while ((pt = strtok_r(rest, ".", &rest)))
                 par->xpocket_n++;
-                pt = strtok(NULL, ".");
-            }
-            fprintf(stdout,"found %d residues\n",par->xpocket_n);
-            fflush(stdout);
-            
-            pt = strtok(par->custom_pocket_arg, ".");
-            par->xpocket_chain_code=(char *) my_malloc(par->xpocket_n*sizeof(char));
-            par->xpocket_insertion_code=(char *) my_malloc(par->xpocket_n*sizeof(char));
-            par->xpocket_residue_number=(unsigned short *) my_malloc(par->xpocket_n*sizeof(unsigned short));
-            pti=0;
-            while (pt != NULL)
+
+            par->xpocket_chain_code = (char *)my_malloc(par->xpocket_n * sizeof(char));
+            par->xpocket_insertion_code = (char *)my_malloc(par->xpocket_n * sizeof(char));
+            par->xpocket_residue_number = (unsigned short *)my_malloc(par->xpocket_n * sizeof(unsigned short));
+            pti = 0;
+            strcpy(par->custom_pocket_arg, optarg);
+            rest = par->custom_pocket_arg;
+            while ((pt = strtok_r(rest, ".", &rest)))
             {
-
-                apt=strtok(pt,":");
-                apti=0;
-                while(apt !=NULL){
-                    fprintf(stdout,"here\n");
-                    fflush(stdout);
-                    if(apti==0) &(par->xpocket_residue_number+pti)=atoi(apt);//fprintf(stdout,"residuenumber: %d\n", atoi(apt));
-
-                    // if(apti==1) fprintf(stdout,"insertioncode: %c\n", )
-                    apt=strtok(NULL,":");
+                strcpy(&residue_string, pt);
+                rest2 = residue_string;
+                apti = 0;
+                while ((apt = strtok_r(rest2, ":", &rest2)))
+                {
+                    switch (apti)
+                    {
+                    case 0:
+                        par->xpocket_residue_number[pti] = (unsigned short)atoi(apt); // fprintf(stdout,"residuenumber: %d\n", atoi(apt));
+                    case 1:
+                        strncpy(&(par->xpocket_insertion_code[pti]), apt, 1);
+                    case 2:
+                        strncpy(&(par->xpocket_chain_code[pti]), apt, 1);
+                    }
                     apti++;
                 }
-                pt = strtok(NULL, ".");
                 pti++;
             }
             break;
-    
+
         case M_PAR_PDB_FILE:
             //                printf("option -f with value `%s'\n", optarg);
             status++;
@@ -353,7 +340,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             break;
         case M_PAR_DISTANCE_MEASURE:
             //                printf("option -e with value %s\n", optarg);
-            //strcpy(par->distance_measure,optarg);      /*might be problematic*/
+            // strcpy(par->distance_measure,optarg);      /*might be problematic*/
             strncpy(&(par->distance_measure), optarg, 1);
             status++;
 
@@ -387,7 +374,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             status++;
             break;
         case M_PAR_MODEL_FLAG:
-            //printf("option -l with value %s", optarg);
+            // printf("option -l with value %s", optarg);
             par->model_number = (int)atoi(optarg);
             status++;
             break;
@@ -400,7 +387,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     {
         strcpy(par->write_par, "m");
         strcpy(write_mode, par->write_par);
-        //printf("%c", write_mode[0]);
+        // printf("%c", write_mode[0]);
     }
     else if (strstr(par->pdb_path, ".pdb") && par->write_par[0] == 'd')
     {
@@ -412,27 +399,27 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 return(par);
             }
             else {
-            
-           
+
+
                 return(NULL);
             }*/
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         get_fpocket_args
-  
-   ## SPECIFICATION: 
+
+   ## SPECIFICATION:
         This function analyse the user's command line and parse it to store parameters
         for the pocket finder programm.
-  
+
    ## PARAMETRES:
         @ int nargs   :  Number of arguments
         @ char **args : Arguments of main program
-  
-   ## RETURN: 
+
+   ## RETURN:
         s_params*: Pointer to parameters
-  
+
  */
 s_fparams *DEPR_get_fpocket_args(int nargs, char **args)
 {
@@ -443,7 +430,7 @@ s_fparams *DEPR_get_fpocket_args(int nargs, char **args)
     s_fparams *par = init_def_fparams();
     char *pdb_lst = NULL;
 
-    //read arguments by flags
+    // read arguments by flags
     for (i = 1; i < nargs; i++)
     {
         if (strlen(args[i]) == 2 && args[i][0] == '-' && i <= (nargs - 1))
@@ -572,19 +559,19 @@ s_fparams *DEPR_get_fpocket_args(int nargs, char **args)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_clust_max_dist
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the distance criteria first clustering algorithm.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid float), 1 if not
-  
+
  */
 int parse_clust_max_dist(char *str, s_fparams *p)
 {
@@ -602,19 +589,19 @@ int parse_clust_max_dist(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_sclust_max_dist
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the distance criteria in the single linkage clustering.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid float), 1 if not
-  
+
  */
 int parse_clustering_method(char *str, s_fparams *p)
 {
@@ -647,20 +634,20 @@ int parse_distance_measure(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_min_apol_neigh
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the minimum number of apolar contacted atom for an alpha
         sphere to be considered as apolar.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid int), 1 if not
-  
+
  */
 int parse_min_apol_neigh(char *str, s_fparams *p)
 {
@@ -682,19 +669,19 @@ int parse_min_apol_neigh(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_asph_min_size
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the minimum radius of each alpha shpere
-  
+
    ## PARAMETERS:
         @ char *str: The string to parse
         @ s_fparams *p: The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid float), 1 if not
-  
+
  */
 int parse_asph_min_size(char *str, s_fparams *p)
 {
@@ -712,19 +699,19 @@ int parse_asph_min_size(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_asph_max_size
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the maximum radius of each alpha shpere
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid float), 1 if not
-  
+
  */
 int parse_asph_max_size(char *str, s_fparams *p)
 {
@@ -742,20 +729,20 @@ int parse_asph_max_size(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_mc_niter
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the number of iteration for the Monte Carlo volume
         calculation.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid float), 1 if not
-  
+
  */
 int parse_mc_niter(char *str, s_fparams *p)
 {
@@ -773,19 +760,19 @@ int parse_mc_niter(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_basic_vol_div
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the number of iteration for the basic volume calculation.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid integer), 1 if not
-  
+
  */
 int parse_basic_vol_div(char *str, s_fparams *p)
 {
@@ -803,19 +790,19 @@ int parse_basic_vol_div(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_refine_min_apol
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the minimum number of apolar sphere per pocket.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid integer), 1 if not
-  
+
  */
 int parse_refine_minaap(char *str, s_fparams *p)
 {
@@ -833,19 +820,19 @@ int parse_refine_minaap(char *str, s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         parse_min_pock_nb_asph
-  
-   ## SPECIFICATION: 	
+
+   ## SPECIFICATION:
         Parsing function for the minimum number of alpha sphere per pocket.
-  
+
    ## PARAMETERS:
         @ char *str    : The string to parse
         @ s_fparams *p : The structure than will contain the parsed parameter
-  
-   ## RETURN: 
+
+   ## RETURN:
         int: 0 if the parameter is valid (here a valid integer), 1 if not
-  
+
  */
 int parse_min_pock_nb_asph(char *str, s_fparams *p)
 {
@@ -865,17 +852,17 @@ int parse_min_pock_nb_asph(char *str, s_fparams *p)
 /**
    ## FUNCTION:
         is_fpocket_opt
-  
+
    ## SPECIFICATION:
         Say either or not a single letter code is a fpocket option (excluding
         input file/list option.)
-  
+
    ## PARAMETRES:
         @ const char opt: The one letter code option.
-  
+
    ## RETURN:
         integer: 1 if it's a valid option parmeter, 0 if not.
-  
+
  */
 
 int is_fpocket_opt(const char opt)
@@ -898,18 +885,18 @@ int is_fpocket_opt(const char opt)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         free_fparams
-  
-   ## SPECIFICATION: 
+
+   ## SPECIFICATION:
         Free parameters
-  
-   ## PARAMETRES: 
+
+   ## PARAMETRES:
         @ s_params *p: Pointer to the structure to free
-  
-   ## RETURN: 
+
+   ## RETURN:
         void
-  
+
  */
 void free_fparams(s_fparams *p)
 {
@@ -930,18 +917,18 @@ void free_fparams(s_fparams *p)
 }
 
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         print_pocket_usage
-  
-   ## SPECIFICATION: 
+
+   ## SPECIFICATION:
         Displaying usage of the programm in the given buffer
-  
+
    ## PARAMETRES:
         @ FILE *f: buffer to print in
-  
+
    ## RETURN:
     void
-  
+
  */
 void print_pocket_usage(FILE *f)
 {
@@ -1004,7 +991,7 @@ void print_pocket_usage(FILE *f)
 \t\t\t\t\t\t  able to keep up to (%d) chains (ie : -k A,B,C,E)\n",
             M_PAR_KEEP_CHAINS, M_PAR_KEEP_CHAINS_LONG, M_MAX_CHAINS_DELETE);
     fprintf(f, "\t-%c --%s (char)\t\t: consider this chain as a ligand explicitly (i.e. -%c D)\n",
-            M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG,M_PAR_CHAIN_AS_LIGAND);
+            M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG, M_PAR_CHAIN_AS_LIGAND);
     fprintf(f, "\t-%c --%s (char)\t\t\t: Writing mode to be used after pocket detection,      \n\
 \t\t\t\t\t\t  d -> default (same format outpout as input)\n\
 \t\t\t\t\t\t  b or both -> both pdb and mmcif | p or pdb ->pdb | m or cif or mmcif-> mmcif\n",
@@ -1013,18 +1000,18 @@ void print_pocket_usage(FILE *f)
 }
 /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
 /**
-   ## FUNCTION: 
+   ## FUNCTION:
         print_fparams
-  
-   ## SPECIFICATION: 
+
+   ## SPECIFICATION:
         Print function
-  
+
    ## PARAMETRES:
     @ s_fparams *p : Parameters to print
         @ FILE *f      : Buffer to write in
-  
-   ## RETURN: 
-  
+
+   ## RETURN:
+
  */
 void print_fparams(s_fparams *p, FILE *f)
 {
