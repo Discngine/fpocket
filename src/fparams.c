@@ -88,6 +88,7 @@ s_fparams *init_def_fparams(void)
     par->chain_is_kept = 0;
     par->write_par[0] = 'd';
     par->xpocket_n = 0;
+    par->min_n_explicit_pocket_atoms = M_MIN_N_EXPLICIT_POCKET;
     return par;
 }
 
@@ -139,6 +140,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                                              {"model_number", required_argument, 0, M_PAR_MODEL_FLAG},
                                              {"custom_ligand", required_argument, 0, M_PAR_CUSTOM_LIGAND},
                                              {"custom_pocket", required_argument, 0, M_PAR_CUSTOM_POCKET},
+                                             {M_PAR_MIN_N_EXPLICIT_POCKET_LONG, required_argument, 0, M_PAR_MIN_N_EXPLICIT_POCKET},
                                              {M_PAR_DROP_CHAINS_LONG, required_argument, 0, M_PAR_DROP_CHAINS},         /*drop chains*/
                                              {M_PAR_CHAIN_AS_LIGAND_LONG, required_argument, 0, M_PAR_CHAIN_AS_LIGAND}, /*chain as ligand*/
                                              {M_PAR_KEEP_CHAINS_LONG, required_argument, 0, M_PAR_KEEP_CHAINS},         /*chain as ligand*/
@@ -151,7 +153,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         /* getopt_long stores the option index here. */
         int option_index = 0;
         optarg = 0;
-        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:P:c:a:k:w:",
+        c = getopt_long(nargs, args, "f:m:M:i:p:D:C:e:dxp:v:y:l:r:P:u:c:a:k:w:",
                         fplong_options, &option_index);
         //        printf("C: %d nargs : %d optindex:%d\n", c, nargs, option_index);
 
@@ -290,7 +292,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 strcpy(&residue_string, pt);
                 rest2 = residue_string;
                 apti = 0;
-                while ((apt = strtok_r(rest2, ":", &rest2)))
+                while (apt = strtok_r(rest2, ":", &rest2))
                 {
                     switch (apti)
                     {
@@ -305,6 +307,11 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 }
                 pti++;
             }
+            break;
+
+        case M_PAR_MIN_N_EXPLICIT_POCKET:
+            status++;
+            par->min_n_explicit_pocket_atoms = (int)atoi(optarg);
             break;
 
         case M_PAR_PDB_FILE:
@@ -393,6 +400,12 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     {
         strcpy(par->write_par, "p");
         strcpy(write_mode, par->write_par);
+    }
+
+    if (par->xpocket_n > 0 && par->xlig_resnumber > -1)
+    {
+        fprintf(stderr, "\n\033[1mERROR:\033[0m you specified an explicit ligand (-r) AND an explicit pocke (-P) in the same fpocket run. This is currently not allowed, please use either the one or the other.\n\n");
+        return NULL;
     }
     return (par);
     /*        if(status){
@@ -955,7 +968,15 @@ void print_pocket_usage(FILE *f)
     fprintf(f, "\n\n\033[1mOptional input parameters\033[0m\n");
     fprintf(f, "\t-%c --%s (int)\t\t\t: Number of Model to analyze.\t\n", M_PAR_MODEL_FLAG, M_PAR_MODEL_FLAG_LONG);
     fprintf(f, "\t-%c --%s (string)\t\t: File name of a topology file (Amber prmtop).\t\n", M_PAR_TOPOLOGY, M_PAR_LONG_TOPOLOGY);
-    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n", M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
+    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: \n\
+\t\t\t\t\t\t  residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n",
+            M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
+    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a pocket like: \n\ 
+\t\t\t\t\t\t  residuenumber1:insertion_code1('-' if empty):chain_code1.residuenumber2:insertion_code2:chain_code2 (ie. 138:-:A.139:-:A).\t\n",
+            M_PAR_CUSTOM_POCKET, M_PAR_CUSTOM_POCKET_LONG);
+    fprintf(f, "\t-%c --%s (int)\t: If explicit pocket provided, minimum number \n\ 
+\t\t\t\t\t\t  of atoms of an alpha sphere that have to be in the selected pocket.\t\n",
+            M_PAR_MIN_N_EXPLICIT_POCKET, M_PAR_MIN_N_EXPLICIT_POCKET_LONG);
     fprintf(f, "\t-%c --%s (char)\t\t: Character specifying a chain as a ligand\t\n", M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG);
 
     fprintf(f, "\n\n\033[1mOptional pocket detection parameters\033[0m (default parameters)           \n\
