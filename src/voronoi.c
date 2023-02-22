@@ -415,7 +415,6 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
     lvvert->tr = (int *)my_malloc(lvvert->nvert * sizeof(int));
     for (i = 0; i < lvvert->nvert; i++)
         lvvert->tr[i] = -1;
-
     lvvert->vertices = (s_vvertice *)my_calloc(M_BUFSIZE, sizeof(s_vvertice));
     lvvert->pvertices = (s_vvertice **)my_calloc(M_BUFSIZE, sizeof(s_vvertice *));
 
@@ -937,10 +936,10 @@ float atom_in_explicit_pocket(s_atm *cura, s_fparams *params)
     int current_residue_index;
     for (current_residue_index = 0; current_residue_index < params->xpocket_n; current_residue_index++)
     {
-        fprintf(stdout, "%s\n", cura->pdb_insert);
+
         if (params->xpocket_residue_number[current_residue_index] == cura->res_id &&
             params->xpocket_chain_code[current_residue_index] == cura->chain[0] &&
-            ((params->xpocket_insertion_code[current_residue_index] == cura->pdb_insert) || (params->xpocket_insertion_code[current_residue_index] == '-' && cura->pdb_insert == ' ')))
+            ((params->xpocket_insertion_code[current_residue_index] == cura->pdb_insert) || ((params->xpocket_insertion_code[current_residue_index] == '-' && cura->pdb_insert == ' ') || (params->xpocket_insertion_code[current_residue_index] == '-' && cura->pdb_insert == '\0'))))
         {
             return 1;
         }
