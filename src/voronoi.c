@@ -46,115 +46,6 @@ double frand_a_b(double a, double b)
 
 /**
    ## FUNCTION:
-    s_lst_vvertice
-
-   ## SPECIFICATION:
-    Calculate voronoi vertices using an ensemble of atoms, and then load resulting
-    vertices into a s_lst_vvertice structure. The function call an external
-    programm qvoronoi, part of qhull programme which can be download at:
-        http://www.qhull.org/download/
-    or installed with apt-get install qhull-bin
-
-   ## PARAMETRES:
-    @ s_pdb *pdb          : PDB informations
-    @ int min_apol_neigh  : Number of apolar neighbor of a vertice to be
-                            considered as apolar
-    @ float asph_min_size : Minimum size of voronoi vertices to retain
-    @ float asph_max_size : Maximum size of voronoi vertices to retain
-
-   ## RETURN:
-    s_lst_vvertice * :The structure containing the list of vertices.
-
- */
-s_lst_vvertice *load_vvertices_DEPRECATED(s_pdb *pdb, int min_apol_neigh, float asph_min_size, float asph_max_size, float xshift, float yshift, float zshift)
-{
-    int i,
-        nb_h = 0;
-
-    s_atm *ca = NULL;
-    s_lst_vvertice *lvvert = NULL;
-
-    char tmpn1[250] = "";
-    char tmpn2[250] = "";
-    const char *env = getenv("TMPDIR");
-    pid_t pid = getpid();
-    if (!env)
-        env = "/tmp/";
-    sprintf(tmpn1, "%s/qvoro_in_fpocket_%d.dat", env, pid);
-    sprintf(tmpn2, "%s/qvoro_out_fpocket_%d.dat", env, pid);
-
-    srand(time(NULL));
-
-    FILE *fvoro = fopen(tmpn1, "w+");
-    FILE *ftmp = fopen(tmpn2, "w");
-
-    if (fvoro != NULL)
-    {
-        lvvert = (s_lst_vvertice *)my_malloc(sizeof(s_lst_vvertice));
-        lvvert->h_tr = NULL;
-        /* Loop a first time to get out how many heavy atoms are in the file */
-
-        for (i = 0; i < pdb->natoms; i++)
-        {
-            ca = (pdb->latoms) + i;
-            if (strcmp(ca->symbol, "H") != 0)
-            {
-                lvvert->h_tr = (int *)my_realloc(lvvert->h_tr, sizeof(int) * (i - nb_h + 1));
-                lvvert->h_tr[i - nb_h] = i;
-            }
-            else
-                nb_h++;
-        }
-        lvvert->n_h_tr = i - nb_h;
-
-        /* Write the header for qvoronoi */
-        fprintf(fvoro, "3 rbox D3\n%d\n", lvvert->n_h_tr);
-        /* Loop a second time for the qvoronoi input coordinates */
-
-        for (i = 0; i < pdb->natoms; i++)
-        {
-
-            ca = (pdb->latoms) + i;
-            if (strcmp(ca->symbol, "H") != 0)
-            {
-                fprintf(fvoro, "%.6f %.6f %.6f\n", ca->x + xshift, ca->y + yshift, ca->z + zshift);
-            }
-        }
-
-        fflush(fvoro);
-        rewind(fvoro);
-
-        // int status = system("qvoronoi p i Pp Fn < voro_tmp.dat > voro.tmp") ;
-        run_qvoronoi(fvoro, ftmp);
-        int status = M_VORONOI_SUCCESS;
-
-        if (status == M_VORONOI_SUCCESS)
-        {
-            fill_vvertices(lvvert, tmpn2, pdb->latoms, pdb->natoms,
-                           min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor, pdb);
-        }
-        else
-        {
-            my_free(lvvert);
-            lvvert = NULL;
-            fprintf(stderr, "! Voronoi command failed with status %d...\n", status);
-        }
-    }
-    else
-    {
-        fprintf(stderr, "! File for Voronoi vertices calculation couldn't be opened...\n");
-    }
-    fclose(fvoro);
-    fclose(ftmp);
-
-    remove(tmpn1);
-    remove(tmpn2);
-
-    return lvvert;
-}
-
-/**
-   ## FUNCTION:
 
 
    ## SPECIFICATION:
@@ -175,7 +66,7 @@ s_lst_vvertice *load_vvertices_DEPRECATED(s_pdb *pdb, int min_apol_neigh, float 
     s_lst_vvertice * :The structure containing the list of vertices.
 
  */
-s_lst_vvertice *load_vvertices(s_pdb *pdb, int min_apol_neigh, float asph_min_size, float asph_max_size, float xshift, float yshift, float zshift)
+s_lst_vvertice *load_vvertices(s_pdb *pdb, s_fparams *params, float xshift, float yshift, float zshift)
 {
     int i, j,
         nb_h = 0;
@@ -252,11 +143,11 @@ s_lst_vvertice *load_vvertices(s_pdb *pdb, int min_apol_neigh, float asph_min_si
             if (j == 0)
             {
                 fill_vvertices(lvvert, tmpn2, pdb->latoms, pdb->natoms,
-                               min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor, pdb);
+                               params, xshift, yshift, zshift, pdb->avg_bfactor, pdb);
             }
             else
             {
-                add_missing_vvertices(lvvert, tmpn2, pdb->latoms, min_apol_neigh, asph_min_size, asph_max_size, xshift, yshift, zshift, pdb->avg_bfactor, pdb);
+                add_missing_vvertices(lvvert, tmpn2, pdb->latoms, params, xshift, yshift, zshift, pdb->avg_bfactor, pdb);
             }
         }
         //        printf("nverts : %d\n", lvvert->nvert);
@@ -476,7 +367,7 @@ int free_cluster_lib_vertices(s_clusterlib_vertices *clusterlib_vertices, int nv
 
  */
 void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, int natoms,
-                    int min_apol_neigh, float asph_min_size, float asph_max_size,
+                    s_fparams *params,
                     float xshift, float yshift, float zshift, float avg_bfactor, s_pdb *pdb)
 {
     FILE *f = NULL;   /* File handler for vertices coordinates */
@@ -484,7 +375,9 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
     /*FILE *fvNb = NULL ;  File handler for vertices vertice neighbours */
 
     s_vvertice *v = NULL;
-
+    int min_apol_neigh = params->min_apol_neigh;
+    float asph_min_size = params->asph_min_size;
+    float asph_max_size = params->asph_max_size;
     float tmpRadius; /* Temporary Ray of voronoi vertice (ray of alpha sphere) */
     float xyz[3] = {0, 0, 0};
 
@@ -522,7 +415,6 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
     lvvert->tr = (int *)my_malloc(lvvert->nvert * sizeof(int));
     for (i = 0; i < lvvert->nvert; i++)
         lvvert->tr[i] = -1;
-
     lvvert->vertices = (s_vvertice *)my_calloc(M_BUFSIZE, sizeof(s_vvertice));
     lvvert->pvertices = (s_vvertice **)my_calloc(M_BUFSIZE, sizeof(s_vvertice *));
 
@@ -557,8 +449,7 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
                 /* Test voro. vert. for alpha sphere cond. and returns radius if
                  * cond. are ok, -1 else */
 
-                tmpRadius = testVvertice(xyz, curNbIdx, atoms, asph_min_size,
-                                         asph_max_size, lvvert, xshift, yshift, zshift, avg_bfactor, pdb);
+                tmpRadius = testVvertice(xyz, curNbIdx, atoms, params, lvvert, xshift, yshift, zshift, avg_bfactor, pdb);
                 //                fprintf(stdout, "%f\n", tmpRadius);
                 if (tmpRadius > 0)
                 {
@@ -652,7 +543,7 @@ void fill_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms, in
 
  */
 void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *atoms,
-                           int min_apol_neigh, float asph_min_size, float asph_max_size,
+                           s_fparams *params,
                            float xshift, float yshift, float zshift, float avg_bfactor, s_pdb *pdb)
 {
     FILE *f = NULL;    /* File handler for vertices coordinates */
@@ -742,8 +633,7 @@ void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *at
                     /* Test voro. vert. for alpha sphere cond. and returns radius if
                      * cond. are ok, -1 else */
 
-                    tmpRadius = testVvertice(xyz, curNbIdx, atoms, asph_min_size,
-                                             asph_max_size, lvvert, xshift, yshift, zshift, avg_bfactor, pdb);
+                    tmpRadius = testVvertice(xyz, curNbIdx, atoms, params, lvvert, xshift, yshift, zshift, avg_bfactor, pdb);
                     if (tmpRadius > 0)
                     {
                         tmpv->x = xyz[0] - xshift;
@@ -777,7 +667,7 @@ void add_missing_vvertices(s_lst_vvertice *lvvert, const char fpath[], s_atm *at
                         //                        vInMem++ ; /* Vertices actually read
                         //                        v->id = natoms + i + 1 - vInMem ;
 
-                        if (tmpApolar >= min_apol_neigh)
+                        if (tmpApolar >= params->min_apol_neigh)
                             tmpv->type = M_APOLAR_AS;
                         else
                             tmpv->type = M_POLAR_AS;
@@ -1026,6 +916,38 @@ void set_barycenter(s_vvertice *v)
 }
 
 /**
+ * ## FUNCTION:
+    atom_in_explicit_pocket
+
+   ## SPECIFICATION:
+    When specifying an explicit pocket, check if current atom is part of this explicit pocket
+
+   ## PARAMETERS:
+    @ s_atm *cura          : The current atom
+    @ s_fparams           : All fpocket parameters
+
+
+   ## RETURN:
+    short unsigned int : 0 if not part of the explicit pocket, 1 if it is part of the explicit pocket
+
+*/
+float atom_in_explicit_pocket(s_atm *cura, s_fparams *params)
+{
+    int current_residue_index;
+    for (current_residue_index = 0; current_residue_index < params->xpocket_n; current_residue_index++)
+    {
+
+        if (params->xpocket_residue_number[current_residue_index] == cura->res_id &&
+            params->xpocket_chain_code[current_residue_index] == cura->chain[0] &&
+            ((params->xpocket_insertion_code[current_residue_index] == cura->pdb_insert) || ((params->xpocket_insertion_code[current_residue_index] == '-' && cura->pdb_insert == ' ') || (params->xpocket_insertion_code[current_residue_index] == '-' && cura->pdb_insert == '\0'))))
+        {
+            return 1;
+        }
+    }
+    return 0;
+}
+
+/**
    ## FUNCTION:
     testVvertice
 
@@ -1045,17 +967,37 @@ void set_barycenter(s_vvertice *v)
 
  */
 float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
-                   float min_asph_size, float max_asph_size,
+                   s_fparams *params,
                    s_lst_vvertice *lvvert,
                    float xshift, float yshift, float zshift, float avg_bfactor, s_pdb *pdb)
 {
+    float min_asph_size = params->asph_min_size;
+    float max_asph_size = params->asph_max_size;
     float x = xyz[0] - xshift,
           y = xyz[1] - yshift,
           z = xyz[2] - zshift;
     float baryx = 0.0, baryy = 0.0, baryz = 0.0;
     float barybf = 0.0; /*temporary b factor for all atoms contacting the sphere*/
     //    if(curNbIdx[0]!=lvvert->h_tr[curNbIdx[0]]) printf("%d vs %d : %s vs %s\n",curNbIdx[0],lvvert->h_tr[curNbIdx[0]],atoms[curNbIdx[0]].symbol,atoms[lvvert->h_tr[curNbIdx[0]]].symbol);
-    s_atm *cura = &(atoms[lvvert->h_tr[curNbIdx[0]]]);
+    s_atm *cura;
+
+    short unsigned int cur_atom_index = 0;
+    int n_explicit_atoms_ok = 0;
+
+    if (params->xpocket_n > 0)
+    {
+        for (cur_atom_index = 0; cur_atom_index < 4; cur_atom_index++)
+        {
+            cura = &(atoms[lvvert->h_tr[curNbIdx[cur_atom_index]]]);
+            if (atom_in_explicit_pocket(cura, params))
+                n_explicit_atoms_ok++;
+        }
+        if (n_explicit_atoms_ok < params->min_n_explicit_pocket_atoms)
+            return -3.0;
+    }
+
+    cura = &(atoms[lvvert->h_tr[curNbIdx[0]]]);
+
     baryx += cura->x;
     baryy += cura->y;
     baryz += cura->z;

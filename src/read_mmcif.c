@@ -356,6 +356,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->res_name, at_in[i].resname);
                             strncpy(atom->chain, at_in[i].chain, 2);
                             atom->res_id = at_in[i].resid;
+                            // fprintf(stdout, " here : %c\n", at_in[i].insertion[0]);
                             atom->pdb_insert = at_in[i].insertion[0];
                             atom->x = ts_in.coords[(3 * i)];
                             atom->y = ts_in.coords[(3 * i) + 1];

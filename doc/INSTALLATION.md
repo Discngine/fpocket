@@ -148,6 +148,5 @@ If you manage to build for other architectures and it works, I'd be happy to acc
 
 ## Read next
 
-* [Getting Started](GETTINGSTARTED.md)
+* [Getting Started & Advanced Features](GETTINGSTARTED.md)
 
-* [Advanced Features](ADVANCED.md)

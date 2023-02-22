@@ -41,5 +41,3 @@ We are happy about positive, negative, in any way constructive feedback.
 * [Installation](INSTALLATION.md)
 
 * [Getting Started](GETTINGSTARTED.md)
-
-* [Advanced Features](ADVANCED.md)
