@@ -120,7 +120,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     opterr = 0;
     char *pt;
     char *apt;
-    char *residue_string[M_MAX_CUSTOM_PÖCKET_LEN];
+    char *residue_string[M_MAX_CUSTOM_POCKET_LEN];
     short custom_ligand_i = 0;
 
     static struct option fplong_options[] = {/*long options args located in fparams.h*/

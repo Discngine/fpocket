@@ -34,7 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* ------------------------------- PUBLIC MACROS ---------------------------- */
 
 #define M_MAX_PDB_NAME_LEN 200  /**< maximum pdb filename length*/
-#define M_MAX_CUSTOM_PÖCKET_LEN 8000 /** maximum length for a custom pocket string*/
+#define M_MAX_CUSTOM_POCKET_LEN 8000 /** maximum length for a custom pocket string*/
 #define M_SIGN 1
 #define M_NO_SIGN 0
 
