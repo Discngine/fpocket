@@ -981,8 +981,8 @@ void print_pocket_usage(FILE *f)
 
     fprintf(f, "\n\n\033[1mOptional pocket detection parameters\033[0m (default parameters)           \n\
 \t-%c --%s (float)\t\t: Minimum radius of an alpha-sphere.\t(%.1f)\n",
-            M_PAR_MIN_ASHAPE_SIZE, M_PAR_LONG_MIN_ASHAPE_SIZE, M_MAX_ASHAPE_SIZE_DEFAULT);
-    fprintf(f, "\t-%c --%s (float)\t\t: Maximum radius of an alpha-sphere.\t(%.1f)\n", M_PAR_MAX_ASHAPE_SIZE, M_PAR_LONG_MAX_ASHAPE_SIZE, M_MIN_ASHAPE_SIZE_DEFAULT);
+            M_PAR_MIN_ASHAPE_SIZE, M_PAR_LONG_MIN_ASHAPE_SIZE, M_MIN_ASHAPE_SIZE_DEFAULT);
+    fprintf(f, "\t-%c --%s (float)\t\t: Maximum radius of an alpha-sphere.\t(%.1f)\n", M_PAR_MAX_ASHAPE_SIZE, M_PAR_LONG_MAX_ASHAPE_SIZE, M_MAX_ASHAPE_SIZE_DEFAULT);
     fprintf(f, "\t-%c --%s (float)\t: Distance threshold for clustering algorithm\t(%.1f)\n", M_PAR_CLUST_MAX_DIST, M_PAR_LONG_CLUST_MAX_DIST, M_CLUST_MAX_DIST);
     fprintf(f, "\t-%c --%s (char)\t\t: Specify the clustering method wanted for     \n\
 \t\t\t\t\t\t  grouping voronoi vertices together (%c)\n\
