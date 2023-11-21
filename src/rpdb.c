@@ -1444,6 +1444,8 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
         }
     }
     pdb->avg_bfactor = 0.0;
+    pdb->min_bfactor = 0.0;
+    pdb->max_bfactor = 0.0;
     for (i = 0; i < iatoms; i++)
     {
         atom = atoms + i;
@@ -1457,6 +1459,12 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
         atom->ff_radius = 0.0;
         atom->ff_well_depth = 0.0;
         atom->ff_well_depth_set = 0;
+        if(atom->bfactor<pdb->min_bfactor){
+            pdb->min_bfactor=atom->bfactor;
+        }
+        if(atom->bfactor>pdb->max_bfactor){
+            pdb->max_bfactor=atom->bfactor;
+        }   
     }
     int num_h_atoms = get_number_of_h_atoms(pdb);
     pdb->natoms_h = num_h_atoms;

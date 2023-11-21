@@ -978,11 +978,13 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
           z = xyz[2] - zshift;
     float baryx = 0.0, baryy = 0.0, baryz = 0.0;
     float barybf = 0.0; /*temporary b factor for all atoms contacting the sphere*/
+    float sdbf=0.0;
     //    if(curNbIdx[0]!=lvvert->h_tr[curNbIdx[0]]) printf("%d vs %d : %s vs %s\n",curNbIdx[0],lvvert->h_tr[curNbIdx[0]],atoms[curNbIdx[0]].symbol,atoms[lvvert->h_tr[curNbIdx[0]]].symbol);
     s_atm *cura;
 
     short unsigned int cur_atom_index = 0;
     int n_explicit_atoms_ok = 0;
+    int vidx;
 
     if (params->xpocket_n > 0)
     {
@@ -1063,7 +1065,14 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                 return (-1.0);
             }
 
-            if (avg_bfactor > 0.0 && barybf / avg_bfactor > 1.4)
+            //Compute local bfactor standard deviation (aims to avoid filtering out collective motions)
+            for(vidx=0;vidx<4;vidx++){
+                cura = &(atoms[lvvert->h_tr[curNbIdx[vidx]]]);
+                sdbf += (cura->bfactor-barybf)*(cura->bfactor-barybf);
+            }
+            sdbf=sqrt(sdbf/3);
+
+            if ((sdbf>((pdb->max_bfactor-pdb->min_bfactor)/4)) && (avg_bfactor > 0.0) && (barybf / avg_bfactor > 1.4))
                 return (-1.0);
             /*now test if the vertice is not too far away from the pocket*/
             if (dist(baryx, baryy, baryz, xyz[0], xyz[1], xyz[2]) > 1.0 && distVatom1 > (max_asph_size - 1.5))
