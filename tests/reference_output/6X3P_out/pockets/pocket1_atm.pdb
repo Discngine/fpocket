@@ -3,25 +3,31 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     1:
-HEADER 0  - Pocket Score                      : 1.0381
-HEADER 1  - Drug Score                        : 0.8968
-HEADER 2  - Number of alpha spheres           :   140
-HEADER 3  - Mean alpha-sphere radius          : 3.9844
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4385
-HEADER 5  - Mean B-factor of pocket residues  : 0.3701
+HEADER 0  - Pocket Score                      : 1.0472
+HEADER 1  - Drug Score                        : 0.9121
+HEADER 2  - Number of alpha spheres           :   146
+HEADER 3  - Mean alpha-sphere radius          : 3.9758
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4497
+HEADER 5  - Mean B-factor of pocket residues  : 0.1170
 HEADER 6  - Hydrophobicity Score              : 40.3636
 HEADER 7  - Polarity Score                    :    12
 HEADER 8  - Amino Acid based volume Score     : 4.0606
-HEADER 9  - Pocket volume (Monte Carlo)       : 1259.6819
-HEADER 10  -Pocket volume (convex hull)       : 665.9824
+HEADER 9  - Pocket volume (Monte Carlo)       : 1278.5210
+HEADER 10 - Pocket volume (convex hull)       : 721.1277
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 36.5915
 HEADER 13 - Number of apolar alpha sphere     :    71
-HEADER 14 - Proportion of apolar alpha sphere : 0.5071
+HEADER 14 - Proportion of apolar alpha sphere : 0.4863
 ATOM    738  ND2 ASN A  96      -9.820  12.228 -22.169  0.00  0.00           N 0
 ATOM    134    O THR A  22      -8.109   7.388 -16.163  0.00  0.00           O 0
 ATOM    737  OD1 ASN A  96     -11.578  12.829 -20.946  0.77  9.64           O 0
-ATOM    122    O LEU A  20     -10.148   3.931 -20.613  0.68  6.43           O 0
+ATOM    122    O LEU A  20     -10.148   3.931 -20.613  0.56  6.43           O 0
+ATOM    129    C GLY A  21      -8.458   3.675 -17.279  0.00  0.00           C 0
+ATOM    130    O GLY A  21      -9.274   3.089 -16.557  0.47  2.14           O 0
+ATOM    138    N GLY A  23      -9.419   6.405 -14.616  0.00  0.00           N 0
+ATOM    139   CA GLY A  23     -10.223   7.573 -14.341  0.00  0.00           C 0
+ATOM    142    N GLN A  24     -10.590   9.033 -12.489  0.53  2.19           N 0
+ATOM    140    C GLY A  23      -9.805   8.125 -13.005  0.00  0.00           C 0
 ATOM    123   CB LEU A  20     -12.620   2.235 -20.071  0.00  0.00           C 0
 ATOM    706   CA GLY A  92     -16.534   8.403 -22.284  0.00  0.00           C 0
 ATOM    125  CD1 LEU A  20     -15.067   1.737 -19.992  0.00  0.00           C 0
@@ -32,14 +38,11 @@ ATOM   1194  OD1 ASP A 151     -15.894  10.761 -10.026  0.00  0.00           O 0
 ATOM   1114  CD1 LEU A 140     -19.473   8.240 -16.738  0.00  0.00           C 0
 ATOM   1086    O ARG A 137     -14.842  13.535 -15.282  0.00  0.00           O 0
 ATOM    714   SG CYS A  93     -14.288  13.185 -18.581  0.00  0.00           S 0
-ATOM    139   CA GLY A  23     -10.223   7.573 -14.341  0.00  0.00           C 0
-ATOM    142    N GLN A  24     -10.590   9.033 -12.489  0.52  2.19           N 0
 ATOM   1113   CG LEU A 140     -19.020   9.390 -17.558  0.00  0.00           C 0
 ATOM   1096    C ASN A 138     -18.466  13.897 -14.647  0.00  0.00           C 0
 ATOM   1097    O ASN A 138     -19.379  13.286 -14.083  0.00  0.00           O 0
-ATOM    130    O GLY A  21      -9.274   3.089 -16.557  0.00  0.00           O 0
+ATOM    133    C THR A  22      -8.399   6.421 -15.442  0.00  0.00           C 0
 ATOM    179  CG2 VAL A  28     -13.434   3.584 -14.522  0.00  0.00           C 0
-ATOM    138    N GLY A  23      -9.419   6.405 -14.616  0.00  0.00           N 0
 ATOM    709    N CYS A  93     -15.672  10.259 -21.046  0.00  0.00           N 0
 ATOM    736   CG ASN A  96     -11.084  12.635 -22.050  0.00  0.00           C 0
 ATOM    735   CB ASN A  96     -11.896  12.909 -23.288  0.00  0.00           C 0

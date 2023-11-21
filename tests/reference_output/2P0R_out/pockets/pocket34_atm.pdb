@@ -3,38 +3,33 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    34:
-HEADER 0  - Pocket Score                      : -0.0022
-HEADER 1  - Drug Score                        : 0.0343
-HEADER 2  - Number of alpha spheres           :    27
-HEADER 3  - Mean alpha-sphere radius          : 4.0246
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6186
-HEADER 5  - Mean B-factor of pocket residues  : 0.8132
-HEADER 6  - Hydrophobicity Score              : 31.0000
-HEADER 7  - Polarity Score                    :     3
-HEADER 8  - Amino Acid based volume Score     : 4.6000
-HEADER 9  - Pocket volume (Monte Carlo)       : 281.5477
-HEADER 10  -Pocket volume (convex hull)       : 14.7681
-HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 20.0000
-HEADER 13 - Number of apolar alpha sphere     :    21
-HEADER 14 - Proportion of apolar alpha sphere : 0.7778
-ATOM      5   CB ALA A  19       5.485  47.447  25.036  0.00  0.00           C 0
-ATOM    977  CD1 TRP A 141       2.410  43.570  21.034  0.00  0.00           C 0
-ATOM    976   CG TRP A 141       2.673  43.406  22.354  0.00  0.00           C 0
-ATOM    975   CB TRP A 141       2.419  44.378  23.429  0.00  0.00           C 0
-ATOM      1    N ALA A  19       4.342  49.417  24.066  0.00  0.00           N 0
-ATOM    911  NE2 GLN A 134       8.391  45.322  25.385  0.00  0.00           N 0
-ATOM    909   CD GLN A 134       7.588  44.650  26.196  0.00  0.00           C 0
-ATOM    756   CG ARG A 115       9.521  40.950  19.563  0.00  0.00           C 0
-ATOM    755   CB ARG A 115       8.999  40.309  20.841  0.00  0.00           C 0
-ATOM    754    O ARG A 115       8.800  41.147  23.920  0.59  5.36           O 0
-ATOM    978  CD2 TRP A 141       3.250  42.099  22.495  0.00  0.00           C 0
-ATOM    907   CB GLN A 134       6.750  42.233  26.226  0.00  0.00           C 0
-ATOM    981  CE3 TRP A 141       3.714  41.354  23.584  0.00  0.00           C 0
-ATOM    752   CA ARG A 115       9.982  40.563  21.962  0.00  0.00           C 0
-ATOM    749    O ALA A 114      12.408  41.249  22.955  0.33  9.64           O 0
-ATOM    980  CE2 TRP A 141       3.312  41.533  21.211  0.00  0.00           C 0
-ATOM    757   CD ARG A 115       8.652  40.619  18.350  0.00  0.00           C 0
-ATOM    979  NE1 TRP A 141       2.796  42.450  20.338  0.00  0.00           N 0
+HEADER 0  - Pocket Score                      : -0.0040
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9291
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5002
+HEADER 5  - Mean B-factor of pocket residues  : 0.7757
+HEADER 6  - Hydrophobicity Score              : 14.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.5479
+HEADER 10 - Pocket volume (convex hull)       : 2.3921
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   2877   CD GLU B  59      -2.535   7.783  39.293  0.00  0.00           C 0
+ATOM   2854   CA TYR B  57      -2.902   7.825  45.126  0.00  0.00           C 0
+ATOM   2876   CG GLU B  59      -1.931   8.723  40.305  0.00  0.00           C 0
+ATOM   2878  OE1 GLU B  59      -3.745   7.519  39.361  0.71  6.43           O 0
+ATOM   2879  OE2 GLU B  59      -1.794   7.272  38.445  0.00  0.00           O 0
+ATOM   2826   CB SER B  53       1.198   1.921  43.583  0.00  0.00           C 0
+ATOM   2845    O PHE B  56      -0.440   6.827  44.918  0.00  0.00           O 0
+ATOM   2823   CA SER B  53       1.554   3.403  43.829  0.00  0.00           C 0
+ATOM   2817    O ASN B  52       2.594   5.948  43.737  0.00  0.00           O 0
+ATOM   2816    C ASN B  52       2.968   5.145  42.887  0.00  0.00           C 0
+ATOM   2822    N SER B  53       2.515   3.894  42.838  0.00  0.00           N 0
+ATOM   2889  NH1 ARG B  60       0.414   6.219  36.123  0.00  0.00           N 0
+ATOM   2818   CB ASN B  52       3.289   6.012  40.550  0.00  0.00           C 0
 TER
 END

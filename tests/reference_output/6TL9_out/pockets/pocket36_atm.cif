@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    36:
-0  - Pocket Score                      : -0.0337
-1  - Drug Score                        : 0.0005
-2  - Number of alpha spheres           :    21
-3  - Mean alpha-sphere radius          : 4.0469
-4  - Mean alpha-sphere Solvent Acc.    : 0.6314
-5  - Mean B-factor of pocket residues  : 0.6621
-6  - Hydrophobicity Score              : -12.2500
-7  - Polarity Score                    :     4
-8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 326.8520
-10  -Pocket volume (convex hull)       : 8.8092
-11 - Charge Score                      :     1
-12 - Local hydrophobic density Score   : 2.0000
-13 - Number of apolar alpha sphere     :     3
-14 - Proportion of apolar alpha sphere : 0.1429
+0  - Pocket Score                      : -0.0298
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 3.9711
+4  - Mean alpha-sphere Solvent Acc.    : 0.7201
+5  - Mean B-factor of pocket residues  : 0.2588
+6  - Hydrophobicity Score              : 0.5714
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.5714
+9  - Pocket volume (Monte Carlo)       : 272.1624
+10  -Pocket volume (convex hull)       : 8.7937
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.1667
 # 
 loop_
 _atom_site.group_PDB
@@ -39,25 +39,23 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     2066    O    O .  LYS   B .  129 ?   30.723 -60.166 -41.127 -1.62  0   B
-ATOM     1068    O    O .  PRO   B .    5 ?   33.477 -56.500 -41.630 -3.21  0   B
-ATOM     2077    N    N .  ASN   B .  131 ?   34.436 -59.009 -40.087 -1.09  0   B
-ATOM     2081    C   CB .  ASN   B .  131 ?   36.451 -59.363 -41.443  0.00  0   B
-ATOM     1347    O  OD2 .  ASP   B .   38 ?   29.416 -64.252 -47.778  0.00  0   B
+ATOM     1360    C   CE .  LYS   B .   40 ?   22.722 -63.726 -39.163  0.00  0   B
+ATOM     2055    C   CA .  LYS   B .  128 ?   26.336 -60.457 -41.577  0.00  0   B
 ATOM     2063    N    N .  LYS   B .  129 ?   28.271 -61.339 -40.372 -2.61  0   B
-ATOM     2067    C   CB .  LYS   B .  129 ?   30.013 -62.671 -39.238  0.00  0   B
+ATOM     1361    N   NZ .  LYS   B .   40 ?   23.419 -64.772 -38.366 -7.66  0   B
+ATOM     1325    C  CD2 .  LEU   B .   35 ?   20.269 -65.931 -47.686  0.00  0   B
+ATOM     1342    C    C .  ASP   B .   38 ?   25.679 -62.626 -47.007  0.00  0   B
+ATOM     1351    O    O .  ALA   B .   39 ?   21.842 -62.955 -46.200  0.00  0   B
 ATOM     1343    O    O .  ASP   B .   38 ?   26.471 -62.732 -46.070 -0.95  0   B
-ATOM     2061    C   CE .  LYS   B .  128 ?   28.681 -58.456 -45.608  0.00  0   B
-ATOM     2062    N   NZ .  LYS   B .  128 ?   29.198 -58.817 -46.958 -1.68  0   B
-ATOM     1079    C   CA .  PRO   B .    7 ?   32.095 -53.530 -46.612  0.00  0   B
-ATOM     1082    C   CB .  PRO   B .    7 ?   31.339 -54.511 -47.524  0.00  0   B
-ATOM     1063    S   SD .  MET   B .    4 ?   37.423 -53.708 -46.846  0.00  0   B
-ATOM     1062    C   CG .  MET   B .    4 ?   37.477 -54.562 -45.252  0.00  0   B
-ATOM     1084    C   CD .  PRO   B .    7 ?   30.798 -55.042 -45.221  0.00  0   B
+ATOM     1348    N    N .  ALA   B .   39 ?   24.413 -62.259 -46.836  0.00  0   B
+ATOM     1350    C    C .  ALA   B .   39 ?   22.477 -62.435 -45.286  0.00  0   B
+ATOM     1321    O    O .  LEU   B .   35 ?   23.294 -63.762 -50.625  0.00  0   B
+ATOM     1346    O  OD1 .  ASP   B .   38 ?   27.630 -65.280 -48.557  0.00  0   B
+ATOM     1357    C   CB .  LYS   B .   40 ?   20.720 -63.793 -42.492  0.00  0   B
+ATOM     1353    N    N .  LYS   B .   40 ?   22.028 -62.419 -44.037 -1.09  0   B
 ATOM     2058    C   CB .  LYS   B .  128 ?   26.776 -60.532 -43.041  0.00  0   B
-ATOM     2060    C   CD .  LYS   B .  128 ?   27.902 -59.585 -44.998  0.00  0   B
-ATOM     1078    N    N .  PRO   B .    7 ?   31.935 -54.105 -45.274  0.00  0   B
-ATOM     1074    C    C .  CYS   B .    6 ?   32.734 -53.683 -44.275  0.00  0   B
-ATOM     1060    O    O .  MET   B .    4 ?   36.650 -56.296 -42.756 -0.81  0   B
-ATOM     1083    C   CG .  PRO   B .    7 ?   30.621 -55.455 -46.637  0.00  0   B
+ATOM     1349    C   CA .  ALA   B .   39 ?   23.892 -61.873 -45.536  0.00  0   B
+ATOM     2048    O    O .  GLN   B .  127 ?   23.549 -60.640 -42.043 -1.07  0   B
+ATOM     1341    C   CA .  ASP   B .   38 ?   26.124 -62.917 -48.457  0.00  0   B
+ATOM     1359    C   CD .  LYS   B .   40 ?   21.979 -64.310 -40.347  0.00  0   B
 # 

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.1412
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9603
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5884
+HEADER 5  - Mean B-factor of pocket residues  : 0.4091
+HEADER 6  - Hydrophobicity Score              : 36.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.9211
+HEADER 10 - Pocket volume (convex hull)       : 12.0763
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   3681   CB CYS A 475      56.826  27.590  -5.883  0.00  0.00           C 0
+ATOM   3402  OG1 THR A 435      52.957  24.333  -8.517  0.58  2.14           O 0
+ATOM   3643  CD1 LEU A 469      52.202  28.105  -8.003  0.00  0.00           C 0
+ATOM   3680    O CYS A 475      58.625  27.863  -8.037  0.71  5.36           O 0
+ATOM   3618  CG2 THR A 466      52.847  24.545 -11.950  0.00  0.00           C 0
+ATOM   3641   CB LEU A 469      51.912  29.604  -9.931  0.00  0.00           C 0
+ATOM   3451  CG2 THR A 442      55.330  21.030  -9.074  0.00  0.00           C 0
+ATOM   3403  CG2 THR A 435      53.686  24.890  -6.232  0.00  0.00           C 0
+ATOM   3435    O CYS A 440      58.605  22.779  -4.716  0.62  6.43           O 0
+ATOM   3640    O LEU A 469      52.958  31.847 -11.400  0.41  7.50           O 0
+ATOM   3646   CA ALA A 470      52.255  31.788 -14.131  0.00  0.00           C 0
+ATOM   3615    O THR A 466      51.034  27.295 -12.477  0.72  4.29           O 0
+ATOM   3645    N ALA A 470      51.532  31.180 -13.029  0.00  0.00           N 0
+ATOM   3639    C LEU A 469      51.931  31.287 -11.756  0.00  0.00           C 0
+ATOM   3672    O ILE A 474      56.204  30.124  -7.349  0.43  3.21           O 0
+ATOM   3684   CA SER A 476      59.796  30.337  -8.714  0.00  0.00           C 0
+ATOM   3657    O SER A 472      56.189  33.899 -10.268  0.37  6.43           O 0
+TER
+END

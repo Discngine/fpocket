@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0766
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0051
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5252
+HEADER 5  - Mean B-factor of pocket residues  : 0.2879
+HEADER 6  - Hydrophobicity Score              : -8.3333
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 2.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.3715
+HEADER 10 - Pocket volume (convex hull)       : 6.6139
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   3089   CA ASP A 391      41.061  11.340  13.065  0.00  0.00           C 0
+ATOM   2126    N MET A 269      39.228  16.754  15.246  0.50  1.09           N 0
+ATOM   3083    O ASP A 390      40.145  13.235  11.276  0.73  4.29           O 0
+ATOM   2141  OD2 ASP A 270      35.226  13.284  14.932  0.00  0.00           O 0
+ATOM   2130   CB MET A 269      39.495  16.491  12.802  0.00  0.00           C 0
+ATOM   2113    O SER A 266      42.363  14.370  20.177  0.41  5.36           O 0
+ATOM   3091    O ASP A 391      42.255  12.946  14.299  0.50  6.43           O 0
+ATOM   3094  OD1 ASP A 391      39.204   9.425  14.057  0.58  9.64           O 0
+ATOM   2119    O GLY A 267      41.825  15.744  17.447  0.38  2.14           O 0
+ATOM   3092   CB ASP A 391      41.534  10.033  13.745  0.00  0.00           C 0
+ATOM   2111   CA SER A 266      44.647  13.773  20.108  0.00  0.00           C 0
+ATOM   2121   CA SER A 268      39.222  16.588  17.712  0.00  0.00           C 0
+ATOM   2106    O THR A 265      46.185  13.419  17.974  0.00  0.00           O 0
+ATOM   3102  CG2 THR A 392      45.527  11.524  13.663  0.00  0.00           C 0
+ATOM   2124   CB SER A 268      37.944  16.776  18.580  0.00  0.00           C 0
+ATOM   2125   OG SER A 268      36.757  16.658  17.805  0.63  3.21           O 0
+TER
+END

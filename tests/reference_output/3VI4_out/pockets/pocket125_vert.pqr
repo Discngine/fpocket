@@ -4,35 +4,44 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   125:
-HEADER 0  - Pocket Score                      : -0.1005
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.9873
-HEADER 4  - Mean alpha-sphere SA              : 0.6359
-HEADER 5  - Mean B-factor                     : 0.4646
-HEADER 6  - Hydrophobicity Score              : -7.8000
+HEADER 0  - Pocket Score                      : -0.0658
+HEADER 1  - Drug Score                        : 0.0069
+HEADER 2  - Number of V. Vertices             :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0135
+HEADER 4  - Mean alpha-sphere SA              : 0.5766
+HEADER 5  - Mean B-factor                     : 0.6543
+HEADER 6  - Hydrophobicity Score              : 25.7000
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 3.6000
-HEADER 9  - Real volume (approximation)       : 186.8967
+HEADER 8  - Volume Score                      : 3.9000
+HEADER 9  - Real volume (approximation)       : 359.7047
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 3.0000
-HEADER 12 - Number of apolar alpha sphere     :     4
-HEADER 13 - Proportion of apolar alpha sphere : 0.2500
-ATOM      1    O STP   125       4.727 -18.950 -63.822    0.00     3.88
-ATOM      2    O STP   125       4.883 -18.029 -65.300    0.00     4.24
-ATOM      3    C STP   125       5.229 -19.033 -64.919    0.00     3.43
-ATOM      4    O STP   125       5.113 -19.024 -64.329    0.00     3.63
-ATOM      5    C STP   125       4.967 -19.297 -63.733    0.00     3.68
-ATOM      6    O STP   125       5.086 -19.553 -63.469    0.00     3.60
-ATOM      7    O STP   125       5.080 -19.545 -63.475    0.00     3.60
-ATOM      8    O STP   125       5.082 -19.550 -63.472    0.00     3.60
-ATOM      9    O STP   125       3.592 -18.003 -64.418    0.00     4.50
-ATOM     10    O STP   125       4.965 -17.706 -65.634    0.00     4.40
-ATOM     11    C STP   125       4.562 -17.668 -66.125    0.00     4.53
-ATOM     12    C STP   125       4.741 -17.698 -65.522    0.00     4.53
-ATOM     13    O STP   125       5.163 -17.687 -66.533    0.00     4.23
-ATOM     14    O STP   125       5.416 -17.714 -66.120    0.00     4.15
-ATOM     15    O STP   125       5.748 -17.601 -65.831    0.00     3.94
-ATOM     16    O STP   125       5.859 -17.536 -65.785    0.00     3.85
+HEADER 11 - Local hydrophobic density Score   : 14.0000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.6000
+ATOM      1    O STP   125     -37.509  12.283 -38.028    0.00     3.87
+ATOM      2    C STP   125     -39.312  15.667 -36.800    0.00     3.46
+ATOM      3    C STP   125     -39.399  15.544 -36.945    0.00     3.60
+ATOM      4    O STP   125     -39.412  15.515 -36.984    0.00     3.63
+ATOM      5    C STP   125     -38.297  13.138 -38.412    0.00     4.44
+ATOM      6    O STP   125     -38.307  11.388 -38.523    0.00     3.47
+ATOM      7    C STP   125     -39.259  13.476 -36.970    0.00     3.85
+ATOM      8    C STP   125     -39.413  15.518 -36.946    0.00     3.61
+ATOM      9    O STP   125     -39.413  15.513 -36.985    0.00     3.63
+ATOM     10    C STP   125     -40.648  15.289 -38.113    0.00     3.64
+ATOM     11    C STP   125     -39.368  13.391 -36.844    0.00     3.73
+ATOM     12    C STP   125     -39.735  13.272 -37.695    0.00     4.03
+ATOM     13    C STP   125     -41.170  14.732 -38.265    0.00     3.53
+ATOM     14    C STP   125     -39.480  13.501 -38.221    0.00     4.49
+ATOM     15    C STP   125     -39.073  13.674 -38.869    0.00     4.97
+ATOM     16    C STP   125     -40.223  12.313 -38.070    0.00     3.63
+ATOM     17    O STP   125     -39.616  13.169 -41.375    0.00     4.50
+ATOM     18    O STP   125     -39.666  13.100 -40.038    0.00     4.59
+ATOM     19    O STP   125     -39.254  11.977 -39.011    0.00     4.05
+ATOM     20    O STP   125     -39.485  12.538 -39.104    0.00     4.44
+ATOM     21    C STP   125     -39.859  12.022 -38.952    0.00     4.06
+ATOM     22    O STP   125     -41.595  12.534 -41.848    0.00     4.24
+ATOM     23    O STP   125     -42.025  11.592 -41.242    0.00     3.59
+ATOM     24    C STP   125     -40.839  12.917 -43.269    0.00     4.64
+ATOM     25    C STP   125     -41.041  12.767 -43.150    0.00     4.64
 TER
 END

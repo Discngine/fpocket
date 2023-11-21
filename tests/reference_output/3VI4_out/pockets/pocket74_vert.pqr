@@ -4,36 +4,43 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    74:
-HEADER 0  - Pocket Score                      : -0.0327
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    17
-HEADER 3  - Mean alpha-sphere radius          : 4.1092
-HEADER 4  - Mean alpha-sphere SA              : 0.6744
-HEADER 5  - Mean B-factor                     : 0.8517
-HEADER 6  - Hydrophobicity Score              : 4.0000
+HEADER 0  - Pocket Score                      : -0.0227
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9046
+HEADER 4  - Mean alpha-sphere SA              : 0.5420
+HEADER 5  - Mean B-factor                     : 0.1551
+HEADER 6  - Hydrophobicity Score              : 24.8182
 HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Volume Score                      : 3.6667
-HEADER 9  - Real volume (approximation)       : 302.6538
-HEADER 10 - Charge Score                      :     0
+HEADER 8  - Volume Score                      : 5.0000
+HEADER 9  - Real volume (approximation)       : 391.5958
+HEADER 10 - Charge Score                      :     2
 HEADER 11 - Local hydrophobic density Score   : 0.0000
 HEADER 12 - Number of apolar alpha sphere     :     0
 HEADER 13 - Proportion of apolar alpha sphere : 0.0000
-ATOM      1    O STP    74       1.178  24.562  18.181    0.00     3.64
-ATOM      2    O STP    74       0.977  24.777  18.033    0.00     3.64
-ATOM      3    O STP    74       1.486  25.951  17.691    0.00     4.22
-ATOM      4    O STP    74       2.055  25.224  18.041    0.00     4.02
-ATOM      5    O STP    74       0.348  30.146  20.279    0.00     4.43
-ATOM      6    O STP    74       0.518  30.345  21.731    0.00     3.95
-ATOM      7    O STP    74       0.167  30.614  21.455    0.00     4.42
-ATOM      8    O STP    74       0.201  30.345  20.510    0.00     4.53
-ATOM      9    O STP    74       1.290  29.292  19.347    0.00     4.01
-ATOM     10    O STP    74       2.115  25.353  17.960    0.00     4.06
-ATOM     11    O STP    74       2.109  25.404  17.943    0.00     4.08
-ATOM     12    O STP    74       2.093  25.320  17.989    0.00     4.05
-ATOM     13    O STP    74       2.086  25.219  18.078    0.00     3.99
-ATOM     14    O STP    74       3.222  28.661  18.762    0.00     3.43
-ATOM     15    O STP    74       1.688  28.534  17.872    0.00     4.66
-ATOM     16    O STP    74       2.520  26.739  17.635    0.00     4.41
-ATOM     17    O STP    74       2.602  26.822  17.766    0.00     4.31
+ATOM      1    O STP    74     -71.248 -46.126  15.066    0.00     3.83
+ATOM      2    O STP    74     -71.491 -46.151  15.038    0.00     3.96
+ATOM      3    O STP    74     -74.350 -44.812  17.640    0.00     4.56
+ATOM      4    O STP    74     -70.951 -43.229   9.256    0.00     3.95
+ATOM      5    O STP    74     -70.693 -44.117   9.205    0.00     3.91
+ATOM      6    O STP    74     -69.991 -45.267   8.624    0.00     3.47
+ATOM      7    O STP    74     -69.602 -45.137   8.482    0.00     3.43
+ATOM      8    O STP    74     -70.011 -44.982   8.726    0.00     3.61
+ATOM      9    O STP    74     -71.925 -43.283   9.827    0.00     4.28
+ATOM     10    O STP    74     -72.008 -43.636   9.914    0.00     4.31
+ATOM     11    O STP    74     -72.033 -45.513  10.901    0.00     4.43
+ATOM     12    O STP    74     -71.196 -46.008  12.240    0.00     3.84
+ATOM     13    O STP    74     -71.363 -46.379  12.692    0.00     4.09
+ATOM     14    O STP    74     -73.581 -45.123  15.651    0.00     4.66
+ATOM     15    O STP    74     -71.189 -46.114  14.560    0.00     3.77
+ATOM     16    O STP    74     -71.444 -46.106  15.002    0.00     3.96
+ATOM     17    O STP    74     -71.542 -46.124  14.999    0.00     4.00
+ATOM     18    O STP    74     -71.286 -42.087   8.273    0.00     3.45
+ATOM     19    O STP    74     -70.005 -44.629   9.312    0.00     3.61
+ATOM     20    O STP    74     -70.282 -44.585   9.146    0.00     3.86
+ATOM     21    O STP    74     -70.254 -44.608   9.108    0.00     3.84
+ATOM     22    O STP    74     -70.291 -44.560   9.140    0.00     3.86
+ATOM     23    O STP    74     -70.183 -42.992   9.150    0.00     3.61
+ATOM     24    O STP    74     -71.323 -42.080   8.285    0.00     3.45
 TER
 END

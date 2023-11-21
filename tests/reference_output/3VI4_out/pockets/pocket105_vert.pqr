@@ -4,40 +4,34 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   105:
-HEADER 0  - Pocket Score                      : -0.0752
-HEADER 1  - Drug Score                        : 0.0005
-HEADER 2  - Number of V. Vertices             :    21
-HEADER 3  - Mean alpha-sphere radius          : 4.2146
-HEADER 4  - Mean alpha-sphere SA              : 0.4284
-HEADER 5  - Mean B-factor                     : 0.3534
-HEADER 6  - Hydrophobicity Score              : 32.5714
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.7143
-HEADER 9  - Real volume (approximation)       : 316.9973
+HEADER 0  - Pocket Score                      : -0.0526
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9815
+HEADER 4  - Mean alpha-sphere SA              : 0.6567
+HEADER 5  - Mean B-factor                     : 0.2744
+HEADER 6  - Hydrophobicity Score              : -17.1429
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.5714
+HEADER 9  - Real volume (approximation)       : 340.4088
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 8.0000
-HEADER 12 - Number of apolar alpha sphere     :     9
-HEADER 13 - Proportion of apolar alpha sphere : 0.4286
-ATOM      1    O STP   105     -74.637 -60.823  48.612    0.00     4.28
-ATOM      2    O STP   105     -74.047 -61.854  48.221    0.00     3.78
-ATOM      3    C STP   105     -73.575 -62.672  47.924    0.00     3.64
-ATOM      4    C STP   105     -73.586 -62.709  47.925    0.00     3.63
-ATOM      5    O STP   105     -74.599 -60.844  48.568    0.00     4.27
-ATOM      6    O STP   105     -73.186 -61.476  47.640    0.00     3.95
-ATOM      7    O STP   105     -74.727 -60.686  48.603    0.00     4.35
-ATOM      8    O STP   105     -74.748 -60.737  48.705    0.00     4.33
-ATOM      9    O STP   105     -74.521 -60.760  49.187    0.00     3.93
-ATOM     10    O STP   105     -73.525 -59.236  46.836    0.00     4.70
-ATOM     11    O STP   105     -73.154 -58.967  46.782    0.00     4.62
-ATOM     12    O STP   105     -72.124 -56.904  46.891    0.00     4.63
-ATOM     13    O STP   105     -72.727 -58.898  46.613    0.00     4.59
-ATOM     14    C STP   105     -71.839 -57.322  46.653    0.00     4.61
-ATOM     15    C STP   105     -72.704 -60.310  46.643    0.00     4.36
-ATOM     16    O STP   105     -72.998 -59.469  46.489    0.00     4.69
-ATOM     17    C STP   105     -72.810 -59.803  45.648    0.00     4.37
-ATOM     18    C STP   105     -71.789 -60.986  43.984    0.00     3.77
-ATOM     19    C STP   105     -71.816 -60.917  43.956    0.00     3.79
-ATOM     20    C STP   105     -72.514 -60.471  44.982    0.00     4.10
-ATOM     21    C STP   105     -72.518 -60.459  44.976    0.00     4.11
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.2667
+ATOM      1    O STP   105      31.100  -4.334 -26.103    0.00     4.53
+ATOM      2    C STP   105      33.466  -4.977 -29.153    0.00     3.99
+ATOM      3    C STP   105      33.814  -4.987 -30.536    0.00     3.67
+ATOM      4    C STP   105      33.447  -5.444 -29.612    0.00     4.14
+ATOM      5    O STP   105      31.878  -4.243 -25.310    0.00     4.66
+ATOM      6    O STP   105      31.439  -3.715 -23.734    0.00     3.68
+ATOM      7    O STP   105      30.784  -3.085 -25.276    0.00     3.84
+ATOM      8    O STP   105      33.713  -3.823 -27.059    0.00     4.19
+ATOM      9    C STP   105      33.902  -3.999 -28.296    0.00     3.62
+ATOM     10    O STP   105      32.965  -2.598 -25.300    0.00     3.45
+ATOM     11    O STP   105      33.840  -3.751 -26.800    0.00     4.21
+ATOM     12    O STP   105      35.037  -3.420 -26.333    0.00     3.66
+ATOM     13    O STP   105      34.696  -4.158 -25.429    0.00     4.38
+ATOM     14    O STP   105      34.954  -3.237 -24.956    0.00     3.54
+ATOM     15    O STP   105      31.845  -5.029 -22.318    0.00     4.17
 TER
 END

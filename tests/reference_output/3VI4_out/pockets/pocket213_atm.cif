@@ -1,0 +1,59 @@
+data_pocket213_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   213:
+0  - Pocket Score                      : -0.1629
+1  - Drug Score                        : 0.0028
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 4.0552
+4  - Mean alpha-sphere Solvent Acc.    : 0.4250
+5  - Mean B-factor of pocket residues  : 0.4207
+6  - Hydrophobicity Score              : 18.3000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 3.3000
+9  - Pocket volume (Monte Carlo)       : 561.4053
+10  -Pocket volume (convex hull)       : 21.5476
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.6000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    22237    C  CG2 .  VAL   H .  188 ?  -11.265 -33.919 -87.994  0.00  0   H
+ATOM    22061    C  CD1 .  LEU   H .  164 ?  -12.865 -31.363 -84.465  0.00  0   H
+ATOM    22236    C  CG1 .  VAL   H .  188 ?  -12.905 -35.314 -89.268  0.00  0   H
+ATOM    22244    C   CD .  PRO   H .  189 ?  -13.841 -37.437 -86.236  0.00  0   H
+ATOM    22262    O  OG1 .  THR   H .  192 ?  -16.081 -35.625 -89.545 -2.14  0   H
+ATOM    22243    C   CG .  PRO   H .  189 ?  -14.767 -38.525 -85.770  0.00  0   H
+ATOM    22263    C  CG2 .  THR   H .  192 ?  -18.431 -35.084 -89.599  0.00  0   H
+ATOM    22242    C   CB .  PRO   H .  189 ?  -15.226 -39.178 -87.028  0.00  0   H
+ATOM    11130    C   CA .  GLY   C .  427 ?  -22.939 -32.635 -81.006  0.00  0   C
+ATOM    11132    O    O .  GLY   C .  427 ?  -20.992 -32.183 -79.705  0.00  0   C
+ATOM     8143    O    O .  THR   C .   30 ?  -19.559 -42.752 -82.419 -3.35  0   C
+ATOM    22062    C  CD2 .  LEU   H .  164 ?  -11.743 -30.560 -86.555  0.00  0   H
+ATOM    22313    C  CG2 .  VAL   H .  198 ?  -12.220 -31.245 -91.992  0.00  0   H
+ATOM    22298    O  OE1 .  GLU   H .  196 ?  -18.069 -31.762 -89.690 -5.09  0   H
+ATOM    22260    O    O .  THR   H .  192 ?  -15.849 -33.779 -92.628  0.00  0   H
+ATOM    22038    N  ND2 .  ASN   H .  160 ?  -13.036 -27.207 -89.694  0.00  0   H
+ATOM    22303    O    O .  THR   H .  197 ?  -14.514 -27.869 -92.289 -4.29  0   H
+# 

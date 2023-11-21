@@ -524,6 +524,7 @@ void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
 void write_pocket_pqr(const char out[], s_pocket *pocket) {
     node_vertice *vcur = NULL;
     int i=0;
+
     FILE *f = fopen(out, "w");
     if (f && pocket) {
         fprintf(f, "HEADER\n");

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0471
+HEADER 1  - Drug Score                        : 0.0716
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0370
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6003
+HEADER 5  - Mean B-factor of pocket residues  : 0.2798
+HEADER 6  - Hydrophobicity Score              : 48.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 258.6111
+HEADER 10 - Pocket volume (convex hull)       : 6.4872
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   3437   SG CYS A 440      57.762  26.872  -3.103  0.00  0.00           S 0
+ATOM   3416    O VAL A 437      54.594  27.343  -0.798  0.57  3.21           O 0
+ATOM   3423    O ILE A 438      56.842  25.827   1.471  0.35  7.50           O 0
+ATOM   2868   CB SER A 364      55.045  30.272   2.462  0.00  0.00           C 0
+ATOM   3677    N CYS A 475      57.318  29.909  -5.427  0.00  0.00           N 0
+ATOM   3682   SG CYS A 475      56.162  27.214  -4.226  0.00  0.00           S 0
+ATOM   3664   CB LYS A 473      57.768  35.930  -7.220  0.00  0.00           C 0
+ATOM   3674  CG1 ILE A 474      53.808  32.940  -4.776  0.00  0.00           C 0
+ATOM   3663    O LYS A 473      58.099  33.172  -6.281  0.59  8.57           O 0
+ATOM   2888   CB ALA A 367      53.178  34.421  -0.511  0.00  0.00           C 0
+ATOM   2865   CA SER A 364      54.326  31.603   2.432  0.00  0.00           C 0
+ATOM   2867    O SER A 364      52.195  31.546   1.245  0.44  2.14           O 0
+ATOM   3675  CG2 ILE A 474      53.938  30.431  -4.710  0.00  0.00           C 0
+ATOM   3670   CA ILE A 474      55.804  31.820  -5.756  0.00  0.00           C 0
+ATOM   3662    C LYS A 473      57.089  33.537  -6.873  0.00  0.00           C 0
+TER
+END

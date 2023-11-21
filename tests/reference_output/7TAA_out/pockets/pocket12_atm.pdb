@@ -3,33 +3,41 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    12:
-HEADER 0  - Pocket Score                      : 0.2274
-HEADER 1  - Drug Score                        : 0.0011
-HEADER 2  - Number of alpha spheres           :    19
-HEADER 3  - Mean alpha-sphere radius          : 3.5881
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4370
-HEADER 5  - Mean B-factor of pocket residues  : 0.2303
-HEADER 6  - Hydrophobicity Score              : 13.8571
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Amino Acid based volume Score     : 4.8571
-HEADER 9  - Pocket volume (Monte Carlo)       : 68.3640
-HEADER 10  -Pocket volume (convex hull)       : 0.3194
-HEADER 11 - Charge Score                      :     3
-HEADER 12 - Local hydrophobic density Score   : 3.0000
-HEADER 13 - Number of apolar alpha sphere     :     4
-HEADER 14 - Proportion of apolar alpha sphere : 0.2105
-ATOM   2550    O GLY A 323      39.577  36.458   6.215  0.16  1.07           O 0
-ATOM   3150   NZ LYS A 398      36.788  32.573   1.966  0.57  1.09           N 0
-ATOM   2988   CA VAL A 380      36.951  36.337  -0.474  0.00  0.00           C 0
-ATOM   3149   CE LYS A 398      38.212  32.245   1.667  0.00  0.00           C 0
-ATOM   2985  CE2 PHE A 379      41.149  33.614  -0.038  0.00  0.00           C 0
-ATOM   2992  CG1 VAL A 380      38.847  38.003  -0.348  0.00  0.00           C 0
-ATOM   2904   NE ARG A 369      43.232  35.983   3.306  0.25  2.19           N 0
-ATOM   2534    O ASN A 321      39.698  32.436   5.719  0.43  1.07           O 0
-ATOM   2907  NH2 ARG A 369      41.844  37.770   3.615  0.23  2.19           N 0
-ATOM   2990    O VAL A 380      35.132  36.158   1.039  0.26  6.43           O 0
-ATOM     50    O ARG A   7      39.288  39.509   3.217  0.29  2.14           O 0
-ATOM   2991   CB VAL A 380      37.355  37.788  -0.199  0.00  0.00           C 0
-ATOM   2547    N GLY A 323      37.216  34.984   6.260  0.37  3.28           N 0
+HEADER 0  - Pocket Score                      : 0.2338
+HEADER 1  - Drug Score                        : 0.1542
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9891
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6370
+HEADER 5  - Mean B-factor of pocket residues  : 0.3318
+HEADER 6  - Hydrophobicity Score              : 30.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 352.2049
+HEADER 10 - Pocket volume (convex hull)       : 16.0553
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.7273
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM    731  OE2 GLU A  92      51.554  65.013  27.185  0.00  0.00           O 0
+ATOM    729   CD GLU A  92      51.961  63.880  27.557  0.00  0.00           C 0
+ATOM    728   CG GLU A  92      51.594  62.678  26.708  0.00  0.00           C 0
+ATOM    762  CG2 THR A  96      54.407  64.399  20.634  0.00  0.00           C 0
+ATOM    711   CB LEU A  90      47.529  60.992  22.404  0.00  0.00           C 0
+ATOM    757   CA THR A  96      52.672  62.624  20.032  0.00  0.00           C 0
+ATOM    763    N ALA A  97      50.680  63.298  18.817  0.73  2.19           N 0
+ATOM    727   CB GLU A  92      52.523  61.495  26.774  0.00  0.00           C 0
+ATOM    692    O TYR A  88      42.585  65.064  23.475  0.62  6.43           O 0
+ATOM    712   CG LEU A  90      46.680  61.204  21.122  0.00  0.00           C 0
+ATOM   1579   OH TYR A 198      45.130  62.872  17.989  0.65  5.36           O 0
+ATOM    767   CB ALA A  97      48.812  64.511  17.795  0.00  0.00           C 0
+ATOM    755    O GLY A  95      52.642  60.730  21.995  0.72  1.07           O 0
+ATOM    726    O GLU A  92      54.383  59.600  25.464  0.24  9.64           O 0
+ATOM    710    O LEU A  90      48.020  61.149  25.623  0.72  3.21           O 0
+ATOM    713  CD1 LEU A  90      47.570  61.413  19.899  0.00  0.00           C 0
+ATOM    754    C GLY A  95      53.568  60.665  21.166  0.00  0.00           C 0
+ATOM    753   CA GLY A  95      54.564  59.515  21.245  0.00  0.00           C 0
+ATOM    707    N LEU A  90      46.025  61.995  24.025  0.63  3.28           N 0
+ATOM    705   CB SER A  89      44.822  64.277  25.703  0.00  0.00           C 0
+ATOM    702   CA SER A  89      44.186  63.425  24.662  0.00  0.00           C 0
 TER
 END

@@ -4,34 +4,43 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    29:
-HEADER 0  - Pocket Score                      : -0.0257
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of V. Vertices             :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.7588
-HEADER 4  - Mean alpha-sphere SA              : 0.4911
-HEADER 5  - Mean B-factor                     : 0.7074
-HEADER 6  - Hydrophobicity Score              : 24.3333
+HEADER 0  - Pocket Score                      : -0.0156
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8907
+HEADER 4  - Mean alpha-sphere SA              : 0.5690
+HEADER 5  - Mean B-factor                     : 0.1479
+HEADER 6  - Hydrophobicity Score              : 23.5714
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.4444
-HEADER 9  - Real volume (approximation)       : 230.7488
+HEADER 8  - Volume Score                      : 3.8571
+HEADER 9  - Real volume (approximation)       : 351.2055
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 4.0000
-HEADER 12 - Number of apolar alpha sphere     :     5
-HEADER 13 - Proportion of apolar alpha sphere : 0.3333
-ATOM      1    O STP    29     -40.479 -31.486 -27.725    0.00     3.55
-ATOM      2    O STP    29     -41.112 -29.574 -27.363    0.00     4.16
-ATOM      3    O STP    29     -44.347 -31.187 -30.071    0.00     4.04
-ATOM      4    C STP    29     -40.399 -31.535 -27.760    0.00     3.51
-ATOM      5    O STP    29     -40.948 -30.324 -26.466    0.00     3.61
-ATOM      6    O STP    29     -40.661 -29.761 -26.107    0.00     3.45
-ATOM      7    C STP    29     -41.837 -29.134 -27.806    0.00     4.30
-ATOM      8    C STP    29     -43.103 -29.953 -29.358    0.00     4.11
-ATOM      9    C STP    29     -44.002 -30.612 -29.880    0.00     4.10
-ATOM     10    O STP    29     -39.877 -33.012 -27.503    0.00     3.55
-ATOM     11    O STP    29     -40.027 -32.996 -27.406    0.00     3.60
-ATOM     12    O STP    29     -40.012 -33.013 -27.409    0.00     3.60
-ATOM     13    C STP    29     -44.443 -31.961 -31.424    0.00     3.79
-ATOM     14    O STP    29     -40.176 -33.282 -27.487    0.00     3.50
-ATOM     15    O STP    29     -40.126 -33.327 -27.495    0.00     3.51
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.2917
+ATOM      1    O STP    29      11.584 -44.270 -51.017    0.00     4.44
+ATOM      2    O STP    29      11.715 -39.201 -51.906    0.00     3.49
+ATOM      3    O STP    29      13.993 -40.328 -48.472    0.00     3.42
+ATOM      4    O STP    29      14.014 -40.286 -48.524    0.00     3.45
+ATOM      5    O STP    29      15.563 -39.926 -49.188    0.00     3.44
+ATOM      6    C STP    29      14.037 -40.264 -48.553    0.00     3.46
+ATOM      7    O STP    29      15.475 -39.922 -49.179    0.00     3.46
+ATOM      8    C STP    29      14.024 -40.275 -48.590    0.00     3.47
+ATOM      9    O STP    29      13.028 -39.763 -50.599    0.00     3.43
+ATOM     10    C STP    29      15.232 -40.076 -49.562    0.00     3.53
+ATOM     11    O STP    29      14.352 -41.055 -51.522    0.00     4.50
+ATOM     12    O STP    29      15.236 -40.159 -49.768    0.00     3.57
+ATOM     13    O STP    29      13.945 -41.033 -51.262    0.00     4.47
+ATOM     14    C STP    29      14.035 -40.593 -50.226    0.00     3.94
+ATOM     15    O STP    29      15.258 -40.404 -52.014    0.00     4.09
+ATOM     16    O STP    29      15.283 -40.379 -51.966    0.00     4.05
+ATOM     17    O STP    29      13.235 -40.071 -50.691    0.00     3.65
+ATOM     18    C STP    29      13.145 -39.909 -50.613    0.00     3.54
+ATOM     19    C STP    29      13.222 -40.005 -50.583    0.00     3.59
+ATOM     20    O STP    29      14.318 -41.112 -51.606    0.00     4.56
+ATOM     21    O STP    29      12.774 -43.136 -51.685    0.00     4.60
+ATOM     22    O STP    29      13.580 -41.875 -50.973    0.00     4.11
+ATOM     23    O STP    29      13.892 -41.235 -51.593    0.00     4.67
+ATOM     24    C STP    29      15.791 -40.063 -54.248    0.00     4.45
 TER
 END

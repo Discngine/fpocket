@@ -4,48 +4,39 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    27:
-HEADER 0  - Pocket Score                      : 0.0381
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    29
-HEADER 3  - Mean alpha-sphere radius          : 4.0832
-HEADER 4  - Mean alpha-sphere SA              : 0.4674
-HEADER 5  - Mean B-factor                     : 0.4030
-HEADER 6  - Hydrophobicity Score              : 6.2143
-HEADER 7  - Polarity Score                    :    10
-HEADER 8  - Volume Score                      : 4.0000
-HEADER 9  - Real volume (approximation)       : 516.1740
+HEADER 0  - Pocket Score                      : 0.0485
+HEADER 1  - Drug Score                        : 0.0088
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0225
+HEADER 4  - Mean alpha-sphere SA              : 0.5799
+HEADER 5  - Mean B-factor                     : 0.1326
+HEADER 6  - Hydrophobicity Score              : 33.9000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.8000
+HEADER 9  - Real volume (approximation)       : 345.0477
 HEADER 10 - Charge Score                      :     2
-HEADER 11 - Local hydrophobic density Score   : 0.0000
-HEADER 12 - Number of apolar alpha sphere     :     0
-HEADER 13 - Proportion of apolar alpha sphere : 0.0000
-ATOM      1    O STP    27      30.211   3.534 -42.604    0.00     4.64
-ATOM      2    O STP    27      30.219   3.528 -42.575    0.00     4.63
-ATOM      3    O STP    27      21.145  -0.654 -49.266    0.00     3.71
-ATOM      4    O STP    27      26.045  -0.760 -48.787    0.00     4.11
-ATOM      5    O STP    27      25.537  -1.024 -48.989    0.00     4.14
-ATOM      6    O STP    27      30.359   0.546 -44.327    0.00     4.19
-ATOM      7    O STP    27      30.219   3.526 -42.573    0.00     4.63
-ATOM      8    O STP    27      30.216   3.526 -42.570    0.00     4.62
-ATOM      9    O STP    27      21.367  -0.517 -48.838    0.00     4.05
-ATOM     10    O STP    27      26.393   0.067 -48.520    0.00     4.27
-ATOM     11    O STP    27      25.138   0.507 -48.804    0.00     4.49
-ATOM     12    O STP    27      29.785   0.284 -44.581    0.00     4.09
-ATOM     13    O STP    27      30.089   2.141 -44.261    0.00     4.57
-ATOM     14    O STP    27      30.208   0.952 -44.680    0.00     4.49
-ATOM     15    O STP    27      24.288   0.751 -48.766    0.00     4.64
-ATOM     16    O STP    27      24.736  -4.300 -47.395    0.00     3.48
-ATOM     17    O STP    27      29.452   0.406 -46.264    0.00     4.20
-ATOM     18    O STP    27      27.701  -0.685 -46.980    0.00     3.59
-ATOM     19    O STP    27      29.409  -0.229 -44.709    0.00     3.83
-ATOM     20    O STP    27      24.812  -1.905 -49.084    0.00     4.12
-ATOM     21    O STP    27      24.204  -1.736 -49.058    0.00     4.16
-ATOM     22    O STP    27      25.366  -3.619 -48.094    0.00     3.63
-ATOM     23    O STP    27      24.734  -4.233 -47.553    0.00     3.54
-ATOM     24    O STP    27      24.783  -4.455 -47.644    0.00     3.40
-ATOM     25    O STP    27      22.979  -3.570 -47.712    0.00     3.62
-ATOM     26    O STP    27      23.173  -3.547 -47.649    0.00     3.66
-ATOM     27    O STP    27      22.751  -2.014 -48.832    0.00     4.08
-ATOM     28    O STP    27      23.202  -1.862 -48.751    0.00     4.17
-ATOM     29    O STP    27      22.370  -3.116 -48.257    0.00     3.66
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.5500
+ATOM      1    O STP    27     -14.695 -59.932 -48.957    0.00     3.41
+ATOM      2    C STP    27     -18.731 -54.542 -47.350    0.00     3.49
+ATOM      3    C STP    27     -18.181 -55.284 -46.372    0.00     4.01
+ATOM      4    O STP    27     -14.629 -60.057 -48.772    0.00     3.51
+ATOM      5    O STP    27     -14.288 -60.429 -48.662    0.00     3.60
+ATOM      6    O STP    27     -14.292 -60.445 -48.666    0.00     3.59
+ATOM      7    O STP    27     -14.981 -59.135 -47.837    0.00     3.87
+ATOM      8    C STP    27     -15.358 -58.418 -47.085    0.00     4.39
+ATOM      9    C STP    27     -17.637 -56.956 -45.857    0.00     4.58
+ATOM     10    C STP    27     -17.672 -56.203 -46.516    0.00     4.21
+ATOM     11    C STP    27     -15.733 -58.407 -47.866    0.00     3.68
+ATOM     12    O STP    27     -18.698 -55.513 -45.097    0.00     4.37
+ATOM     13    C STP    27     -20.239 -54.232 -45.949    0.00     3.51
+ATOM     14    C STP    27     -15.711 -57.092 -47.289    0.00     4.17
+ATOM     15    O STP    27     -15.870 -57.077 -47.000    0.00     4.28
+ATOM     16    C STP    27     -15.422 -57.936 -46.745    0.00     4.66
+ATOM     17    O STP    27     -15.644 -57.775 -46.527    0.00     4.69
+ATOM     18    C STP    27     -15.085 -56.500 -48.127    0.00     3.42
+ATOM     19    O STP    27     -15.092 -57.850 -46.999    0.00     4.39
+ATOM     20    C STP    27     -13.596 -58.689 -45.987    0.00     4.64
 TER
 END

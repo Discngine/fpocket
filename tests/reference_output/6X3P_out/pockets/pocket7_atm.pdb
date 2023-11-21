@@ -3,21 +3,21 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     7:
-HEADER 0  - Pocket Score                      : 0.0157
-HEADER 1  - Drug Score                        : 0.0019
-HEADER 2  - Number of alpha spheres           :    29
-HEADER 3  - Mean alpha-sphere radius          : 3.9841
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5682
-HEADER 5  - Mean B-factor of pocket residues  : 0.3531
+HEADER 0  - Pocket Score                      : 0.0028
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 4.0066
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5665
+HEADER 5  - Mean B-factor of pocket residues  : 0.1118
 HEADER 6  - Hydrophobicity Score              : 19.0667
 HEADER 7  - Polarity Score                    :     9
 HEADER 8  - Amino Acid based volume Score     : 5.1333
-HEADER 9  - Pocket volume (Monte Carlo)       : 468.4562
-HEADER 10  -Pocket volume (convex hull)       : 61.1928
+HEADER 9  - Pocket volume (Monte Carlo)       : 502.5031
+HEADER 10 - Pocket volume (convex hull)       : 66.4378
 HEADER 11 - Charge Score                      :     3
-HEADER 12 - Local hydrophobic density Score   : 11.5385
-HEADER 13 - Number of apolar alpha sphere     :    13
-HEADER 14 - Proportion of apolar alpha sphere : 0.4483
+HEADER 12 - Local hydrophobic density Score   : 12.1429
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
 ATOM   1657   CAAMET A 208      -9.248  24.700 -18.712  0.00  0.00           C 0
 ATOM   1669   CEAMET A 208      -6.262  22.586 -16.002  0.00  0.00           C 0
 ATOM   1665   CGAMET A 208      -7.680  24.820 -16.724  0.00  0.00           C 0
@@ -31,8 +31,9 @@ ATOM   1090   NE ARG A 137     -12.452  17.555 -11.740  0.39  3.28           N 0
 ATOM   1357   CA PRO A 172     -11.232  22.276  -7.751  0.00  0.00           C 0
 ATOM   1093  NH2 ARG A 137     -13.081  19.435 -10.567  0.46  1.09           N 0
 ATOM   1342   CD LYS A 170      -4.458  16.786  -8.208  0.00  0.00           C 0
-ATOM   1297  CE2 TYR A 163      -7.970  14.534  -6.826  0.00  0.00           C 0
 ATOM   1089   CD ARG A 137     -12.062  16.828 -12.957  0.00  0.00           C 0
+ATOM   1299   OH TYR A 163      -6.138  13.323  -7.763  0.24  9.64           O 0
+ATOM   1297  CE2 TYR A 163      -7.970  14.534  -6.826  0.00  0.00           C 0
 ATOM   1333    O SER A 169      -4.138  20.837  -7.381  0.00  0.00           O 0
 ATOM   1338    C LYS A 170      -7.430  19.429  -6.169  0.00  0.00           C 0
 ATOM   1348    O PHE A 171      -8.589  22.370  -6.951  0.55  3.21           O 0

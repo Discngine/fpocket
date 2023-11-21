@@ -3,37 +3,41 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    43:
-HEADER 0  - Pocket Score                      : -0.0337
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of alpha spheres           :    17
-HEADER 3  - Mean alpha-sphere radius          : 3.8360
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3811
-HEADER 5  - Mean B-factor of pocket residues  : 0.5064
-HEADER 6  - Hydrophobicity Score              : -3.1429
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Amino Acid based volume Score     : 4.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 265.0804
-HEADER 10  -Pocket volume (convex hull)       : 13.0741
-HEADER 11 - Charge Score                      :    -2
-HEADER 12 - Local hydrophobic density Score   : 0.0000
-HEADER 13 - Number of apolar alpha sphere     :     0
-HEADER 14 - Proportion of apolar alpha sphere : 0.0000
-ATOM   3505  CD2 HIS B 138      -4.579   0.447  67.371  0.00  0.00           C 0
-ATOM   3989  OD1 ASP B 198       0.761   3.818  66.207  0.42  3.21           O 0
-ATOM   3507  NE2 HIS B 138      -4.774   0.974  66.117  0.42  9.84           N 0
-ATOM   3981  OE1 GLU B 197      -2.251   6.273  70.742  0.69  5.36           O 0
-ATOM   3957   CG GLU B 194      -2.291   7.349  65.168  0.00  0.00           C 0
-ATOM   3960  OE2 GLU B 194      -3.153   6.565  63.073  0.00  0.00           O 0
-ATOM   3499   CA HIS B 138      -2.444  -1.374  69.090  0.00  0.00           C 0
-ATOM   3501    O HIS B 138      -2.534  -2.119  71.350  0.00  0.00           O 0
-ATOM   3483  NE1 TRP B 136       0.470  -0.102  71.256  0.30  7.66           N 0
-ATOM   3496  OE1 GLN B 137       0.618   1.472  64.033  0.47  5.36           O 0
-ATOM   3506  CE1 HIS B 138      -4.339   0.113  65.214  0.00  0.00           C 0
-ATOM   3497  NE2 GLN B 137      -0.618   0.150  62.689  0.00  0.00           N 0
-ATOM   3498    N HIS B 138      -1.278  -1.054  68.272  0.44  3.28           N 0
-ATOM   3481  CD1 TRP B 136       1.296   0.573  70.394  0.00  0.00           C 0
-ATOM   3958   CD GLU B 194      -3.256   7.438  63.985  0.00  0.00           C 0
-ATOM   3978   CB GLU B 197       0.538   5.923  70.554  0.00  0.00           C 0
-ATOM   4016    O GLY B 202       0.473   4.749  74.689  0.63  6.43           O 0
+HEADER 0  - Pocket Score                      : -0.0681
+HEADER 1  - Drug Score                        : 0.0072
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9045
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5727
+HEADER 5  - Mean B-factor of pocket residues  : 0.4986
+HEADER 6  - Hydrophobicity Score              : 34.5556
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.4957
+HEADER 10 - Pocket volume (convex hull)       : 16.6513
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM   3337   CA GLN B 119      20.575  -2.309  66.372  0.00  0.00           C 0
+ATOM   3324    O ILE B 117      17.010   0.211  66.552  0.63  4.29           O 0
+ATOM   3341   CG GLN B 119      21.755  -2.404  68.643  0.00  0.00           C 0
+ATOM   3339    O GLN B 119      22.499  -1.306  65.311  0.37  6.43           O 0
+ATOM   3297  CD2 LEU B 113      17.347   7.050  68.342  0.00  0.00           C 0
+ATOM   3325   CB ILE B 117      16.158   2.415  64.907  0.00  0.00           C 0
+ATOM   3328  CD1 ILE B 117      15.975   4.938  64.362  0.00  0.00           C 0
+ATOM   3060  CD1 ILE B  80      21.497   4.332  63.833  0.00  0.00           C 0
+ATOM   3332    O PRO B 118      18.874  -1.185  64.328  0.67  1.07           O 0
+ATOM   3299   CA ALA B 114      16.434   1.484  69.887  0.00  0.00           C 0
+ATOM   3302   CB ALA B 114      17.423   0.982  70.940  0.00  0.00           C 0
+ATOM   3274  OE1 GLN B 110      20.428   6.754  70.794  0.00  0.00           O 0
+ATOM   3081   CB ALA B  84      19.716   7.972  65.671  0.00  0.00           C 0
+ATOM   3059  CG2 ILE B  80      23.371   6.960  63.858  0.00  0.00           C 0
+ATOM   3077    N ALA B  84      21.810   9.092  66.208  0.71  2.19           N 0
+ATOM   3074   CA GLY B  83      24.171   9.454  66.553  0.00  0.00           C 0
+ATOM   3327  CG2 ILE B 117      17.072   2.268  63.668  0.00  0.00           C 0
+ATOM   3295   CG LEU B 113      16.049   6.222  68.291  0.00  0.00           C 0
+ATOM   3293    O LEU B 113      14.823   3.087  68.308  0.00  0.00           O 0
+ATOM   3298    N ALA B 114      15.911   2.818  70.247  0.00  0.00           N 0
+ATOM   3270    O GLN B 110      17.330   4.257  72.401  0.81  3.21           O 0
 TER
 END

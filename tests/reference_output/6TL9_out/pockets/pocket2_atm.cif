@@ -11,11 +11,11 @@ Information about the pocket     2:
 2  - Number of alpha spheres           :    92
 3  - Mean alpha-sphere radius          : 3.9719
 4  - Mean alpha-sphere Solvent Acc.    : 0.4996
-5  - Mean B-factor of pocket residues  : 0.1661
+5  - Mean B-factor of pocket residues  : 0.1006
 6  - Hydrophobicity Score              : 30.2143
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.2857
-9  - Pocket volume (Monte Carlo)       : 875.3318
+9  - Pocket volume (Monte Carlo)       : 837.2207
 10  -Pocket volume (convex hull)       : 297.1629
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 43.0704
@@ -83,7 +83,7 @@ ATOM     6168    C   CB .  LEU   F .  120 ?  -30.645 -60.479 -12.051  0.00  0   
 ATOM     6175    O    O .  ALA   F .  121 ?  -35.042 -60.224 -10.771  0.00  0   F
 ATOM     5708    C   CB .  PRO   F .   63 ?  -37.157 -60.523 -16.409  0.00  0   F
 ATOM     5703    C   CZ .  PHE   F .   62 ?  -44.515 -56.119 -12.552  0.00  0   F
-ATOM     5052    N  NH1 .  ARG   E .  110 ?  -46.160 -53.745  -7.173 -1.26  0   E
+ATOM     5052    N  NH1 .  ARG   E .  110 ?  -46.160 -53.745  -7.173 -4.12  0   E
 ATOM     5395    O   OG .  SER   F .   24 ?  -38.756 -59.841  -7.787 -1.21  0   F
 ATOM     4620    O    O .  SER   E .   58 ?  -47.023 -59.349  -9.733 -6.43  0   E
 ATOM     5698    C   CG .  PHE   F .   62 ?  -42.922 -57.914 -13.957  0.00  0   F

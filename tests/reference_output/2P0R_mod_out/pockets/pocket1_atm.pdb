@@ -12,8 +12,8 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.0000
 HEADER 6  - Hydrophobicity Score              : 12.9615
 HEADER 7  - Polarity Score                    :    15
 HEADER 8  - Amino Acid based volume Score     : 3.4615
-HEADER 9  - Pocket volume (Monte Carlo)       : 1933.8832
-HEADER 10  -Pocket volume (convex hull)       : 700.1219
+HEADER 9  - Pocket volume (Monte Carlo)       : 1910.4324
+HEADER 10 - Pocket volume (convex hull)       : 700.1219
 HEADER 11 - Charge Score                      :    -2
 HEADER 12 - Local hydrophobic density Score   : 19.6429
 HEADER 13 - Number of apolar alpha sphere     :    28

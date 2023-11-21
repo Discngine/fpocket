@@ -3,42 +3,40 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     9:
-HEADER 0  - Pocket Score                      : -0.0327
-HEADER 1  - Drug Score                        : 0.0021
-HEADER 2  - Number of alpha spheres           :    26
-HEADER 3  - Mean alpha-sphere radius          : 3.9837
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6812
-HEADER 5  - Mean B-factor of pocket residues  : 0.4171
-HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 0  - Pocket Score                      : -0.0207
+HEADER 1  - Drug Score                        : 0.0069
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0244
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6526
+HEADER 5  - Mean B-factor of pocket residues  : 0.0848
+HEADER 6  - Hydrophobicity Score              : 28.4000
 HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Amino Acid based volume Score     : 3.7143
-HEADER 9  - Pocket volume (Monte Carlo)       : 274.6052
-HEADER 10  -Pocket volume (convex hull)       : 16.9759
-HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 14.0000
-HEADER 13 - Number of apolar alpha sphere     :    15
-HEADER 14 - Proportion of apolar alpha sphere : 0.5769
-ATOM   2135  OD1 ASN A 262     -33.699  31.956 -17.146  0.74  5.36           O 0
-ATOM   2132    O ASN A 262     -32.885  29.849 -21.497  0.00  0.00           O 0
-ATOM   2167  CG2 VAL A 266     -31.099  31.575 -23.858  0.00  0.00           C 0
-ATOM   2133   CB ASN A 262     -32.267  30.542 -18.392  0.00  0.00           C 0
-ATOM   2157   CB ASP A 265     -36.013  30.993 -22.672  0.00  0.00           C 0
-ATOM   2160  OD2 ASP A 265     -37.250  31.831 -20.827  0.65  7.50           O 0
-ATOM   2130   CA ASN A 262     -33.462  30.008 -19.155  0.00  0.00           C 0
-ATOM   2136  ND2 ASN A 262     -31.643  31.578 -16.342  0.79  6.56           N 0
-ATOM   2134   CG ASN A 262     -32.600  31.429 -17.243  0.00  0.00           C 0
-ATOM   1943  CG2 THR A 240     -27.880  37.097 -18.946  0.00  0.00           C 0
-ATOM   1941   CB THR A 240     -27.008  36.544 -20.105  0.00  0.00           C 0
-ATOM   1912    O LYS A 237     -27.492  33.733 -22.139  0.00  0.00           O 0
-ATOM   1914   CG LYS A 237     -30.001  35.966 -25.014  0.00  0.00           C 0
-ATOM   1910   CA LYS A 237     -27.867  35.079 -24.051  0.00  0.00           C 0
-ATOM   1942  OG1 THR A 240     -26.561  37.642 -20.911  0.62  7.50           O 0
-ATOM   1949  CG1 ILE A 241     -28.858  31.646 -19.751  0.00  0.00           C 0
-ATOM   1951  CD1 ILE A 241     -29.471  30.609 -20.756  0.00  0.00           C 0
-ATOM   1913   CB LYS A 237     -29.192  34.721 -24.707  0.00  0.00           C 0
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.9409
+HEADER 10 - Pocket volume (convex hull)       : 9.3629
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.9167
+ATOM   1942  OG1 THR A 240     -26.561  37.642 -20.911  0.61  7.50           O 0
+ATOM   1965   CG TYR A 243     -21.489  36.864 -16.036  0.00  0.00           C 0
+ATOM   1932  CD2 TYR A 239     -21.116  37.089 -21.459  0.00  0.00           C 0
+ATOM   1934  CE2 TYR A 239     -20.079  37.663 -20.732  0.00  0.00           C 0
+ATOM   1973   CA SER A 244     -25.638  34.576 -13.688  0.00  0.00           C 0
 ATOM   1976   CB SER A 244     -27.081  34.355 -14.162  0.00  0.00           C 0
+ATOM   2006  CE1 HIS A 247     -26.481  37.670 -10.959  0.00  0.00           C 0
+ATOM   1943  CG2 THR A 240     -27.880  37.097 -18.946  0.00  0.00           C 0
+ATOM   1967  CD2 TYR A 243     -21.969  37.785 -15.116  0.00  0.00           C 0
+ATOM   2007  NE2 HIS A 247     -25.976  38.858 -10.630  0.00  0.00           N 0
+ATOM   1969  CE2 TYR A 243     -21.133  38.766 -14.567  0.00  0.00           C 0
+ATOM   1938   CA THR A 240     -25.766  35.795 -19.597  0.00  0.00           C 0
+ATOM   1968  CE1 TYR A 243     -19.291  37.859 -15.795  0.00  0.00           C 0
 ATOM   1940    O THR A 240     -26.098  34.847 -17.384  0.00  0.00           O 0
-ATOM   1977   OG SER A 244     -27.362  32.976 -14.364  0.57  1.07           O 0
-ATOM   1945   CA ILE A 241     -26.947  32.383 -18.274  0.00  0.00           C 0
+ATOM   1970   CZ TYR A 243     -19.787  38.771 -14.889  0.00  0.00           C 0
+ATOM   1936   OH TYR A 239     -18.200  37.417 -19.266  0.61  5.36           O 0
+ATOM   1971   OH TYR A 243     -18.904  39.668 -14.340  0.64  6.43           O 0
+ATOM   1972    N SER A 244     -24.693  34.449 -14.807  0.68  1.09           N 0
+ATOM   1964   CB TYR A 243     -22.411  35.836 -16.672  0.00  0.00           C 0
+ATOM   1966  CD1 TYR A 243     -20.131  36.891 -16.332  0.00  0.00           C 0
 TER
 END

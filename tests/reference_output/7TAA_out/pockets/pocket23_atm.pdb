@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0530
+HEADER 1  - Drug Score                        : 0.0421
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2746
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6617
+HEADER 5  - Mean B-factor of pocket residues  : 0.3751
+HEADER 6  - Hydrophobicity Score              : 20.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.1409
+HEADER 10 - Pocket volume (convex hull)       : 2.3935
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1770   CE LYS A 221      23.910  57.425   9.646  0.00  0.00           C 0
+ATOM   1768   CG LYS A 221      25.830  55.955  10.412  0.00  0.00           C 0
+ATOM   1766    O LYS A 221      29.041  56.387  10.630  0.00  0.00           O 0
+ATOM   1773   CA ALA A 222      29.358  57.462  13.034  0.00  0.00           C 0
+ATOM   1776   CB ALA A 222      29.387  57.929  14.507  0.00  0.00           C 0
+ATOM   1771   NZ LYS A 221      22.625  58.042  10.097  0.00  0.00           N 0
+ATOM   1495  CD2 TYR A 188      25.593  58.149  18.171  0.00  0.00           C 0
+ATOM   1740   CA GLY A 218      24.869  54.356  15.452  0.00  0.00           C 0
+ATOM   1497  CE2 TYR A 188      24.795  57.106  18.568  0.00  0.00           C 0
+ATOM   1769   CD LYS A 221      24.343  56.271  10.549  0.00  0.00           C 0
+ATOM   1772    N ALA A 222      28.583  56.229  12.834  0.00  0.00           N 0
+ATOM   1742    O GLY A 218      26.910  55.518  15.054  0.69  3.21           O 0
+TER
+END

@@ -4,34 +4,40 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    28:
-HEADER 0  - Pocket Score                      : -0.0379
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of V. Vertices             :    15
-HEADER 3  - Mean alpha-sphere radius          : 4.0355
-HEADER 4  - Mean alpha-sphere SA              : 0.4214
-HEADER 5  - Mean B-factor                     : 0.8899
-HEADER 6  - Hydrophobicity Score              : 35.1429
+HEADER 0  - Pocket Score                      : -0.0195
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9836
+HEADER 4  - Mean alpha-sphere SA              : 0.5563
+HEADER 5  - Mean B-factor                     : 0.3414
+HEADER 6  - Hydrophobicity Score              : 37.5714
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 5.1429
-HEADER 9  - Real volume (approximation)       : 304.1439
-HEADER 10 - Charge Score                      :     3
-HEADER 11 - Local hydrophobic density Score   : 7.0000
-HEADER 12 - Number of apolar alpha sphere     :     8
-HEADER 13 - Proportion of apolar alpha sphere : 0.5333
-ATOM      1    O STP    28      24.144 -11.950  20.024    0.00     4.24
-ATOM      2    O STP    28      25.144 -11.732  19.701    0.00     3.95
-ATOM      3    C STP    28      21.735 -15.405  19.066    0.00     4.52
-ATOM      4    C STP    28      22.278 -15.765  18.047    0.00     4.02
-ATOM      5    O STP    28      22.754 -13.857  18.073    0.00     3.84
-ATOM      6    C STP    28      23.761 -12.439  18.890    0.00     3.85
-ATOM      7    C STP    28      23.307 -12.406  18.066    0.00     3.51
-ATOM      8    C STP    28      23.090 -14.483  17.274    0.00     3.54
-ATOM      9    O STP    28      22.932 -13.928  17.758    0.00     3.71
-ATOM     10    O STP    28      23.693 -11.150  21.409    0.00     4.36
-ATOM     11    O STP    28      24.114 -11.328  20.491    0.00     4.30
-ATOM     12    C STP    28      23.596 -11.058  19.745    0.00     3.58
-ATOM     13    C STP    28      21.810 -15.351  19.942    0.00     4.61
-ATOM     14    O STP    28      23.328 -13.188  20.767    0.00     4.21
-ATOM     15    C STP    28      22.981 -12.650  21.781    0.00     4.31
+HEADER 8  - Volume Score                      : 4.8571
+HEADER 9  - Real volume (approximation)       : 335.2415
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 2.0000
+HEADER 12 - Number of apolar alpha sphere     :     3
+HEADER 13 - Proportion of apolar alpha sphere : 0.1429
+ATOM      1    O STP    28      36.573  22.592 -25.732    0.00     3.97
+ATOM      2    O STP    28      37.790  20.788 -26.805    0.00     4.41
+ATOM      3    O STP    28      37.801  19.291 -26.293    0.00     3.93
+ATOM      4    O STP    28      37.920  20.008 -26.509    0.00     4.12
+ATOM      5    O STP    28      37.569  21.880 -26.596    0.00     4.49
+ATOM      6    O STP    28      36.613  22.660 -25.765    0.00     4.04
+ATOM      7    O STP    28      35.212  15.722 -26.860    0.00     4.36
+ATOM      8    O STP    28      37.277  19.233 -26.395    0.00     3.85
+ATOM      9    O STP    28      37.405  18.866 -26.240    0.00     3.83
+ATOM     10    O STP    28      37.935  18.999 -26.088    0.00     3.87
+ATOM     11    O STP    28      38.062  19.117 -26.054    0.00     3.87
+ATOM     12    O STP    28      37.487  18.510 -26.024    0.00     3.79
+ATOM     13    C STP    28      39.297  23.093 -26.478    0.00     4.66
+ATOM     14    O STP    28      37.383  18.232 -25.589    0.00     3.51
+ATOM     15    O STP    28      36.414  16.160 -25.996    0.00     3.96
+ATOM     16    O STP    28      36.511  16.334 -25.983    0.00     3.89
+ATOM     17    C STP    28      39.745  21.820 -26.001    0.00     3.70
+ATOM     18    C STP    28      38.363  19.171 -26.031    0.00     3.76
+ATOM     19    O STP    28      36.415  16.160 -25.995    0.00     3.96
+ATOM     20    O STP    28      36.465  16.199 -25.983    0.00     3.94
+ATOM     21    O STP    28      36.561  16.030 -25.725    0.00     3.75
 TER
 END

@@ -4,39 +4,39 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    77:
-HEADER 0  - Pocket Score                      : -0.1819
+HEADER 0  - Pocket Score                      : -0.1320
 HEADER 1  - Drug Score                        : 0.0001
 HEADER 2  - Number of V. Vertices             :    20
-HEADER 3  - Mean alpha-sphere radius          : 4.1698
-HEADER 4  - Mean alpha-sphere SA              : 0.6225
-HEADER 5  - Mean B-factor                     : 0.6150
-HEADER 6  - Hydrophobicity Score              : 41.4444
+HEADER 3  - Mean alpha-sphere radius          : 4.1165
+HEADER 4  - Mean alpha-sphere SA              : 0.5979
+HEADER 5  - Mean B-factor                     : 0.7602
+HEADER 6  - Hydrophobicity Score              : 34.5000
 HEADER 7  - Polarity Score                    :     3
-HEADER 8  - Volume Score                      : 4.5556
-HEADER 9  - Real volume (approximation)       : 366.7602
+HEADER 8  - Volume Score                      : 4.5000
+HEADER 9  - Real volume (approximation)       : 192.3382
 HEADER 10 - Charge Score                      :     2
-HEADER 11 - Local hydrophobic density Score   : 0.0000
-HEADER 12 - Number of apolar alpha sphere     :     1
-HEADER 13 - Proportion of apolar alpha sphere : 0.0500
-ATOM      1    O STP    77     -42.645 -51.311 -33.860    0.00     4.38
-ATOM      2    O STP    77     -43.209 -50.031 -32.482    0.00     3.65
-ATOM      3    O STP    77     -42.609 -49.718 -32.376    0.00     3.53
-ATOM      4    O STP    77     -38.363 -47.506 -30.996    0.00     4.70
-ATOM      5    O STP    77     -41.099 -49.840 -32.963    0.00     3.91
-ATOM      6    O STP    77     -41.060 -49.714 -32.857    0.00     3.89
-ATOM      7    O STP    77     -39.354 -47.903 -32.298    0.00     4.63
-ATOM      8    O STP    77     -38.419 -47.530 -31.035    0.00     4.68
-ATOM      9    O STP    77     -38.385 -47.528 -30.972    0.00     4.67
-ATOM     10    O STP    77     -40.145 -47.779 -31.770    0.00     4.01
-ATOM     11    O STP    77     -39.926 -47.862 -32.095    0.00     4.26
-ATOM     12    O STP    77     -38.357 -47.386 -30.877    0.00     4.61
-ATOM     13    O STP    77     -38.365 -47.350 -30.774    0.00     4.55
-ATOM     14    O STP    77     -36.608 -45.431 -29.975    0.00     3.52
-ATOM     15    O STP    77     -37.614 -48.437 -30.723    0.00     4.07
-ATOM     16    C STP    77     -38.526 -48.081 -30.395    0.00     4.03
-ATOM     17    O STP    77     -36.671 -45.934 -32.239    0.00     4.61
-ATOM     18    O STP    77     -38.988 -47.709 -29.725    0.00     3.76
-ATOM     19    O STP    77     -38.498 -46.980 -29.927    0.00     4.04
-ATOM     20    O STP    77     -38.244 -46.785 -29.697    0.00     3.89
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1000
+ATOM      1    O STP    77     -57.935 -53.961   0.103    0.00     4.42
+ATOM      2    O STP    77     -57.630 -54.153   0.479    0.00     4.66
+ATOM      3    O STP    77     -57.631 -54.152   0.481    0.00     4.66
+ATOM      4    C STP    77     -57.174 -53.198  -1.068    0.00     3.60
+ATOM      5    O STP    77     -58.042 -52.997  -1.502    0.00     3.53
+ATOM      6    O STP    77     -55.353 -53.846  -0.259    0.00     4.10
+ATOM      7    O STP    77     -55.795 -53.660  -0.668    0.00     3.86
+ATOM      8    C STP    77     -56.224 -53.665  -0.699    0.00     3.85
+ATOM      9    O STP    77     -57.391 -53.839  -0.465    0.00     4.21
+ATOM     10    O STP    77     -57.579 -54.187   0.205    0.00     4.63
+ATOM     11    O STP    77     -58.272 -54.294  -1.144    0.00     3.94
+ATOM     12    O STP    77     -57.803 -56.051  -0.282    0.00     3.86
+ATOM     13    O STP    77     -58.054 -53.852  -0.024    0.00     4.31
+ATOM     14    O STP    77     -58.207 -53.014  -1.435    0.00     3.56
+ATOM     15    O STP    77     -58.016 -53.911  -0.057    0.00     4.36
+ATOM     16    O STP    77     -58.268 -54.100  -1.011    0.00     4.03
+ATOM     17    O STP    77     -58.116 -53.255  -1.256    0.00     3.74
+ATOM     18    O STP    77     -57.987 -54.018  -0.584    0.00     4.29
+ATOM     19    O STP    77     -57.903 -53.959  -0.477    0.00     4.35
+ATOM     20    O STP    77     -57.902 -53.986  -0.417    0.00     4.38
 TER
 END

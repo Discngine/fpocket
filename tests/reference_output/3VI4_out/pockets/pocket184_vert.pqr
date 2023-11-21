@@ -4,76 +4,49 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   184:
-HEADER 0  - Pocket Score                      : -0.2520
-HEADER 1  - Drug Score                        : 0.0288
-HEADER 2  - Number of V. Vertices             :    57
-HEADER 3  - Mean alpha-sphere radius          : 4.0012
-HEADER 4  - Mean alpha-sphere SA              : 0.5025
-HEADER 5  - Mean B-factor                     : 0.5133
-HEADER 6  - Hydrophobicity Score              : -10.7333
-HEADER 7  - Polarity Score                    :    10
-HEADER 8  - Volume Score                      : 3.4000
-HEADER 9  - Real volume (approximation)       : 896.8677
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 20.0000
-HEADER 12 - Number of apolar alpha sphere     :    22
-HEADER 13 - Proportion of apolar alpha sphere : 0.3860
-ATOM      1    O STP   184      -2.135 -44.899 -64.683    0.00     3.84
-ATOM      2    O STP   184      -2.145 -44.875 -64.740    0.00     3.86
-ATOM      3    O STP   184      -3.028 -44.430 -66.562    0.00     4.32
-ATOM      4    O STP   184      -4.929 -44.082 -69.378    0.00     4.39
-ATOM      5    O STP   184       0.792 -46.428 -55.143    0.00     3.76
-ATOM      6    O STP   184       0.843 -46.539 -55.082    0.00     3.86
-ATOM      7    O STP   184       0.942 -47.472 -56.925    0.00     4.23
-ATOM      8    O STP   184       1.019 -47.534 -56.549    0.00     4.29
-ATOM      9    O STP   184      -0.821 -46.312 -59.331    0.00     3.69
-ATOM     10    O STP   184      -0.888 -46.561 -59.370    0.00     3.77
-ATOM     11    O STP   184      -0.994 -46.404 -59.471    0.00     3.76
-ATOM     12    C STP   184      -1.363 -45.815 -63.795    0.00     3.84
-ATOM     13    C STP   184      -1.391 -45.828 -63.468    0.00     3.80
-ATOM     14    O STP   184      -1.295 -45.783 -64.099    0.00     3.88
-ATOM     15    O STP   184      -0.164 -47.956 -58.215    0.00     4.14
-ATOM     16    C STP   184      -1.383 -46.398 -60.044    0.00     3.79
-ATOM     17    O STP   184      -2.825 -44.734 -66.611    0.00     4.19
-ATOM     18    O STP   184      -2.853 -45.820 -67.301    0.00     3.90
-ATOM     19    O STP   184      -0.821 -46.906 -65.173    0.00     3.90
-ATOM     20    O STP   184      -4.003 -43.670 -61.588    0.00     3.53
-ATOM     21    C STP   184      -2.184 -44.899 -64.292    0.00     3.69
-ATOM     22    O STP   184      -2.205 -44.773 -64.800    0.00     3.86
-ATOM     23    O STP   184      -4.620 -41.971 -66.855    0.00     5.44
-ATOM     24    O STP   184      -3.122 -42.151 -66.872    0.00     4.68
-ATOM     25    O STP   184       2.088 -48.175 -65.832    0.00     3.42
-ATOM     26    C STP   184       2.196 -48.508 -65.790    0.00     3.55
-ATOM     27    O STP   184      -3.224 -41.956 -67.441    0.00     4.47
-ATOM     28    O STP   184      -1.770 -42.188 -67.503    0.00     3.62
-ATOM     29    C STP   184      -4.469 -46.004 -69.451    0.00     4.24
-ATOM     30    O STP   184      -5.189 -46.288 -69.804    0.00     4.49
-ATOM     31    O STP   184      -4.240 -46.216 -68.496    0.00     4.39
-ATOM     32    C STP   184      -1.339 -46.591 -63.285    0.00     3.64
-ATOM     33    C STP   184      -0.592 -49.087 -60.372    0.00     4.50
-ATOM     34    C STP   184      -1.387 -46.216 -63.125    0.00     3.69
-ATOM     35    C STP   184      -0.960 -48.402 -59.960    0.00     4.21
-ATOM     36    C STP   184      -0.858 -48.366 -59.974    0.00     4.29
-ATOM     37    C STP   184      -0.850 -48.402 -59.969    0.00     4.30
-ATOM     38    C STP   184      -1.548 -47.087 -60.110    0.00     3.65
-ATOM     39    C STP   184      -1.360 -46.835 -60.166    0.00     3.83
-ATOM     40    C STP   184      -1.522 -46.317 -60.347    0.00     3.78
-ATOM     41    C STP   184      -1.737 -45.416 -61.780    0.00     3.69
-ATOM     42    C STP   184      -1.569 -45.718 -62.883    0.00     3.72
-ATOM     43    C STP   184      -1.954 -45.240 -61.865    0.00     3.64
-ATOM     44    C STP   184      -2.068 -45.240 -62.565    0.00     3.59
-ATOM     45    O STP   184      -3.248 -44.657 -61.501    0.00     3.43
-ATOM     46    O STP   184      -2.908 -44.705 -61.791    0.00     3.50
-ATOM     47    C STP   184      -2.532 -44.962 -62.334    0.00     3.48
-ATOM     48    O STP   184      -3.484 -38.850 -66.461    0.00     4.33
-ATOM     49    O STP   184      -1.062 -47.822 -66.051    0.00     3.82
-ATOM     50    C STP   184      -0.519 -48.106 -65.479    0.00     4.15
-ATOM     51    C STP   184       0.572 -47.908 -65.710    0.00     3.61
-ATOM     52    O STP   184       1.030 -48.162 -65.794    0.00     3.60
-ATOM     53    O STP   184      -5.368 -42.462 -67.485    0.00     5.43
-ATOM     54    O STP   184      -5.636 -42.590 -67.799    0.00     5.40
-ATOM     55    O STP   184      -2.919 -40.645 -68.258    0.00     3.42
-ATOM     56    O STP   184      -3.900 -40.903 -67.309    0.00     4.60
-ATOM     57    O STP   184      -4.111 -40.841 -67.844    0.00     4.18
+HEADER 0  - Pocket Score                      : -0.1178
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of V. Vertices             :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8909
+HEADER 4  - Mean alpha-sphere SA              : 0.6145
+HEADER 5  - Mean B-factor                     : 0.2029
+HEADER 6  - Hydrophobicity Score              : 9.0833
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.5833
+HEADER 9  - Real volume (approximation)       : 455.5120
+HEADER 10 - Charge Score                      :     3
+HEADER 11 - Local hydrophobic density Score   : 12.4000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.5000
+ATOM      1    C STP   184      15.712 -27.057 -69.273    0.00     3.92
+ATOM      2    C STP   184      16.968 -30.152 -68.861    0.00     4.31
+ATOM      3    O STP   184      16.439 -28.923 -69.905    0.00     4.11
+ATOM      4    C STP   184      17.670 -29.615 -67.945    0.00     3.45
+ATOM      5    O STP   184      17.671 -30.570 -71.392    0.00     4.03
+ATOM      6    O STP   184      17.536 -30.546 -70.565    0.00     4.52
+ATOM      7    C STP   184      14.281 -32.414 -68.555    0.00     3.41
+ATOM      8    C STP   184      16.956 -30.157 -68.840    0.00     4.30
+ATOM      9    C STP   184      14.405 -32.418 -68.484    0.00     3.46
+ATOM     10    C STP   184      14.958 -32.494 -68.835    0.00     3.87
+ATOM     11    O STP   184      16.406 -27.039 -70.146    0.00     3.62
+ATOM     12    O STP   184      14.089 -26.719 -70.480    0.00     3.83
+ATOM     13    O STP   184      14.337 -26.836 -70.621    0.00     3.93
+ATOM     14    C STP   184      15.708 -27.070 -69.525    0.00     3.99
+ATOM     15    C STP   184      15.724 -27.131 -69.780    0.00     4.07
+ATOM     16    C STP   184      15.988 -26.598 -69.164    0.00     3.61
+ATOM     17    C STP   184      16.100 -26.697 -69.923    0.00     3.76
+ATOM     18    O STP   184      15.990 -26.848 -69.957    0.00     3.88
+ATOM     19    C STP   184      15.818 -32.681 -69.225    0.00     4.52
+ATOM     20    O STP   184      15.446 -33.008 -68.142    0.00     3.75
+ATOM     21    O STP   184      15.751 -33.038 -67.738    0.00     3.63
+ATOM     22    O STP   184      19.011 -30.429 -68.781    0.00     3.79
+ATOM     23    O STP   184      21.251 -30.175 -69.563    0.00     3.55
+ATOM     24    C STP   184      22.562 -30.141 -69.660    0.00     3.74
+ATOM     25    C STP   184      23.348 -29.959 -69.471    0.00     3.94
+ATOM     26    O STP   184      24.380 -30.415 -69.931    0.00     4.63
+ATOM     27    O STP   184      24.526 -30.127 -69.638    0.00     4.62
+ATOM     28    C STP   184      16.565 -32.059 -67.611    0.00     3.45
+ATOM     29    O STP   184      16.570 -32.095 -67.703    0.00     3.53
+ATOM     30    O STP   184      15.727 -33.033 -67.539    0.00     3.50
 TER
 END

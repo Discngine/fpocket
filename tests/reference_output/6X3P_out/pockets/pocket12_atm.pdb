@@ -3,32 +3,35 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    12:
-HEADER 0  - Pocket Score                      : -0.0958
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 4.0882
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6505
-HEADER 5  - Mean B-factor of pocket residues  : 0.1707
-HEADER 6  - Hydrophobicity Score              : -17.3333
+HEADER 0  - Pocket Score                      : -0.0385
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6552
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4502
+HEADER 5  - Mean B-factor of pocket residues  : 0.3419
+HEADER 6  - Hydrophobicity Score              : 17.6667
 HEADER 7  - Polarity Score                    :     2
-HEADER 8  - Amino Acid based volume Score     : 4.6667
-HEADER 9  - Pocket volume (Monte Carlo)       : 184.1787
-HEADER 10  -Pocket volume (convex hull)       : 0.9529
-HEADER 11 - Charge Score                      :     2
-HEADER 12 - Local hydrophobic density Score   : 2.0000
-HEADER 13 - Number of apolar alpha sphere     :     3
-HEADER 14 - Proportion of apolar alpha sphere : 0.2000
-ATOM   1859   CD ARG A 230     -20.088  36.534 -25.181  0.00  0.00           C 0
-ATOM   1857   CB ARG A 230     -18.206  35.930 -23.697  0.00  0.00           C 0
-ATOM   1858   CG ARG A 230     -19.217  35.376 -24.689  0.00  0.00           C 0
-ATOM   1856    O ARG A 230     -15.890  34.484 -24.734  0.65  1.07           O 0
-ATOM   1862  NH1 ARG A 230     -21.069  38.399 -27.122  0.00  0.00           N 0
-ATOM   1878  CD2 HIS A 232     -13.845  34.152 -28.867  0.00  0.00           C 0
-ATOM   1874    O HIS A 232     -18.300  32.516 -30.024  0.45  9.64           O 0
-ATOM   1861   CZ ARG A 230     -21.183  37.089 -27.347  0.00  0.00           C 0
-ATOM   1872   CA HIS A 232     -16.339  32.494 -28.698  0.00  0.00           C 0
-ATOM   1863  NH2 ARG A 230     -21.703  36.671 -28.500  0.45  8.75           N 0
-ATOM   1860   NE ARG A 230     -20.724  36.207 -26.461  0.70  1.09           N 0
-ATOM   1867    O PRO A 231     -17.971  32.711 -26.510  0.00  0.00           O 0
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.7642
+HEADER 10 - Pocket volume (convex hull)       : 5.0600
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   2016  OE2 GLU A 248     -17.388  40.106  -4.696  0.62  4.29           O 0
+ATOM   1446   CE MET A 182     -15.450  35.276   0.220  0.00  0.00           C 0
+ATOM   1412   CB PRO A 178     -15.968  34.397  -3.512  0.00  0.00           C 0
+ATOM   1445   SD MET A 182     -13.796  35.684   0.078  0.00  0.00           S 0
+ATOM   1799    O ALA A 223     -12.214  39.842  -4.411  0.35  7.50           O 0
+ATOM   2015  OE1 GLU A 248     -18.592  40.824  -2.999  0.00  0.00           O 0
+ATOM   1797   CA ALA A 223     -11.486  37.583  -4.752  0.00  0.00           C 0
+ATOM   2014   CD GLU A 248     -18.364  40.005  -3.918  0.00  0.00           C 0
+ATOM   2013   CG GLU A 248     -19.298  38.818  -4.073  0.00  0.00           C 0
+ATOM   1419   CB GLU A 179     -18.916  31.726   0.116  0.00  0.00           C 0
+ATOM   1415    N GLU A 179     -17.144  32.086  -1.599  0.00  0.00           N 0
+ATOM   2011    O GLU A 248     -21.075  36.068  -3.720  0.57  3.21           O 0
+ATOM   1413   CG PRO A 178     -17.160  34.490  -4.427  0.00  0.00           C 0
+ATOM   1422  OE1 GLU A 179     -19.772  32.051  -2.559  0.71  1.07           O 0
+ATOM   1791    O ILE A 222     -13.489  37.331  -6.714  0.55  1.07           O 0
 TER
 END

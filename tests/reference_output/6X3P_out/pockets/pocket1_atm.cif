@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket     1:
-0  - Pocket Score                      : 1.0381
-1  - Drug Score                        : 0.8968
-2  - Number of alpha spheres           :   140
-3  - Mean alpha-sphere radius          : 3.9844
-4  - Mean alpha-sphere Solvent Acc.    : 0.4385
-5  - Mean B-factor of pocket residues  : 0.3701
+0  - Pocket Score                      : 1.0472
+1  - Drug Score                        : 0.9121
+2  - Number of alpha spheres           :   146
+3  - Mean alpha-sphere radius          : 3.9758
+4  - Mean alpha-sphere Solvent Acc.    : 0.4497
+5  - Mean B-factor of pocket residues  : 0.1170
 6  - Hydrophobicity Score              : 40.3636
 7  - Polarity Score                    :    12
 8  - Amino Acid based volume Score     : 4.0606
-9  - Pocket volume (Monte Carlo)       : 1259.6819
-10  -Pocket volume (convex hull)       : 665.9824
+9  - Pocket volume (Monte Carlo)       : 1278.5210
+10  -Pocket volume (convex hull)       : 721.1277
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 36.5915
 13 - Number of apolar alpha sphere     :    71
-14 - Proportion of apolar alpha sphere : 0.5071
+14 - Proportion of apolar alpha sphere : 0.4863
 # 
 loop_
 _atom_site.group_PDB
@@ -42,7 +42,13 @@ _atom_site.auth_asym_id
 ATOM      738    N  ND2 .  ASN   A .   96 ?   -9.820  12.228 -22.169  0.00  0   A
 ATOM      134    O    O .  THR   A .   22 ?   -8.109   7.388 -16.163  0.00  0   A
 ATOM      737    O  OD1 .  ASN   A .   96 ?  -11.578  12.829 -20.946 -2.69  0   A
-ATOM      122    O    O .  LEU   A .   20 ?  -10.148   3.931 -20.613 -4.69  0   A
+ATOM      122    O    O .  LEU   A .   20 ?  -10.148   3.931 -20.613 -1.21  0   A
+ATOM      129    C    C .  GLY   A .   21 ?   -8.458   3.675 -17.279  0.00  0   A
+ATOM      130    O    O .  GLY   A .   21 ?   -9.274   3.089 -16.557 -2.14  0   A
+ATOM      138    N    N .  GLY   A .   23 ?   -9.419   6.405 -14.616  0.00  0   A
+ATOM      139    C   CA .  GLY   A .   23 ?  -10.223   7.573 -14.341  0.00  0   A
+ATOM      142    N    N .  GLN   A .   24 ?  -10.590   9.033 -12.489 -0.42  0   A
+ATOM      140    C    C .  GLY   A .   23 ?   -9.805   8.125 -13.005  0.00  0   A
 ATOM      123    C   CB .  LEU   A .   20 ?  -12.620   2.235 -20.071  0.00  0   A
 ATOM      706    C   CA .  GLY   A .   92 ?  -16.534   8.403 -22.284  0.00  0   A
 ATOM      125    C  CD1 .  LEU   A .   20 ?  -15.067   1.737 -19.992  0.00  0   A
@@ -53,14 +59,11 @@ ATOM     1194    O  OD1 .  ASP   A .  151 ?  -15.894  10.761 -10.026  0.00  0   
 ATOM     1114    C  CD1 .  LEU   A .  140 ?  -19.473   8.240 -16.738  0.00  0   A
 ATOM     1086    O    O .  ARG   A .  137 ?  -14.842  13.535 -15.282  0.00  0   A
 ATOM      714    S   SG .  CYS   A .   93 ?  -14.288  13.185 -18.581  0.00  0   A
-ATOM      139    C   CA .  GLY   A .   23 ?  -10.223   7.573 -14.341  0.00  0   A
-ATOM      142    N    N .  GLN   A .   24 ?  -10.590   9.033 -12.489 -0.42  0   A
 ATOM     1113    C   CG .  LEU   A .  140 ?  -19.020   9.390 -17.558  0.00  0   A
 ATOM     1096    C    C .  ASN   A .  138 ?  -18.466  13.897 -14.647  0.00  0   A
 ATOM     1097    O    O .  ASN   A .  138 ?  -19.379  13.286 -14.083  0.00  0   A
-ATOM      130    O    O .  GLY   A .   21 ?   -9.274   3.089 -16.557  0.00  0   A
+ATOM      133    C    C .  THR   A .   22 ?   -8.399   6.421 -15.442  0.00  0   A
 ATOM      179    C  CG2 .  VAL   A .   28 ?  -13.434   3.584 -14.522  0.00  0   A
-ATOM      138    N    N .  GLY   A .   23 ?   -9.419   6.405 -14.616  0.00  0   A
 ATOM      709    N    N .  CYS   A .   93 ?  -15.672  10.259 -21.046  0.00  0   A
 ATOM      736    C   CG .  ASN   A .   96 ?  -11.084  12.635 -22.050  0.00  0   A
 ATOM      735    C   CB .  ASN   A .   96 ?  -11.896  12.909 -23.288  0.00  0   A

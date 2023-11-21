@@ -4,36 +4,43 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    12:
-HEADER 0  - Pocket Score                      : -0.0943
+HEADER 0  - Pocket Score                      : -0.0850
 HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    17
-HEADER 3  - Mean alpha-sphere radius          : 3.9685
-HEADER 4  - Mean alpha-sphere SA              : 0.4690
-HEADER 5  - Mean B-factor                     : 0.6813
-HEADER 6  - Hydrophobicity Score              : 17.1250
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.3750
-HEADER 9  - Real volume (approximation)       : 258.9960
+HEADER 2  - Number of V. Vertices             :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9413
+HEADER 4  - Mean alpha-sphere SA              : 0.6305
+HEADER 5  - Mean B-factor                     : 0.2519
+HEADER 6  - Hydrophobicity Score              : 1.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.5714
+HEADER 9  - Real volume (approximation)       : 318.5220
 HEADER 10 - Charge Score                      :     0
 HEADER 11 - Local hydrophobic density Score   : 0.0000
 HEADER 12 - Number of apolar alpha sphere     :     1
-HEADER 13 - Proportion of apolar alpha sphere : 0.0588
-ATOM      1    O STP    12     -12.188  31.839  16.593    0.00     3.49
-ATOM      2    O STP    12     -14.197  27.278  17.645    0.00     4.05
-ATOM      3    O STP    12     -14.250  26.710  18.687    0.00     4.47
-ATOM      4    O STP    12     -14.909  26.223  19.335    0.00     4.57
-ATOM      5    C STP    12     -14.382  24.675  18.050    0.00     3.53
-ATOM      6    O STP    12     -14.022  26.981  18.887    0.00     4.51
-ATOM      7    O STP    12     -13.149  28.055  17.189    0.00     3.54
-ATOM      8    O STP    12     -13.848  27.808  17.708    0.00     4.07
-ATOM      9    O STP    12     -13.798  28.442  17.460    0.00     3.88
-ATOM     10    O STP    12     -13.798  28.303  17.460    0.00     3.92
-ATOM     11    O STP    12     -13.804  28.284  17.472    0.00     3.93
-ATOM     12    O STP    12     -13.734  30.649  17.420    0.00     3.89
-ATOM     13    O STP    12     -13.444  31.621  17.292    0.00     4.09
-ATOM     14    O STP    12     -13.757  31.663  17.802    0.00     4.23
-ATOM     15    O STP    12     -12.392  31.711  16.849    0.00     3.60
-ATOM     16    O STP    12     -14.320  27.344  17.475    0.00     3.92
-ATOM     17    O STP    12     -14.498  27.355  17.384    0.00     3.78
+HEADER 13 - Proportion of apolar alpha sphere : 0.0417
+ATOM      1    O STP    12       3.065   1.680  14.257    0.00     3.59
+ATOM      2    O STP    12      -0.262   5.672  13.713    0.00     3.61
+ATOM      3    O STP    12       0.191   4.442  13.421    0.00     4.24
+ATOM      4    O STP    12       2.560   3.835  10.859    0.00     4.30
+ATOM      5    O STP    12      -0.316   5.894  13.740    0.00     3.52
+ATOM      6    O STP    12       3.457   4.032   6.967    0.00     3.95
+ATOM      7    O STP    12       2.663   3.891  10.841    0.00     4.26
+ATOM      8    O STP    12       4.096   4.245  10.995    0.00     3.57
+ATOM      9    O STP    12       4.136   4.217  10.924    0.00     3.55
+ATOM     10    O STP    12       3.244   4.177  11.181    0.00     3.96
+ATOM     11    O STP    12       3.188   4.166  11.182    0.00     3.99
+ATOM     12    O STP    12       2.014   3.532  11.198    0.00     4.50
+ATOM     13    O STP    12       2.518   3.690  10.662    0.00     4.31
+ATOM     14    O STP    12       2.689   3.819  10.691    0.00     4.24
+ATOM     15    O STP    12       2.118   3.108   9.175    0.00     4.30
+ATOM     16    O STP    12       3.327   3.642   7.482    0.00     4.08
+ATOM     17    O STP    12       4.123   4.188  10.873    0.00     3.55
+ATOM     18    O STP    12       4.234   4.163  10.882    0.00     3.47
+ATOM     19    O STP    12       2.703   1.870  14.067    0.00     3.79
+ATOM     20    C STP    12       2.011   3.354  12.335    0.00     4.36
+ATOM     21    O STP    12       1.265   3.803  14.371    0.00     4.24
+ATOM     22    O STP    12       1.313   3.846  14.395    0.00     4.19
+ATOM     23    O STP    12       4.151   4.474  11.146    0.00     3.47
+ATOM     24    O STP    12       3.883   4.476  11.221    0.00     3.57
 TER
 END

@@ -4,43 +4,36 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    90:
-HEADER 0  - Pocket Score                      : -0.0560
-HEADER 1  - Drug Score                        : 0.0002
-HEADER 2  - Number of V. Vertices             :    24
-HEADER 3  - Mean alpha-sphere radius          : 3.7258
-HEADER 4  - Mean alpha-sphere SA              : 0.3923
-HEADER 5  - Mean B-factor                     : 0.4157
-HEADER 6  - Hydrophobicity Score              : 34.8462
+HEADER 0  - Pocket Score                      : -0.0344
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8274
+HEADER 4  - Mean alpha-sphere SA              : 0.6158
+HEADER 5  - Mean B-factor                     : 0.2451
+HEADER 6  - Hydrophobicity Score              : -12.5000
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.0000
-HEADER 9  - Real volume (approximation)       : 200.5834
-HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 1.0000
-HEADER 12 - Number of apolar alpha sphere     :     2
-HEADER 13 - Proportion of apolar alpha sphere : 0.0833
-ATOM      1    C STP    90     -22.225 -43.351 -59.767    0.00     3.87
-ATOM      2    O STP    90     -25.462 -42.585 -62.027    0.00     3.54
-ATOM      3    O STP    90     -24.830 -43.493 -61.269    0.00     3.90
-ATOM      4    O STP    90     -24.306 -43.554 -60.189    0.00     3.92
-ATOM      5    O STP    90     -21.916 -43.082 -62.276    0.00     3.59
-ATOM      6    O STP    90     -22.820 -43.450 -59.725    0.00     3.86
-ATOM      7    O STP    90     -22.739 -43.532 -59.655    0.00     3.83
-ATOM      8    C STP    90     -22.377 -43.400 -59.765    0.00     3.88
-ATOM      9    O STP    90     -22.018 -43.347 -59.905    0.00     3.88
-ATOM     10    O STP    90     -22.151 -43.370 -59.825    0.00     3.89
-ATOM     11    O STP    90     -21.891 -43.356 -59.954    0.00     3.87
-ATOM     12    O STP    90     -21.710 -43.484 -59.913    0.00     3.82
-ATOM     13    O STP    90     -25.310 -43.857 -61.377    0.00     3.92
-ATOM     14    O STP    90     -25.277 -44.452 -60.070    0.00     3.93
-ATOM     15    O STP    90     -20.679 -44.411 -60.009    0.00     3.49
-ATOM     16    O STP    90     -20.800 -43.960 -60.054    0.00     3.70
-ATOM     17    O STP    90     -26.517 -43.733 -61.826    0.00     3.66
-ATOM     18    O STP    90     -25.891 -44.044 -62.177    0.00     3.45
-ATOM     19    O STP    90     -25.939 -43.707 -61.798    0.00     3.78
-ATOM     20    O STP    90     -25.876 -42.696 -62.211    0.00     3.54
-ATOM     21    O STP    90     -26.143 -42.618 -62.261    0.00     3.45
-ATOM     22    O STP    90     -26.161 -42.617 -62.263    0.00     3.45
-ATOM     23    O STP    90     -26.168 -42.602 -62.284    0.00     3.43
-ATOM     24    O STP    90     -25.183 -45.094 -59.711    0.00     3.76
+HEADER 8  - Volume Score                      : 3.0000
+HEADER 9  - Real volume (approximation)       : 157.3371
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP    90     -14.926 -31.079 -64.537    0.00     3.44
+ATOM      2    O STP    90     -14.185 -31.280 -64.906    0.00     3.96
+ATOM      3    O STP    90     -13.987 -31.277 -64.032    0.00     3.84
+ATOM      4    O STP    90     -13.569 -31.575 -65.381    0.00     4.46
+ATOM      5    O STP    90     -14.269 -31.087 -65.016    0.00     3.80
+ATOM      6    O STP    90     -13.969 -31.309 -64.059    0.00     3.87
+ATOM      7    O STP    90     -14.183 -31.333 -64.295    0.00     3.85
+ATOM      8    O STP    90     -14.054 -31.361 -64.442    0.00     3.95
+ATOM      9    O STP    90     -13.989 -31.310 -64.088    0.00     3.87
+ATOM     10    O STP    90     -13.020 -31.554 -62.574    0.00     4.02
+ATOM     11    O STP    90     -13.032 -31.610 -62.484    0.00     3.98
+ATOM     12    O STP    90     -13.627 -31.395 -61.679    0.00     3.60
+ATOM     13    O STP    90     -13.327 -31.423 -62.326    0.00     3.91
+ATOM     14    O STP    90     -13.410 -31.483 -62.131    0.00     3.83
+ATOM     15    O STP    90     -13.632 -30.836 -61.801    0.00     3.50
+ATOM     16    O STP    90     -13.731 -30.756 -61.605    0.00     3.41
+ATOM     17    O STP    90     -14.244 -31.359 -64.250    0.00     3.78
 TER
 END

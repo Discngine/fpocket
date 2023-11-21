@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    10:
-0  - Pocket Score                      : -0.0595
-1  - Drug Score                        : 0.0001
-2  - Number of alpha spheres           :    15
-3  - Mean alpha-sphere radius          : 3.8492
-4  - Mean alpha-sphere Solvent Acc.    : 0.5074
-5  - Mean B-factor of pocket residues  : 0.4606
-6  - Hydrophobicity Score              : 4.3333
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 269.7872
-10  -Pocket volume (convex hull)       : 5.8206
-11 - Charge Score                      :    -3
-12 - Local hydrophobic density Score   : 2.0000
-13 - Number of apolar alpha sphere     :     3
-14 - Proportion of apolar alpha sphere : 0.2000
+0  - Pocket Score                      : -0.0240
+1  - Drug Score                        : 0.0007
+2  - Number of alpha spheres           :    23
+3  - Mean alpha-sphere radius          : 3.9682
+4  - Mean alpha-sphere Solvent Acc.    : 0.5048
+5  - Mean B-factor of pocket residues  : 0.2358
+6  - Hydrophobicity Score              : 27.4444
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 2.7778
+9  - Pocket volume (Monte Carlo)       : 301.9837
+10  -Pocket volume (convex hull)       : 11.0654
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.1739
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,23 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM      271    O  OD2 .  ASP   A .   38 ?  -23.670  -2.447 -24.193 -1.62  0   A
-ATOM      681    C  CE2 .  TYR   A .   88 ?  -20.089   0.903 -23.663  0.00  0   A
-ATOM      696    C   CB .  ALA   A .   90 ?  -20.499   3.896 -25.754  0.00  0   A
-ATOM     1138    O  OD2 .  ASP   A .  143 ?  -25.516   3.183 -28.021  0.00  0   A
-ATOM      679    C  CD2 .  TYR   A .   88 ?  -21.046   0.784 -22.664  0.00  0   A
-ATOM      268    C   CB .  ASP   A .   38 ?  -23.653  -2.703 -21.830  0.00  0   A
-ATOM      676    C   CB .  TYR   A .   88 ?  -21.768   0.846 -20.246  0.00  0   A
-ATOM      672    N    N .  TYR   A .   88 ?  -23.090   2.069 -18.609  0.00  0   A
-ATOM      267    O    O .  ASP   A .   38 ?  -24.472  -2.448 -18.913 -0.81  0   A
-ATOM     1136    C   CG .  ASP   A .  143 ?  -25.154   4.277 -27.556  0.00  0   A
-ATOM      675    O    O .  TYR   A .   88 ?  -23.182   3.381 -21.122  0.00  0   A
-ATOM     1137    O  OD1 .  ASP   A .  143 ?  -25.787   4.865 -26.641  0.00  0   A
-ATOM      668    C   CG .  GLU   A .   87 ?  -25.848   4.129 -18.189  0.00  0   A
-ATOM      552    O   OH .  TYR   A .   73 ?  -27.390   0.570 -16.982  0.00  0   A
+ATOM     1331    C   CA .  SER   A .  169 ?   -3.096  21.117  -5.246  0.00  0   A
+ATOM     1329    O    O .  GLY   A .  168 ?   -5.243  22.414  -3.994 -2.14  0   A
+ATOM     1732    C   CB .  ASN   A .  215 ?   -4.947  26.822  -8.278  0.00  0   A
+ATOM     1735    N  ND2 .  ASN   A .  215 ?   -5.010  24.434  -8.604  0.00  0   A
+ATOM     1322    O    O .  VAL   A .  167 ?   -3.446  24.109  -1.310 -0.40  0   A
+ATOM     1316    O    O .  SER   A .  166 ?   -7.194  25.626  -2.047 -2.28  0   A
+ATOM     1744    C   CB .  SER   A .  216 ?   -2.074  30.892  -6.266  0.00  0   A
+ATOM     1320    C   CA .  VAL   A .  167 ?   -5.271  25.053   0.028  0.00  0   A
+ATOM     1738    C   CA .  SER   A .  216 ?   -3.539  30.762  -6.678  0.00  0   A
+ATOM     1369    C  CG2 .  VAL   A .  173 ?   -8.162  26.008  -5.831  0.00  0   A
+ATOM     1438    C  CD2 .  LEU   A .  181 ?  -11.402  28.307  -4.028  0.00  0   A
+ATOM     1768    C   CB .  ALA   A .  219 ?   -7.920  31.739  -5.155  0.00  0   A
+ATOM     1317    C   CB .  SER   A .  166 ?   -9.695  26.237  -0.302  0.00  0   A
+ATOM     1435    C   CB .  LEU   A .  181 ?  -11.851  30.263  -2.527  0.00  0   A
+ATOM     1736    N    N .  SER   A .  216 ?   -3.709  29.625  -7.594  0.00  0   A
+ATOM     1730    C    C .  ASN   A .  215 ?   -4.918  29.300  -8.089  0.00  0   A
+ATOM     1731    O    O .  ASN   A .  215 ?   -5.948  29.926  -7.799  0.00  0   A
+ATOM     1434    O    O .  LEU   A .  181 ?  -10.964  29.900   0.492 -4.29  0   A
+ATOM     1318    O   OG .  SER   A .  166 ?   -9.184  26.653   0.953 -4.69  0   A
 # 

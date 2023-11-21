@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0506
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1104
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6900
+HEADER 5  - Mean B-factor of pocket residues  : 0.4371
+HEADER 6  - Hydrophobicity Score              : -17.1667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 196.9851
+HEADER 10 - Pocket volume (convex hull)       : 3.5578
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    334   CB LYS A  44      24.844  20.497  55.529  0.00  0.00           C 0
+ATOM    331   CA LYS A  44      24.899  19.788  56.875  0.00  0.00           C 0
+ATOM    335   CG LYS A  44      23.529  21.227  55.288  0.00  0.00           C 0
+ATOM    333    O LYS A  44      26.064  17.767  56.338  0.00  0.00           O 0
+ATOM    348    O TYR A  46      24.572  16.263  60.265  0.34  3.21           O 0
+ATOM   1785  NE2 GLN A 233      21.004  15.845  60.781  0.36  9.84           N 0
+ATOM   1784  OE1 GLN A 233      21.280  13.768  59.988  0.00  0.00           O 0
+ATOM    325    O ASP A  43      24.833  19.178  59.600  0.00  0.00           O 0
+ATOM    330    N LYS A  44      24.862  20.754  57.979  0.00  0.00           N 0
+ATOM    324    C ASP A  43      24.794  20.367  59.251  0.00  0.00           C 0
+ATOM    322    N ASP A  43      23.405  21.590  60.898  0.00  0.00           N 0
+ATOM    317   CB LYS A  42      20.194  23.040  60.670  0.00  0.00           C 0
+ATOM    380  OD1 ASP A  49      19.507  17.934  62.164  0.00  0.00           O 0
+ATOM    315    C LYS A  42      22.679  22.709  60.884  0.00  0.00           C 0
+TER
+END

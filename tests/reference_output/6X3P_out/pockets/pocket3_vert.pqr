@@ -4,16 +4,16 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket     3:
-HEADER 0  - Pocket Score                      : 0.1457
-HEADER 1  - Drug Score                        : 0.0223
+HEADER 0  - Pocket Score                      : 0.1400
+HEADER 1  - Drug Score                        : 0.0264
 HEADER 2  - Number of V. Vertices             :    40
 HEADER 3  - Mean alpha-sphere radius          : 3.7985
 HEADER 4  - Mean alpha-sphere SA              : 0.4273
-HEADER 5  - Mean B-factor                     : 0.3280
+HEADER 5  - Mean B-factor                     : 0.0931
 HEADER 6  - Hydrophobicity Score              : 17.7273
 HEADER 7  - Polarity Score                    :     7
 HEADER 8  - Volume Score                      : 4.9091
-HEADER 9  - Real volume (approximation)       : 358.6920
+HEADER 9  - Real volume (approximation)       : 358.7813
 HEADER 10 - Charge Score                      :     2
 HEADER 11 - Local hydrophobic density Score   : 18.6957
 HEADER 12 - Number of apolar alpha sphere     :    23

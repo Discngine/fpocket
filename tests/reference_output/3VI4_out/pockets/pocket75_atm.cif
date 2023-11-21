@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    75:
-0  - Pocket Score                      : -0.0328
-1  - Drug Score                        : 0.0001
-2  - Number of alpha spheres           :    15
-3  - Mean alpha-sphere radius          : 4.0169
-4  - Mean alpha-sphere Solvent Acc.    : 0.4594
-5  - Mean B-factor of pocket residues  : 0.4163
-6  - Hydrophobicity Score              : -20.4286
+0  - Pocket Score                      : -0.0231
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    27
+3  - Mean alpha-sphere radius          : 3.8128
+4  - Mean alpha-sphere Solvent Acc.    : 0.4878
+5  - Mean B-factor of pocket residues  : 0.2456
+6  - Hydrophobicity Score              : 27.7778
 7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 179.5851
-10  -Pocket volume (convex hull)       : 1.8284
+8  - Amino Acid based volume Score     : 3.3333
+9  - Pocket volume (Monte Carlo)       : 231.1840
+10  -Pocket volume (convex hull)       : 11.9399
 11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 1.0000
-13 - Number of apolar alpha sphere     :     2
-14 - Proportion of apolar alpha sphere : 0.1333
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.3333
 # 
 loop_
 _atom_site.group_PDB
@@ -39,16 +39,25 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    16876    C   CB .  LYS   E .  147 ?  -68.429 -68.805  19.397  0.00  0   E
-ATOM    16864    O   OH .  TYR   E .  145 ?  -67.510 -73.375  14.472 -4.29  0   E
-ATOM    16605    O  OE2 .  GLU   E .  110 ?  -67.348 -67.725  14.390 -2.14  0   E
-ATOM    16872    N    N .  LYS   E .  147 ?  -68.136 -71.150  19.785 -1.09  0   E
-ATOM    16869    C   CB .  PRO   E .  146 ?  -69.768 -73.462  18.914  0.00  0   E
-ATOM    15844    C   CG .  PRO   E .   12 ?  -70.216 -71.149  11.889  0.00  0   E
-ATOM    16888    O  OD2 .  ASP   E .  148 ?  -72.989 -69.189  19.748  0.00  0   E
-ATOM    15830    O   OG .  SER   E .   10 ?  -70.295 -65.391  13.873 -0.40  0   E
-ATOM    16878    C   CD .  LYS   E .  147 ?  -68.262 -66.585  18.306  0.00  0   E
-ATOM    16861    C  CE1 .  TYR   E .  145 ?  -65.813 -73.150  16.158  0.00  0   E
-ATOM    15845    C   CD .  PRO   E .   12 ?  -70.458 -69.791  11.297  0.00  0   E
-ATOM    15843    C   CB .  PRO   E .   12 ?  -68.741 -71.367  11.967  0.00  0   E
+ATOM     5594    C   CA .  LEU   B .  145 ?    3.184 -26.467 -34.049  0.00  0   B
+ATOM     5592    O   OG .  SER   B .  144 ?    0.245 -29.142 -36.441  0.00  0   B
+ATOM     5593    N    N .  LEU   B .  145 ?    2.544 -27.794 -34.010  0.00  0   B
+ATOM     5566    O    O .  ASN   B .  141 ?   -2.294 -27.704 -33.584 -1.48  0   B
+ATOM     5619    O  OD2 .  ASP   B .  148 ?    2.626 -26.788 -40.642 -0.54  0   B
+ATOM     5618    O  OD1 .  ASP   B .  148 ?    2.884 -28.056 -38.864 -0.14  0   B
+ATOM     5617    C   CG .  ASP   B .  148 ?    3.073 -26.990 -39.487  0.00  0   B
+ATOM     5569    O  OD1 .  ASN   B .  141 ?   -4.842 -26.547 -35.164  0.00  0   B
+ATOM     7141    O    O .  SER   B .  344 ?   -3.482 -21.358 -33.935 -2.14  0   B
+ATOM     5568    C   CG .  ASN   B .  141 ?   -5.184 -25.776 -34.265  0.00  0   B
+ATOM     7147    O    O .  SER   B .  345 ?   -3.634 -21.199 -37.626  0.00  0   B
+ATOM     5570    N  ND2 .  ASN   B .  141 ?   -5.666 -24.560 -34.507  0.00  0   B
+ATOM     7170    C  CG1 .  ILE   B .  348 ?    2.294 -21.559 -37.202  0.00  0   B
+ATOM     7164    C  CG2 .  VAL   B .  347 ?   -1.001 -20.621 -33.165  0.00  0   B
+ATOM     5599    C  CD1 .  LEU   B .  145 ?    2.188 -23.274 -33.525  0.00  0   B
+ATOM     5616    C   CB .  ASP   B .  148 ?    3.858 -25.881 -38.802  0.00  0   B
+ATOM     7172    C  CD1 .  ILE   B .  348 ?    2.187 -22.767 -38.102  0.00  0   B
+ATOM     5572    C   CA .  VAL   B .  142 ?   -0.969 -26.950 -31.221  0.00  0   B
+ATOM     5577    C  CG2 .  VAL   B .  142 ?   -1.161 -24.763 -29.999  0.00  0   B
+ATOM     5565    C    C .  ASN   B .  141 ?   -2.956 -27.483 -32.572  0.00  0   B
+ATOM     5597    C   CB .  LEU   B .  145 ?    2.747 -25.622 -32.844  0.00  0   B
 # 

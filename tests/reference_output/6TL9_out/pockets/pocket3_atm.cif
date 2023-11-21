@@ -11,11 +11,11 @@ Information about the pocket     3:
 2  - Number of alpha spheres           :   335
 3  - Mean alpha-sphere radius          : 3.9568
 4  - Mean alpha-sphere Solvent Acc.    : 0.4818
-5  - Mean B-factor of pocket residues  : 0.4338
+5  - Mean B-factor of pocket residues  : 0.2627
 6  - Hydrophobicity Score              : 23.9808
 7  - Polarity Score                    :    31
 8  - Amino Acid based volume Score     : 4.2115
-9  - Pocket volume (Monte Carlo)       : 2774.9329
+9  - Pocket volume (Monte Carlo)       : 2789.5867
 10  -Pocket volume (convex hull)       : 4042.8235
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 31.9630

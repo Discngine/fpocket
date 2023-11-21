@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    86:
-0  - Pocket Score                      : -0.0527
-1  - Drug Score                        : 0.0004
-2  - Number of alpha spheres           :    18
-3  - Mean alpha-sphere radius          : 3.8813
-4  - Mean alpha-sphere Solvent Acc.    : 0.5933
-5  - Mean B-factor of pocket residues  : 0.5994
-6  - Hydrophobicity Score              : 50.5714
-7  - Polarity Score                    :     3
-8  - Amino Acid based volume Score     : 3.8571
-9  - Pocket volume (Monte Carlo)       : 128.0980
-10  -Pocket volume (convex hull)       : 1.7687
-11 - Charge Score                      :     0
-12 - Local hydrophobic density Score   : 6.0000
-13 - Number of apolar alpha sphere     :     7
-14 - Proportion of apolar alpha sphere : 0.3889
+0  - Pocket Score                      : -0.0309
+1  - Drug Score                        : 0.0000
+2  - Number of alpha spheres           :    21
+3  - Mean alpha-sphere radius          : 4.0268
+4  - Mean alpha-sphere Solvent Acc.    : 0.5897
+5  - Mean B-factor of pocket residues  : 0.4588
+6  - Hydrophobicity Score              : -6.4444
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 2.6667
+9  - Pocket volume (Monte Carlo)       : 311.4740
+10  -Pocket volume (convex hull)       : 8.0730
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 1.0000
+13 - Number of apolar alpha sphere     :     2
+14 - Proportion of apolar alpha sphere : 0.0952
 # 
 loop_
 _atom_site.group_PDB
@@ -39,17 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    18706    O    O .  LEU   F .  164 ?  -44.196 -70.373  28.776 -1.07  0   F
-ATOM    18663    O  OG1 .  THR   F .  158 ?  -43.218 -63.423  28.849 -5.09  0   F
-ATOM    18694    C   CA .  GLY   F .  162 ?  -40.106 -67.515  28.240  0.00  0   F
-ATOM    18715    C   CB .  SER   F .  165 ?  -44.337 -70.268  25.265  0.00  0   F
-ATOM    18665    N    N .  TRP   F .  159 ?  -44.435 -66.719  31.226  0.00  0   F
-ATOM    18733    C  CG2 .  VAL   F .  168 ?  -48.420 -70.232  28.312  0.00  0   F
-ATOM    18671    C  CD1 .  TRP   F .  159 ?  -47.791 -67.852  31.462  0.00  0   F
-ATOM    18714    O    O .  SER   F .  165 ?  -47.350 -70.972  25.224  0.00  0   F
-ATOM    18712    C   CA .  SER   F .  165 ?  -45.207 -71.003  26.292  0.00  0   F
-ATOM    18732    C  CG1 .  VAL   F .  168 ?  -49.763 -68.146  28.385  0.00  0   F
-ATOM    18654    O    O .  VAL   F .  157 ?  -46.916 -63.352  29.360 -1.21  0   F
-ATOM    18659    C   CA .  THR   F .  158 ?  -44.601 -64.361  30.625  0.00  0   F
-ATOM    18731    C   CB .  VAL   F .  168 ?  -49.615 -69.504  27.714  0.00  0   F
+ATOM     4679    C    C .  ALA   B .   21 ?   29.475  28.304 -16.211  0.00  0   B
+ATOM     4671    O    O .  GLN   B .   20 ?   30.815  26.136 -13.362 -2.14  0   B
+ATOM     4678    C   CA .  ALA   B .   21 ?   30.118  28.403 -14.825  0.00  0   B
+ATOM     7668    C   CE .  LYS   B .  414 ?   28.992  25.057 -10.957  0.00  0   B
+ATOM     4680    O    O .  ALA   B .   21 ?   28.512  29.014 -16.517  0.00  0   B
+ATOM     4683    C   CA .  GLY   B .   22 ?   29.394  27.065 -18.315  0.00  0   B
+ATOM     5263    O    O .  SER   B .  105 ?   29.464  23.765 -17.836  0.00  0   B
+ATOM     7659    O  OD1 .  ASN   B .  413 ?   24.501  22.424 -13.711  0.00  0   B
+ATOM     7669    N   NZ .  LYS   B .  414 ?   28.231  25.938 -10.030  0.00  0   B
+ATOM     4681    C   CB .  ALA   B .   21 ?   30.247  29.853 -14.384  0.00  0   B
+ATOM     4614    N  ND2 .  ASN   B .   11 ?   27.218  33.378 -11.023  0.00  0   B
+ATOM     7656    O    O .  ASN   B .  413 ?   27.737  21.961 -14.374 -3.21  0   B
+ATOM     5267    C   CA .  GLY   B .  106 ?   27.871  23.155 -20.054  0.00  0   B
+ATOM     4682    N    N .  GLY   B .   22 ?   30.027  27.427 -17.049 -1.09  0   B
+ATOM     7650    O    O .  SER   B .  412 ?   27.298  19.862 -17.388 -2.14  0   B
+ATOM     7654    C   CA .  ASN   B .  413 ?   26.158  20.221 -14.841  0.00  0   B
 # 

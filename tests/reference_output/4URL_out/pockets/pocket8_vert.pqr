@@ -4,62 +4,58 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket     8:
-HEADER 0  - Pocket Score                      : 0.1170
-HEADER 1  - Drug Score                        : 0.0196
-HEADER 2  - Number of V. Vertices             :    43
-HEADER 3  - Mean alpha-sphere radius          : 4.0077
-HEADER 4  - Mean alpha-sphere SA              : 0.6215
-HEADER 5  - Mean B-factor                     : 0.4177
-HEADER 6  - Hydrophobicity Score              : -19.3636
-HEADER 7  - Polarity Score                    :    10
-HEADER 8  - Volume Score                      : 4.5455
-HEADER 9  - Real volume (approximation)       : 580.2117
+HEADER 0  - Pocket Score                      : 0.1148
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of V. Vertices             :    39
+HEADER 3  - Mean alpha-sphere radius          : 3.9098
+HEADER 4  - Mean alpha-sphere SA              : 0.5666
+HEADER 5  - Mean B-factor                     : 0.1486
+HEADER 6  - Hydrophobicity Score              : 4.4545
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Volume Score                      : 4.2727
+HEADER 9  - Real volume (approximation)       : 678.4817
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 11.7500
-HEADER 12 - Number of apolar alpha sphere     :    16
-HEADER 13 - Proportion of apolar alpha sphere : 0.3721
-ATOM      1    C STP     8      58.352  19.054  -2.805    0.00     4.43
-ATOM      2    C STP     8      59.219  19.027  -4.380    0.00     3.97
-ATOM      3    O STP     8      58.131  22.890   0.161    0.00     3.49
-ATOM      4    C STP     8      59.704  19.909  -5.831    0.00     3.66
-ATOM      5    C STP     8      59.813  18.393  -6.228    0.00     4.33
-ATOM      6    O STP     8      57.493  22.184  -0.427    0.00     4.17
-ATOM      7    O STP     8      57.477  22.211  -0.449    0.00     4.15
-ATOM      8    O STP     8      57.557  22.204  -0.433    0.00     4.12
-ATOM      9    O STP     8      56.994  21.693  -0.562    0.00     4.64
-ATOM     10    C STP     8      57.164  22.154  -0.637    0.00     4.24
-ATOM     11    O STP     8      57.143  21.499  -0.706    0.00     4.60
-ATOM     12    C STP     8      59.109  17.330  -8.913    0.00     4.55
-ATOM     13    O STP     8      59.159  17.112  -9.325    0.00     4.38
-ATOM     14    O STP     8      56.949  21.482  -1.801    0.00     4.26
-ATOM     15    O STP     8      57.602  21.163  -2.072    0.00     4.03
-ATOM     16    O STP     8      57.220  20.725  -1.688    0.00     4.65
-ATOM     17    O STP     8      57.228  20.635  -1.744    0.00     4.66
-ATOM     18    O STP     8      59.689  20.001  -5.861    0.00     3.62
-ATOM     19    O STP     8      59.563  20.286  -6.417    0.00     3.43
-ATOM     20    O STP     8      59.800  15.972  -9.775    0.00     4.39
-ATOM     21    C STP     8      61.416  19.420 -11.327    0.00     3.46
-ATOM     22    O STP     8      62.522  20.618 -12.608    0.00     4.00
-ATOM     23    O STP     8      62.525  21.089 -12.305    0.00     4.27
-ATOM     24    C STP     8      62.082  20.485 -11.495    0.00     4.05
-ATOM     25    C STP     8      61.904  20.251 -11.083    0.00     3.98
-ATOM     26    C STP     8      61.904  20.252 -11.085    0.00     3.98
-ATOM     27    C STP     8      61.903  20.250 -11.083    0.00     3.98
-ATOM     28    C STP     8      61.950  22.619 -12.878    0.00     4.25
-ATOM     29    C STP     8      61.941  21.483 -12.218    0.00     4.02
-ATOM     30    C STP     8      61.932  21.149 -11.936    0.00     3.96
-ATOM     31    C STP     8      61.814  21.543 -12.216    0.00     3.96
-ATOM     32    O STP     8      60.391  22.533 -12.847    0.00     3.41
-ATOM     33    C STP     8      61.137  22.559 -12.609    0.00     3.88
-ATOM     34    O STP     8      59.559  20.291  -6.421    0.00     3.43
-ATOM     35    O STP     8      59.561  20.283  -6.434    0.00     3.43
-ATOM     36    O STP     8      60.431  19.941  -9.730    0.00     3.58
-ATOM     37    O STP     8      59.662  20.231  -8.431    0.00     3.40
-ATOM     38    O STP     8      61.096  22.443 -12.530    0.00     3.83
-ATOM     39    O STP     8      60.845  22.513 -12.642    0.00     3.69
-ATOM     40    O STP     8      61.094  22.533 -12.582    0.00     3.86
-ATOM     41    O STP     8      59.482  18.856  -8.598    0.00     4.28
-ATOM     42    O STP     8      59.364  19.347  -8.252    0.00     4.00
-ATOM     43    O STP     8      59.350  19.640  -8.135    0.00     3.84
+HEADER 11 - Local hydrophobic density Score   : 7.4000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.2564
+ATOM      1    O STP     8      61.974  19.577   4.344    0.00     3.52
+ATOM      2    C STP     8      63.558  20.824   4.871    0.00     3.52
+ATOM      3    O STP     8      65.639  20.176   4.891    0.00     4.37
+ATOM      4    C STP     8      67.468  21.778   3.492    0.00     4.26
+ATOM      5    C STP     8      67.012  21.327   3.489    0.00     4.39
+ATOM      6    O STP     8      66.071  20.128   4.842    0.00     4.60
+ATOM      7    C STP     8      60.849  19.660   4.661    0.00     3.59
+ATOM      8    C STP     8      59.965  20.686   5.596    0.00     3.71
+ATOM      9    O STP     8      57.956  20.808   5.277    0.00     4.63
+ATOM     10    O STP     8      57.718  20.649   4.876    0.00     4.68
+ATOM     11    O STP     8      60.028  17.875   3.685    0.00     4.44
+ATOM     12    O STP     8      62.203  17.014   3.451    0.00     4.62
+ATOM     13    O STP     8      61.927  19.459   4.305    0.00     3.55
+ATOM     14    C STP     8      61.441  18.989   4.223    0.00     3.73
+ATOM     15    C STP     8      62.039  18.326   3.983    0.00     3.92
+ATOM     16    O STP     8      57.364  22.799   6.664    0.00     3.76
+ATOM     17    O STP     8      55.914  19.180   9.720    0.00     3.52
+ATOM     18    O STP     8      68.553  22.871   4.460    0.00     3.82
+ATOM     19    O STP     8      57.080  19.300   8.616    0.00     3.78
+ATOM     20    O STP     8      57.717  19.790   7.639    0.00     3.99
+ATOM     21    O STP     8      57.782  19.762   7.296    0.00     4.08
+ATOM     22    C STP     8      57.119  23.883   3.534    0.00     3.40
+ATOM     23    O STP     8      55.979  22.952   5.280    0.00     3.47
+ATOM     24    O STP     8      57.297  22.719   7.204    0.00     3.53
+ATOM     25    O STP     8      57.291  22.641   7.239    0.00     3.51
+ATOM     26    O STP     8      57.972  19.771   7.760    0.00     3.80
+ATOM     27    C STP     8      57.969  19.757   7.529    0.00     3.88
+ATOM     28    O STP     8      56.586  19.479   9.401    0.00     3.59
+ATOM     29    O STP     8      56.564  19.399   9.388    0.00     3.61
+ATOM     30    O STP     8      56.638  19.406   9.316    0.00     3.63
+ATOM     31    O STP     8      58.238  23.122   5.827    0.00     3.76
+ATOM     32    O STP     8      57.408  22.850   6.365    0.00     3.90
+ATOM     33    O STP     8      57.145  23.089   6.434    0.00     3.67
+ATOM     34    C STP     8      57.137  23.069   6.380    0.00     3.68
+ATOM     35    O STP     8      57.583  22.537   5.685    0.00     4.23
+ATOM     36    O STP     8      57.576  22.539   5.676    0.00     4.23
+ATOM     37    O STP     8      57.370  22.875   6.372    0.00     3.88
+ATOM     38    O STP     8      57.251  22.897   6.217    0.00     3.84
+ATOM     39    O STP     8      69.307  22.366   6.448    0.00     4.37
 TER
 END

@@ -3,47 +3,38 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    15:
-HEADER 0  - Pocket Score                      : 0.0056
-HEADER 1  - Drug Score                        : 0.0085
-HEADER 2  - Number of alpha spheres           :    29
-HEADER 3  - Mean alpha-sphere radius          : 4.2363
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6830
-HEADER 5  - Mean B-factor of pocket residues  : 0.6083
-HEADER 6  - Hydrophobicity Score              : 21.3636
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 4.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 421.6359
-HEADER 10  -Pocket volume (convex hull)       : 21.9768
-HEADER 11 - Charge Score                      :     2
-HEADER 12 - Local hydrophobic density Score   : 15.0000
-HEADER 13 - Number of apolar alpha sphere     :    16
-HEADER 14 - Proportion of apolar alpha sphere : 0.5517
-ATOM   1819   OH TYR E 235      20.722 -13.511  11.416  0.59  7.50           O 0
-ATOM   2786    N THR I   6      24.752 -13.023  15.286  0.00  0.00           N 0
-ATOM   2793    N TYR I   7      22.704 -11.012  15.175  0.73  1.09           N 0
-ATOM   2783   CB THR I   5      24.155 -13.603  18.177  0.00  0.00           C 0
-ATOM   1817  CE2 TYR E 235      19.985 -11.372  12.216  0.00  0.00           C 0
-ATOM   2797   CB TYR I   7      20.768 -10.287  16.509  0.00  0.00           C 0
-ATOM   2790   CB THR I   6      23.915 -12.886  13.021  0.00  0.00           C 0
-ATOM   2791  OG1 THR I   6      24.715 -14.012  12.684  0.46  6.43           O 0
-ATOM   2023  CD2 HIS E 260      15.149 -16.519  13.733  0.00  0.00           C 0
-ATOM   2803   CZ TYR I   7      17.998  -7.046  17.130  0.00  0.00           C 0
-ATOM   1008   CD ARG E 137      13.015 -12.390  14.489  0.00  0.00           C 0
-ATOM   1001    O GLY E 136      14.004  -7.535  14.180  0.55  1.07           O 0
-ATOM   2801  CE1 TYR I   7      18.129  -7.625  15.869  0.00  0.00           C 0
-ATOM   2802  CE2 TYR I   7      18.768  -7.509  18.203  0.00  0.00           C 0
-ATOM   2800  CD2 TYR I   7      19.671  -8.559  18.021  0.00  0.00           C 0
-ATOM   2007   CB PRO E 258      17.978 -16.703  11.072  0.00  0.00           C 0
-ATOM   2015   OG SER E 259      18.773 -20.147  14.551  0.00  0.00           O 0
-ATOM   2004   CA PRO E 258      18.907 -17.890  10.760  0.00  0.00           C 0
-ATOM   1000    C GLY E 136      13.099  -7.215  14.936  0.00  0.00           C 0
-ATOM   1007   CG ARG E 137      12.064 -11.168  14.522  0.00  0.00           C 0
-ATOM   1006   CB ARG E 137      12.547  -9.944  13.745  0.00  0.00           C 0
-ATOM   1002    N ARG E 137      11.897  -7.755  14.844  0.00  0.00           N 0
-ATOM    993    O ILE E 135      11.277  -6.737  17.844  0.39  8.57           O 0
-ATOM   2025  NE2 HIS E 260      14.962 -15.418  12.941  0.93  2.19           N 0
-ATOM   2798   CG TYR I   7      19.809  -9.148  16.762  0.00  0.00           C 0
-ATOM   2799  CD1 TYR I   7      19.040  -8.667  15.701  0.00  0.00           C 0
-ATOM   1802    O ALA E 233      16.247 -11.091  12.418  0.55  5.36           O 0
+HEADER 0  - Pocket Score                      : -0.0114
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5626
+HEADER 5  - Mean B-factor of pocket residues  : 0.1348
+HEADER 6  - Hydrophobicity Score              : -8.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 268.5524
+HEADER 10 - Pocket volume (convex hull)       : 12.6545
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   2877    O ARG I  18      20.035   5.682   6.907  0.00  0.00           O 0
+ATOM   2901   CG ASN I  20      19.942   9.050   2.872  0.00  0.00           C 0
+ATOM   2903  ND2 ASN I  20      18.976   8.461   3.615  0.72  2.19           N 0
+ATOM   2902  OD1 ASN I  20      20.180  10.277   2.903  0.00  0.00           O 0
+ATOM   2873    O GLY I  17      19.641   2.744   8.748  0.57  1.07           O 0
+ATOM   2851    O GLY I  14      25.837   2.808  10.298  0.00  0.00           O 0
+ATOM   2853   CA ARG I  15      24.354   0.743   9.261  0.00  0.00           C 0
+ATOM    305  CG2 THR E  51      16.648  12.650   5.825  0.00  0.00           C 0
+ATOM   2883  NH1 ARG I  18      15.747   9.018   6.588  0.00  0.00           N 0
+ATOM   2870    N GLY I  17      20.906   2.640  11.216  0.47  2.19           N 0
+ATOM   2871   CA GLY I  17      19.967   3.723  10.956  0.00  0.00           C 0
+ATOM   2872    C GLY I  17      19.396   3.686   9.522  0.00  0.00           C 0
+ATOM   2890   CG ARG I  19      20.455   1.820   5.502  0.00  0.00           C 0
+ATOM   2900   CB ASN I  20      20.719   8.118   1.944  0.00  0.00           C 0
+ATOM   2896    N ASN I  20      20.278   5.891   2.989  0.30  5.47           N 0
+ATOM   2860   CZ ARG I  15      25.245   1.855   4.459  0.00  0.00           C 0
+ATOM   2862  NH2 ARG I  15      25.572   3.087   4.092  0.00  9.84           N 0
+ATOM   2886   CA ARG I  19      19.869   4.126   4.630  0.00  0.00           C 0
 TER
 END

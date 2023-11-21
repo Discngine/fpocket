@@ -4,37 +4,39 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    32:
-HEADER 0  - Pocket Score                      : -0.0298
-HEADER 1  - Drug Score                        : 0.0024
-HEADER 2  - Number of V. Vertices             :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.8242
-HEADER 4  - Mean alpha-sphere SA              : 0.4781
-HEADER 5  - Mean B-factor                     : 0.8036
-HEADER 6  - Hydrophobicity Score              : 34.3750
+HEADER 0  - Pocket Score                      : -0.0261
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0391
+HEADER 4  - Mean alpha-sphere SA              : 0.7095
+HEADER 5  - Mean B-factor                     : 0.3366
+HEADER 6  - Hydrophobicity Score              : 16.1667
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.2500
-HEADER 9  - Real volume (approximation)       : 98.9211
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 16.0000
-HEADER 12 - Number of apolar alpha sphere     :    17
-HEADER 13 - Proportion of apolar alpha sphere : 0.9444
-ATOM      1    C STP    32     -59.939 -48.968 -16.271    0.00     3.78
-ATOM      2    C STP    32     -59.868 -49.444 -16.194    0.00     4.05
-ATOM      3    O STP    32     -59.456 -49.070 -17.690    0.00     3.40
-ATOM      4    C STP    32     -59.558 -49.457 -17.135    0.00     3.72
-ATOM      5    C STP    32     -59.700 -49.552 -15.927    0.00     4.08
-ATOM      6    C STP    32     -58.690 -49.830 -17.216    0.00     3.52
-ATOM      7    C STP    32     -60.274 -49.631 -16.152    0.00     3.92
-ATOM      8    C STP    32     -59.749 -50.524 -15.442    0.00     3.61
-ATOM      9    C STP    32     -59.541 -50.308 -15.247    0.00     3.54
-ATOM     10    C STP    32     -59.672 -49.535 -15.880    0.00     4.07
-ATOM     11    C STP    32     -59.649 -49.483 -15.837    0.00     4.03
-ATOM     12    C STP    32     -59.658 -49.530 -15.868    0.00     4.06
-ATOM     13    C STP    32     -59.714 -49.578 -15.896    0.00     4.07
-ATOM     14    C STP    32     -59.763 -50.125 -15.594    0.00     3.80
-ATOM     15    C STP    32     -60.144 -49.810 -15.802    0.00     3.94
-ATOM     16    C STP    32     -60.153 -49.878 -15.764    0.00     3.91
-ATOM     17    C STP    32     -60.329 -49.668 -16.214    0.00     3.87
-ATOM     18    C STP    32     -59.049 -49.737 -15.102    0.00     3.48
+HEADER 8  - Volume Score                      : 3.6667
+HEADER 9  - Real volume (approximation)       : 423.0446
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 6.2500
+HEADER 12 - Number of apolar alpha sphere     :     8
+HEADER 13 - Proportion of apolar alpha sphere : 0.4000
+ATOM      1    O STP    32     -51.733 -67.144  -0.970    0.00     4.08
+ATOM      2    O STP    32     -53.022 -67.749  -1.674    0.00     3.62
+ATOM      3    O STP    32     -50.043 -65.600  -0.945    0.00     4.66
+ATOM      4    O STP    32     -50.818 -66.508  -0.957    0.00     4.33
+ATOM      5    O STP    32     -51.115 -66.217  -2.134    0.00     3.41
+ATOM      6    C STP    32     -54.951 -69.517   0.705    0.00     4.50
+ATOM      7    C STP    32     -54.852 -69.298   1.715    0.00     4.68
+ATOM      8    C STP    32     -55.906 -67.467   1.998    0.00     3.42
+ATOM      9    C STP    32     -56.578 -66.774   3.371    0.00     3.86
+ATOM     10    O STP    32     -55.979 -70.481  -0.399    0.00     3.96
+ATOM     11    O STP    32     -53.392 -68.118  -1.745    0.00     3.71
+ATOM     12    O STP    32     -54.083 -69.305  -1.348    0.00     4.38
+ATOM     13    O STP    32     -53.905 -69.326  -1.373    0.00     4.45
+ATOM     14    O STP    32     -54.698 -69.144  -2.016    0.00     3.73
+ATOM     15    C STP    32     -54.105 -69.326  -2.760    0.00     3.60
+ATOM     16    C STP    32     -54.472 -69.166  -2.087    0.00     3.79
+ATOM     17    O STP    32     -54.036 -69.246  -1.912    0.00     4.10
+ATOM     18    C STP    32     -49.198 -65.355  -1.525    0.00     4.42
+ATOM     19    O STP    32     -50.556 -67.025  -0.573    0.00     4.57
+ATOM     20    C STP    32     -56.775 -66.465   3.008    0.00     3.53
 TER
 END

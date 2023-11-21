@@ -1,0 +1,58 @@
+data_pocket216_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket   216:
+0  - Pocket Score                      : -0.1652
+1  - Drug Score                        : 0.0076
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.9403
+4  - Mean alpha-sphere Solvent Acc.    : 0.5026
+5  - Mean B-factor of pocket residues  : 0.1562
+6  - Hydrophobicity Score              : 8.0000
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 3.0000
+9  - Pocket volume (Monte Carlo)       : 309.0730
+10  -Pocket volume (convex hull)       : 12.0672
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 13.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.9333
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM    18635    C   CG .  PRO   F .  154 ?  -48.669 -50.287  27.163  0.00  0   F
+ATOM    18619    C   CG .  PRO   F .  152 ?  -50.644 -46.471  30.067  0.00  0   F
+ATOM    19016    C   CB .  ALA   F .  206 ?  -46.873 -47.283  31.231  0.00  0   F
+ATOM    17543    C  CD2 .  LEU   F .   11 ?  -51.187 -43.160  26.981  0.00  0   F
+ATOM    18636    C   CD .  PRO   F .  154 ?  -50.055 -49.979  27.665  0.00  0   F
+ATOM    17526    C   CB .  ALA   F .    9 ?  -51.169 -45.308  22.471  0.00  0   F
+ATOM    17542    C  CD1 .  LEU   F .   11 ?  -53.438 -44.173  27.495  0.00  0   F
+ATOM    18618    C   CB .  PRO   F .  152 ?  -52.110 -46.689  29.923  0.00  0   F
+ATOM    18621    N    N .  GLU   F .  153 ?  -52.722 -49.422  29.218 -1.09  0   F
+ATOM    18625    C   CB .  GLU   F .  153 ?  -53.840 -50.685  27.418  0.00  0   F
+ATOM    18345    O   OG .  SER   F .  113 ?  -54.278 -46.705  21.551  0.00  0   F
+ATOM    18626    C   CG .  GLU   F .  153 ?  -54.038 -51.994  26.643  0.00  0   F
+ATOM    18630    N    N .  PRO   F .  154 ?  -50.633 -51.311  27.895  0.00  0   F
+ATOM    18634    C   CB .  PRO   F .  154 ?  -48.589 -51.736  26.780  0.00  0   F
+ATOM    18631    C   CA .  PRO   F .  154 ?  -49.691 -52.411  27.592  0.00  0   F
+ATOM    18358    O  OG1 .  THR   F .  115 ?  -56.453 -45.463  25.348 -3.35  0   F
+# 

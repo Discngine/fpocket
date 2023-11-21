@@ -3,34 +3,58 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    23:
-HEADER 0  - Pocket Score                      : -0.0012
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.8501
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5338
-HEADER 5  - Mean B-factor of pocket residues  : 0.1217
-HEADER 6  - Hydrophobicity Score              : -9.1667
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Amino Acid based volume Score     : 5.3333
-HEADER 9  - Pocket volume (Monte Carlo)       : 120.1442
-HEADER 10  -Pocket volume (convex hull)       : 1.0750
+HEADER 0  - Pocket Score                      : 0.0070
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    44
+HEADER 3  - Mean alpha-sphere radius          : 3.8947
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4658
+HEADER 5  - Mean B-factor of pocket residues  : 0.4339
+HEADER 6  - Hydrophobicity Score              : 5.2941
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 3.5294
+HEADER 9  - Pocket volume (Monte Carlo)       : 584.3519
+HEADER 10 - Pocket volume (convex hull)       : 105.5390
 HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 0.0000
-HEADER 13 - Number of apolar alpha sphere     :     0
-HEADER 14 - Proportion of apolar alpha sphere : 0.0000
-ATOM   4512    O TYR B 266      57.308  16.059  10.551  0.75  7.50           O 0
-ATOM   4915   CB ASN B 317      51.536  20.932  10.121  0.00  0.00           C 0
-ATOM   5427  NH2 ARG B 388      54.049  21.363   7.689  0.38  6.56           N 0
-ATOM   4918  ND2 ASN B 317      50.070  18.999   9.843  0.59  1.09           N 0
-ATOM   4914    O ASN B 317      53.919  20.630  12.228  0.46  3.21           O 0
-ATOM   4532   CG GLU B 268      51.933  13.259  12.883  0.00  0.00           C 0
-ATOM   4534  OE1 GLU B 268      50.550  15.150  13.272  0.58  3.21           O 0
-ATOM   4531   CB GLU B 268      53.171  13.790  13.614  0.00  0.00           C 0
-ATOM   4912   CA ASN B 317      51.626  20.729  11.630  0.00  0.00           C 0
-ATOM   4938    O ARG B 320      54.803  16.591  14.559  0.43  1.07           O 0
-ATOM   4947   CA GLU B 321      56.651  18.328  13.490  0.00  0.00           C 0
-ATOM   4937    C ARG B 320      54.613  17.801  14.720  0.00  0.00           C 0
-ATOM   4527    N GLU B 268      55.143  13.052  12.277  0.36  3.28           N 0
-ATOM   4939   CB ARG B 320      52.115  17.554  15.221  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.1591
+ATOM    642    C GLY A 119      25.133  -8.790   1.223  0.00  0.00           C 0
+ATOM    641   CA GLY A 119      25.661  -7.793   0.211  0.00  0.00           C 0
+ATOM    643    O GLY A 119      25.253  -9.999   1.013  0.00  2.14           O 0
+ATOM    651    N GLY A 121      22.029  -9.363   1.852  0.00  0.00           N 0
+ATOM    652   CA GLY A 121      20.812  -9.913   1.271  0.00  0.00           C 0
+ATOM    255  OD1 ASP A  52      24.207  -5.939  -8.391  0.00  0.00           O 0
+ATOM    225   CG ASP A  48      23.142  -2.467  -3.695  0.00  0.00           C 0
+ATOM   1863  CG1 VAL A 277      28.173  -0.749  -4.702  0.00  0.00           C 0
+ATOM   1845    O ASN A 275      28.852  -2.155  -8.217  0.62  5.36           O 0
+ATOM    629    O GLY A 103      22.908 -12.771  -3.269  0.39  7.50           O 0
+ATOM    630    N HIS A 118      27.558  -3.255   0.482  0.41  4.37           N 0
+ATOM   1864  CG2 VAL A 277      30.634  -1.153  -4.381  0.00  0.00           C 0
+ATOM    633    O HIS A 118      25.715  -5.025  -0.312  0.51  5.36           O 0
+ATOM    632    C HIS A 118      26.579  -5.524   0.417  0.00  0.00           C 0
+ATOM   1226   OG SER A 197      23.406   3.804  -7.116  0.77  1.07           O 0
+ATOM    226  OD1 ASP A  48      23.179  -1.331  -4.264  0.57  2.14           O 0
+ATOM   1853    O ASN A 276      27.677   1.633  -7.210  0.00  0.00           O 0
+ATOM   1193  NH1 ARG A 193      22.733   1.837  -4.212  0.00  0.00           N 0
+ATOM    248  CG2 VAL A  51      21.178  -0.154  -8.847  0.00  0.00           C 0
+ATOM    221   CA ASP A  48      21.371  -3.073  -5.451  0.00  0.00           C 0
+ATOM    223    O ASP A  48      21.400  -4.518  -7.376  0.00  0.00           O 0
+ATOM    631   CA HIS A 118      27.667  -4.618   1.003  0.00  0.00           C 0
+ATOM   2326   CZ PHE A 338      35.530  -4.657  -3.021  0.00  0.00           C 0
+ATOM   2331   CB LYS A 343      34.767  -2.973   0.564  0.00  0.00           C 0
+ATOM   2324  CE1 PHE A 338      35.692  -5.907  -2.460  0.00  0.00           C 0
+ATOM    637  CD2 HIS A 118      29.968  -3.531   2.886  0.00  0.00           C 0
+ATOM   2309  CD1 LEU A 336      33.738  -8.326  -6.481  0.00  0.00           C 0
+ATOM    640    N GLY A 119      26.632  -6.828   0.720  0.00  0.00           N 0
+ATOM    224   CB ASP A  48      22.300  -3.571  -4.331  0.00  0.00           C 0
+ATOM    256  OD2 ASP A  52      23.188  -7.630  -7.404  0.00  0.00           O 0
+ATOM    234  OD1 ASN A  49      19.979  -8.167  -4.540  0.00  0.00           O 0
+ATOM    227  OD2 ASP A  48      23.761  -2.728  -2.628  0.71  2.14           O 0
+ATOM    247  CG1 VAL A  51      23.122  -1.143 -10.071  0.00  0.00           C 0
+ATOM   1857  ND2 ASN A 276      25.489   1.607 -10.487  0.00  0.00           N 0
+ATOM    203  OE1 GLU A  45      22.308  -6.392   0.531  0.42  3.21           O 0
+ATOM    199    O GLU A  45      19.714  -4.783  -2.240  0.00  0.00           O 0
+ATOM    246   CB VAL A  51      21.835  -1.451  -9.297  0.00  0.00           C 0
+ATOM   1854   CB ASN A 276      27.172   0.068  -9.606  0.00  0.00           C 0
 TER
 END

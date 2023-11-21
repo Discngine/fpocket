@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    77:
-0  - Pocket Score                      : -0.1819
+0  - Pocket Score                      : -0.1320
 1  - Drug Score                        : 0.0001
 2  - Number of alpha spheres           :    20
-3  - Mean alpha-sphere radius          : 4.1698
-4  - Mean alpha-sphere Solvent Acc.    : 0.6225
-5  - Mean B-factor of pocket residues  : 0.6150
-6  - Hydrophobicity Score              : 41.4444
+3  - Mean alpha-sphere radius          : 4.1165
+4  - Mean alpha-sphere Solvent Acc.    : 0.5979
+5  - Mean B-factor of pocket residues  : 0.7602
+6  - Hydrophobicity Score              : 34.5000
 7  - Polarity Score                    :     3
-8  - Amino Acid based volume Score     : 4.5556
-9  - Pocket volume (Monte Carlo)       : 366.7602
-10  -Pocket volume (convex hull)       : 15.5278
+8  - Amino Acid based volume Score     : 4.5000
+9  - Pocket volume (Monte Carlo)       : 192.3382
+10  -Pocket volume (convex hull)       : 2.8114
 11 - Charge Score                      :     2
-12 - Local hydrophobic density Score   : 0.0000
-13 - Number of apolar alpha sphere     :     1
-14 - Proportion of apolar alpha sphere : 0.0500
+12 - Local hydrophobic density Score   : 1.0000
+13 - Number of apolar alpha sphere     :     2
+14 - Proportion of apolar alpha sphere : 0.1000
 # 
 loop_
 _atom_site.group_PDB
@@ -39,23 +39,19 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     7002    N  NH2 .  ARG   G .   91 ?  -43.294 -47.039 -34.574  0.00  0   G
-ATOM     7020    N  NH2 .  ARG   G .   93 ?  -40.996 -53.667 -30.557  0.00  0   G
-ATOM     7018    C   CZ .  ARG   G .   93 ?  -40.748 -52.454 -30.082  0.00  0   G
-ATOM     7017    N   NE .  ARG   G .   93 ?  -41.736 -51.713 -29.595 -1.51  0   G
-ATOM     7015    C   CG .  ARG   G .   93 ?  -42.916 -49.702 -28.857  0.00  0   G
-ATOM     6998    C   CD .  ARG   G .   91 ?  -45.333 -47.063 -32.604  0.00  0   G
-ATOM     7016    C   CD .  ARG   G .   93 ?  -41.573 -50.362 -29.061  0.00  0   G
-ATOM     6992    N    N .  ARG   G .   91 ?  -41.739 -44.249 -30.745 -1.09  0   G
-ATOM     7151    C   CA .  ALA   G .  112 ?  -37.146 -49.052 -26.731  0.00  0   G
-ATOM     7149    O    O .  GLY   G .  111 ?  -34.988 -47.608 -27.731 -4.43  0   G
-ATOM     6995    O    O .  ARG   G .   91 ?  -42.291 -46.162 -28.798 -3.21  0   G
-ATOM     7019    N  NH1 .  ARG   G .   93 ?  -39.507 -51.983 -30.112  0.00  0   G
-ATOM     6996    C   CB .  ARG   G .   91 ?  -43.543 -45.664 -31.594  0.00  0   G
-ATOM     6985    C   CB .  PHE   G .   90 ?  -39.137 -42.997 -29.684  0.00  0   G
-ATOM     6650    C  CD2 .  LEU   G .   50 ?  -34.883 -42.361 -29.943  0.00  0   G
-ATOM     6686    N  NE2 .  GLN   G .   54 ?  -33.177 -45.729 -29.242  0.00  0   G
-ATOM     7154    C   CB .  ALA   G .  112 ?  -37.805 -50.359 -27.145  0.00  0   G
-ATOM     6976    O    O .  LEU   G .   89 ?  -37.624 -41.433 -31.979 -0.95  0   G
-ATOM     7155    N    N .  VAL   G .  113 ?  -38.934 -47.635 -25.963  0.00  0   G
+ATOM     4925    N   NE .  ARG   E .   93 ?  -57.420 -49.635  -0.641 -0.42  0   E
+ATOM     4900    N    N .  ARG   E .   91 ?  -62.302 -53.511   0.611 -2.19  0   E
+ATOM     4893    C   CB .  PHE   E .   90 ?  -61.642 -56.263  -0.599  0.00  0   E
+ATOM     4905    C   CG .  ARG   E .   91 ?  -60.885 -50.966   1.466  0.00  0   E
+ATOM     4926    C   CZ .  ARG   E .   93 ?  -56.132 -49.825  -0.379  0.00  0   E
+ATOM     4928    N  NH2 .  ARG   E .   93 ?  -55.712 -49.925   0.875 -1.01  0   E
+ATOM     5062    C   CB .  ALA   E .  112 ?  -55.826 -52.277  -4.273  0.00  0   E
+ATOM     5059    C   CA .  ALA   E .  112 ?  -56.396 -53.654  -4.550  0.00  0   E
+ATOM     5063    N    N .  VAL   E .  113 ?  -58.764 -53.341  -4.936 -1.09  0   E
+ATOM     4924    C   CD .  ARG   E .   93 ?  -57.978 -49.505  -1.986  0.00  0   E
+ATOM     5057    O    O .  GLY   E .  111 ?  -55.828 -56.181  -3.593 -4.43  0   E
+ATOM     4927    N  NH1 .  ARG   E .   93 ?  -55.249 -49.903  -1.369 -5.47  0   E
+ATOM     4558    C  CD2 .  LEU   E .   50 ?  -59.095 -59.655  -0.754  0.00  0   E
+ATOM     4594    N  NE2 .  GLN   E .   54 ?  -55.584 -58.698  -1.999 -1.26  0   E
+ATOM     4903    O    O .  ARG   E .   91 ?  -61.567 -51.840  -1.499 -1.07  0   E
 # 

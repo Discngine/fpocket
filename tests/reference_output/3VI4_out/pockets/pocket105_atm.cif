@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket   105:
-0  - Pocket Score                      : -0.0752
-1  - Drug Score                        : 0.0005
-2  - Number of alpha spheres           :    21
-3  - Mean alpha-sphere radius          : 4.2146
-4  - Mean alpha-sphere Solvent Acc.    : 0.4284
-5  - Mean B-factor of pocket residues  : 0.3534
-6  - Hydrophobicity Score              : 32.5714
-7  - Polarity Score                    :     4
-8  - Amino Acid based volume Score     : 4.7143
-9  - Pocket volume (Monte Carlo)       : 316.9973
-10  -Pocket volume (convex hull)       : 8.7353
+0  - Pocket Score                      : -0.0526
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.9815
+4  - Mean alpha-sphere Solvent Acc.    : 0.6567
+5  - Mean B-factor of pocket residues  : 0.2744
+6  - Hydrophobicity Score              : -17.1429
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.5714
+9  - Pocket volume (Monte Carlo)       : 340.4088
+10  -Pocket volume (convex hull)       : 22.7726
 11 - Charge Score                      :     1
-12 - Local hydrophobic density Score   : 8.0000
-13 - Number of apolar alpha sphere     :     9
-14 - Proportion of apolar alpha sphere : 0.4286
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.2667
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,22 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    17264    N  NE2 .  HIS   E .  194 ?  -71.761 -62.833  51.070 -3.28  0   E
-ATOM    16988    N  NH1 .  ARG   E .  160 ?  -76.793 -64.311  47.371 -3.45  0   E
-ATOM    17263    C  CE1 .  HIS   E .  194 ?  -72.851 -63.571  51.371  0.00  0   E
-ATOM    17221    O  OE1 .  GLU   E .  190 ?  -70.895 -60.221  50.609 -2.55  0   E
-ATOM    16985    C   CD .  ARG   E .  160 ?  -75.776 -62.957  45.044  0.00  0   E
-ATOM    16951    C  CD1 .  ILE   E .  155 ?  -71.201 -64.291  45.697  0.00  0   E
-ATOM    17222    O  OE2 .  GLU   E .  190 ?  -72.060 -58.484  51.242  0.00  0   E
-ATOM    17006    N  ND2 .  ASN   E .  162 ?  -74.477 -56.835  42.905  0.00  0   E
-ATOM    17220    C   CD .  GLU   E .  190 ?  -70.992 -58.997  50.862  0.00  0   E
-ATOM    17219    C   CG .  GLU   E .  190 ?  -69.783 -58.082  50.707  0.00  0   E
-ATOM    17189    C  CD2 .  LEU   E .  186 ?  -68.466 -60.288  45.620  0.00  0   E
-ATOM    17003    C   CB .  ASN   E .  162 ?  -72.914 -58.154  41.601  0.00  0   E
-ATOM    16983    C   CB .  ARG   E .  160 ?  -74.321 -63.630  43.090  0.00  0   E
-ATOM    17173    C  CD1 .  LEU   E .  184 ?  -68.999 -62.114  41.715  0.00  0   E
+ATOM     7818    C   CB .  GLU   B .  433 ?   26.957  -2.721 -25.242  0.00  0   B
+ATOM     7817    O    O .  GLU   B .  433 ?   28.141  -1.632 -28.212 -5.36  0   B
+ATOM     5192    O    O .  GLN   B .   97 ?   31.894  -0.061 -27.374 -0.40  0   B
+ATOM     7821    O  OE1 .  GLU   B .  433 ?   27.857  -4.005 -22.959 -4.02  0   B
+ATOM     5194    C   CG .  GLN   B .   97 ?   31.729  -2.044 -31.228  0.00  0   B
+ATOM     4988    C   CE .  LYS   B .   71 ?   37.151  -3.614 -29.850  0.00  0   B
+ATOM     5193    C   CB .  GLN   B .   97 ?   32.329  -1.265 -30.076  0.00  0   B
+ATOM     4989    N   NZ .  LYS   B .   71 ?   37.428  -4.645 -28.814  0.00  0   B
+ATOM     5154    C  CE1 .  HIS   B .   92 ?   31.563  -6.011 -33.252  0.00  0   B
+ATOM     5196    O  OE1 .  GLN   B .   97 ?   33.714  -1.912 -32.542 -1.07  0   B
+ATOM     7838    O  OE2 .  GLU   B .  435 ?   33.795  -1.349 -22.196 -2.69  0   B
+ATOM     7835    C   CG .  GLU   B .  435 ?   31.957  -0.128 -23.117  0.00  0   B
+ATOM     7747    C   CE .  LYS   B .  424 ?   29.467  -1.753 -21.330  0.00  0   B
+ATOM     4987    C   CD .  LYS   B .   71 ?   36.927  -2.241 -29.233  0.00  0   B
+ATOM     5203    C   CG .  GLN   B .   98 ?   34.918   0.197 -25.809  0.00  0   B
+ATOM     5205    O  OE1 .  GLN   B .   98 ?   37.182  -0.558 -25.572  0.00  0   B
+ATOM     5204    C   CD .  GLN   B .   98 ?   36.236   0.059 -25.075  0.00  0   B
+ATOM     7748    N   NZ .  LYS   B .  424 ?   30.576  -1.584 -20.347 -2.35  0   B
 # 

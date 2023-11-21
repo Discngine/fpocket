@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    91:
-0  - Pocket Score                      : -0.0571
-1  - Drug Score                        : 0.0004
-2  - Number of alpha spheres           :    20
-3  - Mean alpha-sphere radius          : 3.6029
-4  - Mean alpha-sphere Solvent Acc.    : 0.4373
-5  - Mean B-factor of pocket residues  : 0.4159
-6  - Hydrophobicity Score              : -26.8571
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 99.1179
-10  -Pocket volume (convex hull)       : 0.6463
-11 - Charge Score                      :     0
-12 - Local hydrophobic density Score   : 3.0000
-13 - Number of apolar alpha sphere     :     4
-14 - Proportion of apolar alpha sphere : 0.2000
+0  - Pocket Score                      : -0.0344
+1  - Drug Score                        : 0.0046
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.9408
+4  - Mean alpha-sphere Solvent Acc.    : 0.5229
+5  - Mean B-factor of pocket residues  : 0.2938
+6  - Hydrophobicity Score              : 17.4000
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.6000
+9  - Pocket volume (Monte Carlo)       : 296.3312
+10  -Pocket volume (convex hull)       : 6.0889
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 14.0000
+13 - Number of apolar alpha sphere     :    15
+14 - Proportion of apolar alpha sphere : 0.9375
 # 
 loop_
 _atom_site.group_PDB
@@ -39,19 +39,17 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    10313    C   CB .  ARG   C .  317 ?  -43.574 -29.647 -37.420  0.00  0   C
-ATOM    15147    O    O .  ASN   D .  366 ?  -47.782 -28.058 -34.108 -4.29  0   D
-ATOM    10318    N  NH1 .  ARG   C .  317 ?  -47.034 -29.621 -37.998 -3.28  0   C
-ATOM    15143    O  OE2 .  GLU   D .  365 ?  -47.589 -33.058 -32.224  0.00  0   D
-ATOM    10314    C   CG .  ARG   C .  317 ?  -44.369 -28.384 -37.127  0.00  0   C
-ATOM    10310    C   CA .  ARG   C .  317 ?  -42.558 -30.058 -36.354  0.00  0   C
-ATOM    10326    C   CD .  PRO   C .  318 ?  -42.459 -32.995 -35.642  0.00  0   C
-ATOM    10307    C    C .  GLY   C .  316 ?  -41.217 -28.926 -34.647  0.00  0   C
-ATOM    10308    O    O .  GLY   C .  316 ?  -41.005 -29.975 -34.046 -3.21  0   C
-ATOM    15346    N  NH1 .  ARG   D .  393 ?  -43.520 -27.780 -29.972 -1.09  0   D
-ATOM    15150    O  OD1 .  ASN   D .  366 ?  -45.178 -25.929 -31.411 -1.07  0   D
-ATOM    10309    N    N .  ARG   C .  317 ?  -41.910 -28.871 -35.780  0.00  0   C
-ATOM    15139    C   CB .  GLU   D .  365 ?  -46.727 -30.746 -30.456  0.00  0   D
-ATOM    10300    O    O .  ASP   C .  315 ?  -42.642 -25.636 -33.820  0.00  0   C
-ATOM    15144    N    N .  ASN   D .  366 ?  -47.307 -27.753 -31.344 -1.09  0   D
+ATOM    13362    O    O .  LYS   D .  136 ?  -46.741 -69.138 -28.779 -2.14  0   D
+ATOM    13397    C   CG .  GLU   D .  140 ?  -49.368 -71.709 -25.530  0.00  0   D
+ATOM    14037    C  CG1 .  ILE   D .  221 ?  -48.269 -70.309 -32.523  0.00  0   D
+ATOM    13364    C   CG .  LYS   D .  136 ?  -44.853 -71.796 -30.468  0.00  0   D
+ATOM    14039    C  CD1 .  ILE   D .  221 ?  -48.324 -69.032 -31.707  0.00  0   D
+ATOM    13390    C  CD1 .  LEU   D .  139 ?  -51.297 -68.237 -29.718  0.00  0   D
+ATOM    13366    C   CE .  LYS   D .  136 ?  -44.662 -74.267 -30.782  0.00  0   D
+ATOM    13399    O  OE1 .  GLU   D .  140 ?  -48.124 -73.297 -24.250 -0.54  0   D
+ATOM    13369    C   CA .  ASP   D .  137 ?  -45.033 -69.571 -26.564  0.00  0   D
+ATOM    13365    C   CD .  LYS   D .  136 ?  -43.896 -72.970 -30.604  0.00  0   D
+ATOM    13372    C   CB .  ASP   D .  137 ?  -43.789 -69.919 -25.755  0.00  0   D
+ATOM    13398    C   CD .  GLU   D .  140 ?  -49.222 -73.027 -24.794  0.00  0   D
+ATOM    13400    O  OE2 .  GLU   D .  140 ?  -50.208 -73.794 -24.759  0.00  0   D
 # 

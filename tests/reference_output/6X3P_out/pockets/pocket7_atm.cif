@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket     7:
-0  - Pocket Score                      : 0.0157
-1  - Drug Score                        : 0.0019
-2  - Number of alpha spheres           :    29
-3  - Mean alpha-sphere radius          : 3.9841
-4  - Mean alpha-sphere Solvent Acc.    : 0.5682
-5  - Mean B-factor of pocket residues  : 0.3531
+0  - Pocket Score                      : 0.0028
+1  - Drug Score                        : 0.0015
+2  - Number of alpha spheres           :    30
+3  - Mean alpha-sphere radius          : 4.0066
+4  - Mean alpha-sphere Solvent Acc.    : 0.5665
+5  - Mean B-factor of pocket residues  : 0.1118
 6  - Hydrophobicity Score              : 19.0667
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 5.1333
-9  - Pocket volume (Monte Carlo)       : 468.4562
-10  -Pocket volume (convex hull)       : 61.1928
+9  - Pocket volume (Monte Carlo)       : 502.5031
+10  -Pocket volume (convex hull)       : 66.4378
 11 - Charge Score                      :     3
-12 - Local hydrophobic density Score   : 11.5385
-13 - Number of apolar alpha sphere     :    13
-14 - Proportion of apolar alpha sphere : 0.4483
+12 - Local hydrophobic density Score   : 12.1429
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.4667
 # 
 loop_
 _atom_site.group_PDB
@@ -52,8 +52,9 @@ ATOM     1090    N   NE .  ARG   A .  137 ?  -12.452  17.555 -11.740 -3.28  0   
 ATOM     1357    C   CA .  PRO   A .  172 ?  -11.232  22.276  -7.751  0.00  0   A
 ATOM     1093    N  NH2 .  ARG   A .  137 ?  -13.081  19.435 -10.567 -1.09  0   A
 ATOM     1342    C   CD .  LYS   A .  170 ?   -4.458  16.786  -8.208  0.00  0   A
-ATOM     1297    C  CE2 .  TYR   A .  163 ?   -7.970  14.534  -6.826  0.00  0   A
 ATOM     1089    C   CD .  ARG   A .  137 ?  -12.062  16.828 -12.957  0.00  0   A
+ATOM     1299    O   OH .  TYR   A .  163 ?   -6.138  13.323  -7.763 -0.95  0   A
+ATOM     1297    C  CE2 .  TYR   A .  163 ?   -7.970  14.534  -6.826  0.00  0   A
 ATOM     1333    O    O .  SER   A .  169 ?   -4.138  20.837  -7.381  0.00  0   A
 ATOM     1338    C    C .  LYS   A .  170 ?   -7.430  19.429  -6.169  0.00  0   A
 ATOM     1348    O    O .  PHE   A .  171 ?   -8.589  22.370  -6.951 -1.48  0   A

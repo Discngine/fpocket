@@ -3,38 +3,34 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    16:
-HEADER 0  - Pocket Score                      : -0.0114
-HEADER 1  - Drug Score                        : 0.0001
+HEADER 0  - Pocket Score                      : -0.0205
+HEADER 1  - Drug Score                        : 0.0002
 HEADER 2  - Number of alpha spheres           :    17
-HEADER 3  - Mean alpha-sphere radius          : 3.7471
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5626
-HEADER 5  - Mean B-factor of pocket residues  : 0.3127
-HEADER 6  - Hydrophobicity Score              : -8.1429
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Amino Acid based volume Score     : 4.1429
-HEADER 9  - Pocket volume (Monte Carlo)       : 269.8107
-HEADER 10  -Pocket volume (convex hull)       : 12.6545
-HEADER 11 - Charge Score                      :     3
-HEADER 12 - Local hydrophobic density Score   : 0.0000
-HEADER 13 - Number of apolar alpha sphere     :     1
-HEADER 14 - Proportion of apolar alpha sphere : 0.0588
-ATOM   2877    O ARG I  18      20.035   5.682   6.907  0.00  0.00           O 0
-ATOM   2901   CG ASN I  20      19.942   9.050   2.872  0.00  0.00           C 0
-ATOM   2903  ND2 ASN I  20      18.976   8.461   3.615  0.72  2.19           N 0
-ATOM   2902  OD1 ASN I  20      20.180  10.277   2.903  0.00  0.00           O 0
-ATOM   2873    O GLY I  17      19.641   2.744   8.748  0.57  1.07           O 0
-ATOM   2851    O GLY I  14      25.837   2.808  10.298  0.00  0.00           O 0
-ATOM   2853   CA ARG I  15      24.354   0.743   9.261  0.00  0.00           C 0
-ATOM    305  CG2 THR E  51      16.648  12.650   5.825  0.00  0.00           C 0
-ATOM   2883  NH1 ARG I  18      15.747   9.018   6.588  0.00  0.00           N 0
-ATOM   2870    N GLY I  17      20.906   2.640  11.216  0.47  2.19           N 0
-ATOM   2871   CA GLY I  17      19.967   3.723  10.956  0.00  0.00           C 0
-ATOM   2872    C GLY I  17      19.396   3.686   9.522  0.00  0.00           C 0
-ATOM   2890   CG ARG I  19      20.455   1.820   5.502  0.00  0.00           C 0
-ATOM   2900   CB ASN I  20      20.719   8.118   1.944  0.00  0.00           C 0
-ATOM   2896    N ASN I  20      20.278   5.891   2.989  0.30  5.47           N 0
-ATOM   2860   CZ ARG I  15      25.245   1.855   4.459  0.00  0.00           C 0
-ATOM   2862  NH2 ARG I  15      25.572   3.087   4.092  0.00  9.84           N 0
-ATOM   2886   CA ARG I  19      19.869   4.126   4.630  0.00  0.00           C 0
+HEADER 3  - Mean alpha-sphere radius          : 3.9841
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5013
+HEADER 5  - Mean B-factor of pocket residues  : 0.2566
+HEADER 6  - Hydrophobicity Score              : 59.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.2563
+HEADER 10 - Pocket volume (convex hull)       : 2.1844
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2099   CA ARG E 270      17.194 -19.575  -2.168  0.00  0.00           C 0
+ATOM   2129   CB LEU E 273      18.997 -14.631  -2.393  0.00  0.00           C 0
+ATOM   2093    O LEU E 269      16.708 -16.845  -1.937  0.00  0.00           O 0
+ATOM   1978   CB VAL E 255      22.508 -16.367   1.574  0.00  0.00           C 0
+ATOM   2103   CG ARG E 270      18.252 -21.553  -0.888  0.00  0.00           C 0
+ATOM   2128    O LEU E 273      20.651 -16.017  -4.362  0.23  7.50           O 0
+ATOM   2101    O ARG E 270      17.911 -18.997  -4.422  0.00  0.00           O 0
+ATOM   1964    O GLY E 253      26.212 -17.663  -2.433  0.00  0.00           O 0
+ATOM   1974    N VAL E 255      24.871 -17.081   1.353  0.00  0.00           N 0
+ATOM   1977    O VAL E 255      23.715 -18.779   3.313  0.57  6.43           O 0
+ATOM   2001  CE2 PHE E 257      19.271 -19.839   2.946  0.00  0.00           C 0
+ATOM   2107  NH1 ARG E 270      19.684 -23.194   1.662  0.00  0.00           N 0
+ATOM   1980  CG2 VAL E 255      22.744 -15.487   0.360  0.00  0.00           C 0
+ATOM   2002   CZ PHE E 257      18.599 -18.718   2.457  0.00  0.00           C 0
 TER
 END

@@ -11,11 +11,11 @@ Information about the pocket    17:
 2  - Number of alpha spheres           :    22
 3  - Mean alpha-sphere radius          : 3.8871
 4  - Mean alpha-sphere Solvent Acc.    : 0.5743
-5  - Mean B-factor of pocket residues  : 0.2544
+5  - Mean B-factor of pocket residues  : 0.2140
 6  - Hydrophobicity Score              : -1.1429
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.1429
-9  - Pocket volume (Monte Carlo)       : 307.5072
+9  - Pocket volume (Monte Carlo)       : 310.4886
 10  -Pocket volume (convex hull)       : 15.6127
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 6.0000
