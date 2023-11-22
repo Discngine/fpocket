@@ -47,7 +47,7 @@ COS         = -DM_OS_LINUX
 CDEBUG      = -DMNO_MEM_DEBUG
 CWARN       = -W -Wextra -Wwrite-strings -Wstrict-prototypes
 
-CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=c99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
+CFLAGS      = $(CWARN) $(COS) $(CDEBUG) -O2 -g -pg -std=gnu99 -I$(PLUGINDIR)/include -I$(PLUGINDIR)/$(ARCH)/molfile
 QCFLAGS     = -O -g -pg -ansi
 
 LGSL        = -L$(PATH_GSL)lib -lgsl -lgslcblas 
