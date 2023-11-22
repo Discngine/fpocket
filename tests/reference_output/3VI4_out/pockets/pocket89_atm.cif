@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    89:
-0  - Pocket Score                      : -0.0550
-1  - Drug Score                        : 0.0002
-2  - Number of alpha spheres           :    21
-3  - Mean alpha-sphere radius          : 4.0358
-4  - Mean alpha-sphere Solvent Acc.    : 0.6663
-5  - Mean B-factor of pocket residues  : 0.4274
-6  - Hydrophobicity Score              : 4.5000
-7  - Polarity Score                    :     6
-8  - Amino Acid based volume Score     : 3.7500
-9  - Pocket volume (Monte Carlo)       : 312.9482
-10  -Pocket volume (convex hull)       : 21.1442
+0  - Pocket Score                      : -0.0328
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 4.0169
+4  - Mean alpha-sphere Solvent Acc.    : 0.4594
+5  - Mean B-factor of pocket residues  : 0.1608
+6  - Hydrophobicity Score              : -20.4286
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.0000
+9  - Pocket volume (Monte Carlo)       : 175.6500
+10  -Pocket volume (convex hull)       : 1.8284
 11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 6.0000
-13 - Number of apolar alpha sphere     :     7
-14 - Proportion of apolar alpha sphere : 0.3333
+12 - Local hydrophobic density Score   : 1.0000
+13 - Number of apolar alpha sphere     :     2
+14 - Proportion of apolar alpha sphere : 0.1333
 # 
 loop_
 _atom_site.group_PDB
@@ -39,23 +39,16 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     1040    O  OD1 .  ASP   A .  140 ?  -22.842  -2.361  24.116  0.00  0   A
-ATOM     1072    C   CB .  ARG   A .  144 ?  -22.674  -7.989  23.669  0.00  0   A
-ATOM     1074    C   CD .  ARG   A .  144 ?  -24.726  -9.403  23.249  0.00  0   A
-ATOM     1075    N   NE .  ARG   A .  144 ?  -25.888  -9.399  22.347  0.00  0   A
-ATOM     1073    C   CG .  ARG   A .  144 ?  -23.518  -8.712  22.632  0.00  0   A
-ATOM     1479    O  OE1 .  GLN   A .  197 ?  -21.445  -1.071  17.874  0.00  0   A
-ATOM     1041    O  OD2 .  ASP   A .  140 ?  -22.488  -0.384  25.022  0.00  0   A
-ATOM      816    O   OG .  SER   A .  111 ?  -19.359  -0.734  19.478 -1.88  0   A
-ATOM     1511    C   CB .  ALA   A .  201 ?  -27.064  -6.367  18.081  0.00  0   A
-ATOM     1032    O  OG1 .  THR   A .  139 ?  -21.842  -5.141  21.824  0.00  0   A
-ATOM     1093    C  CD1 .  LEU   A .  146 ?  -23.453  -7.150  17.701  0.00  0   A
-ATOM     1031    C   CB .  THR   A .  139 ?  -21.170  -3.961  21.364  0.00  0   A
-ATOM     1033    C  CG2 .  THR   A .  139 ?  -21.239  -3.912  19.839  0.00  0   A
-ATOM     1475    O    O .  GLN   A .  197 ?  -25.775  -3.805  15.856  0.00  0   A
-ATOM     1476    C   CB .  GLN   A .  197 ?  -23.634  -1.374  16.146  0.00  0   A
-ATOM     1486    C   CG .  GLU   A .  198 ?  -29.220  -0.645  17.715  0.00  0   A
-ATOM     1482    C   CA .  GLU   A .  198 ?  -28.102  -2.322  16.124  0.00  0   A
-ATOM     1481    N    N .  GLU   A .  198 ?  -26.804  -1.812  15.661 -2.19  0   A
-ATOM     1474    C    C .  GLN   A .  197 ?  -25.742  -2.613  15.551  0.00  0   A
+ATOM    16876    C   CB .  LYS   E .  147 ?  -68.429 -68.805  19.397  0.00  0   E
+ATOM    16864    O   OH .  TYR   E .  145 ?  -67.510 -73.375  14.472 -4.29  0   E
+ATOM    16605    O  OE2 .  GLU   E .  110 ?  -67.348 -67.725  14.390 -2.14  0   E
+ATOM    16872    N    N .  LYS   E .  147 ?  -68.136 -71.150  19.785 -1.09  0   E
+ATOM    16869    C   CB .  PRO   E .  146 ?  -69.768 -73.462  18.914  0.00  0   E
+ATOM    15844    C   CG .  PRO   E .   12 ?  -70.216 -71.149  11.889  0.00  0   E
+ATOM    16888    O  OD2 .  ASP   E .  148 ?  -72.989 -69.189  19.748  0.00  0   E
+ATOM    15830    O   OG .  SER   E .   10 ?  -70.295 -65.391  13.873 -0.40  0   E
+ATOM    16878    C   CD .  LYS   E .  147 ?  -68.262 -66.585  18.306  0.00  0   E
+ATOM    16861    C  CE1 .  TYR   E .  145 ?  -65.813 -73.150  16.158  0.00  0   E
+ATOM    15845    C   CD .  PRO   E .   12 ?  -70.458 -69.791  11.297  0.00  0   E
+ATOM    15843    C   CB .  PRO   E .   12 ?  -68.741 -71.367  11.967  0.00  0   E
 # 

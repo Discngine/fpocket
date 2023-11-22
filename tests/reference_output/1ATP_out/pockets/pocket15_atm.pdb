@@ -3,47 +3,50 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    15:
-HEADER 0  - Pocket Score                      : 0.0056
-HEADER 1  - Drug Score                        : 0.0085
-HEADER 2  - Number of alpha spheres           :    29
-HEADER 3  - Mean alpha-sphere radius          : 4.2363
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6830
-HEADER 5  - Mean B-factor of pocket residues  : 0.6083
-HEADER 6  - Hydrophobicity Score              : 21.3636
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 4.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 421.6359
-HEADER 10  -Pocket volume (convex hull)       : 21.9768
-HEADER 11 - Charge Score                      :     2
-HEADER 12 - Local hydrophobic density Score   : 15.0000
-HEADER 13 - Number of apolar alpha sphere     :    16
-HEADER 14 - Proportion of apolar alpha sphere : 0.5517
-ATOM   1819   OH TYR E 235      20.722 -13.511  11.416  0.59  7.50           O 0
-ATOM   2786    N THR I   6      24.752 -13.023  15.286  0.00  0.00           N 0
-ATOM   2793    N TYR I   7      22.704 -11.012  15.175  0.73  1.09           N 0
-ATOM   2783   CB THR I   5      24.155 -13.603  18.177  0.00  0.00           C 0
-ATOM   1817  CE2 TYR E 235      19.985 -11.372  12.216  0.00  0.00           C 0
-ATOM   2797   CB TYR I   7      20.768 -10.287  16.509  0.00  0.00           C 0
-ATOM   2790   CB THR I   6      23.915 -12.886  13.021  0.00  0.00           C 0
-ATOM   2791  OG1 THR I   6      24.715 -14.012  12.684  0.46  6.43           O 0
-ATOM   2023  CD2 HIS E 260      15.149 -16.519  13.733  0.00  0.00           C 0
-ATOM   2803   CZ TYR I   7      17.998  -7.046  17.130  0.00  0.00           C 0
-ATOM   1008   CD ARG E 137      13.015 -12.390  14.489  0.00  0.00           C 0
-ATOM   1001    O GLY E 136      14.004  -7.535  14.180  0.55  1.07           O 0
-ATOM   2801  CE1 TYR I   7      18.129  -7.625  15.869  0.00  0.00           C 0
-ATOM   2802  CE2 TYR I   7      18.768  -7.509  18.203  0.00  0.00           C 0
-ATOM   2800  CD2 TYR I   7      19.671  -8.559  18.021  0.00  0.00           C 0
-ATOM   2007   CB PRO E 258      17.978 -16.703  11.072  0.00  0.00           C 0
-ATOM   2015   OG SER E 259      18.773 -20.147  14.551  0.00  0.00           O 0
-ATOM   2004   CA PRO E 258      18.907 -17.890  10.760  0.00  0.00           C 0
-ATOM   1000    C GLY E 136      13.099  -7.215  14.936  0.00  0.00           C 0
-ATOM   1007   CG ARG E 137      12.064 -11.168  14.522  0.00  0.00           C 0
-ATOM   1006   CB ARG E 137      12.547  -9.944  13.745  0.00  0.00           C 0
-ATOM   1002    N ARG E 137      11.897  -7.755  14.844  0.00  0.00           N 0
-ATOM    993    O ILE E 135      11.277  -6.737  17.844  0.39  8.57           O 0
-ATOM   2025  NE2 HIS E 260      14.962 -15.418  12.941  0.93  2.19           N 0
-ATOM   2798   CG TYR I   7      19.809  -9.148  16.762  0.00  0.00           C 0
-ATOM   2799  CD1 TYR I   7      19.040  -8.667  15.701  0.00  0.00           C 0
-ATOM   1802    O ALA E 233      16.247 -11.091  12.418  0.55  5.36           O 0
+HEADER 0  - Pocket Score                      : 0.0047
+HEADER 1  - Drug Score                        : 0.5258
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.8294
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4718
+HEADER 5  - Mean B-factor of pocket residues  : 0.3144
+HEADER 6  - Hydrophobicity Score              : 67.0909
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.5255
+HEADER 10 - Pocket volume (convex hull)       : 49.8527
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 35.8378
+HEADER 13 - Number of apolar alpha sphere     :    37
+HEADER 14 - Proportion of apolar alpha sphere : 0.9737
+ATOM    705   CZ PHE E 100      -1.744  -4.441  -7.799  0.00  0.00           C 0
+ATOM   1162  OE1 GLU E 155       0.157 -10.157 -10.045  0.84  5.36           O 0
+ATOM   1136  CD2 LEU E 152      -0.761 -10.147  -6.178  0.00  0.00           C 0
+ATOM   2405  CD2 TYR E 306      -5.142  -5.791  -6.300  0.00  0.00           C 0
+ATOM      7  CG2 VAL E  15      -4.494 -11.830 -11.149  0.00  0.00           C 0
+ATOM      6  CG1 VAL E  15      -2.823 -11.529 -12.987  0.00  0.00           C 0
+ATOM     43  CD1 LEU E  19      -2.165  -6.192 -13.498  0.00  0.00           C 0
+ATOM   2367   CB TRP E 302      -3.282 -13.838  -4.682  0.00  0.00           C 0
+ATOM   2283   NZ LYS E 292      -0.453 -12.979  -9.642  0.76  4.37           N 0
+ATOM   2366    O TRP E 302      -4.842 -11.031  -3.546  0.89  1.07           O 0
+ATOM     33  CD2 PHE E  18      -5.291  -5.668 -12.107  0.00  0.00           C 0
+ATOM    703  CE1 PHE E 100      -2.348  -3.750  -8.845  0.00  0.00           C 0
+ATOM   2403   CG TYR E 306      -6.064  -6.651  -5.700  0.00  0.00           C 0
+ATOM   2404  CD1 TYR E 306      -7.425  -6.424  -5.901  0.00  0.00           C 0
+ATOM   1133   CB LEU E 152      -0.075  -7.803  -5.686  0.00  0.00           C 0
+ATOM   2402   CB TYR E 306      -5.635  -7.781  -4.831  0.00  0.00           C 0
+ATOM     30   CB PHE E  18      -6.759  -7.267 -13.392  0.00  0.00           C 0
+ATOM      1    N VAL E  15      -6.512 -12.177 -13.595  0.00  0.00           N 0
+ATOM      2   CA VAL E  15      -5.276 -11.431 -13.476  0.00  0.00           C 0
+ATOM   2408   CZ TYR E 306      -6.937  -4.519  -7.289  0.00  0.00           C 0
+ATOM   2406  CE1 TYR E 306      -7.867  -5.363  -6.689  0.00  0.00           C 0
+ATOM   2407  CE2 TYR E 306      -5.569  -4.727  -7.097  0.00  0.00           C 0
+ATOM   1132    O LEU E 152       1.330  -6.256  -8.054  0.66  2.14           O 0
+ATOM   1168   CB TYR E 156       0.836  -4.064 -10.536  0.00  0.00           C 0
+ATOM   2365    C TRP E 302      -5.058 -12.250  -3.632  0.00  0.00           C 0
+ATOM   2382  CG1 ILE E 303      -7.953 -13.342  -6.092  0.00  0.00           C 0
+ATOM   2383  CG2 ILE E 303      -9.623 -11.703  -5.218  0.00  0.00           C 0
+ATOM   2378   CA ILE E 303      -7.378 -11.859  -4.194  0.00  0.00           C 0
+ATOM     31   CG PHE E  18      -6.523  -5.962 -12.692  0.00  0.00           C 0
+ATOM     32  CD1 PHE E  18      -7.536  -5.003 -12.655  0.00  0.00           C 0
 TER
 END

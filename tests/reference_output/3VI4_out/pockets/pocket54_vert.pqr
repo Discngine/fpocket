@@ -4,51 +4,44 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    54:
-HEADER 0  - Pocket Score                      : -0.0113
-HEADER 1  - Drug Score                        : 0.0049
-HEADER 2  - Number of V. Vertices             :    32
-HEADER 3  - Mean alpha-sphere radius          : 4.0414
-HEADER 4  - Mean alpha-sphere SA              : 0.6160
-HEADER 5  - Mean B-factor                     : 0.3814
-HEADER 6  - Hydrophobicity Score              : 16.2500
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Volume Score                      : 5.0000
-HEADER 9  - Real volume (approximation)       : 354.4969
-HEADER 10 - Charge Score                      :     3
-HEADER 11 - Local hydrophobic density Score   : 17.0000
-HEADER 12 - Number of apolar alpha sphere     :    18
-HEADER 13 - Proportion of apolar alpha sphere : 0.5625
-ATOM      1    C STP    54     -57.024 -70.358 -37.246    0.00     4.32
-ATOM      2    O STP    54     -56.646 -69.428 -37.222    0.00     4.27
-ATOM      3    C STP    54     -56.864 -70.524 -36.830    0.00     3.97
-ATOM      4    O STP    54     -54.931 -67.578 -37.563    0.00     4.08
-ATOM      5    O STP    54     -55.098 -67.664 -37.647    0.00     4.17
-ATOM      6    O STP    54     -54.672 -67.210 -40.763    0.00     4.22
-ATOM      7    O STP    54     -53.592 -67.236 -40.202    0.00     3.47
-ATOM      8    O STP    54     -54.405 -66.882 -37.776    0.00     4.00
-ATOM      9    C STP    54     -55.116 -67.037 -39.567    0.00     4.49
-ATOM     10    C STP    54     -55.189 -67.015 -39.697    0.00     4.56
-ATOM     11    C STP    54     -54.776 -67.058 -39.727    0.00     4.25
-ATOM     12    O STP    54     -55.209 -67.422 -38.037    0.00     4.30
-ATOM     13    O STP    54     -55.274 -66.996 -39.163    0.00     4.58
-ATOM     14    O STP    54     -54.930 -66.921 -38.298    0.00     4.31
-ATOM     15    O STP    54     -56.768 -68.847 -37.454    0.00     4.53
-ATOM     16    O STP    54     -55.591 -67.879 -37.639    0.00     4.25
-ATOM     17    O STP    54     -56.576 -68.135 -36.461    0.00     3.79
-ATOM     18    O STP    54     -53.641 -66.082 -36.964    0.00     3.41
-ATOM     19    C STP    54     -55.456 -66.276 -39.618    0.00     4.45
-ATOM     20    O STP    54     -54.888 -65.947 -38.187    0.00     3.86
-ATOM     21    C STP    54     -54.731 -65.663 -38.011    0.00     3.67
-ATOM     22    C STP    54     -54.806 -64.549 -39.516    0.00     3.48
-ATOM     23    C STP    54     -54.806 -64.548 -39.516    0.00     3.48
-ATOM     24    C STP    54     -54.840 -64.555 -39.571    0.00     3.50
-ATOM     25    C STP    54     -54.799 -64.523 -39.501    0.00     3.46
-ATOM     26    C STP    54     -54.929 -66.049 -42.021    0.00     4.13
-ATOM     27    C STP    54     -54.841 -65.668 -41.804    0.00     3.84
-ATOM     28    C STP    54     -55.471 -65.160 -40.302    0.00     4.07
-ATOM     29    C STP    54     -55.212 -64.260 -40.116    0.00     3.55
-ATOM     30    C STP    54     -55.318 -64.550 -40.206    0.00     3.72
-ATOM     31    C STP    54     -56.982 -65.778 -40.632    0.00     4.52
-ATOM     32    C STP    54     -56.821 -65.897 -40.662    0.00     4.62
+HEADER 0  - Pocket Score                      : 0.0017
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of V. Vertices             :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6320
+HEADER 4  - Mean alpha-sphere SA              : 0.3640
+HEADER 5  - Mean B-factor                     : 0.1404
+HEADER 6  - Hydrophobicity Score              : 27.1538
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.3077
+HEADER 9  - Real volume (approximation)       : 242.6891
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.1600
+ATOM      1    O STP    54     -27.234 -12.014   0.147    0.00     3.40
+ATOM      2    O STP    54     -29.160  -9.287   3.614    0.00     3.50
+ATOM      3    O STP    54     -26.799 -11.346   5.156    0.00     3.46
+ATOM      4    O STP    54     -25.532 -12.979   5.911    0.00     3.40
+ATOM      5    O STP    54     -27.345 -11.235   4.171    0.00     3.65
+ATOM      6    C STP    54     -27.167 -12.413   4.281    0.00     3.65
+ATOM      7    O STP    54     -27.452 -10.554   2.783    0.00     3.85
+ATOM      8    O STP    54     -26.830 -13.458   4.965    0.00     3.59
+ATOM      9    O STP    54     -26.581 -13.126   5.075    0.00     3.68
+ATOM     10    O STP    54     -26.621 -13.142   5.013    0.00     3.69
+ATOM     11    O STP    54     -26.739 -12.809   4.997    0.00     3.63
+ATOM     12    O STP    54     -26.810 -12.934   4.842    0.00     3.69
+ATOM     13    C STP    54     -27.574 -13.512   4.520    0.00     3.50
+ATOM     14    C STP    54     -27.526 -13.408   4.522    0.00     3.51
+ATOM     15    O STP    54     -27.050 -11.422  -0.729    0.00     3.41
+ATOM     16    O STP    54     -27.069 -11.401  -0.705    0.00     3.43
+ATOM     17    O STP    54     -27.219 -10.859  -2.125    0.00     3.51
+ATOM     18    O STP    54     -26.971 -11.174   1.751    0.00     3.67
+ATOM     19    O STP    54     -26.901 -10.069   2.694    0.00     3.49
+ATOM     20    O STP    54     -27.513 -11.603   0.440    0.00     3.73
+ATOM     21    O STP    54     -27.437 -10.663   2.551    0.00     3.86
+ATOM     22    O STP    54     -27.371 -11.114   2.097    0.00     3.89
+ATOM     23    O STP    54     -29.670 -10.567   0.026    0.00     4.10
+ATOM     24    C STP    54     -28.009 -11.535   0.847    0.00     3.93
+ATOM     25    O STP    54     -26.582 -13.271   5.248    0.00     3.57
 TER
 END

@@ -4,37 +4,39 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   158:
-HEADER 0  - Pocket Score                      : -0.1458
-HEADER 1  - Drug Score                        : 0.0003
-HEADER 2  - Number of V. Vertices             :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.8819
-HEADER 4  - Mean alpha-sphere SA              : 0.6757
-HEADER 5  - Mean B-factor                     : 0.7626
-HEADER 6  - Hydrophobicity Score              : 4.8571
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 2.1429
-HEADER 9  - Real volume (approximation)       : 221.8112
+HEADER 0  - Pocket Score                      : -0.0932
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0841
+HEADER 4  - Mean alpha-sphere SA              : 0.6742
+HEADER 5  - Mean B-factor                     : 0.0846
+HEADER 6  - Hydrophobicity Score              : 21.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 2.8571
+HEADER 9  - Real volume (approximation)       : 193.9242
 HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 1.0000
-HEADER 12 - Number of apolar alpha sphere     :     2
-HEADER 13 - Proportion of apolar alpha sphere : 0.1111
-ATOM      1    O STP   158     -37.361 -11.482 -36.023    0.00     4.53
-ATOM      2    O STP   158     -38.207 -12.956 -36.262    0.00     4.31
-ATOM      3    O STP   158     -38.011 -13.213 -36.155    0.00     4.45
-ATOM      4    O STP   158     -39.391 -13.613 -35.511    0.00     3.44
-ATOM      5    O STP   158     -39.185 -13.529 -35.828    0.00     3.70
-ATOM      6    C STP   158     -37.182 -11.107 -35.953    0.00     4.66
-ATOM      7    O STP   158     -37.344 -10.808 -36.156    0.00     4.44
-ATOM      8    O STP   158     -39.432 -13.117 -36.008    0.00     3.54
-ATOM      9    O STP   158     -39.609 -13.177 -35.952    0.00     3.46
-ATOM     10    C STP   158     -38.672 -12.274 -36.957    0.00     3.54
-ATOM     11    O STP   158     -38.520 -12.609 -36.755    0.00     3.84
-ATOM     12    O STP   158     -38.539 -12.764 -36.705    0.00     3.91
-ATOM     13    O STP   158     -39.015 -12.539 -37.022    0.00     3.40
-ATOM     14    O STP   158     -39.058 -12.679 -36.930    0.00     3.45
-ATOM     15    O STP   158     -38.959 -12.668 -36.946    0.00     3.52
-ATOM     16    O STP   158     -37.931 -13.500 -36.312    0.00     4.36
-ATOM     17    O STP   158     -37.773  -7.850 -37.363    0.00     3.85
-ATOM     18    O STP   158     -38.607  -9.066 -37.100    0.00     3.48
+HEADER 11 - Local hydrophobic density Score   : 12.0000
+HEADER 12 - Number of apolar alpha sphere     :    13
+HEADER 13 - Proportion of apolar alpha sphere : 0.6500
+ATOM      1    C STP   158     -59.367 -48.829  22.520    0.00     4.50
+ATOM      2    C STP   158     -60.831 -48.227  23.567    0.00     4.15
+ATOM      3    C STP   158     -61.358 -48.140  23.588    0.00     3.94
+ATOM      4    C STP   158     -59.630 -48.927  21.928    0.00     4.14
+ATOM      5    C STP   158     -60.079 -48.876  20.886    0.00     3.51
+ATOM      6    C STP   158     -60.116 -48.578  22.411    0.00     4.01
+ATOM      7    C STP   158     -61.163 -48.153  23.100    0.00     3.81
+ATOM      8    C STP   158     -61.310 -48.131  23.156    0.00     3.77
+ATOM      9    O STP   158     -61.310 -48.063  22.875    0.00     3.62
+ATOM     10    O STP   158     -58.918 -48.045  22.471    0.00     4.05
+ATOM     11    C STP   158     -59.177 -48.881  22.678    0.00     4.68
+ATOM     12    O STP   158     -58.740 -47.525  22.688    0.00     3.86
+ATOM     13    C STP   158     -59.122 -49.028  22.435    0.00     4.61
+ATOM     14    C STP   158     -59.509 -49.106  21.708    0.00     4.15
+ATOM     15    C STP   158     -59.738 -49.097  21.129    0.00     3.81
+ATOM     16    C STP   158     -59.929 -48.514  23.867    0.00     4.70
+ATOM     17    O STP   158     -58.797 -47.736  22.914    0.00     4.07
+ATOM     18    O STP   158     -59.585 -47.596  23.783    0.00     4.10
+ATOM     19    O STP   158     -59.589 -47.616  23.785    0.00     4.11
+ATOM     20    O STP   158     -59.583 -47.581  23.792    0.00     4.09
 TER
 END

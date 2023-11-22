@@ -1,0 +1,59 @@
+data_pocket15_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    15:
+0  - Pocket Score                      : -0.0817
+1  - Drug Score                        : 0.0051
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 3.9169
+4  - Mean alpha-sphere Solvent Acc.    : 0.6723
+5  - Mean B-factor of pocket residues  : 0.3655
+6  - Hydrophobicity Score              : 20.2500
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 3.8750
+9  - Pocket volume (Monte Carlo)       : 246.9534
+10  -Pocket volume (convex hull)       : 10.2300
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 13.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.7368
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      305    C   CB .  MET   A .   43 ?  -11.383  -1.585  -9.842  0.00  0   A
+ATOM      172    C  CG2 .  VAL   A .   27 ?   -8.930  -0.618 -12.618  0.00  0   A
+ATOM      611    C   CG .  PRO   A .   81 ?   -9.886  -3.583  -6.754  0.00  0   A
+ATOM      307    S   SD .  MET   A .   43 ?  -10.806  -3.777 -11.507  0.00  0   A
+ATOM      304    O    O .  MET   A .   43 ?  -10.949   1.210  -9.008 -1.07  0   A
+ATOM      163    C   CA .  GLY   A .   26 ?   -9.778   3.912 -10.054  0.00  0   A
+ATOM      164    C    C .  GLY   A .   26 ?   -9.797   3.601 -11.525  0.00  0   A
+ATOM      137    C  CG2 .  THR   A .   22 ?   -6.025   5.677 -13.658  0.00  0   A
+ATOM      171    C  CG1 .  VAL   A .   27 ?   -7.095   1.022 -13.059  0.00  0   A
+ATOM      326    N    N .  GLU   A .   46 ?   -7.447   1.293  -3.940  0.00  0   A
+ATOM      318    C   CA .  LYS   A .   45 ?   -8.347   2.531  -5.825  0.00  0   A
+ATOM      322    C   CG .  LYS   A .   45 ?   -6.064   3.680  -5.618  0.00  0   A
+ATOM      331    C   CG .  GLU   A .   46 ?   -6.218  -1.458  -3.327  0.00  0   A
+ATOM      321    C   CB .  LYS   A .   45 ?   -7.467   3.699  -6.280  0.00  0   A
+ATOM      610    C   CB .  PRO   A .   81 ?  -10.266  -2.519  -5.765  0.00  0   A
+ATOM      312    O    O .  ILE   A .   44 ?  -10.324   0.684  -5.427 -1.07  0   A
+ATOM      166    N    N .  VAL   A .   27 ?   -9.485   2.335 -11.826 -1.09  0   A
+# 

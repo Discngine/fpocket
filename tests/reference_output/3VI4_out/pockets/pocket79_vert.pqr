@@ -4,62 +4,50 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    79:
-HEADER 0  - Pocket Score                      : -0.0434
-HEADER 1  - Drug Score                        : 0.0049
-HEADER 2  - Number of V. Vertices             :    43
-HEADER 3  - Mean alpha-sphere radius          : 3.9059
-HEADER 4  - Mean alpha-sphere SA              : 0.5607
-HEADER 5  - Mean B-factor                     : 0.2662
-HEADER 6  - Hydrophobicity Score              : 3.6667
-HEADER 7  - Polarity Score                    :     9
-HEADER 8  - Volume Score                      : 3.7333
-HEADER 9  - Real volume (approximation)       : 495.2270
-HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 14.0000
-HEADER 12 - Number of apolar alpha sphere     :    15
-HEADER 13 - Proportion of apolar alpha sphere : 0.3488
-ATOM      1    C STP    79     -59.931 -56.628  14.758    0.00     3.97
-ATOM      2    O STP    79     -59.736 -59.064  17.025    0.00     3.62
-ATOM      3    O STP    79     -60.125 -57.703  13.846    0.00     3.48
-ATOM      4    C STP    79     -60.716 -59.320  14.159    0.00     3.52
-ATOM      5    C STP    79     -60.913 -59.297  15.314    0.00     3.80
-ATOM      6    C STP    79     -61.087 -59.597  14.973    0.00     3.68
-ATOM      7    C STP    79     -60.575 -59.484  16.236    0.00     3.80
-ATOM      8    O STP    79     -60.582 -59.480  16.232    0.00     3.80
-ATOM      9    C STP    79     -61.094 -59.947  13.532    0.00     3.54
-ATOM     10    O STP    79     -60.834 -59.616  13.677    0.00     3.48
-ATOM     11    O STP    79     -60.847 -59.594  13.701    0.00     3.50
-ATOM     12    O STP    79     -57.809 -53.945  16.296    0.00     4.20
-ATOM     13    O STP    79     -57.527 -54.079  15.637    0.00     3.84
-ATOM     14    O STP    79     -59.773 -56.485  14.893    0.00     3.98
-ATOM     15    O STP    79     -59.966 -55.739  15.897    0.00     4.45
-ATOM     16    O STP    79     -60.028 -56.199  15.488    0.00     4.30
-ATOM     17    C STP    79     -59.938 -56.464  15.107    0.00     4.13
-ATOM     18    O STP    79     -60.148 -55.918  15.990    0.00     4.56
-ATOM     19    O STP    79     -59.718 -57.661  17.730    0.00     4.51
-ATOM     20    O STP    79     -60.130 -57.178  13.628    0.00     3.44
-ATOM     21    C STP    79     -60.013 -56.765  14.255    0.00     3.71
-ATOM     22    C STP    79     -60.264 -56.662  13.894    0.00     3.42
-ATOM     23    O STP    79     -55.937 -52.949  16.851    0.00     4.18
-ATOM     24    O STP    79     -57.004 -53.903  15.526    0.00     3.62
-ATOM     25    O STP    79     -57.908 -54.029  16.066    0.00     4.12
-ATOM     26    O STP    79     -57.593 -54.093  15.632    0.00     3.86
-ATOM     27    O STP    79     -59.338 -54.958  16.172    0.00     4.37
-ATOM     28    O STP    79     -59.579 -55.301  15.906    0.00     4.32
-ATOM     29    O STP    79     -61.173 -59.981  13.407    0.00     3.48
-ATOM     30    C STP    79     -61.328 -60.285  13.654    0.00     3.57
-ATOM     31    C STP    79     -61.301 -60.144  13.804    0.00     3.58
-ATOM     32    C STP    79     -61.129 -60.001  13.502    0.00     3.55
-ATOM     33    C STP    79     -61.125 -59.990  13.511    0.00     3.55
-ATOM     34    C STP    79     -61.133 -60.007  13.507    0.00     3.55
-ATOM     35    C STP    79     -61.126 -59.992  13.513    0.00     3.55
-ATOM     36    O STP    79     -53.318 -49.083  17.637    0.00     4.10
-ATOM     37    O STP    79     -52.893 -49.586  18.296    0.00     4.56
-ATOM     38    O STP    79     -53.181 -49.565  17.479    0.00     4.34
-ATOM     39    O STP    79     -55.878 -52.751  17.303    0.00     4.50
-ATOM     40    O STP    79     -54.387 -51.512  16.734    0.00     4.41
-ATOM     41    O STP    79     -54.556 -51.095  16.522    0.00     4.11
-ATOM     42    O STP    79     -53.396 -48.894  17.546    0.00     3.93
-ATOM     43    O STP    79     -53.320 -49.308  17.132    0.00     4.00
+HEADER 0  - Pocket Score                      : -0.0253
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of V. Vertices             :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.7767
+HEADER 4  - Mean alpha-sphere SA              : 0.4700
+HEADER 5  - Mean B-factor                     : 0.1507
+HEADER 6  - Hydrophobicity Score              : 26.9000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 328.4337
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 11.2308
+HEADER 12 - Number of apolar alpha sphere     :    13
+HEADER 13 - Proportion of apolar alpha sphere : 0.4194
+ATOM      1    O STP    79     -47.161 -43.642  31.582    0.00     3.67
+ATOM      2    C STP    79     -47.718 -42.801  30.123    0.00     4.69
+ATOM      3    C STP    79     -48.127 -44.058  31.528    0.00     3.47
+ATOM      4    C STP    79     -48.104 -43.541  30.858    0.00     3.96
+ATOM      5    C STP    79     -49.327 -42.645  30.573    0.00     4.08
+ATOM      6    C STP    79     -51.015 -43.221  31.643    0.00     3.63
+ATOM      7    C STP    79     -51.032 -43.257  31.697    0.00     3.60
+ATOM      8    C STP    79     -51.119 -43.395  31.632    0.00     3.48
+ATOM      9    C STP    79     -50.977 -42.965  31.423    0.00     3.77
+ATOM     10    O STP    79     -55.225 -40.873  31.015    0.00     3.64
+ATOM     11    O STP    79     -55.121 -40.784  31.171    0.00     3.67
+ATOM     12    C STP    79     -51.201 -42.311  31.501    0.00     3.86
+ATOM     13    C STP    79     -49.355 -41.367  30.518    0.00     4.37
+ATOM     14    O STP    79     -54.067 -40.750  31.458    0.00     3.62
+ATOM     15    C STP    79     -55.062 -40.963  30.920    0.00     3.55
+ATOM     16    C STP    79     -55.409 -41.306  30.546    0.00     3.43
+ATOM     17    O STP    79     -55.295 -40.740  30.951    0.00     3.56
+ATOM     18    O STP    79     -55.265 -39.671  31.216    0.00     3.40
+ATOM     19    O STP    79     -55.382 -41.013  30.863    0.00     3.59
+ATOM     20    C STP    79     -55.489 -41.181  30.680    0.00     3.52
+ATOM     21    O STP    79     -55.538 -41.153  30.790    0.00     3.52
+ATOM     22    O STP    79     -55.074 -40.027  31.394    0.00     3.55
+ATOM     23    O STP    79     -55.071 -40.036  31.395    0.00     3.56
+ATOM     24    O STP    79     -53.695 -40.666  31.580    0.00     3.67
+ATOM     25    O STP    79     -50.805 -39.963  31.635    0.00     4.49
+ATOM     26    O STP    79     -52.074 -41.215  32.614    0.00     3.99
+ATOM     27    O STP    79     -51.869 -41.047  32.115    0.00     4.19
+ATOM     28    O STP    79     -53.406 -40.780  31.697    0.00     3.71
+ATOM     29    O STP    79     -52.072 -41.212  32.631    0.00     3.99
+ATOM     30    O STP    79     -52.069 -41.451  32.736    0.00     3.84
+ATOM     31    O STP    79     -52.076 -41.226  32.626    0.00     3.99
 TER
 END

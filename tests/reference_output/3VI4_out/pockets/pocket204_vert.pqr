@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   204:
+HEADER 0  - Pocket Score                      : -0.1425
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of V. Vertices             :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.2766
+HEADER 4  - Mean alpha-sphere SA              : 0.6573
+HEADER 5  - Mean B-factor                     : 0.2523
+HEADER 6  - Hydrophobicity Score              : -19.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.8571
+HEADER 9  - Real volume (approximation)       : 305.3800
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.4231
+ATOM      1    C STP   204      -1.539 -34.750 -47.128    0.00     4.22
+ATOM      2    O STP   204      -0.397 -36.116 -47.337    0.00     4.49
+ATOM      3    O STP   204      -0.794 -36.607 -47.081    0.00     4.02
+ATOM      4    O STP   204       1.965 -36.836 -47.317    0.00     4.25
+ATOM      5    O STP   204       1.901 -37.511 -47.370    0.00     4.01
+ATOM      6    O STP   204      -1.030 -36.967 -47.730    0.00     3.64
+ATOM      7    C STP   204       1.962 -36.836 -47.316    0.00     4.25
+ATOM      8    O STP   204       1.981 -36.157 -47.466    0.00     3.82
+ATOM      9    O STP   204       1.762 -36.941 -47.209    0.00     4.40
+ATOM     10    O STP   204       1.782 -36.908 -47.138    0.00     4.44
+ATOM     11    O STP   204       1.956 -36.839 -47.310    0.00     4.26
+ATOM     12    O STP   204       1.777 -36.927 -47.174    0.00     4.42
+ATOM     13    O STP   204       1.817 -36.080 -47.331    0.00     3.92
+ATOM     14    C STP   204      -0.890 -32.576 -48.379    0.00     4.42
+ATOM     15    O STP   204      -0.350 -36.068 -47.313    0.00     4.54
+ATOM     16    C STP   204      -0.771 -34.461 -47.202    0.00     4.68
+ATOM     17    O STP   204       1.273 -36.464 -46.762    0.00     4.64
+ATOM     18    C STP   204       1.404 -36.175 -46.937    0.00     4.35
+ATOM     19    C STP   204       1.387 -35.511 -47.257    0.00     3.87
+ATOM     20    C STP   204      -0.848 -32.941 -47.923    0.00     4.52
+ATOM     21    C STP   204       0.039 -35.893 -46.716    0.00     4.83
+ATOM     22    O STP   204      -0.318 -35.999 -47.169    0.00     4.63
+ATOM     23    C STP   204      -0.418 -35.768 -47.174    0.00     4.61
+ATOM     24    O STP   204      -0.352 -36.053 -47.287    0.00     4.56
+ATOM     25    C STP   204      -1.060 -32.540 -50.375    0.00     3.76
+ATOM     26    C STP   204      -1.065 -32.773 -50.462    0.00     3.62
+TER
+END

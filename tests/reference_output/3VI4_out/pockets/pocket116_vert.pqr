@@ -4,35 +4,38 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   116:
-HEADER 0  - Pocket Score                      : -0.0879
-HEADER 1  - Drug Score                        : 0.0003
-HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.6861
-HEADER 4  - Mean alpha-sphere SA              : 0.4135
-HEADER 5  - Mean B-factor                     : 0.5141
-HEADER 6  - Hydrophobicity Score              : -10.0000
+HEADER 0  - Pocket Score                      : -0.0600
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8827
+HEADER 4  - Mean alpha-sphere SA              : 0.5902
+HEADER 5  - Mean B-factor                     : 0.3765
+HEADER 6  - Hydrophobicity Score              : -2.3333
 HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Volume Score                      : 4.3750
-HEADER 9  - Real volume (approximation)       : 135.6601
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 4.0000
-HEADER 12 - Number of apolar alpha sphere     :     5
-HEADER 13 - Proportion of apolar alpha sphere : 0.3125
-ATOM      1    O STP   116       8.390 -43.425 -71.047    0.00     3.41
-ATOM      2    O STP   116       8.352 -43.305 -71.017    0.00     3.40
-ATOM      3    O STP   116       8.334 -41.872 -69.934    0.00     3.67
-ATOM      4    O STP   116       8.110 -41.639 -69.970    0.00     3.57
-ATOM      5    C STP   116       8.184 -41.797 -69.677    0.00     3.56
-ATOM      6    O STP   116       8.259 -41.807 -69.821    0.00     3.64
-ATOM      7    O STP   116       8.253 -41.804 -69.827    0.00     3.64
-ATOM      8    C STP   116      10.379 -43.706 -70.930    0.00     4.00
-ATOM      9    O STP   116      11.539 -43.186 -70.623    0.00     4.12
-ATOM     10    O STP   116       9.100 -43.275 -70.794    0.00     3.81
-ATOM     11    C STP   116       9.140 -43.290 -70.775    0.00     3.83
-ATOM     12    O STP   116       8.574 -42.761 -70.765    0.00     3.63
-ATOM     13    C STP   116       8.504 -42.044 -70.180    0.00     3.74
-ATOM     14    C STP   116       8.492 -42.003 -70.161    0.00     3.74
-ATOM     15    O STP   116      10.556 -42.070 -70.108    0.00     3.60
-ATOM     16    O STP   116       8.257 -41.743 -70.307    0.00     3.62
+HEADER 8  - Volume Score                      : 4.8333
+HEADER 9  - Real volume (approximation)       : 195.1483
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 5.0000
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.3158
+ATOM      1    O STP   116      27.221  38.380   9.110    0.00     3.43
+ATOM      2    C STP   116      27.480  37.648   8.720    0.00     3.86
+ATOM      3    O STP   116      27.381  38.013   8.996    0.00     3.61
+ATOM      4    O STP   116      26.613  37.069   7.162    0.00     4.47
+ATOM      5    C STP   116      27.404  37.581   8.415    0.00     3.98
+ATOM      6    C STP   116      27.499  37.526   8.439    0.00     3.97
+ATOM      7    C STP   116      27.555  37.640   8.831    0.00     3.82
+ATOM      8    O STP   116      27.612  37.708   9.004    0.00     3.73
+ATOM      9    O STP   116      27.643  37.598   9.092    0.00     3.69
+ATOM     10    O STP   116      27.881  37.956   9.475    0.00     3.42
+ATOM     11    C STP   116      27.522  36.763   7.634    0.00     4.24
+ATOM     12    C STP   116      27.605  36.971   7.933    0.00     4.12
+ATOM     13    O STP   116      27.761  36.491   7.271    0.00     4.27
+ATOM     14    O STP   116      27.966  36.616   7.463    0.00     4.11
+ATOM     15    O STP   116      28.086  36.648   7.429    0.00     4.02
+ATOM     16    O STP   116      29.756  36.763   5.745    0.00     3.53
+ATOM     17    O STP   116      31.954  36.748   4.955    0.00     3.65
+ATOM     18    O STP   116      32.396  36.983   4.972    0.00     3.61
+ATOM     19    O STP   116      27.761  36.490   7.271    0.00     4.27
 TER
 END

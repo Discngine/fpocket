@@ -4,43 +4,41 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   137:
-HEADER 0  - Pocket Score                      : -0.1125
-HEADER 1  - Drug Score                        : 0.0028
-HEADER 2  - Number of V. Vertices             :    24
-HEADER 3  - Mean alpha-sphere radius          : 4.0681
-HEADER 4  - Mean alpha-sphere SA              : 0.6529
-HEADER 5  - Mean B-factor                     : 0.4565
-HEADER 6  - Hydrophobicity Score              : 1.5556
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Volume Score                      : 3.2222
-HEADER 9  - Real volume (approximation)       : 468.4473
-HEADER 10 - Charge Score                      :    -3
+HEADER 0  - Pocket Score                      : -0.0766
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of V. Vertices             :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8752
+HEADER 4  - Mean alpha-sphere SA              : 0.5040
+HEADER 5  - Mean B-factor                     : 0.3355
+HEADER 6  - Hydrophobicity Score              : 21.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.2000
+HEADER 9  - Real volume (approximation)       : 201.9263
+HEADER 10 - Charge Score                      :     0
 HEADER 11 - Local hydrophobic density Score   : 6.0000
 HEADER 12 - Number of apolar alpha sphere     :     7
-HEADER 13 - Proportion of apolar alpha sphere : 0.2917
-ATOM      1    C STP   137     -35.151 -62.653 -23.240    0.00     4.42
-ATOM      2    O STP   137     -36.894 -64.986 -26.596    0.00     4.53
-ATOM      3    O STP   137     -36.759 -65.341 -26.623    0.00     4.68
-ATOM      4    C STP   137     -35.643 -63.921 -25.309    0.00     4.40
-ATOM      5    C STP   137     -35.091 -62.756 -23.587    0.00     4.49
-ATOM      6    C STP   137     -36.852 -62.167 -23.858    0.00     3.44
-ATOM      7    C STP   137     -35.313 -62.504 -23.405    0.00     4.36
-ATOM      8    O STP   137     -36.913 -62.074 -23.818    0.00     3.41
-ATOM      9    O STP   137     -35.231 -60.396 -19.604    0.00     4.62
-ATOM     10    O STP   137     -35.260 -61.668 -20.891    0.00     4.39
-ATOM     11    O STP   137     -37.058 -59.076 -19.294    0.00     3.65
-ATOM     12    O STP   137     -36.847 -59.313 -17.480    0.00     4.69
-ATOM     13    O STP   137     -38.016 -59.064 -18.590    0.00     3.45
-ATOM     14    C STP   137     -34.086 -62.262 -26.134    0.00     3.80
-ATOM     15    O STP   137     -35.517 -62.109 -23.037    0.00     4.15
-ATOM     16    O STP   137     -35.671 -62.145 -23.305    0.00     4.10
-ATOM     17    O STP   137     -35.351 -62.445 -23.380    0.00     4.33
-ATOM     18    O STP   137     -34.146 -62.032 -25.060    0.00     3.85
-ATOM     19    O STP   137     -35.857 -63.655 -27.562    0.00     3.99
-ATOM     20    O STP   137     -35.620 -63.638 -27.149    0.00     4.06
-ATOM     21    O STP   137     -34.216 -62.543 -26.297    0.00     3.87
-ATOM     22    O STP   137     -34.279 -62.286 -26.825    0.00     3.48
-ATOM     23    C STP   137     -34.125 -62.279 -26.212    0.00     3.77
-ATOM     24    O STP   137     -34.117 -62.158 -26.189    0.00     3.70
+HEADER 13 - Proportion of apolar alpha sphere : 0.3182
+ATOM      1    O STP   137     -40.397 -75.250  42.954    0.00     3.47
+ATOM      2    O STP   137     -42.386 -74.322  46.012    0.00     4.46
+ATOM      3    O STP   137     -40.596 -75.053  42.962    0.00     3.50
+ATOM      4    C STP   137     -40.966 -73.841  43.374    0.00     3.66
+ATOM      5    O STP   137     -41.039 -74.235  43.655    0.00     3.97
+ATOM      6    O STP   137     -42.330 -74.412  46.180    0.00     4.50
+ATOM      7    C STP   137     -42.437 -74.260  46.022    0.00     4.42
+ATOM      8    C STP   137     -42.689 -73.878  43.102    0.00     3.94
+ATOM      9    C STP   137     -42.612 -73.850  46.046    0.00     4.12
+ATOM     10    O STP   137     -43.220 -73.971  44.471    0.00     4.06
+ATOM     11    O STP   137     -42.976 -73.867  43.388    0.00     3.96
+ATOM     12    O STP   137     -43.129 -73.489  42.452    0.00     3.69
+ATOM     13    O STP   137     -43.908 -74.506  43.999    0.00     3.59
+ATOM     14    O STP   137     -43.988 -74.592  43.604    0.00     3.48
+ATOM     15    O STP   137     -43.235 -74.097  42.805    0.00     3.78
+ATOM     16    O STP   137     -43.341 -73.769  42.277    0.00     3.61
+ATOM     17    O STP   137     -43.199 -73.707  42.407    0.00     3.69
+ATOM     18    O STP   137     -42.940 -73.871  42.963    0.00     3.96
+ATOM     19    O STP   137     -42.941 -73.871  42.962    0.00     3.96
+ATOM     20    C STP   137     -43.240 -73.577  45.449    0.00     3.90
+ATOM     21    C STP   137     -43.401 -73.681  44.704    0.00     3.91
+ATOM     22    C STP   137     -43.367 -73.098  45.568    0.00     3.62
 TER
 END

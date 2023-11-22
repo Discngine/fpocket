@@ -4,35 +4,34 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    24:
-HEADER 0  - Pocket Score                      : 0.0479
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.8297
-HEADER 4  - Mean alpha-sphere SA              : 0.6440
-HEADER 5  - Mean B-factor                     : 0.2567
-HEADER 6  - Hydrophobicity Score              : 10.8333
+HEADER 0  - Pocket Score                      : 0.0528
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9567
+HEADER 4  - Mean alpha-sphere SA              : 0.5132
+HEADER 5  - Mean B-factor                     : 0.0547
+HEADER 6  - Hydrophobicity Score              : 29.3750
 HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 3.8333
-HEADER 9  - Real volume (approximation)       : 215.5369
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 7.0000
-HEADER 12 - Number of apolar alpha sphere     :     8
-HEADER 13 - Proportion of apolar alpha sphere : 0.5000
-ATOM      1    C STP    24     -15.748   3.743 -13.679    0.00     3.75
-ATOM      2    O STP    24     -17.480   2.562 -14.526    0.00     4.42
-ATOM      3    O STP    24     -15.876  -0.489 -14.297    0.00     3.41
-ATOM      4    C STP    24     -15.741   3.745 -13.696    0.00     3.76
-ATOM      5    O STP    24     -14.972   0.850 -15.945    0.00     3.74
-ATOM      6    C STP    24     -15.743   3.742 -13.705    0.00     3.77
-ATOM      7    O STP    24     -15.530   1.141 -15.748    0.00     4.24
-ATOM      8    O STP    24     -15.663   1.127 -15.794    0.00     4.33
-ATOM      9    O STP    24     -15.872  -0.456 -14.313    0.00     3.42
-ATOM     10    C STP    24     -16.790   1.836 -14.679    0.00     4.07
-ATOM     11    C STP    24     -15.671   3.833 -13.718    0.00     3.77
-ATOM     12    O STP    24     -15.291   4.322 -14.419    0.00     4.21
-ATOM     13    O STP    24     -15.122   4.744 -13.888    0.00     3.87
-ATOM     14    C STP    24     -15.288   4.585 -13.351    0.00     3.51
-ATOM     15    C STP    24     -15.169   4.731 -13.212    0.00     3.42
-ATOM     16    C STP    24     -15.211   4.693 -13.460    0.00     3.59
+HEADER 8  - Volume Score                      : 4.3750
+HEADER 9  - Real volume (approximation)       : 168.7152
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1333
+ATOM      1    O STP    24     -21.174 -59.030 -45.571    0.00     3.77
+ATOM      2    O STP    24     -23.608 -56.297 -42.463    0.00     3.40
+ATOM      3    O STP    24     -22.323 -56.527 -44.795    0.00     3.65
+ATOM      4    O STP    24     -22.261 -58.505 -45.096    0.00     3.63
+ATOM      5    O STP    24     -22.030 -58.333 -45.041    0.00     3.82
+ATOM      6    O STP    24     -21.669 -57.632 -44.112    0.00     4.38
+ATOM      7    O STP    24     -23.439 -56.697 -43.169    0.00     3.64
+ATOM      8    O STP    24     -23.435 -56.693 -43.170    0.00     3.64
+ATOM      9    O STP    24     -22.445 -57.991 -43.865    0.00     3.85
+ATOM     10    O STP    24     -21.718 -57.631 -44.051    0.00     4.36
+ATOM     11    O STP    24     -20.483 -58.424 -44.645    0.00     4.28
+ATOM     12    O STP    24     -21.100 -57.713 -44.021    0.00     4.50
+ATOM     13    C STP    24     -21.136 -58.202 -42.815    0.00     3.54
+ATOM     14    C STP    24     -21.162 -57.695 -43.847    0.00     4.43
+ATOM     15    O STP    24     -21.198 -57.712 -43.902    0.00     4.46
 TER
 END

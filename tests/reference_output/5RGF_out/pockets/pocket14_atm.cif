@@ -11,11 +11,11 @@ Information about the pocket    14:
 2  - Number of alpha spheres           :   140
 3  - Mean alpha-sphere radius          : 3.8892
 4  - Mean alpha-sphere Solvent Acc.    : 0.5544
-5  - Mean B-factor of pocket residues  : 0.1240
+5  - Mean B-factor of pocket residues  : 0.1043
 6  - Hydrophobicity Score              : 2.3684
 7  - Polarity Score                    :    12
 8  - Amino Acid based volume Score     : 3.2632
-9  - Pocket volume (Monte Carlo)       : 1478.7145
+9  - Pocket volume (Monte Carlo)       : 1455.5598
 10  -Pocket volume (convex hull)       : 885.2502
 11 - Charge Score                      :    -4
 12 - Local hydrophobic density Score   : 22.1111

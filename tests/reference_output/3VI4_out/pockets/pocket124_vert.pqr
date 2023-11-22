@@ -4,51 +4,61 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   124:
-HEADER 0  - Pocket Score                      : -0.0992
-HEADER 1  - Drug Score                        : 0.0045
-HEADER 2  - Number of V. Vertices             :    32
-HEADER 3  - Mean alpha-sphere radius          : 3.9315
-HEADER 4  - Mean alpha-sphere SA              : 0.4508
-HEADER 5  - Mean B-factor                     : 0.3107
-HEADER 6  - Hydrophobicity Score              : 18.6667
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Volume Score                      : 4.2222
-HEADER 9  - Real volume (approximation)       : 391.5060
+HEADER 0  - Pocket Score                      : -0.0653
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of V. Vertices             :    42
+HEADER 3  - Mean alpha-sphere radius          : 3.8077
+HEADER 4  - Mean alpha-sphere SA              : 0.4962
+HEADER 5  - Mean B-factor                     : 0.4141
+HEADER 6  - Hydrophobicity Score              : 26.3846
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.8462
+HEADER 9  - Real volume (approximation)       : 517.4641
 HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 12.0000
-HEADER 12 - Number of apolar alpha sphere     :    13
-HEADER 13 - Proportion of apolar alpha sphere : 0.4062
-ATOM      1    O STP   124      17.190 -44.168-104.353    0.00     3.91
-ATOM      2    O STP   124      16.588 -43.148-103.437    0.00     3.41
-ATOM      3    C STP   124      17.278 -37.630 -97.939    0.00     3.57
-ATOM      4    O STP   124      19.379 -41.105-103.522    0.00     3.83
-ATOM      5    C STP   124      16.924 -41.150-102.326    0.00     3.48
-ATOM      6    O STP   124      17.064 -43.159-103.277    0.00     3.61
-ATOM      7    O STP   124      16.884 -42.929-103.087    0.00     3.55
-ATOM      8    O STP   124      20.016 -39.968-103.339    0.00     4.48
-ATOM      9    O STP   124      17.204 -44.274-104.452    0.00     3.96
-ATOM     10    O STP   124      17.321 -44.368-104.667    0.00     4.03
-ATOM     11    O STP   124      17.330 -45.025-104.381    0.00     3.87
-ATOM     12    O STP   124      16.924 -45.647-104.128    0.00     3.43
-ATOM     13    C STP   124      18.949 -38.269 -99.352    0.00     3.82
-ATOM     14    C STP   124      18.679 -38.017 -99.475    0.00     3.99
-ATOM     15    O STP   124      19.964 -39.958-103.309    0.00     4.46
-ATOM     16    O STP   124      18.729 -39.476-102.258    0.00     4.09
-ATOM     17    O STP   124      17.226 -40.692-102.274    0.00     3.56
-ATOM     18    O STP   124      17.868 -39.816-102.011    0.00     3.83
-ATOM     19    O STP   124      17.664 -40.019-102.041    0.00     3.75
-ATOM     20    O STP   124      18.063 -39.194-101.827    0.00     4.06
-ATOM     21    O STP   124      18.026 -39.177-101.813    0.00     4.06
-ATOM     22    C STP   124      16.605 -37.974 -98.582    0.00     3.50
-ATOM     23    C STP   124      17.274 -37.589 -98.153    0.00     3.65
-ATOM     24    C STP   124      17.460 -38.079 -99.504    0.00     3.75
-ATOM     25    C STP   124      18.330 -37.833 -99.572    0.00     4.09
-ATOM     26    C STP   124      16.689 -37.683-101.659    0.00     3.52
-ATOM     27    C STP   124      18.522 -37.816 -99.813    0.00     4.21
-ATOM     28    C STP   124      18.181 -38.103-100.927    0.00     4.32
-ATOM     29    O STP   124      18.836 -37.845-100.755    0.00     4.55
-ATOM     30    C STP   124      18.738 -37.864-100.481    0.00     4.44
-ATOM     31    C STP   124      18.632 -37.948-100.801    0.00     4.48
-ATOM     32    O STP   124      17.724 -44.890-106.178    0.00     4.54
+HEADER 11 - Local hydrophobic density Score   : 7.4000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.2381
+ATOM      1    O STP   124      29.138  53.550  23.615    0.00     4.70
+ATOM      2    C STP   124      27.708  54.069  13.912    0.00     4.33
+ATOM      3    O STP   124      27.224  54.299  13.732    0.00     4.67
+ATOM      4    O STP   124      29.545  54.711  22.049    0.00     4.52
+ATOM      5    O STP   124      30.181  54.154  21.956    0.00     4.21
+ATOM      6    O STP   124      29.223  53.711  23.255    0.00     4.63
+ATOM      7    O STP   124      29.066  53.428  23.417    0.00     4.60
+ATOM      8    O STP   124      34.384  52.113  19.447    0.00     3.60
+ATOM      9    O STP   124      33.475  52.662  19.005    0.00     3.79
+ATOM     10    O STP   124      33.895  52.659  19.271    0.00     3.75
+ATOM     11    O STP   124      29.222  52.322  23.854    0.00     4.06
+ATOM     12    C STP   124      29.402  54.973  21.107    0.00     4.27
+ATOM     13    O STP   124      31.572  54.496  17.324    0.00     3.83
+ATOM     14    O STP   124      32.446  52.852  18.982    0.00     3.73
+ATOM     15    O STP   124      31.100  53.542  20.463    0.00     3.55
+ATOM     16    O STP   124      31.125  54.945  16.578    0.00     4.11
+ATOM     17    C STP   124      29.805  53.651  15.187    0.00     3.61
+ATOM     18    C STP   124      29.972  53.687  15.288    0.00     3.59
+ATOM     19    O STP   124      34.196  53.086  18.998    0.00     3.49
+ATOM     20    O STP   124      32.855  54.064  17.567    0.00     3.47
+ATOM     21    O STP   124      33.459  53.187  18.427    0.00     3.55
+ATOM     22    O STP   124      32.472  54.842  16.055    0.00     3.67
+ATOM     23    C STP   124      28.536  52.924  23.016    0.00     4.00
+ATOM     24    O STP   124      28.801  53.308  14.472    0.00     3.50
+ATOM     25    O STP   124      28.681  53.510  14.336    0.00     3.70
+ATOM     26    C STP   124      29.046  53.629  14.576    0.00     3.68
+ATOM     27    C STP   124      29.632  53.606  15.014    0.00     3.60
+ATOM     28    C STP   124      29.484  53.540  14.604    0.00     3.45
+ATOM     29    C STP   124      29.891  53.433  15.245    0.00     3.48
+ATOM     30    O STP   124      29.896  53.428  15.249    0.00     3.48
+ATOM     31    C STP   124      29.877  53.491  15.221    0.00     3.53
+ATOM     32    O STP   124      29.893  53.482  15.230    0.00     3.52
+ATOM     33    O STP   124      34.446  51.069  19.231    0.00     3.47
+ATOM     34    O STP   124      33.861  50.960  18.833    0.00     3.47
+ATOM     35    O STP   124      28.975  51.870  23.180    0.00     3.80
+ATOM     36    O STP   124      29.016  51.878  23.291    0.00     3.80
+ATOM     37    O STP   124      29.006  51.374  23.017    0.00     3.57
+ATOM     38    O STP   124      29.018  51.354  23.038    0.00     3.56
+ATOM     39    O STP   124      33.750  50.851  18.816    0.00     3.42
+ATOM     40    O STP   124      30.189  52.974  24.323    0.00     4.05
+ATOM     41    O STP   124      30.969  53.306  25.761    0.00     3.52
+ATOM     42    O STP   124      29.794  51.356  24.341    0.00     3.59
 TER
 END

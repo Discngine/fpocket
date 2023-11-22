@@ -423,7 +423,7 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
             /*fprintf(stdout,":%s:",desc->ligTag);*/
             desc->hydrophobicity_score = desc->hydrophobicity_score/ (float) nb_res_ids ;
             desc->volume_score = desc->volume_score / (float) nb_res_ids ;
-
+			
             desc->flex /= natoms ;
             desc->prop_polar_atm = ((float) nb_polar_atm) / ((float) natoms) * 100.0 ;
         }

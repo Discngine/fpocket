@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   205:
+HEADER 0  - Pocket Score                      : -0.1426
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8495
+HEADER 4  - Mean alpha-sphere SA              : 0.5513
+HEADER 5  - Mean B-factor                     : 0.7790
+HEADER 6  - Hydrophobicity Score              : -11.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 2.6667
+HEADER 9  - Real volume (approximation)       : 418.5543
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0526
+ATOM      1    O STP   205      47.777  41.753 -19.940    0.00     4.14
+ATOM      2    O STP   205      44.747  41.687 -18.985    0.00     3.95
+ATOM      3    C STP   205      46.412  42.089 -19.655    0.00     4.01
+ATOM      4    O STP   205      48.807  39.709 -19.447    0.00     3.84
+ATOM      5    O STP   205      49.520  40.925 -20.723    0.00     4.68
+ATOM      6    O STP   205      46.927  43.464 -17.883    0.00     3.54
+ATOM      7    O STP   205      47.577  45.111 -16.303    0.00     3.98
+ATOM      8    O STP   205      49.677  37.989 -18.372    0.00     4.22
+ATOM      9    O STP   205      44.280  40.921 -18.538    0.00     3.78
+ATOM     10    O STP   205      48.173  38.836 -18.907    0.00     3.42
+ATOM     11    O STP   205      48.196  38.040 -18.411    0.00     3.51
+ATOM     12    O STP   205      44.263  40.921 -18.539    0.00     3.78
+ATOM     13    O STP   205      43.476  40.778 -17.701    0.00     3.42
+ATOM     14    O STP   205      43.531  40.761 -17.732    0.00     3.42
+ATOM     15    O STP   205      43.515  40.752 -17.714    0.00     3.41
+ATOM     16    O STP   205      41.492  41.871 -17.052    0.00     4.19
+ATOM     17    O STP   205      44.175  41.457 -18.879    0.00     3.99
+ATOM     18    O STP   205      44.081  41.368 -18.829    0.00     3.98
+ATOM     19    O STP   205      44.011  41.302 -18.971    0.00     3.88
+TER
+END

@@ -4,36 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   165:
-HEADER 0  - Pocket Score                      : -0.1589
+HEADER 0  - Pocket Score                      : -0.1005
 HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    17
-HEADER 3  - Mean alpha-sphere radius          : 4.2187
-HEADER 4  - Mean alpha-sphere SA              : 0.6808
-HEADER 5  - Mean B-factor                     : 0.4029
-HEADER 6  - Hydrophobicity Score              : 12.5000
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Volume Score                      : 4.7000
-HEADER 9  - Real volume (approximation)       : 265.8251
-HEADER 10 - Charge Score                      :     2
-HEADER 11 - Local hydrophobic density Score   : 0.0000
-HEADER 12 - Number of apolar alpha sphere     :     0
-HEADER 13 - Proportion of apolar alpha sphere : 0.0000
-ATOM      1    O STP   165     -19.453 -47.198 -66.985    0.00     3.76
-ATOM      2    O STP   165     -19.442 -46.570 -66.907    0.00     4.08
-ATOM      3    O STP   165     -16.253 -44.892 -67.555    0.00     4.30
-ATOM      4    O STP   165     -19.914 -46.140 -66.590    0.00     4.26
-ATOM      5    O STP   165     -19.499 -44.756 -64.979    0.00     4.69
-ATOM      6    O STP   165     -19.500 -44.759 -64.978    0.00     4.69
-ATOM      7    O STP   165     -19.534 -44.818 -64.992    0.00     4.64
-ATOM      8    O STP   165     -20.505 -47.390 -66.432    0.00     3.56
-ATOM      9    O STP   165     -20.245 -46.603 -66.470    0.00     3.96
-ATOM     10    O STP   165     -19.734 -44.876 -64.903    0.00     4.44
-ATOM     11    O STP   165     -17.817 -45.998 -66.338    0.00     4.19
-ATOM     12    O STP   165     -19.328 -45.113 -64.167    0.00     4.20
-ATOM     13    O STP   165     -16.909 -45.071 -66.835    0.00     4.46
-ATOM     14    O STP   165     -17.062 -46.331 -64.268    0.00     3.45
-ATOM     15    O STP   165     -17.842 -45.459 -66.282    0.00     4.59
-ATOM     16    O STP   165     -17.792 -45.775 -66.304    0.00     4.36
-ATOM     17    O STP   165     -17.581 -45.974 -66.423    0.00     4.11
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9873
+HEADER 4  - Mean alpha-sphere SA              : 0.6359
+HEADER 5  - Mean B-factor                     : 0.1794
+HEADER 6  - Hydrophobicity Score              : -7.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.6000
+HEADER 9  - Real volume (approximation)       : 186.8195
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.2500
+ATOM      1    O STP   165       4.727 -18.950 -63.822    0.00     3.88
+ATOM      2    O STP   165       4.883 -18.029 -65.300    0.00     4.24
+ATOM      3    C STP   165       5.229 -19.033 -64.919    0.00     3.43
+ATOM      4    O STP   165       5.113 -19.024 -64.329    0.00     3.63
+ATOM      5    C STP   165       4.967 -19.297 -63.733    0.00     3.68
+ATOM      6    O STP   165       5.086 -19.553 -63.469    0.00     3.60
+ATOM      7    O STP   165       5.080 -19.545 -63.475    0.00     3.60
+ATOM      8    O STP   165       5.082 -19.550 -63.472    0.00     3.60
+ATOM      9    O STP   165       3.592 -18.003 -64.418    0.00     4.50
+ATOM     10    O STP   165       4.965 -17.706 -65.634    0.00     4.40
+ATOM     11    C STP   165       4.562 -17.668 -66.125    0.00     4.53
+ATOM     12    C STP   165       4.741 -17.698 -65.522    0.00     4.53
+ATOM     13    O STP   165       5.163 -17.687 -66.533    0.00     4.23
+ATOM     14    O STP   165       5.416 -17.714 -66.120    0.00     4.15
+ATOM     15    O STP   165       5.748 -17.601 -65.831    0.00     3.94
+ATOM     16    O STP   165       5.859 -17.536 -65.785    0.00     3.85
 TER
 END

@@ -1,0 +1,79 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   240:
+HEADER 0  - Pocket Score                      : -0.3194
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of V. Vertices             :    57
+HEADER 3  - Mean alpha-sphere radius          : 3.7327
+HEADER 4  - Mean alpha-sphere SA              : 0.4354
+HEADER 5  - Mean B-factor                     : 0.4309
+HEADER 6  - Hydrophobicity Score              : 8.2308
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Volume Score                      : 3.0769
+HEADER 9  - Real volume (approximation)       : 517.8704
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 10.2222
+HEADER 12 - Number of apolar alpha sphere     :    18
+HEADER 13 - Proportion of apolar alpha sphere : 0.3158
+ATOM      1    O STP   240     -14.575 -25.639 -72.033    0.00     3.76
+ATOM      2    O STP   240     -16.130 -27.373 -74.379    0.00     3.85
+ATOM      3    O STP   240     -15.822 -26.565 -73.580    0.00     3.57
+ATOM      4    C STP   240     -15.720 -26.212 -73.090    0.00     3.46
+ATOM      5    O STP   240     -17.814 -26.664 -74.829    0.00     3.50
+ATOM      6    O STP   240     -17.701 -26.624 -74.564    0.00     3.50
+ATOM      7    O STP   240     -16.301 -27.757 -77.982    0.00     4.50
+ATOM      8    O STP   240     -15.406 -28.202 -77.561    0.00     4.77
+ATOM      9    O STP   240     -15.248 -23.550 -79.321    0.00     3.59
+ATOM     10    O STP   240     -14.319 -26.456 -78.345    0.00     4.04
+ATOM     11    C STP   240     -17.850 -26.596 -74.858    0.00     3.45
+ATOM     12    C STP   240     -17.885 -26.551 -74.873    0.00     3.41
+ATOM     13    C STP   240     -17.855 -26.599 -74.890    0.00     3.45
+ATOM     14    O STP   240     -17.206 -27.324 -77.060    0.00     3.89
+ATOM     15    C STP   240     -18.265 -27.094 -76.116    0.00     3.47
+ATOM     16    O STP   240     -17.589 -27.153 -75.832    0.00     3.68
+ATOM     17    C STP   240     -18.063 -27.090 -75.813    0.00     3.54
+ATOM     18    O STP   240     -17.827 -26.721 -75.002    0.00     3.51
+ATOM     19    O STP   240     -15.664 -22.318 -80.855    0.00     3.89
+ATOM     20    O STP   240     -15.767 -22.745 -80.568    0.00     3.80
+ATOM     21    O STP   240     -17.674 -22.807 -81.922    0.00     3.59
+ATOM     22    O STP   240     -16.327 -27.736 -77.998    0.00     4.49
+ATOM     23    O STP   240     -17.142 -27.329 -77.259    0.00     3.95
+ATOM     24    C STP   240     -16.388 -23.774 -80.548    0.00     3.49
+ATOM     25    O STP   240     -17.984 -23.519 -82.038    0.00     3.49
+ATOM     26    O STP   240     -15.693 -24.882 -79.416    0.00     3.76
+ATOM     27    O STP   240     -15.678 -25.080 -79.380    0.00     3.79
+ATOM     28    O STP   240     -15.832 -24.554 -79.805    0.00     3.67
+ATOM     29    O STP   240     -15.798 -24.891 -79.719    0.00     3.69
+ATOM     30    O STP   240     -17.343 -23.582 -81.663    0.00     3.50
+ATOM     31    O STP   240     -13.694 -20.805 -80.283    0.00     4.11
+ATOM     32    O STP   240     -15.628 -22.266 -80.867    0.00     3.89
+ATOM     33    O STP   240     -14.396 -21.119 -82.525    0.00     3.42
+ATOM     34    O STP   240     -18.630 -24.688 -82.560    0.00     3.58
+ATOM     35    O STP   240     -14.289 -18.748 -79.069    0.00     3.55
+ATOM     36    O STP   240     -14.192 -18.571 -78.723    0.00     3.58
+ATOM     37    O STP   240     -15.617 -22.203 -80.897    0.00     3.90
+ATOM     38    O STP   240     -15.950 -22.195 -81.700    0.00     3.63
+ATOM     39    O STP   240     -17.343 -22.373 -81.770    0.00     3.74
+ATOM     40    C STP   240     -17.354 -21.954 -81.154    0.00     3.44
+ATOM     41    O STP   240     -17.487 -22.330 -81.895    0.00     3.72
+ATOM     42    O STP   240     -17.656 -21.967 -82.633    0.00     3.44
+ATOM     43    O STP   240     -17.739 -22.036 -81.788    0.00     3.49
+ATOM     44    O STP   240     -15.726 -22.260 -80.918    0.00     3.91
+ATOM     45    C STP   240     -13.730 -20.784 -80.323    0.00     4.11
+ATOM     46    C STP   240     -14.475 -21.116 -82.637    0.00     3.42
+ATOM     47    C STP   240     -14.408 -21.108 -82.515    0.00     3.44
+ATOM     48    C STP   240     -17.010 -22.041 -81.002    0.00     3.53
+ATOM     49    C STP   240     -16.069 -22.365 -80.952    0.00     3.92
+ATOM     50    C STP   240     -16.504 -22.008 -80.767    0.00     3.58
+ATOM     51    O STP   240     -13.225 -20.226 -80.088    0.00     4.37
+ATOM     52    C STP   240     -14.156 -20.886 -82.244    0.00     3.45
+ATOM     53    C STP   240     -14.321 -21.051 -82.402    0.00     3.45
+ATOM     54    C STP   240     -16.521 -22.462 -81.228    0.00     3.88
+ATOM     55    C STP   240     -16.652 -22.481 -81.363    0.00     3.87
+ATOM     56    O STP   240     -13.900 -19.345 -79.650    0.00     3.84
+ATOM     57    O STP   240     -13.117 -19.989 -79.983    0.00     4.43
+TER
+END

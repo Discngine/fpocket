@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket   108:
-0  - Pocket Score                      : -0.0771
-1  - Drug Score                        : 0.0022
-2  - Number of alpha spheres           :    15
-3  - Mean alpha-sphere radius          : 4.0441
-4  - Mean alpha-sphere Solvent Acc.    : 0.5266
-5  - Mean B-factor of pocket residues  : 0.3886
-6  - Hydrophobicity Score              : 9.5000
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 193.7274
-10  -Pocket volume (convex hull)       : 1.7771
-11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 10.0000
-13 - Number of apolar alpha sphere     :    11
-14 - Proportion of apolar alpha sphere : 0.7333
+0  - Pocket Score                      : -0.0537
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.7796
+4  - Mean alpha-sphere Solvent Acc.    : 0.4323
+5  - Mean B-factor of pocket residues  : 0.3888
+6  - Hydrophobicity Score              : -20.7143
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.1429
+9  - Pocket volume (Monte Carlo)       : 184.0723
+10  -Pocket volume (convex hull)       : 3.7328
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 4.0000
+13 - Number of apolar alpha sphere     :     5
+14 - Proportion of apolar alpha sphere : 0.2273
 # 
 loop_
 _atom_site.group_PDB
@@ -39,16 +39,21 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     2587    C  CG2 .  THR   A .  341 ?   -0.947  13.730  -9.409  0.00  0   A
-ATOM     2121    O  OE2 .  GLU   A .  279 ?   -0.203   9.615 -12.714 -2.14  0   A
-ATOM     2564    C   CG .  PRO   A .  338 ?   -5.012  14.237 -10.128  0.00  0   A
-ATOM     2120    O  OE1 .  GLU   A .  279 ?   -0.109   9.681 -14.918 -0.54  0   A
-ATOM     2462    C  CE1 .  TYR   A .  325 ?   -2.153   9.961 -10.066  0.00  0   A
-ATOM     2565    C   CD .  PRO   A .  338 ?   -6.145  14.408 -11.102  0.00  0   A
-ATOM     2117    C   CB .  GLU   A .  279 ?   -2.777   8.323 -14.673  0.00  0   A
-ATOM     2106    O    O .  SER   A .  277 ?   -7.987   8.216 -12.374  0.00  0   A
-ATOM     2113    N    N .  GLU   A .  279 ?   -4.341   6.617 -13.728  0.00  0   A
-ATOM     2460    C  CD1 .  TYR   A .  325 ?   -2.863  10.729  -9.157  0.00  0   A
-ATOM     2119    C   CD .  GLU   A .  279 ?   -0.540   9.190 -13.844  0.00  0   A
-ATOM     2484    O   OH .  TYR   A .  327 ?   -7.395  10.919  -9.302 -1.07  0   A
+ATOM     3832    C   CB .  GLN   A .  510 ?   34.493  33.851   9.977  0.00  0   A
+ATOM     3831    O    O .  GLN   A .  510 ?   37.022  32.306  10.445 -2.95  0   A
+ATOM     3845    N   NZ .  LYS   A .  511 ?   41.159  35.264   9.984  0.00  0   A
+ATOM     3842    C   CG .  LYS   A .  511 ?   39.464  35.287  12.739  0.00  0   A
+ATOM     3835    O  OE1 .  GLN   A .  510 ?   33.667  34.452   7.209  0.00  0   A
+ATOM     4250    C   CB .  SER   A .  561 ?   39.179  39.889   7.905  0.00  0   A
+ATOM     4255    O    O .  PRO   A .  562 ?   35.837  39.989  10.736 -2.14  0   A
+ATOM     4251    O   OG .  SER   A .  561 ?   39.725  39.599   9.175 -1.07  0   A
+ATOM     3900    N  NH2 .  ARG   A .  518 ?   38.582  39.417  12.487 -1.09  0   A
+ATOM     4274    C  CD2 .  HIS   A .  564 ?   33.470  37.428   9.665  0.00  0   A
+ATOM     3837    N    N .  LYS   A .  511 ?   36.885  33.222  12.502  0.00  0   A
+ATOM     3812    O  OD1 .  ASP   A .  508 ?   36.722  38.608  14.737 -2.14  0   A
+ATOM     3828    N    N .  GLN   A .  510 ?   34.195  33.501  12.418  0.00  0   A
+ATOM     4267    N    N .  HIS   A .  564 ?   33.226  38.922  12.922  0.00  0   A
+ATOM     3830    C    C .  GLN   A .  510 ?   36.357  32.813  11.350  0.00  0   A
+ATOM     4276    N  NE2 .  HIS   A .  564 ?   33.101  37.788   8.419 -3.70  0   A
+ATOM     4258    C   CD .  PRO   A .  562 ?   35.887  41.138   7.427  0.00  0   A
 # 

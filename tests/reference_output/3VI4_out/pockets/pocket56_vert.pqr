@@ -4,56 +4,74 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    56:
-HEADER 0  - Pocket Score                      : -0.0141
-HEADER 1  - Drug Score                        : 0.0321
-HEADER 2  - Number of V. Vertices             :    37
-HEADER 3  - Mean alpha-sphere radius          : 3.7705
-HEADER 4  - Mean alpha-sphere SA              : 0.4292
-HEADER 5  - Mean B-factor                     : 0.4642
-HEADER 6  - Hydrophobicity Score              : 21.1000
-HEADER 7  - Polarity Score                    :     8
-HEADER 8  - Volume Score                      : 4.9000
-HEADER 9  - Real volume (approximation)       : 367.5425
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 23.0000
-HEADER 12 - Number of apolar alpha sphere     :    24
-HEADER 13 - Proportion of apolar alpha sphere : 0.6486
-ATOM      1    O STP    56      10.637 -33.165 -75.916    0.00     4.22
-ATOM      2    O STP    56      10.485 -33.289 -75.880    0.00     4.15
-ATOM      3    O STP    56      10.460 -33.242 -75.912    0.00     4.14
-ATOM      4    C STP    56       8.106 -39.317 -77.877    0.00     3.56
-ATOM      5    C STP    56       8.285 -38.995 -77.746    0.00     3.67
-ATOM      6    C STP    56       8.199 -39.189 -77.957    0.00     3.67
-ATOM      7    C STP    56       8.387 -38.681 -77.456    0.00     3.69
-ATOM      8    C STP    56       7.413 -38.618 -78.757    0.00     3.41
-ATOM      9    C STP    56       7.439 -38.651 -78.737    0.00     3.42
-ATOM     10    C STP    56       7.723 -37.431 -77.759    0.00     3.49
-ATOM     11    C STP    56       7.654 -37.422 -77.850    0.00     3.47
-ATOM     12    C STP    56       7.708 -37.414 -77.759    0.00     3.49
-ATOM     13    O STP    56       7.637 -37.389 -77.830    0.00     3.47
-ATOM     14    O STP    56      10.453 -34.177 -75.754    0.00     4.03
-ATOM     15    O STP    56       9.637 -40.135 -78.782    0.00     3.44
-ATOM     16    O STP    56       9.772 -40.122 -78.739    0.00     3.43
-ATOM     17    C STP    56       8.976 -40.037 -78.746    0.00     3.50
-ATOM     18    C STP    56       8.972 -40.033 -78.739    0.00     3.50
-ATOM     19    O STP    56      13.045 -41.377 -78.049    0.00     3.51
-ATOM     20    O STP    56      11.933 -40.300 -78.764    0.00     3.61
-ATOM     21    O STP    56      10.446 -40.100 -78.775    0.00     3.42
-ATOM     22    O STP    56       9.854 -40.116 -78.723    0.00     3.43
-ATOM     23    C STP    56      13.074 -37.102 -77.038    0.00     4.52
-ATOM     24    O STP    56      12.582 -37.916 -77.113    0.00     4.23
-ATOM     25    C STP    56       9.140 -37.300 -76.760    0.00     3.73
-ATOM     26    C STP    56      13.034 -37.096 -77.040    0.00     4.51
-ATOM     27    C STP    56       9.097 -36.911 -76.545    0.00     3.65
-ATOM     28    O STP    56       9.845 -35.679 -76.061    0.00     3.63
-ATOM     29    C STP    56      10.473 -36.816 -76.801    0.00     3.62
-ATOM     30    C STP    56      12.152 -35.412 -76.433    0.00     4.32
-ATOM     31    C STP    56      12.945 -37.018 -77.023    0.00     4.46
-ATOM     32    C STP    56      12.807 -35.379 -76.463    0.00     4.64
-ATOM     33    C STP    56       8.570 -38.586 -77.316    0.00     3.69
-ATOM     34    C STP    56       9.134 -37.903 -76.840    0.00     3.73
-ATOM     35    C STP    56       9.330 -38.061 -76.876    0.00     3.69
-ATOM     36    C STP    56       8.662 -38.618 -77.312    0.00     3.67
-ATOM     37    C STP    56       8.759 -38.597 -77.279    0.00     3.66
+HEADER 0  - Pocket Score                      : -0.0016
+HEADER 1  - Drug Score                        : 0.0354
+HEADER 2  - Number of V. Vertices             :    55
+HEADER 3  - Mean alpha-sphere radius          : 3.7517
+HEADER 4  - Mean alpha-sphere SA              : 0.3688
+HEADER 5  - Mean B-factor                     : 0.0883
+HEADER 6  - Hydrophobicity Score              : 37.1818
+HEADER 7  - Polarity Score                    :    13
+HEADER 8  - Volume Score                      : 4.8636
+HEADER 9  - Real volume (approximation)       : 452.8407
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 11.3913
+HEADER 12 - Number of apolar alpha sphere     :    23
+HEADER 13 - Proportion of apolar alpha sphere : 0.4182
+ATOM      1    O STP    56     -56.306 -37.596 -16.851    0.00     3.56
+ATOM      2    O STP    56     -52.054 -43.457 -11.619    0.00     4.07
+ATOM      3    O STP    56     -54.151 -40.108 -14.881    0.00     3.55
+ATOM      4    O STP    56     -54.140 -38.573 -16.919    0.00     3.99
+ATOM      5    O STP    56     -55.638 -39.787 -16.110    0.00     3.78
+ATOM      6    O STP    56     -52.090 -44.090 -10.793    0.00     4.38
+ATOM      7    C STP    56     -52.141 -43.974 -11.033    0.00     4.31
+ATOM      8    C STP    56     -54.651 -43.530 -10.878    0.00     3.80
+ATOM      9    C STP    56     -54.719 -43.435 -11.018    0.00     3.77
+ATOM     10    C STP    56     -54.407 -43.383 -11.350    0.00     3.74
+ATOM     11    C STP    56     -53.241 -44.149 -10.674    0.00     4.19
+ATOM     12    C STP    56     -53.249 -44.240 -10.487    0.00     4.26
+ATOM     13    C STP    56     -52.406 -40.147 -20.488    0.00     3.79
+ATOM     14    C STP    56     -52.562 -40.136 -20.281    0.00     3.74
+ATOM     15    O STP    56     -51.195 -39.385 -20.837    0.00     3.59
+ATOM     16    O STP    56     -54.416 -37.960 -17.044    0.00     3.84
+ATOM     17    O STP    56     -54.202 -38.515 -17.030    0.00     4.05
+ATOM     18    C STP    56     -50.458 -38.683 -20.906    0.00     3.59
+ATOM     19    C STP    56     -50.714 -38.975 -20.817    0.00     3.58
+ATOM     20    O STP    56     -53.988 -38.534 -17.063    0.00     3.98
+ATOM     21    O STP    56     -53.196 -38.682 -17.346    0.00     3.76
+ATOM     22    O STP    56     -51.868 -37.674 -17.484    0.00     3.41
+ATOM     23    O STP    56     -51.870 -37.685 -17.487    0.00     3.41
+ATOM     24    C STP    56     -54.656 -43.567 -10.849    0.00     3.78
+ATOM     25    O STP    56     -53.274 -44.325 -10.433    0.00     4.23
+ATOM     26    O STP    56     -53.586 -44.124 -10.249    0.00     4.11
+ATOM     27    O STP    56     -53.335 -44.230 -10.444    0.00     4.24
+ATOM     28    C STP    56     -54.502 -43.624 -10.799    0.00     3.82
+ATOM     29    O STP    56     -55.934 -41.328 -15.380    0.00     3.52
+ATOM     30    O STP    56     -55.800 -40.034 -15.585    0.00     3.63
+ATOM     31    O STP    56     -55.651 -40.134 -15.655    0.00     3.74
+ATOM     32    O STP    56     -54.718 -41.754 -14.343    0.00     3.46
+ATOM     33    O STP    56     -54.147 -41.594 -13.999    0.00     3.63
+ATOM     34    O STP    56     -54.314 -40.384 -14.602    0.00     3.63
+ATOM     35    O STP    56     -54.946 -43.124 -11.162    0.00     3.62
+ATOM     36    O STP    56     -54.407 -42.718 -12.088    0.00     3.53
+ATOM     37    O STP    56     -53.888 -41.931 -13.037    0.00     3.62
+ATOM     38    O STP    56     -50.331 -38.593 -20.940    0.00     3.58
+ATOM     39    O STP    56     -49.943 -38.140 -21.411    0.00     3.48
+ATOM     40    C STP    56     -52.848 -40.244 -20.569    0.00     3.82
+ATOM     41    C STP    56     -52.896 -40.238 -20.496    0.00     3.80
+ATOM     42    O STP    56     -53.068 -40.961 -20.979    0.00     3.49
+ATOM     43    C STP    56     -53.069 -40.887 -20.939    0.00     3.52
+ATOM     44    C STP    56     -53.116 -40.927 -20.914    0.00     3.50
+ATOM     45    C STP    56     -56.612 -37.390 -17.054    0.00     3.42
+ATOM     46    C STP    56     -50.633 -35.740 -18.144    0.00     3.45
+ATOM     47    C STP    56     -50.707 -35.766 -18.096    0.00     3.45
+ATOM     48    C STP    56     -50.974 -35.802 -17.794    0.00     3.48
+ATOM     49    C STP    56     -50.812 -35.648 -17.653    0.00     3.42
+ATOM     50    C STP    56     -55.023 -39.651 -18.861    0.00     3.59
+ATOM     51    C STP    56     -53.483 -39.990 -20.005    0.00     3.57
+ATOM     52    O STP    56     -54.851 -38.646 -17.205    0.00     4.11
+ATOM     53    O STP    56     -54.633 -38.581 -17.174    0.00     4.09
+ATOM     54    O STP    56     -55.199 -38.206 -17.220    0.00     3.95
+ATOM     55    O STP    56     -54.716 -38.122 -17.155    0.00     3.92
 TER
 END

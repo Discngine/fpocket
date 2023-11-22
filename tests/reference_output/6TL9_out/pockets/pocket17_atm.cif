@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    17:
-0  - Pocket Score                      : 0.0192
-1  - Drug Score                        : 0.0009
-2  - Number of alpha spheres           :    25
-3  - Mean alpha-sphere radius          : 3.8880
-4  - Mean alpha-sphere Solvent Acc.    : 0.4688
-5  - Mean B-factor of pocket residues  : 0.5202
-6  - Hydrophobicity Score              : 30.2000
-7  - Polarity Score                    :     2
-8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 114.5799
-10  -Pocket volume (convex hull)       : 2.6154
-11 - Charge Score                      :     0
-12 - Local hydrophobic density Score   : 9.0000
-13 - Number of apolar alpha sphere     :    10
-14 - Proportion of apolar alpha sphere : 0.4000
+0  - Pocket Score                      : 0.0199
+1  - Drug Score                        : 0.0016
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.8018
+4  - Mean alpha-sphere Solvent Acc.    : 0.4787
+5  - Mean B-factor of pocket residues  : 0.1854
+6  - Hydrophobicity Score              : 34.3750
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.2500
+9  - Pocket volume (Monte Carlo)       : 98.2267
+10  -Pocket volume (convex hull)       : 1.0911
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 15.0000
+13 - Number of apolar alpha sphere     :    16
+14 - Proportion of apolar alpha sphere : 1.0000
 # 
 loop_
 _atom_site.group_PDB
@@ -39,20 +39,18 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM       24    C   CG .  PRO   A .    5 ?   37.184 -49.336 -43.584  0.00  0   A
-ATOM       30    C   CB .  CYS   A .    6 ?   34.701 -46.062 -40.897  0.00  0   A
-ATOM       29    O    O .  CYS   A .    6 ?   35.976 -47.942 -38.530 -1.48  0   A
-ATOM       26    N    N .  CYS   A .    6 ?   36.878 -47.101 -41.026  0.00  0   A
-ATOM     1076    C   CB .  CYS   B .    6 ?   31.394 -53.448 -42.159  0.00  0   B
-ATOM     1075    O    O .  CYS   B .    6 ?   33.637 -52.867 -44.461 -2.14  0   B
-ATOM       59    O    O .  TRP   A .   10 ?   30.182 -47.007 -40.174 -3.21  0   A
-ATOM       35    O    O .  PRO   A .    7 ?   33.101 -46.868 -37.296  0.00  0   A
-ATOM     1072    N    N .  CYS   B .    6 ?   33.677 -54.291 -42.062  0.00  0   B
-ATOM     1134    C  CE3 .  TRP   B .   12 ?   34.177 -50.957 -36.841  0.00  0   B
-ATOM     1071    C   CD .  PRO   B .    5 ?   36.833 -53.490 -40.444  0.00  0   B
-ATOM     1070    C   CG .  PRO   B .    5 ?   36.237 -53.729 -39.091  0.00  0   B
-ATOM     1128    C   CB .  TRP   B .   12 ?   31.248 -51.562 -38.212  0.00  0   B
-ATOM     1105    O    O .  TRP   B .   10 ?   28.790 -49.681 -42.746 -2.14  0   B
-ATOM       82    C   CB .  TRP   A .   12 ?   33.264 -47.608 -44.755  0.00  0   A
-ATOM       78    N    N .  TRP   A .   12 ?   31.136 -46.607 -43.984 -1.09  0   A
+ATOM      954    C   CB .  LEU   A .  120 ?   15.659 -24.171 -37.954  0.00  0   A
+ATOM      924    C   CG .  GLU   A .  116 ?   15.167 -23.875 -42.760  0.00  0   A
+ATOM     2880    C   CB .  THR   C .   99 ?   11.150 -27.446 -39.545  0.00  0   C
+ATOM      956    C  CD1 .  LEU   A .  120 ?   13.950 -23.127 -39.492  0.00  0   A
+ATOM      967    C   CB .  ALA   A .  122 ?   17.804 -29.724 -38.835  0.00  0   A
+ATOM      495    C   CG .  PRO   A .   63 ?   14.624 -31.622 -40.989  0.00  0   A
+ATOM      961    O    O .  ALA   A .  121 ?   15.665 -28.689 -36.439 -1.07  0   A
+ATOM     2879    O    O .  THR   C .   99 ?   11.631 -29.397 -41.650  0.00  0   C
+ATOM      854    C  CE1 .  TYR   A .  107 ?   15.793 -27.174 -44.877  0.00  0   A
+ATOM      494    C   CB .  PRO   A .   63 ?   15.552 -31.569 -42.183  0.00  0   A
+ATOM      856    C   CZ .  TYR   A .  107 ?   14.864 -28.161 -45.136  0.00  0   A
+ATOM      521    C  CH2 .  TRP   A .   65 ?   19.317 -25.538 -41.090  0.00  0   A
+ATOM      519    C  CZ2 .  TRP   A .   65 ?   19.508 -25.990 -39.813  0.00  0   A
+ATOM      852    C  CD1 .  TYR   A .  107 ?   17.114 -27.519 -44.623  0.00  0   A
 # 

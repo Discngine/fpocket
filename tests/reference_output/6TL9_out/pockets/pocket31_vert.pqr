@@ -4,37 +4,34 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    31:
-HEADER 0  - Pocket Score                      : -0.0264
-HEADER 1  - Drug Score                        : 0.0026
-HEADER 2  - Number of V. Vertices             :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.8574
-HEADER 4  - Mean alpha-sphere SA              : 0.4700
-HEADER 5  - Mean B-factor                     : 0.8110
-HEADER 6  - Hydrophobicity Score              : 34.3750
+HEADER 0  - Pocket Score                      : -0.0257
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7588
+HEADER 4  - Mean alpha-sphere SA              : 0.4911
+HEADER 5  - Mean B-factor                     : 0.4284
+HEADER 6  - Hydrophobicity Score              : 24.3333
 HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 4.2500
-HEADER 9  - Real volume (approximation)       : 105.7433
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 16.0000
-HEADER 12 - Number of apolar alpha sphere     :    17
-HEADER 13 - Proportion of apolar alpha sphere : 0.9444
-ATOM      1    C STP    31      -7.970 -67.790 -42.219    0.00     4.01
-ATOM      2    C STP    31      -7.969 -67.877 -41.861    0.00     4.10
-ATOM      3    C STP    31      -8.202 -67.784 -42.173    0.00     4.03
-ATOM      4    C STP    31      -8.652 -67.921 -42.294    0.00     3.88
-ATOM      5    O STP    31      -7.104 -66.789 -40.526    0.00     3.41
-ATOM      6    C STP    31      -7.852 -67.865 -41.174    0.00     3.95
-ATOM      7    C STP    31      -7.739 -67.550 -41.159    0.00     3.87
-ATOM      8    C STP    31      -7.843 -67.777 -41.552    0.00     4.02
-ATOM      9    C STP    31      -7.592 -68.499 -41.578    0.00     3.79
-ATOM     10    C STP    31      -7.915 -67.953 -41.706    0.00     4.12
-ATOM     11    C STP    31      -7.924 -67.985 -41.664    0.00     4.11
-ATOM     12    C STP    31      -8.996 -68.085 -42.296    0.00     3.80
-ATOM     13    C STP    31      -8.945 -68.397 -41.786    0.00     3.78
-ATOM     14    C STP    31      -9.024 -68.413 -41.711    0.00     3.72
-ATOM     15    C STP    31      -7.746 -67.341 -42.755    0.00     3.61
-ATOM     16    C STP    31      -7.721 -67.312 -42.803    0.00     3.57
-ATOM     17    C STP    31      -8.421 -67.576 -42.348    0.00     3.87
-ATOM     18    C STP    31      -8.560 -67.520 -42.427    0.00     3.80
+HEADER 8  - Volume Score                      : 4.4444
+HEADER 9  - Real volume (approximation)       : 233.7762
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.3333
+ATOM      1    O STP    31     -40.479 -31.486 -27.725    0.00     3.55
+ATOM      2    O STP    31     -41.112 -29.574 -27.363    0.00     4.16
+ATOM      3    O STP    31     -44.347 -31.187 -30.071    0.00     4.04
+ATOM      4    C STP    31     -40.399 -31.535 -27.760    0.00     3.51
+ATOM      5    O STP    31     -40.948 -30.324 -26.466    0.00     3.61
+ATOM      6    O STP    31     -40.661 -29.761 -26.107    0.00     3.45
+ATOM      7    C STP    31     -41.837 -29.134 -27.806    0.00     4.30
+ATOM      8    C STP    31     -43.103 -29.953 -29.358    0.00     4.11
+ATOM      9    C STP    31     -44.002 -30.612 -29.880    0.00     4.10
+ATOM     10    O STP    31     -39.877 -33.012 -27.503    0.00     3.55
+ATOM     11    O STP    31     -40.027 -32.996 -27.406    0.00     3.60
+ATOM     12    O STP    31     -40.012 -33.013 -27.409    0.00     3.60
+ATOM     13    C STP    31     -44.443 -31.961 -31.424    0.00     3.79
+ATOM     14    O STP    31     -40.176 -33.282 -27.487    0.00     3.50
+ATOM     15    O STP    31     -40.126 -33.327 -27.495    0.00     3.51
 TER
 END

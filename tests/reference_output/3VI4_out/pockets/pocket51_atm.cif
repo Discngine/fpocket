@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    51:
-0  - Pocket Score                      : -0.0100
-1  - Drug Score                        : 0.0435
-2  - Number of alpha spheres           :    40
-3  - Mean alpha-sphere radius          : 3.9606
-4  - Mean alpha-sphere Solvent Acc.    : 0.4503
-5  - Mean B-factor of pocket residues  : 0.4037
-6  - Hydrophobicity Score              : 40.6667
-7  - Polarity Score                    :     4
-8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 358.9728
-10  -Pocket volume (convex hull)       : 34.5275
-11 - Charge Score                      :     2
-12 - Local hydrophobic density Score   : 20.0000
-13 - Number of apolar alpha sphere     :    21
-14 - Proportion of apolar alpha sphere : 0.5250
+0  - Pocket Score                      : 0.0061
+1  - Drug Score                        : 0.0024
+2  - Number of alpha spheres           :    28
+3  - Mean alpha-sphere radius          : 4.0088
+4  - Mean alpha-sphere Solvent Acc.    : 0.5727
+5  - Mean B-factor of pocket residues  : 0.1535
+6  - Hydrophobicity Score              : 19.2222
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.2222
+9  - Pocket volume (Monte Carlo)       : 356.0140
+10  -Pocket volume (convex hull)       : 21.9333
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 11.2857
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.5000
 # 
 loop_
 _atom_site.group_PDB
@@ -39,32 +39,28 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    14421    C  CG1 .  VAL   D .  274 ?  -42.819 -48.860 -57.209  0.00  0   D
-ATOM    11040    C   CZ .  PHE   C .  414 ?  -44.321 -44.740 -57.229  0.00  0   C
-ATOM    11039    C  CE2 .  PHE   C .  414 ?  -44.763 -44.378 -58.494  0.00  0   C
-ATOM    14430    C  CD2 .  LEU   D .  275 ?  -48.934 -47.312 -55.960  0.00  0   D
-ATOM    14427    C   CB .  LEU   D .  275 ?  -46.899 -47.696 -54.633  0.00  0   D
-ATOM    14416    N    N .  VAL   D .  274 ?  -43.145 -50.483 -54.536 -1.09  0   D
-ATOM    14423    N    N .  LEU   D .  275 ?  -44.548 -48.228 -54.445  0.00  0   D
-ATOM    14407    O    O .  GLY   D .  272 ?  -43.207 -53.349 -56.532 -4.29  0   D
-ATOM    14573    C  CD1 .  TYR   D .  293 ?  -51.258 -52.202 -55.833  0.00  0   D
-ATOM    14570    O    O .  TYR   D .  293 ?  -47.890 -51.321 -53.323 -5.36  0   D
-ATOM    14560    O    O .  HIS   D .  292 ?  -47.705 -55.144 -53.204 -0.14  0   D
-ATOM    14575    C  CE1 .  TYR   D .  293 ?  -51.435 -51.343 -56.909  0.00  0   D
-ATOM    14577    C   CZ .  TYR   D .  293 ?  -51.488 -49.976 -56.685  0.00  0   D
-ATOM    11021    C   CD .  PRO   C .  412 ?  -48.962 -42.449 -57.657  0.00  0   C
-ATOM    11012    C   CB .  THR   C .  411 ?  -50.809 -43.866 -59.874  0.00  0   C
-ATOM     8217    C   CE .  LYS   C .   41 ?  -46.045 -53.795 -61.928  0.00  0   C
-ATOM     8046    C   CZ .  PHE   C .   18 ?  -45.214 -50.085 -61.153  0.00  0   C
-ATOM    14578    O   OH .  TYR   D .  293 ?  -51.660 -49.093 -57.724 -4.43  0   D
-ATOM     8044    C  CE1 .  PHE   C .   18 ?  -45.620 -49.650 -62.401  0.00  0   C
-ATOM     8218    N   NZ .  LYS   C .   41 ?  -45.463 -54.876 -61.086 -2.77  0   C
-ATOM    14564    C  CD2 .  HIS   D .  292 ?  -51.039 -56.147 -54.521  0.00  0   D
-ATOM    11219    O    O .  GLY   C .  439 ?  -46.781 -44.803 -64.261 -4.29  0   C
-ATOM    11013    O  OG1 .  THR   C .  411 ?  -50.235 -44.004 -61.179 -1.88  0   C
-ATOM    11014    C  CG2 .  THR   C .  411 ?  -51.981 -44.841 -59.714  0.00  0   C
-ATOM    11217    C   CA .  GLY   C .  439 ?  -45.045 -43.945 -62.866  0.00  0   C
-ATOM    11213    C  CE1 .  PHE   C .  438 ?  -42.481 -47.153 -60.634  0.00  0   C
-ATOM    11018    O    O .  PRO   C .  412 ?  -46.895 -42.235 -60.601 -1.07  0   C
-ATOM    14568    C   CA .  TYR   D .  293 ?  -49.498 -53.054 -53.091  0.00  0   D
+ATOM     1198    O    O .  ALA   A .  159 ?  -22.753 -14.755  -8.584  0.00  0   A
+ATOM     1201    C   CA .  GLY   A .  160 ?  -22.703 -15.263  -5.812  0.00  0   A
+ATOM     1387    C  CE1 .  TYR   A .  186 ?  -23.662 -11.312  -5.945  0.00  0   A
+ATOM     1683    N  NE2 .  GLN   A .  221 ?  -25.149 -11.340  -9.141  0.00  0   A
+ATOM     1165    C  CD1 .  PHE   A .  155 ?  -28.204 -15.830  -4.064  0.00  0   A
+ATOM     1652    C   CB .  GLN   A .  218 ?  -25.985  -5.019  -0.604  0.00  0   A
+ATOM     1669    C   CG .  ARG   A .  220 ?  -28.260  -4.989  -7.317  0.00  0   A
+ATOM     1670    C   CD .  ARG   A .  220 ?  -29.583  -4.250  -7.165  0.00  0   A
+ATOM     1651    O    O .  GLN   A .  218 ?  -26.249  -2.767  -2.512 -1.21  0   A
+ATOM     1665    C   CA .  ARG   A .  220 ?  -25.857  -4.692  -6.466  0.00  0   A
+ATOM     1390    O   OH .  TYR   A .  186 ?  -24.607  -9.881  -4.255 -0.81  0   A
+ATOM     1675    N    N .  GLN   A .  221 ?  -25.122  -6.529  -7.867 -1.09  0   A
+ATOM     1679    C   CB .  GLN   A .  221 ?  -24.592  -8.699  -8.872  0.00  0   A
+ATOM     1167    C  CE1 .  PHE   A .  155 ?  -29.504 -15.347  -3.972  0.00  0   A
+ATOM     1660    O    O .  THR   A .  219 ?  -24.113  -5.132  -4.321 -1.07  0   A
+ATOM     1169    C   CZ .  PHE   A .  155 ?  -29.829 -14.414  -2.997  0.00  0   A
+ATOM     1168    C  CE2 .  PHE   A .  155 ?  -28.851 -13.965  -2.123  0.00  0   A
+ATOM     1163    C   CB .  PHE   A .  155 ?  -25.812 -15.904  -3.295  0.00  0   A
+ATOM     1166    C  CD2 .  PHE   A .  155 ?  -27.552 -14.450  -2.223  0.00  0   A
+ATOM     1164    C   CG .  PHE   A .  155 ?  -27.215 -15.382  -3.194  0.00  0   A
+ATOM     1437    N  NE2 .  GLN   A .  191 ?  -23.295  -7.402  -2.740  0.00  0   A
+ATOM     1656    N  NE2 .  GLN   A .  218 ?  -26.408  -8.084  -0.137 -2.35  0   A
+ATOM     1655    O  OE1 .  GLN   A .  218 ?  -27.900  -7.064   1.221 -1.21  0   A
+ATOM     1654    C   CD .  GLN   A .  218 ?  -26.826  -7.057   0.605  0.00  0   A
 # 

@@ -4,39 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    91:
-HEADER 0  - Pocket Score                      : -0.0571
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of V. Vertices             :    20
-HEADER 3  - Mean alpha-sphere radius          : 3.6029
-HEADER 4  - Mean alpha-sphere SA              : 0.4373
-HEADER 5  - Mean B-factor                     : 0.4159
-HEADER 6  - Hydrophobicity Score              : -26.8571
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 4.0000
-HEADER 9  - Real volume (approximation)       : 99.1179
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 3.0000
-HEADER 12 - Number of apolar alpha sphere     :     4
-HEADER 13 - Proportion of apolar alpha sphere : 0.2000
-ATOM      1    O STP    91     -45.796 -31.112 -34.830    0.00     3.71
-ATOM      2    O STP    91     -45.764 -30.671 -35.001    0.00     3.42
-ATOM      3    O STP    91     -45.764 -31.098 -34.796    0.00     3.71
-ATOM      4    C STP    91     -45.569 -30.598 -34.788    0.00     3.44
-ATOM      5    C STP    91     -45.720 -31.380 -34.947    0.00     3.70
-ATOM      6    O STP    91     -45.767 -31.434 -35.019    0.00     3.71
-ATOM      7    O STP    91     -44.519 -29.428 -33.105    0.00     3.68
-ATOM      8    O STP    91     -44.458 -28.905 -33.203    0.00     3.55
-ATOM      9    O STP    91     -44.440 -28.625 -33.441    0.00     3.45
-ATOM     10    O STP    91     -44.551 -29.482 -33.414    0.00     3.60
-ATOM     11    O STP    91     -44.558 -29.575 -33.348    0.00     3.64
-ATOM     12    O STP    91     -44.523 -29.442 -33.100    0.00     3.68
-ATOM     13    O STP    91     -45.207 -30.717 -33.841    0.00     3.71
-ATOM     14    O STP    91     -44.610 -29.756 -33.306    0.00     3.69
-ATOM     15    C STP    91     -44.837 -31.027 -33.615    0.00     3.69
-ATOM     16    C STP    91     -44.477 -30.952 -33.352    0.00     3.67
-ATOM     17    O STP    91     -44.397 -28.543 -33.463    0.00     3.41
-ATOM     18    O STP    91     -44.447 -28.524 -33.514    0.00     3.42
-ATOM     19    O STP    91     -44.525 -28.911 -33.134    0.00     3.51
-ATOM     20    O STP    91     -44.550 -29.416 -33.074    0.00     3.66
+HEADER 0  - Pocket Score                      : -0.0344
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9408
+HEADER 4  - Mean alpha-sphere SA              : 0.5229
+HEADER 5  - Mean B-factor                     : 0.2938
+HEADER 6  - Hydrophobicity Score              : 17.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.6000
+HEADER 9  - Real volume (approximation)       : 296.3312
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 14.0000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.9375
+ATOM      1    C STP    91     -48.562 -72.630 -29.311    0.00     3.97
+ATOM      2    C STP    91     -49.619 -71.551 -29.261    0.00     3.74
+ATOM      3    C STP    91     -49.577 -71.484 -29.225    0.00     3.71
+ATOM      4    C STP    91     -49.537 -71.555 -29.249    0.00     3.73
+ATOM      5    C STP    91     -47.014 -73.555 -27.879    0.00     3.80
+ATOM      6    C STP    91     -48.808 -73.485 -29.521    0.00     4.40
+ATOM      7    C STP    91     -46.715 -72.388 -27.626    0.00     3.45
+ATOM      8    C STP    91     -46.481 -72.756 -27.406    0.00     3.60
+ATOM      9    C STP    91     -44.658 -73.003 -27.181    0.00     3.51
+ATOM     10    C STP    91     -44.695 -73.935 -26.594    0.00     4.20
+ATOM     11    C STP    91     -45.056 -73.571 -26.814    0.00     4.01
+ATOM     12    C STP    91     -45.283 -73.537 -26.964    0.00     3.94
+ATOM     13    C STP    91     -45.228 -73.497 -26.926    0.00     3.95
+ATOM     14    O STP    91     -47.732 -76.102 -27.881    0.00     4.60
+ATOM     15    C STP    91     -48.977 -74.559 -29.149    0.00     4.62
+ATOM     16    C STP    91     -47.115 -73.664 -27.916    0.00     3.82
 TER
 END

@@ -4,35 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    10:
-HEADER 0  - Pocket Score                      : 0.0405
-HEADER 1  - Drug Score                        : 0.0006
+HEADER 0  - Pocket Score                      : 0.0334
+HEADER 1  - Drug Score                        : 0.0002
 HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.8663
-HEADER 4  - Mean alpha-sphere SA              : 0.6124
-HEADER 5  - Mean B-factor                     : 0.7690
-HEADER 6  - Hydrophobicity Score              : 9.7000
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 3.5000
-HEADER 9  - Real volume (approximation)       : 253.8700
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 6.0000
-HEADER 12 - Number of apolar alpha sphere     :     7
-HEADER 13 - Proportion of apolar alpha sphere : 0.4375
-ATOM      1    O STP    10      -7.764  15.242   7.103    0.00     3.96
-ATOM      2    C STP    10      -5.783  13.019   6.568    0.00     4.49
-ATOM      3    O STP    10      -5.788  12.752   6.449    0.00     4.69
-ATOM      4    O STP    10      -7.309  14.474   6.726    0.00     4.12
-ATOM      5    O STP    10      -7.432  15.466   6.755    0.00     3.70
-ATOM      6    O STP    10      -7.395  15.658   6.560    0.00     3.50
-ATOM      7    C STP    10      -4.485  12.252   8.033    0.00     3.97
-ATOM      8    C STP    10      -4.567  13.020   7.587    0.00     3.99
-ATOM      9    C STP    10      -4.565  12.978   7.571    0.00     4.02
-ATOM     10    O STP    10      -4.654  11.597   3.673    0.00     3.94
-ATOM     11    O STP    10      -3.791  12.064   4.278    0.00     3.43
-ATOM     12    O STP    10      -4.242  12.235   5.610    0.00     3.94
-ATOM     13    O STP    10      -3.273  10.191   7.558    0.00     3.44
-ATOM     14    C STP    10      -4.073  12.143   8.369    0.00     3.67
-ATOM     15    C STP    10      -3.693  10.881   8.123    0.00     3.54
-ATOM     16    C STP    10      -3.402  10.565   8.181    0.00     3.46
+HEADER 3  - Mean alpha-sphere radius          : 3.7458
+HEADER 4  - Mean alpha-sphere SA              : 0.5051
+HEADER 5  - Mean B-factor                     : 0.4085
+HEADER 6  - Hydrophobicity Score              : -5.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 184.3875
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0625
+ATOM      1    O STP    10      16.399  30.997  -2.408    0.00     3.51
+ATOM      2    O STP    10      16.378  31.564  -2.092    0.00     3.53
+ATOM      3    O STP    10      16.438  31.064  -2.387    0.00     3.53
+ATOM      4    O STP    10      17.895  28.085  -5.613    0.00     3.60
+ATOM      5    O STP    10      18.864  28.710  -3.265    0.00     4.57
+ATOM      6    O STP    10      17.852  28.163  -5.642    0.00     3.57
+ATOM      7    O STP    10      17.748  28.256  -3.638    0.00     3.99
+ATOM      8    O STP    10      18.340  28.694  -3.618    0.00     4.44
+ATOM      9    O STP    10      17.987  28.173  -5.180    0.00     3.72
+ATOM     10    O STP    10      18.227  28.380  -4.224    0.00     4.14
+ATOM     11    O STP    10      18.119  28.193  -4.507    0.00     3.99
+ATOM     12    O STP    10      16.692  30.260  -3.367    0.00     3.43
+ATOM     13    O STP    10      17.772  29.567  -4.909    0.00     3.47
+ATOM     14    C STP    10      17.710  27.065  -6.133    0.00     3.50
+ATOM     15    O STP    10      17.725  26.987  -6.025    0.00     3.51
+ATOM     16    O STP    10      17.545  26.715  -6.183    0.00     3.43
 TER
 END

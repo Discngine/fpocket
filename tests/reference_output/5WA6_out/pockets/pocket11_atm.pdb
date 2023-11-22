@@ -3,36 +3,33 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    11:
-HEADER 0  - Pocket Score                      : -0.0912
-HEADER 1  - Drug Score                        : 0.0011
-HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.9324
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5840
-HEADER 5  - Mean B-factor of pocket residues  : 0.8730
-HEADER 6  - Hydrophobicity Score              : -20.8000
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Amino Acid based volume Score     : 5.8000
-HEADER 9  - Pocket volume (Monte Carlo)       : 314.8728
-HEADER 10  -Pocket volume (convex hull)       : 8.8986
-HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 4.0000
-HEADER 13 - Number of apolar alpha sphere     :     5
-HEADER 14 - Proportion of apolar alpha sphere : 0.3333
-ATOM    863   CA ARG A 125     478.639 194.593 563.599  0.00  0.00           C 0
-ATOM   1380    O ARG A 192     476.939 193.347 557.097  0.55  8.57           O 0
-ATOM    862    N ARG A 125     479.244 195.236 562.433  0.72  1.09           N 0
-ATOM    866   CB ARG A 125     479.205 193.182 563.779  0.00  0.00           C 0
-ATOM    860    O ARG A 124     477.500 196.599 562.018  0.59  5.36           O 0
-ATOM    859    C ARG A 124     478.651 196.229 561.764  0.00  0.00           C 0
-ATOM   1407  OE2 GLU A 195     483.021 193.764 560.270  0.45  9.64           O 0
-ATOM    931  OE1 GLU A 133     484.357 189.105 564.706  0.80  9.64           O 0
-ATOM   1404   CG GLU A 195     482.351 192.576 558.309  0.00  0.00           C 0
-ATOM   1403   CB GLU A 195     481.181 192.623 557.334  0.00  0.00           C 0
-ATOM    861   CB ARG A 124     479.078 196.253 559.307  0.00  0.00           C 0
-ATOM   1405   CD GLU A 195     482.454 193.833 559.158  0.00  0.00           C 0
-ATOM   1382   CG ARG A 192     474.575 195.415 558.259  0.00  0.00           C 0
-ATOM   1384   NE ARG A 192     473.505 196.576 560.170  0.65  7.66           N 0
-ATOM   1402    O GLU A 195     480.637 189.380 556.547  0.00  0.00           O 0
-ATOM   1401    C GLU A 195     481.521 190.231 556.655  0.00  0.00           C 0
+HEADER 0  - Pocket Score                      : -0.0757
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9013
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5521
+HEADER 5  - Mean B-factor of pocket residues  : 0.7700
+HEADER 6  - Hydrophobicity Score              : 42.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.4239
+HEADER 10 - Pocket volume (convex hull)       : 1.2731
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM    964    O GLU A 141     499.635 193.880 573.701  0.75  4.29           O 0
+ATOM    960   CB ILE A 138     496.535 192.278 568.391  0.00  0.00           C 0
+ATOM    942   CB ALA A 135     492.219 191.858 571.149  0.00  0.00           C 0
+ATOM    995  CD1 ILE A 145     493.811 195.386 569.795  0.00  0.00           C 0
+ATOM    958    C ILE A 138     497.608 190.346 569.603  0.00  0.00           C 0
+ATOM    941    O ALA A 135     494.399 189.795 570.122  0.30  6.43           O 0
+ATOM    974    O THR A 143     497.677 197.517 570.807  0.58  4.29           O 0
+ATOM    963    C GLU A 141     500.205 193.683 572.629  0.00  0.00           C 0
+ATOM    962   CA GLU A 141     499.982 192.392 571.851  0.00  0.00           C 0
+ATOM    961    N GLU A 141     499.944 192.640 570.414  0.47  4.37           N 0
+ATOM   1086  OG1 THR A 157     493.459 198.301 572.978  0.62  2.14           O 0
+ATOM   1087  CG2 THR A 157     494.631 198.879 575.015  0.00  0.00           C 0
+ATOM    918   OH TYR A 131     491.769 196.390 573.581  0.29  8.57           O 0
 TER
 END

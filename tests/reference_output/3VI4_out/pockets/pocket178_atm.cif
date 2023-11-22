@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket   178:
-0  - Pocket Score                      : -0.1898
-1  - Drug Score                        : 0.0001
-2  - Number of alpha spheres           :    36
-3  - Mean alpha-sphere radius          : 4.0829
-4  - Mean alpha-sphere Solvent Acc.    : 0.6261
-5  - Mean B-factor of pocket residues  : 0.4076
-6  - Hydrophobicity Score              : 11.5000
-7  - Polarity Score                    :     7
+0  - Pocket Score                      : -0.1121
+1  - Drug Score                        : 0.0037
+2  - Number of alpha spheres           :    38
+3  - Mean alpha-sphere radius          : 3.9873
+4  - Mean alpha-sphere Solvent Acc.    : 0.4380
+5  - Mean B-factor of pocket residues  : 0.2318
+6  - Hydrophobicity Score              : -11.4000
+7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 496.4942
-10  -Pocket volume (convex hull)       : 62.2097
-11 - Charge Score                      :    -2
-12 - Local hydrophobic density Score   : 1.0000
-13 - Number of apolar alpha sphere     :     2
-14 - Proportion of apolar alpha sphere : 0.0556
+9  - Pocket volume (Monte Carlo)       : 377.3673
+10  -Pocket volume (convex hull)       : 18.5281
+11 - Charge Score                      :     2
+12 - Local hydrophobic density Score   : 12.0000
+13 - Number of apolar alpha sphere     :    13
+14 - Proportion of apolar alpha sphere : 0.3421
 # 
 loop_
 _atom_site.group_PDB
@@ -39,33 +39,27 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    16252    N    N .  ASP   E .   65 ?  -56.884 -64.956  -6.054 -3.03  0   E
-ATOM    16256    C   CB .  ASP   E .   65 ?  -57.543 -65.817  -8.251  0.00  0   E
-ATOM    16253    C   CA .  ASP   E .   65 ?  -58.006 -65.069  -6.994  0.00  0   E
-ATOM    16241    O    O .  VAL   E .   63 ?  -55.805 -61.539  -5.255 -2.95  0   E
-ATOM    16258    O  OD1 .  ASP   E .   65 ?  -58.995 -64.444  -9.569 -4.43  0   E
-ATOM    16234    N    N .  GLY   E .   62 ?  -52.269 -58.010  -4.576 -0.42  0   E
-ATOM    16229    C   CA .  SER   E .   61 ?  -53.232 -55.944  -5.325  0.00  0   E
-ATOM    13520    N  NH2 .  ARG   D .  155 ?  -54.333 -54.870  -8.058 -3.28  0   D
-ATOM    16226    O    O .  ALA   E .   60 ?  -55.730 -57.188  -5.292 -1.07  0   E
-ATOM    13481    N  ND2 .  ASN   D .  151 ?  -57.248 -57.254 -10.256  0.00  0   D
-ATOM    16219    C   CB .  LEU   E .   59 ?  -59.076 -58.423  -7.398  0.00  0   E
-ATOM    16222    C  CD2 .  LEU   E .   59 ?  -58.900 -60.725  -6.509  0.00  0   E
-ATOM    13456    O  OD1 .  ASP   D .  148 ?  -55.429 -62.249 -15.143 -0.14  0   D
-ATOM    13478    C   CB .  ASN   D .  151 ?  -57.850 -56.990 -12.583  0.00  0   D
-ATOM    16221    C  CD1 .  LEU   E .   59 ?  -60.945 -60.010  -7.766  0.00  0   E
-ATOM    13451    C   CA .  ASP   D .  148 ?  -55.516 -59.552 -15.545  0.00  0   D
-ATOM    13446    O    O .  THR   D .  147 ?  -58.156 -58.591 -15.638 -1.88  0   D
-ATOM    13448    O  OG1 .  THR   D .  147 ?  -58.707 -62.380 -16.937 -0.95  0   D
-ATOM    13447    C   CB .  THR   D .  147 ?  -59.560 -61.230 -16.975  0.00  0   D
-ATOM    13445    C    C .  THR   D .  147 ?  -57.807 -59.497 -16.405  0.00  0   D
-ATOM    13455    C   CG .  ASP   D .  148 ?  -54.300 -61.751 -15.362  0.00  0   D
-ATOM    13453    O    O .  ASP   D .  148 ?  -55.110 -57.300 -14.855 -1.48  0   D
-ATOM    13454    C   CB .  ASP   D .  148 ?  -54.226 -60.318 -15.810  0.00  0   D
-ATOM    13479    C   CG .  ASN   D .  151 ?  -58.216 -56.946 -11.116  0.00  0   D
-ATOM    13480    O  OD1 .  ASN   D .  151 ?  -59.353 -56.633 -10.754 -0.14  0   D
-ATOM    13489    O  OE1 .  GLU   D .  152 ?  -52.495 -55.284 -11.189 -2.95  0   D
-ATOM    13457    O  OD2 .  ASP   D .  148 ?  -53.227 -62.382 -15.238 -1.21  0   D
-ATOM    16232    C   CB .  SER   E .   61 ?  -52.115 -54.916  -5.390  0.00  0   E
-ATOM    15010    C  CD1 .  ILE   D .  348 ?  -51.773 -58.375 -16.636  0.00  0   D
+ATOM    20080    O   OG .  SER   G .  127 ?   -1.578 -28.278-105.309  0.00  0   G
+ATOM    20075    N    N .  SER   G .  127 ?    0.622 -29.422-104.185  0.00  0   G
+ATOM    20073    C   CB .  SER   G .  126 ?    0.480 -29.252-101.101  0.00  0   G
+ATOM    22454    C    C .  ARG   H .  218 ?   -4.321 -34.814-102.566  0.00  0   H
+ATOM    20079    C   CB .  SER   G .  127 ?   -0.529 -28.639-106.198  0.00  0   G
+ATOM    22456    C   CB .  ARG   H .  218 ?   -5.847 -35.172-104.529  0.00  0   H
+ATOM    22448    O    O .  PRO   H .  217 ?   -7.868 -33.730-103.276 -0.81  0   H
+ATOM    20070    C   CA .  SER   G .  126 ?    1.171 -30.278-101.996  0.00  0   G
+ATOM    22441    O    O .  VAL   H .  216 ?   -7.343 -32.183-100.555 -4.29  0   H
+ATOM    22455    O    O .  ARG   H .  218 ?   -3.228 -35.381-102.518 -7.90  0   H
+ATOM    20058    O    O .  PRO   G .  124 ?    2.055 -33.761 -99.348  0.00  0   G
+ATOM    21816    O    O .  ALA   H .  130 ?   -2.417 -35.810 -98.143 -1.07  0   H
+ATOM    20060    C   CG .  PRO   G .  124 ?    0.461 -36.363-100.680  0.00  0   G
+ATOM    21813    N    N .  ALA   H .  130 ?   -3.166 -33.324 -97.292 -2.19  0   H
+ATOM    20065    O    O .  PRO   G .  125 ?    2.167 -32.832-102.359 -1.88  0   G
+ATOM    21817    C   CB .  ALA   H .  130 ?   -4.926 -33.958 -98.873  0.00  0   H
+ATOM    22442    C   CB .  VAL   H .  216 ?   -9.362 -29.988-101.644  0.00  0   H
+ATOM    21801    O    O .  PRO   H .  128 ?   -0.670 -30.056 -97.673 -2.14  0   H
+ATOM    21803    C   CG .  PRO   H .  128 ?   -2.796 -27.540 -99.191  0.00  0   H
+ATOM    22444    C  CG2 .  VAL   H .  216 ?   -9.508 -28.496-101.375  0.00  0   H
+ATOM    21802    C   CB .  PRO   H .  128 ?   -3.334 -28.419 -98.107  0.00  0   H
+ATOM    22438    N    N .  VAL   H .  216 ?   -8.516 -30.005 -99.328  0.00  0   H
+ATOM    22424    O    O .  LYS   H .  214 ?   -7.630 -26.739 -98.477 -2.95  0   H
 # 

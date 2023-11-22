@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket   140:
-0  - Pocket Score                      : -0.1150
-1  - Drug Score                        : 0.0002
-2  - Number of alpha spheres           :    16
-3  - Mean alpha-sphere radius          : 3.8252
-4  - Mean alpha-sphere Solvent Acc.    : 0.6189
-5  - Mean B-factor of pocket residues  : 0.2568
-6  - Hydrophobicity Score              : 8.5000
+0  - Pocket Score                      : -0.0781
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 4.1638
+4  - Mean alpha-sphere Solvent Acc.    : 0.6763
+5  - Mean B-factor of pocket residues  : 0.4193
+6  - Hydrophobicity Score              : -21.0000
 7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 124.3964
-10  -Pocket volume (convex hull)       : 1.8711
-11 - Charge Score                      :     1
-12 - Local hydrophobic density Score   : 5.0000
-13 - Number of apolar alpha sphere     :     6
-14 - Proportion of apolar alpha sphere : 0.3750
+8  - Amino Acid based volume Score     : 3.5714
+9  - Pocket volume (Monte Carlo)       : 302.2091
+10  -Pocket volume (convex hull)       : 7.3524
+11 - Charge Score                      :    -4
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.1765
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    21014    C  CG2 .  THR   H .   28 ?   11.123  -2.705 -48.023  0.00  0   H
-ATOM     7534    O    O .  ASN   B .  397 ?   12.298   0.801 -42.790 -1.07  0   B
-ATOM     7536    C   CG .  ASN   B .  397 ?    8.696   1.658 -42.851  0.00  0   B
-ATOM     7537    O  OD1 .  ASN   B .  397 ?    7.800   0.992 -42.313 -2.28  0   B
-ATOM     7551    C   CB .  SER   B .  399 ?   13.399  -3.782 -44.780  0.00  0   B
-ATOM     7552    O   OG .  SER   B .  399 ?   13.645  -2.729 -45.666  0.00  0   B
-ATOM     7263    C   CB .  SER   B .  360 ?   11.141  -3.612 -39.367  0.00  0   B
-ATOM     7532    C   CA .  ASN   B .  397 ?   10.488   0.883 -41.224  0.00  0   B
-ATOM     7538    N  ND2 .  ASN   B .  397 ?    8.625   2.077 -44.124  0.00  0   B
-ATOM     7264    O   OG .  SER   B .  360 ?    9.861  -3.657 -38.800  0.00  0   B
-ATOM     7533    C    C .  ASN   B .  397 ?   11.886   0.483 -41.680  0.00  0   B
-ATOM     7547    N    N .  SER   B .  399 ?   14.065  -2.197 -42.981  0.00  0   B
-ATOM     7541    C    C .  ILE   B .  398 ?   13.940  -2.029 -41.671  0.00  0   B
-ATOM     7435    N   NZ .  LYS   B .  382 ?   12.995   1.467 -46.999 -4.37  0   B
+ATOM    15754    C   CB .  GLU   D .  445 ?  -54.256   2.277 -36.535  0.00  0   D
+ATOM    12758    C   CA .  PRO   D .   63 ?  -49.167   0.474 -33.830  0.00  0   D
+ATOM    12752    O    O .  ASN   D .   62 ?  -48.000   2.441 -32.198  0.00  0   D
+ATOM    15757    O  OE1 .  GLU   D .  445 ?  -54.406   0.065 -34.847 -2.69  0   D
+ATOM    15752    C    C .  GLU   D .  445 ?  -53.808   4.704 -36.970  0.00  0   D
+ATOM    12748    O  OE2 .  GLU   D .   61 ?  -50.364   4.420 -37.297  0.00  0   D
+ATOM    12762    C   CG .  PRO   D .   63 ?  -49.491   0.995 -36.140  0.00  0   D
+ATOM    12757    N    N .  PRO   D .   63 ?  -48.232   1.531 -34.260  0.00  0   D
+ATOM    12751    C    C .  ASN   D .   62 ?  -47.680   2.405 -33.389  0.00  0   D
+ATOM    12745    C   CG .  GLU   D .   61 ?  -49.389   6.592 -37.169  0.00  0   D
+ATOM    12735    O    O .  ILE   D .   60 ?  -48.079   8.894 -33.722 -1.21  0   D
+ATOM    12719    O    O .  ASP   D .   58 ?  -50.128  11.952 -32.545  0.00  0   D
+ATOM    15753    O    O .  GLU   D .  445 ?  -53.928   5.722 -37.655  0.00  0   D
+ATOM    12727    O    O .  ASP   D .   59 ?  -47.509  11.615 -35.768 -0.40  0   D
+ATOM    12749    N    N .  ASN   D .   62 ?  -47.247   4.669 -34.336 -5.47  0   D
+ATOM    12741    C   CA .  GLU   D .   61 ?  -47.460   6.816 -35.471  0.00  0   D
 # 

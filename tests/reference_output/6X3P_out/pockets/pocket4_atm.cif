@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket     4:
-0  - Pocket Score                      : 0.0984
-1  - Drug Score                        : 0.0032
-2  - Number of alpha spheres           :    32
-3  - Mean alpha-sphere radius          : 3.7394
-4  - Mean alpha-sphere Solvent Acc.    : 0.4127
-5  - Mean B-factor of pocket residues  : 0.5006
+0  - Pocket Score                      : 0.1288
+1  - Drug Score                        : 0.0059
+2  - Number of alpha spheres           :    38
+3  - Mean alpha-sphere radius          : 3.7299
+4  - Mean alpha-sphere Solvent Acc.    : 0.4251
+5  - Mean B-factor of pocket residues  : 0.1405
 6  - Hydrophobicity Score              : 36.9000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.1000
-9  - Pocket volume (Monte Carlo)       : 165.5636
-10  -Pocket volume (convex hull)       : 2.4657
+9  - Pocket volume (Monte Carlo)       : 178.2838
+10  -Pocket volume (convex hull)       : 3.4139
 11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 8.2000
-13 - Number of apolar alpha sphere     :    10
-14 - Proportion of apolar alpha sphere : 0.3125
+12 - Local hydrophobic density Score   : 12.4286
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.3684
 # 
 loop_
 _atom_site.group_PDB
@@ -41,21 +41,22 @@ _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
 ATOM      844    O  OG1 .  THR   A .  107 ?  -24.854  27.365 -31.682  0.00  0   A
 ATOM     2197    C   CB .  GLU   A .  270 ?  -30.440  30.926 -30.068  0.00  0   A
-ATOM     2202    N    N .  SER   A .  271 ?  -30.375  29.283 -32.669 -1.09  0   A
+ATOM     2202    N    N .  SER   A .  271 ?  -30.375  29.283 -32.669 -2.35  0   A
 ATOM      847    C   CA .  GLN   A .  108 ?  -27.371  23.783 -30.382  0.00  0   A
 ATOM      879    C  CD2 .  LEU   A .  111 ?  -29.264  26.781 -25.839  0.00  0   A
 ATOM      846    N    N .  GLN   A .  108 ?  -26.151  24.430 -30.889 -1.09  0   A
 ATOM      842    O    O .  THR   A .  107 ?  -25.305  24.780 -28.863 -1.07  0   A
 ATOM     1627    O   OH .  TYR   A .  203 ?  -25.032  26.799 -25.980 -2.14  0   A
 ATOM     2200    O  OE1 .  GLU   A .  270 ?  -28.466  32.151 -28.470 -3.21  0   A
-ATOM     2195    C    C .  GLU   A .  270 ?  -31.354  29.258 -31.734  0.00  0   A
 ATOM     2196    O    O .  GLU   A .  270 ?  -32.003  28.254 -31.462 -2.14  0   A
+ATOM     2195    C    C .  GLU   A .  270 ?  -31.354  29.258 -31.734  0.00  0   A
 ATOM     1924    C  CG2 .  VAL   A .  238 ?  -26.210  30.252 -25.205  0.00  0   A
-ATOM     2169    C   CA .  MET   A .  267 ?  -33.053  27.024 -27.293  0.00  0   A
-ATOM     2173    C   CG .  MET   A .  267 ?  -32.166  25.011 -26.073  0.00  0   A
 ATOM      851    C   CG .  GLN   A .  108 ?  -29.537  22.622 -31.286  0.00  0   A
-ATOM     2172    C   CB .  MET   A .  267 ?  -33.343  25.624 -26.735  0.00  0   A
+ATOM      850    C   CB .  GLN   A .  108 ?  -28.251  23.396 -31.597  0.00  0   A
+ATOM     2169    C   CA .  MET   A .  267 ?  -33.053  27.024 -27.293  0.00  0   A
 ATOM     2171    O    O .  MET   A .  267 ?  -34.001  27.247 -29.486 -4.29  0   A
+ATOM     2173    C   CG .  MET   A .  267 ?  -32.166  25.011 -26.073  0.00  0   A
+ATOM     2172    C   CB .  MET   A .  267 ?  -33.343  25.624 -26.735  0.00  0   A
 ATOM     1625    C  CE2 .  TYR   A .  203 ?  -22.834  27.537 -26.569  0.00  0   A
 ATOM     1884    O    O .  LEU   A .  233 ?  -21.444  29.929 -28.946 -2.95  0   A
 ATOM     1894    N    N .  SER   A .  235 ?  -23.383  32.677 -27.416 -1.09  0   A

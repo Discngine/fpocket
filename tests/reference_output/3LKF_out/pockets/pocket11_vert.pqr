@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0927
+HEADER 1  - Drug Score                        : 0.0344
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8829
+HEADER 4  - Mean alpha-sphere SA              : 0.4585
+HEADER 5  - Mean B-factor                     : 0.3210
+HEADER 6  - Hydrophobicity Score              : 16.1111
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.5556
+HEADER 9  - Real volume (approximation)       : 274.1165
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 11.0000
+HEADER 12 - Number of apolar alpha sphere     :    12
+HEADER 13 - Proportion of apolar alpha sphere : 0.6000
+ATOM      1    C STP    11      21.908  31.055  67.757    0.00     3.47
+ATOM      2    O STP    11      19.499  35.206  67.809    0.00     3.55
+ATOM      3    C STP    11      21.527  32.154  67.579    0.00     3.91
+ATOM      4    O STP    11      22.600  32.585  69.609    0.00     3.46
+ATOM      5    C STP    11      22.783  33.044  68.306    0.00     4.17
+ATOM      6    C STP    11      22.266  32.431  68.120    0.00     3.94
+ATOM      7    O STP    11      23.898  33.392  70.566    0.00     3.99
+ATOM      8    O STP    11      19.479  33.008  65.503    0.00     3.53
+ATOM      9    O STP    11      20.684  34.901  66.897    0.00     4.39
+ATOM     10    C STP    11      21.349  33.056  67.002    0.00     4.19
+ATOM     11    C STP    11      22.508  34.312  67.323    0.00     4.59
+ATOM     12    C STP    11      22.083  33.908  67.274    0.00     4.44
+ATOM     13    O STP    11      20.339  30.719  67.366    0.00     3.43
+ATOM     14    C STP    11      20.945  31.944  67.440    0.00     3.80
+ATOM     15    C STP    11      19.887  31.894  66.230    0.00     3.48
+ATOM     16    C STP    11      20.426  33.848  66.761    0.00     4.13
+ATOM     17    C STP    11      20.897  32.958  66.857    0.00     4.13
+ATOM     18    O STP    11      19.723  32.856  65.919    0.00     3.73
+ATOM     19    C STP    11      20.109  32.578  66.135    0.00     3.79
+ATOM     20    O STP    11      19.428  32.688  65.853    0.00     3.56
+TER
+END

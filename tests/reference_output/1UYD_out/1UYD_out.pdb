@@ -1,7 +1,7 @@
 ATOM      1    N GLU A  16       6.484  28.442  39.441  0.00  0.00           N 0
 ATOM      2   CA GLU A  16       7.718  28.546  38.611  0.00  0.00           C 0
 ATOM      3    C GLU A  16       7.625  27.706  37.277  0.00  0.00           C 0
-ATOM      4    O GLU A  16       7.333  26.478  37.304  0.32  2.14           O 0
+ATOM      4    O GLU A  16       7.333  26.478  37.304  0.27  3.21           O 0
 ATOM      5   CB GLU A  16       8.951  28.140  39.474  0.00  0.00           C 0
 ATOM      6   CG GLU A  16       9.355  26.647  39.367  0.00  0.00           C 0
 ATOM      7   CD GLU A  16      10.138  26.088  40.562  0.00  0.00           C 0
@@ -10,7 +10,7 @@ ATOM      9  OE2 GLU A  16       9.875  24.900  40.943  0.00  0.00           O 0
 ATOM     10    N VAL A  17       7.856  28.355  36.137  0.65  4.37           N 0
 ATOM     11   CA VAL A  17       8.110  27.634  34.889  0.00  0.00           C 0
 ATOM     12    C VAL A  17       9.523  27.050  34.954  0.00  0.00           C 0
-ATOM     13    O VAL A  17      10.499  27.794  35.209  0.00  0.00           O 0
+ATOM     13    O VAL A  17      10.499  27.794  35.209  0.46  9.64           O 0
 ATOM     14   CB VAL A  17       7.967  28.556  33.636  0.00  0.00           C 0
 ATOM     15  CG1 VAL A  17       8.234  27.763  32.310  0.00  0.00           C 0
 ATOM     16  CG2 VAL A  17       6.598  29.245  33.609  0.00  0.00           C 0
@@ -553,7 +553,7 @@ ATOM    552   CB LYS A  84      -9.155  30.393  11.757  0.00  0.00           C 0
 ATOM    553   CG LYS A  84      -9.184  29.350  10.611  0.00  0.00           C 0
 ATOM    554   CD LYS A  84     -10.564  29.203   9.966  0.00  0.00           C 0
 ATOM    555   CE LYS A  84     -10.617  28.047   8.968  0.00  0.00           C 0
-ATOM    556   NZ LYS A  84     -10.127  28.466   7.603  0.37  5.47           N 0
+ATOM    556   NZ LYS A  84     -10.127  28.466   7.603  0.00  5.47           N 0
 ATOM    557    N GLN A  85      -8.405  31.761  14.594  0.00  0.00           N 0
 ATOM    558   CA GLN A  85      -8.030  32.999  15.250  0.00  0.00           C 0
 ATOM    559    C GLN A  85      -6.741  32.870  16.076  0.00  0.00           C 0
@@ -580,8 +580,8 @@ ATOM    579   CG ARG A  87      -2.439  29.588  12.535  0.00  0.00           C 0
 ATOM    580   CD ARG A  87      -1.024  29.781  12.216  0.00  0.00           C 0
 ATOM    581   NE ARG A  87      -0.749  31.111  11.680  0.24  2.19           N 0
 ATOM    582   CZ ARG A  87       0.454  31.713  11.756  0.00  0.00           C 0
-ATOM    583  NH1 ARG A  87       1.503  31.117  12.350  0.41  2.19           N 0
-ATOM    584  NH2 ARG A  87       0.614  32.921  11.229  0.09  5.47           N 0
+ATOM    583  NH1 ARG A  87       1.503  31.117  12.350  0.00  0.00           N 0
+ATOM    584  NH2 ARG A  87       0.614  32.921  11.229  0.09  7.66           N 0
 ATOM    585    N THR A  88      -4.532  27.404  15.850  0.00  0.00           N 0
 ATOM    586   CA THR A  88      -4.198  26.208  16.584  0.00  0.00           C 0
 ATOM    587    C THR A  88      -5.071  25.080  16.134  0.00  0.00           C 0
@@ -763,7 +763,7 @@ ATOM    762   NZ LYS A 112      21.607   8.008  25.890  0.00  0.00           N 0
 ATOM    763    N SER A 113      15.789   5.150  22.428  0.44  1.09           N 0
 ATOM    764   CA SER A 113      16.055   4.025  21.526  0.00  0.00           C 0
 ATOM    765    C SER A 113      15.215   4.001  20.212  0.00  0.00           C 0
-ATOM    766    O SER A 113      15.737   3.621  19.139  0.39  1.07           O 0
+ATOM    766    O SER A 113      15.737   3.621  19.139  0.73  1.07           O 0
 ATOM    767   CB SER A 113      15.982   2.688  22.265  0.00  0.00           C 0
 ATOM    768   OG SER A 113      14.665   2.361  22.677  0.00  0.00           O 0
 ATOM    769    N GLY A 114      13.930   4.387  20.291  0.41  2.19           N 0
@@ -805,7 +805,7 @@ ATOM    804   CZ PHE A 118      11.073   9.173  11.107  0.00  0.00           C 0
 ATOM    805    N MET A 119      16.183   6.823  13.145  0.00  0.00           N 0
 ATOM    806   CA MET A 119      17.225   7.512  12.401  0.00  0.00           C 0
 ATOM    807    C MET A 119      18.017   6.580  11.507  0.00  0.00           C 0
-ATOM    808    O MET A 119      18.239   6.888  10.339  0.59  1.07           O 0
+ATOM    808    O MET A 119      18.239   6.888  10.339  0.60  1.07           O 0
 ATOM    809   CB MET A 119      18.047   8.438  13.304  0.00  0.00           C 0
 ATOM    810   CG MET A 119      17.406   9.804  13.159  0.00  0.00           C 0
 ATOM    811   SD MET A 119      17.851  11.068  14.259  0.00  0.00           S 0
@@ -813,11 +813,11 @@ ATOM    812   CE MET A 119      18.896  12.204  13.031  0.00  0.00           C 0
 ATOM    813    N GLU A 120      18.338   5.404  12.039  0.00  0.00           N 0
 ATOM    814   CA GLU A 120      18.941   4.316  11.259  0.00  0.00           C 0
 ATOM    815    C GLU A 120      18.115   3.858  10.068  0.00  0.00           C 0
-ATOM    816    O GLU A 120      18.674   3.618   8.994  0.58  3.21           O 0
+ATOM    816    O GLU A 120      18.674   3.618   8.994  0.53  5.36           O 0
 ATOM    817   CB GLU A 120      19.237   3.104  12.146  0.00  0.00           C 0
 ATOM    818   CG GLU A 120      20.403   3.337  13.075  0.00  0.00           C 0
 ATOM    819   CD GLU A 120      20.806   2.092  13.835  0.00  0.00           C 0
-ATOM    820  OE1 GLU A 120      19.956   1.164  14.024  0.56  9.64           O 0
+ATOM    820  OE1 GLU A 120      19.956   1.164  14.024  0.00  0.00           O 0
 ATOM    821  OE2 GLU A 120      21.989   2.052  14.246  0.00  0.00           O 0
 ATOM    822    N ALA A 121      16.806   3.683  10.268  0.00  0.00           N 0
 ATOM    823   CA ALA A 121      15.901   3.220   9.202  0.00  0.00           C 0
@@ -839,7 +839,7 @@ ATOM    838    O GLN A 123      19.704   3.496   6.666  0.00  0.00           O 0
 ATOM    839   CB GLN A 123      20.591   6.207   6.709  0.00  0.00           C 0
 ATOM    840   CG GLN A 123      20.411   7.331   7.673  0.00  0.00           C 0
 ATOM    841   CD GLN A 123      21.740   7.846   8.175  0.00  0.00           C 0
-ATOM    842  OE1 GLN A 123      22.317   7.267   9.116  0.00  0.00           O 0
+ATOM    842  OE1 GLN A 123      22.317   7.267   9.116  0.48  8.57           O 0
 ATOM    843  NE2 GLN A 123      22.244   8.929   7.550  0.00  0.00           N 0
 ATOM    844    N ALA A 124      18.627   3.896   4.740  0.00  0.00           N 0
 ATOM    845   CA ALA A 124      18.224   2.536   4.426  0.00  0.00           C 0
@@ -1205,7 +1205,7 @@ ATOM   1204  CG2 THR A 171       9.908  26.194  29.049  0.00  0.00           C 0
 ATOM   1205    N VAL A 172       8.206  22.828  31.540  0.00  0.00           N 0
 ATOM   1206   CA VAL A 172       7.108  22.253  32.321  0.00  0.00           C 0
 ATOM   1207    C VAL A 172       6.724  23.222  33.485  0.00  0.00           C 0
-ATOM   1208    O VAL A 172       7.596  23.750  34.183  0.62  1.07           O 0
+ATOM   1208    O VAL A 172       7.596  23.750  34.183  0.76  1.07           O 0
 ATOM   1209   CB VAL A 172       7.529  20.864  32.925  0.00  0.00           C 0
 ATOM   1210  CG1 VAL A 172       6.460  20.343  33.886  0.00  0.00           C 0
 ATOM   1211  CG2 VAL A 172       7.852  19.835  31.806  0.00  0.00           C 0
@@ -1220,17 +1220,17 @@ ATOM   1219   NE ARG A 173       2.147  27.127  31.807  0.63  6.56           N 0
 ATOM   1220   CZ ARG A 173       0.805  27.006  31.932  0.00  0.00           C 0
 ATOM   1221  NH1 ARG A 173       0.238  26.926  33.135  0.44  2.19           N 0
 ATOM   1222  NH2 ARG A 173       0.041  26.956  30.843  0.53  4.37           N 0
-ATOM   1223    N THR A 174       3.248  23.560  36.507  0.56  1.09           N 0
+ATOM   1223    N THR A 174       3.248  23.560  36.507  0.00  0.00           N 0
 ATOM   1224   CA THR A 174       1.898  23.154  36.879  0.00  0.00           C 0
 ATOM   1225    C THR A 174       0.864  24.110  36.206  0.00  0.00           C 0
 ATOM   1226    O THR A 174       1.042  25.347  36.169  0.63  4.29           O 0
 ATOM   1227   CB THR A 174       1.701  23.100  38.398  0.00  0.00           C 0
-ATOM   1228  OG1 THR A 174       1.757  24.429  38.888  0.35  8.57           O 0
+ATOM   1228  OG1 THR A 174       1.757  24.429  38.888  0.61  8.57           O 0
 ATOM   1229  CG2 THR A 174       2.847  22.388  39.106  0.00  0.00           C 0
 ATOM   1230    N ASP A 175      -0.195  23.529  35.643  0.00  0.00           N 0
 ATOM   1231   CA ASP A 175      -1.191  24.317  34.919  0.00  0.00           C 0
 ATOM   1232    C ASP A 175      -2.283  24.776  35.893  0.00  0.00           C 0
-ATOM   1233    O ASP A 175      -2.967  23.964  36.554  0.34  7.50           O 0
+ATOM   1233    O ASP A 175      -2.967  23.964  36.554  0.52  6.43           O 0
 ATOM   1234   CB ASP A 175      -1.776  23.521  33.748  0.00  0.00           C 0
 ATOM   1235   CG ASP A 175      -2.626  24.378  32.797  0.00  0.00           C 0
 ATOM   1236  OD1 ASP A 175      -2.222  25.511  32.451  0.50  2.14           O 0
@@ -1238,18 +1238,18 @@ ATOM   1237  OD2 ASP A 175      -3.713  23.987  32.328  0.00  0.00           O 0
 ATOM   1238    N THR A 176      -2.425  26.091  35.987  0.00  0.00           N 0
 ATOM   1239   CA THR A 176      -3.520  26.665  36.759  0.00  0.00           C 0
 ATOM   1240    C THR A 176      -4.727  27.064  35.861  0.00  0.00           C 0
-ATOM   1241    O THR A 176      -5.738  27.556  36.386  0.00  0.00           O 0
+ATOM   1241    O THR A 176      -5.738  27.556  36.386  0.54  9.64           O 0
 ATOM   1242   CB THR A 176      -3.032  27.850  37.667  0.00  0.00           C 0
 ATOM   1243  OG1 THR A 176      -2.494  28.900  36.846  0.31  7.50           O 0
 ATOM   1244  CG2 THR A 176      -1.862  27.427  38.592  0.00  0.00           C 0
 ATOM   1245    N GLY A 177      -4.628  26.837  34.541  0.28  1.09           N 0
 ATOM   1246   CA GLY A 177      -5.755  26.984  33.627  0.00  0.00           C 0
 ATOM   1247    C GLY A 177      -6.997  26.168  34.002  0.00  0.00           C 0
-ATOM   1248    O GLY A 177      -7.087  25.609  35.109  0.40  4.29           O 0
+ATOM   1248    O GLY A 177      -7.087  25.609  35.109  0.58  3.21           O 0
 ATOM   1249    N GLU A 178      -7.967  26.111  33.085  0.00  0.00           N 0
 ATOM   1250   CA GLU A 178      -9.157  25.265  33.255  0.00  0.00           C 0
 ATOM   1251    C GLU A 178      -8.771  23.873  33.873  0.00  0.00           C 0
-ATOM   1252    O GLU A 178      -7.954  23.140  33.285  0.64  2.14           O 0
+ATOM   1252    O GLU A 178      -7.954  23.140  33.285  0.66  2.14           O 0
 ATOM   1253   CB GLU A 178      -9.877  25.079  31.919  0.00  0.00           C 0
 ATOM   1254   CG GLU A 178     -11.190  24.323  32.022  0.00  0.00           C 0
 ATOM   1255   CD GLU A 178     -12.297  25.159  32.633  0.00  0.00           C 0
@@ -1424,7 +1424,7 @@ ATOM   1423    O GLU A 199     -10.133  21.257   7.662  0.00  0.00           O 0
 ATOM   1424   CB GLU A 199      -9.608  23.763   5.933  0.00  0.00           C 0
 ATOM   1425   CG GLU A 199      -9.537  25.154   5.323  0.00  0.00           C 0
 ATOM   1426   CD GLU A 199      -8.730  25.094   4.024  0.00  0.00           C 0
-ATOM   1427  OE1 GLU A 199      -9.058  24.242   3.117  0.35  5.36           O 0
+ATOM   1427  OE1 GLU A 199      -9.058  24.242   3.117  0.00  0.00           O 0
 ATOM   1428  OE2 GLU A 199      -7.732  25.865   3.915  0.00  0.00           O 0
 ATOM   1429    N GLU A 200     -12.069  22.448   7.649  0.00  0.00           N 0
 ATOM   1430   CA GLU A 200     -12.880  21.303   8.052  0.00  0.00           C 0
@@ -1631,7 +1631,7 @@ ATOM   1631    O GLU A 223     -17.365  27.664  12.274  0.00  0.00           O 0
 ATOM   1632   CB GLU A 223     -14.450  27.765  13.143  0.00  0.00           C 0
 ATOM   1633   CG GLU A 223     -13.156  27.273  13.733  0.00  0.00           C 0
 ATOM   1634   CD GLU A 223     -12.051  28.292  13.569  0.00  0.00           C 0
-ATOM   1635  OE1 GLU A 223     -12.191  29.432  14.068  0.69  6.43           O 0
+ATOM   1635  OE1 GLU A 223     -12.191  29.432  14.068  0.68  7.50           O 0
 ATOM   1636  OE2 GLU A 223     -11.062  27.934  12.915  0.00  0.00           O 0
 ATOM   1637    N LYS A 224     -17.505  28.648  14.271  0.00  0.00           N 0
 ATOM   1638   CA LYS A 224     -16.885  29.440  15.328  0.00  0.00           C 0
@@ -1645,55 +1645,55 @@ ATOM   1645   NZ LYS A 224     -17.737  32.741  10.567  0.00  0.00           N 0
 HETATM    1 APOL STP C   1       7.785   6.838  24.439  0.00  0.00          Ve  
 HETATM    2 APOL STP C   1       5.774   9.979  23.751  0.00  0.00          Ve  
 HETATM    3 APOL STP C   1       4.349   9.667  23.812  0.00  0.00          Ve  
-HETATM    4 APOL STP C   1      -1.508  10.969  24.938  0.00  0.00          Ve  
-HETATM    5 APOL STP C   1       6.817   8.930  24.068  0.00  0.00          Ve  
+HETATM 2203  POL STP C   1      -1.508  10.969  24.938  0.00  0.00          Ve  
+HETATM 2695  POL STP C   1       6.817   8.930  24.068  0.00  0.00          Ve  
 HETATM    6 APOL STP C   1       5.854   9.885  23.690  0.00  0.00          Ve  
-HETATM    7 APOL STP C   1       4.623   9.304  23.580  0.00  0.00          Ve  
-HETATM    8 APOL STP C   1       7.615   6.878  24.306  0.00  0.00          Ve  
-HETATM    9 APOL STP C   1       7.083   7.215  24.474  0.00  0.00          Ve  
-HETATM   10 APOL STP C   1       3.114   6.284  29.706  0.00  0.00          Ve  
+HETATM 2695  POL STP C   1       4.623   9.304  23.580  0.00  0.00          Ve  
+HETATM 2695  POL STP C   1       7.615   6.878  24.306  0.00  0.00          Ve  
+HETATM 2695  POL STP C   1       7.083   7.215  24.474  0.00  0.00          Ve  
+HETATM 2721  POL STP C   1       3.114   6.284  29.706  0.00  0.00          Ve  
 HETATM   11 APOL STP C   1       6.727   6.176  30.320  0.00  0.00          Ve  
-HETATM   12 APOL STP C   1       6.590   4.208  31.665  0.00  0.00          Ve  
-HETATM   13 APOL STP C   1       4.754   4.946  29.971  0.00  0.00          Ve  
-HETATM   14 APOL STP C   1      13.912  14.330  27.259  0.00  0.00          Ve  
-HETATM   15 APOL STP C   1      16.020  12.287  30.152  0.00  0.00          Ve  
-HETATM   16 APOL STP C   1      16.084  11.656  30.325  0.00  0.00          Ve  
-HETATM   17 APOL STP C   1       8.887  11.600  24.709  0.00  0.00          Ve  
+HETATM 2721  POL STP C   1       6.590   4.208  31.665  0.00  0.00          Ve  
+HETATM 2723  POL STP C   1       4.754   4.946  29.971  0.00  0.00          Ve  
+HETATM 2738  POL STP C   1      13.912  14.330  27.259  0.00  0.00          Ve  
+HETATM 2738  POL STP C   1      16.020  12.287  30.152  0.00  0.00          Ve  
+HETATM 2738  POL STP C   1      16.084  11.656  30.325  0.00  0.00          Ve  
+HETATM 2790  POL STP C   1       8.887  11.600  24.709  0.00  0.00          Ve  
 HETATM   18 APOL STP C   1      -0.732  13.051  21.091  0.00  0.00          Ve  
 HETATM   19 APOL STP C   1      -0.386  13.047  21.225  0.00  0.00          Ve  
-HETATM   20 APOL STP C   1      -1.558  11.234  24.081  0.00  0.00          Ve  
-HETATM   21 APOL STP C   1      -1.802  11.344  23.665  0.00  0.00          Ve  
-HETATM   22 APOL STP C   1      -1.699  12.544  22.872  0.00  0.00          Ve  
-HETATM   23 APOL STP C   1      -1.739  12.698  22.218  0.00  0.00          Ve  
-HETATM   24 APOL STP C   1      -1.975  11.852  23.036  0.00  0.00          Ve  
+HETATM 2839  POL STP C   1      -1.558  11.234  24.081  0.00  0.00          Ve  
+HETATM 2841  POL STP C   1      -1.802  11.344  23.665  0.00  0.00          Ve  
+HETATM 3007  POL STP C   1      -1.699  12.544  22.872  0.00  0.00          Ve  
+HETATM 3007  POL STP C   1      -1.739  12.698  22.218  0.00  0.00          Ve  
+HETATM 3007  POL STP C   1      -1.975  11.852  23.036  0.00  0.00          Ve  
 HETATM   25 APOL STP C   1       0.563  12.588  23.454  0.00  0.00          Ve  
-HETATM   26 APOL STP C   1      -0.950  10.812  25.145  0.00  0.00          Ve  
+HETATM 3783  POL STP C   1      -0.950  10.812  25.145  0.00  0.00          Ve  
 HETATM   27 APOL STP C   1       0.277  13.297  21.360  0.00  0.00          Ve  
 HETATM   28 APOL STP C   1       0.736  12.678  23.430  0.00  0.00          Ve  
-HETATM   29 APOL STP C   1       0.753   6.534  22.979  0.00  0.00          Ve  
-HETATM   30 APOL STP C   1       0.730   6.506  22.916  0.00  0.00          Ve  
-HETATM   31 APOL STP C   1       1.477   7.589  24.040  0.00  0.00          Ve  
-HETATM   32 APOL STP C   1       0.889   7.396  23.257  0.00  0.00          Ve  
+HETATM 3822  POL STP C   1       0.753   6.534  22.979  0.00  0.00          Ve  
+HETATM 3822  POL STP C   1       0.730   6.506  22.916  0.00  0.00          Ve  
+HETATM 3822  POL STP C   1       1.477   7.589  24.040  0.00  0.00          Ve  
+HETATM 3822  POL STP C   1       0.889   7.396  23.257  0.00  0.00          Ve  
 HETATM   33 APOL STP C   1      11.631  14.628  26.606  0.00  0.00          Ve  
 HETATM   34 APOL STP C   1      12.945  13.969  25.376  0.00  0.00          Ve  
 HETATM   35 APOL STP C   1      13.913  14.874  26.698  0.00  0.00          Ve  
 HETATM   36 APOL STP C   1      13.708  14.441  26.773  0.00  0.00          Ve  
-HETATM   37 APOL STP C   1      13.827  14.182  26.170  0.00  0.00          Ve  
+HETATM 4283  POL STP C   1      13.827  14.182  26.170  0.00  0.00          Ve  
 HETATM   38 APOL STP C   1      13.822  14.141  26.067  0.00  0.00          Ve  
-HETATM   39 APOL STP C   1      13.857  14.157  26.064  0.00  0.00          Ve  
+HETATM 4283  POL STP C   1      13.857  14.157  26.064  0.00  0.00          Ve  
 HETATM   40 APOL STP C   1       7.381  10.470  21.326  0.00  0.00          Ve  
-HETATM   41 APOL STP C   1       7.972  11.066  23.806  0.00  0.00          Ve  
-HETATM   42 APOL STP C   1       8.295  11.024  23.750  0.00  0.00          Ve  
-HETATM   43 APOL STP C   1       7.478  10.337  23.282  0.00  0.00          Ve  
-HETATM   44 APOL STP C   1       7.280  10.418  23.358  0.00  0.00          Ve  
+HETATM 4872  POL STP C   1       7.972  11.066  23.806  0.00  0.00          Ve  
+HETATM 4872  POL STP C   1       8.295  11.024  23.750  0.00  0.00          Ve  
+HETATM 4872  POL STP C   1       7.478  10.337  23.282  0.00  0.00          Ve  
+HETATM 4872  POL STP C   1       7.280  10.418  23.358  0.00  0.00          Ve  
 HETATM   45 APOL STP C   1       7.156  10.473  23.341  0.00  0.00          Ve  
-HETATM   46 APOL STP C   1       8.724   6.926  23.719  0.00  0.00          Ve  
-HETATM   47 APOL STP C   1      16.251  10.521  30.258  0.00  0.00          Ve  
-HETATM   48 APOL STP C   1      16.016  10.444  30.032  0.00  0.00          Ve  
-HETATM   49 APOL STP C   1      16.674  10.615  30.805  0.00  0.00          Ve  
-HETATM   50 APOL STP C   1      16.395   8.912  33.152  0.00  0.00          Ve  
-HETATM   51 APOL STP C   1      15.810   9.633  32.174  0.00  0.00          Ve  
-HETATM   52 APOL STP C   1      17.109  10.453  31.017  0.00  0.00          Ve  
+HETATM 4886  POL STP C   1       8.724   6.926  23.719  0.00  0.00          Ve  
+HETATM 5071  POL STP C   1      16.251  10.521  30.258  0.00  0.00          Ve  
+HETATM 5071  POL STP C   1      16.016  10.444  30.032  0.00  0.00          Ve  
+HETATM 5071  POL STP C   1      16.674  10.615  30.805  0.00  0.00          Ve  
+HETATM 5071  POL STP C   1      16.395   8.912  33.152  0.00  0.00          Ve  
+HETATM 5071  POL STP C   1      15.810   9.633  32.174  0.00  0.00          Ve  
+HETATM 5072  POL STP C   1      17.109  10.453  31.017  0.00  0.00          Ve  
 HETATM   53 APOL STP C   1       1.424  11.066  24.202  0.00  0.00          Ve  
 HETATM   54 APOL STP C   1       2.034   9.777  24.491  0.00  0.00          Ve  
 HETATM   55 APOL STP C   1       3.535  10.777  24.109  0.00  0.00          Ve  
@@ -1705,31 +1705,31 @@ HETATM   60 APOL STP C   1       1.463  14.193  23.946  0.00  0.00          Ve
 HETATM   61 APOL STP C   1       3.864  14.031  24.821  0.00  0.00          Ve  
 HETATM   62 APOL STP C   1       0.172  12.525  23.583  0.00  0.00          Ve  
 HETATM   63 APOL STP C   1      -1.579  12.507  23.063  0.00  0.00          Ve  
-HETATM   64 APOL STP C   1      -1.912  11.626  24.998  0.00  0.00          Ve  
-HETATM   65 APOL STP C   1      -0.989  11.052  24.874  0.00  0.00          Ve  
+HETATM 5253  POL STP C   1      -1.912  11.626  24.998  0.00  0.00          Ve  
+HETATM 5253  POL STP C   1      -0.989  11.052  24.874  0.00  0.00          Ve  
 HETATM   66 APOL STP C   1      -0.879  11.128  24.694  0.00  0.00          Ve  
-HETATM   67 APOL STP C   1      -1.354  11.116  24.781  0.00  0.00          Ve  
-HETATM   68 APOL STP C   1      -1.288  11.285  24.407  0.00  0.00          Ve  
-HETATM   69 APOL STP C   1      -1.482  10.096  27.670  0.00  0.00          Ve  
-HETATM   70 APOL STP C   1       1.783   6.931  28.759  0.00  0.00          Ve  
-HETATM   71 APOL STP C   1       1.714   6.908  28.614  0.00  0.00          Ve  
-HETATM   72 APOL STP C   1      15.581  12.421  30.019  0.00  0.00          Ve  
-HETATM   73 APOL STP C   1      15.750  12.621  30.007  0.00  0.00          Ve  
-HETATM   74 APOL STP C   1      16.662  14.424  30.372  0.00  0.00          Ve  
-HETATM   75 APOL STP C   1      14.219  12.652  28.837  0.00  0.00          Ve  
-HETATM   76 APOL STP C   1      14.087  14.330  27.578  0.00  0.00          Ve  
-HETATM   77 APOL STP C   1      14.631  14.244  28.046  0.00  0.00          Ve  
-HETATM   78 APOL STP C   1      13.939  14.281  27.501  0.00  0.00          Ve  
-HETATM   79 APOL STP C   1      14.756  14.840  28.269  0.00  0.00          Ve  
-HETATM   80 APOL STP C   1      15.299  14.577  28.703  0.00  0.00          Ve  
-HETATM   81 APOL STP C   1      16.054  10.122  29.656  0.00  0.00          Ve  
-HETATM   82 APOL STP C   1      16.456   9.802  29.471  0.00  0.00          Ve  
+HETATM 5253  POL STP C   1      -1.354  11.116  24.781  0.00  0.00          Ve  
+HETATM 5253  POL STP C   1      -1.288  11.285  24.407  0.00  0.00          Ve  
+HETATM 5731  POL STP C   1      -1.482  10.096  27.670  0.00  0.00          Ve  
+HETATM 5734  POL STP C   1       1.783   6.931  28.759  0.00  0.00          Ve  
+HETATM 5734  POL STP C   1       1.714   6.908  28.614  0.00  0.00          Ve  
+HETATM 6139  POL STP C   1      15.581  12.421  30.019  0.00  0.00          Ve  
+HETATM 6139  POL STP C   1      15.750  12.621  30.007  0.00  0.00          Ve  
+HETATM 6139  POL STP C   1      16.662  14.424  30.372  0.00  0.00          Ve  
+HETATM 6140  POL STP C   1      14.219  12.652  28.837  0.00  0.00          Ve  
+HETATM 6141  POL STP C   1      14.087  14.330  27.578  0.00  0.00          Ve  
+HETATM 6141  POL STP C   1      14.631  14.244  28.046  0.00  0.00          Ve  
+HETATM 6141  POL STP C   1      13.939  14.281  27.501  0.00  0.00          Ve  
+HETATM 6145  POL STP C   1      14.756  14.840  28.269  0.00  0.00          Ve  
+HETATM 6145  POL STP C   1      15.299  14.577  28.703  0.00  0.00          Ve  
+HETATM 6388  POL STP C   1      16.054  10.122  29.656  0.00  0.00          Ve  
+HETATM 6390  POL STP C   1      16.456   9.802  29.471  0.00  0.00          Ve  
 HETATM   83 APOL STP C   1      16.445   9.833  29.519  0.00  0.00          Ve  
 HETATM   84 APOL STP C   1      16.465   9.812  29.510  0.00  0.00          Ve  
 HETATM   85 APOL STP C   1       1.618   7.073  28.344  0.00  0.00          Ve  
 HETATM   86 APOL STP C   1      -0.008   8.421  27.485  0.00  0.00          Ve  
-HETATM   87 APOL STP C   1       1.812   7.179  28.734  0.00  0.00          Ve  
-HETATM   88 APOL STP C   1      -1.242  10.098  27.540  0.00  0.00          Ve  
+HETATM 6500  POL STP C   1       1.812   7.179  28.734  0.00  0.00          Ve  
+HETATM 6500  POL STP C   1      -1.242  10.098  27.540  0.00  0.00          Ve  
 HETATM   89 APOL STP C   1      -0.795  10.331  26.577  0.00  0.00          Ve  
 HETATM   90 APOL STP C   1      -0.351  10.061  26.183  0.00  0.00          Ve  
 HETATM   91 APOL STP C   1       5.216  14.534  25.639  0.00  0.00          Ve  
@@ -1760,263 +1760,321 @@ HETATM  115 APOL STP C   1       1.551  14.776  24.130  0.00  0.00          Ve
 HETATM  116 APOL STP C   1       1.848  14.707  24.298  0.00  0.00          Ve  
 HETATM  117 APOL STP C   1       4.926  15.350  25.662  0.00  0.00          Ve  
 HETATM  118 APOL STP C   1       6.620  14.280  27.401  0.00  0.00          Ve  
-HETATM  119 APOL STP C   1      10.896  15.156  26.541  0.00  0.00          Ve  
-HETATM  120 APOL STP C   1      10.721  14.194  26.674  0.00  0.00          Ve  
-HETATM  121 APOL STP C   1      11.490  13.931  27.857  0.00  0.00          Ve  
-HETATM  122 APOL STP C   1      11.366  14.623  26.733  0.00  0.00          Ve  
-HETATM  123 APOL STP C   1       9.184  13.635  26.450  0.00  0.00          Ve  
-HETATM  124 APOL STP C   1      11.789  14.458  27.414  0.00  0.00          Ve  
-HETATM  125 APOL STP C   1      11.772  14.543  27.511  0.00  0.00          Ve  
-HETATM  126 APOL STP C   1      10.363  15.394  26.388  0.00  0.00          Ve  
-HETATM  127 APOL STP C   1      10.557  15.655  26.584  0.00  0.00          Ve  
-HETATM  128 APOL STP C   1       6.897  14.234  25.492  0.00  0.00          Ve  
-HETATM  129 APOL STP C   1       7.349  14.139  25.864  0.00  0.00          Ve  
-HETATM  130 APOL STP C   1       7.403  14.166  26.142  0.00  0.00          Ve  
-HETATM  131 APOL STP C   1       7.664  14.151  26.041  0.00  0.00          Ve  
-HETATM  132 APOL STP C   1       6.658  14.520  26.744  0.00  0.00          Ve  
+HETATM10334  POL STP C   1      10.896  15.156  26.541  0.00  0.00          Ve  
+HETATM10334  POL STP C   1      10.721  14.194  26.674  0.00  0.00          Ve  
+HETATM10334  POL STP C   1      11.490  13.931  27.857  0.00  0.00          Ve  
+HETATM10336  POL STP C   1      11.366  14.623  26.733  0.00  0.00          Ve  
+HETATM10336  POL STP C   1       9.184  13.635  26.450  0.00  0.00          Ve  
+HETATM10337  POL STP C   1      11.789  14.458  27.414  0.00  0.00          Ve  
+HETATM10337  POL STP C   1      11.772  14.543  27.511  0.00  0.00          Ve  
+HETATM10657  POL STP C   1      10.363  15.394  26.388  0.00  0.00          Ve  
+HETATM10658  POL STP C   1      10.557  15.655  26.584  0.00  0.00          Ve  
+HETATM10659  POL STP C   1       6.897  14.234  25.492  0.00  0.00          Ve  
+HETATM10659  POL STP C   1       7.349  14.139  25.864  0.00  0.00          Ve  
+HETATM10659  POL STP C   1       7.403  14.166  26.142  0.00  0.00          Ve  
+HETATM10659  POL STP C   1       7.664  14.151  26.041  0.00  0.00          Ve  
+HETATM10659  POL STP C   1       6.658  14.520  26.744  0.00  0.00          Ve  
 HETATM  133 APOL STP C   1       5.424  15.941  26.511  0.00  0.00          Ve  
 HETATM  134 APOL STP C   1       5.487  15.835  26.436  0.00  0.00          Ve  
 HETATM  135 APOL STP C   1       7.227  14.775  25.129  0.00  0.00          Ve  
-HETATM  136 APOL STP C   1       7.217  14.760  25.143  0.00  0.00          Ve  
-HETATM  137 APOL STP C   1       7.249  14.785  25.136  0.00  0.00          Ve  
+HETATM11169  POL STP C   1       7.217  14.760  25.143  0.00  0.00          Ve  
+HETATM11169  POL STP C   1       7.249  14.785  25.136  0.00  0.00          Ve  
 HETATM  138 APOL STP C   1       5.482  15.772  26.370  0.00  0.00          Ve  
 HETATM  139 APOL STP C   1       5.091  15.244  25.653  0.00  0.00          Ve  
 HETATM  140 APOL STP C   1       5.067  15.273  25.656  0.00  0.00          Ve  
 HETATM  141 APOL STP C   1       5.814  14.647  25.758  0.00  0.00          Ve  
 HETATM  142 APOL STP C   1       5.861  14.632  25.749  0.00  0.00          Ve  
 HETATM  143 APOL STP C   1       5.829  14.647  25.770  0.00  0.00          Ve  
-HETATM    1 APOL STP C   2      -3.991   5.938  38.283  0.00  0.00          Ve  
-HETATM    2 APOL STP C   2      -3.568   5.524  37.917  0.00  0.00          Ve  
+HETATM 2141  POL STP C   2      -3.991   5.938  38.283  0.00  0.00          Ve  
+HETATM 2690  POL STP C   2      -3.568   5.524  37.917  0.00  0.00          Ve  
 HETATM    3 APOL STP C   2      -3.931   5.923  38.105  0.00  0.00          Ve  
 HETATM    4 APOL STP C   2      -4.180   5.886  37.623  0.00  0.00          Ve  
-HETATM    5 APOL STP C   2      -4.420   5.879  37.503  0.00  0.00          Ve  
-HETATM    6 APOL STP C   2      -4.377   6.059  37.115  0.00  0.00          Ve  
-HETATM    7 APOL STP C   2      -7.842   6.647  41.105  0.00  0.00          Ve  
-HETATM    8 APOL STP C   2      -7.652   7.448  41.790  0.00  0.00          Ve  
-HETATM    9 APOL STP C   2      -4.666   6.404  35.706  0.00  0.00          Ve  
+HETATM 2692  POL STP C   2      -4.420   5.879  37.503  0.00  0.00          Ve  
+HETATM 2692  POL STP C   2      -4.377   6.059  37.115  0.00  0.00          Ve  
+HETATM 2692  POL STP C   2      -7.842   6.647  41.105  0.00  0.00          Ve  
+HETATM 2692  POL STP C   2      -7.652   7.448  41.790  0.00  0.00          Ve  
+HETATM 3550  POL STP C   2      -4.666   6.404  35.706  0.00  0.00          Ve  
 HETATM   10 APOL STP C   2      -5.556   6.104  39.988  0.00  0.00          Ve  
-HETATM   11 APOL STP C   2      -6.919   6.642  41.684  0.00  0.00          Ve  
-HETATM   12 APOL STP C   2      -6.980   6.668  41.645  0.00  0.00          Ve  
-HETATM   13 APOL STP C   2      -6.526   5.836  41.929  0.00  0.00          Ve  
-HETATM   14 APOL STP C   2      -6.378   5.700  41.831  0.00  0.00          Ve  
-HETATM   15 APOL STP C   2      -7.822   6.625  41.102  0.00  0.00          Ve  
-HETATM   16 APOL STP C   2      -7.825   7.749  41.660  0.00  0.00          Ve  
-HETATM   17 APOL STP C   2      -8.100   8.674  42.098  0.00  0.00          Ve  
-HETATM   18 APOL STP C   2      -8.659   9.530  41.927  0.00  0.00          Ve  
-HETATM   19 APOL STP C   2      -8.737  12.631  40.804  0.00  0.00          Ve  
-HETATM   20 APOL STP C   2     -11.049  12.429  41.049  0.00  0.00          Ve  
-HETATM   21 APOL STP C   2     -11.267  12.028  41.036  0.00  0.00          Ve  
-HETATM   22 APOL STP C   2     -10.890  12.386  41.380  0.00  0.00          Ve  
-HETATM   23 APOL STP C   2      -9.951  10.626  40.848  0.00  0.00          Ve  
-HETATM   24 APOL STP C   2     -10.041   9.901  40.431  0.00  0.00          Ve  
-HETATM    1 APOL STP C   3     -13.394   8.035  11.699  0.00  0.00          Ve  
-HETATM    2 APOL STP C   3     -13.866   8.149  12.756  0.00  0.00          Ve  
-HETATM    3 APOL STP C   3     -13.235   6.985  13.878  0.00  0.00          Ve  
-HETATM    4 APOL STP C   3     -13.396  13.376  12.554  0.00  0.00          Ve  
-HETATM    5 APOL STP C   3     -14.773   7.681  13.727  0.00  0.00          Ve  
-HETATM    6 APOL STP C   3     -14.552   8.323  12.854  0.00  0.00          Ve  
-HETATM    7 APOL STP C   3     -14.690   7.717  13.852  0.00  0.00          Ve  
-HETATM    8 APOL STP C   3     -13.947  10.342   9.126  0.00  0.00          Ve  
-HETATM    9 APOL STP C   3     -12.889   8.488   9.768  0.00  0.00          Ve  
-HETATM   10 APOL STP C   3     -14.059  10.991   9.026  0.00  0.00          Ve  
-HETATM   11 APOL STP C   3     -12.850  13.648  12.578  0.00  0.00          Ve  
-HETATM   12 APOL STP C   3     -12.635  13.830  12.726  0.00  0.00          Ve  
-HETATM   13 APOL STP C   3     -15.321  12.050   6.421  0.00  0.00          Ve  
-HETATM   14 APOL STP C   3     -15.149  12.299   5.990  0.00  0.00          Ve  
-HETATM   15 APOL STP C   3     -14.138  13.128   4.148  0.00  0.00          Ve  
-HETATM   16 APOL STP C   3     -13.842  12.966   4.202  0.00  0.00          Ve  
-HETATM   17 APOL STP C   3     -14.202  12.998   4.431  0.00  0.00          Ve  
-HETATM   18 APOL STP C   3     -15.071  12.945  11.123  0.00  0.00          Ve  
-HETATM   19 APOL STP C   3     -15.181  12.284   7.101  0.00  0.00          Ve  
-HETATM   20 APOL STP C   3     -14.069  13.525  10.889  0.00  0.00          Ve  
-HETATM   21 APOL STP C   3     -14.486  12.345   9.698  0.00  0.00          Ve  
-HETATM   22 APOL STP C   3     -15.581  11.691   7.702  0.00  0.00          Ve  
-HETATM   23 APOL STP C   3     -13.744  12.589   9.720  0.00  0.00          Ve  
-HETATM   24 APOL STP C   3     -13.903  13.601  10.918  0.00  0.00          Ve  
-HETATM   25 APOL STP C   3     -13.004  13.765  11.916  0.00  0.00          Ve  
-HETATM   26 APOL STP C   3     -12.804  14.399  11.014  0.00  0.00          Ve  
-HETATM   27 APOL STP C   3     -14.691   7.701  13.857  0.00  0.00          Ve  
-HETATM   28 APOL STP C   3     -14.353   7.367  13.918  0.00  0.00          Ve  
-HETATM   29 APOL STP C   3     -14.766   7.663  13.746  0.00  0.00          Ve  
-HETATM   30 APOL STP C   3     -13.822  14.302  10.714  0.00  0.00          Ve  
-HETATM   31 APOL STP C   3     -12.793  14.411  11.014  0.00  0.00          Ve  
-HETATM    1 APOL STP C   4      16.547  23.639  13.890  0.00  0.00          Ve  
-HETATM    2 APOL STP C   4      16.092  23.630  14.033  0.00  0.00          Ve  
-HETATM    3 APOL STP C   4      15.859  23.404  14.170  0.00  0.00          Ve  
-HETATM    4 APOL STP C   4      15.557  23.398  14.576  0.00  0.00          Ve  
-HETATM    5 APOL STP C   4      16.011  22.871  13.482  0.00  0.00          Ve  
-HETATM    6 APOL STP C   4      15.928  23.207  13.765  0.00  0.00          Ve  
-HETATM    7 APOL STP C   4      17.691  22.245  18.072  0.00  0.00          Ve  
-HETATM    8 APOL STP C   4      19.529  21.954  18.755  0.00  0.00          Ve  
-HETATM    9 APOL STP C   4      15.011  22.229  15.825  0.00  0.00          Ve  
-HETATM   10 APOL STP C   4      15.135  20.552  18.741  0.00  0.00          Ve  
-HETATM   11 APOL STP C   4      19.253  21.725  18.788  0.00  0.00          Ve  
-HETATM   12 APOL STP C   4      17.650  21.048  18.652  0.00  0.00          Ve  
-HETATM   13 APOL STP C   4      16.195  21.162  18.168  0.00  0.00          Ve  
-HETATM   14 APOL STP C   4      15.398  20.983  17.666  0.00  0.00          Ve  
-HETATM   15 APOL STP C   4      15.138  20.557  18.735  0.00  0.00          Ve  
-HETATM   16 APOL STP C   4      16.943  21.983  17.981  0.00  0.00          Ve  
-HETATM   17 APOL STP C   4      15.182  22.714  15.737  0.00  0.00          Ve  
-HETATM   18 APOL STP C   4      15.741  24.064  14.855  0.00  0.00          Ve  
-HETATM   19 APOL STP C   4      15.109  20.220  19.179  0.00  0.00          Ve  
-HETATM    1 APOL STP C   5      20.605   6.618  21.102  0.00  0.00          Ve  
-HETATM    2 APOL STP C   5      19.082   9.114  16.906  0.00  0.00          Ve  
-HETATM    3 APOL STP C   5      19.211   8.868  16.477  0.00  0.00          Ve  
-HETATM    4 APOL STP C   5      19.141   9.065  16.855  0.00  0.00          Ve  
-HETATM    5 APOL STP C   5      20.411   8.950  16.497  0.00  0.00          Ve  
-HETATM    6 APOL STP C   5      21.278   7.286  15.271  0.00  0.00          Ve  
-HETATM    7 APOL STP C   5      21.737   8.273  15.966  0.00  0.00          Ve  
-HETATM    8 APOL STP C   5      19.545   9.253  17.348  0.00  0.00          Ve  
-HETATM    9 APOL STP C   5      19.605   9.305  17.253  0.00  0.00          Ve  
-HETATM   10 APOL STP C   5      19.361   9.202  17.087  0.00  0.00          Ve  
-HETATM   11 APOL STP C   5      21.005   6.678  13.902  0.00  0.00          Ve  
-HETATM   12 APOL STP C   5      21.887   7.048  14.721  0.00  0.00          Ve  
-HETATM   13 APOL STP C   5      21.576   8.462  17.094  0.00  0.00          Ve  
-HETATM   14 APOL STP C   5      21.237   8.164  17.688  0.00  0.00          Ve  
-HETATM   15 APOL STP C   5      19.823   9.314  17.205  0.00  0.00          Ve  
-HETATM   16 APOL STP C   5      19.842   9.288  17.195  0.00  0.00          Ve  
-HETATM   17 APOL STP C   5      19.813   9.293  17.207  0.00  0.00          Ve  
-HETATM   18 APOL STP C   5      23.114   7.517  18.754  0.00  0.00          Ve  
-HETATM   19 APOL STP C   5      23.216   7.267  19.612  0.00  0.00          Ve  
-HETATM   20 APOL STP C   5      21.455   7.159  19.578  0.00  0.00          Ve  
-HETATM   21 APOL STP C   5      19.601   8.988  17.728  0.00  0.00          Ve  
-HETATM   22 APOL STP C   5      20.637   6.657  21.076  0.00  0.00          Ve  
-HETATM   23 APOL STP C   5      21.991   6.742  21.095  0.00  0.00          Ve  
-HETATM   24 APOL STP C   5      20.614   6.661  21.080  0.00  0.00          Ve  
-HETATM   25 APOL STP C   5      20.578   6.679  21.067  0.00  0.00          Ve  
-HETATM   26 APOL STP C   5      20.573   6.576  21.121  0.00  0.00          Ve  
-HETATM   27 APOL STP C   5      19.279  10.317  17.326  0.00  0.00          Ve  
-HETATM   28 APOL STP C   5      19.218  10.275  17.340  0.00  0.00          Ve  
-HETATM    1 APOL STP C   6       0.606  30.613  17.291  0.00  0.00          Ve  
-HETATM    2 APOL STP C   6       0.349  29.933  16.102  0.00  0.00          Ve  
-HETATM    3 APOL STP C   6       0.398  29.825  16.006  0.00  0.00          Ve  
-HETATM    4 APOL STP C   6       0.310  30.058  15.886  0.00  0.00          Ve  
-HETATM    5 APOL STP C   6      -2.704  33.369  14.954  0.00  0.00          Ve  
-HETATM    6 APOL STP C   6       0.267  30.094  15.812  0.00  0.00          Ve  
-HETATM    7 APOL STP C   6       0.297  30.167  15.803  0.00  0.00          Ve  
-HETATM    8 APOL STP C   6      -1.603  34.311  14.914  0.00  0.00          Ve  
-HETATM    9 APOL STP C   6      -1.370  34.089  14.976  0.00  0.00          Ve  
-HETATM   10 APOL STP C   6       0.328  30.306  15.653  0.00  0.00          Ve  
-HETATM   11 APOL STP C   6       0.297  30.561  15.738  0.00  0.00          Ve  
-HETATM   12 APOL STP C   6      -0.300  32.461  15.359  0.00  0.00          Ve  
-HETATM   13 APOL STP C   6      -1.581  33.922  14.529  0.00  0.00          Ve  
-HETATM   14 APOL STP C   6      -2.185  34.279  14.137  0.00  0.00          Ve  
-HETATM   15 APOL STP C   6      -3.286  34.022  12.999  0.00  0.00          Ve  
-HETATM   16 APOL STP C   6      -3.344  34.741  12.491  0.00  0.00          Ve  
-HETATM    1 APOL STP C   7      -6.625  24.421  30.057  0.00  0.00          Ve  
-HETATM    2 APOL STP C   7      -5.799  26.309  29.404  0.00  0.00          Ve  
-HETATM    3 APOL STP C   7      -8.308  22.685  29.725  0.00  0.00          Ve  
-HETATM    4 APOL STP C   7      -7.037  21.813  30.245  0.00  0.00          Ve  
-HETATM    5 APOL STP C   7     -10.258  22.548  28.497  0.00  0.00          Ve  
-HETATM    6 APOL STP C   7      -9.562  22.615  29.037  0.00  0.00          Ve  
-HETATM    7 APOL STP C   7      -7.102  21.786  30.244  0.00  0.00          Ve  
-HETATM    8 APOL STP C   7      -8.874  22.184  29.811  0.00  0.00          Ve  
-HETATM    9 APOL STP C   7      -9.225  22.114  29.661  0.00  0.00          Ve  
-HETATM   10 APOL STP C   7      -6.839  21.824  30.201  0.00  0.00          Ve  
-HETATM   11 APOL STP C   7      -6.761  22.668  29.984  0.00  0.00          Ve  
-HETATM   12 APOL STP C   7      -6.848  22.141  30.159  0.00  0.00          Ve  
-HETATM   13 APOL STP C   7      -6.421  23.405  30.062  0.00  0.00          Ve  
-HETATM   14 APOL STP C   7      -5.071  24.416  29.230  0.00  0.00          Ve  
-HETATM   15 APOL STP C   7      -4.870  26.897  28.843  0.00  0.00          Ve  
-HETATM    1 APOL STP C   8      18.480  10.647   8.623  0.00  0.00          Ve  
-HETATM    2 APOL STP C   8      18.473  10.489   8.873  0.00  0.00          Ve  
-HETATM    3 APOL STP C   8      18.698  10.488   9.792  0.00  0.00          Ve  
-HETATM    4 APOL STP C   8      14.943  10.866   4.541  0.00  0.00          Ve  
-HETATM    5 APOL STP C   8      14.875  10.843   4.459  0.00  0.00          Ve  
-HETATM    6 APOL STP C   8      14.864  10.355   4.722  0.00  0.00          Ve  
-HETATM    7 APOL STP C   8      17.917  10.225   9.354  0.00  0.00          Ve  
-HETATM    8 APOL STP C   8      14.939  11.399   5.926  0.00  0.00          Ve  
-HETATM    9 APOL STP C   8      16.088  11.832   6.354  0.00  0.00          Ve  
-HETATM   10 APOL STP C   8      17.345  11.079   8.062  0.00  0.00          Ve  
-HETATM   11 APOL STP C   8      14.302  11.614   6.290  0.00  0.00          Ve  
-HETATM   12 APOL STP C   8      14.169  11.576   6.426  0.00  0.00          Ve  
-HETATM   13 APOL STP C   8      13.282  11.035   4.472  0.00  0.00          Ve  
-HETATM   14 APOL STP C   8      13.297  11.009   4.410  0.00  0.00          Ve  
-HETATM   15 APOL STP C   8      13.187  11.021   4.702  0.00  0.00          Ve  
-HETATM   16 APOL STP C   8      12.553  11.402   3.811  0.00  0.00          Ve  
-HETATM   17 APOL STP C   8      12.615  11.331   3.695  0.00  0.00          Ve  
-HETATM   18 APOL STP C   8      16.085  11.834   6.357  0.00  0.00          Ve  
-HETATM   19 APOL STP C   8      15.342  12.249   7.345  0.00  0.00          Ve  
-HETATM   20 APOL STP C   8      14.506  12.196   7.034  0.00  0.00          Ve  
-HETATM   21 APOL STP C   8      14.353  12.486   7.796  0.00  0.00          Ve  
-HETATM   22 APOL STP C   8      13.277  10.973   4.430  0.00  0.00          Ve  
-HETATM   23 APOL STP C   8      13.182  11.064   3.370  0.00  0.00          Ve  
-HETATM   24 APOL STP C   8      13.287  11.012   4.386  0.00  0.00          Ve  
-HETATM   25 APOL STP C   8      12.716  11.267   3.730  0.00  0.00          Ve  
-HETATM    1 APOL STP C   9      -5.987  21.597  39.224  0.00  0.00          Ve  
-HETATM    2 APOL STP C   9      -6.191  22.298  37.656  0.00  0.00          Ve  
-HETATM    3 APOL STP C   9      -6.290  22.862  37.242  0.00  0.00          Ve  
-HETATM    4 APOL STP C   9      -6.076  21.951  37.687  0.00  0.00          Ve  
-HETATM    5 APOL STP C   9      -4.027  21.397  38.848  0.00  0.00          Ve  
-HETATM    6 APOL STP C   9      -5.569  19.993  39.101  0.00  0.00          Ve  
-HETATM    7 APOL STP C   9      -6.315  20.503  39.256  0.00  0.00          Ve  
-HETATM    8 APOL STP C   9      -6.095  21.897  37.670  0.00  0.00          Ve  
-HETATM    9 APOL STP C   9      -6.531  20.110  38.511  0.00  0.00          Ve  
-HETATM   10 APOL STP C   9      -5.839  22.040  37.133  0.00  0.00          Ve  
-HETATM   11 APOL STP C   9      -6.021  22.227  37.054  0.00  0.00          Ve  
-HETATM   12 APOL STP C   9      -6.062  21.968  37.603  0.00  0.00          Ve  
-HETATM   13 APOL STP C   9      -8.206  18.652  36.918  0.00  0.00          Ve  
-HETATM   14 APOL STP C   9      -8.120  18.521  37.184  0.00  0.00          Ve  
-HETATM   15 APOL STP C   9      -6.229  19.490  37.843  0.00  0.00          Ve  
-HETATM   16 APOL STP C   9      -9.377  17.540  38.316  0.00  0.00          Ve  
-HETATM   17 APOL STP C   9      -9.701  17.858  38.776  0.00  0.00          Ve  
-HETATM    1 APOL STP C  10       7.964  27.871  24.200  0.00  0.00          Ve  
-HETATM    2 APOL STP C  10       9.060  27.846  24.971  0.00  0.00          Ve  
-HETATM    3 APOL STP C  10       8.457  27.440  25.735  0.00  0.00          Ve  
-HETATM    4 APOL STP C  10       8.568  27.505  25.590  0.00  0.00          Ve  
-HETATM    5 APOL STP C  10       8.418  27.411  25.750  0.00  0.00          Ve  
-HETATM    6 APOL STP C  10       9.084  27.764  24.955  0.00  0.00          Ve  
-HETATM    7 APOL STP C  10      10.654  26.047  25.364  0.00  0.00          Ve  
-HETATM    8 APOL STP C  10      10.424  27.853  24.712  0.00  0.00          Ve  
-HETATM    9 APOL STP C  10       9.439  27.576  24.860  0.00  0.00          Ve  
-HETATM   10 APOL STP C  10      10.404  26.714  24.932  0.00  0.00          Ve  
-HETATM   11 APOL STP C  10      10.731  27.817  24.294  0.00  0.00          Ve  
-HETATM   12 APOL STP C  10      10.476  26.400  24.885  0.00  0.00          Ve  
-HETATM   13 APOL STP C  10      11.588  27.014  23.248  0.00  0.00          Ve  
-HETATM   14 APOL STP C  10      11.536  26.189  23.460  0.00  0.00          Ve  
-HETATM   15 APOL STP C  10       8.935  27.351  24.682  0.00  0.00          Ve  
-HETATM   16 APOL STP C  10      10.729  25.699  25.632  0.00  0.00          Ve  
-HETATM   17 APOL STP C  10      10.887  25.711  25.706  0.00  0.00          Ve  
-HETATM   18 APOL STP C  10      10.424  26.232  24.837  0.00  0.00          Ve  
-HETATM   19 APOL STP C  10       8.612  26.736  24.470  0.00  0.00          Ve  
-HETATM    1 APOL STP C  11       3.065   1.680  14.257  0.00  0.00          Ve  
-HETATM    2 APOL STP C  11      -0.262   5.672  13.713  0.00  0.00          Ve  
-HETATM    3 APOL STP C  11       0.191   4.442  13.421  0.00  0.00          Ve  
-HETATM    4 APOL STP C  11       2.560   3.835  10.859  0.00  0.00          Ve  
-HETATM    5 APOL STP C  11      -0.316   5.894  13.740  0.00  0.00          Ve  
-HETATM    6 APOL STP C  11       3.457   4.032   6.967  0.00  0.00          Ve  
-HETATM    7 APOL STP C  11       2.663   3.891  10.841  0.00  0.00          Ve  
-HETATM    8 APOL STP C  11       4.096   4.245  10.995  0.00  0.00          Ve  
-HETATM    9 APOL STP C  11       4.136   4.217  10.924  0.00  0.00          Ve  
-HETATM   10 APOL STP C  11       3.244   4.177  11.181  0.00  0.00          Ve  
-HETATM   11 APOL STP C  11       3.188   4.166  11.182  0.00  0.00          Ve  
-HETATM   12 APOL STP C  11       2.014   3.532  11.198  0.00  0.00          Ve  
-HETATM   13 APOL STP C  11       2.518   3.690  10.662  0.00  0.00          Ve  
-HETATM   14 APOL STP C  11       2.689   3.819  10.691  0.00  0.00          Ve  
-HETATM   15 APOL STP C  11       2.118   3.108   9.175  0.00  0.00          Ve  
-HETATM   16 APOL STP C  11       3.327   3.642   7.482  0.00  0.00          Ve  
-HETATM   17 APOL STP C  11       4.123   4.188  10.873  0.00  0.00          Ve  
-HETATM   18 APOL STP C  11       4.234   4.163  10.882  0.00  0.00          Ve  
-HETATM   19 APOL STP C  11       2.703   1.870  14.067  0.00  0.00          Ve  
-HETATM   20 APOL STP C  11       2.011   3.354  12.335  0.00  0.00          Ve  
-HETATM   21 APOL STP C  11       1.265   3.803  14.371  0.00  0.00          Ve  
-HETATM   22 APOL STP C  11       1.313   3.846  14.395  0.00  0.00          Ve  
-HETATM   23 APOL STP C  11       4.151   4.474  11.146  0.00  0.00          Ve  
-HETATM   24 APOL STP C  11       3.883   4.476  11.221  0.00  0.00          Ve  
-HETATM    1 APOL STP C  12     -12.188  31.839  16.593  0.00  0.00          Ve  
-HETATM    2 APOL STP C  12     -14.197  27.278  17.645  0.00  0.00          Ve  
-HETATM    3 APOL STP C  12     -14.250  26.710  18.687  0.00  0.00          Ve  
-HETATM    4 APOL STP C  12     -14.909  26.223  19.335  0.00  0.00          Ve  
-HETATM    5 APOL STP C  12     -14.382  24.675  18.050  0.00  0.00          Ve  
-HETATM    6 APOL STP C  12     -14.022  26.981  18.887  0.00  0.00          Ve  
-HETATM    7 APOL STP C  12     -13.149  28.055  17.189  0.00  0.00          Ve  
-HETATM    8 APOL STP C  12     -13.848  27.808  17.708  0.00  0.00          Ve  
-HETATM    9 APOL STP C  12     -13.798  28.442  17.460  0.00  0.00          Ve  
-HETATM   10 APOL STP C  12     -13.798  28.303  17.460  0.00  0.00          Ve  
-HETATM   11 APOL STP C  12     -13.804  28.284  17.472  0.00  0.00          Ve  
-HETATM   12 APOL STP C  12     -13.734  30.649  17.420  0.00  0.00          Ve  
-HETATM   13 APOL STP C  12     -13.444  31.621  17.292  0.00  0.00          Ve  
-HETATM   14 APOL STP C  12     -13.757  31.663  17.802  0.00  0.00          Ve  
-HETATM   15 APOL STP C  12     -12.392  31.711  16.849  0.00  0.00          Ve  
-HETATM   16 APOL STP C  12     -14.320  27.344  17.475  0.00  0.00          Ve  
-HETATM   17 APOL STP C  12     -14.498  27.355  17.384  0.00  0.00          Ve  
+HETATM 3557  POL STP C   2      -6.919   6.642  41.684  0.00  0.00          Ve  
+HETATM 3557  POL STP C   2      -6.980   6.668  41.645  0.00  0.00          Ve  
+HETATM 3557  POL STP C   2      -6.526   5.836  41.929  0.00  0.00          Ve  
+HETATM 3557  POL STP C   2      -6.378   5.700  41.831  0.00  0.00          Ve  
+HETATM 3557  POL STP C   2      -7.822   6.625  41.102  0.00  0.00          Ve  
+HETATM 3577  POL STP C   2      -7.825   7.749  41.660  0.00  0.00          Ve  
+HETATM 3578  POL STP C   2      -8.100   8.674  42.098  0.00  0.00          Ve  
+HETATM 3578  POL STP C   2      -8.659   9.530  41.927  0.00  0.00          Ve  
+HETATM 4662  POL STP C   2      -8.737  12.631  40.804  0.00  0.00          Ve  
+HETATM 7611  POL STP C   2     -11.049  12.429  41.049  0.00  0.00          Ve  
+HETATM 7611  POL STP C   2     -11.267  12.028  41.036  0.00  0.00          Ve  
+HETATM 7611  POL STP C   2     -10.890  12.386  41.380  0.00  0.00          Ve  
+HETATM 7612  POL STP C   2      -9.951  10.626  40.848  0.00  0.00          Ve  
+HETATM 7618  POL STP C   2     -10.041   9.901  40.431  0.00  0.00          Ve  
+HETATM 5013  POL STP C   3      21.608   9.684  14.132  0.00  0.00          Ve  
+HETATM    2 APOL STP C   3      19.314  10.586   9.512  0.00  0.00          Ve  
+HETATM    3 APOL STP C   3      19.143  10.766   9.300  0.00  0.00          Ve  
+HETATM 5382  POL STP C   3      22.337  10.819  11.219  0.00  0.00          Ve  
+HETATM 5382  POL STP C   3      21.322  10.417  10.839  0.00  0.00          Ve  
+HETATM 5383  POL STP C   3      22.223   9.452  12.843  0.00  0.00          Ve  
+HETATM    7 APOL STP C   3      20.438   9.717  10.950  0.00  0.00          Ve  
+HETATM    8 APOL STP C   3      19.317  10.526   9.567  0.00  0.00          Ve  
+HETATM    9 APOL STP C   3      20.347   9.733  10.882  0.00  0.00          Ve  
+HETATM 6359  POL STP C   3      20.400   9.647  10.930  0.00  0.00          Ve  
+HETATM   11 APOL STP C   3      18.480  10.647   8.623  0.00  0.00          Ve  
+HETATM   12 APOL STP C   3      18.473  10.489   8.873  0.00  0.00          Ve  
+HETATM   13 APOL STP C   3      19.091  10.740   9.309  0.00  0.00          Ve  
+HETATM   14 APOL STP C   3      19.039  10.663   9.363  0.00  0.00          Ve  
+HETATM   15 APOL STP C   3      18.698  10.488   9.792  0.00  0.00          Ve  
+HETATM   16 APOL STP C   3      20.605   6.618  21.102  0.00  0.00          Ve  
+HETATM   17 APOL STP C   3      14.943  10.866   4.541  0.00  0.00          Ve  
+HETATM 6734  POL STP C   3      14.875  10.843   4.459  0.00  0.00          Ve  
+HETATM 6734  POL STP C   3      14.864  10.355   4.722  0.00  0.00          Ve  
+HETATM   20 APOL STP C   3      18.270  10.051   6.298  0.00  0.00          Ve  
+HETATM   21 APOL STP C   3      17.917  10.225   9.354  0.00  0.00          Ve  
+HETATM   22 APOL STP C   3      14.939  11.399   5.926  0.00  0.00          Ve  
+HETATM   23 APOL STP C   3      16.088  11.832   6.354  0.00  0.00          Ve  
+HETATM   24 APOL STP C   3      17.345  11.079   8.062  0.00  0.00          Ve  
+HETATM   25 APOL STP C   3      14.302  11.614   6.290  0.00  0.00          Ve  
+HETATM   26 APOL STP C   3      14.169  11.576   6.426  0.00  0.00          Ve  
+HETATM   27 APOL STP C   3      21.260   9.781  14.385  0.00  0.00          Ve  
+HETATM 7980  POL STP C   3      19.082   9.114  16.906  0.00  0.00          Ve  
+HETATM   29 APOL STP C   3      23.299   6.241  21.535  0.00  0.00          Ve  
+HETATM   30 APOL STP C   3      19.211   8.868  16.477  0.00  0.00          Ve  
+HETATM 8161  POL STP C   3      19.141   9.065  16.855  0.00  0.00          Ve  
+HETATM   32 APOL STP C   3      20.411   8.950  16.497  0.00  0.00          Ve  
+HETATM   33 APOL STP C   3      21.278   7.286  15.271  0.00  0.00          Ve  
+HETATM   34 APOL STP C   3      21.737   8.273  15.966  0.00  0.00          Ve  
+HETATM   35 APOL STP C   3      19.545   9.253  17.348  0.00  0.00          Ve  
+HETATM   36 APOL STP C   3      19.605   9.305  17.253  0.00  0.00          Ve  
+HETATM   37 APOL STP C   3      19.361   9.202  17.087  0.00  0.00          Ve  
+HETATM 8174  POL STP C   3      21.824   7.092  13.097  0.00  0.00          Ve  
+HETATM 8177  POL STP C   3      21.005   6.678  13.902  0.00  0.00          Ve  
+HETATM   40 APOL STP C   3      21.887   7.048  14.721  0.00  0.00          Ve  
+HETATM 8185  POL STP C   3      21.396   7.252  12.616  0.00  0.00          Ve  
+HETATM   42 APOL STP C   3      13.282  11.035   4.472  0.00  0.00          Ve  
+HETATM 8226  POL STP C   3      13.297  11.009   4.410  0.00  0.00          Ve  
+HETATM   44 APOL STP C   3      13.187  11.021   4.702  0.00  0.00          Ve  
+HETATM   45 APOL STP C   3      12.553  11.402   3.811  0.00  0.00          Ve  
+HETATM   46 APOL STP C   3      12.615  11.331   3.695  0.00  0.00          Ve  
+HETATM   47 APOL STP C   3      16.085  11.834   6.357  0.00  0.00          Ve  
+HETATM   48 APOL STP C   3      15.342  12.249   7.345  0.00  0.00          Ve  
+HETATM   49 APOL STP C   3      14.506  12.196   7.034  0.00  0.00          Ve  
+HETATM   50 APOL STP C   3      14.353  12.486   7.796  0.00  0.00          Ve  
+HETATM   51 APOL STP C   3      21.576   8.462  17.094  0.00  0.00          Ve  
+HETATM   52 APOL STP C   3      21.237   8.164  17.688  0.00  0.00          Ve  
+HETATM   53 APOL STP C   3      19.823   9.314  17.205  0.00  0.00          Ve  
+HETATM   54 APOL STP C   3      19.842   9.288  17.195  0.00  0.00          Ve  
+HETATM   55 APOL STP C   3      19.813   9.293  17.207  0.00  0.00          Ve  
+HETATM   56 APOL STP C   3      23.114   7.517  18.754  0.00  0.00          Ve  
+HETATM   57 APOL STP C   3      23.216   7.267  19.612  0.00  0.00          Ve  
+HETATM   58 APOL STP C   3      21.455   7.159  19.578  0.00  0.00          Ve  
+HETATM   59 APOL STP C   3      19.601   8.988  17.728  0.00  0.00          Ve  
+HETATM   60 APOL STP C   3      20.637   6.657  21.076  0.00  0.00          Ve  
+HETATM   61 APOL STP C   3      21.991   6.742  21.095  0.00  0.00          Ve  
+HETATM   62 APOL STP C   3      20.614   6.661  21.080  0.00  0.00          Ve  
+HETATM 9388  POL STP C   3      13.277  10.973   4.430  0.00  0.00          Ve  
+HETATM   64 APOL STP C   3      13.182  11.064   3.370  0.00  0.00          Ve  
+HETATM 9388  POL STP C   3      13.287  11.012   4.386  0.00  0.00          Ve  
+HETATM   66 APOL STP C   3      12.716  11.267   3.730  0.00  0.00          Ve  
+HETATM   67 APOL STP C   3      20.578   6.679  21.067  0.00  0.00          Ve  
+HETATM   68 APOL STP C   3      20.573   6.576  21.121  0.00  0.00          Ve  
+HETATM 9868  POL STP C   3      19.279  10.317  17.326  0.00  0.00          Ve  
+HETATM   70 APOL STP C   3      19.218  10.275  17.340  0.00  0.00          Ve  
+HETATM 4559  POL STP C   4     -13.394   8.035  11.699  0.00  0.00          Ve  
+HETATM 4559  POL STP C   4     -13.866   8.149  12.756  0.00  0.00          Ve  
+HETATM 4561  POL STP C   4     -13.235   6.985  13.878  0.00  0.00          Ve  
+HETATM    4 APOL STP C   4     -13.396  13.376  12.554  0.00  0.00          Ve  
+HETATM 4639  POL STP C   4     -14.773   7.681  13.727  0.00  0.00          Ve  
+HETATM    6 APOL STP C   4     -14.552   8.323  12.854  0.00  0.00          Ve  
+HETATM    7 APOL STP C   4     -14.690   7.717  13.852  0.00  0.00          Ve  
+HETATM    8 APOL STP C   4     -13.947  10.342   9.126  0.00  0.00          Ve  
+HETATM    9 APOL STP C   4     -12.889   8.488   9.768  0.00  0.00          Ve  
+HETATM 5655  POL STP C   4     -14.059  10.991   9.026  0.00  0.00          Ve  
+HETATM   11 APOL STP C   4     -12.850  13.648  12.578  0.00  0.00          Ve  
+HETATM   12 APOL STP C   4     -12.635  13.830  12.726  0.00  0.00          Ve  
+HETATM   13 APOL STP C   4     -15.321  12.050   6.421  0.00  0.00          Ve  
+HETATM   14 APOL STP C   4     -15.149  12.299   5.990  0.00  0.00          Ve  
+HETATM   15 APOL STP C   4     -14.138  13.128   4.148  0.00  0.00          Ve  
+HETATM 7006  POL STP C   4     -13.842  12.966   4.202  0.00  0.00          Ve  
+HETATM   17 APOL STP C   4     -14.202  12.998   4.431  0.00  0.00          Ve  
+HETATM   18 APOL STP C   4     -15.071  12.945  11.123  0.00  0.00          Ve  
+HETATM   19 APOL STP C   4     -15.181  12.284   7.101  0.00  0.00          Ve  
+HETATM   20 APOL STP C   4     -14.069  13.525  10.889  0.00  0.00          Ve  
+HETATM   21 APOL STP C   4     -14.486  12.345   9.698  0.00  0.00          Ve  
+HETATM   22 APOL STP C   4     -15.581  11.691   7.702  0.00  0.00          Ve  
+HETATM   23 APOL STP C   4     -13.744  12.589   9.720  0.00  0.00          Ve  
+HETATM   24 APOL STP C   4     -13.903  13.601  10.918  0.00  0.00          Ve  
+HETATM   25 APOL STP C   4     -13.004  13.765  11.916  0.00  0.00          Ve  
+HETATM   26 APOL STP C   4     -12.804  14.399  11.014  0.00  0.00          Ve  
+HETATM 8544  POL STP C   4     -14.691   7.701  13.857  0.00  0.00          Ve  
+HETATM 8555  POL STP C   4     -14.353   7.367  13.918  0.00  0.00          Ve  
+HETATM 8555  POL STP C   4     -14.766   7.663  13.746  0.00  0.00          Ve  
+HETATM   30 APOL STP C   4     -13.822  14.302  10.714  0.00  0.00          Ve  
+HETATM   31 APOL STP C   4     -12.793  14.411  11.014  0.00  0.00          Ve  
+HETATM 1872  POL STP C   5      16.547  23.639  13.890  0.00  0.00          Ve  
+HETATM 1873  POL STP C   5      16.092  23.630  14.033  0.00  0.00          Ve  
+HETATM    3 APOL STP C   5      15.859  23.404  14.170  0.00  0.00          Ve  
+HETATM    4 APOL STP C   5      15.557  23.398  14.576  0.00  0.00          Ve  
+HETATM 3663  POL STP C   5      16.011  22.871  13.482  0.00  0.00          Ve  
+HETATM    6 APOL STP C   5      15.928  23.207  13.765  0.00  0.00          Ve  
+HETATM 3702  POL STP C   5      17.691  22.245  18.072  0.00  0.00          Ve  
+HETATM 3702  POL STP C   5      19.529  21.954  18.755  0.00  0.00          Ve  
+HETATM    9 APOL STP C   5      15.011  22.229  15.825  0.00  0.00          Ve  
+HETATM 4994  POL STP C   5      15.135  20.552  18.741  0.00  0.00          Ve  
+HETATM 5018  POL STP C   5      19.253  21.725  18.788  0.00  0.00          Ve  
+HETATM 5018  POL STP C   5      17.650  21.048  18.652  0.00  0.00          Ve  
+HETATM 6334  POL STP C   5      16.195  21.162  18.168  0.00  0.00          Ve  
+HETATM 6334  POL STP C   5      15.398  20.983  17.666  0.00  0.00          Ve  
+HETATM 6334  POL STP C   5      15.138  20.557  18.735  0.00  0.00          Ve  
+HETATM 6334  POL STP C   5      16.943  21.983  17.981  0.00  0.00          Ve  
+HETATM 6334  POL STP C   5      15.182  22.714  15.737  0.00  0.00          Ve  
+HETATM 6335  POL STP C   5      15.741  24.064  14.855  0.00  0.00          Ve  
+HETATM 6367  POL STP C   5      15.109  20.220  19.179  0.00  0.00          Ve  
+HETATM 3339  POL STP C   6     -10.865  18.249   0.469  0.00  0.00          Ve  
+HETATM 4612  POL STP C   6      -9.803  18.840   1.772  0.00  0.00          Ve  
+HETATM 5510  POL STP C   6     -11.664  16.564   0.901  0.00  0.00          Ve  
+HETATM 5510  POL STP C   6     -10.854  18.060   0.590  0.00  0.00          Ve  
+HETATM    5 APOL STP C   6      -9.018  19.707   1.368  0.00  0.00          Ve  
+HETATM 5867  POL STP C   6      -9.656  19.088   1.638  0.00  0.00          Ve  
+HETATM 5868  POL STP C   6     -10.831  18.316   0.411  0.00  0.00          Ve  
+HETATM    8 APOL STP C   6      -8.858  20.212   1.689  0.00  0.00          Ve  
+HETATM    9 APOL STP C   6      -8.626  20.731   1.519  0.00  0.00          Ve  
+HETATM 5869  POL STP C   6      -9.829  18.933   1.649  0.00  0.00          Ve  
+HETATM   11 APOL STP C   6     -12.817  19.837  -0.592  0.00  0.00          Ve  
+HETATM 5876  POL STP C   6     -10.800  18.318   0.530  0.00  0.00          Ve  
+HETATM 5877  POL STP C   6      -9.908  18.876   1.592  0.00  0.00          Ve  
+HETATM 7108  POL STP C   6     -11.221  20.512  -0.292  0.00  0.00          Ve  
+HETATM 7108  POL STP C   6      -8.604  20.710   1.295  0.00  0.00          Ve  
+HETATM 7108  POL STP C   6      -8.165  20.787   0.269  0.00  0.00          Ve  
+HETATM 7109  POL STP C   6      -8.676  20.220   0.368  0.00  0.00          Ve  
+HETATM 2397  POL STP C   7       0.606  30.613  17.291  0.00  0.00          Ve  
+HETATM 2399  POL STP C   7       0.349  29.933  16.102  0.00  0.00          Ve  
+HETATM 2403  POL STP C   7       0.398  29.825  16.006  0.00  0.00          Ve  
+HETATM 2403  POL STP C   7       0.310  30.058  15.886  0.00  0.00          Ve  
+HETATM 2481  POL STP C   7      -2.704  33.369  14.954  0.00  0.00          Ve  
+HETATM 2481  POL STP C   7       0.267  30.094  15.812  0.00  0.00          Ve  
+HETATM 2485  POL STP C   7       0.297  30.167  15.803  0.00  0.00          Ve  
+HETATM 2504  POL STP C   7      -1.603  34.311  14.914  0.00  0.00          Ve  
+HETATM 2504  POL STP C   7      -1.370  34.089  14.976  0.00  0.00          Ve  
+HETATM 3167  POL STP C   7       0.328  30.306  15.653  0.00  0.00          Ve  
+HETATM 3167  POL STP C   7       0.297  30.561  15.738  0.00  0.00          Ve  
+HETATM 3167  POL STP C   7      -0.300  32.461  15.359  0.00  0.00          Ve  
+HETATM 4456  POL STP C   7      -1.581  33.922  14.529  0.00  0.00          Ve  
+HETATM 4459  POL STP C   7      -2.185  34.279  14.137  0.00  0.00          Ve  
+HETATM 4459  POL STP C   7      -3.286  34.022  12.999  0.00  0.00          Ve  
+HETATM 4459  POL STP C   7      -3.344  34.741  12.491  0.00  0.00          Ve  
+HETATM    1 APOL STP C   8     -14.456  28.897   9.357  0.00  0.00          Ve  
+HETATM    2 APOL STP C   8     -13.802  30.114  10.708  0.00  0.00          Ve  
+HETATM    3 APOL STP C   8     -14.824  28.441   8.989  0.00  0.00          Ve  
+HETATM    4 APOL STP C   8     -13.008  26.082  10.497  0.00  0.00          Ve  
+HETATM    5 APOL STP C   8     -14.169  30.414   7.585  0.00  0.00          Ve  
+HETATM 5968  POL STP C   8     -13.292  25.512  10.645  0.00  0.00          Ve  
+HETATM 5971  POL STP C   8     -16.281  25.248   9.782  0.00  0.00          Ve  
+HETATM 5974  POL STP C   8     -13.777  25.706   9.765  0.00  0.00          Ve  
+HETATM 6006  POL STP C   8     -15.422  24.602   9.978  0.00  0.00          Ve  
+HETATM 6011  POL STP C   8     -13.889  25.617   9.542  0.00  0.00          Ve  
+HETATM 6011  POL STP C   8     -13.906  25.623   9.573  0.00  0.00          Ve  
+HETATM 6012  POL STP C   8     -15.206  25.827   9.088  0.00  0.00          Ve  
+HETATM 6013  POL STP C   8     -13.401  24.066  10.900  0.00  0.00          Ve  
+HETATM   14 APOL STP C   8     -13.617  23.729  11.105  0.00  0.00          Ve  
+HETATM   15 APOL STP C   8     -14.727  26.185   8.926  0.00  0.00          Ve  
+HETATM   16 APOL STP C   8     -14.636  26.121   9.005  0.00  0.00          Ve  
+HETATM 6013  POL STP C   8     -14.732  26.170   8.943  0.00  0.00          Ve  
+HETATM   18 APOL STP C   8     -13.644  23.175  11.257  0.00  0.00          Ve  
+HETATM 1757  POL STP C   9      -6.625  24.421  30.057  0.00  0.00          Ve  
+HETATM 1757  POL STP C   9      -5.799  26.309  29.404  0.00  0.00          Ve  
+HETATM 1757  POL STP C   9      -6.778  24.418  30.031  0.00  0.00          Ve  
+HETATM 1757  POL STP C   9      -8.308  22.685  29.725  0.00  0.00          Ve  
+HETATM 1894  POL STP C   9      -7.037  21.813  30.245  0.00  0.00          Ve  
+HETATM    6 APOL STP C   9     -10.258  22.548  28.497  0.00  0.00          Ve  
+HETATM    7 APOL STP C   9      -9.562  22.615  29.037  0.00  0.00          Ve  
+HETATM    8 APOL STP C   9      -7.102  21.786  30.244  0.00  0.00          Ve  
+HETATM    9 APOL STP C   9      -8.874  22.184  29.811  0.00  0.00          Ve  
+HETATM   10 APOL STP C   9      -9.179  22.095  30.112  0.00  0.00          Ve  
+HETATM   11 APOL STP C   9      -9.225  22.114  29.661  0.00  0.00          Ve  
+HETATM   12 APOL STP C   9      -6.839  21.824  30.201  0.00  0.00          Ve  
+HETATM 9192  POL STP C   9      -6.761  22.668  29.984  0.00  0.00          Ve  
+HETATM 9192  POL STP C   9      -6.848  22.141  30.159  0.00  0.00          Ve  
+HETATM 9196  POL STP C   9      -6.421  23.405  30.062  0.00  0.00          Ve  
+HETATM10112  POL STP C   9      -5.071  24.416  29.230  0.00  0.00          Ve  
+HETATM10112  POL STP C   9      -4.870  26.897  28.843  0.00  0.00          Ve  
+HETATM10514  POL STP C  10       7.964  27.871  24.200  0.00  0.00          Ve  
+HETATM10517  POL STP C  10       9.060  27.846  24.971  0.00  0.00          Ve  
+HETATM10948  POL STP C  10       8.457  27.440  25.735  0.00  0.00          Ve  
+HETATM10948  POL STP C  10       8.568  27.505  25.590  0.00  0.00          Ve  
+HETATM10948  POL STP C  10       8.418  27.411  25.750  0.00  0.00          Ve  
+HETATM10949  POL STP C  10       9.084  27.764  24.955  0.00  0.00          Ve  
+HETATM10949  POL STP C  10      10.654  26.047  25.364  0.00  0.00          Ve  
+HETATM11158  POL STP C  10      10.424  27.853  24.712  0.00  0.00          Ve  
+HETATM11158  POL STP C  10       9.439  27.576  24.860  0.00  0.00          Ve  
+HETATM11158  POL STP C  10      10.404  26.714  24.932  0.00  0.00          Ve  
+HETATM11158  POL STP C  10      10.731  27.817  24.294  0.00  0.00          Ve  
+HETATM11159  POL STP C  10      10.476  26.400  24.885  0.00  0.00          Ve  
+HETATM11160  POL STP C  10      11.588  27.014  23.248  0.00  0.00          Ve  
+HETATM11160  POL STP C  10      11.536  26.189  23.460  0.00  0.00          Ve  
+HETATM11160  POL STP C  10       8.935  27.351  24.682  0.00  0.00          Ve  
+HETATM11175  POL STP C  10      10.729  25.699  25.632  0.00  0.00          Ve  
+HETATM11175  POL STP C  10      10.887  25.711  25.706  0.00  0.00          Ve  
+HETATM11262  POL STP C  10      10.424  26.232  24.837  0.00  0.00          Ve  
+HETATM11267  POL STP C  10       8.612  26.736  24.470  0.00  0.00          Ve  
+HETATM 2662  POL STP C  11      -6.365  24.332  39.128  0.00  0.00          Ve  
+HETATM 2662  POL STP C  11      -6.009  21.659  39.280  0.00  0.00          Ve  
+HETATM 2896  POL STP C  11      -5.987  21.597  39.224  0.00  0.00          Ve  
+HETATM    4 APOL STP C  11      -6.191  22.298  37.656  0.00  0.00          Ve  
+HETATM 2896  POL STP C  11      -6.290  22.862  37.242  0.00  0.00          Ve  
+HETATM    6 APOL STP C  11      -6.076  21.951  37.687  0.00  0.00          Ve  
+HETATM 3420  POL STP C  11      -4.027  21.397  38.848  0.00  0.00          Ve  
+HETATM 3422  POL STP C  11      -5.569  19.993  39.101  0.00  0.00          Ve  
+HETATM    9 APOL STP C  11      -6.315  20.503  39.256  0.00  0.00          Ve  
+HETATM   10 APOL STP C  11      -6.095  21.897  37.670  0.00  0.00          Ve  
+HETATM   11 APOL STP C  11      -6.531  20.110  38.511  0.00  0.00          Ve  
+HETATM 3962  POL STP C  11      -5.839  22.040  37.133  0.00  0.00          Ve  
+HETATM 3962  POL STP C  11      -6.021  22.227  37.054  0.00  0.00          Ve  
+HETATM 3962  POL STP C  11      -6.062  21.968  37.603  0.00  0.00          Ve  
+HETATM 3963  POL STP C  11      -8.206  18.652  36.918  0.00  0.00          Ve  
+HETATM 3963  POL STP C  11      -8.120  18.521  37.184  0.00  0.00          Ve  
+HETATM   17 APOL STP C  11      -6.229  19.490  37.843  0.00  0.00          Ve  
+HETATM 4810  POL STP C  11      -9.377  17.540  38.316  0.00  0.00          Ve  
+HETATM   19 APOL STP C  11      -9.701  17.858  38.776  0.00  0.00          Ve  
+HETATM 8383  POL STP C  12       3.065   1.680  14.257  0.00  0.00          Ve  
+HETATM 9036  POL STP C  12      -0.262   5.672  13.713  0.00  0.00          Ve  
+HETATM 9433  POL STP C  12       0.191   4.442  13.421  0.00  0.00          Ve  
+HETATM 9730  POL STP C  12       2.560   3.835  10.859  0.00  0.00          Ve  
+HETATM 9774  POL STP C  12      -0.316   5.894  13.740  0.00  0.00          Ve  
+HETATM10138  POL STP C  12       3.457   4.032   6.967  0.00  0.00          Ve  
+HETATM10140  POL STP C  12       2.663   3.891  10.841  0.00  0.00          Ve  
+HETATM10167  POL STP C  12       4.096   4.245  10.995  0.00  0.00          Ve  
+HETATM10167  POL STP C  12       4.136   4.217  10.924  0.00  0.00          Ve  
+HETATM10168  POL STP C  12       3.244   4.177  11.181  0.00  0.00          Ve  
+HETATM10168  POL STP C  12       3.188   4.166  11.182  0.00  0.00          Ve  
+HETATM10406  POL STP C  12       2.014   3.532  11.198  0.00  0.00          Ve  
+HETATM10420  POL STP C  12       2.518   3.690  10.662  0.00  0.00          Ve  
+HETATM10420  POL STP C  12       2.689   3.819  10.691  0.00  0.00          Ve  
+HETATM10420  POL STP C  12       2.118   3.108   9.175  0.00  0.00          Ve  
+HETATM10422  POL STP C  12       3.327   3.642   7.482  0.00  0.00          Ve  
+HETATM10422  POL STP C  12       4.123   4.188  10.873  0.00  0.00          Ve  
+HETATM10424  POL STP C  12       4.234   4.163  10.882  0.00  0.00          Ve  
+HETATM10834  POL STP C  12       2.703   1.870  14.067  0.00  0.00          Ve  
+HETATM   20 APOL STP C  12       2.011   3.354  12.335  0.00  0.00          Ve  
+HETATM10839  POL STP C  12       1.265   3.803  14.371  0.00  0.00          Ve  
+HETATM10839  POL STP C  12       1.313   3.846  14.395  0.00  0.00          Ve  
+HETATM11109  POL STP C  12       4.151   4.474  11.146  0.00  0.00          Ve  
+HETATM11109  POL STP C  12       3.883   4.476  11.221  0.00  0.00          Ve  
+HETATM 1786  POL STP C  13     -12.188  31.839  16.593  0.00  0.00          Ve  
+HETATM 2012  POL STP C  13     -13.844  30.372  17.279  0.00  0.00          Ve  
+HETATM 2078  POL STP C  13     -14.197  27.278  17.645  0.00  0.00          Ve  
+HETATM 2510  POL STP C  13     -14.250  26.710  18.687  0.00  0.00          Ve  
+HETATM 3269  POL STP C  13     -14.909  26.223  19.335  0.00  0.00          Ve  
+HETATM    6 APOL STP C  13     -14.382  24.675  18.050  0.00  0.00          Ve  
+HETATM 3275  POL STP C  13     -14.022  26.981  18.887  0.00  0.00          Ve  
+HETATM 3278  POL STP C  13     -13.149  28.055  17.189  0.00  0.00          Ve  
+HETATM 3278  POL STP C  13     -13.848  27.808  17.708  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.798  28.442  17.460  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.798  28.303  17.460  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.804  28.284  17.472  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.734  30.649  17.420  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.444  31.621  17.292  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -13.757  31.663  17.802  0.00  0.00          Ve  
+HETATM 3279  POL STP C  13     -12.392  31.711  16.849  0.00  0.00          Ve  
+HETATM   17 APOL STP C  13     -14.327  27.424  17.420  0.00  0.00          Ve  
+HETATM 4553  POL STP C  13     -14.320  27.344  17.475  0.00  0.00          Ve  
+HETATM 4553  POL STP C  13     -14.498  27.355  17.384  0.00  0.00          Ve  

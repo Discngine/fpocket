@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    82:
-0  - Pocket Score                      : -0.2141
-1  - Drug Score                        : 0.0017
-2  - Number of alpha spheres           :    17
-3  - Mean alpha-sphere radius          : 4.0883
-4  - Mean alpha-sphere Solvent Acc.    : 0.5891
-5  - Mean B-factor of pocket residues  : 0.4237
-6  - Hydrophobicity Score              : 18.0000
-7  - Polarity Score                    :     2
-8  - Amino Acid based volume Score     : 6.0000
-9  - Pocket volume (Monte Carlo)       : 217.6833
-10  -Pocket volume (convex hull)       : 5.7812
-11 - Charge Score                      :     2
-12 - Local hydrophobic density Score   : 16.0000
-13 - Number of apolar alpha sphere     :    17
-14 - Proportion of apolar alpha sphere : 1.0000
+0  - Pocket Score                      : -0.1785
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.8396
+4  - Mean alpha-sphere Solvent Acc.    : 0.4550
+5  - Mean B-factor of pocket residues  : 0.3246
+6  - Hydrophobicity Score              : 14.6250
+7  - Polarity Score                    :     4
+8  - Amino Acid based volume Score     : 4.1250
+9  - Pocket volume (Monte Carlo)       : 188.8464
+10  -Pocket volume (convex hull)       : 4.8316
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 2.0000
+13 - Number of apolar alpha sphere     :     3
+14 - Proportion of apolar alpha sphere : 0.2000
 # 
 loop_
 _atom_site.group_PDB
@@ -39,20 +39,17 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     5404    C  CE1 .  PHE   F .   25 ?  -38.206 -64.829  -3.027  0.00  0   F
-ATOM     5402    C  CD1 .  PHE   F .   25 ?  -37.175 -65.042  -3.930  0.00  0   F
-ATOM     5443    C   CG .  LYS   F .   29 ?  -32.797 -68.316  -3.761  0.00  0   F
-ATOM     5442    C   CB .  LYS   F .   29 ?  -33.768 -68.622  -4.892  0.00  0   F
-ATOM     5444    C   CD .  LYS   F .   29 ?  -32.928 -66.871  -3.303  0.00  0   F
-ATOM     5446    N   NZ .  LYS   F .   29 ?  -32.326 -65.400  -1.383  0.00  0   F
-ATOM     5441    O    O .  LYS   F .   29 ?  -35.603 -71.098  -5.790 -2.95  0   F
-ATOM     5403    C  CD2 .  PHE   F .   25 ?  -38.751 -65.738  -5.563  0.00  0   F
-ATOM     5401    C   CG .  PHE   F .   25 ?  -37.437 -65.487  -5.213  0.00  0   F
-ATOM     5477    C   CD .  LYS   F .   33 ?  -40.746 -72.142  -4.067  0.00  0   F
-ATOM     5478    C   CE .  LYS   F .   33 ?  -42.141 -71.693  -3.689  0.00  0   F
-ATOM     5406    C   CZ .  PHE   F .   25 ?  -39.493 -65.090  -3.384  0.00  0   F
-ATOM     5405    C  CE2 .  PHE   F .   25 ?  -39.775 -65.537  -4.645  0.00  0   F
-ATOM     5476    C   CG .  LYS   F .   33 ?  -40.460 -72.052  -5.564  0.00  0   F
-ATOM     5475    C   CB .  LYS   F .   33 ?  -38.983 -72.238  -5.885  0.00  0   F
-ATOM     5479    N   NZ .  LYS   F .   33 ?  -42.453 -72.004  -2.257  0.00  0   F
+ATOM     2899    C   CB .  PRO   C .  101 ?   10.025 -28.514 -47.519  0.00  0   C
+ATOM      857    O   OH .  TYR   A .  107 ?   13.559 -27.817 -45.384 -1.07  0   A
+ATOM      927    O  OE2 .  GLU   A .  116 ?   13.285 -23.758 -44.206 -6.83  0   A
+ATOM     2896    C   CA .  PRO   C .  101 ?    9.184 -28.133 -46.293  0.00  0   C
+ATOM      917    O    O .  ALA   A .  115 ?   15.687 -23.353 -46.728  0.00  0   A
+ATOM      762    C   CA .  GLY   A .   94 ?   13.014 -23.554 -50.949  0.00  0   A
+ATOM      765    N    N .  ALA   A .   95 ?   13.186 -21.394 -49.876  0.00  0   A
+ATOM      906    C   CB .  TYR   A .  114 ?   15.271 -27.303 -48.604  0.00  0   A
+ATOM     2652    N  NH1 .  ARG   C .   71 ?    7.479 -23.784 -45.202 -4.37  0   C
+ATOM     2898    O    O .  PRO   C .  101 ?    7.224 -26.917 -46.917  0.00  0   C
+ATOM      769    C   CB .  ALA   A .   95 ?   12.630 -19.376 -48.614  0.00  0   A
+ATOM      926    O  OE1 .  GLU   A .  116 ?   13.737 -21.979 -42.975 -1.88  0   A
+ATOM      908    C  CD1 .  TYR   A .  114 ?   13.481 -27.992 -50.250  0.00  0   A
 # 

@@ -3,32 +3,36 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    35:
-HEADER 0  - Pocket Score                      : -0.0201
-HEADER 1  - Drug Score                        : 0.0007
-HEADER 2  - Number of alpha spheres           :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.8193
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4869
-HEADER 5  - Mean B-factor of pocket residues  : 0.2711
-HEADER 6  - Hydrophobicity Score              : -3.0000
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Amino Acid based volume Score     : 3.1429
-HEADER 9  - Pocket volume (Monte Carlo)       : 155.4362
-HEADER 10  -Pocket volume (convex hull)       : 1.5830
+HEADER 0  - Pocket Score                      : -0.0195
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1419
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5999
+HEADER 5  - Mean B-factor of pocket residues  : 0.6913
+HEADER 6  - Hydrophobicity Score              : -32.8333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.1544
+HEADER 10 - Pocket volume (convex hull)       : 1.9940
 HEADER 11 - Charge Score                      :    -1
 HEADER 12 - Local hydrophobic density Score   : 5.0000
 HEADER 13 - Number of apolar alpha sphere     :     6
-HEADER 14 - Proportion of apolar alpha sphere : 0.3750
-ATOM   1167   CB ALA A 163      20.931  22.647  31.840  0.00  0.00           C 0
-ATOM   2344    O ASP A 313      18.861  14.595  29.914  0.00  0.00           O 0
-ATOM   2091    O GLY A 281      16.614  16.985  30.335  0.33  4.29           O 0
-ATOM   2350   CA ASP A 314      18.405  16.344  27.714  0.00  0.00           C 0
-ATOM    551    O THR A  87      18.666  23.823  29.423  0.65  1.07           O 0
-ATOM   2058  NH2 ARG A 277      15.434  21.460  27.932  0.00  0.00           N 0
-ATOM   2352    O ASP A 314      16.543  17.844  27.274  0.00  0.00           O 0
-ATOM    549   CA THR A  87      18.617  23.744  27.032  0.00  0.00           C 0
-ATOM    554  CG2 THR A  87      20.315  22.397  25.602  0.00  0.00           C 0
-ATOM    576   SG CYS A  90      16.781  22.002  32.323  0.00  0.00           S 0
-ATOM   2353   CB ASP A 314      19.371  17.085  26.766  0.00  0.00           C 0
-ATOM    552   CB THR A  87      20.117  23.528  26.669  0.00  0.00           C 0
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   5040  OD1 ASP B 329      -4.110  28.263  71.437  0.44  3.21           O 0
+ATOM   4280  OD2 ASP B 235      -6.824  24.823  69.708  0.00  0.00           O 0
+ATOM   5038   CB ASP B 329      -3.793  25.907  71.086  0.00  0.00           C 0
+ATOM   5037    O ASP B 329      -3.449  24.343  74.036  0.69  2.14           O 0
+ATOM   4064  NE2 GLN B 208      -9.127  22.189  74.752  0.00  0.00           N 0
+ATOM   5050   NZ LYS B 330      -7.354  22.505  71.342  0.64  2.19           N 0
+ATOM   4076   CB LYS B 210      -5.462  28.842  77.518  0.00  0.00           C 0
+ATOM   4072    N LYS B 210      -3.856  26.964  77.789  0.00  0.00           N 0
+ATOM   4060   CB GLN B 208      -6.383  22.970  77.037  0.00  0.00           C 0
+ATOM   4062   CD GLN B 208      -8.648  22.456  75.968  0.00  0.00           C 0
+ATOM   4063  OE1 GLN B 208      -9.306  23.049  76.822  0.27  8.57           O 0
+ATOM   4087   CD GLU B 211      -9.985  27.355  80.115  0.00  0.00           C 0
+ATOM   4085   CB GLU B 211      -7.953  25.859  80.562  0.00  0.00           C 0
+ATOM   4088  OE1 GLU B 211     -10.585  26.298  79.840  0.48  5.36           O 0
+ATOM   4077   CG LYS B 210      -4.830  29.399  76.245  0.00  0.00           C 0
+ATOM   4081    N GLU B 211      -5.741  26.429  79.713  0.00  0.00           N 0
 TER
 END

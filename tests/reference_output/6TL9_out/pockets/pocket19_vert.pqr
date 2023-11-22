@@ -4,42 +4,36 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    19:
-HEADER 0  - Pocket Score                      : 0.0171
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of V. Vertices             :    23
-HEADER 3  - Mean alpha-sphere radius          : 4.0077
-HEADER 4  - Mean alpha-sphere SA              : 0.7324
-HEADER 5  - Mean B-factor                     : 0.3915
-HEADER 6  - Hydrophobicity Score              : 0.5714
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 4.5714
-HEADER 9  - Real volume (approximation)       : 232.9383
-HEADER 10 - Charge Score                      :     2
-HEADER 11 - Local hydrophobic density Score   : 7.0000
-HEADER 12 - Number of apolar alpha sphere     :     8
-HEADER 13 - Proportion of apolar alpha sphere : 0.3478
-ATOM      1    C STP    19     -33.852 -28.028 -16.488    0.00     4.19
-ATOM      2    O STP    19     -35.727 -28.268  -9.754    0.00     3.74
-ATOM      3    O STP    19     -35.788 -28.256  -9.790    0.00     3.79
-ATOM      4    O STP    19     -35.734 -28.468  -9.813    0.00     3.68
-ATOM      5    O STP    19     -35.703 -28.784  -9.785    0.00     3.49
-ATOM      6    O STP    19     -35.817 -28.359 -10.239    0.00     3.73
-ATOM      7    C STP    19     -33.901 -28.526 -15.134    0.00     4.08
-ATOM      8    O STP    19     -33.909 -28.557 -15.070    0.00     4.06
-ATOM      9    O STP    19     -33.699 -28.902 -14.888    0.00     3.73
-ATOM     10    C STP    19     -33.780 -28.746 -16.477    0.00     3.75
-ATOM     11    C STP    19     -33.840 -28.660 -16.209    0.00     3.83
-ATOM     12    C STP    19     -33.865 -29.107 -16.541    0.00     3.46
-ATOM     13    O STP    19     -33.895 -27.369 -15.432    0.00     4.68
-ATOM     14    C STP    19     -34.043 -27.990 -15.243    0.00     4.45
-ATOM     15    C STP    19     -34.099 -27.776 -15.339    0.00     4.59
-ATOM     16    O STP    19     -33.970 -28.405 -15.027    0.00     4.18
-ATOM     17    O STP    19     -33.887 -28.530 -14.931    0.00     4.04
-ATOM     18    O STP    19     -34.930 -27.889 -14.563    0.00     4.47
-ATOM     19    C STP    19     -35.037 -27.677 -14.614    0.00     4.63
-ATOM     20    O STP    19     -35.365 -28.310 -12.037    0.00     3.62
-ATOM     21    O STP    19     -34.753 -28.312 -14.086    0.00     3.96
-ATOM     22    O STP    19     -35.266 -27.878 -14.108    0.00     4.43
-ATOM     23    O STP    19     -35.333 -28.347 -12.082    0.00     3.60
+HEADER 0  - Pocket Score                      : 0.0190
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0566
+HEADER 4  - Mean alpha-sphere SA              : 0.6241
+HEADER 5  - Mean B-factor                     : 0.6795
+HEADER 6  - Hydrophobicity Score              : 23.4000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Volume Score                      : 5.5000
+HEADER 9  - Real volume (approximation)       : 336.5412
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 2.0000
+HEADER 12 - Number of apolar alpha sphere     :     3
+HEADER 13 - Proportion of apolar alpha sphere : 0.1765
+ATOM      1    C STP    19     -77.189 -52.612  -9.063    0.00     3.88
+ATOM      2    C STP    19     -77.976 -52.449  -7.603    0.00     3.44
+ATOM      3    O STP    19     -76.954 -51.945  -8.684    0.00     3.47
+ATOM      4    O STP    19     -77.034 -52.197  -8.842    0.00     3.62
+ATOM      5    C STP    19     -77.244 -52.680  -9.259    0.00     3.93
+ATOM      6    O STP    19     -76.463 -53.178  -9.035    0.00     3.56
+ATOM      7    O STP    19     -77.213 -53.672 -10.932    0.00     4.61
+ATOM      8    O STP    19     -76.746 -53.663 -11.743    0.00     4.58
+ATOM      9    O STP    19     -75.436 -56.222 -10.876    0.00     3.75
+ATOM     10    O STP    19     -75.314 -55.968 -10.705    0.00     3.61
+ATOM     11    O STP    19     -76.610 -55.310 -11.201    0.00     4.48
+ATOM     12    O STP    19     -75.416 -57.318 -13.740    0.00     4.43
+ATOM     13    O STP    19     -75.538 -57.269 -13.002    0.00     4.28
+ATOM     14    O STP    19     -75.402 -57.350 -13.772    0.00     4.42
+ATOM     15    O STP    19     -75.790 -56.221 -14.693    0.00     4.62
+ATOM     16    O STP    19     -75.469 -57.291 -13.780    0.00     4.47
+ATOM     17    O STP    19     -75.659 -52.836 -12.313    0.00     3.82
 TER
 END

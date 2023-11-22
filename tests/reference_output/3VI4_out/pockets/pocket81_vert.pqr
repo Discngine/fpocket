@@ -4,49 +4,39 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    81:
-HEADER 0  - Pocket Score                      : -0.0478
-HEADER 1  - Drug Score                        : 0.0002
-HEADER 2  - Number of V. Vertices             :    30
-HEADER 3  - Mean alpha-sphere radius          : 4.0121
-HEADER 4  - Mean alpha-sphere SA              : 0.4648
-HEADER 5  - Mean B-factor                     : 0.2166
-HEADER 6  - Hydrophobicity Score              : 1.5455
-HEADER 7  - Polarity Score                    :     8
-HEADER 8  - Volume Score                      : 3.8182
-HEADER 9  - Real volume (approximation)       : 441.5330
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 3.0000
-HEADER 12 - Number of apolar alpha sphere     :     4
-HEADER 13 - Proportion of apolar alpha sphere : 0.1333
-ATOM      1    O STP    81     -53.875 -30.044  -4.963    0.00     4.07
-ATOM      2    C STP    81     -54.087 -30.593  -3.858    0.00     3.42
-ATOM      3    C STP    81     -54.013 -30.652  -3.933    0.00     3.46
-ATOM      4    C STP    81     -50.185 -28.645  -4.868    0.00     4.18
-ATOM      5    O STP    81     -53.830 -29.926  -5.164    0.00     4.21
-ATOM      6    O STP    81     -53.852 -29.935  -5.162    0.00     4.21
-ATOM      7    O STP    81     -54.813 -29.286  -5.160    0.00     3.94
-ATOM      8    C STP    81     -56.401 -28.999  -5.598    0.00     3.72
-ATOM      9    O STP    81     -54.066 -26.545  -5.474    0.00     4.54
-ATOM     10    O STP    81     -54.361 -26.880  -5.422    0.00     4.34
-ATOM     11    O STP    81     -54.533 -26.406  -5.538    0.00     4.49
-ATOM     12    O STP    81     -57.168 -29.571  -6.209    0.00     3.57
-ATOM     13    O STP    81     -51.166 -28.782  -5.722    0.00     4.58
-ATOM     14    O STP    81     -51.886 -30.736  -5.990    0.00     3.69
-ATOM     15    O STP    81     -52.588 -29.819  -5.483    0.00     4.23
-ATOM     16    O STP    81     -52.960 -29.799  -5.475    0.00     4.26
-ATOM     17    O STP    81     -53.474 -26.751  -5.493    0.00     4.59
-ATOM     18    O STP    81     -53.167 -28.096  -5.385    0.00     4.30
-ATOM     19    O STP    81     -53.666 -26.096  -5.335    0.00     4.68
-ATOM     20    O STP    81     -52.059 -27.799  -7.369    0.00     3.73
-ATOM     21    O STP    81     -54.352 -31.064  -5.986    0.00     3.75
-ATOM     22    O STP    81     -54.081 -31.258  -6.305    0.00     3.67
-ATOM     23    O STP    81     -53.806 -31.695  -6.548    0.00     3.44
-ATOM     24    O STP    81     -51.626 -31.554  -6.446    0.00     3.41
-ATOM     25    O STP    81     -55.712 -26.109  -5.876    0.00     4.42
-ATOM     26    O STP    81     -56.229 -26.901  -5.881    0.00     4.04
-ATOM     27    O STP    81     -56.757 -26.152  -7.183    0.00     3.87
-ATOM     28    O STP    81     -57.127 -27.378  -6.638    0.00     3.61
-ATOM     29    O STP    81     -57.121 -30.156  -6.520    0.00     3.43
-ATOM     30    O STP    81     -50.028 -28.650  -6.563    0.00     4.49
+HEADER 0  - Pocket Score                      : -0.0274
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7762
+HEADER 4  - Mean alpha-sphere SA              : 0.4991
+HEADER 5  - Mean B-factor                     : 0.1689
+HEADER 6  - Hydrophobicity Score              : -0.7778
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 3.6667
+HEADER 9  - Real volume (approximation)       : 195.9388
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0500
+ATOM      1    O STP    81      21.293 -29.718 -43.103    0.00     3.49
+ATOM      2    O STP    81      19.741 -30.267 -43.507    0.00     3.54
+ATOM      3    O STP    81      20.701 -29.429 -43.793    0.00     3.49
+ATOM      4    O STP    81      20.170 -29.816 -42.612    0.00     4.13
+ATOM      5    O STP    81      20.553 -29.504 -43.030    0.00     3.90
+ATOM      6    C STP    81      19.043 -32.085 -43.509    0.00     3.51
+ATOM      7    O STP    81      18.196 -28.325 -41.143    0.00     3.70
+ATOM      8    O STP    81      19.243 -28.230 -41.200    0.00     4.36
+ATOM      9    O STP    81      19.421 -28.204 -41.684    0.00     4.24
+ATOM     10    O STP    81      18.181 -28.240 -41.203    0.00     3.69
+ATOM     11    O STP    81      19.389 -28.175 -41.686    0.00     4.22
+ATOM     12    O STP    81      18.326 -28.234 -41.187    0.00     3.78
+ATOM     13    O STP    81      19.212 -28.197 -41.215    0.00     4.34
+ATOM     14    O STP    81      18.837 -27.421 -41.067    0.00     3.91
+ATOM     15    O STP    81      18.981 -25.686 -39.353    0.00     3.43
+ATOM     16    O STP    81      18.713 -26.250 -40.223    0.00     3.42
+ATOM     17    O STP    81      18.367 -26.302 -41.034    0.00     3.48
+ATOM     18    O STP    81      20.330 -27.968 -42.702    0.00     3.71
+ATOM     19    O STP    81      20.217 -27.865 -42.569    0.00     3.76
+ATOM     20    O STP    81      20.360 -27.272 -43.197    0.00     3.42
 TER
 END

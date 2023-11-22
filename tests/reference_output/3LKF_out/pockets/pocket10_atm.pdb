@@ -3,32 +3,37 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    10:
-HEADER 0  - Pocket Score                      : 0.0813
-HEADER 1  - Drug Score                        : 0.0018
+HEADER 0  - Pocket Score                      : 0.0937
+HEADER 1  - Drug Score                        : 0.0083
 HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.8170
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5812
-HEADER 5  - Mean B-factor of pocket residues  : 0.6158
-HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 3  - Mean alpha-sphere radius          : 3.8042
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4998
+HEADER 5  - Mean B-factor of pocket residues  : 0.1368
+HEADER 6  - Hydrophobicity Score              : 38.1000
 HEADER 7  - Polarity Score                    :     3
-HEADER 8  - Amino Acid based volume Score     : 5.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 133.5639
-HEADER 10  -Pocket volume (convex hull)       : 1.9142
-HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 4.0000
-HEADER 13 - Number of apolar alpha sphere     :     5
-HEADER 14 - Proportion of apolar alpha sphere : 0.3333
-ATOM    764    O TYR A  99      27.955  20.779  80.311  0.70  1.07           O 0
-ATOM    761    N TYR A  99      26.358  19.300  78.639  0.64  1.09           N 0
-ATOM    967  CD1 ILE A 124      30.114  21.018  77.854  0.00  0.00           C 0
-ATOM    759  OD1 ASP A  98      29.154  16.631  75.757  0.00  0.00           O 0
-ATOM    749    O VAL A  97      26.637  14.844  76.325  0.00  0.00           O 0
-ATOM    771   CZ TYR A  99      26.046  15.958  82.151  0.00  0.00           C 0
-ATOM    754   CA ASP A  98      26.374  17.537  76.964  0.00  0.00           C 0
-ATOM    770  CE2 TYR A  99      25.133  15.993  81.119  0.00  0.00           C 0
-ATOM    772   OH TYR A  99      26.489  14.737  82.601  0.48  9.64           O 0
-ATOM    789   CB LYS A 102      30.136  19.311  82.498  0.00  0.00           C 0
-ATOM    769  CE1 TYR A  99      26.549  17.140  82.695  0.00  0.00           C 0
-ATOM    788    O LYS A 102      30.089  17.692  85.011  0.48  8.57           O 0
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.3614
+HEADER 10 - Pocket volume (convex hull)       : 9.4487
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   1564    O PHE A 207      19.784  37.414 114.515  0.31  9.64           O 0
+ATOM   1545   CA GLN A 205      15.362  38.483 117.893  0.00  0.00           C 0
+ATOM   1546    C GLN A 205      16.757  37.943 118.174  0.00  0.00           C 0
+ATOM   1547    O GLN A 205      17.676  38.718 118.453  0.52  9.64           O 0
+ATOM   1575    O ILE A 208      19.802  37.256 111.388  0.00  0.00           O 0
+ATOM    503   CG PRO A  66      13.089  35.958 112.796  0.00  0.00           C 0
+ATOM   1543    O GLY A 204      13.464  37.453 115.983  0.59  6.43           O 0
+ATOM   1590   CG GLN A 210      16.915  38.626 106.389  0.00  0.00           C 0
+ATOM   1585    N GLN A 210      19.515  39.441 108.208  0.26  4.37           N 0
+ATOM    504   CD PRO A  66      12.986  35.910 111.296  0.00  0.00           C 0
+ATOM    481   CZ PHE A  63      14.872  35.623 106.695  0.00  0.00           C 0
+ATOM    588  CD1 LEU A  76      15.868  32.769 110.503  0.00  0.00           C 0
+ATOM   1619   SD MET A 213      19.147  35.012 107.010  0.00  0.00           S 0
+ATOM   1565   CB PHE A 207      17.953  34.911 113.636  0.00  0.00           C 0
+ATOM   1593  NE2 GLN A 210      14.691  39.514 106.250  0.48  7.66           N 0
+ATOM    493   CB LYS A  65      11.567  37.595 108.617  0.00  0.00           C 0
+ATOM   1561    N PHE A 207      18.491  35.712 115.922  0.00  0.00           N 0
 TER
 END

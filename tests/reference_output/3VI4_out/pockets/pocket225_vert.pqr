@@ -1,0 +1,65 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   225:
+HEADER 0  - Pocket Score                      : -0.1780
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of V. Vertices             :    43
+HEADER 3  - Mean alpha-sphere radius          : 3.8780
+HEADER 4  - Mean alpha-sphere SA              : 0.3899
+HEADER 5  - Mean B-factor                     : 0.4042
+HEADER 6  - Hydrophobicity Score              : 10.1667
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.4167
+HEADER 9  - Real volume (approximation)       : 377.8955
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 9.2727
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.2558
+ATOM      1    O STP   225      44.953  50.056  16.791    0.00     3.91
+ATOM      2    O STP   225      46.638  53.212  18.872    0.00     4.55
+ATOM      3    O STP   225      46.698  53.194  18.370    0.00     4.47
+ATOM      4    C STP   225      45.401  52.137  17.640    0.00     4.36
+ATOM      5    O STP   225      45.517  52.325  16.316    0.00     4.37
+ATOM      6    C STP   225      44.979  52.691  15.633    0.00     4.05
+ATOM      7    O STP   225      45.077  50.818  19.995    0.00     4.20
+ATOM      8    O STP   225      45.002  49.852  16.733    0.00     3.85
+ATOM      9    C STP   225      44.898  49.894  16.810    0.00     3.92
+ATOM     10    C STP   225      45.296  52.110  18.051    0.00     4.38
+ATOM     11    O STP   225      45.611  52.448  18.881    0.00     4.46
+ATOM     12    O STP   225      45.038  50.861  19.930    0.00     4.23
+ATOM     13    O STP   225      43.864  50.233  20.838    0.00     3.79
+ATOM     14    O STP   225      45.012  50.799  19.954    0.00     4.23
+ATOM     15    O STP   225      44.882  50.581  19.820    0.00     4.20
+ATOM     16    O STP   225      43.368  49.902  21.087    0.00     3.79
+ATOM     17    O STP   225      43.367  49.873  21.045    0.00     3.79
+ATOM     18    O STP   225      42.818  49.865  21.415    0.00     3.69
+ATOM     19    O STP   225      42.519  49.752  21.453    0.00     3.67
+ATOM     20    C STP   225      41.519  49.396  22.609    0.00     3.49
+ATOM     21    O STP   225      44.751  50.428  19.786    0.00     4.17
+ATOM     22    O STP   225      43.918  49.821  20.128    0.00     3.93
+ATOM     23    O STP   225      44.619  50.449  18.730    0.00     4.12
+ATOM     24    O STP   225      44.789  50.474  19.589    0.00     4.17
+ATOM     25    O STP   225      43.282  49.494  19.102    0.00     3.76
+ATOM     26    O STP   225      43.264  49.473  19.181    0.00     3.76
+ATOM     27    C STP   225      44.778  49.925  17.364    0.00     3.88
+ATOM     28    C STP   225      43.601  48.489  16.457    0.00     3.68
+ATOM     29    O STP   225      44.759  49.634  16.792    0.00     3.90
+ATOM     30    O STP   225      44.234  49.066  16.539    0.00     3.74
+ATOM     31    O STP   225      44.995  48.962  16.396    0.00     3.59
+ATOM     32    O STP   225      43.446  49.686  21.069    0.00     3.62
+ATOM     33    O STP   225      41.632  49.423  21.943    0.00     3.65
+ATOM     34    C STP   225      41.452  49.238  22.734    0.00     3.41
+ATOM     35    O STP   225      41.076  49.282  20.846    0.00     3.57
+ATOM     36    C STP   225      40.383  49.239  20.735    0.00     3.40
+ATOM     37    O STP   225      41.320  49.555  21.592    0.00     3.67
+ATOM     38    O STP   225      41.454  49.521  21.580    0.00     3.70
+ATOM     39    O STP   225      41.418  49.401  22.506    0.00     3.51
+ATOM     40    C STP   225      41.479  49.379  22.545    0.00     3.52
+ATOM     41    O STP   225      40.623  49.412  20.919    0.00     3.52
+ATOM     42    O STP   225      40.598  49.363  20.795    0.00     3.53
+ATOM     43    C STP   225      43.547  48.028  16.325    0.00     3.57
+TER
+END

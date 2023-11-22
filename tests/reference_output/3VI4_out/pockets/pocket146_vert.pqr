@@ -4,72 +4,45 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   146:
-HEADER 0  - Pocket Score                      : -0.1212
-HEADER 1  - Drug Score                        : 0.0076
-HEADER 2  - Number of V. Vertices             :    53
-HEADER 3  - Mean alpha-sphere radius          : 3.7640
-HEADER 4  - Mean alpha-sphere SA              : 0.3775
-HEADER 5  - Mean B-factor                     : 0.5420
-HEADER 6  - Hydrophobicity Score              : 22.3333
+HEADER 0  - Pocket Score                      : -0.0830
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of V. Vertices             :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0155
+HEADER 4  - Mean alpha-sphere SA              : 0.5414
+HEADER 5  - Mean B-factor                     : 0.2296
+HEADER 6  - Hydrophobicity Score              : -1.9000
 HEADER 7  - Polarity Score                    :     8
-HEADER 8  - Volume Score                      : 3.4000
-HEADER 9  - Real volume (approximation)       : 440.7496
-HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 7.0000
-HEADER 12 - Number of apolar alpha sphere     :     8
-HEADER 13 - Proportion of apolar alpha sphere : 0.1509
-ATOM      1    O STP   146     -60.610 -80.692  36.622    0.00     3.64
-ATOM      2    O STP   146     -57.601 -78.678  35.382    0.00     3.87
-ATOM      3    O STP   146     -57.587 -79.060  35.449    0.00     3.67
-ATOM      4    O STP   146     -58.473 -79.398  36.001    0.00     3.51
-ATOM      5    O STP   146     -58.973 -79.169  36.231    0.00     3.72
-ATOM      6    O STP   146     -56.867 -78.441  35.737    0.00     3.51
-ATOM      7    O STP   146     -60.942 -81.568  37.514    0.00     3.46
-ATOM      8    O STP   146     -59.407 -79.188  36.395    0.00     3.81
-ATOM      9    O STP   146     -58.886 -77.382  33.684    0.00     3.72
-ATOM     10    O STP   146     -58.879 -77.488  33.646    0.00     3.76
-ATOM     11    O STP   146     -58.610 -77.881  34.641    0.00     3.80
-ATOM     12    O STP   146     -58.857 -77.588  33.676    0.00     3.79
-ATOM     13    O STP   146     -59.162 -78.962  36.294    0.00     3.87
-ATOM     14    O STP   146     -59.385 -79.136  36.385    0.00     3.83
-ATOM     15    O STP   146     -59.206 -78.879  36.453    0.00     3.83
-ATOM     16    O STP   146     -59.057 -78.408  36.688    0.00     3.79
-ATOM     17    O STP   146     -58.587 -77.938  34.796    0.00     3.81
-ATOM     18    O STP   146     -58.697 -78.532  35.955    0.00     3.96
-ATOM     19    O STP   146     -58.565 -77.929  34.773    0.00     3.82
-ATOM     20    O STP   146     -58.016 -78.410  35.557    0.00     3.98
-ATOM     21    O STP   146     -57.119 -77.800  36.291    0.00     3.51
-ATOM     22    O STP   146     -60.989 -74.916  44.095    0.00     3.75
-ATOM     23    O STP   146     -61.027 -74.886  44.063    0.00     3.71
-ATOM     24    C STP   146     -60.569 -76.706  42.019    0.00     4.06
-ATOM     25    O STP   146     -60.632 -76.497  40.552    0.00     3.83
-ATOM     26    O STP   146     -59.483 -76.286  39.982    0.00     3.76
-ATOM     27    C STP   146     -61.312 -77.136  42.068    0.00     4.07
-ATOM     28    O STP   146     -61.415 -77.193  42.061    0.00     4.08
-ATOM     29    O STP   146     -60.662 -74.994  44.181    0.00     3.79
-ATOM     30    O STP   146     -60.907 -75.026  44.116    0.00     3.81
-ATOM     31    O STP   146     -60.639 -76.424  42.468    0.00     3.93
-ATOM     32    O STP   146     -60.933 -75.254  43.839    0.00     3.75
-ATOM     33    O STP   146     -60.085 -79.601  36.491    0.00     3.74
-ATOM     34    O STP   146     -60.584 -80.606  36.625    0.00     3.65
-ATOM     35    O STP   146     -60.316 -80.137  36.596    0.00     3.67
-ATOM     36    O STP   146     -60.593 -80.591  36.823    0.00     3.60
-ATOM     37    O STP   146     -62.865 -79.201  42.303    0.00     4.32
-ATOM     38    C STP   146     -61.839 -77.368  41.667    0.00     4.04
-ATOM     39    C STP   146     -61.077 -76.696  40.230    0.00     3.81
-ATOM     40    C STP   146     -59.659 -76.609  42.045    0.00     3.96
-ATOM     41    O STP   146     -58.848 -76.244  40.171    0.00     3.82
-ATOM     42    O STP   146     -57.591 -76.850  39.448    0.00     3.65
-ATOM     43    O STP   146     -56.714 -76.650  39.061    0.00     3.61
-ATOM     44    C STP   146     -60.814 -76.840  39.209    0.00     3.68
-ATOM     45    C STP   146     -60.810 -76.903  39.109    0.00     3.65
-ATOM     46    O STP   146     -60.243 -77.350  38.142    0.00     3.48
-ATOM     47    C STP   146     -60.450 -77.319  38.290    0.00     3.49
-ATOM     48    O STP   146     -60.279 -76.688  39.189    0.00     3.63
-ATOM     49    O STP   146     -60.529 -75.146  44.013    0.00     3.73
-ATOM     50    O STP   146     -60.116 -76.064  42.957    0.00     3.75
-ATOM     51    O STP   146     -59.358 -75.844  42.833    0.00     3.56
-ATOM     52    O STP   146     -59.590 -76.327  42.475    0.00     3.82
-ATOM     53    O STP   146     -60.575 -75.036  44.438    0.00     3.64
+HEADER 8  - Volume Score                      : 4.5000
+HEADER 9  - Real volume (approximation)       : 385.4072
+HEADER 10 - Charge Score                      :     3
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.1538
+ATOM      1    O STP   146      32.162 -18.340 -46.036    0.00     4.03
+ATOM      2    O STP   146      32.028 -17.930 -44.492    0.00     3.91
+ATOM      3    O STP   146      34.086  -8.682 -41.377    0.00     4.38
+ATOM      4    O STP   146      33.082 -17.918 -43.794    0.00     4.60
+ATOM      5    C STP   146      33.086 -17.118 -43.125    0.00     4.45
+ATOM      6    O STP   146      31.526 -18.719 -46.572    0.00     3.73
+ATOM      7    O STP   146      33.828  -9.462 -41.229    0.00     4.39
+ATOM      8    O STP   146      34.116 -11.422 -41.637    0.00     4.02
+ATOM      9    O STP   146      32.097 -14.708 -41.763    0.00     3.62
+ATOM     10    O STP   146      32.202 -14.690 -41.686    0.00     3.67
+ATOM     11    C STP   146      33.170 -17.083 -43.114    0.00     4.48
+ATOM     12    O STP   146      32.452 -15.159 -41.777    0.00     3.81
+ATOM     13    O STP   146      32.128 -15.773 -42.319    0.00     3.81
+ATOM     14    O STP   146      32.077 -15.734 -42.332    0.00     3.78
+ATOM     15    O STP   146      32.986 -16.937 -43.039    0.00     4.35
+ATOM     16    O STP   146      31.660 -15.641 -42.827    0.00     3.46
+ATOM     17    O STP   146      34.150  -9.705 -41.089    0.00     4.39
+ATOM     18    O STP   146      34.034 -10.494 -41.358    0.00     4.14
+ATOM     19    O STP   146      33.884  -9.570 -41.187    0.00     4.39
+ATOM     20    O STP   146      33.185  -9.471 -40.563    0.00     3.76
+ATOM     21    C STP   146      33.689  -9.519 -41.094    0.00     4.27
+ATOM     22    O STP   146      32.266 -18.451 -43.211    0.00     3.80
+ATOM     23    O STP   146      33.910 -11.954 -41.559    0.00     3.82
+ATOM     24    O STP   146      34.746 -13.959 -41.615    0.00     4.11
+ATOM     25    O STP   146      33.024 -13.617 -41.511    0.00     3.52
+ATOM     26    C STP   146      33.772 -11.712 -41.378    0.00     3.71
 TER
 END

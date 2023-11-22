@@ -90,6 +90,8 @@ typedef struct s_pdb
     char header[M_PDB_BUF_LEN] ; /**< Header container*/
     char fname[M_PDB_FILE_NAME_LEN];    /**< File name container*/
     float avg_bfactor;  /**<overall average B factor*/
+    float min_bfactor;  /**<overall minimum B factor*/
+    float max_bfactor;  /**<overall maximum B factor*/
     int model_flag; /**<flag set to 1 if a particular model / conformation was read*/
     int model_number; /**<number of the model read in*/
 

@@ -8,12 +8,12 @@ HEADER 1  - Drug Score                        : 0.0002
 HEADER 2  - Number of alpha spheres           :    22
 HEADER 3  - Mean alpha-sphere radius          : 3.8005
 HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4136
-HEADER 5  - Mean B-factor of pocket residues  : 0.4612
+HEADER 5  - Mean B-factor of pocket residues  : 0.1988
 HEADER 6  - Hydrophobicity Score              : 53.5556
 HEADER 7  - Polarity Score                    :     3
 HEADER 8  - Amino Acid based volume Score     : 4.6667
-HEADER 9  - Pocket volume (Monte Carlo)       : 192.6857
-HEADER 10  -Pocket volume (convex hull)       : 3.2029
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.7486
+HEADER 10 - Pocket volume (convex hull)       : 3.2029
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 0.0000
 HEADER 13 - Number of apolar alpha sphere     :     1

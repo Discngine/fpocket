@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   206:
+HEADER 0  - Pocket Score                      : -0.1446
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8969
+HEADER 4  - Mean alpha-sphere SA              : 0.5139
+HEADER 5  - Mean B-factor                     : 0.1358
+HEADER 6  - Hydrophobicity Score              : 6.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.5000
+HEADER 9  - Real volume (approximation)       : 199.0259
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP   206     -38.176 -24.543 -30.819    0.00     4.15
+ATOM      2    O STP   206     -36.800 -23.947 -30.688    0.00     4.65
+ATOM      3    O STP   206     -39.299 -23.738 -28.824    0.00     3.55
+ATOM      4    O STP   206     -39.256 -24.142 -29.178    0.00     3.70
+ATOM      5    O STP   206     -38.969 -23.383 -28.745    0.00     3.47
+ATOM      6    O STP   206     -38.008 -24.566 -30.307    0.00     4.30
+ATOM      7    O STP   206     -37.300 -24.215 -30.470    0.00     4.47
+ATOM      8    O STP   206     -36.879 -22.786 -29.581    0.00     4.17
+ATOM      9    O STP   206     -37.065 -22.314 -29.081    0.00     4.03
+ATOM     10    O STP   206     -37.186 -22.338 -29.024    0.00     3.96
+ATOM     11    O STP   206     -38.497 -26.087 -29.798    0.00     3.56
+ATOM     12    O STP   206     -38.452 -25.961 -29.719    0.00     3.63
+ATOM     13    O STP   206     -38.550 -25.636 -29.467    0.00     3.65
+ATOM     14    O STP   206     -38.408 -25.912 -29.765    0.00     3.67
+ATOM     15    O STP   206     -38.220 -25.405 -29.861    0.00     3.90
+ATOM     16    O STP   206     -36.474 -25.753 -29.968    0.00     3.51
+ATOM     17    O STP   206     -37.413 -25.129 -29.979    0.00     3.92
+ATOM     18    O STP   206     -37.151 -25.177 -29.995    0.00     3.86
+TER
+END

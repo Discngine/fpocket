@@ -9,11 +9,11 @@ HEADER 1  - Drug Score                        : 0.0020
 HEADER 2  - Number of V. Vertices             :    59
 HEADER 3  - Mean alpha-sphere radius          : 4.0734
 HEADER 4  - Mean alpha-sphere SA              : 0.6811
-HEADER 5  - Mean B-factor                     : 0.4088
+HEADER 5  - Mean B-factor                     : 0.3105
 HEADER 6  - Hydrophobicity Score              : 5.1053
 HEADER 7  - Polarity Score                    :    12
 HEADER 8  - Volume Score                      : 3.3684
-HEADER 9  - Real volume (approximation)       : 832.2958
+HEADER 9  - Real volume (approximation)       : 840.3903
 HEADER 10 - Charge Score                      :    -3
 HEADER 11 - Local hydrophobic density Score   : 3.5556
 HEADER 12 - Number of apolar alpha sphere     :     9

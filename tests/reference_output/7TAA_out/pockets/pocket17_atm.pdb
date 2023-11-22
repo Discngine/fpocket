@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.1785
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8033
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5792
+HEADER 5  - Mean B-factor of pocket residues  : 0.3551
+HEADER 6  - Hydrophobicity Score              : 0.7143
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.3410
+HEADER 10 - Pocket volume (convex hull)       : 4.8067
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM    796   CB LYS A 101      49.631  62.170  11.957  0.00  0.00           C 0
+ATOM    824   CB SER A 105      51.013  59.306   6.397  0.00  0.00           C 0
+ATOM   1585   OG SER A 199      44.017  60.253   7.325  0.46  7.50           O 0
+ATOM    797   CG LYS A 101      48.280  62.788  12.264  0.00  0.00           C 0
+ATOM    799   CE LYS A 101      47.144  64.985  12.517  0.00  0.00           C 0
+ATOM   1563    O ASN A 197      44.182  62.891  11.957  0.00  0.00           O 0
+ATOM    819   OG SER A 104      46.731  56.842   8.920  0.00  0.00           O 0
+ATOM    818   CB SER A 104      47.854  57.198   9.735  0.00  0.00           C 0
+ATOM    795    O LYS A 101      50.482  59.577  10.123  0.57  3.21           O 0
+ATOM   1571    O TYR A 198      45.104  58.371  10.786  0.00  0.00           O 0
+ATOM    793   CA LYS A 101      49.648  60.661  12.103  0.00  0.00           C 0
+ATOM   1570    C TYR A 198      44.251  59.250  10.952  0.00  0.00           C 0
+ATOM    845  ND1 HIS A 108      46.495  56.186   5.283  0.54  7.66           N 0
+ATOM   1584   CB SER A 199      44.031  58.907   7.786  0.00  0.00           C 0
+ATOM    820    N SER A 105      50.244  57.505   7.881  0.00  0.00           N 0
+ATOM    821   CA SER A 105      50.718  57.809   6.513  0.00  0.00           C 0
+TER
+END

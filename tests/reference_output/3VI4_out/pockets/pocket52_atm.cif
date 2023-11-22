@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    52:
-0  - Pocket Score                      : -0.0110
-1  - Drug Score                        : 0.0005
+0  - Pocket Score                      : 0.0040
+1  - Drug Score                        : 0.0034
 2  - Number of alpha spheres           :    17
-3  - Mean alpha-sphere radius          : 3.8171
-4  - Mean alpha-sphere Solvent Acc.    : 0.5567
-5  - Mean B-factor of pocket residues  : 0.7756
-6  - Hydrophobicity Score              : 50.5714
-7  - Polarity Score                    :     3
-8  - Amino Acid based volume Score     : 3.8571
-9  - Pocket volume (Monte Carlo)       : 180.4231
-10  -Pocket volume (convex hull)       : 3.0739
-11 - Charge Score                      :     0
-12 - Local hydrophobic density Score   : 7.0000
-13 - Number of apolar alpha sphere     :     8
-14 - Proportion of apolar alpha sphere : 0.4706
+3  - Mean alpha-sphere radius          : 4.0165
+4  - Mean alpha-sphere Solvent Acc.    : 0.6018
+5  - Mean B-factor of pocket residues  : 0.1851
+6  - Hydrophobicity Score              : 38.6667
+7  - Polarity Score                    :     2
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 231.0180
+10  -Pocket volume (convex hull)       : 3.1309
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 11.0000
+13 - Number of apolar alpha sphere     :    12
+14 - Proportion of apolar alpha sphere : 0.7059
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    22064    C   CA .  SER   H .  165 ?   -9.776 -28.684 -80.737  0.00  0   H
-ATOM    22084    C  CG1 .  VAL   H .  168 ?   -4.658 -29.745 -83.326  0.00  0   H
-ATOM    22066    O    O .  SER   H .  165 ?   -8.117 -30.306 -80.132  0.00  0   H
-ATOM    22083    C   CB .  VAL   H .  168 ?   -5.636 -30.613 -82.549  0.00  0   H
-ATOM    22085    C  CG2 .  VAL   H .  168 ?   -7.001 -30.552 -83.217  0.00  0   H
-ATOM    22067    C   CB .  SER   H .  165 ?   -9.953 -27.737 -79.543  0.00  0   H
-ATOM    22006    O    O .  VAL   H .  157 ?   -4.268 -23.857 -83.779  0.00  0   H
-ATOM    22048    O    O .  GLY   H .  162 ?  -12.554 -24.575 -81.457  0.00  0   H
-ATOM    22046    C   CA .  GLY   H .  162 ?  -11.566 -23.038 -82.999  0.00  0   H
-ATOM    22016    C  CG2 .  THR   H .  158 ?   -8.278 -22.311 -83.734  0.00  0   H
-ATOM    22058    O    O .  LEU   H .  164 ?  -10.206 -27.519 -83.238 -2.14  0   H
-ATOM    22023    C  CD1 .  TRP   H .  159 ?   -6.452 -27.993 -85.977  0.00  0   H
-ATOM    22017    N    N .  TRP   H .  159 ?   -8.231 -25.038 -85.933  0.00  0   H
-ATOM    22011    C   CA .  THR   H .  158 ?   -6.601 -23.389 -85.242  0.00  0   H
+ATOM     8419    C  CG1 .  ILE   C .   70 ?  -32.399 -53.706 -76.748  0.00  0   C
+ATOM     8405    O  OG1 .  THR   C .   68 ?  -35.198 -50.671 -81.134 -2.14  0   C
+ATOM     8328    C  CD2 .  LEU   C .   57 ?  -30.811 -50.337 -80.340  0.00  0   C
+ATOM     8410    O    O .  PRO   C .   69 ?  -35.763 -55.161 -78.984 -3.35  0   C
+ATOM     8325    C   CB .  LEU   C .   57 ?  -32.277 -50.226 -78.271  0.00  0   C
+ATOM     8979    C  CE2 .  PHE   C .  142 ?  -28.017 -53.913 -79.966  0.00  0   C
+ATOM     8415    C   CA .  ILE   C .   70 ?  -33.788 -55.757 -77.135  0.00  0   C
+ATOM     8420    C  CG2 .  ILE   C .   70 ?  -31.341 -56.006 -76.583  0.00  0   C
+ATOM     8977    C  CD2 .  PHE   C .  142 ?  -27.497 -55.068 -80.523  0.00  0   C
+ATOM     8976    C  CD1 .  PHE   C .  142 ?  -27.610 -56.154 -78.389  0.00  0   C
+ATOM     8425    O    O .  GLU   C .   71 ?  -31.629 -60.419 -77.435 -3.35  0   C
+ATOM     8975    C   CG .  PHE   C .  142 ?  -27.281 -56.200 -79.741  0.00  0   C
+ATOM     8974    C   CB .  PHE   C .  142 ?  -26.708 -57.449 -80.353  0.00  0   C
+ATOM     8980    C   CZ .  PHE   C .  142 ?  -28.333 -53.879 -78.615  0.00  0   C
+ATOM     8422    N    N .  GLU   C .   71 ?  -33.806 -58.113 -77.726 -0.84  0   C
+ATOM     8426    C   CB .  GLU   C .   71 ?  -34.190 -60.343 -78.722  0.00  0   C
 # 

@@ -3,17 +3,17 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     7:
-HEADER 0  - Pocket Score                      : -0.0176
+HEADER 0  - Pocket Score                      : -0.0213
 HEADER 1  - Drug Score                        : 0.0002
 HEADER 2  - Number of alpha spheres           :    16
 HEADER 3  - Mean alpha-sphere radius          : 4.1123
 HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6293
-HEADER 5  - Mean B-factor of pocket residues  : 0.8186
+HEADER 5  - Mean B-factor of pocket residues  : 0.6796
 HEADER 6  - Hydrophobicity Score              : -15.1667
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 5.3333
-HEADER 9  - Pocket volume (Monte Carlo)       : 207.0160
-HEADER 10  -Pocket volume (convex hull)       : 1.1998
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.9989
+HEADER 10 - Pocket volume (convex hull)       : 1.1998
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 1.0000
 HEADER 13 - Number of apolar alpha sphere     :     2
@@ -25,7 +25,7 @@ ATOM   1048  CG2 THR A 151     475.538 200.865 564.093  0.00  0.00           C 0
 ATOM   1047  OG1 THR A 151     476.366 201.573 566.251  0.53  1.07           O 0
 ATOM   1060  OE1 GLU A 153     476.363 200.029 569.201  0.00  0.00           O 0
 ATOM    865    O ARG A 125     479.202 196.605 564.780  0.56  2.14           O 0
-ATOM   1061  OE2 GLU A 153     478.454 199.403 568.960  0.00  0.00           O 0
+ATOM   1061  OE2 GLU A 153     478.454 199.403 568.960  1.00  1.07           O 0
 ATOM    863   CA ARG A 125     478.639 194.593 563.599  0.00  0.00           C 0
 ATOM    860    O ARG A 124     477.500 196.599 562.018  0.59  5.36           O 0
 ATOM   1384   NE ARG A 192     473.505 196.576 560.170  0.65  7.66           N 0

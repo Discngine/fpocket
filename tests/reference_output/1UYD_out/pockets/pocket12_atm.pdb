@@ -3,35 +3,43 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    12:
-HEADER 0  - Pocket Score                      : -0.0943
+HEADER 0  - Pocket Score                      : -0.0850
 HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of alpha spheres           :    17
-HEADER 3  - Mean alpha-sphere radius          : 3.9685
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4690
-HEADER 5  - Mean B-factor of pocket residues  : 0.6813
-HEADER 6  - Hydrophobicity Score              : 17.1250
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Amino Acid based volume Score     : 4.3750
-HEADER 9  - Pocket volume (Monte Carlo)       : 258.9960
-HEADER 10  -Pocket volume (convex hull)       : 6.1907
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9413
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6305
+HEADER 5  - Mean B-factor of pocket residues  : 0.2519
+HEADER 6  - Hydrophobicity Score              : 1.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.5220
+HEADER 10 - Pocket volume (convex hull)       : 23.7268
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 0.0000
 HEADER 13 - Number of apolar alpha sphere     :     1
-HEADER 14 - Proportion of apolar alpha sphere : 0.0588
-ATOM    546  OD1 ASN A  83      -9.060  30.353  17.010  0.00  0.00           O 0
-ATOM    564  OE1 GLN A  85     -11.154  34.993  17.665  0.00  0.00           O 0
-ATOM    561   CB GLN A  85      -9.191  33.552  16.094  0.00  0.00           C 0
-ATOM   1635  OE1 GLU A 223     -12.191  29.432  14.068  0.69  6.43           O 0
-ATOM   1624    O VAL A 222     -16.483  24.967  15.232  0.41  9.64           O 0
-ATOM    536    O PRO A  82     -10.987  25.587  15.850  0.58  5.36           O 0
-ATOM   1633   CG GLU A 223     -13.156  27.273  13.733  0.00  0.00           C 0
-ATOM   1640    O LYS A 224     -17.476  29.652  17.739  0.00  0.00           O 0
-ATOM    531  CG2 ILE A  81     -11.338  23.371  19.262  0.00  0.00           C 0
-ATOM   1617  CD2 PHE A 221     -15.287  21.681  19.679  0.00  0.00           C 0
-ATOM   1614   CB PHE A 221     -14.726  21.255  17.261  0.00  0.00           C 0
-ATOM    547  ND2 ASN A  83     -10.255  29.459  18.675  0.00  0.00           N 0
-ATOM   1638   CA LYS A 224     -16.885  29.440  15.328  0.00  0.00           C 0
-ATOM   1641   CB LYS A 224     -16.523  30.812  14.719  0.00  0.00           C 0
-ATOM   1629   CA GLU A 223     -15.616  27.088  13.785  0.00  0.00           C 0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0417
+ATOM    905   CG GLN A 133       5.839   1.301  12.015  0.00  0.00           C 0
+ATOM    900    N GLN A 133       6.065   3.614  13.906  0.65  2.19           N 0
+ATOM    899    O GLY A 132       5.184   4.004  15.981  0.41  9.64           O 0
+ATOM    901   CA GLN A 133       6.602   2.274  14.225  0.00  0.00           C 0
+ATOM    288   CB SER A  50      -2.318   6.388  16.587  0.00  0.00           C 0
+ATOM    266  OE1 GLU A  47       2.544   7.847  14.341  0.46  3.21           O 0
+ATOM    289   OG SER A  50      -1.198   5.792  17.193  0.42  8.57           O 0
+ATOM    254   CD ARG A  46      -1.055   7.401  10.651  0.00  0.00           C 0
+ATOM    267  OE2 GLU A  47       2.264   7.922  12.168  0.62  2.14           O 0
+ATOM    256   CZ ARG A  46       0.655   7.138   8.868  0.00  0.00           C 0
+ATOM    258  NH2 ARG A  46       1.902   7.340   8.454  0.00  0.00           N 0
+ATOM    251    O ARG A  46      -2.341   8.640  14.586  0.42  1.07           O 0
+ATOM    877    O SER A 129       4.713   7.157   9.023  0.00  0.00           O 0
+ATOM    885   CG MET A 130       7.387   4.013   7.315  0.00  0.00           C 0
+ATOM    879   OG SER A 129       5.275   7.233   5.546  0.00  0.00           O 0
+ATOM    883    O MET A 130       7.577   4.779  11.583  0.00  0.00           O 0
+ATOM    881   CA MET A 130       7.027   5.523   9.334  0.00  0.00           C 0
+ATOM    897   CA GLY A 132       5.029   5.773  14.338  0.00  0.00           C 0
+ATOM    255   NE ARG A  46       0.290   7.541  10.087  0.49  1.09           N 0
+ATOM    908  NE2 GLN A 133       6.088   1.519   9.608  0.00  0.00           N 0
+ATOM    257  NH1 ARG A  46      -0.217   6.541   8.063  0.00  0.00           N 0
+ATOM    898    C GLY A 132       5.444   4.381  14.811  0.00  0.00           C 0
+ATOM    896    N GLY A 132       5.940   6.411  13.397  0.00  0.00           N 0
 TER
 END

@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    41:
-0  - Pocket Score                      : -0.0470
-1  - Drug Score                        : 0.0006
-2  - Number of alpha spheres           :    19
-3  - Mean alpha-sphere radius          : 3.8231
-4  - Mean alpha-sphere Solvent Acc.    : 0.4558
-5  - Mean B-factor of pocket residues  : 0.4718
-6  - Hydrophobicity Score              : 24.4286
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.1429
-9  - Pocket volume (Monte Carlo)       : 244.9444
-10  -Pocket volume (convex hull)       : 12.6316
-11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 8.0000
-13 - Number of apolar alpha sphere     :     9
-14 - Proportion of apolar alpha sphere : 0.4737
+0  - Pocket Score                      : -0.0406
+1  - Drug Score                        : 0.0010
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 3.9246
+4  - Mean alpha-sphere Solvent Acc.    : 0.4702
+5  - Mean B-factor of pocket residues  : 0.3452
+6  - Hydrophobicity Score              : 49.2500
+7  - Polarity Score                    :     2
+8  - Amino Acid based volume Score     : 5.5000
+9  - Pocket volume (Monte Carlo)       : 117.3028
+10  -Pocket volume (convex hull)       : 1.0332
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 10.0000
+13 - Number of apolar alpha sphere     :    11
+14 - Proportion of apolar alpha sphere : 0.5000
 # 
 loop_
 _atom_site.group_PDB
@@ -39,22 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     8245    O    O .  CYS   H .  118 ?   -7.386 -60.958 -20.378 -1.07  0   H
-ATOM     7504    C   CG .  ASN   H .   26 ?   -7.375 -59.387 -24.417  0.00  0   H
-ATOM     7525    C   CB .  GLU   H .   28 ?   -3.423 -57.301 -22.855  0.00  0   H
-ATOM     8254    C  CG2 .  ILE   H .  119 ?   -5.523 -64.563 -22.376  0.00  0   H
-ATOM     7527    C   CD .  GLU   H .   28 ?   -1.257 -57.680 -24.179  0.00  0   H
-ATOM     7528    O  OE1 .  GLU   H .   28 ?   -1.585 -58.888 -24.235  0.00  0   H
-ATOM     8127    O    O .  SER   H .  102 ?   -2.150 -62.479 -17.928 -2.28  0   H
-ATOM     7506    N  ND2 .  ASN   H .   26 ?   -7.301 -60.121 -25.530 -4.79  0   H
-ATOM     8128    C   CB .  SER   H .  102 ?   -2.580 -63.967 -20.200  0.00  0   H
-ATOM     8129    O   OG .  SER   H .  102 ?   -2.202 -64.349 -21.512 -4.29  0   H
-ATOM     8246    C   CB .  CYS   H .  118 ?   -5.351 -61.324 -18.152  0.00  0   H
-ATOM     7505    O  OD1 .  ASN   H .   26 ?   -6.712 -58.359 -24.263 -1.07  0   H
-ATOM     7529    O  OE2 .  GLU   H .   28 ?   -0.184 -57.237 -24.648 -6.17  0   H
-ATOM     7526    C   CG .  GLU   H .   28 ?   -2.215 -56.692 -23.539  0.00  0   H
-ATOM     7552    O  OE1 .  GLN   H .   31 ?   -1.061 -53.259 -20.510  0.00  0   H
-ATOM     7519    C  CZ3 .  TRP   H .   27 ?   -3.014 -55.478 -17.221  0.00  0   H
-ATOM     7517    C  CE3 .  TRP   H .   27 ?   -4.041 -56.180 -17.816  0.00  0   H
-ATOM     7521    N    N .  GLU   H .   28 ?   -5.398 -56.912 -21.441 -1.09  0   H
+ATOM     2114    C   CB .  CYS   C .    6 ?  -24.135 -41.625 -44.285  0.00  0   C
+ATOM     3148    N    N .  CYS   D .    6 ?  -29.384 -47.886 -43.138 -1.09  0   D
+ATOM     3151    O    O .  CYS   D .    6 ?  -28.467 -47.029 -40.670 -3.21  0   D
+ATOM     2113    O    O .  CYS   C .    6 ?  -26.196 -42.086 -46.710 -3.21  0   C
+ATOM     2166    C   CB .  TRP   C .   12 ?  -24.243 -43.514 -40.281  0.00  0   C
+ATOM     3152    C   CB .  CYS   D .    6 ?  -27.186 -48.926 -42.954  0.00  0   D
+ATOM     3147    C   CD .  PRO   D .    5 ?  -30.969 -45.001 -44.784  0.00  0   D
+ATOM     3204    C   CB .  TRP   D .   12 ?  -25.567 -47.426 -46.721  0.00  0   D
+ATOM     3181    O    O .  TRP   D .   10 ?  -22.644 -48.094 -42.046 -2.14  0   D
+ATOM     2143    O    O .  TRP   C .   10 ?  -21.500 -45.426 -44.626  0.00  0   C
+ATOM     3210    C  CE3 .  TRP   D .   12 ?  -27.092 -44.872 -48.132  0.00  0   D
+ATOM     3146    C   CG .  PRO   D .    5 ?  -30.633 -45.531 -46.133  0.00  0   D
+ATOM     2108    C   CG .  PRO   C .    5 ?  -28.474 -40.942 -41.866  0.00  0   C
+ATOM     2110    N    N .  CYS   C .    6 ?  -26.292 -40.481 -44.425  0.00  0   C
+ATOM     2109    C   CD .  PRO   C .    5 ?  -29.511 -40.911 -42.953  0.00  0   C
+ATOM     2172    C  CE3 .  TRP   C .   12 ?  -27.211 -44.141 -38.991  0.00  0   C
 # 

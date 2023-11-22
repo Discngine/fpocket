@@ -4,50 +4,34 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    57:
-HEADER 0  - Pocket Score                      : -0.0956
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of V. Vertices             :    31
-HEADER 3  - Mean alpha-sphere radius          : 3.8243
-HEADER 4  - Mean alpha-sphere SA              : 0.4908
-HEADER 5  - Mean B-factor                     : 0.4920
-HEADER 6  - Hydrophobicity Score              : 13.0000
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Volume Score                      : 4.3333
-HEADER 9  - Real volume (approximation)       : 387.2188
+HEADER 0  - Pocket Score                      : -0.0892
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0362
+HEADER 4  - Mean alpha-sphere SA              : 0.6304
+HEADER 5  - Mean B-factor                     : 0.6258
+HEADER 6  - Hydrophobicity Score              : -4.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.4000
+HEADER 9  - Real volume (approximation)       : 294.1583
 HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 8.0000
-HEADER 12 - Number of apolar alpha sphere     :     9
-HEADER 13 - Proportion of apolar alpha sphere : 0.2903
-ATOM      1    O STP    57       7.944 -66.922 -47.473    0.00     4.31
-ATOM      2    O STP    57       8.939 -66.459 -47.923    0.00     3.75
-ATOM      3    C STP    57       8.175 -62.580 -53.766    0.00     3.43
-ATOM      4    O STP    57       8.111 -62.568 -53.775    0.00     3.47
-ATOM      5    O STP    57       8.178 -62.550 -53.788    0.00     3.45
-ATOM      6    C STP    57       7.459 -64.575 -47.894    0.00     3.75
-ATOM      7    O STP    57       9.199 -65.790 -48.240    0.00     3.45
-ATOM      8    C STP    57       5.932 -63.458 -49.533    0.00     3.86
-ATOM      9    C STP    57       6.066 -62.522 -50.315    0.00     3.68
-ATOM     10    O STP    57       6.405 -62.310 -50.128    0.00     3.46
-ATOM     11    O STP    57       7.470 -65.262 -47.945    0.00     3.96
-ATOM     12    C STP    57       7.370 -64.937 -47.907    0.00     3.91
-ATOM     13    O STP    57       5.766 -63.828 -50.381    0.00     3.86
-ATOM     14    O STP    57       5.845 -63.955 -50.087    0.00     3.84
-ATOM     15    C STP    57       5.802 -63.790 -50.100    0.00     3.86
-ATOM     16    C STP    57       6.066 -63.586 -49.246    0.00     3.84
-ATOM     17    O STP    57       6.533 -63.403 -48.881    0.00     3.60
-ATOM     18    O STP    57       6.471 -64.616 -48.791    0.00     3.87
-ATOM     19    C STP    57       6.460 -64.509 -48.753    0.00     3.86
-ATOM     20    O STP    57       9.178 -62.097 -54.522    0.00     3.74
-ATOM     21    O STP    57      10.193 -62.349 -55.515    0.00     3.90
-ATOM     22    O STP    57      10.394 -62.360 -54.822    0.00     3.64
-ATOM     23    O STP    57       8.332 -61.986 -55.927    0.00     4.55
-ATOM     24    O STP    57       8.570 -61.999 -55.115    0.00     4.12
-ATOM     25    O STP    57       7.492 -62.670 -53.817    0.00     3.69
-ATOM     26    O STP    57       5.634 -63.495 -53.837    0.00     4.53
-ATOM     27    O STP    57       6.276 -63.169 -52.898    0.00     3.95
-ATOM     28    O STP    57       7.223 -62.773 -53.454    0.00     3.64
-ATOM     29    O STP    57       6.197 -62.734 -51.802    0.00     3.62
-ATOM     30    O STP    57       5.730 -63.215 -52.170    0.00     4.11
-ATOM     31    C STP    57       5.864 -62.868 -51.595    0.00     3.86
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.4667
+ATOM      1    C STP    57     -73.763 -64.825 -15.168    0.00     4.12
+ATOM      2    C STP    57     -73.838 -62.908 -16.353    0.00     3.85
+ATOM      3    C STP    57     -73.354 -65.198 -13.100    0.00     3.74
+ATOM      4    O STP    57     -72.996 -62.695 -16.887    0.00     3.44
+ATOM      5    C STP    57     -73.741 -65.638 -13.224    0.00     4.03
+ATOM      6    C STP    57     -74.263 -65.767 -13.800    0.00     4.43
+ATOM      7    O STP    57     -74.651 -65.497 -14.378    0.00     4.67
+ATOM      8    O STP    57     -74.597 -65.159 -14.168    0.00     4.30
+ATOM      9    O STP    57     -75.068 -62.831 -16.408    0.00     4.42
+ATOM     10    O STP    57     -76.200 -61.304 -18.488    0.00     4.24
+ATOM     11    C STP    57     -73.954 -62.751 -16.450    0.00     3.93
+ATOM     12    O STP    57     -75.654 -62.767 -16.716    0.00     4.65
+ATOM     13    C STP    57     -73.771 -62.426 -17.423    0.00     3.54
+ATOM     14    O STP    57     -73.296 -62.569 -16.890    0.00     3.59
+ATOM     15    O STP    57     -73.316 -62.579 -16.866    0.00     3.60
 TER
 END

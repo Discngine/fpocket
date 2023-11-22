@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    51:
-0  - Pocket Score                      : -0.0658
-1  - Drug Score                        : 0.0002
-2  - Number of alpha spheres           :    19
-3  - Mean alpha-sphere radius          : 4.0258
-4  - Mean alpha-sphere Solvent Acc.    : 0.5247
-5  - Mean B-factor of pocket residues  : 0.1606
-6  - Hydrophobicity Score              : 10.8333
+0  - Pocket Score                      : -0.0603
+1  - Drug Score                        : 0.0008
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 3.9511
+4  - Mean alpha-sphere Solvent Acc.    : 0.4929
+5  - Mean B-factor of pocket residues  : 0.5200
+6  - Hydrophobicity Score              : 9.5714
 7  - Polarity Score                    :     4
-8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 230.9302
-10  -Pocket volume (convex hull)       : 3.3049
-11 - Charge Score                      :     1
-12 - Local hydrophobic density Score   : 3.0000
-13 - Number of apolar alpha sphere     :     4
-14 - Proportion of apolar alpha sphere : 0.2105
+8  - Amino Acid based volume Score     : 2.8571
+9  - Pocket volume (Monte Carlo)       : 230.3081
+10  -Pocket volume (convex hull)       : 4.9765
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 7.0000
+13 - Number of apolar alpha sphere     :     8
+14 - Proportion of apolar alpha sphere : 0.4706
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,19 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     6091    C    C .  ARG   F .  110 ?  -41.914 -60.303 -25.041  0.00  0   F
-ATOM     5666    O    O .  SER   F .   58 ?  -48.767 -58.817 -22.022  0.00  0   F
-ATOM     6090    C   CA .  ARG   F .  110 ?  -42.050 -59.448 -23.771  0.00  0   F
-ATOM     6092    O    O .  ARG   F .  110 ?  -41.713 -59.769 -26.133 -4.43  0   F
-ATOM     6101    C   CA .  GLY   F .  111 ?  -41.868 -62.550 -25.993  0.00  0   F
-ATOM     5635    O    O .  GLN   F .   54 ?  -47.064 -64.045 -23.832 -2.55  0   F
-ATOM     6100    N    N .  GLY   F .  111 ?  -41.970 -61.623 -24.871  0.00  0   F
-ATOM     5667    C   CB .  SER   F .   58 ?  -49.391 -61.465 -23.539  0.00  0   F
-ATOM     5684    O    O .  SER   F .   60 ?  -44.944 -58.795 -19.626 -2.14  0   F
-ATOM     6094    C   CG .  ARG   F .  110 ?  -41.933 -57.063 -22.873  0.00  0   F
-ATOM     6099    N  NH2 .  ARG   F .  110 ?  -44.564 -54.513 -23.437  0.00  0   F
-ATOM     6093    C   CB .  ARG   F .  110 ?  -41.619 -57.993 -24.018  0.00  0   F
-ATOM     5658    O    O .  ILE   F .   57 ?  -46.358 -61.357 -20.479 -1.07  0   F
-ATOM     5664    C   CA .  SER   F .   58 ?  -48.356 -61.125 -22.473  0.00  0   F
+ATOM     1631    N    N .  SER   B .   74 ?   -0.023 -71.618 -34.963 -1.09  0   B
+ATOM     1630    C   CD .  PRO   B .   73 ?   -1.409 -68.517 -36.922  0.00  0   B
+ATOM     1621    C   CG .  ASN   B .   72 ?   -0.209 -72.053 -39.164  0.00  0   B
+ATOM     1636    O   OG .  SER   B .   74 ?   -0.291 -74.218 -36.361 -2.95  0   B
+ATOM     4079    C  CD2 .  LEU   D .  120 ?   -7.204 -72.735 -38.170  0.00  0   D
+ATOM     1623    N  ND2 .  ASN   B .   72 ?   -0.677 -72.839 -40.121 -4.12  0   B
+ATOM     1635    C   CB .  SER   B .   74 ?   -0.591 -74.013 -34.990  0.00  0   B
+ATOM     1843    O  OG1 .  THR   B .   99 ?   -4.033 -68.560 -39.195 -4.29  0   B
+ATOM     1629    C   CG .  PRO   B .   73 ?   -1.857 -67.801 -35.687  0.00  0   B
+ATOM     1826    O    O .  SER   B .   97 ?   -4.921 -65.805 -35.722  0.00  0   B
+ATOM     1620    C   CB .  ASN   B .   72 ?   -0.429 -70.575 -39.343  0.00  0   B
+ATOM     4078    C  CD1 .  LEU   D .  120 ?   -7.137 -72.124 -40.577  0.00  0   D
+ATOM     1628    C   CB .  PRO   B .   73 ?   -1.361 -68.601 -34.552  0.00  0   B
+ATOM     4080    N    N .  ALA   D .  121 ?   -9.772 -69.095 -36.638 -1.51  0   D
+ATOM     4083    O    O .  ALA   D .  121 ?   -8.825 -66.526 -37.592 -4.29  0   D
 # 

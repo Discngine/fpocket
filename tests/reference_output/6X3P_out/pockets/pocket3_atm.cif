@@ -6,16 +6,16 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket     3:
-0  - Pocket Score                      : 0.1457
+0  - Pocket Score                      : 0.1400
 1  - Drug Score                        : 0.0223
 2  - Number of alpha spheres           :    40
 3  - Mean alpha-sphere radius          : 3.7985
 4  - Mean alpha-sphere Solvent Acc.    : 0.4273
-5  - Mean B-factor of pocket residues  : 0.3280
+5  - Mean B-factor of pocket residues  : 0.0931
 6  - Hydrophobicity Score              : 17.7273
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.9091
-9  - Pocket volume (Monte Carlo)       : 358.6920
+9  - Pocket volume (Monte Carlo)       : 354.7571
 10  -Pocket volume (convex hull)       : 37.9341
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 18.6957

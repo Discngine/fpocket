@@ -1,0 +1,69 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   210:
+HEADER 0  - Pocket Score                      : -0.1528
+HEADER 1  - Drug Score                        : 0.0884
+HEADER 2  - Number of V. Vertices             :    47
+HEADER 3  - Mean alpha-sphere radius          : 3.9672
+HEADER 4  - Mean alpha-sphere SA              : 0.4663
+HEADER 5  - Mean B-factor                     : 0.1382
+HEADER 6  - Hydrophobicity Score              : 41.9286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.1429
+HEADER 9  - Real volume (approximation)       : 446.4153
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 26.9286
+HEADER 12 - Number of apolar alpha sphere     :    28
+HEADER 13 - Proportion of apolar alpha sphere : 0.5957
+ATOM      1    C STP   210       8.777 -11.583   4.716    0.00     3.73
+ATOM      2    O STP   210       8.149 -11.616   6.153    0.00     4.01
+ATOM      3    C STP   210       8.919 -11.618   4.615    0.00     3.64
+ATOM      4    C STP   210       8.823 -11.527   4.699    0.00     3.70
+ATOM      5    C STP   210       8.985 -11.070   5.054    0.00     3.49
+ATOM      6    C STP   210       7.803 -12.414   5.682    0.00     4.41
+ATOM      7    C STP   210       6.098 -12.077   4.282    0.00     3.82
+ATOM      8    C STP   210       7.867 -13.072   5.731    0.00     4.40
+ATOM      9    C STP   210       7.909 -13.039   5.755    0.00     4.42
+ATOM     10    C STP   210       7.823 -12.539   5.697    0.00     4.41
+ATOM     11    C STP   210       7.909 -13.033   5.755    0.00     4.42
+ATOM     12    C STP   210       8.258 -13.395   6.937    0.00     4.22
+ATOM     13    O STP   210       8.195 -12.969   6.930    0.00     4.15
+ATOM     14    O STP   210       8.540 -14.428   8.816    0.00     4.53
+ATOM     15    C STP   210       7.861 -12.055   6.126    0.00     4.29
+ATOM     16    C STP   210       7.803 -12.407   5.693    0.00     4.41
+ATOM     17    C STP   210       6.605 -11.287   6.163    0.00     3.59
+ATOM     18    O STP   210       3.912 -13.332   2.761    0.00     3.80
+ATOM     19    C STP   210       4.031 -13.453   3.079    0.00     3.97
+ATOM     20    C STP   210       5.092 -11.358   4.313    0.00     3.55
+ATOM     21    C STP   210       5.261 -11.434   3.797    0.00     3.54
+ATOM     22    C STP   210       5.278 -11.669   4.013    0.00     3.72
+ATOM     23    O STP   210       7.927 -11.158   6.366    0.00     3.70
+ATOM     24    C STP   210       7.437 -11.538   6.428    0.00     3.95
+ATOM     25    C STP   210       6.846 -11.128   6.500    0.00     3.65
+ATOM     26    O STP   210       3.668 -13.145   2.506    0.00     3.54
+ATOM     27    O STP   210       3.821 -13.624   2.161    0.00     3.69
+ATOM     28    C STP   210       4.728 -14.536   3.147    0.00     4.25
+ATOM     29    O STP   210       4.222 -14.312   2.975    0.00     4.25
+ATOM     30    O STP   210       3.856 -13.665   1.693    0.00     3.50
+ATOM     31    O STP   210       3.818 -13.783   2.002    0.00     3.70
+ATOM     32    O STP   210       3.954 -15.483   3.223    0.00     4.47
+ATOM     33    O STP   210       3.967 -15.496   3.230    0.00     4.47
+ATOM     34    O STP   210       3.333 -16.322   2.698    0.00     4.38
+ATOM     35    O STP   210       3.334 -16.325   2.699    0.00     4.38
+ATOM     36    O STP   210       3.373 -14.020   1.411    0.00     3.40
+ATOM     37    O STP   210       2.760 -15.438   1.240    0.00     3.49
+ATOM     38    O STP   210       2.754 -15.411   1.086    0.00     3.40
+ATOM     39    O STP   210       2.784 -14.607   4.048    0.00     3.43
+ATOM     40    C STP   210       3.496 -13.188   3.462    0.00     3.56
+ATOM     41    O STP   210       3.738 -16.716   1.946    0.00     3.69
+ATOM     42    C STP   210       4.796 -14.689   3.203    0.00     4.27
+ATOM     43    C STP   210       4.079 -15.424   3.236    0.00     4.44
+ATOM     44    C STP   210       6.331 -14.535   4.464    0.00     3.95
+ATOM     45    C STP   210       4.471 -16.252   4.373    0.00     4.16
+ATOM     46    C STP   210       4.184 -17.273   4.160    0.00     4.13
+ATOM     47    C STP   210       4.039 -15.596   3.360    0.00     4.42
+TER
+END

@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket   126:
-0  - Pocket Score                      : -0.1013
-1  - Drug Score                        : 0.0010
-2  - Number of alpha spheres           :    20
-3  - Mean alpha-sphere radius          : 3.9930
-4  - Mean alpha-sphere Solvent Acc.    : 0.4927
-5  - Mean B-factor of pocket residues  : 0.9130
-6  - Hydrophobicity Score              : 23.8889
-7  - Polarity Score                    :     4
-8  - Amino Acid based volume Score     : 4.4444
-9  - Pocket volume (Monte Carlo)       : 140.1071
-10  -Pocket volume (convex hull)       : 2.2662
-11 - Charge Score                      :     0
-12 - Local hydrophobic density Score   : 11.0000
-13 - Number of apolar alpha sphere     :    12
-14 - Proportion of apolar alpha sphere : 0.6000
+0  - Pocket Score                      : -0.0660
+1  - Drug Score                        : 0.0008
+2  - Number of alpha spheres           :    21
+3  - Mean alpha-sphere radius          : 3.8161
+4  - Mean alpha-sphere Solvent Acc.    : 0.4480
+5  - Mean B-factor of pocket residues  : 0.1544
+6  - Hydrophobicity Score              : 13.5714
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.4286
+9  - Pocket volume (Monte Carlo)       : 264.7911
+10  -Pocket volume (convex hull)       : 13.5489
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 12.0000
+13 - Number of apolar alpha sphere     :    13
+14 - Proportion of apolar alpha sphere : 0.6190
 # 
 loop_
 _atom_site.group_PDB
@@ -39,19 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    22281    O    O .  PRO   H .  194 ?  -16.623 -32.934 -97.977  0.00  0   H
-ATOM    22443    C  CG1 .  VAL   H .  216 ?  -10.521 -30.483-102.496  0.00  0   H
-ATOM    22428    C   CE .  LYS   H .  214 ?  -12.476 -25.865 -99.885  0.00  0   H
-ATOM    22282    C   CB .  PRO   H .  194 ?  -14.231 -34.293 -98.667  0.00  0   H
-ATOM    22272    N  NE1 .  TRP   H .  193 ?  -11.254 -32.785 -96.083  0.00  0   H
-ATOM    22451    C   CD .  PRO   H .  217 ?  -10.809 -33.292-100.610  0.00  0   H
-ATOM    22433    O    O .  ILE   H .  215 ?   -9.522 -30.825 -97.470 -1.07  0   H
-ATOM    22427    C   CD .  LYS   H .  214 ?  -12.595 -25.898 -98.371  0.00  0   H
-ATOM    22305    O  OG1 .  THR   H .  197 ?  -16.367 -27.298 -96.176 -0.14  0   H
-ATOM    22307    N    N .  VAL   H .  198 ?  -12.987 -28.967 -93.540 -1.09  0   H
-ATOM    22301    C   CA .  THR   H .  197 ?  -15.188 -28.570 -94.478  0.00  0   H
-ATOM    22426    C   CG .  LYS   H .  214 ?  -11.306 -26.359 -97.705  0.00  0   H
-ATOM    22294    O    O .  GLU   H .  196 ?  -15.770 -31.199 -95.257 -1.07  0   H
-ATOM    22439    C   CA .  VAL   H .  216 ?   -9.272 -30.774-100.320  0.00  0   H
-ATOM    22444    C  CG2 .  VAL   H .  216 ?   -9.508 -28.496-101.375  0.00  0   H
+ATOM     8849    C   CD .  LYS   C .  125 ?  -29.461 -80.852 -54.687  0.00  0   C
+ATOM     8842    O  OE2 .  GLU   C .  124 ?  -29.398 -79.610 -62.030  0.00  0   C
+ATOM     8850    C   CE .  LYS   C .  125 ?  -28.151 -80.154 -54.344  0.00  0   C
+ATOM     8851    N   NZ .  LYS   C .  125 ?  -27.007 -81.110 -54.266  0.00  0   C
+ATOM     8838    C   CB .  GLU   C .  124 ?  -31.266 -79.258 -59.837  0.00  0   C
+ATOM     8848    C   CG .  LYS   C .  125 ?  -30.607 -79.864 -54.752  0.00  0   C
+ATOM     9075    C   CB .  ASP   C .  154 ?  -23.429 -75.250 -54.599  0.00  0   C
+ATOM     9074    O    O .  ASP   C .  154 ?  -26.065 -74.966 -52.834 -4.69  0   C
+ATOM     8833    C  CG2 .  THR   C .  123 ?  -31.353 -75.980 -55.762  0.00  0   C
+ATOM     9072    C   CA .  ASP   C .  154 ?  -24.756 -74.543 -54.788  0.00  0   C
+ATOM     9068    O    O .  SER   C .  153 ?  -26.732 -73.037 -56.050 -2.14  0   C
+ATOM     8834    N    N .  GLU   C .  124 ?  -32.382 -77.734 -58.232 -1.09  0   C
+ATOM     9077    O  OD1 .  ASP   C .  154 ?  -23.316 -76.520 -56.585  0.00  0   C
+ATOM     9514    C  CD1 .  ILE   C .  210 ?  -26.156 -75.161 -59.009  0.00  0   C
+ATOM     8815    C  CH2 .  TRP   C .  121 ?  -30.123 -74.062 -59.292  0.00  0   C
+ATOM     8837    O    O .  GLU   C .  124 ?  -32.373 -81.342 -58.154 -3.62  0   C
 # 

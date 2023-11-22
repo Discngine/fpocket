@@ -3,17 +3,17 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     2:
-HEADER 0  - Pocket Score                      : 0.3979
-HEADER 1  - Drug Score                        : 0.2835
+HEADER 0  - Pocket Score                      : 0.2514
+HEADER 1  - Drug Score                        : 0.0148
 HEADER 2  - Number of alpha spheres           :    31
 HEADER 3  - Mean alpha-sphere radius          : 3.8059
 HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4586
-HEADER 5  - Mean B-factor of pocket residues  : 0.7238
+HEADER 5  - Mean B-factor of pocket residues  : 0.2409
 HEADER 6  - Hydrophobicity Score              : 27.8750
 HEADER 7  - Polarity Score                    :     7
 HEADER 8  - Amino Acid based volume Score     : 4.5000
-HEADER 9  - Pocket volume (Monte Carlo)       : 198.2249
-HEADER 10  -Pocket volume (convex hull)       : 10.3917
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.2050
+HEADER 10 - Pocket volume (convex hull)       : 10.3917
 HEADER 11 - Charge Score                      :    -1
 HEADER 12 - Local hydrophobic density Score   : 9.0000
 HEADER 13 - Number of apolar alpha sphere     :    10
@@ -30,7 +30,7 @@ ATOM   2027  CZ2 TRP A 261      16.999  33.252 123.513  0.00  0.00           C 0
 ATOM   1509    O SER A 199      19.788  35.550 125.470  0.54  1.07           O 0
 ATOM   1974  CD2 TRP A 256      17.632  30.740 127.302  0.00  0.00           C 0
 ATOM    545  CE2 TYR A  71      11.443  34.960 127.956  0.00  0.00           C 0
-ATOM   1975  NE1 TRP A 256      16.431  30.852 129.192  0.55  5.47           N 0
+ATOM   1975  NE1 TRP A 256      16.431  30.852 129.192  0.52  8.75           N 0
 ATOM   1978  CZ2 TRP A 256      18.849  31.492 129.304  0.00  0.00           C 0
 ATOM   1516   CB SER A 200      19.791  38.775 128.004  0.00  0.00           C 0
 ATOM   1976  CE2 TRP A 256      17.679  31.056 128.679  0.00  0.00           C 0

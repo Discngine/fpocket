@@ -4,47 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    42:
-HEADER 0  - Pocket Score                      : 0.0061
-HEADER 1  - Drug Score                        : 0.0024
-HEADER 2  - Number of V. Vertices             :    28
-HEADER 3  - Mean alpha-sphere radius          : 4.0088
-HEADER 4  - Mean alpha-sphere SA              : 0.5727
-HEADER 5  - Mean B-factor                     : 0.3975
-HEADER 6  - Hydrophobicity Score              : 19.2222
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Volume Score                      : 4.2222
-HEADER 9  - Real volume (approximation)       : 346.9562
-HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 11.2857
-HEADER 12 - Number of apolar alpha sphere     :    14
-HEADER 13 - Proportion of apolar alpha sphere : 0.5000
-ATOM      1    O STP    42     -25.640 -13.920  -6.946    0.00     3.42
-ATOM      2    C STP    42     -26.168 -14.040  -6.699    0.00     3.78
-ATOM      3    O STP    42     -26.236 -14.350  -7.014    0.00     3.84
-ATOM      4    C STP    42     -29.081  -5.716  -3.300    0.00     4.16
-ATOM      5    C STP    42     -28.081  -5.887  -3.640    0.00     3.79
-ATOM      6    O STP    42     -27.265  -7.748  -5.295    0.00     3.56
-ATOM      7    O STP    42     -28.236  -9.272  -6.571    0.00     4.35
-ATOM      8    O STP    42     -28.490  -9.498  -6.629    0.00     4.57
-ATOM      9    C STP    42     -27.727 -12.178  -5.990    0.00     4.16
-ATOM     10    O STP    42     -27.818 -12.026  -5.949    0.00     4.22
-ATOM     11    C STP    42     -27.694 -12.129  -5.793    0.00     4.12
-ATOM     12    O STP    42     -27.389  -5.788  -3.619    0.00     3.41
-ATOM     13    O STP    42     -28.157 -11.724  -6.002    0.00     4.37
-ATOM     14    C STP    42     -27.690 -12.116  -5.471    0.00     4.00
-ATOM     15    C STP    42     -26.076 -14.007  -6.399    0.00     3.65
-ATOM     16    C STP    42     -27.678 -12.126  -5.468    0.00     3.99
-ATOM     17    C STP    42     -27.672 -12.132  -5.471    0.00     3.99
-ATOM     18    C STP    42     -26.102 -13.945  -6.311    0.00     3.61
-ATOM     19    C STP    42     -27.505 -12.237  -5.596    0.00     3.97
-ATOM     20    C STP    42     -27.660 -12.139  -5.470    0.00     3.99
-ATOM     21    O STP    42     -26.631  -7.258  -3.440    0.00     3.41
-ATOM     22    C STP    42     -27.949  -6.815  -3.689    0.00     4.07
-ATOM     23    O STP    42     -27.802  -7.298  -3.935    0.00     4.12
-ATOM     24    C STP    42     -29.513  -6.518  -3.157    0.00     4.61
-ATOM     25    O STP    42     -27.581  -6.865  -3.683    0.00     3.93
-ATOM     26    O STP    42     -27.466  -7.177  -3.841    0.00     3.96
-ATOM     27    O STP    42     -29.684  -6.480  -3.059    0.00     4.67
-ATOM     28    O STP    42     -29.582  -6.477  -2.950    0.00     4.54
+HEADER 0  - Pocket Score                      : 0.0239
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0068
+HEADER 4  - Mean alpha-sphere SA              : 0.5620
+HEADER 5  - Mean B-factor                     : 0.1567
+HEADER 6  - Hydrophobicity Score              : 12.5000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.7000
+HEADER 9  - Real volume (approximation)       : 225.8927
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP    42     -13.969   5.460  13.564    0.00     3.71
+ATOM      2    O STP    42     -13.118   3.597  12.680    0.00     3.42
+ATOM      3    O STP    42     -14.198   8.850  11.734    0.00     4.62
+ATOM      4    O STP    42     -14.017   8.857  11.329    0.00     4.58
+ATOM      5    O STP    42     -14.304   7.384  12.970    0.00     4.10
+ATOM      6    O STP    42     -13.994   5.715  13.321    0.00     3.81
+ATOM      7    O STP    42     -12.914   7.151  12.123    0.00     4.30
+ATOM      8    O STP    42     -13.598   5.428  13.153    0.00     3.86
+ATOM      9    O STP    42     -13.347   5.057  12.887    0.00     3.80
+ATOM     10    O STP    42     -13.320   5.394  12.980    0.00     3.91
+ATOM     11    O STP    42     -13.319   4.249  12.210    0.00     3.43
+ATOM     12    O STP    42     -14.115   5.257  13.732    0.00     3.52
+ATOM     13    O STP    42     -14.490   8.204  13.076    0.00     4.29
+ATOM     14    O STP    42     -14.475   8.260  12.439    0.00     4.33
+ATOM     15    O STP    42     -14.240   8.295  12.623    0.00     4.54
+ATOM     16    O STP    42     -14.887   8.014  12.197    0.00     3.87
 TER
 END

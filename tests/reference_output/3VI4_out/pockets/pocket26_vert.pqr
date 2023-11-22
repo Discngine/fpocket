@@ -4,35 +4,38 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    26:
-HEADER 0  - Pocket Score                      : 0.0390
-HEADER 1  - Drug Score                        : 0.0008
-HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.5320
-HEADER 4  - Mean alpha-sphere SA              : 0.4033
-HEADER 5  - Mean B-factor                     : 0.4255
-HEADER 6  - Hydrophobicity Score              : 19.7778
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Volume Score                      : 3.7778
-HEADER 9  - Real volume (approximation)       : 84.7818
-HEADER 10 - Charge Score                      :    -1
+HEADER 0  - Pocket Score                      : 0.0512
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8201
+HEADER 4  - Mean alpha-sphere SA              : 0.6634
+HEADER 5  - Mean B-factor                     : 0.1905
+HEADER 6  - Hydrophobicity Score              : 19.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.1111
+HEADER 9  - Real volume (approximation)       : 312.9501
+HEADER 10 - Charge Score                      :     1
 HEADER 11 - Local hydrophobic density Score   : 5.0000
 HEADER 12 - Number of apolar alpha sphere     :     6
-HEADER 13 - Proportion of apolar alpha sphere : 0.3750
-ATOM      1    O STP    26     -58.520 -37.359 -24.776    0.00     3.57
-ATOM      2    O STP    26     -58.224 -37.519 -25.424    0.00     3.42
-ATOM      3    O STP    26     -58.360 -37.332 -24.745    0.00     3.62
-ATOM      4    O STP    26     -57.999 -34.550 -23.427    0.00     3.42
-ATOM      5    O STP    26     -57.881 -36.487 -23.822    0.00     3.47
-ATOM      6    O STP    26     -58.432 -36.785 -24.415    0.00     3.48
-ATOM      7    C STP    26     -57.589 -37.654 -24.258    0.00     3.60
-ATOM      8    O STP    26     -57.180 -37.870 -24.959    0.00     3.44
-ATOM      9    O STP    26     -57.300 -37.776 -25.012    0.00     3.46
-ATOM     10    O STP    26     -57.152 -37.896 -24.616    0.00     3.48
-ATOM     11    O STP    26     -57.131 -37.896 -24.545    0.00     3.48
-ATOM     12    C STP    26     -57.395 -37.709 -24.401    0.00     3.58
-ATOM     13    C STP    26     -57.633 -37.524 -24.369    0.00     3.67
-ATOM     14    C STP    26     -57.555 -37.586 -24.298    0.00     3.66
-ATOM     15    C STP    26     -57.647 -37.097 -24.082    0.00     3.56
-ATOM     16    C STP    26     -57.483 -37.503 -24.131    0.00     3.60
+HEADER 13 - Proportion of apolar alpha sphere : 0.3158
+ATOM      1    O STP    26     -77.464 -59.203  -0.344    0.00     3.54
+ATOM      2    C STP    26     -76.599 -61.679  -1.807    0.00     3.86
+ATOM      3    O STP    26     -76.573 -59.486  -9.777    0.00     3.76
+ATOM      4    O STP    26     -76.090 -60.695  -6.708    0.00     4.03
+ATOM      5    O STP    26     -76.103 -60.362  -8.128    0.00     3.83
+ATOM      6    C STP    26     -77.550 -59.280  -0.430    0.00     3.61
+ATOM      7    C STP    26     -77.714 -59.414  -0.405    0.00     3.65
+ATOM      8    O STP    26     -77.505 -59.165  -0.456    0.00     3.55
+ATOM      9    C STP    26     -77.429 -61.646  -2.074    0.00     4.46
+ATOM     10    O STP    26     -78.626 -61.180  -0.948    0.00     4.39
+ATOM     11    C STP    26     -76.481 -60.261  -3.264    0.00     3.43
+ATOM     12    C STP    26     -76.520 -60.268  -3.653    0.00     3.42
+ATOM     13    O STP    26     -77.313 -61.124  -5.344    0.00     4.25
+ATOM     14    O STP    26     -76.807 -58.895  -9.984    0.00     3.52
+ATOM     15    O STP    26     -76.069 -60.119  -6.826    0.00     3.59
+ATOM     16    O STP    26     -76.062 -60.502  -6.770    0.00     3.89
+ATOM     17    O STP    26     -76.044 -60.273  -7.155    0.00     3.70
+ATOM     18    O STP    26     -75.718 -60.404  -6.407    0.00     3.64
+ATOM     19    O STP    26     -76.216 -61.331  -7.278    0.00     4.45
 TER
 END

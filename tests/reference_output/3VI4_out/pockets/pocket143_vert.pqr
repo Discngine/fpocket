@@ -4,42 +4,37 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   143:
-HEADER 0  - Pocket Score                      : -0.1188
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    23
-HEADER 3  - Mean alpha-sphere radius          : 3.7765
-HEADER 4  - Mean alpha-sphere SA              : 0.4482
-HEADER 5  - Mean B-factor                     : 0.4566
-HEADER 6  - Hydrophobicity Score              : 8.1429
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Volume Score                      : 3.0000
-HEADER 9  - Real volume (approximation)       : 204.0115
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 3.0000
-HEADER 12 - Number of apolar alpha sphere     :     4
-HEADER 13 - Proportion of apolar alpha sphere : 0.1739
-ATOM      1    O STP   143     -63.368 -44.580  31.915    0.00     4.33
-ATOM      2    O STP   143     -63.683 -41.230  32.187    0.00     3.81
-ATOM      3    O STP   143     -63.407 -42.689  33.808    0.00     3.81
-ATOM      4    O STP   143     -64.036 -42.631  33.062    0.00     4.33
-ATOM      5    O STP   143     -63.357 -41.242  31.766    0.00     3.65
-ATOM      6    O STP   143     -63.341 -43.547  32.424    0.00     4.27
-ATOM      7    O STP   143     -63.182 -43.678  32.414    0.00     4.23
-ATOM      8    O STP   143     -63.050 -43.755  32.459    0.00     4.18
-ATOM      9    O STP   143     -63.018 -44.613  32.016    0.00     4.27
-ATOM     10    O STP   143     -63.084 -43.828  32.374    0.00     4.21
-ATOM     11    C STP   143     -61.048 -46.227  32.598    0.00     3.42
-ATOM     12    C STP   143     -61.308 -46.103  32.783    0.00     3.52
-ATOM     13    O STP   143     -62.827 -42.949  34.140    0.00     3.52
-ATOM     14    O STP   143     -63.967 -42.306  35.236    0.00     3.53
-ATOM     15    O STP   143     -63.622 -42.460  34.877    0.00     3.49
-ATOM     16    O STP   143     -63.674 -42.327  35.308    0.00     3.40
-ATOM     17    O STP   143     -62.311 -43.783  33.404    0.00     3.61
-ATOM     18    O STP   143     -62.390 -43.444  33.878    0.00     3.46
-ATOM     19    O STP   143     -62.133 -45.475  32.678    0.00     3.77
-ATOM     20    C STP   143     -62.143 -45.977  32.939    0.00     3.53
-ATOM     21    C STP   143     -61.618 -45.884  32.795    0.00     3.60
-ATOM     22    O STP   143     -61.049 -46.241  32.766    0.00     3.45
-ATOM     23    O STP   143     -61.129 -46.201  32.802    0.00     3.47
+HEADER 0  - Pocket Score                      : -0.0805
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1877
+HEADER 4  - Mean alpha-sphere SA              : 0.6340
+HEADER 5  - Mean B-factor                     : 0.1763
+HEADER 6  - Hydrophobicity Score              : 17.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.2000
+HEADER 9  - Real volume (approximation)       : 304.3489
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.2778
+ATOM      1    O STP   143     -40.411 -46.916   4.408    0.00     4.57
+ATOM      2    O STP   143     -43.566 -49.904   3.477    0.00     3.98
+ATOM      3    C STP   143     -40.949 -47.730   4.553    0.00     4.26
+ATOM      4    C STP   143     -42.329 -49.241   4.060    0.00     3.97
+ATOM      5    C STP   143     -42.893 -49.692   3.913    0.00     4.02
+ATOM      6    O STP   143     -42.640 -49.783   4.125    0.00     4.13
+ATOM      7    O STP   143     -43.510 -48.987   2.800    0.00     3.41
+ATOM      8    C STP   143     -40.590 -46.708   2.311    0.00     3.51
+ATOM      9    C STP   143     -39.399 -44.535   0.993    0.00     4.65
+ATOM     10    O STP   143     -39.928 -44.476   1.039    0.00     4.21
+ATOM     11    O STP   143     -40.752 -46.856   3.634    0.00     4.27
+ATOM     12    O STP   143     -40.672 -46.791   3.563    0.00     4.26
+ATOM     13    O STP   143     -40.926 -47.056   3.586    0.00     4.14
+ATOM     14    O STP   143     -40.812 -46.962   3.490    0.00     4.13
+ATOM     15    O STP   143     -39.695 -45.617   2.344    0.00     4.40
+ATOM     16    O STP   143     -39.776 -45.719   2.184    0.00     4.24
+ATOM     17    O STP   143     -39.420 -44.933   1.662    0.00     4.60
+ATOM     18    O STP   143     -39.385 -44.809   1.445    0.00     4.62
 TER
 END

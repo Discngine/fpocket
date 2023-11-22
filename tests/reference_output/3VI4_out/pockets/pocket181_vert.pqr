@@ -4,52 +4,45 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   181:
-HEADER 0  - Pocket Score                      : -0.1961
-HEADER 1  - Drug Score                        : 0.0027
-HEADER 2  - Number of V. Vertices             :    33
-HEADER 3  - Mean alpha-sphere radius          : 4.0317
-HEADER 4  - Mean alpha-sphere SA              : 0.4959
-HEADER 5  - Mean B-factor                     : 0.3202
-HEADER 6  - Hydrophobicity Score              : 33.1765
-HEADER 7  - Polarity Score                    :    11
-HEADER 8  - Volume Score                      : 5.1176
-HEADER 9  - Real volume (approximation)       : 479.5367
-HEADER 10 - Charge Score                      :     0
-HEADER 11 - Local hydrophobic density Score   : 12.6667
-HEADER 12 - Number of apolar alpha sphere     :    15
-HEADER 13 - Proportion of apolar alpha sphere : 0.4545
-ATOM      1    O STP   181      15.296 -13.139 -43.261    0.00     3.68
-ATOM      2    C STP   181      15.527 -13.005 -43.738    0.00     3.64
-ATOM      3    C STP   181      15.214 -13.058 -43.412    0.00     3.79
-ATOM      4    O STP   181      12.130 -11.489 -43.534    0.00     4.30
-ATOM      5    O STP   181      12.517 -10.931 -42.648    0.00     3.97
-ATOM      6    O STP   181      11.700 -12.004 -43.710    0.00     4.32
-ATOM      7    O STP   181      10.684 -14.484 -47.152    0.00     4.11
-ATOM      8    O STP   181      10.945 -13.814 -45.071    0.00     4.29
-ATOM      9    O STP   181      12.723 -12.939 -44.097    0.00     4.04
-ATOM     10    C STP   181      14.990 -13.141 -43.728    0.00     3.86
-ATOM     11    O STP   181      14.013 -12.888 -44.304    0.00     3.93
-ATOM     12    O STP   181      13.664 -12.793 -44.078    0.00     4.02
-ATOM     13    C STP   181      15.253 -13.229 -43.261    0.00     3.64
-ATOM     14    C STP   181      15.029 -13.121 -43.599    0.00     3.85
-ATOM     15    C STP   181      14.913 -13.120 -43.672    0.00     3.86
-ATOM     16    C STP   181      14.982 -13.139 -43.672    0.00     3.86
-ATOM     17    O STP   181      10.700 -14.489 -47.150    0.00     4.10
-ATOM     18    O STP   181      10.655 -14.500 -47.168    0.00     4.10
-ATOM     19    O STP   181       9.022 -15.388 -48.487    0.00     4.12
-ATOM     20    O STP   181       7.342 -13.217 -48.596    0.00     4.33
-ATOM     21    O STP   181      11.860 -14.645 -46.574    0.00     3.84
-ATOM     22    C STP   181      11.482 -14.630 -46.859    0.00     3.88
-ATOM     23    O STP   181      13.592 -14.475 -46.691    0.00     3.48
-ATOM     24    O STP   181      11.506 -14.568 -47.210    0.00     3.76
-ATOM     25    O STP   181       7.520 -15.273 -47.951    0.00     4.56
-ATOM     26    O STP   181       8.507 -16.206 -48.630    0.00     4.05
-ATOM     27    C STP   181       8.664 -16.089 -48.603    0.00     4.06
-ATOM     28    C STP   181       9.507 -14.964 -47.649    0.00     4.21
-ATOM     29    C STP   181       8.867 -15.348 -48.267    0.00     4.30
-ATOM     30    C STP   181       8.726 -14.587 -43.918    0.00     4.08
-ATOM     31    C STP   181       9.232 -13.186 -43.669    0.00     4.15
-ATOM     32    C STP   181       8.764 -14.353 -44.339    0.00     4.40
-ATOM     33    C STP   181       8.659 -14.281 -44.510    0.00     4.49
+HEADER 0  - Pocket Score                      : -0.1131
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of V. Vertices             :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.7636
+HEADER 4  - Mean alpha-sphere SA              : 0.3851
+HEADER 5  - Mean B-factor                     : 0.1332
+HEADER 6  - Hydrophobicity Score              : 30.2500
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Volume Score                      : 4.5833
+HEADER 9  - Real volume (approximation)       : 215.4965
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 2.0000
+HEADER 12 - Number of apolar alpha sphere     :     3
+HEADER 13 - Proportion of apolar alpha sphere : 0.1154
+ATOM      1    O STP   181      18.377  -8.507 -36.831    0.00     4.06
+ATOM      2    O STP   181      15.223 -10.976 -41.004    0.00     3.62
+ATOM      3    O STP   181      18.579  -7.964 -36.840    0.00     3.81
+ATOM      4    O STP   181      18.412  -8.350 -36.872    0.00     4.02
+ATOM      5    O STP   181      19.264  -7.595 -37.408    0.00     3.41
+ATOM      6    O STP   181      18.354 -10.982 -38.719    0.00     3.44
+ATOM      7    O STP   181      17.393  -8.755 -37.700    0.00     3.78
+ATOM      8    O STP   181      18.386  -9.026 -36.761    0.00     4.16
+ATOM      9    O STP   181      18.416  -9.094 -36.719    0.00     4.14
+ATOM     10    O STP   181      18.421  -9.094 -36.769    0.00     4.15
+ATOM     11    O STP   181      18.093  -8.656 -36.840    0.00     4.16
+ATOM     12    O STP   181      18.038  -8.604 -36.866    0.00     4.16
+ATOM     13    C STP   181      18.147  -9.833 -35.592    0.00     3.64
+ATOM     14    O STP   181      16.548 -10.044 -39.542    0.00     3.71
+ATOM     15    O STP   181      18.207 -10.700 -38.116    0.00     3.69
+ATOM     16    O STP   181      16.372 -10.105 -39.650    0.00     3.71
+ATOM     17    O STP   181      17.980 -10.928 -38.529    0.00     3.68
+ATOM     18    O STP   181      15.513 -10.948 -40.117    0.00     3.72
+ATOM     19    O STP   181      15.313 -10.936 -40.039    0.00     3.62
+ATOM     20    O STP   181      17.203 -12.448 -38.874    0.00     3.45
+ATOM     21    O STP   181      16.083 -12.003 -39.641    0.00     3.42
+ATOM     22    C STP   181      16.986  -7.479 -36.620    0.00     3.68
+ATOM     23    C STP   181      17.285  -8.179 -36.738    0.00     3.96
+ATOM     24    O STP   181      16.706  -7.516 -37.076    0.00     3.41
+ATOM     25    O STP   181      17.080  -8.312 -37.157    0.00     3.79
+ATOM     26    O STP   181      16.365  -9.817 -40.489    0.00     3.42
 TER
 END

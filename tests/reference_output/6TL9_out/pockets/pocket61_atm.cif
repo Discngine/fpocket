@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    61:
-0  - Pocket Score                      : -0.1001
-1  - Drug Score                        : 0.0002
-2  - Number of alpha spheres           :    21
-3  - Mean alpha-sphere radius          : 4.0203
-4  - Mean alpha-sphere Solvent Acc.    : 0.6247
-5  - Mean B-factor of pocket residues  : 0.2537
-6  - Hydrophobicity Score              : 11.5000
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 3.7500
-9  - Pocket volume (Monte Carlo)       : 427.7404
-10  -Pocket volume (convex hull)       : 34.3630
-11 - Charge Score                      :     2
-12 - Local hydrophobic density Score   : 5.0000
-13 - Number of apolar alpha sphere     :     6
-14 - Proportion of apolar alpha sphere : 0.2857
+0  - Pocket Score                      : -0.0956
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    31
+3  - Mean alpha-sphere radius          : 3.8243
+4  - Mean alpha-sphere Solvent Acc.    : 0.4908
+5  - Mean B-factor of pocket residues  : 0.2980
+6  - Hydrophobicity Score              : 13.0000
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.3333
+9  - Pocket volume (Monte Carlo)       : 394.5678
+10  -Pocket volume (convex hull)       : 37.2303
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.2903
 # 
 loop_
 _atom_site.group_PDB
@@ -39,26 +39,25 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM     6713    C   CB .  SER   G .   58 ?  -25.604 -49.907 -24.780  0.00  0   G
-ATOM     6681    O    O .  GLN   G .   54 ?  -28.062 -47.386 -25.276 -4.29  0   G
-ATOM     7138    O    O .  ARG   G .  110 ?  -33.597 -51.607 -26.643  0.00  0   G
-ATOM     7137    C    C .  ARG   G .  110 ?  -33.270 -51.067 -25.583  0.00  0   G
-ATOM     7139    C   CB .  ARG   G .  110 ?  -33.452 -53.368 -24.516  0.00  0   G
-ATOM     7145    N  NH2 .  ARG   G .  110 ?  -30.398 -56.772 -23.820  0.00  0   G
-ATOM     7136    C   CA .  ARG   G .  110 ?  -33.004 -51.911 -24.327  0.00  0   G
-ATOM     7140    C   CG .  ARG   G .  110 ?  -33.037 -54.276 -23.380  0.00  0   G
-ATOM     7154    C   CB .  ALA   G .  112 ?  -37.805 -50.359 -27.145  0.00  0   G
-ATOM     7019    N  NH1 .  ARG   G .   93 ?  -39.507 -51.983 -30.112  0.00  0   G
-ATOM     7149    O    O .  GLY   G .  111 ?  -34.988 -47.608 -27.731 -4.43  0   G
-ATOM     6712    O    O .  SER   G .   58 ?  -26.055 -52.481 -23.083 -1.21  0   G
-ATOM     6730    O    O .  SER   G .   60 ?  -29.799 -52.367 -20.417 -3.21  0   G
-ATOM     6704    O    O .  ILE   G .   57 ?  -28.444 -49.894 -21.553 -1.07  0   G
-ATOM     7148    C    C .  GLY   G .  111 ?  -34.757 -48.511 -26.929  0.00  0   G
-ATOM     6710    C   CA .  SER   G .   58 ?  -26.571 -50.203 -23.634  0.00  0   G
-ATOM     7146    N    N .  GLY   G .  111 ?  -33.149 -49.748 -25.439 -1.09  0   G
-ATOM     6684    C   CD .  GLN   G .   54 ?  -31.929 -45.478 -28.904  0.00  0   G
-ATOM     7147    C   CA .  GLY   G .  111 ?  -33.327 -48.815 -26.541  0.00  0   G
-ATOM     6685    O  OE1 .  GLN   G .   54 ?  -31.074 -45.194 -29.754  0.00  0   G
-ATOM     6682    C   CB .  GLN   G .   54 ?  -30.139 -45.854 -27.198  0.00  0   G
-ATOM     6686    N  NE2 .  GLN   G .   54 ?  -33.177 -45.729 -29.242  0.00  0   G
+ATOM     1867    O    O .  SER   B .  102 ?    4.067 -65.753 -45.986 -0.14  0   B
+ATOM     1257    C  CE3 .  TRP   B .   27 ?   10.357 -63.858 -45.630  0.00  0   B
+ATOM     1259    C  CZ3 .  TRP   B .   27 ?   11.059 -64.968 -45.218  0.00  0   B
+ATOM     1268    O  OE1 .  GLU   B .   28 ?    8.662 -66.047 -51.636  0.00  0   B
+ATOM     1292    O  OE1 .  GLN   B .   31 ?   12.640 -65.895 -48.051 -4.02  0   B
+ATOM     1265    C   CB .  GLU   B .   28 ?    9.589 -63.490 -50.779  0.00  0   B
+ATOM     1266    C   CG .  GLU   B .   28 ?   10.324 -64.367 -51.782  0.00  0   B
+ATOM     1267    C   CD .  GLU   B .   28 ?    9.459 -65.445 -52.391  0.00  0   B
+ATOM     1269    O  OE2 .  GLU   B .   28 ?    9.585 -65.700 -53.612 -0.95  0   B
+ATOM     1245    O  OD1 .  ASN   B .   26 ?    8.495 -59.946 -51.542  0.00  0   B
+ATOM     1261    N    N .  GLU   B .   28 ?    9.765 -61.823 -48.965 -3.28  0   B
+ATOM     1986    C   CB .  CYS   B .  118 ?    5.217 -62.604 -45.629  0.00  0   B
+ATOM     1985    O    O .  CYS   B .  118 ?    5.720 -60.187 -47.487  0.00  0   B
+ATOM     1868    C   CB .  SER   B .  102 ?    2.673 -65.095 -48.257  0.00  0   B
+ATOM     1994    C  CG2 .  ILE   B .  119 ?    2.444 -61.889 -50.086  0.00  0   B
+ATOM     1244    C   CG .  ASN   B .   26 ?    7.432 -59.337 -51.564  0.00  0   B
+ATOM     1869    O   OG .  SER   B .  102 ?    2.285 -65.298 -49.604 -5.09  0   B
+ATOM     1275    C   CG .  LYS   B .   29 ?   10.982 -58.880 -53.915  0.00  0   B
+ATOM     1277    C   CE .  LYS   B .   29 ?   11.545 -58.795 -56.386  0.00  0   B
+ATOM     1301    O  OE1 .  GLU   B .   32 ?   14.036 -62.247 -54.851 -4.43  0   B
+ATOM     1246    N  ND2 .  ASN   B .   26 ?    6.712 -59.254 -52.666 -2.35  0   B
 # 

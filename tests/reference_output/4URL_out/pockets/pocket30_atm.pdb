@@ -3,45 +3,40 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    30:
-HEADER 0  - Pocket Score                      : -0.0538
-HEADER 1  - Drug Score                        : 0.0835
-HEADER 2  - Number of alpha spheres           :    36
-HEADER 3  - Mean alpha-sphere radius          : 4.1235
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5277
-HEADER 5  - Mean B-factor of pocket residues  : 0.4478
-HEADER 6  - Hydrophobicity Score              : 8.6000
+HEADER 0  - Pocket Score                      : -0.0223
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0899
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6084
+HEADER 5  - Mean B-factor of pocket residues  : 0.1478
+HEADER 6  - Hydrophobicity Score              : 0.5000
 HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 4.6000
-HEADER 9  - Pocket volume (Monte Carlo)       : 413.0099
-HEADER 10  -Pocket volume (convex hull)       : 24.1397
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 295.3776
+HEADER 10 - Pocket volume (convex hull)       : 21.5469
 HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 22.0000
-HEADER 13 - Number of apolar alpha sphere     :    23
-HEADER 14 - Proportion of apolar alpha sphere : 0.6389
-ATOM   2601   CG LYS A 380      47.871  23.372 -16.568  0.00  0.00           C 0
-ATOM   1780   OH TYR A 266      46.956  28.963 -10.465  0.49  6.43           O 0
-ATOM   1759    O ASP A 264      42.787  27.022 -11.942  0.00  0.00           O 0
-ATOM   1777  CE1 TYR A 266      47.109  26.598 -10.145  0.00  0.00           C 0
-ATOM   2603   CE LYS A 380      45.770  22.471 -15.494  0.00  0.00           C 0
-ATOM   2599    O LYS A 380      51.321  23.443 -15.548  0.66  2.14           O 0
-ATOM   2205  OE1 GLU A 321      49.021  23.327 -10.431  0.36  2.14           O 0
-ATOM   2604   NZ LYS A 380      46.509  22.165 -14.238  0.63  4.37           N 0
-ATOM   1767    O GLN A 265      43.426  23.922 -10.640  0.38  1.07           O 0
-ATOM   1586  CD1 LEU A 241      43.051  23.608 -17.574  0.00  0.00           C 0
-ATOM   1587  CD2 LEU A 241      41.637  25.551 -18.037  0.00  0.00           C 0
-ATOM   1760   CB ASP A 264      41.015  27.446 -14.293  0.00  0.00           C 0
-ATOM   1757   CA ASP A 264      41.360  26.088 -13.641  0.00  0.00           C 0
-ATOM   2627    N ALA A 384      53.200  23.833 -13.250  0.00  0.00           N 0
-ATOM   2628   CA ALA A 384      52.885  23.278 -11.921  0.00  0.00           C 0
-ATOM   5510   CG ARG B 399      50.491  28.619  -8.865  0.00  0.00           C 0
-ATOM   2621    O LYS A 383      54.400  25.639 -12.517  0.58  4.29           O 0
-ATOM   2622   CB LYS A 383      53.277  26.420 -15.392  0.00  0.00           C 0
-ATOM   5503    O ALA B 398      53.874  31.240 -11.406  0.57  7.50           O 0
-ATOM   5506   CA ARG B 399      51.316  30.695 -10.103  0.00  0.00           C 0
-ATOM   5507    C ARG B 399      50.752  31.962 -10.756  0.00  0.00           C 0
-ATOM   2597   CA LYS A 380      50.190  23.743 -17.649  0.00  0.00           C 0
-ATOM   2624   CD LYS A 383      52.913  27.486 -17.673  0.00  0.00           C 0
-ATOM   2623   CG LYS A 383      53.891  27.250 -16.527  0.00  0.00           C 0
-ATOM   2620    C LYS A 383      53.938  24.965 -13.436  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   2748  NH1 ARG A 399      61.933  23.753   9.975  0.51  4.37           N 0
+ATOM   2745   CD ARG A 399      63.486  24.129   7.624  0.00  0.00           C 0
+ATOM   5386   CD LYS B 383      64.635  27.075  13.228  0.00  0.00           C 0
+ATOM   4520   OH TYR B 266      64.003  20.674   8.918  0.71  8.57           O 0
+ATOM   4326  CD1 LEU B 241      63.442  18.952  19.196  0.00  0.00           C 0
+ATOM   4493   CA ASP B 264      64.767  15.686  15.292  0.00  0.00           C 0
+ATOM   4496   CB ASP B 264      66.303  15.712  15.289  0.00  0.00           C 0
+ATOM   4327  CD2 LEU B 241      65.559  17.672  19.085  0.00  0.00           C 0
+ATOM   5388   NZ LYS B 383      64.807  26.204  15.597  0.00  0.00           N 0
+ATOM   4954  OE2 GLU B 321      60.334  20.909  12.946  0.56  3.21           O 0
+ATOM   5384   CB LYS B 383      62.223  27.028  12.533  0.00  0.00           C 0
+ATOM   5365   CE LYS B 380      60.820  20.051  16.794  0.00  0.00           C 0
+ATOM   5363   CG LYS B 380      61.377  22.537  16.487  0.00  0.00           C 0
+ATOM   5364   CD LYS B 380      61.106  21.383  17.458  0.00  0.00           C 0
+ATOM   4495    O ASP B 264      64.676  16.201  12.928  0.57  5.36           O 0
+ATOM   5361    O LYS B 380      60.048  25.118  14.493  0.61  1.07           O 0
+ATOM   4517  CE1 TYR B 266      62.448  19.398  10.172  0.00  0.00           C 0
+ATOM   2742    O ARG A 399      67.740  26.179   7.893  0.52  4.29           O 0
+ATOM   2743   CB ARG A 399      65.523  24.521   6.104  0.00  0.00           C 0
+ATOM   4503    O GLN B 265      61.001  15.858  13.054  0.42  1.07           O 0
 TER
 END

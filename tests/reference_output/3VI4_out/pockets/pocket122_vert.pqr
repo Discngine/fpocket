@@ -4,42 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket   122:
-HEADER 0  - Pocket Score                      : -0.0967
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of V. Vertices             :    23
-HEADER 3  - Mean alpha-sphere radius          : 4.3023
-HEADER 4  - Mean alpha-sphere SA              : 0.5447
-HEADER 5  - Mean B-factor                     : 0.4947
-HEADER 6  - Hydrophobicity Score              : -7.0000
-HEADER 7  - Polarity Score                    :     8
-HEADER 8  - Volume Score                      : 3.7000
-HEADER 9  - Real volume (approximation)       : 370.2701
+HEADER 0  - Pocket Score                      : -0.0639
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7366
+HEADER 4  - Mean alpha-sphere SA              : 0.4224
+HEADER 5  - Mean B-factor                     : 0.6382
+HEADER 6  - Hydrophobicity Score              : -25.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 5.3333
+HEADER 9  - Real volume (approximation)       : 157.5379
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 3.0000
-HEADER 12 - Number of apolar alpha sphere     :     4
-HEADER 13 - Proportion of apolar alpha sphere : 0.1739
-ATOM      1    O STP   122     -65.834 -59.460 -15.309    0.00     5.09
-ATOM      2    O STP   122     -65.504 -59.684 -15.129    0.00     5.12
-ATOM      3    C STP   122     -64.506 -59.262 -16.158    0.00     4.69
-ATOM      4    O STP   122     -65.614 -59.352 -18.592    0.00     3.57
-ATOM      5    O STP   122     -65.519 -58.764 -16.918    0.00     4.66
-ATOM      6    O STP   122     -64.239 -59.298 -17.044    0.00     4.20
-ATOM      7    C STP   122     -64.268 -59.264 -16.981    0.00     4.26
-ATOM      8    C STP   122     -62.288 -58.753 -15.382    0.00     4.01
-ATOM      9    C STP   122     -62.461 -58.692 -15.626    0.00     3.98
-ATOM     10    O STP   122     -63.349 -58.406 -12.742    0.00     3.72
-ATOM     11    O STP   122     -66.588 -58.180 -17.546    0.00     4.56
-ATOM     12    O STP   122     -66.684 -58.137 -17.453    0.00     4.62
-ATOM     13    O STP   122     -65.563 -58.935 -16.328    0.00     4.83
-ATOM     14    O STP   122     -65.635 -58.666 -16.955    0.00     4.67
-ATOM     15    O STP   122     -65.725 -57.945 -17.544    0.00     4.18
-ATOM     16    O STP   122     -66.260 -58.270 -17.461    0.00     4.59
-ATOM     17    O STP   122     -66.273 -58.265 -17.462    0.00     4.59
-ATOM     18    O STP   122     -66.257 -58.266 -17.463    0.00     4.58
-ATOM     19    O STP   122     -62.304 -58.872 -12.860    0.00     4.26
-ATOM     20    O STP   122     -61.130 -57.725 -13.832    0.00     3.59
-ATOM     21    O STP   122     -61.139 -57.546 -14.360    0.00     3.41
-ATOM     22    O STP   122     -62.131 -58.736 -15.186    0.00     4.00
-ATOM     23    O STP   122     -61.301 -58.048 -13.645    0.00     3.76
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.6875
+ATOM      1    C STP   122     -35.228  11.461 -26.825    0.00     3.59
+ATOM      2    C STP   122     -35.140  11.277 -27.674    0.00     3.66
+ATOM      3    C STP   122     -35.462  11.395 -27.432    0.00     3.66
+ATOM      4    O STP   122     -36.076  11.780 -27.057    0.00     3.66
+ATOM      5    C STP   122     -35.120  11.242 -27.724    0.00     3.65
+ATOM      6    C STP   122     -35.750  11.010 -27.849    0.00     3.48
+ATOM      7    C STP   122     -34.813  11.214 -27.699    0.00     3.63
+ATOM      8    C STP   122     -34.918  11.225 -27.688    0.00     3.64
+ATOM      9    C STP   122     -34.823  11.207 -27.672    0.00     3.64
+ATOM     10    C STP   122     -35.905  10.946 -27.924    0.00     3.43
+ATOM     11    O STP   122     -36.200  11.780 -27.063    0.00     3.64
+ATOM     12    O STP   122     -36.279  11.938 -26.950    0.00     3.68
+ATOM     13    C STP   122     -36.941  12.818 -26.799    0.00     3.61
+ATOM     14    C STP   122     -37.253  13.124 -26.499    0.00     3.80
+ATOM     15    O STP   122     -37.790  13.454 -25.484    0.00     4.53
+ATOM     16    O STP   122     -37.740  13.385 -25.570    0.00     4.47
 TER
 END
