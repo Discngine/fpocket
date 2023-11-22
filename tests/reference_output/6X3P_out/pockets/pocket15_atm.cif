@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    15:
 0  - Pocket Score                      : -0.0817
-1  - Drug Score                        : 0.0058
+1  - Drug Score                        : 0.0051
 2  - Number of alpha spheres           :    19
 3  - Mean alpha-sphere radius          : 3.9169
 4  - Mean alpha-sphere Solvent Acc.    : 0.6723
@@ -15,7 +15,7 @@ Information about the pocket    15:
 6  - Hydrophobicity Score              : 20.2500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.8750
-9  - Pocket volume (Monte Carlo)       : 249.3951
+9  - Pocket volume (Monte Carlo)       : 246.9534
 10  -Pocket volume (convex hull)       : 10.2300
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 13.0000

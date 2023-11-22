@@ -3,35 +3,33 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    18:
-HEADER 0  - Pocket Score                      : -0.0858
-HEADER 1  - Drug Score                        : 0.0002
-HEADER 2  - Number of alpha spheres           :    21
-HEADER 3  - Mean alpha-sphere radius          : 3.8400
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4526
-HEADER 5  - Mean B-factor of pocket residues  : 0.2396
-HEADER 6  - Hydrophobicity Score              : 29.1250
-HEADER 7  - Polarity Score                    :     4
-HEADER 8  - Amino Acid based volume Score     : 5.2500
-HEADER 9  - Pocket volume (Monte Carlo)       : 208.2513
-HEADER 10 - Pocket volume (convex hull)       : 5.4189
+HEADER 0  - Pocket Score                      : -0.0721
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9030
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5159
+HEADER 5  - Mean B-factor of pocket residues  : 0.4194
+HEADER 6  - Hydrophobicity Score              : 9.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.2957
+HEADER 10 - Pocket volume (convex hull)       : 1.8346
 HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 2.0000
-HEADER 13 - Number of apolar alpha sphere     :     3
-HEADER 14 - Proportion of apolar alpha sphere : 0.1429
-ATOM   1985   CB ARG E 256      24.262 -17.409   6.793  0.00  0.00           C 0
-ATOM   1995    O PHE E 257      20.433 -19.637   9.226  0.00  0.00           O 0
-ATOM   1990  NH1 ARG E 256      26.891 -19.581   8.267  0.00  0.00           N 0
-ATOM   2791  OG1 THR I   6      24.715 -14.012  12.684  0.46  6.43           O 0
-ATOM   1986   CG ARG E 256      25.556 -16.954   6.135  0.00  0.00           C 0
-ATOM   2792  CG2 THR I   6      23.865 -11.906  11.882  0.00  0.00           C 0
-ATOM   1994    C PHE E 257      19.881 -18.647   8.717  0.00  0.00           C 0
-ATOM   1776   OH TYR E 229      20.502 -13.889   7.143  0.19  4.29           O 0
-ATOM   1984    O ARG E 256      21.527 -16.273   6.498  0.35  1.07           O 0
-ATOM   1819   OH TYR E 235      20.722 -13.511  11.416  0.59  7.50           O 0
-ATOM   1816  CE1 TYR E 235      20.944 -11.609  10.005  0.00  0.00           C 0
-ATOM   2003    N PRO E 258      19.173 -17.780   9.368  0.58  1.09           N 0
-ATOM   1830    O PRO E 237      24.002 -11.255   4.963  0.00  0.00           O 0
-ATOM   1854  CE2 PHE E 239      24.254  -8.709   9.507  0.00  0.00           C 0
-ATOM   2004   CA PRO E 258      18.907 -17.890  10.760  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   1485   CG ARG E 194      19.690  -5.697 -20.692  0.00  0.00           C 0
+ATOM   2164  CD2 LEU E 277      19.542 -12.630 -15.688  0.00  0.00           C 0
+ATOM   1667  ND2 ASN E 216      15.794  -9.298 -17.169  0.59  8.75           N 0
+ATOM   1486   CD ARG E 194      20.788  -6.311 -21.588  0.00  0.00           C 0
+ATOM   1666  OD1 ASN E 216      16.657  -8.414 -15.277  0.75  1.07           O 0
+ATOM   1665   CG ASN E 216      16.108  -8.274 -16.385  0.00  0.00           C 0
+ATOM   1649   CA TYR E 215      19.992  -5.473 -16.064  0.00  0.00           C 0
+ATOM   1647    O GLY E 214      22.432  -6.449 -16.569  0.57  5.36           O 0
+ATOM   2163  CD1 LEU E 277      21.625 -12.347 -14.336  0.00  0.00           C 0
+ATOM   1642   CE LYS E 213      25.372 -10.559 -15.586  0.00  0.00           C 0
+ATOM   1603  OE1 GLU E 208      20.528  -8.065 -12.623  0.00  0.00           O 0
+ATOM   2162   CG LEU E 277      20.111 -12.180 -14.348  0.00  0.00           C 0
+ATOM   1650    C TYR E 215      18.537  -5.168 -16.455  0.00  0.00           C 0
 TER
 END

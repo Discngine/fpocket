@@ -1071,7 +1071,7 @@ float testVvertice(float xyz[3], int curNbIdx[4], s_atm *atoms,
                 sdbf += (cura->bfactor-barybf)*(cura->bfactor-barybf);
             }
             sdbf=sqrt(sdbf/3);
-            if ((sdbf>avg_bfactor) || (sdbf>((pdb->max_bfactor-pdb->min_bfactor)/4)) && (avg_bfactor > 0.0) && (barybf / avg_bfactor > 1.4))
+            if (((sdbf>avg_bfactor) || (sdbf>((pdb->max_bfactor-pdb->min_bfactor)/4))) && ((avg_bfactor > 0.0) && (barybf / avg_bfactor > 1.4)))
             // if ((avg_bfactor > 0.0) && (barybf / avg_bfactor > 1.4))
                 return (-1.0);
             /*now test if the vertice is not too far away from the pocket*/

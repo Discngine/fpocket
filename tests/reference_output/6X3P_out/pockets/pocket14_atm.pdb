@@ -4,7 +4,7 @@ HEADER It represents the atoms contacted by the voronoi vertices of the pocket.
 HEADER                                                                           
 HEADER Information about the pocket    14:
 HEADER 0  - Pocket Score                      : -0.0741
-HEADER 1  - Drug Score                        : 0.0004
+HEADER 1  - Drug Score                        : 0.0003
 HEADER 2  - Number of alpha spheres           :    23
 HEADER 3  - Mean alpha-sphere radius          : 3.8745
 HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5032
@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.0884
 HEADER 6  - Hydrophobicity Score              : 2.6250
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 4.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 316.7634
+HEADER 9  - Pocket volume (Monte Carlo)       : 319.2581
 HEADER 10 - Pocket volume (convex hull)       : 21.3999
 HEADER 11 - Charge Score                      :    -2
 HEADER 12 - Local hydrophobic density Score   : 8.0000

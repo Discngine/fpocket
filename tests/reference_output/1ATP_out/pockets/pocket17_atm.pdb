@@ -3,33 +3,34 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    17:
-HEADER 0  - Pocket Score                      : -0.0721
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of alpha spheres           :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.9030
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5159
-HEADER 5  - Mean B-factor of pocket residues  : 0.4194
-HEADER 6  - Hydrophobicity Score              : 9.1429
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Amino Acid based volume Score     : 4.7143
-HEADER 9  - Pocket volume (Monte Carlo)       : 163.4569
-HEADER 10 - Pocket volume (convex hull)       : 1.8346
+HEADER 0  - Pocket Score                      : -0.0205
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9841
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5013
+HEADER 5  - Mean B-factor of pocket residues  : 0.2566
+HEADER 6  - Hydrophobicity Score              : 59.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.8715
+HEADER 10 - Pocket volume (convex hull)       : 2.1844
 HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 5.0000
-HEADER 13 - Number of apolar alpha sphere     :     6
-HEADER 14 - Proportion of apolar alpha sphere : 0.3750
-ATOM   1485   CG ARG E 194      19.690  -5.697 -20.692  0.00  0.00           C 0
-ATOM   2164  CD2 LEU E 277      19.542 -12.630 -15.688  0.00  0.00           C 0
-ATOM   1667  ND2 ASN E 216      15.794  -9.298 -17.169  0.59  8.75           N 0
-ATOM   1486   CD ARG E 194      20.788  -6.311 -21.588  0.00  0.00           C 0
-ATOM   1666  OD1 ASN E 216      16.657  -8.414 -15.277  0.75  1.07           O 0
-ATOM   1665   CG ASN E 216      16.108  -8.274 -16.385  0.00  0.00           C 0
-ATOM   1649   CA TYR E 215      19.992  -5.473 -16.064  0.00  0.00           C 0
-ATOM   1647    O GLY E 214      22.432  -6.449 -16.569  0.57  5.36           O 0
-ATOM   2163  CD1 LEU E 277      21.625 -12.347 -14.336  0.00  0.00           C 0
-ATOM   1642   CE LYS E 213      25.372 -10.559 -15.586  0.00  0.00           C 0
-ATOM   1603  OE1 GLU E 208      20.528  -8.065 -12.623  0.00  0.00           O 0
-ATOM   2162   CG LEU E 277      20.111 -12.180 -14.348  0.00  0.00           C 0
-ATOM   1650    C TYR E 215      18.537  -5.168 -16.455  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2099   CA ARG E 270      17.194 -19.575  -2.168  0.00  0.00           C 0
+ATOM   2129   CB LEU E 273      18.997 -14.631  -2.393  0.00  0.00           C 0
+ATOM   2093    O LEU E 269      16.708 -16.845  -1.937  0.00  0.00           O 0
+ATOM   1978   CB VAL E 255      22.508 -16.367   1.574  0.00  0.00           C 0
+ATOM   2103   CG ARG E 270      18.252 -21.553  -0.888  0.00  0.00           C 0
+ATOM   2128    O LEU E 273      20.651 -16.017  -4.362  0.23  7.50           O 0
+ATOM   2101    O ARG E 270      17.911 -18.997  -4.422  0.00  0.00           O 0
+ATOM   1964    O GLY E 253      26.212 -17.663  -2.433  0.00  0.00           O 0
+ATOM   1974    N VAL E 255      24.871 -17.081   1.353  0.00  0.00           N 0
+ATOM   1977    O VAL E 255      23.715 -18.779   3.313  0.57  6.43           O 0
+ATOM   2001  CE2 PHE E 257      19.271 -19.839   2.946  0.00  0.00           C 0
+ATOM   2107  NH1 ARG E 270      19.684 -23.194   1.662  0.00  0.00           N 0
+ATOM   1980  CG2 VAL E 255      22.744 -15.487   0.360  0.00  0.00           C 0
+ATOM   2002   CZ PHE E 257      18.599 -18.718   2.457  0.00  0.00           C 0
 TER
 END

@@ -3,40 +3,36 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    13:
-HEADER 0  - Pocket Score                      : 0.0542
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of alpha spheres           :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.9704
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7160
-HEADER 5  - Mean B-factor of pocket residues  : 0.3203
-HEADER 6  - Hydrophobicity Score              : -12.5000
-HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 3.3750
-HEADER 9  - Pocket volume (Monte Carlo)       : 301.4449
-HEADER 10 - Pocket volume (convex hull)       : 13.7778
-HEADER 11 - Charge Score                      :    -1
-HEADER 12 - Local hydrophobic density Score   : 4.0000
-HEADER 13 - Number of apolar alpha sphere     :     5
-HEADER 14 - Proportion of apolar alpha sphere : 0.2778
-ATOM    224   CB LYS A  31       8.265  34.207  93.786  0.00  0.00           C 0
-ATOM    223    O LYS A  31      10.066  32.898  92.236  0.00  0.00           O 0
-ATOM    221   CA LYS A  31       7.732  33.412  92.592  0.00  0.00           C 0
-ATOM    444  ND2 ASN A  58      12.615  35.002  91.139  0.59  9.84           N 0
-ATOM    183   CG ASP A  26       6.685  33.832  84.298  0.00  0.00           C 0
-ATOM    182   CB ASP A  26       5.777  33.141  85.281  0.00  0.00           C 0
-ATOM    241   CB SER A  33      10.425  33.838  86.379  0.00  0.00           C 0
-ATOM    198  OD1 ASP A  28       3.558  35.863  88.118  0.00  0.00           O 0
-ATOM    195    O ASP A  28       4.025  34.188  92.627  0.78  7.50           O 0
-ATOM    225   CG LYS A  31       7.316  35.244  94.323  0.00  0.00           C 0
-ATOM    226   CD LYS A  31       7.929  35.859  95.580  0.00  0.00           C 0
-ATOM    460  ND2 ASN A  60      11.769  35.507  96.476  0.29  6.56           N 0
-ATOM    193   CA ASP A  28       3.483  34.011  90.281  0.00  0.00           C 0
-ATOM    189    O SER A  27       5.581  32.240  90.248  0.55  2.14           O 0
-ATOM    222    C LYS A  31       8.893  32.734  91.869  0.00  0.00           C 0
-ATOM    184  OD1 ASP A  26       7.901  33.555  84.309  0.72  2.14           O 0
-ATOM    242   OG SER A  33      10.890  34.214  85.094  0.81  6.43           O 0
-ATOM    185  OD2 ASP A  26       6.163  34.642  83.502  0.00  0.00           O 0
-ATOM    232    O ILE A  32       8.106  31.671  88.134  0.00  0.00           O 0
-ATOM    229    N ILE A  32       8.540  31.910  90.883  0.00  0.00           N 0
+HEADER 0  - Pocket Score                      : 0.0709
+HEADER 1  - Drug Score                        : 0.3018
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8264
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4782
+HEADER 5  - Mean B-factor of pocket residues  : 0.2496
+HEADER 6  - Hydrophobicity Score              : 17.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.4242
+HEADER 10 - Pocket volume (convex hull)       : 9.6524
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM   1277    O LYS A 170      29.887  29.118 103.471  0.04  6.43           O 0
+ATOM   1278   CB LYS A 170      31.371  26.726 103.179  0.00  0.00           C 0
+ATOM    845  CE1 PHE A 108      32.324  31.651  98.480  0.00  0.00           C 0
+ATOM    847   CZ PHE A 108      32.969  32.663  99.206  0.00  0.00           C 0
+ATOM    822    O GLU A 106      32.384  27.824  95.777  0.58  4.29           O 0
+ATOM   1271  CD2 HIS A 169      30.843  24.347  99.914  0.00  0.00           C 0
+ATOM   1280   CD LYS A 170      33.328  25.428 102.338  0.00  0.00           C 0
+ATOM   1338   CB PRO A 178      32.010  26.963 106.692  0.00  0.00           C 0
+ATOM   1339   CG PRO A 178      33.121  25.950 106.818  0.00  0.00           C 0
+ATOM   1296   CG MET A 172      32.215  31.784 106.775  0.00  0.00           C 0
+ATOM    826  OE1 GLU A 106      34.250  24.528  98.507  0.68  9.64           O 0
+ATOM   1297   SD MET A 172      32.890  30.294 107.523  0.00  0.00           S 0
+ATOM   1095   CA SER A 148      28.379  29.987 100.268  0.00  0.00           C 0
+ATOM   1094    N SER A 148      28.686  30.857  99.115  0.00  0.00           N 0
+ATOM   1103    O TYR A 149      28.623  27.072  96.765  0.34  1.07           O 0
+ATOM   1096    C SER A 148      27.665  28.696  99.897  0.00  0.00           C 0
 TER
 END

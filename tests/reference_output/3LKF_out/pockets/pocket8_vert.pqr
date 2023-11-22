@@ -4,51 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket     8:
-HEADER 0  - Pocket Score                      : 0.1044
-HEADER 1  - Drug Score                        : 0.0008
-HEADER 2  - Number of V. Vertices             :    32
-HEADER 3  - Mean alpha-sphere radius          : 3.9668
-HEADER 4  - Mean alpha-sphere SA              : 0.4807
-HEADER 5  - Mean B-factor                     : 0.2179
-HEADER 6  - Hydrophobicity Score              : 23.8000
+HEADER 0  - Pocket Score                      : 0.1050
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7843
+HEADER 4  - Mean alpha-sphere SA              : 0.5291
+HEADER 5  - Mean B-factor                     : 0.2763
+HEADER 6  - Hydrophobicity Score              : 23.5556
 HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 4.4000
-HEADER 9  - Real volume (approximation)       : 365.4290
-HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 4.0000
-HEADER 12 - Number of apolar alpha sphere     :     5
-HEADER 13 - Proportion of apolar alpha sphere : 0.1562
-ATOM      1    O STP     8      29.635  35.275 104.417    0.00     4.55
-ATOM      2    O STP     8      31.721  33.358 103.035    0.00     4.09
-ATOM      3    O STP     8      30.559  34.516 104.012    0.00     4.22
-ATOM      4    O STP     8      31.807  32.492 102.943    0.00     3.92
-ATOM      5    O STP     8      26.555  35.915 100.036    0.00     3.50
-ATOM      6    O STP     8      27.047  37.449 101.540    0.00     4.20
-ATOM      7    O STP     8      29.466  34.343 104.595    0.00     3.97
-ATOM      8    O STP     8      30.183  33.588 104.297    0.00     3.68
-ATOM      9    O STP     8      26.774  35.761 103.700    0.00     3.45
-ATOM     10    O STP     8      29.216  35.520 104.371    0.00     4.59
-ATOM     11    O STP     8      27.252  34.633 104.079    0.00     3.68
-ATOM     12    O STP     8      27.402  34.055 104.653    0.00     3.67
-ATOM     13    O STP     8      27.866  37.514 103.235    0.00     4.54
-ATOM     14    O STP     8      26.643  36.474 100.631    0.00     3.72
-ATOM     15    O STP     8      27.030  34.647 103.478    0.00     3.41
-ATOM     16    C STP     8      27.229  35.248 101.256    0.00     3.50
-ATOM     17    O STP     8      27.453  35.364 103.563    0.00     3.96
-ATOM     18    O STP     8      27.140  35.794 103.487    0.00     3.79
-ATOM     19    O STP     8      27.418  35.515 101.749    0.00     3.68
-ATOM     20    O STP     8      27.057  36.943 101.661    0.00     4.08
-ATOM     21    C STP     8      26.582  35.766 100.199    0.00     3.52
-ATOM     22    C STP     8      26.715  35.527 100.357    0.00     3.45
-ATOM     23    O STP     8      27.768  35.942 103.238    0.00     4.31
-ATOM     24    O STP     8      27.710  36.120 103.185    0.00     4.32
-ATOM     25    O STP     8      27.291  38.285 101.884    0.00     4.51
-ATOM     26    O STP     8      27.550  38.840 101.731    0.00     4.59
-ATOM     27    O STP     8      27.106  37.734 101.608    0.00     4.29
-ATOM     28    O STP     8      26.239  37.052 101.194    0.00     3.65
-ATOM     29    O STP     8      26.654  36.790 100.832    0.00     3.85
-ATOM     30    O STP     8      26.854  37.168 101.317    0.00     4.09
-ATOM     31    C STP     8      26.833  37.125 101.294    0.00     4.08
-ATOM     32    C STP     8      26.817  37.091 101.248    0.00     4.06
+HEADER 8  - Volume Score                      : 3.5556
+HEADER 9  - Real volume (approximation)       : 265.1202
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 2.0000
+HEADER 12 - Number of apolar alpha sphere     :     3
+HEADER 13 - Proportion of apolar alpha sphere : 0.1875
+ATOM      1    O STP     8      27.848  14.269  70.955    0.00     4.07
+ATOM      2    C STP     8      26.856  13.932  70.552    0.00     3.80
+ATOM      3    O STP     8      26.258  14.090  70.235    0.00     3.66
+ATOM      4    O STP     8      31.563  15.090  72.253    0.00     4.52
+ATOM      5    O STP     8      27.812  16.042  70.376    0.00     3.76
+ATOM      6    O STP     8      29.753  16.160  70.922    0.00     3.73
+ATOM      7    O STP     8      31.264  16.063  69.958    0.00     3.51
+ATOM      8    O STP     8      31.284  15.485  71.934    0.00     4.29
+ATOM      9    O STP     8      30.785  16.527  72.209    0.00     3.49
+ATOM     10    O STP     8      26.336  17.088  69.215    0.00     3.64
+ATOM     11    O STP     8      26.294  17.026  69.541    0.00     3.83
+ATOM     12    O STP     8      26.218  16.956  69.630    0.00     3.88
+ATOM     13    C STP     8      25.676  17.696  70.116    0.00     3.58
+ATOM     14    C STP     8      25.673  17.844  70.102    0.00     3.51
+ATOM     15    O STP     8      25.661  16.553  69.012    0.00     3.50
+ATOM     16    O STP     8      25.877  16.686  69.524    0.00     3.79
 TER
 END

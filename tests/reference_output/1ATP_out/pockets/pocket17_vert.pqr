@@ -4,35 +4,36 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    17:
-HEADER 0  - Pocket Score                      : -0.0721
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of V. Vertices             :    16
-HEADER 3  - Mean alpha-sphere radius          : 3.9030
-HEADER 4  - Mean alpha-sphere SA              : 0.5159
-HEADER 5  - Mean B-factor                     : 0.4194
-HEADER 6  - Hydrophobicity Score              : 9.1429
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 4.7143
-HEADER 9  - Real volume (approximation)       : 163.4569
+HEADER 0  - Pocket Score                      : -0.0205
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9841
+HEADER 4  - Mean alpha-sphere SA              : 0.5013
+HEADER 5  - Mean B-factor                     : 0.2566
+HEADER 6  - Hydrophobicity Score              : 59.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Volume Score                      : 4.6667
+HEADER 9  - Real volume (approximation)       : 171.8715
 HEADER 10 - Charge Score                      :     1
-HEADER 11 - Local hydrophobic density Score   : 5.0000
-HEADER 12 - Number of apolar alpha sphere     :     6
-HEADER 13 - Proportion of apolar alpha sphere : 0.3750
-ATOM      1    C STP    17      19.731  -9.845 -19.131    0.00     4.43
-ATOM      2    O STP    17      19.569  -9.317 -17.533    0.00     3.79
-ATOM      3    C STP    17      19.614  -8.814 -18.207    0.00     3.99
-ATOM      4    C STP    17      20.232  -9.555 -18.715    0.00     4.37
-ATOM      5    O STP    17      19.894  -9.360 -18.454    0.00     4.30
-ATOM      6    O STP    17      19.659  -8.864 -18.207    0.00     4.03
-ATOM      7    C STP    17      22.012 -10.240 -17.683    0.00     3.97
-ATOM      8    O STP    17      19.763  -9.200 -17.763    0.00     4.01
-ATOM      9    O STP    17      19.665  -8.895 -18.122    0.00     4.01
-ATOM     10    O STP    17      19.761  -9.178 -17.610    0.00     3.96
-ATOM     11    O STP    17      19.722  -9.037 -17.573    0.00     3.88
-ATOM     12    O STP    17      20.063  -9.001 -15.994    0.00     3.53
-ATOM     13    C STP    17      21.170  -9.679 -16.504    0.00     3.47
-ATOM     14    O STP    17      20.051  -9.115 -16.218    0.00     3.59
-ATOM     15    O STP    17      20.074  -9.041 -16.005    0.00     3.55
-ATOM     16    C STP    17      19.181  -8.215 -18.208    0.00     3.57
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.6471
+ATOM      1    C STP    17      20.079 -17.759  -0.802    0.00     3.67
+ATOM      2    O STP    17      21.058 -19.186  -2.154    0.00     3.88
+ATOM      3    O STP    17      22.470 -19.926  -1.235    0.00     4.53
+ATOM      4    O STP    17      22.448 -20.166  -0.692    0.00     4.42
+ATOM      5    C STP    17      21.929 -20.012  -0.119    0.00     4.06
+ATOM      6    O STP    17      21.994 -20.327   0.005    0.00     4.04
+ATOM      7    C STP    17      22.152 -19.454  -1.681    0.00     4.50
+ATOM      8    O STP    17      22.110 -19.403  -1.774    0.00     4.50
+ATOM      9    C STP    17      20.135 -17.782  -0.862    0.00     3.68
+ATOM     10    C STP    17      20.333 -17.868  -1.159    0.00     3.71
+ATOM     11    O STP    17      22.730 -19.052  -1.278    0.00     3.92
+ATOM     12    C STP    17      21.017 -18.682  -1.343    0.00     4.01
+ATOM     13    C STP    17      21.042 -18.693  -1.380    0.00     4.03
+ATOM     14    C STP    17      20.540 -18.564  -0.766    0.00     3.77
+ATOM     15    C STP    17      21.084 -19.267  -0.227    0.00     3.70
+ATOM     16    C STP    17      20.059 -17.765  -0.768    0.00     3.67
+ATOM     17    C STP    17      20.019 -17.679  -0.714    0.00     3.63
 TER
 END

@@ -3,35 +3,37 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    11:
-HEADER 0  - Pocket Score                      : 0.0793
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.8644
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5327
-HEADER 5  - Mean B-factor of pocket residues  : 0.2732
-HEADER 6  - Hydrophobicity Score              : -10.7778
+HEADER 0  - Pocket Score                      : 0.0927
+HEADER 1  - Drug Score                        : 0.0344
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8829
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4585
+HEADER 5  - Mean B-factor of pocket residues  : 0.3210
+HEADER 6  - Hydrophobicity Score              : 16.1111
 HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 3.5556
-HEADER 9  - Pocket volume (Monte Carlo)       : 176.0713
-HEADER 10 - Pocket volume (convex hull)       : 3.7343
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.1165
+HEADER 10 - Pocket volume (convex hull)       : 17.1384
 HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 1.0000
-HEADER 13 - Number of apolar alpha sphere     :     2
-HEADER 14 - Proportion of apolar alpha sphere : 0.1333
-ATOM    880  ND2 ASN A 112      32.578  26.727  83.495  0.59  4.37           N 0
-ATOM    974    N ASN A 126      36.143  26.618  81.096  0.70  2.19           N 0
-ATOM    978   CB ASN A 126      37.058  27.112  83.282  0.00  0.00           C 0
-ATOM    792   CE LYS A 102      33.744  20.221  81.279  0.00  0.00           C 0
-ATOM    970    C SER A 125      35.170  26.429  80.216  0.00  0.00           C 0
-ATOM    966  CG2 ILE A 124      31.784  23.341  79.706  0.00  0.00           C 0
-ATOM    879  OD1 ASN A 112      30.911  25.249  83.241  0.83  3.21           O 0
-ATOM    798   CB ASN A 103      32.750  19.186  86.937  0.00  0.00           C 0
-ATOM    790   CG LYS A 102      31.581  19.805  82.481  0.00  0.00           C 0
-ATOM    818  ND2 ASN A 105      32.353  25.925  88.751  0.57  5.47           N 0
-ATOM    794    N ASN A 103      30.541  19.697  85.980  0.00  0.00           N 0
-ATOM    785    N LYS A 102      29.379  21.094  83.985  0.00  0.00           N 0
-ATOM    782   CB PRO A 101      28.551  23.793  85.645  0.00  0.00           C 0
-ATOM    797    O ASN A 103      30.438  21.125  88.294  0.72  3.21           O 0
-ATOM    805    O GLN A 104      32.744  21.383  90.493  0.64  5.36           O 0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    122   CB LEU A  18      22.045  29.731  64.557  0.00  0.00           C 0
+ATOM    124  CD1 LEU A  18      24.267  30.616  65.256  0.00  0.00           C 0
+ATOM    292  OD1 ASN A  39      20.406  30.168  70.752  0.00  0.00           O 0
+ATOM   1014  CE1 PHE A 138      23.962  29.434  70.030  0.00  0.00           C 0
+ATOM    144   CD LYS A  20      17.901  33.427  70.437  0.00  0.00           C 0
+ATOM    145   CE LYS A  20      19.355  33.119  70.681  0.00  0.00           C 0
+ATOM     53   OG SER A   8      16.356  34.411  66.355  0.47  6.43           O 0
+ATOM    146   NZ LYS A  20      20.064  34.316  71.202  0.63  7.66           N 0
+ATOM   1031  OE2 GLU A 140      23.217  32.573  74.416  0.48  4.29           O 0
+ATOM   1020    O SER A 139      26.969  31.284  72.009  0.69  7.50           O 0
+ATOM     65   CB LYS A  10      21.760  33.541  62.865  0.00  0.00           C 0
+ATOM     51    O SER A   8      16.258  32.199  64.313  0.00  0.00           O 0
+ATOM    121    O LEU A  18      19.359  30.404  63.126  0.82  2.14           O 0
+ATOM     66   CG LYS A  10      23.276  33.636  62.853  0.00  0.00           C 0
+ATOM    142   CB LYS A  20      17.330  31.822  68.593  0.00  0.00           C 0
+ATOM    129    O TYR A  19      17.688  28.561  67.058  0.56  2.14           O 0
+ATOM    120    C LEU A  18      19.687  29.423  63.783  0.00  0.00           C 0
 TER
 END
