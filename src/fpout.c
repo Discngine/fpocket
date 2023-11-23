@@ -58,6 +58,7 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
    char pdb_code[350] = "";
    char pdb_path[350] = "";
    char out_path[350] = "";
+   char out_path_tmp[350] = "";
    char pdb_out_path[350] = "";
    char info_out_path[350] = "";
    char mmcif_out_path[350] = "";
@@ -85,34 +86,34 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
          return;
       }
 
-      sprintf(out_path, "%s/%s", out_path, pdb_code);
-      sprintf(pdb_out_path, "%s_out.pdb", out_path);
+      sprintf(out_path_tmp, "%s/%s", out_path, pdb_code);
+      sprintf(pdb_out_path, "%s_out.pdb", out_path_tmp);
 
-      sprintf(mmcif_out_path, "%s_out.cif", out_path);
+      sprintf(mmcif_out_path, "%s_out.cif", out_path_tmp);
       
       /* Write vmd and pymol scripts */
       sprintf(fout, "%s_out.pdb", pdb_code);
-      write_visualization(out_path, fout);
+      write_visualization(out_path_tmp, fout);
       
       /* Writing full pdb */
       //printf("%s\n",write_mode);
       if(write_mode[0] == 'p' || write_mode[0] == 'b'){
-      sprintf(pdb_out_path, "%s_out.pdb", out_path);
+      sprintf(pdb_out_path, "%s_out.pdb", out_path_tmp);
 
       write_pockets_single_pdb(pdb_out_path, pdb, pockets);
       }
 
       /*Writing full mmcif*/
       if(write_mode[0] == 'm' || write_mode[0] == 'b'){
-      sprintf(mmcif_out_path, "%s_out.cif", out_path);
+      sprintf(mmcif_out_path, "%s_out.cif", out_path_tmp);
       write_pockets_single_mmcif(mmcif_out_path, pdb, pockets);
       }
 
-      sprintf(info_out_path, "%s_info.txt", out_path);
+      sprintf(info_out_path, "%s_info.txt", out_path_tmp);
       write_out_fpocket_info_file(pockets, info_out_path);
 
       /* Writing pockets as a single pqr */
-      sprintf(fout, "%s_pockets.pqr", out_path);
+      sprintf(fout, "%s_pockets.pqr", out_path_tmp);
       write_pockets_single_pqr(fout, pockets);
 
       /* Writing individual pockets pqr */
@@ -121,14 +122,14 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
       else
          sprintf(out_path, "%s_out", pdb_code);
 
-      sprintf(out_path, "%s/pockets", out_path);
-      sprintf(command, "mkdir %s", out_path);
+      sprintf(out_path_tmp, "%s/pockets", out_path);
+      sprintf(command, "mkdir %s", out_path_tmp);
       status = system(command);
       /*if(status != 0) {
 			return ;
 		}*/
 
-      write_each_pocket(out_path, pockets);
+      write_each_pocket(out_path_tmp, pockets);
    }
 }
 /**
