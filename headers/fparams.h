@@ -121,7 +121,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_CHAIN_AS_LIGAND 'a' /**flag, to define which chains are defined as a ligand*/
 #define M_PAR_CHAIN_AS_LIGAND_LONG "chain_as_ligand"
 
-#define M_PAR_WRITE_MODE 'w' /**flag, to define which chains are defined as a ligand*/
+#define M_PAR_WRITE_MODE 'w' /**flag, to define write mode for pocket output: d->same as input, b or both -> both (pdb & cif), p or pdb ->pdb, m or cif -> mmcif*/
 #define M_PAR_WRITE_MODE_LONG "write_mode"
 
 #define M_PAR_MIN_N_EXPLICIT_POCKET 'u'
