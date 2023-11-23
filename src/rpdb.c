@@ -277,7 +277,6 @@ void init_coord_grid(s_pdb *pdb)
             g->atom_ptr[cx][cy] = (s_atom_ptr_list *)my_malloc(sizeof(s_atom_ptr_list) * g->nz);
             for (cz = 0; cz < g->nz; cz++)
             {
-                // g->atom_ptr[cx][cy][cz] = *init_atom_ptr_list();
                 g->atom_ptr[cx][cy][cz].natoms = 0;
                 g->atom_ptr[cx][cy][cz].latoms = (s_atm **)my_malloc(sizeof(s_atm *));
             }

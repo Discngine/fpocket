@@ -142,7 +142,7 @@ s_min_max_coords *float_get_min_max_from_pdb(s_pdb *pdb);
 void init_coord_grid(s_pdb *pdb);
 void create_coord_grid(s_pdb *pdb);
 void fill_coord_grid(s_pdb *pdb);
-s_atom_ptr_list *init_atom_ptr_list(void);
+// s_atom_ptr_list *init_atom_ptr_list(void);
 
 
 short get_mm_type_from_element(char *symbol);
