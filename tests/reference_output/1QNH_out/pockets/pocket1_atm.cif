@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket     1:
-0  - Pocket Score                      : 5.8454
+0  - Pocket Score                      : 6.1285
 1  - Drug Score                        : 1.0000
-2  - Number of alpha spheres           :   217
-3  - Mean alpha-sphere radius          : 4.3019
-4  - Mean alpha-sphere Solvent Acc.    : 0.5830
+2  - Number of alpha spheres           :   225
+3  - Mean alpha-sphere radius          : 4.3213
+4  - Mean alpha-sphere Solvent Acc.    : 0.5807
 5  - Mean B-factor of pocket residues  : 0.0000
-6  - Hydrophobicity Score              : 16.8148
-7  - Polarity Score                    :    16
-8  - Amino Acid based volume Score     : 3.8889
-9  - Pocket volume (Monte Carlo)       : 4956.8828
-10  -Pocket volume (convex hull)       : 10904.4561
+6  - Hydrophobicity Score              : 18.4643
+7  - Polarity Score                    :    17
+8  - Amino Acid based volume Score     : 4.0000
+9  - Pocket volume (Monte Carlo)       : 5738.3193
+10  -Pocket volume (convex hull)       : 11845.1973
 11 - Charge Score                      :     6
-12 - Local hydrophobic density Score   : 13.4444
-13 - Number of apolar alpha sphere     :    54
-14 - Proportion of apolar alpha sphere : 0.2488
+12 - Local hydrophobic density Score   : 13.3455
+13 - Number of apolar alpha sphere     :    55
+14 - Proportion of apolar alpha sphere : 0.2444
 # 
 loop_
 _atom_site.group_PDB
@@ -50,7 +50,7 @@ ATOM     2286    C  CD1 .  LEU   B .  128 ?    6.202  86.633  32.781  0.00  0   
 ATOM     2318    N  NE2 .  HIS   B .  132 ?    9.242  88.831  29.145 -5.47  0   B
 ATOM     2317    C  CE1 .  HIS   B .  132 ?   10.323  88.078  29.041  0.00  0   B
 ATOM     2135    O  OD1 .  ASN   B .  108 ?   12.641  89.570  26.461 -2.14  0   B
-ATOM     1791    N  NH2 .  ARG   B .   61 ?   12.927  90.252  37.946 -4.37  0   B
+ATOM     1791    N  NH2 .  ARG   B .   61 ?   12.927  90.252  37.946 -1.09  0   B
 ATOM     1855    C   CD .  GLN   B .   69 ?   15.725  85.545  34.857  0.00  0   B
 ATOM     1833    C  CE2 .  PHE   B .   66 ?    8.952  88.462  37.965  0.00  0   B
 ATOM     2274    N  NE1 .  TRP   B .  127 ?    4.665  90.424  35.013  0.00  0   B
@@ -66,9 +66,9 @@ ATOM     2277    C  CZ2 .  TRP   B .  127 ?    3.617  89.154  36.912  0.00  0   
 ATOM     1830    C  CD1 .  PHE   B .   66 ?    6.646  86.985  38.413  0.00  0   B
 ATOM     1818    O    O .  GLN   B .   65 ?    4.153  85.911  42.353  0.00  0   B
 ATOM     2279    C  CH2 .  TRP   B .  127 ?    2.401  88.785  37.428  0.00  0   B
-ATOM     2482    O    O .  LYS   B .  154 ?   12.088  91.141  45.036  0.00  0   B
+ATOM     2482    O    O .  LYS   B .  154 ?   12.088  91.141  45.036 -0.54  0   B
 ATOM     1807    C  CD1 .  ILE   B .   63 ?   11.752  89.132  41.153  0.00  0   B
-ATOM     2487    O    O .  SER   B .  155 ?   15.773  90.893  43.331 -1.62  0   B
+ATOM     2487    O    O .  SER   B .  155 ?   15.773  90.893  43.331 -3.35  0   B
 ATOM     1789    C   CZ .  ARG   B .   61 ?   13.831  89.292  37.808  0.00  0   B
 ATOM     1911    C    C .  GLY   B .   78 ?   21.795  87.544  32.811  0.00  0   B
 ATOM     1904    O    O .  ASN   B .   77 ?   22.544  87.676  36.296  0.00  0   B
@@ -104,7 +104,15 @@ ATOM     2272    C  CD1 .  TRP   B .  127 ?    4.169  91.116  33.936  0.00  0   
 ATOM      971    N  NE1 .  TRP   A .  127 ?   31.690  55.125  17.941  0.00  0   A
 ATOM      482    N  NH2 .  ARG   A .   61 ?   30.854  46.734  21.014 -1.09  0   A
 ATOM     2194    C   CD .  GLN   B .  117 ?   19.437  84.530  31.487  0.00  0   B
+ATOM      862    C   CB .  THR   A .  113 ?   25.860  43.490   6.456  0.00  0   A
+ATOM      666    N  NH1 .  ARG   A .   87 ?   22.062  38.269   8.777 -4.12  0   A
+ATOM      864    C  CG2 .  THR   A .  113 ?   26.850  43.117   5.347  0.00  0   A
+ATOM      667    N  NH2 .  ARG   A .   87 ?   23.345  36.894  10.092 -1.93  0   A
 ATOM      525    C   CZ .  PHE   A .   66 ?   29.230  52.224  20.147  0.00  0   A
+ATOM      465    O    O .  HIS   A .   60 ?   25.158  41.344  25.078 -1.62  0   A
+ATOM      595    O    O .  ASN   A .   77 ?   26.312  38.006  20.189  0.00  0   A
+ATOM     1184    O    O .  SER   A .  155 ?   31.853  44.086  26.183  0.00  0   A
+ATOM     1197    C  CD1 .  TYR   A .  157 ?   28.532  39.033  29.999  0.00  0   A
 ATOM     1840    C   CG .  MET   B .   67 ?    9.633  84.822  37.381  0.00  0   B
 ATOM     1787    C   CD .  ARG   B .   61 ?   15.961  88.260  38.521  0.00  0   B
 ATOM     1778    C  CD2 .  HIS   B .   60 ?   19.860  85.375  37.081  0.00  0   B
@@ -116,9 +124,7 @@ ATOM     2129    N    N .  ASN   B .  108 ?   14.150  86.948  28.128  0.00  0   
 ATOM     2192    C   CB .  GLN   B .  117 ?   17.733  83.041  30.399  0.00  0   B
 ATOM     2127    O    O .  ALA   B .  107 ?   14.577  84.908  27.317  0.00  0   B
 ATOM      878    O   OG .  SER   A .  115 ?   20.631  41.367  10.780 -3.21  0   A
-ATOM      666    N  NH1 .  ARG   A .   87 ?   22.062  38.269   8.777 -2.61  0   A
-ATOM      861    O    O .  THR   A .  113 ?   23.582  43.411   7.996 -4.69  0   A
-ATOM      667    N  NH2 .  ARG   A .   87 ?   23.345  36.894  10.092 -4.12  0   A
+ATOM      861    O    O .  THR   A .  113 ?   23.582  43.411   7.996 -5.36  0   A
 ATOM      531    C   CG .  MET   A .   67 ?   25.856  51.243  21.414  0.00  0   A
 ATOM      911    C  CD1 .  LEU   A .  119 ?   23.851  52.591  18.054  0.00  0   A
 ATOM      983    C  CD1 .  LEU   A .  128 ?   27.372  54.269  16.512  0.00  0   A
@@ -142,7 +148,7 @@ ATOM     1829    C   CG .  PHE   B .   66 ?    7.541  87.175  39.460  0.00  0   
 ATOM     1831    C  CD2 .  PHE   B .   66 ?    8.694  87.919  39.225  0.00  0   B
 ATOM     2181    O   OG .  SER   B .  115 ?   19.809  83.527  26.162 -4.29  0   B
 ATOM     2126    C    C .  ALA   B .  107 ?   14.097  85.624  28.193  0.00  0   B
-ATOM      613    O    O .  GLY   A .   80 ?   22.190  38.611  13.380 -1.07  0   A
+ATOM      613    O    O .  GLY   A .   80 ?   22.190  38.611  13.380  0.00  0   A
 ATOM      520    C   CG .  PHE   A .   66 ?   28.847  52.956  22.827  0.00  0   A
 ATOM      974    C  CZ2 .  TRP   A .  127 ?   31.017  56.465  19.955  0.00  0   A
 ATOM      519    C   CB .  PHE   A .   66 ?   28.655  53.352  24.272  0.00  0   A
@@ -156,7 +162,6 @@ ATOM      546    C   CD .  GLN   A .   69 ?   25.009  44.971  19.024  0.00  0   
 ATOM      839    N    N .  GLY   A .  110 ?   29.407  45.801   8.294  0.00  0   A
 ATOM      597    C   CG .  ASN   A .   77 ?   25.222  34.668  19.575  0.00  0   A
 ATOM      598    O  OD1 .  ASN   A .   77 ?   25.256  35.283  18.510 -1.07  0   A
-ATOM      595    O    O .  ASN   A .   77 ?   26.312  38.006  20.189  0.00  0   A
 ATOM      607    O    O .  SER   A .   79 ?   25.110  36.261  13.164  0.00  0   A
 ATOM      479    N   NE .  ARG   A .   61 ?   29.569  45.021  21.872 -2.19  0   A
 ATOM      478    C   CD .  ARG   A .   61 ?   28.334  44.256  22.042  0.00  0   A
@@ -164,6 +169,7 @@ ATOM      601    C   CA .  GLY   A .   78 ?   25.067  39.217  18.072  0.00  0   
 ATOM     1788    N   NE .  ARG   B .   61 ?   14.906  89.269  38.594  0.00  0   B
 ATOM     1014    C  CE1 .  HIS   A .  132 ?   27.139  49.898  12.602  0.00  0   A
 ATOM      822    C   CA .  ALA   A .  107 ?   23.846  47.439  13.692  0.00  0   A
+ATOM     1192    C   CA .  TYR   A .  157 ?   28.602  42.056  28.964  0.00  0   A
 ATOM      521    C  CD1 .  PHE   A .   66 ?   28.541  53.842  21.796  0.00  0   A
 ATOM      840    C   CA .  GLY   A .  110 ?   29.978  46.428   7.122  0.00  0   A
 ATOM      827    C   CA .  ASN   A .  108 ?   25.685  45.693  10.863  0.00  0   A

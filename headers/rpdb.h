@@ -146,6 +146,6 @@ void fill_coord_grid(s_pdb *pdb);
 
 
 short get_mm_type_from_element(char *symbol);
-int chains_to_delete(char *chains_selected, char current_line_chain, int is_chain_kept);
-int is_ligand(char *chains_selected, char current_line_chain);
+int chains_to_delete(char *chains_selected[20], char *current_line_chain, int is_chain_kept,unsigned short n_chains_to_delete);
+int is_ligand(char *chains_selected[20], char *current_line_chain, unsigned short n_chains_as_ligand);
 #endif

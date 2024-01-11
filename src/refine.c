@@ -55,7 +55,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	void
 
 */
-void apply_clustering(c_lst_pockets *pockets, s_fparams *params)
+void apply_clustering(c_lst_pockets *pockets)
 {
 	node_pocket *nextPocket;
 	node_pocket *curMobilePocket;

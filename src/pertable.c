@@ -265,10 +265,13 @@ char *pte_get_element_from_number(int atomicnumber)
 	
 		tmp[0] = ST_pte_symbol[atomicnumber][0] ;
 		tmp[1] = ST_pte_symbol[atomicnumber][1] ;
-		tmp[2] = '\0';
 		return tmp;
-	} 
-	return -1 ;
+	} else {
+		tmp[0]='-';
+		tmp[1]='1';
+	}
+	tmp[2]='\0';
+	return tmp;
 }
 
 /**
