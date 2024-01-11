@@ -239,7 +239,7 @@ int run_qvoronoi(FILE *fin,FILE *fout) {
   coordT *points;
   boolT ismalloc;
   int argc=6;
-  char *argv[6];
+  const char *argv[6];
   argv[0]=malloc(sizeof(char)*200);
   argv[0]="src/qhull/qvoronoi\0";
   argv[1]=malloc(sizeof(char)*2);

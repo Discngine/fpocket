@@ -165,7 +165,7 @@ c_lst_pockets *search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig)
         fflush(DEBUG_STREAM);
     }
 
-    apply_clustering(pockets, params);
+    apply_clustering(pockets);
     if (DEBUG)
     {
         fprintf(DEBUG_STREAM, "applied clustering to pockets");
@@ -216,7 +216,7 @@ c_lst_pockets *search_pocket(s_pdb *pdb, s_fparams *params, s_pdb *pdb_w_lig)
             print_number_of_objects_in_memory();
         //        int i;
 
-        if (params->fpocket_running && params->flag_do_grid_calculations && params->topology_path)
+        if (params->fpocket_running && params->flag_do_grid_calculations && params->topology_path[0])
             calculate_pocket_energy_grids(pockets, params, pdb);
         // params->fpocket_running &&
     }

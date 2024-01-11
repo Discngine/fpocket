@@ -55,6 +55,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_DB_RUN 0 /**< default value for running fpocket for populating a database, 0 default*/
 
 #define M_MAX_CHAINS_DELETE 20
+#define M_MAX_CHAIN_NAME_LENGTH 20
+#define M_MAX_LIG_RESNAME_LENGTH 20
 
 #define M_MIN_AS_DENSITY 0.7
 
@@ -184,8 +186,8 @@ typedef struct s_fparams
 	char custom_ligand[M_MAX_PDB_NAME_LEN]; /**container for custom pocket detection using a particular ligand*/
 	char custom_pocket_arg[M_MAX_CUSTOM_POCKET_LEN];
 	char **pdb_lst;
-	char xlig_chain_code[3];
-	char xlig_resname[3];
+	char *xlig_chain_code;
+	char *xlig_resname;
 	int xlig_resnumber;
 	int xpocket_n; /**number of residues defining the pocket to consider*/
 	char *xpocket_chain_code;
@@ -204,7 +206,8 @@ typedef struct s_fparams
 												 to be an apolar a-sphere */
 		nb_mcv_iter,						  /**< Number of iteration for the Monte Carlo volume
 												 calculation */
-		basic_volume_div,					  /**< Box division factor for basic volume calculation */
+		basic_volume_div;					  /**< Box division factor for basic volume calculation */
+	unsigned short
 		min_pock_nb_asph;					  /**< Minimump number of alpha spheres per pocket */
 
 	float clust_max_dist,				/**< First clustering distance criteria */
@@ -214,8 +217,10 @@ typedef struct s_fparams
 		asph_min_size,						/**< Minimum size of alpha spheres to keep */
 		min_as_density,						/**<Minimum alpha sphere density for a pocket to be retained*/
 		asph_max_size;						/**< Maximum size of alpha spheres to keep */
-	char chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
-	char chain_as_ligand[M_MAX_CHAINS_DELETE];
+	char *chain_delete[M_MAX_CHAINS_DELETE]; /*chosen chain to delete before calculation*/
+	unsigned short n_chains_to_delete;
+	unsigned short n_chains_as_ligand;
+	char *chain_as_ligand[M_MAX_CHAINS_DELETE];
 	int chain_is_kept;	/* To choose if we keep the chains or not*/
 	char write_par[10]; /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
 

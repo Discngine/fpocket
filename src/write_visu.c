@@ -61,7 +61,7 @@ void write_visualization(char *pdb_name, char *pdb_out_name)
 	}
 
 	if(write_mode[0] == 'm' || write_mode[0] == 'b'){
-	char *ext_cif = ".cif";
+	const char *ext_cif = ".cif";
 	remove_ext(pdb_out_name); 
 	strcat(pdb_out_name,ext_cif); /*put the .cif file extension*/
 	

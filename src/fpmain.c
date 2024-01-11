@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
                 }
                 else
                 {
-                        if (params->pdb_path == NULL || strlen(params->pdb_path) <= 0)
+                        if (!params->pdb_path[0] || strlen(params->pdb_path) <= 0)
                         {
                                 fprintf(stdout, "! Invalid pdb name given.\n");
                                 print_pocket_usage(stdout);
@@ -222,8 +222,10 @@ void process_pdb(char *pdbname, s_fparams *params)
                         print_number_of_objects_in_memory();
                 }
         }
-        else
-                fprintf(stderr, "! PDB reading failed!\n");
+        else {
+                fprintf(stderr, "! Structure reading failed!\n");
+                exit( EXIT_FAILURE );
+        }
 }
 
 s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par)

@@ -256,7 +256,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
                 par = NULL;
                 print_mdpocket_usage(stdout);
             }
-        } else if ((!traj_file_defined || !traj_format_defined || !par->fpar->pdb_path)) {
+        } else if ((!traj_file_defined || !traj_format_defined || !par->fpar->pdb_path[0])) {
             fprintf(stdout, "! No input file given... Try again :).%d %d %s\n",traj_file_defined,traj_format_defined,par->fpar->pdb_path);
             free_mdparams(par);
             par = NULL;

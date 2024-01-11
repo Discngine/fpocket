@@ -42,7 +42,7 @@ int run_qconvex(FILE *fin,FILE *fout) {
   boolT ismalloc;
 
   int argc=2;
-  char *argv[2];
+  const char *argv[2];
   argv[0]=malloc(sizeof(char)*200);
   argv[0]="src/qhull/qconvex\0";
   argv[1]=malloc(sizeof(char)*2);

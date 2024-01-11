@@ -89,6 +89,8 @@ s_fparams *init_def_fparams(void)
     par->write_par[0] = 'd';
     par->xpocket_n = 0;
     par->min_n_explicit_pocket_atoms = M_MIN_N_EXPLICIT_POCKET;
+    par->n_chains_to_delete=0;
+    par->n_chains_as_ligand=0;
     return par;
 }
 
@@ -122,7 +124,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     char *apt;
     char *residue_string[M_MAX_CUSTOM_POCKET_LEN];
     short custom_ligand_i = 0;
-
+    const char *separators = ",:";
     static struct option fplong_options[] = {/*long options args located in fparams.h*/
                                              {"file", required_argument, 0, M_PAR_PDB_FILE},
                                              {"min_alpha_size", required_argument, 0, M_PAR_MIN_ASHAPE_SIZE},
@@ -185,54 +187,53 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         case M_PAR_CHAIN_AS_LIGAND: /*option with -a "name of the chain" to be specified as a ligand*/
             /*select the chains as ligand*/
             status++;
-            strcpy(par->chain_as_ligand, optarg); /*par->chain_as_ligand contains the arg given in cmd line*/
-            const char *separatorss = ",";        /* defining separators*/
-            pt = strtok(par->chain_as_ligand, separatorss);
+            pt = strtok(optarg, separators);
             int nn = 0;
             while (pt != NULL)
             {
-                strncpy(&(par->chain_as_ligand[nn]), pt, 1);
+                par->chain_as_ligand[nn] = (char *)malloc((M_MAX_CHAIN_NAME_LENGTH + 1) * sizeof(char));
+                strncpy(par->chain_as_ligand[nn], pt, M_MAX_CHAIN_NAME_LENGTH);
+                par->chain_as_ligand[nn][M_MAX_CHAIN_NAME_LENGTH]='\0';
                 nn++;
-                pt = strtok(NULL, separatorss);
+                pt = strtok(NULL, separators);
             }
+            par->n_chains_as_ligand=nn;
             par->xlig_resnumber = 0;
-            // printf("lig %s\n",par->chain_as_ligand);
             break;
 
         case M_PAR_DROP_CHAINS:                /*option with -c "name of the chains"*/
                                                /*drop the selected chains from the pdb file*/
-            strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
-            // printf("%s and %s",par->custom_ligand,optarg);
-            const char *separators = ",:"; /* defining separators for drop chains args*/
-            pt = strtok(par->chain_delete, separators);
+            pt = strtok(optarg, separators);
             int n = 0;
             while (pt != NULL)
             {
-                strncpy(&(par->chain_delete[n]), pt, 1);
+                par->chain_delete[n] = (char *)malloc((M_MAX_CHAIN_NAME_LENGTH + 1) * sizeof(char));
+                strncpy(par->chain_delete[n], pt, M_MAX_CHAIN_NAME_LENGTH);
+                par->chain_delete[n][M_MAX_CHAIN_NAME_LENGTH]='\0';
 
                 n++;
                 pt = strtok(NULL, separators);
             }
             par->chain_is_kept = 0;
-
-            // printf("%s\n",par->chain_delete);
+            par->n_chains_to_delete=n;
             status++;
             break;
 
         case M_PAR_KEEP_CHAINS: /*option with -k "name of the chains"*/
                                 /*drop the selected chains from the pdb file*/
 
-            strcpy(par->chain_delete, optarg); /*par->custom_ligand contains the arg given in cmd line*/
-            // printf("%s and %s",par->custom_ligand,optarg);
-            const char *separator = ",:"; /* defining separators for drop chains args*/
-            pt = strtok(par->chain_delete, separator);
+            pt = strtok(optarg, separators);
             int nk = 0;
             while (pt != NULL)
             {
-                strncpy(&(par->chain_delete[nk]), pt, 1);
+                
+                par->chain_delete[nk] = (char *)malloc((M_MAX_CHAIN_NAME_LENGTH + 1) * sizeof(char));
+                strncpy(par->chain_delete[nk], pt, M_MAX_CHAIN_NAME_LENGTH);
+                par->chain_delete[nk][M_MAX_CHAIN_NAME_LENGTH]='\0';
                 nk++;
-                pt = strtok(NULL, separator);
+                pt = strtok(NULL, separators);
             }
+            par->n_chains_to_delete=nk;
             // printf("%s\n",par->chain_delete);
             par->chain_is_kept = 1;
             status++;
@@ -246,26 +247,29 @@ s_fparams *get_fpocket_args(int nargs, char **args)
 
             status++;
 
-            strcpy(par->custom_ligand, optarg);
+            // strcpy(par->custom_ligand, optarg);
             // printf("%s and %s",par->custom_ligand,optarg);
-            pt = strtok(par->custom_ligand, ":");
+            pt = strtok(optarg, ":");
 
             while (pt != NULL)
             {
                 custom_ligand_i++;
                 if (custom_ligand_i == 1)
                     par->xlig_resnumber = atoi(pt);
-                else if (custom_ligand_i == 2)
-                    strncpy(&(par->xlig_resname), pt, 3);
-                else if (custom_ligand_i == 3)
-                    strncpy(&(par->xlig_chain_code), pt, 1);
-                /*int a = atoi(pt);
-                    printf("%d\n", a);*/
+                else if (custom_ligand_i == 2){
+                    par->xlig_resname= (char *)malloc((M_MAX_LIG_RESNAME_LENGTH + 1) * sizeof(char));
+                    strncpy(par->xlig_resname, pt, M_MAX_LIG_RESNAME_LENGTH);
+                    par->xlig_resname[M_MAX_LIG_RESNAME_LENGTH]='\0';
+                }
+                else if (custom_ligand_i == 3){
+                    par->xlig_chain_code= (char *)malloc((M_MAX_CHAIN_NAME_LENGTH + 1) * sizeof(char));
+                    strncpy(par->xlig_chain_code, pt, M_MAX_CHAIN_NAME_LENGTH);
+                    par->xlig_chain_code[M_MAX_CHAIN_NAME_LENGTH]='\0';
+                }
                 pt = strtok(NULL, ":");
             }
 
             break;
-
         case M_PAR_CUSTOM_POCKET:
 
             // parse pocket specification that has to be given as
@@ -292,7 +296,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                 strcpy(&residue_string, pt);
                 rest2 = residue_string;
                 apti = 0;
-                while (apt = strtok_r(rest2, ":", &rest2))
+                while ((apt = strtok_r(rest2, ":", &rest2)))
                 {
                     switch (apti)
                     {
@@ -971,10 +975,10 @@ void print_pocket_usage(FILE *f)
     fprintf(f, "\t-%c --%s (string)\t\t: String specifying a ligand like: \n\
 \t\t\t\t\t\t  residuenumber:residuename:chain_code (ie. 1224:PU8:A).\t\n",
             M_PAR_CUSTOM_LIGAND, M_PAR_CUSTOM_LIGAND_LONG);
-    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a pocket like: \n\ 
+    fprintf(f, "\t-%c --%s (string)\t\t: String specifying a pocket like: \n\
 \t\t\t\t\t\t  residuenumber1:insertion_code1('-' if empty):chain_code1.residuenumber2:insertion_code2:chain_code2 (ie. 138:-:A.139:-:A).\t\n",
             M_PAR_CUSTOM_POCKET, M_PAR_CUSTOM_POCKET_LONG);
-    fprintf(f, "\t-%c --%s (int)\t: If explicit pocket provided, minimum number \n\ 
+    fprintf(f, "\t-%c --%s (int)\t: If explicit pocket provided, minimum number \n\
 \t\t\t\t\t\t  of atoms of an alpha sphere that have to be in the selected pocket.\t\n",
             M_PAR_MIN_N_EXPLICIT_POCKET, M_PAR_MIN_N_EXPLICIT_POCKET_LONG);
     fprintf(f, "\t-%c --%s (char)\t\t: Character specifying a chain as a ligand\t\n", M_PAR_CHAIN_AS_LIGAND, M_PAR_CHAIN_AS_LIGAND_LONG);
