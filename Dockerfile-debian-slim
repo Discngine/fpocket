@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 RUN groupadd -r fpocket && useradd --no-log-init -r -g fpocket fpocket
 RUN apt update -y && apt install -y gcc g++ make libnetcdf-dev && rm -rf /var/lib/apt/lists/*
 
