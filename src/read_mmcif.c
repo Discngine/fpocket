@@ -86,8 +86,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
             at_in[i].altloc[0] = ' ';
         if (at_in[i].modelnumber == model_number && !strncmp(at_in[i].atom_type, "ATOM", 4) && !is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand))
         {
-            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A')
-
+            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '?')
             {
                 if (chains_to_delete(par->chain_delete, at_in[i].chain_auth, par->chain_is_kept,par->n_chains_to_delete))
                 {
@@ -134,7 +133,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
         else if ((at_in[i].modelnumber == model_number && !strncmp(at_in[i].atom_type, "HETATM", 6)) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand)))
         {
 
-            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
+            if (at_in[i].altloc[0] == '?' || at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
             {
                 if (chains_to_delete(par->chain_delete, at_in[i].chain_auth, par->chain_is_kept,par->n_chains_to_delete))
                 {
@@ -288,7 +287,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
         if (at_in[i].modelnumber == model_number && !strncmp(at_in[i].atom_type, "ATOM", 4) && !is_ligand(params->chain_as_ligand, at_in[i].chain_auth,params->n_chains_as_ligand))
         {
 
-            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
+            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1' || at_in[i].altloc[0] == '?')
             { /*if within first occurence*/
                 /* Enter this if when arg in command line is -r */
 
@@ -442,7 +441,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
         else if ((at_in[i].modelnumber == model_number && !strncmp(at_in[i].atom_type, "HETATM", 6)) || (!strncmp(at_in[i].atom_type, "ATOM", 4) && is_ligand(params->chain_as_ligand, at_in[i].chain_auth,params->n_chains_as_ligand)))
         {
 
-            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1')
+            if (at_in[i].altloc[0] == ' ' || at_in[i].altloc[0] == 'A' || at_in[i].altloc[0] == '1' || at_in[i].altloc[0] =='?')
             { /*first occurence*/
 
                 if (is_ligand(params->chain_as_ligand, at_in[i].chain_auth,params->n_chains_as_ligand))
