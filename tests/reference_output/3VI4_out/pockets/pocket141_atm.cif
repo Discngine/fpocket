@@ -15,7 +15,7 @@ Information about the pocket   141:
 6  - Hydrophobicity Score              : 28.4286
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.4286
-9  - Pocket volume (Monte Carlo)       : 283.2307
+9  - Pocket volume (Monte Carlo)       : 277.2568
 10  -Pocket volume (convex hull)       : 8.1232
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.0000

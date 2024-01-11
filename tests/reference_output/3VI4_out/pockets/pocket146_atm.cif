@@ -15,7 +15,7 @@ Information about the pocket   146:
 6  - Hydrophobicity Score              : -1.9000
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 385.4072
+9  - Pocket volume (Monte Carlo)       : 389.3343
 10  -Pocket volume (convex hull)       : 26.6326
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,7 +39,7 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    19336    N  NE2 .  HIS   G .   31 ?   29.912 -21.214 -44.320  0.00  0   G
+ATOM    19336    N  NE2 .  HIS   E .   31 ?   29.912 -21.214 -44.320  0.00  0   E
 ATOM     5084    C   CG .  GLU   B .   84 ?   30.958 -14.491 -46.015  0.00  0   B
 ATOM     5080    C   CA .  GLU   B .   84 ?   29.395 -15.811 -47.524  0.00  0   B
 ATOM     5088    N    N .  LYS   B .   85 ?   28.419 -16.904 -45.594  0.00  0   B
@@ -59,6 +59,6 @@ ATOM     5098    C   CA .  LEU   B .   86 ?   28.479 -14.687 -41.853  0.00  0   
 ATOM     5136    O  OD1 .  ASP   B .   90 ?   32.699 -14.301 -38.071 -4.02  0   B
 ATOM     5134    C   CB .  ASP   B .   90 ?   31.797 -12.106 -38.268  0.00  0   B
 ATOM     5133    O    O .  ASP   B .   90 ?   30.930  -9.152 -37.571  0.00  0   B
-ATOM    19335    C  CE1 .  HIS   G .   31 ?   29.810 -21.336 -42.990  0.00  0   G
+ATOM    19335    C  CE1 .  HIS   E .   31 ?   29.810 -21.336 -42.990  0.00  0   E
 ATOM     5135    C   CG .  ASP   B .   90 ?   32.945 -13.072 -38.032  0.00  0   B
 # 

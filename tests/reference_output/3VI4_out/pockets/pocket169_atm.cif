@@ -15,7 +15,7 @@ Information about the pocket   169:
 6  - Hydrophobicity Score              : 26.3750
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 165.4597
+9  - Pocket volume (Monte Carlo)       : 167.5188
 10  -Pocket volume (convex hull)       : 2.8260
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,17 +39,17 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    18961    C  CG2 .  VAL   F .  198 ?  -44.753 -74.394  37.400  0.00  0   F
-ATOM    18946    O  OE1 .  GLU   F .  196 ?  -39.770 -78.723  35.338  0.00  0   F
-ATOM    18884    C  CG1 .  VAL   F .  188 ?  -46.773 -76.056  33.248  0.00  0   F
-ATOM    18686    N  ND2 .  ASN   F .  160 ?  -42.043 -72.242  34.247 -1.26  0   F
-ATOM    18943    C   CB .  GLU   F .  196 ?  -40.085 -77.831  37.927  0.00  0   F
-ATOM    18908    O    O .  THR   F .  192 ?  -43.070 -79.191  38.163  0.00  0   F
-ATOM    18710    C  CD2 .  LEU   F .  164 ?  -44.635 -72.950  32.279  0.00  0   F
-ATOM    18709    C  CD1 .  LEU   F .  164 ?  -44.863 -74.542  30.366  0.00  0   F
-ATOM    18909    C   CB .  THR   F .  192 ?  -44.082 -80.073  35.368  0.00  0   F
-ATOM    18911    C  CG2 .  THR   F .  192 ?  -43.492 -80.850  34.196  0.00  0   F
-ATOM    18951    O    O .  THR   F .  197 ?  -40.961 -73.010  37.460 -2.28  0   F
-ATOM    18707    C   CB .  LEU   F .  164 ?  -43.141 -72.662  30.344  0.00  0   F
-ATOM    18700    O    O .  SER   F .  163 ?  -40.151 -73.304  29.004  0.00  0   F
+ATOM    18961    C  CG2 .  VAL   H .  198 ?  -44.753 -74.394  37.400  0.00  0   H
+ATOM    18946    O  OE1 .  GLU   H .  196 ?  -39.770 -78.723  35.338  0.00  0   H
+ATOM    18884    C  CG1 .  VAL   H .  188 ?  -46.773 -76.056  33.248  0.00  0   H
+ATOM    18686    N  ND2 .  ASN   H .  160 ?  -42.043 -72.242  34.247 -1.26  0   H
+ATOM    18943    C   CB .  GLU   H .  196 ?  -40.085 -77.831  37.927  0.00  0   H
+ATOM    18908    O    O .  THR   H .  192 ?  -43.070 -79.191  38.163  0.00  0   H
+ATOM    18710    C  CD2 .  LEU   H .  164 ?  -44.635 -72.950  32.279  0.00  0   H
+ATOM    18709    C  CD1 .  LEU   H .  164 ?  -44.863 -74.542  30.366  0.00  0   H
+ATOM    18909    C   CB .  THR   H .  192 ?  -44.082 -80.073  35.368  0.00  0   H
+ATOM    18911    C  CG2 .  THR   H .  192 ?  -43.492 -80.850  34.196  0.00  0   H
+ATOM    18951    O    O .  THR   H .  197 ?  -40.961 -73.010  37.460 -2.28  0   H
+ATOM    18707    C   CB .  LEU   H .  164 ?  -43.141 -72.662  30.344  0.00  0   H
+ATOM    18700    O    O .  SER   H .  163 ?  -40.151 -73.304  29.004  0.00  0   H
 # 

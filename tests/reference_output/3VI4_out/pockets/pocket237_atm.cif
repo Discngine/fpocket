@@ -15,7 +15,7 @@ Information about the pocket   237:
 6  - Hydrophobicity Score              : -7.2500
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 308.2105
+9  - Pocket volume (Monte Carlo)       : 305.1119
 10  -Pocket volume (convex hull)       : 17.8762
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,10 +39,10 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    16002    O    O .  GLY   E .   34 ?  -70.862 -49.535 -14.183  0.00  0   E
-ATOM    16009    O  OD1 .  ASN   E .   35 ?  -66.231 -48.287 -12.874  0.00  0   E
+ATOM    16002    O    O .  GLY   L .   34 ?  -70.862 -49.535 -14.183  0.00  0   L
+ATOM    16009    O  OD1 .  ASN   L .   35 ?  -66.231 -48.287 -12.874  0.00  0   L
 ATOM    13539    O    O .  SER   D .  158 ?  -64.746 -46.785 -15.573 -3.62  0   D
-ATOM    16010    N  ND2 .  ASN   E .   35 ?  -67.197 -46.471 -13.768  0.00  0   E
+ATOM    16010    N  ND2 .  ASN   L .   35 ?  -67.197 -46.471 -13.768  0.00  0   L
 ATOM    13548    O  OD1 .  ASP   D .  159 ?  -65.123 -47.366 -20.081 -2.28  0   D
 ATOM    13543    C   CA .  ASP   D .  159 ?  -63.424 -46.753 -18.019  0.00  0   D
 ATOM    13550    N    N .  PHE   D .  160 ?  -62.056 -48.607 -18.782 -3.28  0   D
@@ -55,8 +55,8 @@ ATOM    13925    O  OD1 .  ASN   D .  207 ?  -67.879 -53.852 -21.994 -1.07  0   
 ATOM    13506    N   NE .  ARG   D .  154 ?  -62.998 -52.986 -15.230 -9.84  0   D
 ATOM    13553    O    O .  PHE   D .  160 ?  -62.652 -50.675 -20.609 -1.07  0   D
 ATOM    13549    O  OD2 .  ASP   D .  159 ?  -66.198 -45.451 -19.957 -4.02  0   D
-ATOM    15994    O    O .  ASN   E .   33 ?  -69.693 -45.719 -16.136 -1.07  0   E
-ATOM    16000    C   CA .  GLY   E .   34 ?  -71.576 -47.556 -15.289  0.00  0   E
-ATOM    16001    C    C .  GLY   E .   34 ?  -70.803 -48.307 -14.222  0.00  0   E
+ATOM    15994    O    O .  ASN   L .   33 ?  -69.693 -45.719 -16.136 -1.07  0   L
+ATOM    16000    C   CA .  GLY   L .   34 ?  -71.576 -47.556 -15.289  0.00  0   L
+ATOM    16001    C    C .  GLY   L .   34 ?  -70.803 -48.307 -14.222  0.00  0   L
 ATOM    13547    C   CG .  ASP   D .  159 ?  -65.236 -46.192 -19.668  0.00  0   D
 # 

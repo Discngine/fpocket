@@ -15,7 +15,7 @@ Information about the pocket    56:
 6  - Hydrophobicity Score              : 37.1818
 7  - Polarity Score                    :    13
 8  - Amino Acid based volume Score     : 4.8636
-9  - Pocket volume (Monte Carlo)       : 452.8407
+9  - Pocket volume (Monte Carlo)       : 456.9990
 10  -Pocket volume (convex hull)       : 130.2539
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 11.3913
@@ -52,10 +52,10 @@ ATOM    15068    O   OH .  TYR   D .  355 ?  -53.284 -42.438 -17.418  0.00  0   
 ATOM    13200    C   CG .  ARG   D .  117 ?  -52.272 -35.942 -14.573  0.00  0   D
 ATOM    13228    N    N .  TYR   D .  121 ?  -59.283 -40.760 -16.315 -1.09  0   D
 ATOM    13526    C  CG1 .  ILE   D .  156 ?  -53.493 -47.244 -13.491  0.00  0   D
-ATOM    17698    O   OH .  TYR   F .   32 ?  -52.160 -43.266  -6.490  0.00  0   F
-ATOM    18242    C  CD1 .  LEU   F .  100 ?  -55.990 -42.016  -7.665  0.00  0   F
+ATOM    17698    O   OH .  TYR   H .   32 ?  -52.160 -43.266  -6.490  0.00  0   H
+ATOM    18242    C  CD1 .  LEU   H .  100 ?  -55.990 -42.016  -7.665  0.00  0   H
 ATOM    13522    C   CA .  ILE   D .  156 ?  -55.823 -46.336 -13.149  0.00  0   D
-ATOM    18256    C  CD2 .  LEU   F .  102 ?  -58.364 -43.628 -10.096  0.00  0   F
+ATOM    18256    C  CD2 .  LEU   H .  102 ?  -58.364 -43.628 -10.096  0.00  0   H
 ATOM    13524    O    O .  ILE   D .  156 ?  -56.955 -44.359 -13.903 -3.21  0   D
 ATOM    15095    C   CB .  SER   D .  359 ?  -49.907 -40.471 -17.663  0.00  0   D
 ATOM    15635    C   CZ .  PHE   D .  430 ?  -53.217 -36.451 -20.369  0.00  0   D

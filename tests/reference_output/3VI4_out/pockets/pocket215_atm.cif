@@ -15,7 +15,7 @@ Information about the pocket   215:
 6  - Hydrophobicity Score              : 15.3750
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 326.8216
+9  - Pocket volume (Monte Carlo)       : 329.6172
 10  -Pocket volume (convex hull)       : 9.1856
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,20 +39,20 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    18046    C  CG2 .  THR   F .   74 ?  -47.047 -29.840   0.127  0.00  0   F
-ATOM    18043    O    O .  THR   F .   74 ?  -45.020 -31.293   2.222 -1.48  0   F
-ATOM    18065    O  OD1 .  ASN   F .   77 ?  -44.977 -34.624   1.375  0.00  0   F
+ATOM    18046    C  CG2 .  THR   H .   74 ?  -47.047 -29.840   0.127  0.00  0   H
+ATOM    18043    O    O .  THR   H .   74 ?  -45.020 -31.293   2.222 -1.48  0   H
+ATOM    18065    O  OD1 .  ASN   H .   77 ?  -44.977 -34.624   1.375  0.00  0   H
 ATOM    15273    N   NZ .  LYS   D .  382 ?  -44.845 -33.238  -6.314  0.00  0   D
 ATOM    15272    C   CE .  LYS   D .  382 ?  -44.885 -31.919  -7.005  0.00  0   D
-ATOM    17679    O  OG1 .  THR   F .   30 ?  -49.279 -32.680  -4.239 -1.88  0   F
-ATOM    17680    C  CG2 .  THR   F .   30 ?  -49.551 -31.699  -2.081  0.00  0   F
+ATOM    17679    O  OG1 .  THR   H .   30 ?  -49.279 -32.680  -4.239 -1.88  0   H
+ATOM    17680    C  CG2 .  THR   H .   30 ?  -49.551 -31.699  -2.081  0.00  0   H
 ATOM    15281    N  ND2 .  ASN   D .  383 ?  -40.644 -30.298  -6.219 -4.54  0   D
-ATOM    17647    O    O .  TYR   F .   27 ?  -45.575 -39.368  -2.017 -5.09  0   F
-ATOM    18066    N  ND2 .  ASN   F .   77 ?  -43.135 -35.713   2.057  0.00  0   F
-ATOM    17662    C  CG2 .  THR   F .   28 ?  -45.278 -37.415  -5.790  0.00  0   F
-ATOM    17663    N    N .  PHE   F .   29 ?  -47.664 -36.669  -1.825 -2.19  0   F
-ATOM    17667    C   CB .  PHE   F .   29 ?  -47.976 -35.714   0.401  0.00  0   F
-ATOM    17674    N    N .  THR   F .   30 ?  -49.619 -34.716  -2.206  0.00  0   F
-ATOM    17657    C   CA .  THR   F .   28 ?  -46.745 -37.753  -3.776  0.00  0   F
-ATOM    17660    C   CB .  THR   F .   28 ?  -46.585 -37.000  -5.106  0.00  0   F
+ATOM    17647    O    O .  TYR   H .   27 ?  -45.575 -39.368  -2.017 -5.09  0   H
+ATOM    18066    N  ND2 .  ASN   H .   77 ?  -43.135 -35.713   2.057  0.00  0   H
+ATOM    17662    C  CG2 .  THR   H .   28 ?  -45.278 -37.415  -5.790  0.00  0   H
+ATOM    17663    N    N .  PHE   H .   29 ?  -47.664 -36.669  -1.825 -2.19  0   H
+ATOM    17667    C   CB .  PHE   H .   29 ?  -47.976 -35.714   0.401  0.00  0   H
+ATOM    17674    N    N .  THR   H .   30 ?  -49.619 -34.716  -2.206  0.00  0   H
+ATOM    17657    C   CA .  THR   H .   28 ?  -46.745 -37.753  -3.776  0.00  0   H
+ATOM    17660    C   CB .  THR   H .   28 ?  -46.585 -37.000  -5.106  0.00  0   H
 # 

@@ -15,7 +15,7 @@ Information about the pocket    98:
 6  - Hydrophobicity Score              : 2.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.2857
-9  - Pocket volume (Monte Carlo)       : 270.8850
+9  - Pocket volume (Monte Carlo)       : 271.9661
 10  -Pocket volume (convex hull)       : 14.7005
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 0.0000
@@ -42,7 +42,7 @@ _atom_site.auth_asym_id
 ATOM    12926    N    N .  LYS   D .   85 ?  -67.645 -38.034  -9.112  0.00  0   D
 ATOM    12924    O  OE1 .  GLU   D .   84 ?  -69.100 -33.775  -7.949  0.00  0   D
 ATOM    12925    O  OE2 .  GLU   D .   84 ?  -68.485 -33.393 -10.030 -1.48  0   D
-ATOM    15983    C  CE1 .  HIS   E .   31 ?  -71.201 -40.332 -10.579  0.00  0   E
+ATOM    15983    C  CE1 .  HIS   L .   31 ?  -71.201 -40.332 -10.579  0.00  0   L
 ATOM    12915    O    O .  ALA   D .   83 ?  -68.807 -38.751  -6.154 -0.14  0   D
 ATOM    12918    C   CA .  GLU   D .   84 ?  -67.451 -36.515  -7.237  0.00  0   D
 ATOM    12923    C   CD .  GLU   D .   84 ?  -68.253 -33.810  -8.872  0.00  0   D
@@ -50,7 +50,7 @@ ATOM    12929    O    O .  LYS   D .   85 ?  -68.264 -38.501 -12.294 -2.14  0   
 ATOM    12936    C   CA .  LEU   D .   86 ?  -66.413 -36.439 -12.974  0.00  0   D
 ATOM    12943    N    N .  LYS   D .   87 ?  -67.539 -36.644 -15.095 -1.09  0   D
 ATOM    12948    C   CG .  LYS   D .   87 ?  -70.202 -36.554 -16.090  0.00  0   D
-ATOM    15984    N  NE2 .  HIS   E .   31 ?  -71.652 -40.361 -11.846 -3.70  0   E
+ATOM    15984    N  NE2 .  HIS   L .   31 ?  -71.652 -40.361 -11.846 -3.70  0   L
 ATOM    12942    C  CD2 .  LEU   D .   86 ?  -65.887 -33.121 -12.855  0.00  0   D
 ATOM    12973    C   CG .  ASP   D .   90 ?  -68.569 -32.179 -16.822  0.00  0   D
 ATOM    12975    O  OD2 .  ASP   D .   90 ?  -69.201 -31.114 -16.994  0.00  0   D

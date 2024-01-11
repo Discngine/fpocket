@@ -15,7 +15,7 @@ Information about the pocket   187:
 6  - Hydrophobicity Score              : -1.5714
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 3.2857
-9  - Pocket volume (Monte Carlo)       : 183.8092
+9  - Pocket volume (Monte Carlo)       : 184.6889
 10  -Pocket volume (convex hull)       : 5.6011
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 6.0000
