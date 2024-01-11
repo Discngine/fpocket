@@ -15,7 +15,7 @@ Information about the pocket   217:
 6  - Hydrophobicity Score              : 11.3333
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 3.1667
-9  - Pocket volume (Monte Carlo)       : 403.1773
+9  - Pocket volume (Monte Carlo)       : 405.9776
 10  -Pocket volume (convex hull)       : 43.5062
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,27 +39,27 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    22160    C   CB .  ASP   H .  178 ?   18.242 -18.454 -90.938  0.00  0   H
-ATOM    22140    C  CD2 .  LEU   H .  175 ?   18.038 -22.265 -86.238  0.00  0   H
-ATOM    22157    C   CA .  ASP   H .  178 ?   17.326 -19.535 -90.323  0.00  0   H
-ATOM    22153    O    O .  SER   H .  177 ?   19.445 -21.286 -90.997  0.00  0   H
-ATOM    21500    O   OG .  SER   H .   88 ?   24.441 -19.040 -83.082 -0.14  0   H
-ATOM    21495    N    N .  SER   H .   88 ?   24.742 -17.395 -81.067  0.00  0   H
-ATOM    20917    C   CB .  PRO   H .   14 ?   25.084 -12.776 -85.400  0.00  0   H
-ATOM    21490    C    C .  THR   H .   87 ?   24.634 -16.137 -80.655  0.00  0   H
-ATOM    21523    O   OG .  SER   H .   91 ?   18.817 -17.337 -79.564 -0.54  0   H
-ATOM    21499    C   CB .  SER   H .   88 ?   23.809 -19.502 -81.902  0.00  0   H
-ATOM    21522    C   CB .  SER   H .   91 ?   19.937 -17.878 -78.896  0.00  0   H
-ATOM    21724    O   OG .  SER   H .  117 ?   18.108 -15.890 -87.303 -2.95  0   H
-ATOM    21715    O    O .  VAL   H .  116 ?   20.699 -15.581 -83.649  0.00  0   H
-ATOM    20918    C   CG .  PRO   H .   14 ?   24.032 -12.656 -86.462  0.00  0   H
-ATOM    22139    C  CD1 .  LEU   H .  175 ?   15.681 -21.358 -86.119  0.00  0   H
-ATOM    21730    O   OG .  SER   H .  118 ?   22.101 -13.894 -89.703 -0.95  0   H
-ATOM    21725    N    N .  SER   H .  118 ?   20.184 -13.457 -87.766  0.00  0   H
-ATOM    21723    C   CB .  SER   H .  117 ?   18.031 -15.279 -86.025  0.00  0   H
-ATOM    21712    N    N .  VAL   H .  116 ?   18.797 -14.790 -81.214 -1.09  0   H
-ATOM    21720    C   CA .  SER   H .  117 ?   19.268 -14.426 -85.737  0.00  0   H
-ATOM    22183    O   OH .  TYR   H .  180 ?   13.787 -19.151 -83.313 -1.07  0   H
-ATOM    21709    C   CB .  THR   H .  115 ?   15.550 -15.448 -80.691  0.00  0   H
-ATOM    21711    C  CG2 .  THR   H .  115 ?   14.928 -16.722 -80.124  0.00  0   H
+ATOM    22160    C   CB .  ASP   F .  178 ?   18.242 -18.454 -90.938  0.00  0   F
+ATOM    22140    C  CD2 .  LEU   F .  175 ?   18.038 -22.265 -86.238  0.00  0   F
+ATOM    22157    C   CA .  ASP   F .  178 ?   17.326 -19.535 -90.323  0.00  0   F
+ATOM    22153    O    O .  SER   F .  177 ?   19.445 -21.286 -90.997  0.00  0   F
+ATOM    21500    O   OG .  SER   F .   88 ?   24.441 -19.040 -83.082 -0.14  0   F
+ATOM    21495    N    N .  SER   F .   88 ?   24.742 -17.395 -81.067  0.00  0   F
+ATOM    20917    C   CB .  PRO   F .   14 ?   25.084 -12.776 -85.400  0.00  0   F
+ATOM    21490    C    C .  THR   F .   87 ?   24.634 -16.137 -80.655  0.00  0   F
+ATOM    21523    O   OG .  SER   F .   91 ?   18.817 -17.337 -79.564 -0.54  0   F
+ATOM    21499    C   CB .  SER   F .   88 ?   23.809 -19.502 -81.902  0.00  0   F
+ATOM    21522    C   CB .  SER   F .   91 ?   19.937 -17.878 -78.896  0.00  0   F
+ATOM    21724    O   OG .  SER   F .  117 ?   18.108 -15.890 -87.303 -2.95  0   F
+ATOM    21715    O    O .  VAL   F .  116 ?   20.699 -15.581 -83.649  0.00  0   F
+ATOM    20918    C   CG .  PRO   F .   14 ?   24.032 -12.656 -86.462  0.00  0   F
+ATOM    22139    C  CD1 .  LEU   F .  175 ?   15.681 -21.358 -86.119  0.00  0   F
+ATOM    21730    O   OG .  SER   F .  118 ?   22.101 -13.894 -89.703 -0.95  0   F
+ATOM    21725    N    N .  SER   F .  118 ?   20.184 -13.457 -87.766  0.00  0   F
+ATOM    21723    C   CB .  SER   F .  117 ?   18.031 -15.279 -86.025  0.00  0   F
+ATOM    21712    N    N .  VAL   F .  116 ?   18.797 -14.790 -81.214 -1.09  0   F
+ATOM    21720    C   CA .  SER   F .  117 ?   19.268 -14.426 -85.737  0.00  0   F
+ATOM    22183    O   OH .  TYR   F .  180 ?   13.787 -19.151 -83.313 -1.07  0   F
+ATOM    21709    C   CB .  THR   F .  115 ?   15.550 -15.448 -80.691  0.00  0   F
+ATOM    21711    C  CG2 .  THR   F .  115 ?   14.928 -16.722 -80.124  0.00  0   F
 # 

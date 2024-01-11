@@ -15,7 +15,7 @@ Information about the pocket    50:
 6  - Hydrophobicity Score              : 21.7500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 325.7914
+9  - Pocket volume (Monte Carlo)       : 318.4026
 10  -Pocket volume (convex hull)       : 22.7071
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 8.0000

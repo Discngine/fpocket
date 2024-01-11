@@ -15,7 +15,7 @@ Information about the pocket    67:
 6  - Hydrophobicity Score              : 5.5000
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.3571
-9  - Pocket volume (Monte Carlo)       : 293.4804
+9  - Pocket volume (Monte Carlo)       : 305.5135
 10  -Pocket volume (convex hull)       : 52.4239
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 29.4194
@@ -42,7 +42,7 @@ _atom_site.auth_asym_id
 ATOM    12935    N    N .  LEU   D .   86 ?  -66.381 -37.351 -11.829 -2.19  0   D
 ATOM    13219    O  OE2 .  GLU   D .  119 ?  -60.245 -38.817  -8.267 -6.43  0   D
 ATOM    12920    O    O .  GLU   D .   84 ?  -65.581 -37.534  -8.341 -3.21  0   D
-ATOM    18248    C   CB .  ALA   F .  101 ?  -63.343 -39.942  -7.538  0.00  0   F
+ATOM    18248    C   CB .  ALA   H .  101 ?  -63.343 -39.942  -7.538  0.00  0   H
 ATOM    12939    C   CB .  LEU   D .   86 ?  -65.194 -35.511 -12.914  0.00  0   D
 ATOM    12904    O    O .  GLY   D .   81 ?  -64.846 -35.772  -4.866 -3.21  0   D
 ATOM    12879    C   CB .  ARG   D .   78 ?  -60.062 -32.591  -6.791  0.00  0   D

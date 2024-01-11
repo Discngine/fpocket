@@ -313,7 +313,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strncpy(atom->chain, at_in[i].chain, 2);
+                            strcpy(atom->chain, at_in[i].chain_auth);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = at_in[i].insertion[0];
                             atom->x = ts_in.coords[(3 * i)];
@@ -350,7 +350,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strncpy(atom->chain, at_in[i].chain, 2);
+                            strcpy(atom->chain, at_in[i].chain_auth);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = at_in[i].insertion[0];
                             atom->x = ts_in.coords[(3 * i)];
@@ -395,7 +395,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         atom->pdb_aloc = at_in[i].altloc[0];
                         strcpy(atom->res_name, at_in[i].resname);
 
-                        strncpy(atom->chain, at_in[i].chain, 2);
+                        strcpy(atom->chain, at_in[i].chain_auth);
                         atom->res_id = at_in[i].resid;
                         atom->pdb_insert = at_in[i].insertion[0];
 
@@ -465,7 +465,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                         strcpy(atom->name, at_in[i].type);
                         atom->pdb_aloc = at_in[i].altloc[0];
                         strcpy(atom->res_name, at_in[i].resname);
-                        strncpy(atom->chain, at_in[i].chain, 2);
+                        strcpy(atom->chain, at_in[i].chain_auth);
                         atom->res_id = at_in[i].resid;
                         atom->pdb_insert = at_in[i].insertion[0];
                         atom->x = ts_in.coords[(3 * i)];
@@ -502,7 +502,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strncpy(atom->chain, at_in[i].chain, 2);
+                            strcpy(atom->chain, at_in[i].chain_auth);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = at_in[i].insertion[0];
                             atom->x = ts_in.coords[(3 * i)];
@@ -540,7 +540,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                             strcpy(atom->name, at_in[i].type);
                             atom->pdb_aloc = at_in[i].altloc[0];
                             strcpy(atom->res_name, at_in[i].resname);
-                            strncpy(atom->chain, at_in[i].chain, 2);
+                            strcpy(atom->chain, at_in[i].chain_auth);
                             atom->res_id = at_in[i].resid;
                             atom->pdb_insert = at_in[i].insertion[0];
                             atom->x = ts_in.coords[(3 * i)];
@@ -578,7 +578,7 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
                                     strcpy(atom->name, at_in[i].type);
                                     atom->pdb_aloc = at_in[i].altloc[0];
                                     strcpy(atom->res_name, at_in[i].resname);
-                                    strncpy(atom->chain, at_in[i].chain, 2);
+                                    strcpy(atom->chain, at_in[i].chain_auth);
                                     atom->res_id = at_in[i].resid;
                                     atom->pdb_insert = at_in[i].insertion[0];
                                     atom->x = ts_in.coords[(3 * i)];

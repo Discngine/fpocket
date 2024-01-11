@@ -15,7 +15,7 @@ Information about the pocket   182:
 6  - Hydrophobicity Score              : 8.5000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 126.0521
+9  - Pocket volume (Monte Carlo)       : 127.4012
 10  -Pocket volume (convex hull)       : 1.8711
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,7 +39,7 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    21014    C  CG2 .  THR   H .   28 ?   11.123  -2.705 -48.023  0.00  0   H
+ATOM    21014    C  CG2 .  THR   F .   28 ?   11.123  -2.705 -48.023  0.00  0   F
 ATOM     7534    O    O .  ASN   B .  397 ?   12.298   0.801 -42.790 -1.07  0   B
 ATOM     7536    C   CG .  ASN   B .  397 ?    8.696   1.658 -42.851  0.00  0   B
 ATOM     7537    O  OD1 .  ASN   B .  397 ?    7.800   0.992 -42.313 -2.28  0   B

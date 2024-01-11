@@ -15,7 +15,7 @@ Information about the pocket    20:
 6  - Hydrophobicity Score              : 43.2000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 184.8191
+9  - Pocket volume (Monte Carlo)       : 184.8192
 10  -Pocket volume (convex hull)       : 13.1192
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,26 +39,26 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    20518    C  CG2 .  THR   G .  183 ?    9.162 -32.136 -93.469  0.00  0   G
-ATOM    20374    C   CB .  LEU   G .  165 ?   13.368 -31.244 -89.851  0.00  0   G
-ATOM    22148    O  OE1 .  GLN   H .  176 ?   11.721 -26.644 -93.048  0.00  0   H
-ATOM    20516    C   CB .  THR   G .  183 ?    9.170 -32.756 -92.089  0.00  0   G
-ATOM    22192    C   CA .  LEU   H .  182 ?    6.124 -26.523 -87.774  0.00  0   H
-ATOM    20390    C   CB .  SER   G .  167 ?    8.832 -31.155 -84.070  0.00  0   G
-ATOM    22107    C   CB .  PHE   H .  171 ?    4.955 -30.465 -83.877  0.00  0   H
-ATOM    22199    N    N .  SER   H .  183 ?    4.372 -28.152 -88.193 -2.19  0   H
-ATOM    22132    C  CG2 .  VAL   H .  174 ?   11.739 -28.518 -84.802  0.00  0   H
-ATOM    22187    O    O .  THR   H .  181 ?    8.845 -25.914 -87.479 -2.14  0   H
-ATOM    22130    C   CB .  VAL   H .  174 ?   12.241 -27.609 -85.911  0.00  0   H
-ATOM    20373    O    O .  LEU   G .  165 ?   11.248 -33.268 -88.918 -0.40  0   G
-ATOM    20517    O  OG1 .  THR   G .  183 ?    7.843 -32.686 -91.553 -5.36  0   G
-ATOM    22204    O   OG .  SER   H .  183 ?    4.043 -30.826 -89.189  0.00  0   H
-ATOM    22190    C  CG2 .  THR   H .  181 ?    8.630 -26.676 -91.081  0.00  0   H
-ATOM    20377    C  CD2 .  LEU   G .  165 ?   14.108 -28.831 -90.005  0.00  0   G
-ATOM    21921    C  CD1 .  LEU   H .  146 ?    5.497 -28.493 -92.652  0.00  0   H
-ATOM    22188    C   CB .  THR   H .  181 ?    9.621 -25.677 -90.491  0.00  0   H
-ATOM    22117    O    O .  PRO   H .  172 ?    8.371 -27.975 -83.482  0.00  0   H
-ATOM    20505    O   OG .  SER   G .  181 ?    5.240 -33.398 -87.540 -1.07  0   G
-ATOM    20504    C   CB .  SER   G .  181 ?    6.054 -33.658 -86.423  0.00  0   G
-ATOM    20386    N    N .  SER   G .  167 ?   10.163 -33.091 -84.756  0.00  0   G
+ATOM    20518    C  CG2 .  THR   E .  183 ?    9.162 -32.136 -93.469  0.00  0   E
+ATOM    20374    C   CB .  LEU   E .  165 ?   13.368 -31.244 -89.851  0.00  0   E
+ATOM    22148    O  OE1 .  GLN   F .  176 ?   11.721 -26.644 -93.048  0.00  0   F
+ATOM    20516    C   CB .  THR   E .  183 ?    9.170 -32.756 -92.089  0.00  0   E
+ATOM    22192    C   CA .  LEU   F .  182 ?    6.124 -26.523 -87.774  0.00  0   F
+ATOM    20390    C   CB .  SER   E .  167 ?    8.832 -31.155 -84.070  0.00  0   E
+ATOM    22107    C   CB .  PHE   F .  171 ?    4.955 -30.465 -83.877  0.00  0   F
+ATOM    22199    N    N .  SER   F .  183 ?    4.372 -28.152 -88.193 -2.19  0   F
+ATOM    22132    C  CG2 .  VAL   F .  174 ?   11.739 -28.518 -84.802  0.00  0   F
+ATOM    22187    O    O .  THR   F .  181 ?    8.845 -25.914 -87.479 -2.14  0   F
+ATOM    22130    C   CB .  VAL   F .  174 ?   12.241 -27.609 -85.911  0.00  0   F
+ATOM    20373    O    O .  LEU   E .  165 ?   11.248 -33.268 -88.918 -0.40  0   E
+ATOM    20517    O  OG1 .  THR   E .  183 ?    7.843 -32.686 -91.553 -5.36  0   E
+ATOM    22204    O   OG .  SER   F .  183 ?    4.043 -30.826 -89.189  0.00  0   F
+ATOM    22190    C  CG2 .  THR   F .  181 ?    8.630 -26.676 -91.081  0.00  0   F
+ATOM    20377    C  CD2 .  LEU   E .  165 ?   14.108 -28.831 -90.005  0.00  0   E
+ATOM    21921    C  CD1 .  LEU   F .  146 ?    5.497 -28.493 -92.652  0.00  0   F
+ATOM    22188    C   CB .  THR   F .  181 ?    9.621 -25.677 -90.491  0.00  0   F
+ATOM    22117    O    O .  PRO   F .  172 ?    8.371 -27.975 -83.482  0.00  0   F
+ATOM    20505    O   OG .  SER   E .  181 ?    5.240 -33.398 -87.540 -1.07  0   E
+ATOM    20504    C   CB .  SER   E .  181 ?    6.054 -33.658 -86.423  0.00  0   E
+ATOM    20386    N    N .  SER   E .  167 ?   10.163 -33.091 -84.756  0.00  0   E
 # 

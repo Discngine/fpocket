@@ -15,7 +15,7 @@ Information about the pocket   177:
 6  - Hydrophobicity Score              : -1.7500
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.3750
-9  - Pocket volume (Monte Carlo)       : 159.7710
+9  - Pocket volume (Monte Carlo)       : 155.6770
 10  -Pocket volume (convex hull)       : 1.2732
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 8.0000
@@ -47,8 +47,8 @@ ATOM     5962    O  OE1 .  GLN   B .  191 ?  -15.667 -28.798 -17.585 -0.14  0   
 ATOM     5939    C  CG2 .  THR   B .  188 ?  -17.997 -28.313 -13.993  0.00  0   B
 ATOM     5923    O    O .  PRO   B .  186 ?  -12.863 -27.209 -11.572 -4.29  0   B
 ATOM     6215    O    O .  ASN   B .  224 ?  -11.166 -22.028 -12.887 -1.62  0   B
-ATOM    22511    C    C .  ASP   J .    3 ?  -13.004 -20.975 -16.914  0.00  0   J
-ATOM    22516    O  OD2 .  ASP   J .    3 ?   -9.767 -22.169 -16.291  0.00  0   J
+ATOM    22511    C    C .  ASP   I .    3 ?  -13.004 -20.975 -16.914  0.00  0   I
+ATOM    22516    O  OD2 .  ASP   I .    3 ?   -9.767 -22.169 -16.291  0.00  0   I
 ATOM     5499    C   CB .  TYR   B .  133 ?  -10.941 -25.248 -18.288  0.00  0   B
 ATOM     6212    N    N .  ASN   B .  224 ?   -9.068 -23.659 -13.506  0.00  0   B
 ATOM     6209    C   CA .  GLY   B .  223 ?   -8.544 -25.492 -15.009  0.00  0   B

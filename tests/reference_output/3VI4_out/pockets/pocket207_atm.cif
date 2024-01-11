@@ -15,7 +15,7 @@ Information about the pocket   207:
 6  - Hydrophobicity Score              : 7.3846
 7  - Polarity Score                    :    10
 8  - Amino Acid based volume Score     : 3.4615
-9  - Pocket volume (Monte Carlo)       : 621.3447
+9  - Pocket volume (Monte Carlo)       : 637.7428
 10  -Pocket volume (convex hull)       : 165.3998
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 6.3333
@@ -39,7 +39,7 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    17662    C  CG2 .  THR   F .   28 ?  -45.278 -37.415  -5.790  0.00  0   F
+ATOM    17662    C  CG2 .  THR   H .   28 ?  -45.278 -37.415  -5.790  0.00  0   H
 ATOM    15372    O    O .  ASN   D .  397 ?  -44.122 -34.495 -11.281 -1.07  0   D
 ATOM    15390    O   OG .  SER   D .  399 ?  -46.567 -37.134  -8.590  0.00  0   D
 ATOM    15273    N   NZ .  LYS   D .  382 ?  -44.845 -33.238  -6.314  0.00  0   D

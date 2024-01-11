@@ -15,7 +15,7 @@ Information about the pocket   227:
 6  - Hydrophobicity Score              : 11.5000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 500.3497
+9  - Pocket volume (Monte Carlo)       : 507.3692
 10  -Pocket volume (convex hull)       : 62.2097
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,21 +39,21 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    16252    N    N .  ASP   E .   65 ?  -56.884 -64.956  -6.054 -3.03  0   E
-ATOM    16256    C   CB .  ASP   E .   65 ?  -57.543 -65.817  -8.251  0.00  0   E
-ATOM    16253    C   CA .  ASP   E .   65 ?  -58.006 -65.069  -6.994  0.00  0   E
-ATOM    16241    O    O .  VAL   E .   63 ?  -55.805 -61.539  -5.255 -2.95  0   E
-ATOM    16258    O  OD1 .  ASP   E .   65 ?  -58.995 -64.444  -9.569 -4.43  0   E
-ATOM    16234    N    N .  GLY   E .   62 ?  -52.269 -58.010  -4.576 -0.42  0   E
-ATOM    16229    C   CA .  SER   E .   61 ?  -53.232 -55.944  -5.325  0.00  0   E
+ATOM    16252    N    N .  ASP   L .   65 ?  -56.884 -64.956  -6.054 -3.03  0   L
+ATOM    16256    C   CB .  ASP   L .   65 ?  -57.543 -65.817  -8.251  0.00  0   L
+ATOM    16253    C   CA .  ASP   L .   65 ?  -58.006 -65.069  -6.994  0.00  0   L
+ATOM    16241    O    O .  VAL   L .   63 ?  -55.805 -61.539  -5.255 -2.95  0   L
+ATOM    16258    O  OD1 .  ASP   L .   65 ?  -58.995 -64.444  -9.569 -4.43  0   L
+ATOM    16234    N    N .  GLY   L .   62 ?  -52.269 -58.010  -4.576 -0.42  0   L
+ATOM    16229    C   CA .  SER   L .   61 ?  -53.232 -55.944  -5.325  0.00  0   L
 ATOM    13520    N  NH2 .  ARG   D .  155 ?  -54.333 -54.870  -8.058 -3.28  0   D
-ATOM    16226    O    O .  ALA   E .   60 ?  -55.730 -57.188  -5.292 -1.07  0   E
+ATOM    16226    O    O .  ALA   L .   60 ?  -55.730 -57.188  -5.292 -1.07  0   L
 ATOM    13481    N  ND2 .  ASN   D .  151 ?  -57.248 -57.254 -10.256  0.00  0   D
-ATOM    16219    C   CB .  LEU   E .   59 ?  -59.076 -58.423  -7.398  0.00  0   E
-ATOM    16222    C  CD2 .  LEU   E .   59 ?  -58.900 -60.725  -6.509  0.00  0   E
+ATOM    16219    C   CB .  LEU   L .   59 ?  -59.076 -58.423  -7.398  0.00  0   L
+ATOM    16222    C  CD2 .  LEU   L .   59 ?  -58.900 -60.725  -6.509  0.00  0   L
 ATOM    13456    O  OD1 .  ASP   D .  148 ?  -55.429 -62.249 -15.143 -0.14  0   D
 ATOM    13478    C   CB .  ASN   D .  151 ?  -57.850 -56.990 -12.583  0.00  0   D
-ATOM    16221    C  CD1 .  LEU   E .   59 ?  -60.945 -60.010  -7.766  0.00  0   E
+ATOM    16221    C  CD1 .  LEU   L .   59 ?  -60.945 -60.010  -7.766  0.00  0   L
 ATOM    13451    C   CA .  ASP   D .  148 ?  -55.516 -59.552 -15.545  0.00  0   D
 ATOM    13446    O    O .  THR   D .  147 ?  -58.156 -58.591 -15.638 -1.88  0   D
 ATOM    13448    O  OG1 .  THR   D .  147 ?  -58.707 -62.380 -16.937 -0.95  0   D
@@ -66,6 +66,6 @@ ATOM    13479    C   CG .  ASN   D .  151 ?  -58.216 -56.946 -11.116  0.00  0   
 ATOM    13480    O  OD1 .  ASN   D .  151 ?  -59.353 -56.633 -10.754 -0.14  0   D
 ATOM    13489    O  OE1 .  GLU   D .  152 ?  -52.495 -55.284 -11.189 -2.95  0   D
 ATOM    13457    O  OD2 .  ASP   D .  148 ?  -53.227 -62.382 -15.238 -1.21  0   D
-ATOM    16232    C   CB .  SER   E .   61 ?  -52.115 -54.916  -5.390  0.00  0   E
+ATOM    16232    C   CB .  SER   L .   61 ?  -52.115 -54.916  -5.390  0.00  0   L
 ATOM    15010    C  CD1 .  ILE   D .  348 ?  -51.773 -58.375 -16.636  0.00  0   D
 # 

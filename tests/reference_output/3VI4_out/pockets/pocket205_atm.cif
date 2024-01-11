@@ -15,7 +15,7 @@ Information about the pocket   205:
 6  - Hydrophobicity Score              : -11.1667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 2.6667
-9  - Pocket volume (Monte Carlo)       : 418.5543
+9  - Pocket volume (Monte Carlo)       : 416.9742
 10  -Pocket volume (convex hull)       : 40.3355
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000

@@ -15,7 +15,7 @@ Information about the pocket   175:
 6  - Hydrophobicity Score              : 3.2222
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.6667
-9  - Pocket volume (Monte Carlo)       : 293.6732
+9  - Pocket volume (Monte Carlo)       : 301.3863
 10  -Pocket volume (convex hull)       : 25.9673
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 19.9048
@@ -39,27 +39,27 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    17072    O    O .  GLN   E .  171 ?  -58.017 -67.401  17.354 -1.21  0   E
-ATOM    16425    C  CG1 .  VAL   E .   88 ?  -60.055 -65.642  11.750  0.00  0   E
-ATOM    17090    C   CB .  SER   E .  173 ?  -54.331 -68.982  14.419  0.00  0   E
-ATOM    17087    C   CA .  SER   E .  173 ?  -55.240 -70.030  15.059  0.00  0   E
-ATOM    16426    C  CG2 .  VAL   E .   88 ?  -59.398 -67.430  10.149  0.00  0   E
-ATOM    16612    C  CD1 .  LEU   E .  111 ?  -58.938 -71.813  10.998  0.00  0   E
-ATOM    17074    C   CG .  GLN   E .  171 ?  -60.801 -69.711  16.116  0.00  0   E
-ATOM    17073    C   CB .  GLN   E .  171 ?  -60.912 -68.264  16.584  0.00  0   E
-ATOM    17081    O    O .  ASP   E .  172 ?  -57.288 -71.119  16.574 -1.07  0   E
-ATOM    16108    C   CG .  PRO   E .   45 ?  -58.123 -61.691  14.355  0.00  0   E
-ATOM    16109    C   CD .  PRO   E .   45 ?  -57.864 -61.270  12.930  0.00  0   E
-ATOM    17091    O   OG .  SER   E .  173 ?  -53.254 -68.667  15.283 -0.14  0   E
-ATOM    16107    C   CB .  PRO   E .   45 ?  -57.199 -60.859  15.171  0.00  0   E
-ATOM    16424    C   CB .  VAL   E .   88 ?  -59.372 -65.934  10.424  0.00  0   E
-ATOM    17077    N  NE2 .  GLN   E .  171 ?  -62.311 -69.252  14.269  0.00  0   E
-ATOM    16611    C   CG .  LEU   E .  111 ?  -60.299 -71.185  10.709  0.00  0   E
-ATOM    17065    C   CB .  ASP   E .  170 ?  -59.365 -63.866  18.744  0.00  0   E
-ATOM    17068    O  OD2 .  ASP   E .  170 ?  -58.305 -61.756  18.974 -1.88  0   E
-ATOM    16405    O    O .  ALA   E .   85 ?  -56.342 -67.233   9.047  0.00  0   E
-ATOM    16406    C   CB .  ALA   E .   85 ?  -55.239 -70.179   9.031  0.00  0   E
-ATOM    16423    O    O .  VAL   E .   88 ?  -58.990 -63.007   9.249 -1.07  0   E
-ATOM    16098    C   CD .  ARG   E .   44 ?  -55.019 -61.210   8.142  0.00  0   E
-ATOM    16096    C   CB .  ARG   E .   44 ?  -56.101 -59.955  10.049  0.00  0   E
+ATOM    17072    O    O .  GLN   L .  171 ?  -58.017 -67.401  17.354 -1.21  0   L
+ATOM    16425    C  CG1 .  VAL   L .   88 ?  -60.055 -65.642  11.750  0.00  0   L
+ATOM    17090    C   CB .  SER   L .  173 ?  -54.331 -68.982  14.419  0.00  0   L
+ATOM    17087    C   CA .  SER   L .  173 ?  -55.240 -70.030  15.059  0.00  0   L
+ATOM    16426    C  CG2 .  VAL   L .   88 ?  -59.398 -67.430  10.149  0.00  0   L
+ATOM    16612    C  CD1 .  LEU   L .  111 ?  -58.938 -71.813  10.998  0.00  0   L
+ATOM    17074    C   CG .  GLN   L .  171 ?  -60.801 -69.711  16.116  0.00  0   L
+ATOM    17073    C   CB .  GLN   L .  171 ?  -60.912 -68.264  16.584  0.00  0   L
+ATOM    17081    O    O .  ASP   L .  172 ?  -57.288 -71.119  16.574 -1.07  0   L
+ATOM    16108    C   CG .  PRO   L .   45 ?  -58.123 -61.691  14.355  0.00  0   L
+ATOM    16109    C   CD .  PRO   L .   45 ?  -57.864 -61.270  12.930  0.00  0   L
+ATOM    17091    O   OG .  SER   L .  173 ?  -53.254 -68.667  15.283 -0.14  0   L
+ATOM    16107    C   CB .  PRO   L .   45 ?  -57.199 -60.859  15.171  0.00  0   L
+ATOM    16424    C   CB .  VAL   L .   88 ?  -59.372 -65.934  10.424  0.00  0   L
+ATOM    17077    N  NE2 .  GLN   L .  171 ?  -62.311 -69.252  14.269  0.00  0   L
+ATOM    16611    C   CG .  LEU   L .  111 ?  -60.299 -71.185  10.709  0.00  0   L
+ATOM    17065    C   CB .  ASP   L .  170 ?  -59.365 -63.866  18.744  0.00  0   L
+ATOM    17068    O  OD2 .  ASP   L .  170 ?  -58.305 -61.756  18.974 -1.88  0   L
+ATOM    16405    O    O .  ALA   L .   85 ?  -56.342 -67.233   9.047  0.00  0   L
+ATOM    16406    C   CB .  ALA   L .   85 ?  -55.239 -70.179   9.031  0.00  0   L
+ATOM    16423    O    O .  VAL   L .   88 ?  -58.990 -63.007   9.249 -1.07  0   L
+ATOM    16098    C   CD .  ARG   L .   44 ?  -55.019 -61.210   8.142  0.00  0   L
+ATOM    16096    C   CB .  ARG   L .   44 ?  -56.101 -59.955  10.049  0.00  0   L
 # 

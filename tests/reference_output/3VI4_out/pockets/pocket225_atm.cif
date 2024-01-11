@@ -15,7 +15,7 @@ Information about the pocket   225:
 6  - Hydrophobicity Score              : 10.1667
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.4167
-9  - Pocket volume (Monte Carlo)       : 377.8955
+9  - Pocket volume (Monte Carlo)       : 381.2901
 10  -Pocket volume (convex hull)       : 37.3264
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 9.2727

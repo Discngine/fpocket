@@ -15,7 +15,7 @@ Information about the pocket   190:
 6  - Hydrophobicity Score              : 14.1111
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.4444
-9  - Pocket volume (Monte Carlo)       : 477.3897
+9  - Pocket volume (Monte Carlo)       : 469.4214
 10  -Pocket volume (convex hull)       : 42.1543
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 17.8095
@@ -39,24 +39,24 @@ _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_asym_id
-ATOM    20877    O    O .  ALA   H .    9 ?   10.962  -9.238 -77.548  0.00  0   H
-ATOM    20878    C   CB .  ALA   H .    9 ?   10.020 -12.071 -76.546  0.00  0   H
-ATOM    21987    C   CG .  PRO   H .  154 ?    5.721 -14.919 -81.221  0.00  0   H
-ATOM    20894    C  CD1 .  LEU   H .   11 ?   11.394 -10.381 -82.846  0.00  0   H
-ATOM    21971    C   CG .  PRO   H .  152 ?    9.344 -12.885 -84.636  0.00  0   H
-ATOM    22368    C   CB .  ALA   H .  206 ?    6.045 -10.544 -85.525  0.00  0   H
-ATOM    21988    C   CD .  PRO   H .  154 ?    6.764 -15.326 -82.208  0.00  0   H
-ATOM    20895    C  CD2 .  LEU   H .   11 ?   12.554 -12.427 -81.978  0.00  0   H
-ATOM    21710    O  OG1 .  THR   H .  115 ?   14.576 -14.399 -80.646 -1.07  0   H
-ATOM    21697    O   OG .  SER   H .  113 ?   11.778 -15.163 -75.600 -0.81  0   H
-ATOM    21696    C   CB .  SER   H .  113 ?   12.945 -15.837 -75.173  0.00  0   H
-ATOM    21711    C  CG2 .  THR   H .  115 ?   14.928 -16.722 -80.124  0.00  0   H
-ATOM    21978    C   CG .  GLU   H .  153 ?    8.855 -19.224 -81.006  0.00  0   H
-ATOM    20893    C   CG .  LEU   H .   11 ?   12.546 -10.906 -81.998  0.00  0   H
-ATOM    21977    C   CB .  GLU   H .  153 ?    9.254 -17.888 -81.631  0.00  0   H
-ATOM    22183    O   OH .  TYR   H .  180 ?   13.787 -19.151 -83.313 -1.07  0   H
-ATOM    21979    C   CD .  GLU   H .  153 ?    9.152 -20.431 -81.893  0.00  0   H
-ATOM    21980    O  OE1 .  GLU   H .  153 ?   10.028 -20.334 -82.781  0.00  0   H
-ATOM    21970    C   CB .  PRO   H .  152 ?   10.368 -13.962 -84.442  0.00  0   H
-ATOM    21973    N    N .  GLU   H .  153 ?    9.268 -16.433 -83.633  0.00  0   H
+ATOM    20877    O    O .  ALA   F .    9 ?   10.962  -9.238 -77.548  0.00  0   F
+ATOM    20878    C   CB .  ALA   F .    9 ?   10.020 -12.071 -76.546  0.00  0   F
+ATOM    21987    C   CG .  PRO   F .  154 ?    5.721 -14.919 -81.221  0.00  0   F
+ATOM    20894    C  CD1 .  LEU   F .   11 ?   11.394 -10.381 -82.846  0.00  0   F
+ATOM    21971    C   CG .  PRO   F .  152 ?    9.344 -12.885 -84.636  0.00  0   F
+ATOM    22368    C   CB .  ALA   F .  206 ?    6.045 -10.544 -85.525  0.00  0   F
+ATOM    21988    C   CD .  PRO   F .  154 ?    6.764 -15.326 -82.208  0.00  0   F
+ATOM    20895    C  CD2 .  LEU   F .   11 ?   12.554 -12.427 -81.978  0.00  0   F
+ATOM    21710    O  OG1 .  THR   F .  115 ?   14.576 -14.399 -80.646 -1.07  0   F
+ATOM    21697    O   OG .  SER   F .  113 ?   11.778 -15.163 -75.600 -0.81  0   F
+ATOM    21696    C   CB .  SER   F .  113 ?   12.945 -15.837 -75.173  0.00  0   F
+ATOM    21711    C  CG2 .  THR   F .  115 ?   14.928 -16.722 -80.124  0.00  0   F
+ATOM    21978    C   CG .  GLU   F .  153 ?    8.855 -19.224 -81.006  0.00  0   F
+ATOM    20893    C   CG .  LEU   F .   11 ?   12.546 -10.906 -81.998  0.00  0   F
+ATOM    21977    C   CB .  GLU   F .  153 ?    9.254 -17.888 -81.631  0.00  0   F
+ATOM    22183    O   OH .  TYR   F .  180 ?   13.787 -19.151 -83.313 -1.07  0   F
+ATOM    21979    C   CD .  GLU   F .  153 ?    9.152 -20.431 -81.893  0.00  0   F
+ATOM    21980    O  OE1 .  GLU   F .  153 ?   10.028 -20.334 -82.781  0.00  0   F
+ATOM    21970    C   CB .  PRO   F .  152 ?   10.368 -13.962 -84.442  0.00  0   F
+ATOM    21973    N    N .  GLU   F .  153 ?    9.268 -16.433 -83.633  0.00  0   F
 # 
