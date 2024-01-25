@@ -1,0 +1,59 @@
+data_pocket23_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    23:
+0  - Pocket Score                      : -0.0164
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    21
+3  - Mean alpha-sphere radius          : 3.6900
+4  - Mean alpha-sphere Solvent Acc.    : 0.4917
+5  - Mean B-factor of pocket residues  : 0.2299
+6  - Hydrophobicity Score              : 10.2857
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 245.5694
+10  -Pocket volume (convex hull)       : 9.4367
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.3333
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     8199    C   CG .  ASN   D .  252 ?   27.586   9.214  42.829  0.00  0   D
+ATOM     8186    C  CD1 .  TRP   D .  251 ?   26.276  14.665  45.063  0.00  0   D
+ATOM     8201    N  ND2 .  ASN   D .  252 ?   28.367   8.903  43.871  0.00  0   D
+ATOM     8198    C   CB .  ASN   D .  252 ?   27.436  10.710  42.437  0.00  0   D
+ATOM     8195    C   CA .  ASN   D .  252 ?   28.576  11.606  42.953  0.00  0   D
+ATOM     8188    N  NE1 .  TRP   D .  251 ?   26.256  14.921  46.406 -0.17  0   D
+ATOM     8183    O    O .  TRP   D .  251 ?   29.606  13.897  44.157 -1.07  0   D
+ATOM     8208    C   CD .  PRO   D .  253 ?   30.672  10.672  44.713  0.00  0   D
+ATOM     7945    O   OH .  TYR   D .  222 ?   28.142  17.449  51.358 -4.29  0   D
+ATOM     8191    C  CZ2 .  TRP   D .  251 ?   27.038  16.816  47.830  0.00  0   D
+ATOM     7656    C  CE1 .  TYR   D .  186 ?   28.922  12.123  52.576  0.00  0   D
+ATOM     7659    O   OH .  TYR   D .  186 ?   26.735  12.867  53.246  0.00  0   D
+ATOM     7620    N    N .  GLU   D .  182 ?   32.487  14.873  49.114  0.00  0   D
+ATOM     8189    C  CE2 .  TRP   D .  251 ?   26.844  16.141  46.643  0.00  0   D
+ATOM     7617    C   CB .  PRO   D .  181 ?   30.988  17.092  47.631  0.00  0   D
+ATOM     7624    C   CB .  GLU   D .  182 ?   32.311  12.417  49.315  0.00  0   D
+ATOM     7621    C   CA .  GLU   D .  182 ?   32.543  13.747  50.045  0.00  0   D
+# 

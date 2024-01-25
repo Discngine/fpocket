@@ -1,0 +1,53 @@
+data_pocket48_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5519    C   CA .  PRO   C .  181 ?   34.373  57.163  12.526  0.00  0   C
+ATOM     5520    C    C .  PRO   C .  181 ?   34.590  58.277  11.491  0.00  0   C
+ATOM     5521    O    O .  PRO   C .  181 ?   34.571  57.998  10.278  0.00  0   C
+ATOM     5522    C   CB .  PRO   C .  181 ?   33.183  57.514  13.410  0.00  0   C
+ATOM     5525    N    N .  GLU   C .  182 ?   34.876  59.497  11.935  0.00  0   C
+ATOM     5526    C   CA .  GLU   C .  182 ?   34.920  60.606  11.023  0.00  0   C
+ATOM     5529    C   CB .  GLU   C .  182 ?   34.856  61.945  11.786  0.00  0   C
+ATOM     5532    O  OE1 .  GLU   C .  182 ?   35.570  61.003  14.365  0.00  0   C
+ATOM     5552    C   CB .  ALA   C .  185 ?   32.614  58.824   7.353  0.00  0   C
+ATOM     5559    C  CD1 .  TYR   C .  186 ?   32.727  62.743   8.126  0.00  0   C
+ATOM     5561    C  CE1 .  TYR   C .  186 ?   31.366  62.541   8.374  0.00  0   C
+ATOM     5563    C   CZ .  TYR   C .  186 ?   30.462  62.498   7.317  0.00  0   C
+ATOM     5564    O   OH .  TYR   C .  186 ?   29.113  62.297   7.563  0.00  0   C
+ATOM     5847    C  CE1 .  TYR   C .  222 ?   31.812  55.701   9.755  0.00  0   C
+ATOM     5849    C   CZ .  TYR   C .  222 ?   30.448  55.879   9.551  0.00  0   C
+ATOM     5850    O   OH .  TYR   C .  222 ?   29.907  57.157   9.562 -7.50  0   C
+ATOM     5884    O  OE2 .  GLU   C .  226 ?   26.650  56.552  10.125 -2.28  0   C
+ATOM     6084    C    C .  TRP   C .  251 ?   31.278  60.671  17.720  0.00  0   C
+ATOM     6085    O    O .  TRP   C .  251 ?   31.838  60.725  16.610 -1.07  0   C
+ATOM     6088    C  CD1 .  TRP   C .  251 ?   28.689  60.127  15.728  0.00  0   C
+ATOM     6089    C  CD2 .  TRP   C .  251 ?   29.435  58.017  15.504  0.00  0   C
+ATOM     6090    N  NE1 .  TRP   C .  251 ?   28.662  59.804  14.394 -6.56  0   C
+ATOM     6091    C  CE2 .  TRP   C .  251 ?   29.097  58.506  14.232  0.00  0   C
+ATOM     6093    C  CZ2 .  TRP   C .  251 ?   29.235  57.738  13.068  0.00  0   C
+ATOM     6095    C  CH2 .  TRP   C .  251 ?   29.729  56.456  13.190  0.00  0   C
+ATOM     6096    N    N .  ASN   C .  252 ?   30.975  61.754  18.422 -2.19  0   C
+ATOM     6097    C   CA .  ASN   C .  252 ?   31.350  63.118  17.975  0.00  0   C
+ATOM     6100    C   CB .  ASN   C .  252 ?   30.243  64.137  18.392  0.00  0   C
+ATOM     6101    C   CG .  ASN   C .  252 ?   30.440  65.556  17.813  0.00  0   C
+ATOM     6102    O  OD1 .  ASN   C .  252 ?   29.697  66.476  18.171  0.00  0   C
+ATOM     6103    N  ND2 .  ASN   C .  252 ?   31.388  65.735  16.918  0.00  0   C
+ATOM     6109    C   CG .  PRO   C .  253 ?   34.616  64.790  15.740  0.00  0   C
+ATOM     6110    C   CD .  PRO   C .  253 ?   33.519  63.884  16.193  0.00  0   C
+#

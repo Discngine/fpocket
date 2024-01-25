@@ -1,0 +1,111 @@
+data_pocket4_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     4:
+0  - Pocket Score                      : 0.5384
+1  - Drug Score                        : 0.9399
+2  - Number of alpha spheres           :   115
+3  - Mean alpha-sphere radius          : 3.9008
+4  - Mean alpha-sphere Solvent Acc.    : 0.4889
+5  - Mean B-factor of pocket residues  : 0.1601
+6  - Hydrophobicity Score              : 32.4074
+7  - Polarity Score                    :    13
+8  - Amino Acid based volume Score     : 4.1481
+9  - Pocket volume (Monte Carlo)       : 978.3812
+10  -Pocket volume (convex hull)       : 388.6069
+11 - Charge Score                      :    -4
+12 - Local hydrophobic density Score   : 51.3067
+13 - Number of apolar alpha sphere     :    75
+14 - Proportion of apolar alpha sphere : 0.6522
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3247    C   CB .  PHE   B .  155 ?   21.327  58.002  41.139  0.00  0   B
+ATOM     2264    C  CG2 .  VAL   B .   29 ?   22.917  63.990  38.678  0.00  0   B
+ATOM     3246    O    O .  PHE   B .  155 ?   20.558  58.316  38.318 -3.21  0   B
+ATOM     3250    C  CD2 .  PHE   B .  155 ?   20.792  59.659  42.947  0.00  0   B
+ATOM     2707    C  CG2 .  THR   B .   88 ?   16.546  66.243  44.344  0.00  0   B
+ATOM     2387    C   CD .  LYS   B .   44 ?   18.528  63.736  37.195  0.00  0   B
+ATOM     2385    C   CB .  LYS   B .   44 ?   19.282  65.937  37.904  0.00  0   B
+ATOM     2492    O  OE2 .  GLU   B .   59 ?   15.137  61.777  38.754 -1.07  0   B
+ATOM     3238    O    O .  ASP   B .  154 ?   17.212  58.730  41.018 -2.14  0   B
+ATOM     2516    S   SD .  MET   B .   63 ?   13.035  63.861  41.900  0.00  0   B
+ATOM     2263    C  CG1 .  VAL   B .   29 ?   23.119  65.537  40.473  0.00  0   B
+ATOM     2691    C  CG2 .  ILE   B .   86 ?   14.650  66.918  40.167  0.00  0   B
+ATOM     2706    O  OG1 .  THR   B .   88 ?   18.707  66.620  45.445  0.00  0   B
+ATOM     2373    C   CB .  ALA   B .   42 ?   22.222  67.512  44.351  0.00  0   B
+ATOM     2372    O    O .  ALA   B .   42 ?   20.132  69.347  42.849  0.00  0   B
+ATOM     2237    C   CB .  TYR   B .   26 ?   25.215  60.955  39.865  0.00  0   B
+ATOM     2238    C   CG .  TYR   B .   26 ?   25.664  60.594  41.236  0.00  0   B
+ATOM     2381    N    N .  LYS   B .   44 ?   20.271  67.959  38.825  0.00  0   B
+ATOM     3244    C   CA .  PHE   B .  155 ?   19.890  58.074  40.595  0.00  0   B
+ATOM     2389    N   NZ .  LYS   B .   44 ?   17.801  61.554  36.438 -1.51  0   B
+ATOM     2587    C  CG1 .  VAL   B .   72 ?   15.898  62.083  46.401  0.00  0   B
+ATOM     3252    C  CE2 .  PHE   B .  155 ?   20.900  60.083  44.236  0.00  0   B
+ATOM     2588    C  CG2 .  VAL   B .   72 ?   17.492  63.676  47.427  0.00  0   B
+ATOM     3234    C   CB .  ALA   B .  153 ?   18.132  59.089  46.069  0.00  0   B
+ATOM     3159    C  CD1 .  LEU   B .  143 ?   21.090  61.822  48.147  0.00  0   B
+ATOM     2711    O    O .  GLU   B .   89 ?   20.201  67.317  47.580  0.00  0   B
+ATOM     2688    O    O .  ILE   B .   86 ?   17.692  68.841  39.888  0.00  0   B
+ATOM     2242    C  CE2 .  TYR   B .   26 ?   25.430  59.279  43.261  0.00  0   B
+ATOM     2243    C   CZ .  TYR   B .   26 ?   26.444  59.997  43.875  0.00  0   B
+ATOM     3253    C   CZ .  PHE   B .  155 ?   21.682  59.344  45.142  0.00  0   B
+ATOM     3235    N    N .  ASP   B .  154 ?   16.818  57.772  43.787  0.00  0   B
+ATOM     2750    C  CD2 .  TYR   B .   93 ?   29.699  62.458  56.235  0.00  0   B
+ATOM     2797    C  CD1 .  TYR   B .   99 ?   29.075  58.066  55.512  0.00  0   B
+ATOM     2746    O    O .  TYR   B .   93 ?   28.599  60.480  52.266 -3.35  0   B
+ATOM     2829    O  OE1 .  GLU   B .  102 ?   34.302  57.534  51.775  0.00  0   B
+ATOM     2792    C   CA .  TYR   B .   99 ?   29.822  55.733  53.360  0.00  0   B
+ATOM     2825    O    O .  GLU   B .  102 ?   35.223  55.787  56.333 -0.54  0   B
+ATOM     2826    C   CB .  GLU   B .  102 ?   34.503  55.603  53.491  0.00  0   B
+ATOM     2824    C    C .  GLU   B .  102 ?   34.437  54.977  55.882  0.00  0   B
+ATOM     2832    C   CA .  CYS   B .  103 ?   33.088  55.081  57.860  0.00  0   B
+ATOM     2831    N    N .  CYS   B .  103 ?   33.393  54.555  56.565  0.00  0   B
+ATOM     2212    N    N .  GLY   B .   22 ?   30.324  63.653  42.683 -5.89  0   B
+ATOM     2208    C   CB .  LEU   B .   21 ?   27.777  65.366  42.511  0.00  0   B
+ATOM     2241    C  CE1 .  TYR   B .   26 ?   27.096  61.045  43.171  0.00  0   B
+ATOM     2211    C  CD2 .  LEU   B .   21 ?   28.018  67.175  44.220  0.00  0   B
+ATOM     2244    O   OH .  TYR   B .   26 ?   26.823  59.711  45.218 -2.14  0   B
+ATOM     2213    C   CA .  GLY   B .   22 ?   30.809  62.280  42.760  0.00  0   B
+ATOM     2239    C  CD1 .  TYR   B .   26 ?   26.701  61.329  41.870  0.00  0   B
+ATOM     2240    C  CD2 .  TYR   B .   26 ?   25.035  59.577  41.953  0.00  0   B
+ATOM     2756    C   CA .  GLY   B .   94 ?   27.234  61.247  49.837  0.00  0   B
+ATOM     2725    C  CE1 .  PHE   B .   90 ?   26.754  67.714  47.272  0.00  0   B
+ATOM     2727    C   CZ .  PHE   B .   90 ?   27.534  67.567  48.425  0.00  0   B
+ATOM     2231    O  OE1 .  GLN   B .   25 ?   30.209  59.236  43.367 -1.48  0   B
+ATOM     2210    C  CD1 .  LEU   B .   21 ?   25.721  66.211  43.675  0.00  0   B
+ATOM     2723    C  CD1 .  PHE   B .   90 ?   25.422  68.241  47.382  0.00  0   B
+ATOM     2728    N    N .  MET   B .   91 ?   23.092  66.028  50.284  0.00  0   B
+ATOM     2718    C   CA .  PHE   B .   90 ?   22.486  68.006  48.962  0.00  0   B
+ATOM     2799    C  CE1 .  TYR   B .   99 ?   29.022  58.408  56.848  0.00  0   B
+ATOM     2752    C  CE2 .  TYR   B .   93 ?   30.166  63.254  57.309  0.00  0   B
+ATOM     2731    O    O .  MET   B .   91 ?   25.598  64.570  50.902  0.00  0   B
+ATOM     2765    O  OD1 .  ASN   B .   95 ?   28.158  57.076  46.868 -2.14  0   B
+ATOM     2759    N    N .  ASN   B .   95 ?   26.743  58.973  49.025 -1.09  0   B
+ATOM     2790    O  OD2 .  ASP   B .   98 ?   30.977  56.310  46.763 -0.54  0   B
+ATOM     2755    N    N .  GLY   B .   94 ?   27.250  61.948  51.137  0.00  0   B
+ATOM     2739    O    O .  THR   B .   92 ?   28.656  64.809  52.499  0.00  0   B
+ATOM     3160    C  CD2 .  LEU   B .  143 ?   23.325  60.556  48.021  0.00  0   B
+ATOM     2787    C   CB .  ASP   B .   98 ?   31.035  55.730  49.067  0.00  0   B
+ATOM     2791    N    N .  TYR   B .   99 ?   29.822  55.330  52.001  0.00  0   B
+ATOM     2830    O  OE2 .  GLU   B .  102 ?   35.139  56.584  50.050 -3.35  0   B
+# 

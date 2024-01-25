@@ -1,0 +1,59 @@
+data_pocket35_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    35:
+0  - Pocket Score                      : -0.0601
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 3.8211
+4  - Mean alpha-sphere Solvent Acc.    : 0.4865
+5  - Mean B-factor of pocket residues  : 0.2124
+6  - Hydrophobicity Score              : 10.2857
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 232.2977
+10  -Pocket volume (convex hull)       : 5.6641
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.2917
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4030    C   CD .  PRO   B .  253 ?    6.571  36.180  44.310  0.00  0   B
+ATOM     4010    N  NE1 .  TRP   B .  251 ?   10.012  30.289  42.614 -1.01  0   B
+ATOM     3446    C   CB .  GLU   B .  182 ?    8.807  36.987  40.044  0.00  0   B
+ATOM     4005    O    O .  TRP   B .  251 ?    9.682  34.179  44.795 -2.14  0   B
+ATOM     3478    C  CE1 .  TYR   B .  186 ?    7.837  33.678  37.047  0.00  0   B
+ATOM     4023    N  ND2 .  ASN   B .  252 ?    4.327  34.310  45.144  0.00  0   B
+ATOM     3767    O   OH .  TYR   B .  222 ?   12.714  31.484  37.996 -5.36  0   B
+ATOM     3481    O   OH .  TYR   B .  186 ?    8.084  31.363  36.537 -4.02  0   B
+ATOM     4013    C  CZ2 .  TRP   B .  251 ?   12.126  30.591  41.345  0.00  0   B
+ATOM     3443    C   CA .  GLU   B .  182 ?   10.126  36.812  39.286  0.00  0   B
+ATOM     4021    C   CG .  ASN   B .  252 ?    4.432  33.363  46.097  0.00  0   B
+ATOM     4020    C   CB .  ASN   B .  252 ?    5.889  32.875  46.532  0.00  0   B
+ATOM     4008    C  CD1 .  TRP   B .  251 ?    9.656  30.474  43.951  0.00  0   B
+ATOM     3442    N    N .  GLU   B .  182 ?   11.300  36.635  40.202 -1.09  0   B
+ATOM     4011    C  CE2 .  TRP   B .  251 ?   11.341  30.607  42.467  0.00  0   B
+ATOM     3439    C   CB .  PRO   B .  181 ?   13.281  34.691  41.563  0.00  0   B
+ATOM     4017    C   CA .  ASN   B .  252 ?    7.041  33.777  46.037  0.00  0   B
+# 

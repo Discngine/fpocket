@@ -1,0 +1,60 @@
+data_pocket32_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    32:
+0  - Pocket Score                      : -0.0556
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    28
+3  - Mean alpha-sphere radius          : 3.9447
+4  - Mean alpha-sphere Solvent Acc.    : 0.4561
+5  - Mean B-factor of pocket residues  : 0.1854
+6  - Hydrophobicity Score              : 37.2000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 356.0664
+10  -Pocket volume (convex hull)       : 14.9179
+11 - Charge Score                      :     3
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.3214
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2552    O    O .  HIS   B .   68 ?   11.190  62.764  53.093 -4.69  0   B
+ATOM     2594    C   CG .  GLN   B .   73 ?   13.080  68.321  50.358  0.00  0   B
+ATOM     2548    C   CB .  LYS   B .   67 ?    6.504  65.116  50.895  0.00  0   B
+ATOM     2597    N  NE2 .  GLN   B .   73 ?   12.729  70.253  51.868  0.00  0   B
+ATOM     2549    N    N .  HIS   B .   68 ?    8.770  62.722  52.136  0.00  0   B
+ATOM     2100    C  CH2 .  TRP   B .    8 ?    8.021  70.120  46.212  0.00  0   B
+ATOM     2601    O    O .  LEU   B .   74 ?   11.642  69.555  47.135 -1.48  0   B
+ATOM     2595    C   CD .  GLN   B .   73 ?   13.604  69.305  51.438  0.00  0   B
+ATOM     3222    N   NZ .  LYS   B .  151 ?   15.951  64.984  53.909  0.00  0   B
+ATOM     2596    O  OE1 .  GLN   B .   73 ?   14.783  69.222  51.879 -1.88  0   B
+ATOM     2560    C   CA .  PRO   B .   69 ?   11.828  62.498  55.801  0.00  0   B
+ATOM     2545    C   CA .  LYS   B .   67 ?    7.422  63.917  50.500  0.00  0   B
+ATOM     2590    C   CA .  GLN   B .   73 ?   13.804  66.159  48.996  0.00  0   B
+ATOM     2539    O    O .  ILE   B .   66 ?    7.780  64.424  47.789 -7.50  0   B
+ATOM     2585    O    O .  VAL   B .   72 ?   13.589  63.555  47.823 -6.43  0   B
+ATOM     2598    N    N .  LEU   B .   74 ?   12.978  66.960  46.855 -1.09  0   B
+ATOM     2577    O    O .  LEU   B .   71 ?   13.536  62.679  50.816  0.00  0   B
+ATOM     2593    C   CB .  GLN   B .   73 ?   13.894  67.022  50.290  0.00  0   B
+# 

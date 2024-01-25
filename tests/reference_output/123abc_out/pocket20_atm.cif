@@ -1,0 +1,66 @@
+data_pocket20_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    20:
+0  - Pocket Score                      : -0.0058
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    37
+3  - Mean alpha-sphere radius          : 3.7789
+4  - Mean alpha-sphere Solvent Acc.    : 0.4544
+5  - Mean B-factor of pocket residues  : 0.2229
+6  - Hydrophobicity Score              : 11.7857
+7  - Polarity Score                    :    10
+8  - Amino Acid based volume Score     : 4.4286
+9  - Pocket volume (Monte Carlo)       : 418.3302
+10  -Pocket volume (convex hull)       : 54.0760
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 7.4000
+13 - Number of apolar alpha sphere     :    10
+14 - Proportion of apolar alpha sphere : 0.2703
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1578    C   CA .  SER   A .  211 ?   28.519  31.580  13.536  0.00  0   A
+ATOM      729    N  NH2 .  ARG   A .  101 ?   29.744  27.079  13.417 -2.19  0   A
+ATOM     1582    O   OG .  SER   A .  211 ?   29.670  30.318  15.225  0.00  0   A
+ATOM     1531    O  OE1 .  GLU   A .  204 ?   23.660  27.646  12.432 -1.07  0   A
+ATOM     1572    O    O .  MET   A .  210 ?   27.392  30.484  11.286 -2.14  0   A
+ATOM     1589    C   CD .  PRO   A .  212 ?   25.953  32.242  14.398  0.00  0   A
+ATOM     1321    C  CH2 .  TRP   A .  178 ?   24.064  30.155  16.482  0.00  0   A
+ATOM     1192    C   CE .  MET   A .  161 ?   25.473  22.258  20.061  0.00  0   A
+ATOM     1193    N    N .  THR   A .  162 ?   27.717  23.001  24.543 -3.28  0   A
+ATOM     1196    O    O .  THR   A .  162 ?   30.318  24.681  23.653 -0.54  0   A
+ATOM     1190    C   CG .  MET   A .  161 ?   25.693  23.794  22.437  0.00  0   A
+ATOM     1191    S   SD .  MET   A .  161 ?   25.108  23.914  20.726  0.00  0   A
+ATOM     1214    O  OG1 .  THR   A .  165 ?   26.599  27.686  20.315  0.00  0   A
+ATOM     1197    C   CB .  THR   A .  162 ?   30.043  22.165  24.907  0.00  0   A
+ATOM      728    N  NH1 .  ARG   A .  101 ?   30.641  25.059  14.054  0.00  0   A
+ATOM     1319    C  CZ2 .  TRP   A .  178 ?   23.312  29.778  15.389  0.00  0   A
+ATOM      690    C  CD2 .  LEU   A .   97 ?   26.615  24.712  14.130  0.00  0   A
+ATOM     1039    N  NH1 .  ARG   A .  140 ?   22.161  27.219  17.402 -2.19  0   A
+ATOM     1036    C   CD .  ARG   A .  140 ?   22.384  24.464  18.025  0.00  0   A
+ATOM      697    O  OD1 .  ASP   A .   98 ?   29.383  20.437  13.443  0.00  0   A
+ATOM      136    N  NE2 .  GLN   A .   25 ?   26.655  17.754  17.106 -1.51  0   A
+ATOM     1034    C   CB .  ARG   A .  140 ?   22.854  23.046  15.953  0.00  0   A
+ATOM      674    N  ND2 .  ASN   A .   95 ?   25.138  19.957  12.965 -2.19  0   A
+ATOM     1198    O  OG1 .  THR   A .  162 ?   29.373  20.894  24.874 -2.55  0   A
+# 

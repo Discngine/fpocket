@@ -1,0 +1,55 @@
+data_pocket61_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    61:
+0  - Pocket Score                      : -0.1639
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 4.0056
+4  - Mean alpha-sphere Solvent Acc.    : 0.4727
+5  - Mean B-factor of pocket residues  : 0.8171
+6  - Hydrophobicity Score              : 0.2857
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 4.8571
+9  - Pocket volume (Monte Carlo)       : 159.9413
+10  -Pocket volume (convex hull)       : 1.3916
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     1
+14 - Proportion of apolar alpha sphere : 0.0526
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM       27    O    O .  MET   A .   10 ?    8.442  -1.429  22.951 -2.55  0   A
+ATOM       46    C   CG .  ARG   A .   12 ?   11.949  -3.180  26.495  0.00  0   A
+ATOM      550    C   CB .  ARG   A .   80 ?    4.642   0.331  29.133  0.00  0   A
+ATOM       39    O  OE1 .  GLU   A .   11 ?    7.948  -5.643  24.768 -2.28  0   A
+ATOM       22    O  OE1 .  GLU   A .    9 ?    5.508   1.322  24.704 -2.55  0   A
+ATOM       40    O  OE2 .  GLU   A .   11 ?    6.205  -5.064  23.520  0.00  0   A
+ATOM      551    N    N .  GLU   A .   81 ?    7.225   0.743  30.598  0.00  0   A
+ATOM      555    C   CB .  GLU   A .   81 ?    8.706  -0.883  31.688  0.00  0   A
+ATOM      537    C   CB .  CYS   A .   78 ?   10.270   1.893  25.042  0.00  0   A
+ATOM      546    N    N .  ARG   A .   80 ?    5.851   2.435  28.620  0.00  0   A
+ATOM      554    O    O .  GLU   A .   81 ?    9.803   1.727  30.115 -6.43  0   A
+ATOM      535    C    C .  CYS   A .   78 ?    8.643   3.375  26.285  0.00  0   A
+ATOM      534    C   CA .  CYS   A .   78 ?    8.967   2.720  24.953  0.00  0   A
+# 

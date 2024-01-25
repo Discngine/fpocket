@@ -1,0 +1,54 @@
+data_pocket28_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    28:
+0  - Pocket Score                      : -0.0435
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    15
+3  - Mean alpha-sphere radius          : 3.8178
+4  - Mean alpha-sphere Solvent Acc.    : 0.5111
+5  - Mean B-factor of pocket residues  : 0.2583
+6  - Hydrophobicity Score              : 47.8000
+7  - Polarity Score                    :     2
+8  - Amino Acid based volume Score     : 4.6000
+9  - Pocket volume (Monte Carlo)       : 153.5727
+10  -Pocket volume (convex hull)       : 1.1933
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 5.0000
+13 - Number of apolar alpha sphere     :     6
+14 - Proportion of apolar alpha sphere : 0.4000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5155    C    C .  ASN   C .  131 ?   49.791  69.967  16.216  0.00  0   C
+ATOM     5164    O    O .  PHE   C .  132 ?   48.967  66.829  17.018  0.00  0   C
+ATOM     5154    C   CA .  ASN   C .  131 ?   49.335  70.969  17.293  0.00  0   C
+ATOM     5156    O    O .  ASN   C .  131 ?   49.458  70.110  15.000 -2.55  0   C
+ATOM     5177    C  CG1 .  ILE   C .  133 ?   46.547  66.252  14.171  0.00  0   C
+ATOM     5179    C  CD1 .  ILE   C .  133 ?   45.747  66.718  12.918  0.00  0   C
+ATOM     5159    O  OD1 .  ASN   C .  131 ?   46.848  72.862  17.330  0.00  0   C
+ATOM     5600    C  CG1 .  ILE   C .  191 ?   45.611  66.019  19.250  0.00  0   C
+ATOM     5129    O    O .  GLU   C .  128 ?   48.054  70.332  20.849 -1.48  0   C
+ATOM     5595    N    N .  ILE   C .  191 ?   43.539  65.578  16.244  0.00  0   C
+ATOM     5599    C   CB .  ILE   C .  191 ?   44.408  66.418  18.397  0.00  0   C
+ATOM     5601    C  CG2 .  ILE   C .  191 ?   43.280  67.132  19.172  0.00  0   C
+# 

@@ -83,7 +83,6 @@ void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_p
     out[0] = '\0';
 
     node_pocket *pcur;
-
     int i = 0;
     if (pockets) {
         pcur = pockets->first;
@@ -92,12 +91,25 @@ void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_p
             sprintf(out, "%s/pocket%d_vert.pqr", out_path, i + 1);
             write_pocket_pqr_DB(out, pcur->pocket);
 
-            sprintf(out, "%s/pocket%d_env_atm.pdb", out_path, i + 1);
-            write_pocket_pdb_DB(out, pcur->pocket, pdb);
-
-            
+            if(write_mode[0] == 'p' || write_mode[0] == 'b'){
+        
             sprintf(out, "%s/pocket%d_atm.pdb", out_path, i + 1);
             write_pocket_pdb(out, pcur->pocket);
+
+            sprintf(out, "%s/pocket%d_env_atm.pdb", out_path, i + 1);
+            write_pocket_pdb_DB(out, pcur->pocket, pdb);
+            // sprintf(out, "%s/pocket%d_atm.pdb", out_path, i+1);
+            // write_pocket_pdb_DB(out, pcur->pocket);
+            }
+
+            if(write_mode[0] == 'm' || write_mode[0] == 'b'){
+            sprintf(out, "%s/pocket%d_atm.cif", out_path, i + 1);
+            write_pocket_mmcif(out, pcur->pocket);
+
+            sprintf(out, "%s/pocket%d_env_atm.cif", out_path, i+1);
+            write_pocket_mmcif_DB(out, pcur->pocket,pdb);
+            }
+
 
             pcur = pcur->next;
             i++;
@@ -144,14 +156,7 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
 
         node_vertice *nvcur = pocket->v_lst->first;
 
-       /* 
-                                fprintf(stdout, "A Pocket:\n") ;
-        */
         while (nvcur) {
-            /*
-                                            fprintf(stdout, "Vertice %d: %p %d %f\n", i, nvcur->vertice, nvcur->vertice->id, nvcur->vertice->ray) ;
-                                            fprintf(stdout, "Atom %s\n", nvcur->vertice->neigh[0]->name) ;
-             */
 
             tab_vert[nvert] = nvcur->vertice;
             nvcur = nvcur->next;
@@ -159,7 +164,6 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
         }
         sa = (int *) get_surrounding_atoms_idx(tab_vert, nvert, pdb, &n_sa);
         for (i = 0; i < n_sa; i++) {
-            //atom = pocket->sou_atoms[i] ;
             atom = pdb->latoms_p[sa[i]];
             write_pdb_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
                     atom->res_name, atom->chain, atom->res_id,
@@ -167,36 +171,7 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
                     atom->dA, atom->a0, atom->abpa, atom->symbol,
                     atom->charge, atom->abpa_sourrounding_prob);
         }
-        /*
-                    vcur = pocket->v_lst->first ;
-
-                        while(vcur){
-                                for(i = 0 ; i < 4 ; i++) {
-                                        if(!is_in_lst_atm(atms, cur_size, vcur->vertice->neigh[i]->id)) {
-                                                if(cur_size >= cur_allocated-1) {
-                                                        cur_allocated *= 2 ;
-                                                        atms = (s_atm**) my_realloc(atms, sizeof(s_atm)*cur_allocated) ;
-                                                }
-                                                atms[cur_size] = vcur->vertice->neigh[i] ;
-                                                cur_size ++ ;
-                                        }
-
-                                }
-                                vcur = vcur->next ;
-                        }
-         */
-        // Then write atoms...
-        /*
-                        for(i = 0 ; i < cur_size ; i++) {
-                                atom = atms[i] ;
-
-                                write_pdb_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
-                                                                                atom->res_name, atom->chain, atom->res_id,
-                                                                                atom->pdb_insert, atom->x, atom->y, atom->z,
-                                                                                atom->occupancy, atom->bfactor, atom->symbol,
-                                                                                atom->charge);
-                        }
-         */
+        
         fprintf(f, "TER\nEND\n");
         fclose(f);
     } else {
@@ -206,6 +181,56 @@ void write_pocket_pdb_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
 
     my_free(atms);
 }
+
+
+
+void write_pocket_mmcif_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
+    int i = 0, nvert = 0;
+    s_atm **atms = (s_atm **) my_malloc(sizeof (s_atm*)*10);
+    s_atm *atom = NULL;
+    int n_sa = 0;
+    int *sa = NULL; /*surrounding atoms container*/
+    s_vvertice **tab_vert = NULL;
+    char tmp[250];
+    strcpy(tmp,out);
+    remove_ext(tmp);
+    remove_path(tmp);
+    FILE *f = fopen(out, "w");
+    fprintf(f,"data_%s\n# \n",tmp);
+    fprintf(f,"%s",atomSiteHeader);/*print the header*/
+    if (f && pocket) {
+        // First get the list of atoms
+        tab_vert = (s_vvertice **) my_malloc(pocket->v_lst->n_vertices * sizeof (s_vvertice*));
+
+        node_vertice *nvcur = pocket->v_lst->first;
+
+        while (nvcur) {
+
+            tab_vert[nvert] = nvcur->vertice;
+            nvcur = nvcur->next;
+            nvert++;
+        }
+        sa = (int *) get_surrounding_atoms_idx(tab_vert, nvert, pdb, &n_sa);
+        for (i = 0; i < n_sa; i++) {
+            atom = pdb->latoms_p[sa[i]];
+            write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
+                    atom->res_name, atom->chain, atom->res_id,
+                    atom->pdb_insert, atom->x, atom->y, atom->z,
+                    atom->dA, atom->a0, atom->abpa, atom->symbol,
+                    atom->charge, atom->abpa_sourrounding_prob);
+        }
+        
+        fprintf(f, "#\n");
+        fclose(f);
+    } else {
+        if (!f) fprintf(stderr, "! The file %s could not be opened!\n", out);
+        else fprintf(stderr, "! Invalid pocket to write in write_pocket_pqr !\n");
+    }
+
+    my_free(atms);
+}
+
+
 
 /**
    ## FUNCTION: 
@@ -483,7 +508,7 @@ void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
     int i = 1;
     if (pockets) {
         pcur = pockets->first;
-        
+
         while (pcur) {
             sprintf(out, "%s/pocket%d_vert.pqr", out_path, i);
 

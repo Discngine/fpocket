@@ -1,0 +1,61 @@
+data_pocket12_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    12:
+0  - Pocket Score                      : 0.0380
+1  - Drug Score                        : 0.0004
+2  - Number of alpha spheres           :    22
+3  - Mean alpha-sphere radius          : 4.0091
+4  - Mean alpha-sphere Solvent Acc.    : 0.5656
+5  - Mean B-factor of pocket residues  : 0.1891
+6  - Hydrophobicity Score              : 14.1667
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 4.4167
+9  - Pocket volume (Monte Carlo)       : 292.3979
+10  -Pocket volume (convex hull)       : 19.5893
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 1.0000
+13 - Number of apolar alpha sphere     :     2
+14 - Proportion of apolar alpha sphere : 0.0909
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3242    O  OD2 .  ASP   B .  154 ?   14.601  55.095  40.376 -2.28  0   B
+ATOM     3271    O   OG .  SER   B .  158 ?   19.353  51.914  34.201 -4.02  0   B
+ATOM     3255    C   CA .  GLY   B .  156 ?   19.014  56.342  37.269  0.00  0   B
+ATOM     3241    O  OD1 .  ASP   B .  154 ?   16.754  55.332  40.331 -1.07  0   B
+ATOM     3383    C  CE2 .  PHE   B .  174 ?   15.221  45.900  34.664  0.00  0   B
+ATOM     3094    O    O .  ARG   B .  135 ?   14.784  48.309  40.445 -7.50  0   B
+ATOM     3097    C   CD .  ARG   B .  135 ?   10.822  49.558  37.921  0.00  0   B
+ATOM     3504    C  CE2 .  PHE   B .  189 ?   12.691  45.021  38.263  0.00  0   B
+ATOM     3368    O    O .  LYS   B .  173 ?   18.932  47.542  34.352 -3.62  0   B
+ATOM     3109    O  OD2 .  ASP   B .  136 ?   19.063  51.084  39.753 -0.40  0   B
+ATOM     3258    N    N .  LEU   B .  157 ?   20.869  54.873  37.697  0.00  0   B
+ATOM     3095    C   CB .  ARG   B .  135 ?   12.276  49.729  39.764  0.00  0   B
+ATOM     3084    O    O .  HIS   B .  134 ?   12.372  52.048  41.332 -1.07  0   B
+ATOM     3381    C  CD2 .  PHE   B .  174 ?   16.430  45.506  35.243  0.00  0   B
+ATOM     3270    C   CB .  SER   B .  158 ?   20.116  50.947  34.907  0.00  0   B
+ATOM     3326    C  CE2 .  TYR   B .  166 ?   21.152  49.314  38.053  0.00  0   B
+ATOM     3391    C   CD .  PRO   B .  175 ?   19.172  45.854  38.445  0.00  0   B
+ATOM     3106    C   CB .  ASP   B .  136 ?   17.005  50.806  40.933  0.00  0   B
+ATOM     3107    C   CG .  ASP   B .  136 ?   18.465  50.434  40.626  0.00  0   B
+# 

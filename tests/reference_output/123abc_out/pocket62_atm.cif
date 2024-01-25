@@ -1,0 +1,59 @@
+data_pocket62_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    62:
+0  - Pocket Score                      : -0.1675
+1  - Drug Score                        : 0.0006
+2  - Number of alpha spheres           :    21
+3  - Mean alpha-sphere radius          : 4.0782
+4  - Mean alpha-sphere Solvent Acc.    : 0.5576
+5  - Mean B-factor of pocket residues  : 0.4179
+6  - Hydrophobicity Score              : 8.8889
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.4444
+9  - Pocket volume (Monte Carlo)       : 261.8434
+10  -Pocket volume (convex hull)       : 5.7636
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.4286
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2403    C  CD1 .  LEU   B .   46 ?   17.754  64.717  29.739  0.00  0   B
+ATOM     2389    N   NZ .  LYS   B .   44 ?   17.801  61.554  36.438 -1.51  0   B
+ATOM     2434    C   CB .  GLU   B .   52 ?   16.705  61.275  28.123  0.00  0   B
+ATOM     2388    C   CE .  LYS   B .   44 ?   18.651  62.752  36.130  0.00  0   B
+ATOM     2466    C  CD1 .  PHE   B .   56 ?   15.979  65.310  33.477  0.00  0   B
+ATOM     2393    O    O .  THR   B .   45 ?   20.453  66.175  33.081 -0.81  0   B
+ATOM     2464    C   CB .  PHE   B .   56 ?   14.106  64.546  31.972  0.00  0   B
+ATOM     2433    O    O .  GLU   B .   52 ?   14.238  62.376  29.128 -2.14  0   B
+ATOM     2455    C   CB .  GLU   B .   55 ?   12.690  59.522  30.777  0.00  0   B
+ATOM     3277    C   CG .  ARG   B .  159 ?   21.090  55.179  32.234  0.00  0   B
+ATOM     3257    O    O .  GLY   B .  156 ?   20.946  56.177  35.838 -1.88  0   B
+ATOM     3255    C   CA .  GLY   B .  156 ?   19.014  56.342  37.269  0.00  0   B
+ATOM     2460    N    N .  PHE   B .   56 ?   12.605  62.618  31.714  0.00  0   B
+ATOM     2491    O  OE1 .  GLU   B .   59 ?   14.831  61.607  36.581  0.00  0   B
+ATOM     2461    C   CA .  PHE   B .   56 ?   13.136  63.583  32.663  0.00  0   B
+ATOM     2454    O    O .  GLU   B .   55 ?   11.608  61.345  33.284 -1.88  0   B
+ATOM     2453    C    C .  GLU   B .   55 ?   11.948  61.537  32.115  0.00  0   B
+# 

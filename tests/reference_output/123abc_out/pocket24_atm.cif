@@ -1,0 +1,73 @@
+data_pocket24_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    24:
+0  - Pocket Score                      : -0.0278
+1  - Drug Score                        : 0.0029
+2  - Number of alpha spheres           :    41
+3  - Mean alpha-sphere radius          : 3.9593
+4  - Mean alpha-sphere Solvent Acc.    : 0.5927
+5  - Mean B-factor of pocket residues  : 0.1915
+6  - Hydrophobicity Score              : 10.6364
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 3.7273
+9  - Pocket volume (Monte Carlo)       : 470.3947
+10  -Pocket volume (convex hull)       : 89.6285
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 10.0000
+13 - Number of apolar alpha sphere     :    14
+14 - Proportion of apolar alpha sphere : 0.3415
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1634    C   CG .  LEU   A .  218 ?   26.546  36.235  23.630  0.00  0   A
+ATOM     1635    C  CD1 .  LEU   A .  218 ?   26.663  34.961  24.461  0.00  0   A
+ATOM     1625    C   CB .  ASP   A .  217 ?   29.707  40.718  23.735  0.00  0   A
+ATOM     1633    C   CB .  LEU   A .  218 ?   25.982  37.405  24.438  0.00  0   A
+ATOM     1616    O    O .  ILE   A .  216 ?   28.714  38.833  20.120 -0.40  0   A
+ATOM     1208    C   CB .  ASP   A .  164 ?   29.178  31.688  24.167  0.00  0   A
+ATOM     1307    N   NZ .  LYS   A .  177 ?   28.045  36.395  18.402 -5.21  0   A
+ATOM     1636    C  CD2 .  LEU   A .  218 ?   25.660  35.987  22.435  0.00  0   A
+ATOM     1207    O    O .  ASP   A .  164 ?   26.463  31.466  23.365 -2.55  0   A
+ATOM     1306    C   CE .  LYS   A .  177 ?   26.638  36.392  18.974  0.00  0   A
+ATOM     1305    C   CD .  LYS   A .  177 ?   25.713  35.218  18.453  0.00  0   A
+ATOM     1212    O    O .  THR   A .  165 ?   23.541  30.232  22.305 -2.14  0   A
+ATOM     1299    N    N .  LYS   A .  177 ?   21.604  34.670  19.815  0.00  0   A
+ATOM     1586    O    O .  PRO   A .  212 ?   27.163  35.309  15.349 -2.14  0   A
+ATOM     1581    C   CB .  SER   A .  211 ?   29.357  31.629  14.802  0.00  0   A
+ATOM     1320    C  CZ3 .  TRP   A .  178 ?   23.462  30.785  17.625  0.00  0   A
+ATOM     1637    N    N .  SER   A .  219 ?   25.769  40.519  25.023  0.00  0   A
+ATOM     1642    O   OG .  SER   A .  219 ?   26.959  42.469  26.857  0.00  0   A
+ATOM     1641    C   CB .  SER   A .  219 ?   25.796  41.724  27.105  0.00  0   A
+ATOM     1629    N    N .  LEU   A .  218 ?   27.266  38.964  23.188  0.00  0   A
+ATOM     1622    C   CA .  ASP   A .  217 ?   29.148  40.081  22.440  0.00  0   A
+ATOM     1582    O   OG .  SER   A .  211 ?   29.670  30.318  15.225  0.00  0   A
+ATOM     1321    C  CH2 .  TRP   A .  178 ?   24.064  30.155  16.482  0.00  0   A
+ATOM     1214    O  OG1 .  THR   A .  165 ?   26.599  27.686  20.315  0.00  0   A
+ATOM     1206    C    C .  ASP   A .  164 ?   27.100  30.422  23.545  0.00  0   A
+ATOM     1589    C   CD .  PRO   A .  212 ?   25.953  32.242  14.398  0.00  0   A
+ATOM     1204    N    N .  ASP   A .  164 ?   29.062  29.235  24.428 -0.84  0   A
+ATOM     1209    N    N .  THR   A .  165 ?   26.804  29.250  22.931  0.00  0   A
+ATOM     1210    C   CA .  THR   A .  165 ?   25.644  29.125  21.999  0.00  0   A
+ATOM     1611    C    C .  GLY   A .  215 ?   31.790  39.345  18.361  0.00  0   A
+ATOM     1610    C   CA .  GLY   A .  215 ?   32.619  38.349  17.567  0.00  0   A
+# 

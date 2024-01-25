@@ -1,0 +1,57 @@
+data_pocket17_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    17:
+0  - Pocket Score                      : 0.0075
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 3.5999
+4  - Mean alpha-sphere Solvent Acc.    : 0.4164
+5  - Mean B-factor of pocket residues  : 0.1872
+6  - Hydrophobicity Score              : 12.0000
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.0000
+9  - Pocket volume (Monte Carlo)       : 154.0510
+10  -Pocket volume (convex hull)       : 5.2942
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 0.0000
+13 - Number of apolar alpha sphere     :     1
+14 - Proportion of apolar alpha sphere : 0.0526
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3171    O    O .  GLY   B .  145 ?   24.279  62.076  57.870  0.00  0   B
+ATOM     2751    C  CE1 .  TYR   B .   93 ?   27.916  64.065  57.675  0.00  0   B
+ATOM     3181    N    N .  ASN   B .  147 ?   24.353  63.017  61.460 -3.03  0   B
+ATOM     3189    N    N .  HIS   B .  148 ?   23.808  60.293  60.791  0.00  0   B
+ATOM     2872    O  OE1 .  GLU   B .  107 ?   31.484  58.761  62.681 -0.95  0   B
+ATOM     2752    C  CE2 .  TYR   B .   93 ?   30.166  63.254  57.309  0.00  0   B
+ATOM     2873    O  OE2 .  GLU   B .  107 ?   29.348  59.201  62.656 -7.90  0   B
+ATOM     2754    O   OH .  TYR   B .   93 ?   29.703  64.823  59.044  0.00  0   B
+ATOM     2753    C   CZ .  TYR   B .   93 ?   29.259  64.044  58.017  0.00  0   B
+ATOM     2837    N    N .  ASN   B .  104 ?   33.994  55.404  60.098 -1.09  0   B
+ATOM     2835    C   CB .  CYS   B .  103 ?   31.652  54.686  58.227  0.00  0   B
+ATOM     2832    C   CA .  CYS   B .  103 ?   33.088  55.081  57.860  0.00  0   B
+ATOM     3198    N  NE2 .  HIS   B .  148 ?   27.061  57.958  62.310  0.00  0   B
+ATOM     2802    O   OH .  TYR   B .   99 ?   28.273  57.952  59.075 -7.50  0   B
+ATOM     2799    C  CE1 .  TYR   B .   99 ?   29.022  58.408  56.848  0.00  0   B
+# 

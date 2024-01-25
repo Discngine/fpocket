@@ -1,0 +1,57 @@
+data_pocket39_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    39:
+0  - Pocket Score                      : -0.0838
+1  - Drug Score                        : 0.0011
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 4.1431
+4  - Mean alpha-sphere Solvent Acc.    : 0.6139
+5  - Mean B-factor of pocket residues  : 0.2016
+6  - Hydrophobicity Score              : 47.7143
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.4286
+9  - Pocket volume (Monte Carlo)       : 190.3086
+10  -Pocket volume (convex hull)       : 1.6193
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 10.0000
+13 - Number of apolar alpha sphere     :    11
+14 - Proportion of apolar alpha sphere : 0.6471
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3055    C   CA .  ASN   B .  131 ?    1.394  52.314  45.462  0.00  0   B
+ATOM     3518    C  CG2 .  ILE   B .  191 ?    4.483  46.138  47.305  0.00  0   B
+ATOM     3060    O  OD1 .  ASN   B .  131 ?   -1.347  50.610  46.288  0.00  0   B
+ATOM     3058    C   CB .  ASN   B .  131 ?   -0.030  52.121  44.847  0.00  0   B
+ATOM     3030    O    O .  GLU   B .  128 ?    1.796  51.137  48.745 -0.40  0   B
+ATOM     3057    O    O .  ASN   B .  131 ?    2.313  52.477  43.142 -2.55  0   B
+ATOM     3512    N    N .  ILE   B .  191 ?    6.097  46.243  44.562  0.00  0   B
+ATOM     3078    C  CG1 .  ILE   B .  133 ?    5.858  49.201  41.938  0.00  0   B
+ATOM     3516    C   CB .  ILE   B .  191 ?    5.540  47.169  46.814  0.00  0   B
+ATOM     3065    O    O .  PHE   B .  132 ?    5.571  51.429  45.020 -1.07  0   B
+ATOM     3056    C    C .  ASN   B .  131 ?    2.500  52.680  44.372  0.00  0   B
+ATOM     3510    C   CB .  SER   B .  190 ?    5.355  43.862  42.730  0.00  0   B
+ATOM     3507    C   CA .  SER   B .  190 ?    6.118  45.148  42.359  0.00  0   B
+ATOM     3498    O    O .  PHE   B .  189 ?    5.828  44.575  39.646 -5.36  0   B
+ATOM     3080    C  CD1 .  ILE   B .  133 ?    5.253  48.487  40.580  0.00  0   B
+# 

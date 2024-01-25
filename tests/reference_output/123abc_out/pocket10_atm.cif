@@ -1,0 +1,76 @@
+data_pocket10_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    10:
+0  - Pocket Score                      : 0.0405
+1  - Drug Score                        : 0.0230
+2  - Number of alpha spheres           :    57
+3  - Mean alpha-sphere radius          : 3.8604
+4  - Mean alpha-sphere Solvent Acc.    : 0.4592
+5  - Mean B-factor of pocket residues  : 0.2769
+6  - Hydrophobicity Score              : 40.0769
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 3.6154
+9  - Pocket volume (Monte Carlo)       : 433.6981
+10  -Pocket volume (convex hull)       : 76.0139
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 32.4571
+13 - Number of apolar alpha sphere     :    35
+14 - Proportion of apolar alpha sphere : 0.6140
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3335    C  CG2 .  THR   B .  167 ?   23.611  41.302  32.855  0.00  0   B
+ATOM     3339    O    O .  ALA   B .  168 ?   21.154  41.582  30.397  0.00  0   B
+ATOM     1238    O    O .  ALA   A .  168 ?   20.773  34.081  30.515  0.00  0   A
+ATOM     3399    C  CD1 .  ILE   B .  176 ?   22.413  39.457  35.570  0.00  0   B
+ATOM     3397    C  CG1 .  ILE   B .  176 ?   21.483  40.079  36.568  0.00  0   B
+ATOM     3345    C   CB .  HIS   B .  169 ?   17.804  41.919  30.765  0.00  0   B
+ATOM     3378    C   CB .  PHE   B .  174 ?   18.390  43.943  35.478  0.00  0   B
+ATOM     3332    O    O .  THR   B .  167 ?   21.633  44.211  32.694 -1.07  0   B
+ATOM     3735    C   CA .  SER   B .  219 ?   24.536  33.701  35.059  0.00  0   B
+ATOM     3729    O    O .  LEU   B .  218 ?   23.720  35.415  36.830  0.00  0   B
+ATOM     1239    C   CB .  ALA   A .  168 ?   21.952  31.542  32.252  0.00  0   A
+ATOM     3454    O    O .  SER   B .  183 ?   12.618  40.049  35.823 -1.07  0   B
+ATOM     3488    O  OD1 .  ASN   B .  187 ?   12.383  40.631  32.241 -1.07  0   B
+ATOM     3380    C  CD1 .  PHE   B .  174 ?   16.492  43.534  33.887  0.00  0   B
+ATOM     3460    O    O .  LEU   B .  184 ?   14.089  37.175  34.255 -3.21  0   B
+ATOM     3458    C   CA .  LEU   B .  184 ?   14.473  38.083  36.400  0.00  0   B
+ATOM     3348    C  CD2 .  HIS   B .  169 ?   16.267  39.878  30.268  0.00  0   B
+ATOM     1241    C   CA .  HIS   A .  169 ?   18.086  33.603  31.255  0.00  0   A
+ATOM     3760    C   CB .  TYR   B .  222 ?   18.259  32.959  38.062  0.00  0   B
+ATOM     3756    N    N .  TYR   B .  222 ?   20.251  33.164  39.466 -1.09  0   B
+ATOM     3398    C  CG2 .  ILE   B .  176 ?   21.928  38.594  38.565  0.00  0   B
+ATOM     3463    C  CD1 .  LEU   B .  184 ?   17.369  37.208  38.932  0.00  0   B
+ATOM     3737    O    O .  SER   B .  219 ?   23.395  31.686  35.276 -1.07  0   B
+ATOM     3728    C    C .  LEU   B .  218 ?   24.912  35.395  36.613  0.00  0   B
+ATOM     3730    C   CB .  LEU   B .  218 ?   25.994  37.693  36.437  0.00  0   B
+ATOM     3738    C   CB .  SER   B .  219 ?   25.152  33.376  33.704  0.00  0   B
+ATOM     3346    C   CG .  HIS   B .  169 ?   16.549  41.202  30.364  0.00  0   B
+ATOM     3464    C  CD2 .  LEU   B .  184 ?   17.512  38.953  37.066  0.00  0   B
+ATOM     3734    N    N .  SER   B .  219 ?   25.438  34.466  35.848 -1.09  0   B
+ATOM     1247    C  CD2 .  HIS   A .  169 ?   15.907  36.141  30.193  0.00  0   A
+ATOM     3461    C   CB .  LEU   B .  184 ?   15.552  37.271  37.155  0.00  0   B
+ATOM     1250    N    N .  ALA   A .  170 ?   17.224  33.325  33.516 -4.79  0   A
+ATOM     1255    N    N .  GLY   A .  171 ?   17.151  30.558  34.884 -1.09  0   A
+ATOM     1237    C    C .  ALA   A .  168 ?   20.392  32.949  30.818  0.00  0   A
+# 
