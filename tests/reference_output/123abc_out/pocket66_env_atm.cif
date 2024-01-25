@@ -1,0 +1,68 @@
+data_pocket66_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     4555    C   CG .  GLU   C .   55 ?   56.341  60.714   3.218  0.00  0   C
+ATOM     4556    C   CD .  GLU   C .   55 ?   55.575  62.043   3.296  0.00  0   C
+ATOM     4557    O  OE1 .  GLU   C .   55 ?   54.968  62.335   4.361  0.00  0   C
+ATOM     5183    O    O .  HIS   C .  134 ?   50.262  60.307  13.190  0.00  0   C
+ATOM     5191    C   CA .  ARG   C .  135 ?   47.523  59.692  12.738  0.00  0   C
+ATOM     5192    C    C .  ARG   C .  135 ?   47.519  58.173  12.780  0.00  0   C
+ATOM     5193    O    O .  ARG   C .  135 ?   46.759  57.566  12.019 -5.36  0   C
+ATOM     5194    C   CB .  ARG   C .  135 ?   48.071  60.093  11.338  0.00  0   C
+ATOM     5195    C   CG .  ARG   C .  135 ?   47.490  61.351  10.775  0.00  0   C
+ATOM     5196    C   CD .  ARG   C .  135 ?   47.306  61.416   9.264  0.00  0   C
+ATOM     5197    N   NE .  ARG   C .  135 ?   46.696  62.737   9.105 -1.09  0   C
+ATOM     5198    C   CZ .  ARG   C .  135 ?   46.556  63.442   7.986  0.00  0   C
+ATOM     5199    N  NH1 .  ARG   C .  135 ?   46.983  62.955   6.822  0.00  0   C
+ATOM     5201    N    N .  ASP   C .  136 ?   48.364  57.573  13.631  0.00  0   C
+ATOM     5202    C   CA .  ASP   C .  136 ?   48.507  56.131  13.671  0.00  0   C
+ATOM     5205    C   CB .  ASP   C .  136 ?   49.456  55.632  12.561  0.00  0   C
+ATOM     5206    C   CG .  ASP   C .  136 ?   49.286  54.146  12.280  0.00  0   C
+ATOM     5207    O  OD1 .  ASP   C .  136 ?   48.346  53.507  12.825 -1.07  0   C
+ATOM     5208    O  OD2 .  ASP   C .  136 ?   50.099  53.619  11.504 -2.14  0   C
+ATOM     5339    C   CG .  ASP   C .  154 ?   54.313  57.558  12.649  0.00  0   C
+ATOM     5340    O  OD1 .  ASP   C .  154 ?   54.160  56.484  12.072 -0.40  0   C
+ATOM     5341    O  OD2 .  ASP   C .  154 ?   53.714  58.561  12.241 -0.14  0   C
+ATOM     5353    N    N .  GLY   C .  156 ?   55.685  54.235  10.437  0.00  0   C
+ATOM     5354    C   CA .  GLY   C .  156 ?   55.185  54.289   9.070  0.00  0   C
+ATOM     5355    C    C .  GLY   C .  156 ?   54.848  52.901   8.598  0.00  0   C
+ATOM     5357    N    N .  LEU   C .  157 ?   54.092  52.154   9.413  0.00  0   C
+ATOM     5365    N    N .  SER   C .  158 ?   52.073  51.376   7.623  0.00  0   C
+ATOM     5369    C   CB .  SER   C .  158 ?   50.030  52.336   6.523  0.00  0   C
+ATOM     5370    O   OG .  SER   C .  158 ?   50.613  53.457   5.918  0.00  0   C
+ATOM     5407    C  CD2 .  TYR   C .  166 ?   47.632  50.762   8.677  0.00  0   C
+ATOM     5409    C  CE2 .  TYR   C .  166 ?   48.366  51.354   9.734  0.00  0   C
+ATOM     5447    C   CB .  ALA   C .  172 ?   43.707  55.922   1.871  0.00  0   C
+ATOM     5451    O    O .  LYS   C .  173 ?   45.939  53.831   5.611 -3.35  0   C
+ATOM     5458    C   CA .  PHE   C .  174 ?   43.926  52.662   7.080  0.00  0   C
+ATOM     5464    C  CD2 .  PHE   C .  174 ?   43.836  55.575   6.454  0.00  0   C
+ATOM     5466    C  CE2 .  PHE   C .  174 ?   44.006  56.807   5.781  0.00  0   C
+ATOM     5467    C   CZ .  PHE   C .  174 ?   42.999  57.240   4.939  0.00  0   C
+ATOM     5473    C   CG .  PRO   C .  175 ?   45.245  52.318  11.308  0.00  0   C
+ATOM     5474    C   CD .  PRO   C .  175 ?   44.919  52.786   9.923  0.00  0   C
+ATOM     5570    C   CG .  ASN   C .  187 ?   40.923  61.287   4.230  0.00  0   C
+ATOM     5571    O  OD1 .  ASN   C .  187 ?   41.266  60.244   3.646  0.00  0   C
+ATOM     5572    N  ND2 .  ASN   C .  187 ?   41.797  62.120   4.812 -1.68  0   C
+ATOM     5583    C   CG .  PHE   C .  189 ?   43.304  61.272   9.774  0.00  0   C
+ATOM     5584    C  CD1 .  PHE   C .  189 ?   42.704  61.175   8.510  0.00  0   C
+ATOM     5585    C  CD2 .  PHE   C .  189 ?   43.631  60.111  10.470  0.00  0   C
+ATOM     5586    C  CE1 .  PHE   C .  189 ?   42.475  59.937   7.928  0.00  0   C
+ATOM     5587    C  CE2 .  PHE   C .  189 ?   43.380  58.843   9.912  0.00  0   C
+ATOM     5588    C   CZ .  PHE   C .  189 ?   42.798  58.752   8.637  0.00  0   C
+#

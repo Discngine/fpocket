@@ -1,0 +1,64 @@
+data_pocket8_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     3091    N    N .  ARG   B .  135 ?   12.053  50.004  42.176  0.00  0   B
+ATOM     3092    C   CA .  ARG   B .  135 ?   12.705  49.230  41.141  0.00  0   B
+ATOM     3093    C    C .  ARG   B .  135 ?   14.235  49.115  41.170  0.00  0   B
+ATOM     3094    O    O .  ARG   B .  135 ?   14.784  48.309  40.445 -7.50  0   B
+ATOM     3102    N    N .  ASP   B .  136 ?   14.929  49.943  41.933  0.00  0   B
+ATOM     3103    C   CA .  ASP   B .  136 ?   16.383  49.878  41.974  0.00  0   B
+ATOM     3104    C    C .  ASP   B .  136 ?   16.920  50.209  43.358  0.00  0   B
+ATOM     3106    C   CB .  ASP   B .  136 ?   17.005  50.806  40.933  0.00  0   B
+ATOM     3107    C   CG .  ASP   B .  136 ?   18.465  50.434  40.626  0.00  0   B
+ATOM     3108    O  OD1 .  ASP   B .  136 ?   19.011  49.469  41.230 -2.14  0   B
+ATOM     3110    N    N .  LEU   B .  137 ?   16.422  49.499  44.360  0.00  0   B
+ATOM     3111    C   CA .  LEU   B .  137 ?   16.731  49.771  45.760  0.00  0   B
+ATOM     3112    C    C .  LEU   B .  137 ?   18.090  49.172  46.110  0.00  0   B
+ATOM     3113    O    O .  LEU   B .  137 ?   18.337  48.000  45.819  0.00  0   B
+ATOM     3388    O    O .  PRO   B .  175 ?   20.054  43.224  40.214  0.00  0   B
+ATOM     3390    C   CG .  PRO   B .  175 ?   19.698  46.334  39.774  0.00  0   B
+ATOM     3391    C   CD .  PRO   B .  175 ?   19.172  45.854  38.445  0.00  0   B
+ATOM     3410    C   CA .  TRP   B .  178 ?   19.406  42.932  43.762  0.00  0   B
+ATOM     3411    C    C .  TRP   B .  178 ?   17.979  42.654  43.286  0.00  0   B
+ATOM     3412    O    O .  TRP   B .  178 ?   17.070  43.153  43.902 -1.07  0   B
+ATOM     3413    C   CB .  TRP   B .  178 ?   19.637  44.463  43.721  0.00  0   B
+ATOM     3414    C   CG .  TRP   B .  178 ?   20.760  44.954  44.608  0.00  0   B
+ATOM     3423    N    N .  THR   B .  179 ?   17.847  41.874  42.203  0.00  0   B
+ATOM     3424    C   CA .  THR   B .  179 ?   16.640  41.574  41.420  0.00  0   B
+ATOM     3425    C    C .  THR   B .  179 ?   15.955  40.259  41.768  0.00  0   B
+ATOM     3427    C   CB .  THR   B .  179 ?   16.925  41.536  39.918  0.00  0   B
+ATOM     3428    O  OG1 .  THR   B .  179 ?   17.578  42.752  39.553 -2.14  0   B
+ATOM     3429    C  CG2 .  THR   B .  179 ?   15.657  41.402  39.083  0.00  0   B
+ATOM     3430    N    N .  ALA   B .  180 ?   14.649  40.348  42.018 -1.09  0   B
+ATOM     3434    C   CB .  ALA   B .  180 ?   12.545  39.752  43.114  0.00  0   B
+ATOM     3455    C   CB .  SER   B .  183 ?   12.200  41.163  38.765  0.00  0   B
+ATOM     3456    O   OG .  SER   B .  183 ?   11.431  41.493  39.907 -1.07  0   B
+ATOM     3502    C  CD2 .  PHE   B .  189 ?   11.410  45.318  38.790  0.00  0   B
+ATOM     3504    C  CE2 .  PHE   B .  189 ?   12.691  45.021  38.263  0.00  0   B
+ATOM     3505    C   CZ .  PHE   B .  189 ?   12.791  44.477  36.970  0.00  0   B
+ATOM     3530    C   CA .  SER   B .  193 ?   10.424  42.959  44.217  0.00  0   B
+ATOM     3531    C    C .  SER   B .  193 ?   11.347  43.982  44.885  0.00  0   B
+ATOM     3532    O    O .  SER   B .  193 ?   12.521  43.699  45.063 -0.40  0   B
+ATOM     3533    C   CB .  SER   B .  193 ?   10.504  42.962  42.683  0.00  0   B
+ATOM     3534    O   OG .  SER   B .  193 ?   10.075  44.183  42.189  0.00  0   B
+ATOM     3535    N    N .  ASP   B .  194 ?   10.776  45.113  45.333  0.00  0   B
+ATOM     3536    C   CA .  ASP   B .  194 ?   11.517  46.125  46.174  0.00  0   B
+ATOM     3541    O  OD1 .  ASP   B .  194 ?   11.338  47.979  44.258 -3.21  0   B
+ATOM     3568    C   CB .  ALA   B .  197 ?   15.820  45.286  45.971  0.00  0   B
+#

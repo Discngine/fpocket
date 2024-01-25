@@ -1,0 +1,54 @@
+data_pocket31_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      302    C   CA .  LEU   A .   46 ?   15.918   8.854  29.945  0.00  0   A
+ATOM      303    C    C .  LEU   A .   46 ?   16.720   8.211  31.087  0.00  0   A
+ATOM      304    O    O .  LEU   A .   46 ?   16.573   7.011  31.379 -2.14  0   A
+ATOM      305    C   CB .  LEU   A .   46 ?   14.483   9.154  30.366  0.00  0   A
+ATOM      306    C   CG .  LEU   A .   46 ?   14.285  10.407  31.218  0.00  0   A
+ATOM      308    C  CD2 .  LEU   A .   46 ?   12.808  10.745  31.273  0.00  0   A
+ATOM      311    C    C .  LYS   A .   47 ?   18.202   7.333  33.490  0.00  0   A
+ATOM      312    O    O .  LYS   A .   47 ?   19.128   6.617  33.897  0.00  0   A
+ATOM      318    C   CB .  ASP   A .   49 ?   15.460   8.001  36.408  0.00  0   A
+ATOM      319    C   CG .  ASP   A .   49 ?   15.469   6.493  36.614  0.00  0   A
+ATOM      320    O  OD1 .  ASP   A .   49 ?   16.422   5.816  36.164 -0.95  0   A
+ATOM      321    O  OD2 .  ASP   A .   49 ?   14.516   5.990  37.244 -0.95  0   A
+ATOM      325    O    O .  THR   A .   50 ?   13.753  11.886  36.017 -0.54  0   A
+ATOM      344    C   CA .  VAL   A .   53 ?    9.902  12.497  32.989  0.00  0   A
+ATOM      347    C   CB .  VAL   A .   53 ?    9.518  11.423  34.079  0.00  0   A
+ATOM      348    C  CG1 .  VAL   A .   53 ?    9.081  12.091  35.427  0.00  0   A
+ATOM      349    C  CG2 .  VAL   A .   53 ?    8.506  10.392  33.534  0.00  0   A
+ATOM      557    C   CA .  PRO   A .   82 ?   11.584   2.421  32.113  0.00  0   A
+ATOM      558    C    C .  PRO   A .   82 ?   12.478   1.262  31.610  0.00  0   A
+ATOM      560    C   CB .  PRO   A .   82 ?   12.030   2.927  33.492  0.00  0   A
+ATOM      561    C   CG .  PRO   A .   82 ?   10.732   3.280  34.195  0.00  0   A
+ATOM      563    N    N .  PRO   A .   83 ?   13.592   1.581  30.904  0.00  0   A
+ATOM      564    C   CA .  PRO   A .   83 ?   14.000   2.962  30.575  0.00  0   A
+ATOM      565    C    C .  PRO   A .   83 ?   13.073   3.538  29.477  0.00  0   A
+ATOM      567    C   CB .  PRO   A .   83 ?   15.457   2.812  30.082  0.00  0   A
+ATOM      568    C   CG .  PRO   A .   83 ?   15.808   1.347  30.237  0.00  0   A
+ATOM      569    C   CD .  PRO   A .   83 ?   14.509   0.587  30.313  0.00  0   A
+ATOM      570    N    N .  PHE   A .   84 ?   12.779   4.833  29.577  0.00  0   A
+ATOM      571    C   CA .  PHE   A .   84 ?   11.890   5.469  28.614  0.00  0   A
+ATOM      574    C   CB .  PHE   A .   84 ?   11.248   6.723  29.215  0.00  0   A
+ATOM      575    C   CG .  PHE   A .   84 ?   10.188   6.434  30.264  0.00  0   A
+ATOM      576    C  CD1 .  PHE   A .   84 ?   10.020   7.279  31.353  0.00  0   A
+ATOM      578    C  CE1 .  PHE   A .   84 ?    9.022   7.022  32.326  0.00  0   A
+ATOM      580    C   CZ .  PHE   A .   84 ?    8.195   5.904  32.211  0.00  0   A
+#

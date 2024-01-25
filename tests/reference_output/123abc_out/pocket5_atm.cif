@@ -1,0 +1,77 @@
+data_pocket5_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     5:
+0  - Pocket Score                      : 0.3705
+1  - Drug Score                        : 0.6101
+2  - Number of alpha spheres           :    60
+3  - Mean alpha-sphere radius          : 4.0461
+4  - Mean alpha-sphere Solvent Acc.    : 0.4690
+5  - Mean B-factor of pocket residues  : 0.1493
+6  - Hydrophobicity Score              : 58.2308
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.3077
+9  - Pocket volume (Monte Carlo)       : 549.3884
+10  -Pocket volume (convex hull)       : 96.8654
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 49.5000
+13 - Number of apolar alpha sphere     :    52
+14 - Proportion of apolar alpha sphere : 0.8667
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     2508    C  CG1 .  VAL   B .   62 ?    7.718  59.549  41.080  0.00  0   B
+ATOM     3076    O    O .  ILE   B .  133 ?    8.988  52.408  41.905  0.00  0   B
+ATOM     3069    C  CD2 .  PHE   B .  132 ?    4.477  56.385  43.019  0.00  0   B
+ATOM     2509    C  CG2 .  VAL   B .   62 ?    6.978  59.785  38.756  0.00  0   B
+ATOM     3025    C  CD1 .  LEU   B .  127 ?    9.702  54.435  47.341  0.00  0   B
+ATOM     3026    C  CD2 .  LEU   B .  127 ?    8.027  56.410  47.298  0.00  0   B
+ATOM     2543    C  CD1 .  ILE   B .   66 ?    9.049  60.261  45.133  0.00  0   B
+ATOM     2489    C   CG .  GLU   B .   59 ?   12.912  61.584  38.000  0.00  0   B
+ATOM     3242    O  OD2 .  ASP   B .  154 ?   14.601  55.095  40.376 -2.28  0   B
+ATOM     3066    C   CB .  PHE   B .  132 ?    5.678  54.653  44.412  0.00  0   B
+ATOM     2581    C  CD2 .  LEU   B .   71 ?   11.963  57.906  48.797  0.00  0   B
+ATOM     2515    C   CG .  MET   B .   63 ?   11.420  63.142  42.201  0.00  0   B
+ATOM     2487    O    O .  GLU   B .   59 ?   10.134  62.970  39.010  0.00  0   B
+ATOM     2492    O  OE2 .  GLU   B .   59 ?   15.137  61.777  38.754 -1.07  0   B
+ATOM     3238    O    O .  ASP   B .  154 ?   17.212  58.730  41.018 -2.14  0   B
+ATOM     2516    S   SD .  MET   B .   63 ?   13.035  63.861  41.900  0.00  0   B
+ATOM     2485    C   CA .  GLU   B .   59 ?   10.598  61.833  36.936  0.00  0   B
+ATOM     3067    C   CG .  PHE   B .  132 ?    5.050  56.008  44.216  0.00  0   B
+ATOM     3239    C   CB .  ASP   B .  154 ?   15.520  56.620  41.941  0.00  0   B
+ATOM     3082    C   CA .  HIS   B .  134 ?   11.204  51.936  43.425  0.00  0   B
+ATOM     3084    O    O .  HIS   B .  134 ?   12.372  52.048  41.332 -1.07  0   B
+ATOM     2517    C   CE .  MET   B .   63 ?   12.925  63.606  40.197  0.00  0   B
+ATOM     2587    C  CG1 .  VAL   B .   72 ?   15.898  62.083  46.401  0.00  0   B
+ATOM     2585    O    O .  VAL   B .   72 ?   13.589  63.555  47.823 -6.43  0   B
+ATOM     2507    C   CB .  VAL   B .   62 ?    7.614  60.492  39.897  0.00  0   B
+ATOM     3088    C  CD2 .  HIS   B .  134 ?   13.677  53.645  45.361  0.00  0   B
+ATOM     2578    C   CB .  LEU   B .   71 ?   11.847  60.163  50.003  0.00  0   B
+ATOM     2582    N    N .  VAL   B .   72 ?   14.795  61.577  49.299  0.00  0   B
+ATOM     3232    C    C .  ALA   B .  153 ?   16.808  57.271  45.022  0.00  0   B
+ATOM     3228    C  CG1 .  VAL   B .  152 ?   14.649  55.215  48.434  0.00  0   B
+ATOM     3233    O    O .  ALA   B .  153 ?   16.715  56.081  45.265  0.00  0   B
+ATOM     3090    N  NE2 .  HIS   B .  134 ?   14.927  54.021  44.912  0.00  0   B
+ATOM     3235    N    N .  ASP   B .  154 ?   16.818  57.772  43.787  0.00  0   B
+ATOM     3231    C   CA .  ALA   B .  153 ?   16.870  58.262  46.164  0.00  0   B
+ATOM     3226    O    O .  VAL   B .  152 ?   15.512  58.760  48.708  0.00  0   B
+# 

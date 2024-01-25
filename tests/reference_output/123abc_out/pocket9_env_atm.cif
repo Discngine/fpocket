@@ -1,0 +1,62 @@
+data_pocket9_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     7261    N    N .  ARG   D .  135 ?   45.664  12.631  47.032  0.00  0   D
+ATOM     7262    C   CA .  ARG   D .  135 ?   45.099  13.361  48.191  0.00  0   D
+ATOM     7263    C    C .  ARG   D .  135 ?   45.194  14.890  48.167  0.00  0   D
+ATOM     7264    O    O .  ARG   D .  135 ?   44.463  15.556  48.886 -7.50  0   D
+ATOM     7272    N    N .  ASP   D .  136 ?   46.119  15.440  47.397  0.00  0   D
+ATOM     7273    C   CA .  ASP   D .  136 ?   46.293  16.865  47.367  0.00  0   D
+ATOM     7274    C    C .  ASP   D .  136 ?   46.798  17.301  45.998  0.00  0   D
+ATOM     7276    C   CB .  ASP   D .  136 ?   47.292  17.288  48.446  0.00  0   D
+ATOM     7277    C   CG .  ASP   D .  136 ?   47.376  18.798  48.608  0.00  0   D
+ATOM     7278    O  OD1 .  ASP   D .  136 ?   46.519  19.552  48.035  0.00  0   D
+ATOM     7280    N    N .  LEU   D .  137 ?   46.066  16.946  44.960 -1.09  0   D
+ATOM     7281    C   CA .  LEU   D .  137 ?   46.509  17.307  43.612  0.00  0   D
+ATOM     7282    C    C .  LEU   D .  137 ?   46.120  18.793  43.322  0.00  0   D
+ATOM     7283    O    O .  LEU   D .  137 ?   45.006  19.246  43.693  0.00  0   D
+ATOM     7566    O    O .  PRO   D .  175 ?   40.896  22.079  49.186  0.00  0   D
+ATOM     7568    C   CG .  PRO   D .  175 ?   43.636  20.914  49.650  0.00  0   D
+ATOM     7569    C   CD .  PRO   D .  175 ?   43.515  20.615  51.141  0.00  0   D
+ATOM     7588    C   CA .  TRP   D .  178 ?   40.412  21.560  45.535  0.00  0   D
+ATOM     7589    C    C .  TRP   D .  178 ?   39.718  20.266  46.025  0.00  0   D
+ATOM     7590    O    O .  TRP   D .  178 ?   39.888  19.212  45.417 -3.21  0   D
+ATOM     7591    C   CB .  TRP   D .  178 ?   41.932  21.346  45.539  0.00  0   D
+ATOM     7601    N    N .  THR   D .  179 ?   38.999  20.336  47.144  0.00  0   D
+ATOM     7602    C   CA .  THR   D .  179 ?   38.549  19.139  47.871  0.00  0   D
+ATOM     7603    C    C .  THR   D .  179 ?   37.124  18.662  47.435  0.00  0   D
+ATOM     7605    C   CB .  THR   D .  179 ?   38.678  19.401  49.419  0.00  0   D
+ATOM     7606    O  OG1 .  THR   D .  179 ?   40.025  19.814  49.696 -3.21  0   D
+ATOM     7607    C  CG2 .  THR   D .  179 ?   38.338  18.164  50.272  0.00  0   D
+ATOM     7608    N    N .  ALA   D .  180 ?   36.932  17.360  47.310 -1.09  0   D
+ATOM     7612    C   CB .  ALA   D .  180 ?   35.842  15.512  46.229  0.00  0   D
+ATOM     7633    C   CB .  SER   D .  183 ?   37.269  14.756  50.408  0.00  0   D
+ATOM     7634    O   OG .  SER   D .  183 ?   37.376  13.753  49.412  0.00  0   D
+ATOM     7680    C  CD2 .  PHE   D .  189 ?   41.136  13.191  50.351  0.00  0   D
+ATOM     7682    C  CE2 .  PHE   D .  189 ?   41.053  14.469  50.857  0.00  0   D
+ATOM     7708    C   CA .  SER   D .  193 ?   38.377  12.692  44.903  0.00  0   D
+ATOM     7709    C    C .  SER   D .  193 ?   39.637  13.326  44.283  0.00  0   D
+ATOM     7710    O    O .  SER   D .  193 ?   39.685  14.532  44.131 -3.21  0   D
+ATOM     7711    C   CB .  SER   D .  193 ?   38.351  12.698  46.419  0.00  0   D
+ATOM     7712    O   OG .  SER   D .  193 ?   39.487  12.076  46.933  0.00  0   D
+ATOM     7713    N    N .  ASP   D .  194 ?   40.625  12.530  43.860  0.00  0   D
+ATOM     7714    C   CA .  ASP   D .  194 ?   41.728  13.014  43.013  0.00  0   D
+ATOM     7719    O  OD1 .  ASP   D .  194 ?   43.807  12.342  44.964 -1.07  0   D
+ATOM     7746    C   CB .  ALA   D .  197 ?   41.930  17.383  43.413  0.00  0   D
+#

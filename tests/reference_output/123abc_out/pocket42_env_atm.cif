@@ -1,0 +1,62 @@
+data_pocket42_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      656    C   CG .  TYR   A .   93 ?   25.376  12.665   4.726  0.00  0   A
+ATOM      657    C  CD1 .  TYR   A .   93 ?   24.422  12.108   3.886  0.00  0   A
+ATOM      658    C  CD2 .  TYR   A .   93 ?   26.724  12.321   4.519  0.00  0   A
+ATOM      659    C  CE1 .  TYR   A .   93 ?   24.794  11.282   2.833  0.00  0   A
+ATOM      660    C  CE2 .  TYR   A .   93 ?   27.114  11.475   3.462  0.00  0   A
+ATOM      661    C   CZ .  TYR   A .   93 ?   26.143  10.980   2.627  0.00  0   A
+ATOM      662    O   OH .  TYR   A .   93 ?   26.484  10.167   1.583  0.00  0   A
+ATOM      705    C  CD1 .  TYR   A .   99 ?   26.373  16.990   4.994  0.00  0   A
+ATOM      707    C  CE1 .  TYR   A .   99 ?   26.331  16.631   3.680  0.00  0   A
+ATOM      709    C   CZ .  TYR   A .   99 ?   25.909  17.547   2.739  0.00  0   A
+ATOM      710    O   OH .  TYR   A .   99 ?   25.888  17.152   1.431 -8.57  0   A
+ATOM      740    C   CA .  CYS   A .  103 ?   30.964  19.539   2.857  0.00  0   A
+ATOM      741    C    C .  CYS   A .  103 ?   31.944  19.950   1.700  0.00  0   A
+ATOM      743    C   CB .  CYS   A .  103 ?   29.537  20.026   2.534  0.00  0   A
+ATOM      745    N    N .  ASN   A .  104 ?   31.730  19.297   0.561 -0.42  0   A
+ATOM      749    C   CB .  ASN   A .  104 ?   32.357  18.296  -1.572  0.00  0   A
+ATOM      779    C   CD .  GLU   A .  107 ?   28.108  16.250  -2.471  0.00  0   A
+ATOM      780    O  OE1 .  GLU   A .  107 ?   29.287  15.840  -2.292 -1.21  0   A
+ATOM      781    O  OE2 .  GLU   A .  107 ?   27.157  15.861  -1.749  0.00  0   A
+ATOM      788    C  CG2 .  VAL   A .  108 ?   26.888  19.954  -0.298  0.00  0   A
+ATOM     1072    C    C .  GLY   A .  145 ?   20.887  12.450   3.105  0.00  0   A
+ATOM     1073    O    O .  GLY   A .  145 ?   21.415  13.457   2.663 -1.07  0   A
+ATOM     1075    C   CA .  GLU   A .  146 ?   21.218  11.144   1.060  0.00  0   A
+ATOM     1076    C    C .  GLU   A .  146 ?   20.549  12.112   0.118  0.00  0   A
+ATOM     1078    C   CB .  GLU   A .  146 ?   20.949   9.685   0.616  0.00  0   A
+ATOM     1079    C   CG .  GLU   A .  146 ?   22.230   8.830   0.443  0.00  0   A
+ATOM     1080    C   CD .  GLU   A .  146 ?   22.755   8.215   1.744  0.00  0   A
+ATOM     1082    O  OE2 .  GLU   A .  146 ?   24.011   8.134   1.903  0.00  0   A
+ATOM     1083    N    N .  ASN   A .  147 ?   21.328  12.618  -0.841 -3.70  0   A
+ATOM     1084    C   CA .  ASN   A .  147 ?   20.821  13.486  -1.894  0.00  0   A
+ATOM     1085    C    C .  ASN   A .  147 ?   20.400  14.894  -1.403  0.00  0   A
+ATOM     1087    C   CB .  ASN   A .  147 ?   19.689  12.778  -2.710  0.00  0   A
+ATOM     1088    C   CG .  ASN   A .  147 ?   20.197  11.521  -3.505  0.00  0   A
+ATOM     1089    O  OD1 .  ASN   A .  147 ?   21.078  11.639  -4.365  0.00  0   A
+ATOM     1090    N  ND2 .  ASN   A .  147 ?   19.622  10.330  -3.208  0.00  0   A
+ATOM     1091    N    N .  HIS   A .  148 ?   20.978  15.301  -0.266  0.00  0   A
+ATOM     1092    C   CA .  HIS   A .  148 ?   20.780  16.627   0.314  0.00  0   A
+ATOM     1096    C   CG .  HIS   A .  148 ?   22.389  17.558  -1.409  0.00  0   A
+ATOM     1097    N  ND1 .  HIS   A .  148 ?   22.525  17.342  -2.765  0.00  0   A
+ATOM     1098    C  CD2 .  HIS   A .  148 ?   23.649  17.575  -0.897  0.00  0   A
+ATOM     1099    C  CE1 .  HIS   A .  148 ?   23.808  17.248  -3.067  0.00  0   A
+ATOM     1100    N  NE2 .  HIS   A .  148 ?   24.508  17.369  -1.950  0.00  0   A
+#

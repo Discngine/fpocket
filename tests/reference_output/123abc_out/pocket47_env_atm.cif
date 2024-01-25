@@ -1,0 +1,55 @@
+data_pocket47_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     7990    C   CA .  ASP   D .  228 ?   25.068  22.711  41.653  0.00  0   D
+ATOM     7991    C    C .  ASP   D .  228 ?   25.867  23.894  41.038  0.00  0   D
+ATOM     7992    O    O .  ASP   D .  228 ?   25.989  24.005  39.797 -2.14  0   D
+ATOM     7993    C   CB .  ASP   D .  228 ?   23.909  22.355  40.719  0.00  0   D
+ATOM     7994    C   CG .  ASP   D .  228 ?   23.230  21.073  41.099  0.00  0   D
+ATOM     7995    O  OD1 .  ASP   D .  228 ?   23.937  20.166  41.574  0.00  0   D
+ATOM     7996    O  OD2 .  ASP   D .  228 ?   21.973  20.977  40.980  0.00  0   D
+ATOM     8014    C   CG .  ARG   D .  230 ?   29.589  22.666  38.965  0.00  0   D
+ATOM     8015    C   CD .  ARG   D .  230 ?   30.466  21.926  39.894  0.00  0   D
+ATOM     8016    N   NE .  ARG   D .  230 ?   29.923  20.631  40.375 -1.09  0   D
+ATOM     8017    C   CZ .  ARG   D .  230 ?   29.005  20.440  41.332  0.00  0   D
+ATOM     8018    N  NH1 .  ARG   D .  230 ?   28.421  21.481  41.969  0.00  0   D
+ATOM     8019    N  NH2 .  ARG   D .  230 ?   28.652  19.180  41.632  0.00  0   D
+ATOM     8136    C   CA .  ARG   D .  246 ?   32.491  19.430  34.606  0.00  0   D
+ATOM     8137    C    C .  ARG   D .  246 ?   32.347  17.982  35.077  0.00  0   D
+ATOM     8138    O    O .  ARG   D .  246 ?   31.809  17.734  36.185 -1.07  0   D
+ATOM     8139    C   CB .  ARG   D .  246 ?   31.363  19.756  33.630  0.00  0   D
+ATOM     8140    C   CG .  ARG   D .  246 ?   31.207  21.192  33.434  0.00  0   D
+ATOM     8141    C   CD .  ARG   D .  246 ?   31.167  21.798  34.809  0.00  0   D
+ATOM     8142    N   NE .  ARG   D .  246 ?   30.503  23.078  34.713  0.00  0   D
+ATOM     8143    C   CZ .  ARG   D .  246 ?   29.189  23.275  34.707  0.00  0   D
+ATOM     8144    N  NH1 .  ARG   D .  246 ?   28.330  22.273  34.849  0.00  0   D
+ATOM     8159    C    C .  TRP   D .  249 ?   31.650  17.274  39.388  0.00  0   D
+ATOM     8160    O    O .  TRP   D .  249 ?   30.795  17.904  40.024  0.00  0   D
+ATOM     8161    C   CB .  TRP   D .  249 ?   33.047  19.385  39.024  0.00  0   D
+ATOM     8171    N    N .  GLN   D .  250 ?   31.385  16.077  38.860  0.00  0   D
+ATOM     8172    C   CA .  GLN   D .  250 ?   30.091  15.426  39.094  0.00  0   D
+ATOM     8173    C    C .  GLN   D .  250 ?   29.914  15.244  40.586  0.00  0   D
+ATOM     8175    C   CB .  GLN   D .  250 ?   29.995  14.061  38.378  0.00  0   D
+ATOM     8177    C   CD .  GLN   D .  250 ?   28.550  14.796  36.486  0.00  0   D
+ATOM     8178    O  OE1 .  GLN   D .  250 ?   27.483  14.463  37.031 -1.21  0   D
+ATOM     8179    N  NE2 .  GLN   D .  250 ?   28.626  15.773  35.556  0.00  0   D
+ATOM     8180    N    N .  TRP   D .  251 ?   28.739  15.556  41.119 -4.37  0   D
+ATOM     8181    C   CA .  TRP   D .  251 ?   28.564  15.418  42.557  0.00  0   D
+ATOM     8184    C   CB .  TRP   D .  251 ?   27.124  15.802  42.940  0.00  0   D
+#

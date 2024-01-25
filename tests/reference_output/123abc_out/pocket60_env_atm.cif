@@ -1,0 +1,48 @@
+data_pocket60_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5393    N    N .  THR   C .  165 ?   45.602  44.348   9.551 -4.79  0   C
+ATOM     5394    C   CA .  THR   C .  165 ?   45.817  45.534  10.379  0.00  0   C
+ATOM     5395    C    C .  THR   C .  165 ?   45.500  46.814   9.603  0.00  0   C
+ATOM     5396    O    O .  THR   C .  165 ?   44.714  47.622  10.079 -4.29  0   C
+ATOM     5397    C   CB .  THR   C .  165 ?   47.238  45.564  10.982  0.00  0   C
+ATOM     5398    O  OG1 .  THR   C .  165 ?   47.400  44.396  11.802  0.00  0   C
+ATOM     5475    N    N .  ILE   C .  176 ?   41.666  50.004  10.143  0.00  0   C
+ATOM     5483    N    N .  LYS   C .  177 ?   40.436  49.294  12.646  0.00  0   C
+ATOM     5484    C   CA .  LYS   C .  177 ?   40.022  49.054  14.044  0.00  0   C
+ATOM     5487    C   CB .  LYS   C .  177 ?   40.329  47.612  14.447  0.00  0   C
+ATOM     5488    C   CG .  LYS   C .  177 ?   39.413  46.574  13.764  0.00  0   C
+ATOM     5489    C   CD .  LYS   C .  177 ?   39.773  45.105  14.090  0.00  0   C
+ATOM     5490    C   CE .  LYS   C .  177 ?   38.712  44.170  13.440  0.00  0   C
+ATOM     5491    N   NZ .  LYS   C .  177 ?   38.513  42.817  14.056  0.00  0   C
+ATOM     5502    C  CE3 .  TRP   C .  178 ?   44.014  48.936  14.571  0.00  0   C
+ATOM     5504    C  CZ3 .  TRP   C .  178 ?   44.309  47.583  14.487  0.00  0   C
+ATOM     5505    C  CH2 .  TRP   C .  178 ?   44.938  46.925  15.557  0.00  0   C
+ATOM     5758    C   CA .  SER   C .  211 ?   43.542  42.277  18.397  0.00  0   C
+ATOM     5759    C    C .  SER   C .  211 ?   42.199  42.862  18.815  0.00  0   C
+ATOM     5761    C   CB .  SER   C .  211 ?   43.393  41.351  17.194  0.00  0   C
+ATOM     5762    O   OG .  SER   C .  211 ?   44.690  40.816  16.932 -2.69  0   C
+ATOM     5763    N    N .  PRO   C .  212 ?   41.986  44.168  18.561  0.00  0   C
+ATOM     5766    O    O .  PRO   C .  212 ?   39.863  43.715  16.998  0.00  0   C
+ATOM     5768    C   CG .  PRO   C .  212 ?   42.018  46.327  17.717  0.00  0   C
+ATOM     5769    C   CD .  PRO   C .  212 ?   42.913  45.141  17.978  0.00  0   C
+ATOM     5814    C   CG .  LEU   C .  218 ?   38.771  44.284   8.980  0.00  0   C
+ATOM     5815    C  CD1 .  LEU   C .  218 ?   39.936  44.139   7.939  0.00  0   C
+ATOM     5816    C  CD2 .  LEU   C .  218 ?   39.150  45.253  10.131  0.00  0   C
+#

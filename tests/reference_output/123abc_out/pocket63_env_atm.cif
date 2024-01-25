@@ -1,0 +1,91 @@
+data_pocket63_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6418    C    C .  TYR   D .   26 ?   59.161  22.932  51.826  0.00  0   D
+ATOM     6419    O    O .  TYR   D .   26 ?   59.073  21.717  51.991 -1.07  0   D
+ATOM     6429    C   CA .  GLY   D .   27 ?   59.984  23.300  54.082  0.00  0   D
+ATOM     6430    C    C .  GLY   D .   27 ?   61.475  23.035  54.007  0.00  0   D
+ATOM     6432    N    N .  GLU   D .   28 ?   61.845  21.923  54.635  0.00  0   D
+ATOM     6433    C   CA .  GLU   D .   28 ?   63.225  21.471  54.714  0.00  0   D
+ATOM     6434    C    C .  GLU   D .   28 ?   63.629  20.752  53.419  0.00  0   D
+ATOM     6435    O    O .  GLU   D .   28 ?   63.737  19.537  53.392  0.00  0   D
+ATOM     6436    C   CB .  GLU   D .   28 ?   63.386  20.579  55.972  0.00  0   D
+ATOM     6437    C   CG .  GLU   D .   28 ?   63.244  21.380  57.283  0.00  0   D
+ATOM     6447    C  CG2 .  VAL   D .   29 ?   61.867  19.746  50.754  0.00  0   D
+ATOM     6569    C   CG .  LYS   D .   44 ?   61.806  16.127  52.262  0.00  0   D
+ATOM     6570    C   CD .  LYS   D .   44 ?   60.499  15.433  51.975  0.00  0   D
+ATOM     6571    C   CE .  LYS   D .   44 ?   59.381  16.004  52.877  0.00  0   D
+ATOM     6572    N   NZ .  LYS   D .   44 ?   57.996  15.644  52.375 -3.28  0   D
+ATOM     6575    C    C .  THR   D .   45 ?   64.442  16.516  56.190  0.00  0   D
+ATOM     6576    O    O .  THR   D .   45 ?   63.242  16.617  55.888 -2.55  0   D
+ATOM     6580    N    N .  LEU   D .   46 ?   64.881  16.402  57.443  0.00  0   D
+ATOM     6581    C   CA .  LEU   D .   46 ?   64.050  16.252  58.626  0.00  0   D
+ATOM     6582    C    C .  LEU   D .   46 ?   64.704  17.100  59.743  0.00  0   D
+ATOM     6584    C   CB .  LEU   D .   46 ?   64.014  14.752  58.976  0.00  0   D
+ATOM     6585    C   CG .  LEU   D .   46 ?   62.835  14.127  59.732  0.00  0   D
+ATOM     6586    C  CD1 .  LEU   D .   46 ?   61.481  14.690  59.255  0.00  0   D
+ATOM     6588    N    N .  LYS   D .   47 ?   63.948  17.986  60.414 -1.51  0   D
+ATOM     6589    C   CA .  LYS   D .   47 ?   64.474  18.789  61.572  0.00  0   D
+ATOM     6590    C    C .  LYS   D .   47 ?   64.840  17.967  62.827  0.00  0   D
+ATOM     6591    O    O .  LYS   D .   47 ?   64.182  16.959  63.126 -0.40  0   D
+ATOM     6592    C   CB .  LYS   D .   47 ?   63.508  19.915  61.962  0.00  0   D
+ATOM     6598    N    N .  MET   D .   51 ?   59.884  14.683  65.188  0.00  0   D
+ATOM     6600    C    C .  MET   D .   51 ?   58.059  13.068  64.616  0.00  0   D
+ATOM     6603    N    N .  GLU   D .   52 ?   58.522  13.196  63.369  0.00  0   D
+ATOM     6604    C   CA .  GLU   D .   52 ?   57.807  12.680  62.181  0.00  0   D
+ATOM     6605    C    C .  GLU   D .   52 ?   58.639  11.735  61.266  0.00  0   D
+ATOM     6606    O    O .  GLU   D .   52 ?   58.444  11.715  60.041 -0.40  0   D
+ATOM     6607    C   CB .  GLU   D .   52 ?   57.211  13.851  61.368  0.00  0   D
+ATOM     6625    C   CA .  GLU   D .   55 ?   55.965   9.354  58.454  0.00  0   D
+ATOM     6626    C    C .  GLU   D .   55 ?   56.900   9.604  57.277  0.00  0   D
+ATOM     6627    O    O .  GLU   D .   55 ?   56.504   9.379  56.126 -3.21  0   D
+ATOM     6628    C   CB .  GLU   D .   55 ?   55.257  10.663  58.824  0.00  0   D
+ATOM     6629    C   CG .  GLU   D .   55 ?   54.143  11.051  57.889  0.00  0   D
+ATOM     6630    C   CD .  GLU   D .   55 ?   52.863  10.284  58.185  0.00  0   D
+ATOM     6631    O  OE1 .  GLU   D .   55 ?   52.035  10.097  57.244  0.00  0   D
+ATOM     6632    O  OE2 .  GLU   D .   55 ?   52.704   9.861  59.365 -0.81  0   D
+ATOM     6633    N    N .  PHE   D .   56 ?   58.108  10.095  57.587  0.00  0   D
+ATOM     6634    C   CA .  PHE   D .   56 ?   59.178  10.350  56.619  0.00  0   D
+ATOM     6637    C   CB .  PHE   D .   56 ?   60.374  10.992  57.327  0.00  0   D
+ATOM     6638    C   CG .  PHE   D .   56 ?   61.381  11.647  56.398  0.00  0   D
+ATOM     6639    C  CD1 .  PHE   D .   56 ?   61.210  12.973  55.978  0.00  0   D
+ATOM     6641    C  CE1 .  PHE   D .   56 ?   62.145  13.580  55.166  0.00  0   D
+ATOM     6661    C   CB .  GLU   D .   59 ?   57.413   9.994  52.562  0.00  0   D
+ATOM     6663    C   CD .  GLU   D .   59 ?   57.497  12.310  51.368  0.00  0   D
+ATOM     6664    O  OE1 .  GLU   D .   59 ?   57.674  12.906  52.458 -2.28  0   D
+ATOM     7415    C    C .  PHE   D .  155 ?   54.936  18.484  50.300  0.00  0   D
+ATOM     7416    O    O .  PHE   D .  155 ?   55.635  19.113  51.089 -1.07  0   D
+ATOM     7424    N    N .  GLY   D .  156 ?   53.836  17.822  50.662  0.00  0   D
+ATOM     7425    C   CA .  GLY   D .  156 ?   53.352  17.790  52.036  0.00  0   D
+ATOM     7426    C    C .  GLY   D .  156 ?   53.046  19.182  52.520  0.00  0   D
+ATOM     7427    O    O .  GLY   D .  156 ?   53.391  19.548  53.682 -5.36  0   D
+ATOM     7440    C   CB .  SER   D .  158 ?   48.421  20.274  54.332  0.00  0   D
+ATOM     7441    O   OG .  SER   D .  158 ?   48.651  19.286  55.309 -0.54  0   D
+ATOM     7442    N    N .  ARG   D .  159 ?   51.293  21.161  55.940  0.00  0   D
+ATOM     7446    C   CB .  ARG   D .  159 ?   53.235  20.677  57.359  0.00  0   D
+ATOM     7447    C   CG .  ARG   D .  159 ?   52.749  19.291  57.777  0.00  0   D
+ATOM     7448    C   CD .  ARG   D .  159 ?   53.527  18.842  59.055  0.00  0   D
+ATOM     7449    N   NE .  ARG   D .  159 ?   53.525  17.381  59.226  0.00  0   D
+ATOM     7450    C   CZ .  ARG   D .  159 ?   54.561  16.653  59.667  0.00  0   D
+ATOM     7451    N  NH1 .  ARG   D .  159 ?   55.717  17.236  60.005  0.00  0   D
+ATOM     7452    N  NH2 .  ARG   D .  159 ?   54.441  15.325  59.768 -3.70  0   D
+ATOM     7458    C   CG .  LEU   D .  160 ?   55.504  22.538  54.227  0.00  0   D
+ATOM     7459    C  CD1 .  LEU   D .  160 ?   56.024  21.949  52.936  0.00  0   D
+ATOM     7460    C  CD2 .  LEU   D .  160 ?   56.490  22.410  55.380  0.00  0   D
+#

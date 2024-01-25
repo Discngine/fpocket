@@ -1,0 +1,58 @@
+data_pocket44_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    44:
+0  - Pocket Score                      : -0.0912
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    16
+3  - Mean alpha-sphere radius          : 3.9834
+4  - Mean alpha-sphere Solvent Acc.    : 0.6090
+5  - Mean B-factor of pocket residues  : 0.6986
+6  - Hydrophobicity Score              : 1.8750
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.6250
+9  - Pocket volume (Monte Carlo)       : 223.4101
+10  -Pocket volume (convex hull)       : 5.6026
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 3.0000
+13 - Number of apolar alpha sphere     :     4
+14 - Proportion of apolar alpha sphere : 0.2500
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6326    O  OG1 .  THR   D .   13 ?   79.958  11.042  52.740 -1.88  0   D
+ATOM     6313    O  OE2 .  GLU   D .   11 ?   79.993   6.732  52.542  0.00  0   D
+ATOM     6312    O  OE1 .  GLU   D .   11 ?   77.808   6.551  52.358  0.00  0   D
+ATOM     6311    C   CD .  GLU   D .   11 ?   78.901   7.095  52.047  0.00  0   D
+ATOM     6318    C   CB .  ARG   D .   12 ?   75.495  11.892  53.722  0.00  0   D
+ATOM     6320    C   CD .  ARG   D .   12 ?   74.075  11.890  55.825  0.00  0   D
+ATOM     6319    C   CG .  ARG   D .   12 ?   74.181  11.451  54.358  0.00  0   D
+ATOM     6314    N    N .  ARG   D .   12 ?   75.794  10.369  51.796 -1.09  0   D
+ATOM     6300    O    O .  MET   D .   10 ?   74.107   7.374  51.316 -2.14  0   D
+ATOM     6816    O    O .  GLU   D .   81 ?   71.560   9.616  58.944 -1.07  0   D
+ATOM     6799    C   CB .  CYS   D .   78 ?   70.448   9.520  53.784  0.00  0   D
+ATOM     6800    S   SG .  CYS   D .   78 ?   71.556   9.854  52.412  0.00  0   D
+ATOM     6296    O  OE2 .  GLU   D .    9 ?   70.939   5.462  54.231 -5.36  0   D
+ATOM     6812    C   CB .  ARG   D .   80 ?   71.791   4.180  57.427  0.00  0   D
+ATOM     6813    N    N .  GLU   D .   81 ?   71.623   6.828  59.259 -1.09  0   D
+ATOM     6817    C   CB .  GLU   D .   81 ?   73.510   7.716  60.616  0.00  0   D
+# 

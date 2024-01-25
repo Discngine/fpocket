@@ -1,0 +1,60 @@
+data_pocket37_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    37:
+0  - Pocket Score                      : -0.0770
+1  - Drug Score                        : 0.0006
+2  - Number of alpha spheres           :    25
+3  - Mean alpha-sphere radius          : 3.7597
+4  - Mean alpha-sphere Solvent Acc.    : 0.4770
+5  - Mean B-factor of pocket residues  : 0.2095
+6  - Hydrophobicity Score              : 5.1250
+7  - Polarity Score                    :     6
+8  - Amino Acid based volume Score     : 4.8750
+9  - Pocket volume (Monte Carlo)       : 245.0295
+10  -Pocket volume (convex hull)       : 11.9595
+11 - Charge Score                      :    -2
+12 - Local hydrophobic density Score   : 12.0000
+13 - Number of apolar alpha sphere     :    13
+14 - Proportion of apolar alpha sphere : 0.5200
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1380    O   OH .  TYR   A .  186 ?    9.044  45.902  24.895  0.00  0   A
+ATOM     1912    C  CZ2 .  TRP   A .  251 ?   12.981  45.897  19.507  0.00  0   A
+ATOM     1670    O   OH .  TYR   A .  222 ?   13.311  44.900  22.966 -3.21  0   A
+ATOM     1377    C  CE1 .  TYR   A .  186 ?    8.719  43.625  24.184  0.00  0   A
+ATOM     1916    C   CA .  ASN   A .  252 ?    7.616  43.585  14.588  0.00  0   A
+ATOM     1907    C  CD1 .  TRP   A .  251 ?   10.581  46.580  16.890  0.00  0   A
+ATOM     1919    C   CB .  ASN   A .  252 ?    6.603  44.693  14.189  0.00  0   A
+ATOM     1922    N  ND2 .  ASN   A .  252 ?    4.934  43.645  15.753  0.00  0   A
+ATOM     1929    C   CD .  PRO   A .  253 ?    6.822  41.521  16.535  0.00  0   A
+ATOM     1904    O    O .  TRP   A .  251 ?   10.010  42.943  15.867 -2.14  0   A
+ATOM     1920    C   CG .  ASN   A .  252 ?    5.132  44.445  14.708  0.00  0   A
+ATOM     1342    C   CA .  GLU   A .  182 ?   10.202  40.012  21.581  0.00  0   A
+ATOM     1341    N    N .  GLU   A .  182 ?   11.384  40.036  20.693  0.00  0   A
+ATOM     1910    C  CE2 .  TRP   A .  251 ?   12.201  46.076  18.371  0.00  0   A
+ATOM     1345    C   CB .  GLU   A .  182 ?    8.847  40.008  20.806  0.00  0   A
+ATOM     1909    N  NE1 .  TRP   A .  251 ?   10.978  46.673  18.232  0.00  0   A
+ATOM     1338    C   CB .  PRO   A .  181 ?   13.549  41.822  19.415  0.00  0   A
+ATOM     1704    O  OE2 .  GLU   A .  226 ?   13.795  49.067  21.782 -0.14  0   A
+# 

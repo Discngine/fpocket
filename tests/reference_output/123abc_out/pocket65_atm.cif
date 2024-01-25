@@ -1,0 +1,85 @@
+data_pocket65_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket    65:
+0  - Pocket Score                      : -0.2311
+1  - Drug Score                        : 0.0032
+2  - Number of alpha spheres           :    53
+3  - Mean alpha-sphere radius          : 4.0023
+4  - Mean alpha-sphere Solvent Acc.    : 0.5610
+5  - Mean B-factor of pocket residues  : 0.2834
+6  - Hydrophobicity Score              : 44.6429
+7  - Polarity Score                    :     7
+8  - Amino Acid based volume Score     : 3.9286
+9  - Pocket volume (Monte Carlo)       : 835.2600
+10  -Pocket volume (convex hull)       : 207.1836
+11 - Charge Score                      :     1
+12 - Local hydrophobic density Score   : 22.9655
+13 - Number of apolar alpha sphere     :    29
+14 - Proportion of apolar alpha sphere : 0.5472
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     5555    C    C .  TYR   C .  186 ?   36.690  62.164   5.455  0.00  0   C
+ATOM     5554    C   CA .  TYR   C .  186 ?   35.216  61.909   5.709  0.00  0   C
+ATOM     5556    O    O .  TYR   C .  186 ?   37.064  63.238   5.005 -3.35  0   C
+ATOM     5551    O    O .  ALA   C .  185 ?   34.023  59.643   4.457  0.00  0   C
+ATOM     5569    C   CB .  ASN   C .  187 ?   39.472  61.643   4.370  0.00  0   C
+ATOM     5565    N    N .  ASN   C .  187 ?   37.528  61.173   5.743  0.00  0   C
+ATOM     5552    C   CB .  ALA   C .  185 ?   32.614  58.824   7.353  0.00  0   C
+ATOM     5848    C  CE2 .  TYR   C .  222 ?   29.616  54.797   9.327  0.00  0   C
+ATOM     5849    C   CZ .  TYR   C .  222 ?   30.448  55.879   9.551  0.00  0   C
+ATOM     5850    O   OH .  TYR   C .  222 ?   29.907  57.157   9.562 -7.50  0   C
+ATOM     5846    C  CD2 .  TYR   C .  222 ?   30.134  53.531   9.319  0.00  0   C
+ATOM     5847    C  CE1 .  TYR   C .  222 ?   31.812  55.701   9.755  0.00  0   C
+ATOM     5544    C   CB .  LEU   C .  184 ?   36.147  55.258   8.676  0.00  0   C
+ATOM     5843    C   CB .  TYR   C .  222 ?   32.068  51.912   9.592  0.00  0   C
+ATOM     5845    C  CD1 .  TYR   C .  222 ?   32.330  54.410   9.776  0.00  0   C
+ATOM     5844    C   CG .  TYR   C .  222 ?   31.509  53.308   9.555  0.00  0   C
+ATOM     5437    O    O .  ALA   C .  170 ?   41.960  55.993  -2.465 -3.35  0   C
+ATOM     5427    O    O .  HIS   C .  169 ?   41.255  54.138   0.152 -3.21  0   C
+ATOM     5571    O  OD1 .  ASN   C .  187 ?   41.266  60.244   3.646  0.00  0   C
+ATOM     5438    C   CB .  ALA   C .  170 ?   39.482  54.675  -2.780  0.00  0   C
+ATOM     5543    O    O .  LEU   C .  184 ?   35.882  56.783   5.753  0.00  0   C
+ATOM     5429    C   CG .  HIS   C .  169 ?   38.300  52.290   0.934  0.00  0   C
+ATOM     5432    C  CE1 .  HIS   C .  169 ?   36.623  53.461   0.107  0.00  0   C
+ATOM     5433    N  NE2 .  HIS   C .  169 ?   36.360  52.179  -0.084  0.00  0   C
+ATOM     5431    C  CD2 .  HIS   C .  169 ?   37.399  51.426   0.410  0.00  0   C
+ATOM     5547    C  CD2 .  LEU   C .  184 ?   38.134  53.757   8.316  0.00  0   C
+ATOM     5546    C  CD1 .  LEU   C .  184 ?   36.378  53.134  10.101  0.00  0   C
+ATOM     5482    C  CD1 .  ILE   C .  176 ?   38.538  48.769   7.205  0.00  0   C
+ATOM     5418    C  CG2 .  THR   C .  167 ?   40.786  47.601   4.142  0.00  0   C
+ATOM     5428    C   CB .  HIS   C .  169 ?   39.624  52.051   1.588  0.00  0   C
+ATOM     5415    O    O .  THR   C .  167 ?   43.173  50.178   4.170 -1.07  0   C
+ATOM     5480    C  CG1 .  ILE   C .  176 ?   39.303  49.763   8.075  0.00  0   C
+ATOM     5430    N  ND1 .  HIS   C .  169 ?   37.799  53.557   0.704 -6.98  0   C
+ATOM     5465    C  CE1 .  PHE   C .  174 ?   41.828  56.413   4.705  0.00  0   C
+ATOM     5461    C   CB .  PHE   C .  174 ?   42.573  53.406   6.977  0.00  0   C
+ATOM     5549    C   CA .  ALA   C .  185 ?   33.785  58.424   6.536  0.00  0   C
+ATOM     5537    O    O .  SER   C .  183 ?   38.632  58.564   7.460  0.00  0   C
+ATOM     5812    O    O .  LEU   C .  218 ?   34.990  46.760   8.549 -0.40  0   C
+ATOM     5839    N    N .  TYR   C .  222 ?   32.471  49.895  10.940  0.00  0   C
+ATOM     5481    C  CG2 .  ILE   C .  176 ?   37.818  49.391  10.093  0.00  0   C
+ATOM     5463    C  CD1 .  PHE   C .  174 ?   41.685  55.162   5.370  0.00  0   C
+ATOM     5820    O    O .  SER   C .  219 ?   31.438  46.741   7.340  0.00  0   C
+ATOM     5447    C   CB .  ALA   C .  172 ?   43.707  55.922   1.871  0.00  0   C
+# 

@@ -1,0 +1,49 @@
+data_pocket44_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6296    O  OE2 .  GLU   D .    9 ?   70.939   5.462  54.231 -5.36  0   D
+ATOM     6300    O    O .  MET   D .   10 ?   74.107   7.374  51.316 -2.14  0   D
+ATOM     6306    C   CA .  GLU   D .   11 ?   76.441   8.484  50.396  0.00  0   D
+ATOM     6307    C    C .  GLU   D .   11 ?   76.263   9.991  50.600  0.00  0   D
+ATOM     6310    C   CG .  GLU   D .   11 ?   78.934   8.247  51.025  0.00  0   D
+ATOM     6311    C   CD .  GLU   D .   11 ?   78.901   7.095  52.047  0.00  0   D
+ATOM     6312    O  OE1 .  GLU   D .   11 ?   77.808   6.551  52.358  0.00  0   D
+ATOM     6313    O  OE2 .  GLU   D .   11 ?   79.993   6.732  52.542  0.00  0   D
+ATOM     6314    N    N .  ARG   D .   12 ?   75.794  10.369  51.796 -1.09  0   D
+ATOM     6315    C   CA .  ARG   D .   12 ?   75.570  11.765  52.190  0.00  0   D
+ATOM     6318    C   CB .  ARG   D .   12 ?   75.495  11.892  53.722  0.00  0   D
+ATOM     6319    C   CG .  ARG   D .   12 ?   74.181  11.451  54.358  0.00  0   D
+ATOM     6320    C   CD .  ARG   D .   12 ?   74.075  11.890  55.825  0.00  0   D
+ATOM     6321    N    N .  THR   D .   13 ?   77.883  12.130  51.657  0.00  0   D
+ATOM     6326    O  OG1 .  THR   D .   13 ?   79.958  11.042  52.740 -1.88  0   D
+ATOM     6796    C   CA .  CYS   D .   78 ?   69.542   8.311  53.590  0.00  0   D
+ATOM     6797    C    C .  CYS   D .   78 ?   68.724   8.076  54.855  0.00  0   D
+ATOM     6799    C   CB .  CYS   D .   78 ?   70.448   9.520  53.784  0.00  0   D
+ATOM     6800    S   SG .  CYS   D .   78 ?   71.556   9.854  52.412  0.00  0   D
+ATOM     6808    N    N .  ARG   D .   80 ?   69.790   5.665  57.370  0.00  0   D
+ATOM     6809    C   CA .  ARG   D .   80 ?   70.653   4.828  58.237  0.00  0   D
+ATOM     6810    C    C .  ARG   D .   80 ?   71.220   5.582  59.456  0.00  0   D
+ATOM     6812    C   CB .  ARG   D .   80 ?   71.791   4.180  57.427  0.00  0   D
+ATOM     6813    N    N .  GLU   D .   81 ?   71.623   6.828  59.259 -1.09  0   D
+ATOM     6814    C   CA .  GLU   D .   81 ?   71.985   7.702  60.370  0.00  0   D
+ATOM     6815    C    C .  GLU   D .   81 ?   71.450   9.116  60.080  0.00  0   D
+ATOM     6816    O    O .  GLU   D .   81 ?   71.560   9.616  58.944 -1.07  0   D
+ATOM     6817    C   CB .  GLU   D .   81 ?   73.510   7.716  60.616  0.00  0   D
+ATOM     6828    O    O .  PRO   D .   83 ?   70.445  11.763  57.215  0.00  0   D
+#

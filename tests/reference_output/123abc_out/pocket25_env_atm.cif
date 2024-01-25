@@ -1,0 +1,46 @@
+data_pocket25_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     6290    C    C .  GLU   D .    9 ?   71.915   4.628  49.430  0.00  0   D
+ATOM     6291    O    O .  GLU   D .    9 ?   72.604   3.890  48.729  0.00  0   D
+ATOM     6292    C   CB .  GLU   D .    9 ?   70.763   3.288  51.242  0.00  0   D
+ATOM     6293    C   CG .  GLU   D .    9 ?   71.423   4.039  52.375  0.00  0   D
+ATOM     6297    N    N .  MET   D .   10 ?   72.265   5.885  49.709  0.00  0   D
+ATOM     6298    C   CA .  MET   D .   10 ?   73.486   6.472  49.131  0.00  0   D
+ATOM     6299    C    C .  MET   D .   10 ?   74.371   7.293  50.096  0.00  0   D
+ATOM     6300    O    O .  MET   D .   10 ?   74.107   7.374  51.316 -2.14  0   D
+ATOM     6301    C   CB .  MET   D .   10 ?   73.225   7.186  47.771  0.00  0   D
+ATOM     6303    S   SD .  MET   D .   10 ?   72.034   9.214  46.200  0.00  0   D
+ATOM     6304    C   CE .  MET   D .   10 ?   73.478  10.172  46.696  0.00  0   D
+ATOM     6305    N    N .  GLU   D .   11 ?   75.439   7.869  49.548 -2.19  0   D
+ATOM     6306    C   CA .  GLU   D .   11 ?   76.441   8.484  50.396  0.00  0   D
+ATOM     6309    C   CB .  GLU   D .   11 ?   77.861   8.128  49.916  0.00  0   D
+ATOM     6310    C   CG .  GLU   D .   11 ?   78.934   8.247  51.025  0.00  0   D
+ATOM     6311    C   CD .  GLU   D .   11 ?   78.901   7.095  52.047  0.00  0   D
+ATOM     6312    O  OE1 .  GLU   D .   11 ?   77.808   6.551  52.358  0.00  0   D
+ATOM     6313    O  OE2 .  GLU   D .   11 ?   79.993   6.732  52.542  0.00  0   D
+ATOM     6333    C   CG .  ASP   D .   14 ?   78.386  10.697  45.659  0.00  0   D
+ATOM     6335    O  OD2 .  ASP   D .   14 ?   78.726   9.496  45.541 -2.55  0   D
+ATOM     6488    N  NE1 .  TRP   D .   34 ?   75.151  10.418  44.105 -1.09  0   D
+ATOM     6489    C  CE2 .  TRP   D .   34 ?   74.096  10.029  43.321  0.00  0   D
+ATOM     6491    C  CZ2 .  TRP   D .   34 ?   73.535   8.757  43.118  0.00  0   D
+ATOM     6509    C   CD .  LYS   D .   36 ?   78.417   8.015  41.707  0.00  0   D
+ATOM     6510    C   CE .  LYS   D .   36 ?   78.782   6.894  42.671  0.00  0   D
+ATOM     6511    N   NZ .  LYS   D .   36 ?   78.219   5.612  42.198  0.00  0   D
+#

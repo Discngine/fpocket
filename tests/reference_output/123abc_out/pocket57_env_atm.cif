@@ -1,0 +1,50 @@
+data_pocket57_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM      119    O    O .  GLY   A .   22 ?   28.826  13.648  19.303  0.00  0   A
+ATOM      122    C    C .  GLY   A .   23 ?   29.410  12.195  21.784  0.00  0   A
+ATOM      123    O    O .  GLY   A .   23 ?   30.062  13.026  22.420 -0.81  0   A
+ATOM      126    C    C .  GLY   A .   24 ?   27.090  13.827  23.284  0.00  0   A
+ATOM      127    O    O .  GLY   A .   24 ?   26.797  14.434  24.321  0.00  0   A
+ATOM      128    N    N .  GLN   A .   25 ?   27.137  14.386  22.073  0.00  0   A
+ATOM      129    C   CA .  GLN   A .   25 ?   26.765  15.754  21.724  0.00  0   A
+ATOM      130    C    C .  GLN   A .   25 ?   25.242  15.924  21.781  0.00  0   A
+ATOM      131    O    O .  GLN   A .   25 ?   24.723  17.025  22.011 -1.07  0   A
+ATOM      132    C   CB .  GLN   A .   25 ?   27.312  16.001  20.308  0.00  0   A
+ATOM      133    C   CG .  GLN   A .   25 ?   26.601  16.982  19.401  0.00  0   A
+ATOM      149    N    N .  GLY   A .   27 ?   23.450  14.237  23.938  0.00  0   A
+ATOM      150    C   CA .  GLY   A .   27 ?   23.112  13.775  25.287  0.00  0   A
+ATOM     1181    C   CA .  LEU   A .  160 ?   23.563  19.703  26.740  0.00  0   A
+ATOM     1182    C    C .  LEU   A .  160 ?   24.694  20.684  26.310  0.00  0   A
+ATOM     1183    O    O .  LEU   A .  160 ?   25.691  20.875  27.043  0.00  0   A
+ATOM     1184    C   CB .  LEU   A .  160 ?   23.134  18.782  25.577  0.00  0   A
+ATOM     1185    N    N .  MET   A .  161 ?   24.481  21.325  25.147  0.00  0   A
+ATOM     1186    C   CA .  MET   A .  161 ?   25.465  22.151  24.411  0.00  0   A
+ATOM     1187    C    C .  MET   A .  161 ?   26.566  22.884  25.207  0.00  0   A
+ATOM     1189    C   CB .  MET   A .  161 ?   24.753  23.089  23.413  0.00  0   A
+ATOM     1190    C   CG .  MET   A .  161 ?   25.693  23.794  22.437  0.00  0   A
+ATOM     1192    C   CE .  MET   A .  161 ?   25.473  22.258  20.061  0.00  0   A
+ATOM     1193    N    N .  THR   A .  162 ?   27.717  23.001  24.543 -3.28  0   A
+ATOM     1197    C   CB .  THR   A .  162 ?   30.043  22.165  24.907  0.00  0   A
+ATOM     1198    O  OG1 .  THR   A .  162 ?   29.373  20.894  24.874 -2.55  0   A
+ATOM     8115    C   CG .  GLU   D .  243 ?   31.855  18.898  27.435  0.00  0   D
+ATOM     8116    C   CD .  GLU   D .  243 ?   32.058  18.467  25.971  0.00  0   D
+ATOM     8117    O  OE1 .  GLU   D .  243 ?   32.380  17.276  25.754  0.00  0   D
+ATOM     8118    O  OE2 .  GLU   D .  243 ?   31.919  19.332  25.048  0.00  0   D
+#

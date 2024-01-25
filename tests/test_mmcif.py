@@ -62,6 +62,17 @@ def fpocket_out_test_default_equal(pdb_code,params="",explicit=False):
     os.system("rm -rf data/sample/"+pdb_code+"_out")
 
 
+def fpocket_out_test_db_equal(pdb_code,params="",explicit=False):
+    reference_folder="tests/reference_output/"
+    os.system("bin/fpocket -f data/sample/"+pdb_code+".cif"+" "+params)
+    file_list=os.listdir(reference_folder+pdb_code+"_out/")
+    for filename in file_list:
+        test_out='data/sample/'+pdb_code+'_out/'+filename
+        reference_out=reference_folder+pdb_code+'_out/'+filename
+        if filename != pdb_code+'_info.txt' and os.path.isfile(test_out):
+            compare_all_but_volume(test_out,reference_out)
+    os.system("rm -rf data/sample/"+pdb_code+"_out")
+
 
 def test_pdb_list_mmcif_equal():
     mmcif_list = ['3VI4','5RGF','6TL9']
@@ -72,6 +83,11 @@ def test_pdb_list_mmcif_both():
     mmcif_list = ['6X3P']
     for cif_code in mmcif_list:
         fpocket_out_test_default_equal(cif_code, params="-w both")
+
+def test_pdb_list_mmcif_plus_db():
+    mmcif_list = ['123abc']
+    for cif_code in mmcif_list:
+        fpocket_out_test_db_equal(cif_code, params="-d")
 
 def test_mmcif_ligand():
     mmcif_list = ['1QNH']

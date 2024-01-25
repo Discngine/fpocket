@@ -1,0 +1,47 @@
+data_pocket27_env_atm
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_asym_id
+ATOM     1256    C   CA .  GLY   A .  171 ?   17.074  29.084  34.902  0.00  0   A
+ATOM     1257    C    C .  GLY   A .  171 ?   16.881  28.422  33.539  0.00  0   A
+ATOM     1258    O    O .  GLY   A .  171 ?   17.211  27.237  33.384  0.00  0   A
+ATOM     3768    N    N .  GLU   B .  223 ?   19.652  30.471  39.123  0.00  0   B
+ATOM     3769    C   CA .  GLU   B .  223 ?   19.756  29.026  39.321  0.00  0   B
+ATOM     3770    C    C .  GLU   B .  223 ?   19.994  28.706  40.771  0.00  0   B
+ATOM     3771    O    O .  GLU   B .  223 ?   19.336  27.833  41.335  0.00  0   B
+ATOM     3772    C   CB .  GLU   B .  223 ?   20.899  28.443  38.451  0.00  0   B
+ATOM     3773    C   CG .  GLU   B .  223 ?   20.865  28.953  37.013  0.00  0   B
+ATOM     3774    C   CD .  GLU   B .  223 ?   21.775  28.184  36.070  0.00  0   B
+ATOM     3775    O  OE1 .  GLU   B .  223 ?   22.737  27.521  36.550  0.00  0   B
+ATOM     3776    O  OE2 .  GLU   B .  223 ?   21.549  28.266  34.820  0.00  0   B
+ATOM     3794    C   CA .  GLU   B .  226 ?   15.782  28.535  42.552  0.00  0   B
+ATOM     3795    C    C .  GLU   B .  226 ?   16.011  27.275  43.405  0.00  0   B
+ATOM     3796    O    O .  GLU   B .  226 ?   15.035  26.681  43.850  0.00  0   B
+ATOM     3797    C   CB .  GLU   B .  226 ?   15.576  28.210  41.069  0.00  0   B
+ATOM     3798    C   CG .  GLU   B .  226 ?   14.425  27.213  40.755  0.00  0   B
+ATOM     3799    C   CD .  GLU   B .  226 ?   13.993  27.306  39.282  0.00  0   B
+ATOM     3800    O  OE1 .  GLU   B .  226 ?   14.870  27.408  38.360 -0.81  0   B
+ATOM     3801    O  OE2 .  GLU   B .  226 ?   12.770  27.280  39.032 -3.35  0   B
+ATOM     3802    N    N .  LYS   B .  227 ?   17.281  26.917  43.674  0.00  0   B
+ATOM     3803    C   CA .  LYS   B .  227 ?   17.638  25.810  44.612  0.00  0   B
+ATOM     3806    C   CB .  LYS   B .  227 ?   19.009  25.214  44.314  0.00  0   B
+ATOM     3807    C   CG .  LYS   B .  227 ?   19.331  24.982  42.891  0.00  0   B
+ATOM     3808    C   CD .  LYS   B .  227 ?   19.254  23.527  42.569  0.00  0   B
+ATOM     3809    C   CE .  LYS   B .  227 ?   19.628  23.270  41.089  0.00  0   B
+ATOM     3810    N   NZ .  LYS   B .  227 ?   18.871  22.046  40.724  0.00  0   B
+#
