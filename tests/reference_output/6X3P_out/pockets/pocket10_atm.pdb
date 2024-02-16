@@ -12,30 +12,30 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2358
 HEADER 6  - Hydrophobicity Score              : 27.4444
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 2.7778
-HEADER 9  - Pocket volume (Monte Carlo)       : 308.0612
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.1834
 HEADER 10 - Pocket volume (convex hull)       : 11.0654
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 3.0000
 HEADER 13 - Number of apolar alpha sphere     :     4
 HEADER 14 - Proportion of apolar alpha sphere : 0.1739
-ATOM   1331   CA SER A 169      -3.096  21.117  -5.246  0.00  0.00           C 0
-ATOM   1329    O GLY A 168      -5.243  22.414  -3.994  0.63  2.14           O 0
-ATOM   1732   CB ASN A 215      -4.947  26.822  -8.278  0.00  0.00           C 0
-ATOM   1735  ND2 ASN A 215      -5.010  24.434  -8.604  0.00  0.00           N 0
-ATOM   1322    O VAL A 167      -3.446  24.109  -1.310  0.39  2.14           O 0
-ATOM   1316    O SER A 166      -7.194  25.626  -2.047  0.52  7.50           O 0
-ATOM   1744   CBASER A 216      -2.074  30.892  -6.266  0.00  0.00           C 0
-ATOM   1320   CA VAL A 167      -5.271  25.053   0.028  0.00  0.00           C 0
-ATOM   1738   CAASER A 216      -3.539  30.762  -6.678  0.00  0.00           C 0
-ATOM   1369  CG2 VAL A 173      -8.162  26.008  -5.831  0.00  0.00           C 0
-ATOM   1438  CD2 LEU A 181     -11.402  28.307  -4.028  0.00  0.00           C 0
-ATOM   1768   CB ALA A 219      -7.920  31.739  -5.155  0.00  0.00           C 0
-ATOM   1317   CB SER A 166      -9.695  26.237  -0.302  0.00  0.00           C 0
-ATOM   1435   CB LEU A 181     -11.851  30.263  -2.527  0.00  0.00           C 0
-ATOM   1736    NASER A 216      -3.709  29.625  -7.594  0.00  0.00           N 0
-ATOM   1730    C ASN A 215      -4.918  29.300  -8.089  0.00  0.00           C 0
-ATOM   1731    O ASN A 215      -5.948  29.926  -7.799  0.00  0.00           O 0
-ATOM   1434    O LEU A 181     -10.964  29.900   0.492  0.44  4.29           O 0
-ATOM   1318   OG SER A 166      -9.184  26.653   0.953  0.26  6.43           O 0
+ATOM   1331   CA SER A 557      -3.096  21.117  -5.246  0.00  0.00           C 0
+ATOM   1329    O GLY A 556      -5.243  22.414  -3.994  0.63  2.14           O 0
+ATOM   1732   CB ASN A 603      -4.947  26.822  -8.278  0.00  0.00           C 0
+ATOM   1735  ND2 ASN A 603      -5.010  24.434  -8.604  0.00  0.00           N 0
+ATOM   1322    O VAL A 555      -3.446  24.109  -1.310  0.39  2.14           O 0
+ATOM   1316    O SER A 554      -7.194  25.626  -2.047  0.52  7.50           O 0
+ATOM   1744   CBASER A 604      -2.074  30.892  -6.266  0.00  0.00           C 0
+ATOM   1320   CA VAL A 555      -5.271  25.053   0.028  0.00  0.00           C 0
+ATOM   1738   CAASER A 604      -3.539  30.762  -6.678  0.00  0.00           C 0
+ATOM   1369  CG2 VAL A 561      -8.162  26.008  -5.831  0.00  0.00           C 0
+ATOM   1438  CD2 LEU A 569     -11.402  28.307  -4.028  0.00  0.00           C 0
+ATOM   1768   CB ALA A 607      -7.920  31.739  -5.155  0.00  0.00           C 0
+ATOM   1317   CB SER A 554      -9.695  26.237  -0.302  0.00  0.00           C 0
+ATOM   1435   CB LEU A 569     -11.851  30.263  -2.527  0.00  0.00           C 0
+ATOM   1736    NASER A 604      -3.709  29.625  -7.594  0.00  0.00           N 0
+ATOM   1730    C ASN A 603      -4.918  29.300  -8.089  0.00  0.00           C 0
+ATOM   1731    O ASN A 603      -5.948  29.926  -7.799  0.00  0.00           O 0
+ATOM   1434    O LEU A 569     -10.964  29.900   0.492  0.44  4.29           O 0
+ATOM   1318   OG SER A 554      -9.184  26.653   0.953  0.26  6.43           O 0
 TER
 END

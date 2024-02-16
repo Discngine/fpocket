@@ -15,7 +15,7 @@ Information about the pocket   148:
 6  - Hydrophobicity Score              : -7.7692
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.3846
-9  - Pocket volume (Monte Carlo)       : 557.8340
+9  - Pocket volume (Monte Carlo)       : 564.7696
 10  -Pocket volume (convex hull)       : 72.2046
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 12.5714
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,33 +37,34 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    10678    C   CB .  ASP   C .  364 ?  -17.673 -23.641 -64.962  0.00  0   C
-ATOM    12322    C   CG .  GLN   C .  589 ?  -18.275 -17.765 -61.413  0.00  0   C
-ATOM    10677    O    O .  ASP   C .  364 ?  -14.671 -24.115 -64.944 -0.54  0   C
-ATOM    12303    C  CE1 .  HIS   C .  587 ?  -18.016 -18.922 -65.876  0.00  0   C
-ATOM    10680    O  OD1 .  ASP   C .  364 ?  -17.949 -24.220 -62.661  0.00  0   C
-ATOM    10871    C   CD .  PRO   C .  391 ?  -14.470 -23.603 -56.912  0.00  0   C
-ATOM    10860    O    O .  GLY   C .  389 ?  -18.892 -25.641 -59.140 -3.35  0   C
-ATOM    10862    C   CA .  GLY   C .  390 ?  -16.586 -25.481 -57.536  0.00  0   C
-ATOM    10693    C  CD2 .  TYR   C .  366 ?  -14.917 -25.143 -61.194  0.00  0   C
-ATOM    10695    C  CE2 .  TYR   C .  366 ?  -13.807 -24.465 -60.720  0.00  0   C
-ATOM    10855    C   CG .  PRO   C .  388 ?  -23.977 -25.172 -58.672  0.00  0   C
-ATOM    10854    C   CB .  PRO   C .  388 ?  -23.161 -25.741 -59.782  0.00  0   C
-ATOM    12314    C  CE2 .  TYR   C .  588 ?  -23.719 -20.190 -59.600  0.00  0   C
-ATOM    12325    N  NE2 .  GLN   C .  589 ?  -19.427 -17.301 -59.336  0.00  0   C
-ATOM    10889    C   CA .  GLY   C .  395 ?  -22.552 -25.898 -53.930  0.00  0   C
-ATOM    12316    O   OH .  TYR   C .  588 ?  -25.878 -20.724 -58.736 -1.88  0   C
-ATOM    10901    O    O .  LYS   C .  397 ?  -26.920 -24.529 -55.548 -5.36  0   C
-ATOM    10879    O    O .  GLY   C .  393 ?  -18.167 -27.383 -54.433 -0.40  0   C
-ATOM    12309    C   CB .  TYR   C .  588 ?  -22.436 -19.810 -63.184  0.00  0   C
-ATOM    12323    C   CD .  GLN   C .  589 ?  -18.585 -16.835 -60.250  0.00  0   C
-ATOM    10870    C   CG .  PRO   C .  391 ?  -13.477 -22.911 -56.023  0.00  0   C
-ATOM    10859    C    C .  GLY   C .  389 ?  -18.568 -26.601 -58.439  0.00  0   C
-ATOM    10861    N    N .  GLY   C .  390 ?  -17.484 -26.616 -57.673  0.00  0   C
-ATOM    10853    O    O .  PRO   C .  388 ?  -21.884 -27.243 -57.281 -1.07  0   C
-ATOM    12312    C  CD2 .  TYR   C .  588 ?  -22.882 -19.967 -60.687  0.00  0   C
-ATOM    12304    N  NE2 .  HIS   C .  587 ?  -18.277 -20.084 -66.495  0.00  0   C
-ATOM    10664    O  OD2 .  ASP   C .  362 ?  -21.667 -24.220 -64.775 -3.21  0   C
-ATOM    10888    N    N .  GLY   C .  395 ?  -21.789 -27.081 -54.329  0.00  0   C
+ATOM    10678    C   CB ?  ASP      C 364 ?  -17.673 -23.641 -64.962  0.00  0 364 C
+ATOM    12322    C   CG ?  GLN      C 589 ?  -18.275 -17.765 -61.413  0.00  0 589 C
+ATOM    10677    O    O ?  ASP      C 364 ?  -14.671 -24.115 -64.944 -0.54  0 364 C
+ATOM    12303    C  CE1 ?  HIS      C 587 ?  -18.016 -18.922 -65.876  0.00  0 587 C
+ATOM    10680    O  OD1 ?  ASP      C 364 ?  -17.949 -24.220 -62.661  0.00  0 364 C
+ATOM    10871    C   CD ?  PRO      C 391 ?  -14.470 -23.603 -56.912  0.00  0 391 C
+ATOM    10860    O    O ?  GLY      C 389 ?  -18.892 -25.641 -59.140 -3.35  0 389 C
+ATOM    10862    C   CA ?  GLY      C 390 ?  -16.586 -25.481 -57.536  0.00  0 390 C
+ATOM    10693    C  CD2 ?  TYR      C 366 ?  -14.917 -25.143 -61.194  0.00  0 366 C
+ATOM    10695    C  CE2 ?  TYR      C 366 ?  -13.807 -24.465 -60.720  0.00  0 366 C
+ATOM    10855    C   CG ?  PRO      C 388 ?  -23.977 -25.172 -58.672  0.00  0 388 C
+ATOM    10854    C   CB ?  PRO      C 388 ?  -23.161 -25.741 -59.782  0.00  0 388 C
+ATOM    12314    C  CE2 ?  TYR      C 588 ?  -23.719 -20.190 -59.600  0.00  0 588 C
+ATOM    12325    N  NE2 ?  GLN      C 589 ?  -19.427 -17.301 -59.336  0.00  0 589 C
+ATOM    10889    C   CA ?  GLY      C 395 ?  -22.552 -25.898 -53.930  0.00  0 395 C
+ATOM    12316    O   OH ?  TYR      C 588 ?  -25.878 -20.724 -58.736 -1.88  0 588 C
+ATOM    10901    O    O ?  LYS      C 397 ?  -26.920 -24.529 -55.548 -5.36  0 397 C
+ATOM    10879    O    O ?  GLY      C 393 ?  -18.167 -27.383 -54.433 -0.40  0 393 C
+ATOM    12309    C   CB ?  TYR      C 588 ?  -22.436 -19.810 -63.184  0.00  0 588 C
+ATOM    12323    C   CD ?  GLN      C 589 ?  -18.585 -16.835 -60.250  0.00  0 589 C
+ATOM    10870    C   CG ?  PRO      C 391 ?  -13.477 -22.911 -56.023  0.00  0 391 C
+ATOM    10859    C    C ?  GLY      C 389 ?  -18.568 -26.601 -58.439  0.00  0 389 C
+ATOM    10861    N    N ?  GLY      C 390 ?  -17.484 -26.616 -57.673  0.00  0 390 C
+ATOM    10853    O    O ?  PRO      C 388 ?  -21.884 -27.243 -57.281 -1.07  0 388 C
+ATOM    12312    C  CD2 ?  TYR      C 588 ?  -22.882 -19.967 -60.687  0.00  0 588 C
+ATOM    12304    N  NE2 ?  HIS      C 587 ?  -18.277 -20.084 -66.495  0.00  0 587 C
+ATOM    10664    O  OD2 ?  ASP      C 362 ?  -21.667 -24.220 -64.775 -3.21  0 362 C
+ATOM    10888    N    N ?  GLY      C 395 ?  -21.789 -27.081 -54.329  0.00  0 395 C
 # 

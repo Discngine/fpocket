@@ -15,7 +15,7 @@ Information about the pocket   238:
 6  - Hydrophobicity Score              : 9.7500
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.5833
-9  - Pocket volume (Monte Carlo)       : 576.1111
+9  - Pocket volume (Monte Carlo)       : 588.2594
 10  -Pocket volume (convex hull)       : 74.4004
 11 - Charge Score                      :    -3
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,32 +37,33 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5511    C   CB .  SER   B .  134 ?  -10.439 -20.310 -20.920  0.00  0   B
-ATOM     6478    O    O .  ASP   B .  259 ?   -9.270 -15.081 -22.712 -0.40  0   B
-ATOM     6482    O  OD2 .  ASP   B .  259 ?   -9.617 -18.902 -23.618  0.00  0   B
-ATOM     6960    O  OE2 .  GLU   B .  320 ?  -13.716 -13.767 -24.311  0.00  0   B
-ATOM     6959    O  OE1 .  GLU   B .  320 ?  -13.371 -11.834 -23.313  0.00  0   B
-ATOM     1698    O    O .  SER   A .  224 ?  -17.807  -9.199 -16.648 -5.09  0   A
-ATOM     1700    O   OG .  SER   A .  224 ?  -20.253 -11.037 -18.449 -0.95  0   A
-ATOM    22494    N    N .  ARG   I .    1 ?  -17.992 -16.368 -18.027  0.00  0   I
-ATOM     1704    O    O .  ILE   A .  225 ?  -16.703  -5.479 -17.404  0.00  0   A
-ATOM     1724    O    O .  ASP   A .  227 ?  -13.920  -7.999 -14.087  0.00  0   A
-ATOM     6969    C  CE1 .  PHE   B .  321 ?   -9.813 -10.320 -20.641  0.00  0   B
-ATOM     1947    C  CD2 .  LEU   A .  257 ?  -10.870  -3.504 -20.296  0.00  0   A
-ATOM    22508    O    O .  GLY   I .    2 ?  -13.264 -17.235 -16.804 -2.28  0   I
-ATOM     6971    C   CZ .  PHE   B .  321 ?  -10.561 -11.477 -20.763  0.00  0   B
-ATOM     1702    C   CA .  ILE   A .  225 ?  -18.298  -7.021 -18.283  0.00  0   A
-ATOM     6955    O    O .  GLU   B .  320 ?  -11.291  -8.730 -24.882  0.00  0   B
-ATOM     6241    O   OG .  SER   B .  227 ?  -11.593 -14.320 -16.909 -4.29  0   B
-ATOM     6970    C  CE2 .  PHE   B .  321 ?  -10.468 -12.253 -21.906  0.00  0   B
-ATOM     1727    O  OD1 .  ASP   A .  227 ?  -17.760 -12.013 -14.720 -0.40  0   A
-ATOM     1725    C   CB .  ASP   A .  227 ?  -16.087 -10.422 -14.106  0.00  0   A
-ATOM     6240    C   CB .  SER   B .  227 ?  -11.807 -14.449 -15.516  0.00  0   B
-ATOM    22505    N    N .  GLY   I .    2 ?  -15.506 -16.303 -15.368 -1.09  0   I
-ATOM     6487    C   CB .  ALA   B .  260 ?   -7.980 -15.193 -19.289  0.00  0   B
-ATOM     5512    O   OG .  SER   B .  134 ?   -9.308 -20.121 -20.075 -1.07  0   B
-ATOM     1736    O  OD2 .  ASP   A .  228 ?  -12.287 -11.279 -14.184 -2.95  0   A
-ATOM    22495    C   CA .  ARG   I .    1 ?  -17.505 -15.896 -16.698  0.00  0   I
-ATOM     1699    C   CB .  SER   A .  224 ?  -20.166 -11.161 -17.044  0.00  0   A
+ATOM     5511    C   CB ?  SER      B 134 ?  -10.439 -20.310 -20.920  0.00  0 134 B
+ATOM     6478    O    O ?  ASP      B 259 ?   -9.270 -15.081 -22.712 -0.40  0 259 B
+ATOM     6482    O  OD2 ?  ASP      B 259 ?   -9.617 -18.902 -23.618  0.00  0 259 B
+ATOM     6960    O  OE2 ?  GLU      B 320 ?  -13.716 -13.767 -24.311  0.00  0 320 B
+ATOM     6959    O  OE1 ?  GLU      B 320 ?  -13.371 -11.834 -23.313  0.00  0 320 B
+ATOM     1698    O    O ?  SER      A 224 ?  -17.807  -9.199 -16.648 -5.09  0 224 A
+ATOM     1700    O   OG ?  SER      A 224 ?  -20.253 -11.037 -18.449 -0.95  0 224 A
+ATOM    22494    N    N ?  ARG      J 1 ?  -17.992 -16.368 -18.027  0.00  0 5001 I
+ATOM     1704    O    O ?  ILE      A 225 ?  -16.703  -5.479 -17.404  0.00  0 225 A
+ATOM     1724    O    O ?  ASP      A 227 ?  -13.920  -7.999 -14.087  0.00  0 227 A
+ATOM     6969    C  CE1 ?  PHE      B 321 ?   -9.813 -10.320 -20.641  0.00  0 321 B
+ATOM     1947    C  CD2 ?  LEU      A 257 ?  -10.870  -3.504 -20.296  0.00  0 257 A
+ATOM    22508    O    O ?  GLY      J 2 ?  -13.264 -17.235 -16.804 -2.28  0 5002 I
+ATOM     6971    C   CZ ?  PHE      B 321 ?  -10.561 -11.477 -20.763  0.00  0 321 B
+ATOM     1702    C   CA ?  ILE      A 225 ?  -18.298  -7.021 -18.283  0.00  0 225 A
+ATOM     6955    O    O ?  GLU      B 320 ?  -11.291  -8.730 -24.882  0.00  0 320 B
+ATOM     6241    O   OG ?  SER      B 227 ?  -11.593 -14.320 -16.909 -4.29  0 227 B
+ATOM     6970    C  CE2 ?  PHE      B 321 ?  -10.468 -12.253 -21.906  0.00  0 321 B
+ATOM     1727    O  OD1 ?  ASP      A 227 ?  -17.760 -12.013 -14.720 -0.40  0 227 A
+ATOM     1725    C   CB ?  ASP      A 227 ?  -16.087 -10.422 -14.106  0.00  0 227 A
+ATOM     6240    C   CB ?  SER      B 227 ?  -11.807 -14.449 -15.516  0.00  0 227 B
+ATOM    22505    N    N ?  GLY      J 2 ?  -15.506 -16.303 -15.368 -1.09  0 5002 I
+ATOM     6487    C   CB ?  ALA      B 260 ?   -7.980 -15.193 -19.289  0.00  0 260 B
+ATOM     5512    O   OG ?  SER      B 134 ?   -9.308 -20.121 -20.075 -1.07  0 134 B
+ATOM     1736    O  OD2 ?  ASP      A 228 ?  -12.287 -11.279 -14.184 -2.95  0 228 A
+ATOM    22495    C   CA ?  ARG      J 1 ?  -17.505 -15.896 -16.698  0.00  0 5001 I
+ATOM     1699    C   CB ?  SER      A 224 ?  -20.166 -11.161 -17.044  0.00  0 224 A
 # 

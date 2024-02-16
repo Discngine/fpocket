@@ -15,7 +15,7 @@ Information about the pocket    24:
 6  - Hydrophobicity Score              : 49.2500
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 111.3498
+9  - Pocket volume (Monte Carlo)       : 113.3673
 10  -Pocket volume (convex hull)       : 1.1615
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 10.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,22 +37,23 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5243    O    O .  CYS   F .    6 ?  -54.222 -80.520 -11.221 -2.14  0   F
-ATOM     5240    N    N .  CYS   F .    6 ?  -53.358 -81.663 -13.614  0.00  0   F
-ATOM     5239    C   CD .  PRO   F .    5 ?  -56.194 -83.471 -15.037  0.00  0   F
-ATOM     4193    C   CD .  PRO   E .    5 ?  -59.646 -81.936 -13.194  0.00  0   E
-ATOM     4197    O    O .  CYS   E .    6 ?  -59.299 -78.717 -17.273 -2.14  0   E
-ATOM     5302    C  CE3 .  TRP   F .   12 ?  -56.429 -79.938 -18.749  0.00  0   F
-ATOM     5296    C   CB .  TRP   F .   12 ?  -53.874 -78.203 -17.591  0.00  0   F
-ATOM     5238    C   CG .  PRO   F .    5 ?  -55.677 -83.303 -16.431  0.00  0   F
-ATOM     4194    N    N .  CYS   E .    6 ?  -60.543 -78.748 -14.799  0.00  0   E
-ATOM     5244    C   CB .  CYS   F .    6 ?  -52.379 -79.425 -13.680  0.00  0   F
-ATOM     4198    C   CB .  CYS   E .    6 ?  -59.726 -76.460 -14.985  0.00  0   E
-ATOM     4192    C   CG .  PRO   E .    5 ?  -59.794 -81.335 -11.828  0.00  0   E
-ATOM     4256    C  CE3 .  TRP   E .   12 ?  -56.868 -79.271  -9.797  0.00  0   E
-ATOM     4250    C   CB .  TRP   E .   12 ?  -57.548 -76.377 -11.198  0.00  0   E
-ATOM     4191    C   CB .  PRO   E .    5 ?  -60.614 -80.103 -11.992  0.00  0   E
-ATOM     4227    O    O .  TRP   E .   10 ?  -55.937 -73.889 -15.843 -1.07  0   E
-ATOM     5273    O    O .  TRP   F .   10 ?  -53.214 -74.814 -13.269 -2.14  0   F
+ATOM     5243    O    O ?  CYS      F 6 ?  -54.222 -80.520 -11.221 -2.14  0 144 F
+ATOM     5240    N    N ?  CYS      F 6 ?  -53.358 -81.663 -13.614  0.00  0 144 F
+ATOM     5239    C   CD ?  PRO      F 5 ?  -56.194 -83.471 -15.037  0.00  0 143 F
+ATOM     4193    C   CD ?  PRO      E 5 ?  -59.646 -81.936 -13.194  0.00  0 143 E
+ATOM     4197    O    O ?  CYS      E 6 ?  -59.299 -78.717 -17.273 -2.14  0 144 E
+ATOM     5302    C  CE3 ?  TRP      F 12 ?  -56.429 -79.938 -18.749  0.00  0 150 F
+ATOM     5296    C   CB ?  TRP      F 12 ?  -53.874 -78.203 -17.591  0.00  0 150 F
+ATOM     5238    C   CG ?  PRO      F 5 ?  -55.677 -83.303 -16.431  0.00  0 143 F
+ATOM     4194    N    N ?  CYS      E 6 ?  -60.543 -78.748 -14.799  0.00  0 144 E
+ATOM     5244    C   CB ?  CYS      F 6 ?  -52.379 -79.425 -13.680  0.00  0 144 F
+ATOM     4198    C   CB ?  CYS      E 6 ?  -59.726 -76.460 -14.985  0.00  0 144 E
+ATOM     4192    C   CG ?  PRO      E 5 ?  -59.794 -81.335 -11.828  0.00  0 143 E
+ATOM     4256    C  CE3 ?  TRP      E 12 ?  -56.868 -79.271  -9.797  0.00  0 150 E
+ATOM     4250    C   CB ?  TRP      E 12 ?  -57.548 -76.377 -11.198  0.00  0 150 E
+ATOM     4191    C   CB ?  PRO      E 5 ?  -60.614 -80.103 -11.992  0.00  0 143 E
+ATOM     4227    O    O ?  TRP      E 10 ?  -55.937 -73.889 -15.843 -1.07  0 148 E
+ATOM     5273    O    O ?  TRP      F 10 ?  -53.214 -74.814 -13.269 -2.14  0 148 F
 # 

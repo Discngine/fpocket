@@ -15,7 +15,7 @@ Information about the pocket    78:
 6  - Hydrophobicity Score              : 9.5714
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 2.8571
-9  - Pocket volume (Monte Carlo)       : 212.3774
+9  - Pocket volume (Monte Carlo)       : 217.9446
 10  -Pocket volume (convex hull)       : 4.8262
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 7.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,21 +37,22 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      958    N    N .  ALA   A .  121 ?   16.524 -26.121 -35.454 -1.93  0   A
-ATOM     2864    O    O .  SER   C .   97 ?   11.647 -29.895 -34.721  0.00  0   C
-ATOM      961    O    O .  ALA   A .  121 ?   15.665 -28.689 -36.439 -1.07  0   A
-ATOM      962    C   CB .  ALA   A .  121 ?   16.365 -27.803 -33.690  0.00  0   A
-ATOM     2669    N    N .  SER   C .   74 ?    6.790 -24.005 -34.239  0.00  0   C
-ATOM     2674    O   OG .  SER   C .   74 ?    7.243 -21.393 -35.538  0.00  0   C
-ATOM      957    C  CD2 .  LEU   A .  120 ?   13.875 -22.544 -37.100  0.00  0   A
-ATOM     2668    C   CD .  PRO   C .   73 ?    8.276 -27.082 -36.155  0.00  0   C
-ATOM     2673    C   CB .  SER   C .   74 ?    7.411 -21.622 -34.148  0.00  0   C
-ATOM     2881    O  OG1 .  THR   C .   99 ?   11.126 -27.039 -38.176 -5.36  0   C
-ATOM     2666    C   CB .  PRO   C .   73 ?    8.044 -27.040 -33.804  0.00  0   C
-ATOM     2659    C   CG .  ASN   C .   72 ?    7.343 -23.452 -38.395  0.00  0   C
-ATOM     2660    O  OD1 .  ASN   C .   72 ?    6.723 -22.997 -37.429  0.00  0   C
-ATOM     2661    N  ND2 .  ASN   C .   72 ?    7.889 -22.653 -39.297 -6.56  0   C
-ATOM     2658    C   CB .  ASN   C .   72 ?    7.547 -24.934 -38.596  0.00  0   C
-ATOM     2667    C   CG .  PRO   C .   73 ?    8.603 -27.834 -34.907  0.00  0   C
+ATOM      958    N    N ?  ALA      A 121 ?   16.524 -26.121 -35.454 -1.93  0 259 A
+ATOM     2864    O    O ?  SER      C 97 ?   11.647 -29.895 -34.721  0.00  0 235 C
+ATOM      961    O    O ?  ALA      A 121 ?   15.665 -28.689 -36.439 -1.07  0 259 A
+ATOM      962    C   CB ?  ALA      A 121 ?   16.365 -27.803 -33.690  0.00  0 259 A
+ATOM     2669    N    N ?  SER      C 74 ?    6.790 -24.005 -34.239  0.00  0 212 C
+ATOM     2674    O   OG ?  SER      C 74 ?    7.243 -21.393 -35.538  0.00  0 212 C
+ATOM      957    C  CD2 ?  LEU      A 120 ?   13.875 -22.544 -37.100  0.00  0 258 A
+ATOM     2668    C   CD ?  PRO      C 73 ?    8.276 -27.082 -36.155  0.00  0 211 C
+ATOM     2673    C   CB ?  SER      C 74 ?    7.411 -21.622 -34.148  0.00  0 212 C
+ATOM     2881    O  OG1 ?  THR      C 99 ?   11.126 -27.039 -38.176 -5.36  0 237 C
+ATOM     2666    C   CB ?  PRO      C 73 ?    8.044 -27.040 -33.804  0.00  0 211 C
+ATOM     2659    C   CG ?  ASN      C 72 ?    7.343 -23.452 -38.395  0.00  0 210 C
+ATOM     2660    O  OD1 ?  ASN      C 72 ?    6.723 -22.997 -37.429  0.00  0 210 C
+ATOM     2661    N  ND2 ?  ASN      C 72 ?    7.889 -22.653 -39.297 -6.56  0 210 C
+ATOM     2658    C   CB ?  ASN      C 72 ?    7.547 -24.934 -38.596  0.00  0 210 C
+ATOM     2667    C   CG ?  PRO      C 73 ?    8.603 -27.834 -34.907  0.00  0 211 C
 # 

@@ -15,7 +15,7 @@ Information about the pocket   228:
 6  - Hydrophobicity Score              : 10.4167
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 592.2717
+9  - Pocket volume (Monte Carlo)       : 602.6403
 10  -Pocket volume (convex hull)       : 96.1698
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.2000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,41 +37,42 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    19109    N  NH1 .  ARG   H .  218 ?  -55.492 -76.306  53.204  0.00  0   H
-ATOM    18476    O    O .  GLY   H .  132 ?  -57.070 -77.096  47.891 -7.90  0   H
-ATOM    18474    C   CA .  GLY   H .  132 ?  -57.288 -75.038  46.678  0.00  0   H
-ATOM    19106    C   CD .  ARG   H .  218 ?  -53.131 -76.165  51.611  0.00  0   H
-ATOM    19101    C   CA .  ARG   H .  218 ?  -52.383 -74.499  48.346  0.00  0   H
-ATOM    17449    C   CB .  GLU   L .  218 ?  -62.396 -77.136  52.352  0.00  0   L
-ATOM    17451    C   CD .  GLU   L .  218 ?  -63.576 -78.392  50.529  0.00  0   L
-ATOM    17453    O  OE2 .  GLU   L .  218 ?  -62.986 -79.491  50.468  0.00  0   L
-ATOM    17454    N    N .  CYS   L .  219 ?  -59.995 -77.185  53.801 -8.08  0   L
-ATOM    17458    C   CB .  CYS   L .  219 ?  -58.041 -76.619  55.244  0.00  0   L
-ATOM    17429    O    O .  ARG   L .  216 ?  -62.250 -71.772  53.752  0.00  0   L
-ATOM    19110    N  NH2 .  ARG   H .  218 ?  -55.780 -78.512  52.627 -4.79  0   H
-ATOM    17457    O    O .  CYS   L .  219 ?  -59.655 -79.806  54.863 -4.02  0   L
-ATOM    17455    C   CA .  CYS   L .  219 ?  -58.689 -77.663  54.315  0.00  0   L
-ATOM    17445    N    N .  GLU   L .  218 ?  -62.684 -75.365  54.036 -1.09  0   L
-ATOM    17421    O    O .  ASN   L .  215 ?  -63.222 -73.600  50.847 -2.14  0   L
-ATOM    17415    C  CE1 .  PHE   L .  214 ?  -60.844 -72.311  48.169  0.00  0   L
-ATOM    17431    C   CG .  ARG   L .  216 ?  -63.350 -68.761  52.876  0.00  0   L
-ATOM    17243    O  OE2 .  GLU   L .  192 ?  -60.880 -63.192  55.388  0.00  0   L
-ATOM    17432    C   CD .  ARG   L .  216 ?  -63.992 -67.393  53.071  0.00  0   L
-ATOM    17435    N  NH1 .  ARG   L .  216 ?  -64.470 -67.407  55.862 -1.26  0   L
-ATOM    17232    C  CE2 .  TYR   L .  191 ?  -62.248 -65.421  50.741  0.00  0   L
-ATOM    16753    C  CD1 .  LEU   L .  130 ?  -57.547 -64.362  51.569  0.00  0   L
-ATOM    19102    C    C .  ARG   H .  218 ?  -52.682 -73.016  48.160  0.00  0   H
-ATOM    19104    C   CB .  ARG   H .  218 ?  -52.043 -74.804  49.815  0.00  0   H
-ATOM    16708    C   CG .  PRO   L .  124 ?  -58.197 -70.602  45.968  0.00  0   L
-ATOM    17452    O  OE1 .  GLU   L .  218 ?  -64.044 -77.814  49.528  0.00  0   L
-ATOM    18475    C    C .  GLY   H .  132 ?  -57.441 -76.540  46.855  0.00  0   H
-ATOM    17413    C  CD1 .  PHE   L .  214 ?  -61.617 -72.806  47.125  0.00  0   L
-ATOM    18482    O   OG .  SER   H .  133 ?  -60.564 -78.388  45.866 -4.43  0   H
-ATOM    18478    C   CA .  SER   H .  133 ?  -58.141 -78.647  45.804  0.00  0   H
-ATOM    18481    C   CB .  SER   H .  133 ?  -59.495 -79.016  45.185  0.00  0   H
-ATOM    17417    C   CZ .  PHE   L .  214 ?  -61.226 -71.142  48.818  0.00  0   L
-ATOM    16713    O    O .  PRO   L .  125 ?  -56.861 -66.740  47.566  0.00  0   L
-ATOM    16707    C   CB .  PRO   L .  124 ?  -59.279 -69.722  46.490  0.00  0   L
-ATOM    17234    O   OH .  TYR   L .  191 ?  -62.005 -67.472  49.573 -2.14  0   L
+ATOM    19109    N  NH1 ?  ARG      F 218 ?  -55.492 -76.306  53.204  0.00  0 218 H
+ATOM    18476    O    O ?  GLY      F 132 ?  -57.070 -77.096  47.891 -7.90  0 132 H
+ATOM    18474    C   CA ?  GLY      F 132 ?  -57.288 -75.038  46.678  0.00  0 132 H
+ATOM    19106    C   CD ?  ARG      F 218 ?  -53.131 -76.165  51.611  0.00  0 218 H
+ATOM    19101    C   CA ?  ARG      F 218 ?  -52.383 -74.499  48.346  0.00  0 218 H
+ATOM    17449    C   CB ?  GLU      E 218 ?  -62.396 -77.136  52.352  0.00  0 218 L
+ATOM    17451    C   CD ?  GLU      E 218 ?  -63.576 -78.392  50.529  0.00  0 218 L
+ATOM    17453    O  OE2 ?  GLU      E 218 ?  -62.986 -79.491  50.468  0.00  0 218 L
+ATOM    17454    N    N ?  CYS      E 219 ?  -59.995 -77.185  53.801 -8.08  0 219 L
+ATOM    17458    C   CB ?  CYS      E 219 ?  -58.041 -76.619  55.244  0.00  0 219 L
+ATOM    17429    O    O ?  ARG      E 216 ?  -62.250 -71.772  53.752  0.00  0 216 L
+ATOM    19110    N  NH2 ?  ARG      F 218 ?  -55.780 -78.512  52.627 -4.79  0 218 H
+ATOM    17457    O    O ?  CYS      E 219 ?  -59.655 -79.806  54.863 -4.02  0 219 L
+ATOM    17455    C   CA ?  CYS      E 219 ?  -58.689 -77.663  54.315  0.00  0 219 L
+ATOM    17445    N    N ?  GLU      E 218 ?  -62.684 -75.365  54.036 -1.09  0 218 L
+ATOM    17421    O    O ?  ASN      E 215 ?  -63.222 -73.600  50.847 -2.14  0 215 L
+ATOM    17415    C  CE1 ?  PHE      E 214 ?  -60.844 -72.311  48.169  0.00  0 214 L
+ATOM    17431    C   CG ?  ARG      E 216 ?  -63.350 -68.761  52.876  0.00  0 216 L
+ATOM    17243    O  OE2 ?  GLU      E 192 ?  -60.880 -63.192  55.388  0.00  0 192 L
+ATOM    17432    C   CD ?  ARG      E 216 ?  -63.992 -67.393  53.071  0.00  0 216 L
+ATOM    17435    N  NH1 ?  ARG      E 216 ?  -64.470 -67.407  55.862 -1.26  0 216 L
+ATOM    17232    C  CE2 ?  TYR      E 191 ?  -62.248 -65.421  50.741  0.00  0 191 L
+ATOM    16753    C  CD1 ?  LEU      E 130 ?  -57.547 -64.362  51.569  0.00  0 130 L
+ATOM    19102    C    C ?  ARG      F 218 ?  -52.682 -73.016  48.160  0.00  0 218 H
+ATOM    19104    C   CB ?  ARG      F 218 ?  -52.043 -74.804  49.815  0.00  0 218 H
+ATOM    16708    C   CG ?  PRO      E 124 ?  -58.197 -70.602  45.968  0.00  0 124 L
+ATOM    17452    O  OE1 ?  GLU      E 218 ?  -64.044 -77.814  49.528  0.00  0 218 L
+ATOM    18475    C    C ?  GLY      F 132 ?  -57.441 -76.540  46.855  0.00  0 132 H
+ATOM    17413    C  CD1 ?  PHE      E 214 ?  -61.617 -72.806  47.125  0.00  0 214 L
+ATOM    18482    O   OG ?  SER      F 133 ?  -60.564 -78.388  45.866 -4.43  0 133 H
+ATOM    18478    C   CA ?  SER      F 133 ?  -58.141 -78.647  45.804  0.00  0 133 H
+ATOM    18481    C   CB ?  SER      F 133 ?  -59.495 -79.016  45.185  0.00  0 133 H
+ATOM    17417    C   CZ ?  PHE      E 214 ?  -61.226 -71.142  48.818  0.00  0 214 L
+ATOM    16713    O    O ?  PRO      E 125 ?  -56.861 -66.740  47.566  0.00  0 125 L
+ATOM    16707    C   CB ?  PRO      E 124 ?  -59.279 -69.722  46.490  0.00  0 124 L
+ATOM    17234    O   OH ?  TYR      E 191 ?  -62.005 -67.472  49.573 -2.14  0 191 L
 # 

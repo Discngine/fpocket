@@ -15,7 +15,7 @@ Information about the pocket   200:
 6  - Hydrophobicity Score              : -9.5714
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 233.5990
+9  - Pocket volume (Monte Carlo)       : 232.7177
 10  -Pocket volume (convex hull)       : 5.0686
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 2.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,22 +37,23 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12402    N   NE .  ARG   D .    6 ?  -32.401  -5.468 -35.075 -6.56  0   D
-ATOM    12527    N  ND2 .  ASN   D .   24 ?  -35.274  -0.719 -31.576  0.00  0   D
-ATOM    12405    N  NH2 .  ARG   D .    6 ?  -32.466  -7.213 -33.581  0.00  0   D
-ATOM    12394    N  ND2 .  ASN   D .    5 ?  -29.744  -0.700 -31.481  0.00  0   D
-ATOM    12391    C   CB .  ASN   D .    5 ?  -30.095  -0.511 -33.871  0.00  0   D
-ATOM    12404    N  NH1 .  ARG   D .    6 ?  -34.325  -6.725 -34.832 -7.66  0   D
-ATOM    12401    C   CD .  ARG   D .    6 ?  -32.958  -4.586 -36.095  0.00  0   D
-ATOM    12400    C   CG .  ARG   D .    6 ?  -32.002  -3.471 -36.474  0.00  0   D
-ATOM    12403    C   CZ .  ARG   D .    6 ?  -33.065  -6.467 -34.498  0.00  0   D
-ATOM    12519    C   CD .  PRO   D .   23 ?  -38.315  -3.950 -34.480  0.00  0   D
-ATOM    12399    C   CB .  ARG   D .    6 ?  -32.746  -2.428 -37.287  0.00  0   D
-ATOM    12526    O  OD1 .  ASN   D .   24 ?  -37.318  -1.564 -31.185  0.00  0   D
-ATOM    12411    S   SG .  CYS   D .    7 ?  -37.073   0.698 -36.578  0.00  0   D
-ATOM    12406    N    N .  CYS   D .    7 ?  -33.838   0.351 -37.638  0.00  0   D
-ATOM    12518    C   CG .  PRO   D .   23 ?  -38.540  -4.120 -33.008  0.00  0   D
-ATOM    13107    O    O .  GLY   D .  106 ?  -39.524  -8.218 -31.803 -0.14  0   D
-ATOM    12510    C   CA .  GLY   D .   22 ?  -38.419  -2.738 -37.112  0.00  0   D
+ATOM    12402    N   NE ?  ARG      D 6 ?  -32.401  -5.468 -35.075 -6.56  0 6 D
+ATOM    12527    N  ND2 ?  ASN      D 24 ?  -35.274  -0.719 -31.576  0.00  0 24 D
+ATOM    12405    N  NH2 ?  ARG      D 6 ?  -32.466  -7.213 -33.581  0.00  0 6 D
+ATOM    12394    N  ND2 ?  ASN      D 5 ?  -29.744  -0.700 -31.481  0.00  0 5 D
+ATOM    12391    C   CB ?  ASN      D 5 ?  -30.095  -0.511 -33.871  0.00  0 5 D
+ATOM    12404    N  NH1 ?  ARG      D 6 ?  -34.325  -6.725 -34.832 -7.66  0 6 D
+ATOM    12401    C   CD ?  ARG      D 6 ?  -32.958  -4.586 -36.095  0.00  0 6 D
+ATOM    12400    C   CG ?  ARG      D 6 ?  -32.002  -3.471 -36.474  0.00  0 6 D
+ATOM    12403    C   CZ ?  ARG      D 6 ?  -33.065  -6.467 -34.498  0.00  0 6 D
+ATOM    12519    C   CD ?  PRO      D 23 ?  -38.315  -3.950 -34.480  0.00  0 23 D
+ATOM    12399    C   CB ?  ARG      D 6 ?  -32.746  -2.428 -37.287  0.00  0 6 D
+ATOM    12526    O  OD1 ?  ASN      D 24 ?  -37.318  -1.564 -31.185  0.00  0 24 D
+ATOM    12411    S   SG ?  CYS      D 7 ?  -37.073   0.698 -36.578  0.00  0 7 D
+ATOM    12406    N    N ?  CYS      D 7 ?  -33.838   0.351 -37.638  0.00  0 7 D
+ATOM    12518    C   CG ?  PRO      D 23 ?  -38.540  -4.120 -33.008  0.00  0 23 D
+ATOM    13107    O    O ?  GLY      D 106 ?  -39.524  -8.218 -31.803 -0.14  0 106 D
+ATOM    12510    C   CA ?  GLY      D 22 ?  -38.419  -2.738 -37.112  0.00  0 22 D
 # 

@@ -15,7 +15,7 @@ Information about the pocket    55:
 6  - Hydrophobicity Score              : 50.5714
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.8571
-9  - Pocket volume (Monte Carlo)       : 178.0491
+9  - Pocket volume (Monte Carlo)       : 177.5077
 10  -Pocket volume (convex hull)       : 3.1319
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 7.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,19 +37,20 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    22064    C   CA .  SER   F .  165 ?   -9.776 -28.684 -80.737  0.00  0   F
-ATOM    22084    C  CG1 .  VAL   F .  168 ?   -4.658 -29.745 -83.326  0.00  0   F
-ATOM    22066    O    O .  SER   F .  165 ?   -8.117 -30.306 -80.132  0.00  0   F
-ATOM    22083    C   CB .  VAL   F .  168 ?   -5.636 -30.613 -82.549  0.00  0   F
-ATOM    22085    C  CG2 .  VAL   F .  168 ?   -7.001 -30.552 -83.217  0.00  0   F
-ATOM    22067    C   CB .  SER   F .  165 ?   -9.953 -27.737 -79.543  0.00  0   F
-ATOM    22006    O    O .  VAL   F .  157 ?   -4.268 -23.857 -83.779  0.00  0   F
-ATOM    22048    O    O .  GLY   F .  162 ?  -12.554 -24.575 -81.457  0.00  0   F
-ATOM    22046    C   CA .  GLY   F .  162 ?  -11.566 -23.038 -82.999  0.00  0   F
-ATOM    22016    C  CG2 .  THR   F .  158 ?   -8.278 -22.311 -83.734  0.00  0   F
-ATOM    22058    O    O .  LEU   F .  164 ?  -10.206 -27.519 -83.238 -2.14  0   F
-ATOM    22023    C  CD1 .  TRP   F .  159 ?   -6.452 -27.993 -85.977  0.00  0   F
-ATOM    22017    N    N .  TRP   F .  159 ?   -8.231 -25.038 -85.933  0.00  0   F
-ATOM    22011    C   CA .  THR   F .  158 ?   -6.601 -23.389 -85.242  0.00  0   F
+ATOM    22064    C   CA ?  SER      H 165 ?   -9.776 -28.684 -80.737  0.00  0 165 F
+ATOM    22084    C  CG1 ?  VAL      H 168 ?   -4.658 -29.745 -83.326  0.00  0 168 F
+ATOM    22066    O    O ?  SER      H 165 ?   -8.117 -30.306 -80.132  0.00  0 165 F
+ATOM    22083    C   CB ?  VAL      H 168 ?   -5.636 -30.613 -82.549  0.00  0 168 F
+ATOM    22085    C  CG2 ?  VAL      H 168 ?   -7.001 -30.552 -83.217  0.00  0 168 F
+ATOM    22067    C   CB ?  SER      H 165 ?   -9.953 -27.737 -79.543  0.00  0 165 F
+ATOM    22006    O    O ?  VAL      H 157 ?   -4.268 -23.857 -83.779  0.00  0 157 F
+ATOM    22048    O    O ?  GLY      H 162 ?  -12.554 -24.575 -81.457  0.00  0 162 F
+ATOM    22046    C   CA ?  GLY      H 162 ?  -11.566 -23.038 -82.999  0.00  0 162 F
+ATOM    22016    C  CG2 ?  THR      H 158 ?   -8.278 -22.311 -83.734  0.00  0 158 F
+ATOM    22058    O    O ?  LEU      H 164 ?  -10.206 -27.519 -83.238 -2.14  0 164 F
+ATOM    22023    C  CD1 ?  TRP      H 159 ?   -6.452 -27.993 -85.977  0.00  0 159 F
+ATOM    22017    N    N ?  TRP      H 159 ?   -8.231 -25.038 -85.933  0.00  0 159 F
+ATOM    22011    C   CA ?  THR      H 158 ?   -6.601 -23.389 -85.242  0.00  0 158 F
 # 

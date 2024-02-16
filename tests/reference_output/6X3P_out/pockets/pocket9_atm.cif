@@ -15,7 +15,7 @@ Information about the pocket     9:
 6  - Hydrophobicity Score              : 28.4000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 304.9485
+9  - Pocket volume (Monte Carlo)       : 313.8868
 10  -Pocket volume (convex hull)       : 9.3629
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 21.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1942    O  OG1 .  THR   A .  240 ?  -26.561  37.642 -20.911 -5.76  0   A
-ATOM     1965    C   CG .  TYR   A .  243 ?  -21.489  36.864 -16.036  0.00  0   A
-ATOM     1932    C  CD2 .  TYR   A .  239 ?  -21.116  37.089 -21.459  0.00  0   A
-ATOM     1934    C  CE2 .  TYR   A .  239 ?  -20.079  37.663 -20.732  0.00  0   A
-ATOM     1973    C   CA .  SER   A .  244 ?  -25.638  34.576 -13.688  0.00  0   A
-ATOM     1976    C   CB .  SER   A .  244 ?  -27.081  34.355 -14.162  0.00  0   A
-ATOM     2006    C  CE1 .  HIS   A .  247 ?  -26.481  37.670 -10.959  0.00  0   A
-ATOM     1943    C  CG2 .  THR   A .  240 ?  -27.880  37.097 -18.946  0.00  0   A
-ATOM     1967    C  CD2 .  TYR   A .  243 ?  -21.969  37.785 -15.116  0.00  0   A
-ATOM     2007    N  NE2 .  HIS   A .  247 ?  -25.976  38.858 -10.630  0.00  0   A
-ATOM     1969    C  CE2 .  TYR   A .  243 ?  -21.133  38.766 -14.567  0.00  0   A
-ATOM     1938    C   CA .  THR   A .  240 ?  -25.766  35.795 -19.597  0.00  0   A
-ATOM     1968    C  CE1 .  TYR   A .  243 ?  -19.291  37.859 -15.795  0.00  0   A
-ATOM     1940    O    O .  THR   A .  240 ?  -26.098  34.847 -17.384  0.00  0   A
-ATOM     1970    C   CZ .  TYR   A .  243 ?  -19.787  38.771 -14.889  0.00  0   A
-ATOM     1936    O   OH .  TYR   A .  239 ?  -18.200  37.417 -19.266 -1.88  0   A
-ATOM     1971    O   OH .  TYR   A .  243 ?  -18.904  39.668 -14.340 -2.95  0   A
-ATOM     1972    N    N .  SER   A .  244 ?  -24.693  34.449 -14.807 -1.09  0   A
-ATOM     1964    C   CB .  TYR   A .  243 ?  -22.411  35.836 -16.672  0.00  0   A
-ATOM     1966    C  CD1 .  TYR   A .  243 ?  -20.131  36.891 -16.332  0.00  0   A
+ATOM     1942    O  OG1 ?  THR      A 240 ?  -26.561  37.642 -20.911 -5.76  0 628 A
+ATOM     1965    C   CG ?  TYR      A 243 ?  -21.489  36.864 -16.036  0.00  0 631 A
+ATOM     1932    C  CD2 ?  TYR      A 239 ?  -21.116  37.089 -21.459  0.00  0 627 A
+ATOM     1934    C  CE2 ?  TYR      A 239 ?  -20.079  37.663 -20.732  0.00  0 627 A
+ATOM     1973    C   CA ?  SER      A 244 ?  -25.638  34.576 -13.688  0.00  0 632 A
+ATOM     1976    C   CB ?  SER      A 244 ?  -27.081  34.355 -14.162  0.00  0 632 A
+ATOM     2006    C  CE1 ?  HIS      A 247 ?  -26.481  37.670 -10.959  0.00  0 635 A
+ATOM     1943    C  CG2 ?  THR      A 240 ?  -27.880  37.097 -18.946  0.00  0 628 A
+ATOM     1967    C  CD2 ?  TYR      A 243 ?  -21.969  37.785 -15.116  0.00  0 631 A
+ATOM     2007    N  NE2 ?  HIS      A 247 ?  -25.976  38.858 -10.630  0.00  0 635 A
+ATOM     1969    C  CE2 ?  TYR      A 243 ?  -21.133  38.766 -14.567  0.00  0 631 A
+ATOM     1938    C   CA ?  THR      A 240 ?  -25.766  35.795 -19.597  0.00  0 628 A
+ATOM     1968    C  CE1 ?  TYR      A 243 ?  -19.291  37.859 -15.795  0.00  0 631 A
+ATOM     1940    O    O ?  THR      A 240 ?  -26.098  34.847 -17.384  0.00  0 628 A
+ATOM     1970    C   CZ ?  TYR      A 243 ?  -19.787  38.771 -14.889  0.00  0 631 A
+ATOM     1936    O   OH ?  TYR      A 239 ?  -18.200  37.417 -19.266 -1.88  0 627 A
+ATOM     1971    O   OH ?  TYR      A 243 ?  -18.904  39.668 -14.340 -2.95  0 631 A
+ATOM     1972    N    N ?  SER      A 244 ?  -24.693  34.449 -14.807 -1.09  0 632 A
+ATOM     1964    C   CB ?  TYR      A 243 ?  -22.411  35.836 -16.672  0.00  0 631 A
+ATOM     1966    C  CD1 ?  TYR      A 243 ?  -20.131  36.891 -16.332  0.00  0 631 A
 # 

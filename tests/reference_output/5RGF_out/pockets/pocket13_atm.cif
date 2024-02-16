@@ -15,7 +15,7 @@ Information about the pocket    13:
 6  - Hydrophobicity Score              : -0.3333
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.2222
-9  - Pocket volume (Monte Carlo)       : 230.3327
+9  - Pocket volume (Monte Carlo)       : 232.2650
 10  -Pocket volume (convex hull)       : 7.0451
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,24 +37,25 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      485    N   NZ .  LYS   A .   33 ?   -7.642  11.381  35.076  0.00  0   A
-ATOM     9879    O    O .  ALA   B .  279 ?  -11.060   6.845  31.531 -5.36  0   B
-ATOM     9888    C   CA .  SER   B .  280 ?  -11.306   9.538  31.773  0.00  0   B
-ATOM      483    C   CE .  LYS   A .   33 ?   -7.141  10.942  33.746  0.00  0   A
-ATOM     4883    O    O .  ASN   A .  289 ?   -6.135   7.438  37.194 -3.62  0   A
-ATOM     9894    C   CB .  SER   B .  280 ?  -11.048  11.045  31.752  0.00  0   B
-ATOM     9892    O    O .  SER   B .  280 ?  -13.475   9.578  32.762  0.00  0   B
-ATOM     9929    C  CG2 .  THR   B .  282 ?  -13.152   5.206  33.921  0.00  0   B
-ATOM     4884    C   CB .  ASN   A .  289 ?   -7.505   5.306  38.526  0.00  0   A
-ATOM     4885    C   CG .  ASN   A .  289 ?   -8.618   4.283  38.562  0.00  0   A
-ATOM     4886    O  OD1 .  ASN   A .  289 ?   -8.992   3.725  37.531 -2.95  0   A
-ATOM     9801    C   CB .  ASP   B .  273 ?  -10.828   1.925  31.732  0.00  0   B
-ATOM     4901    C  CD2 .  PHE   A .  290 ?   -4.655   6.681  33.641  0.00  0   A
-ATOM     9880    C   CB .  ALA   B .  279 ?   -8.279   6.782  29.878  0.00  0   B
-ATOM     4881    C   CA .  ASN   A .  289 ?   -6.546   5.086  37.354  0.00  0   A
-ATOM     4876    O    O .  GLY   A .  288 ?   -6.245   2.917  35.571 -1.07  0   A
-ATOM     9810    C   CA .  PRO   B .  274 ?   -6.609   2.999  30.999  0.00  0   B
-ATOM     4903    C  CE2 .  PHE   A .  290 ?   -4.549   5.937  32.487  0.00  0   A
-ATOM     9809    N    N .  PRO   B .  274 ?   -7.771   2.097  31.051  0.00  0   B
+ATOM      485    N   NZ A  LYS      A 33 ?   -7.642  11.381  35.076  0.00  0 31 A
+ATOM     9879    O    O ?  ALA      B 279 ?  -11.060   6.845  31.531 -5.36  0 277 B
+ATOM     9888    C   CA A  SER      B 280 ?  -11.306   9.538  31.773  0.00  0 278 B
+ATOM      483    C   CE A  LYS      A 33 ?   -7.141  10.942  33.746  0.00  0 31 A
+ATOM     4883    O    O ?  ASN      A 289 ?   -6.135   7.438  37.194 -3.62  0 287 A
+ATOM     9894    C   CB A  SER      B 280 ?  -11.048  11.045  31.752  0.00  0 278 B
+ATOM     9892    O    O A  SER      B 280 ?  -13.475   9.578  32.762  0.00  0 278 B
+ATOM     9929    C  CG2 ?  THR      B 282 ?  -13.152   5.206  33.921  0.00  0 280 B
+ATOM     4884    C   CB ?  ASN      A 289 ?   -7.505   5.306  38.526  0.00  0 287 A
+ATOM     4885    C   CG ?  ASN      A 289 ?   -8.618   4.283  38.562  0.00  0 287 A
+ATOM     4886    O  OD1 ?  ASN      A 289 ?   -8.992   3.725  37.531 -2.95  0 287 A
+ATOM     9801    C   CB ?  ASP      B 273 ?  -10.828   1.925  31.732  0.00  0 271 B
+ATOM     4901    C  CD2 ?  PHE      A 290 ?   -4.655   6.681  33.641  0.00  0 288 A
+ATOM     9880    C   CB ?  ALA      B 279 ?   -8.279   6.782  29.878  0.00  0 277 B
+ATOM     4881    C   CA ?  ASN      A 289 ?   -6.546   5.086  37.354  0.00  0 287 A
+ATOM     4876    O    O ?  GLY      A 288 ?   -6.245   2.917  35.571 -1.07  0 286 A
+ATOM     9810    C   CA ?  PRO      B 274 ?   -6.609   2.999  30.999  0.00  0 272 B
+ATOM     4903    C  CE2 ?  PHE      A 290 ?   -4.549   5.937  32.487  0.00  0 288 A
+ATOM     9809    N    N ?  PRO      B 274 ?   -7.771   2.097  31.051  0.00  0 272 B
 # 

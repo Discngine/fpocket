@@ -15,7 +15,7 @@ Information about the pocket   155:
 6  - Hydrophobicity Score              : 9.1250
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 333.7076
+9  - Pocket volume (Monte Carlo)       : 330.3419
 10  -Pocket volume (convex hull)       : 20.0828
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    19451    N   NE .  ARG   E .   44 ?    3.810 -27.028 -60.830  0.00  0   E
-ATOM    19763    C   CB .  ALA   E .   86 ?   -0.030 -30.605 -59.870  0.00  0   E
-ATOM    19454    N  NH2 .  ARG   E .   44 ?    3.745 -27.176 -58.529  0.00  0   E
-ATOM    19452    C   CZ .  ARG   E .   44 ?    3.951 -26.463 -59.629  0.00  0   E
-ATOM    19449    C   CG .  ARG   E .   44 ?    4.725 -27.214 -63.128  0.00  0   E
-ATOM    19757    O    O .  ALA   E .   85 ?    1.156 -32.584 -63.451 -4.69  0   E
-ATOM    19461    C   CD .  PRO   E .   45 ?    5.664 -28.310 -67.355  0.00  0   E
-ATOM    19775    O    O .  VAL   E .   88 ?    5.445 -30.943 -64.068 -2.14  0   E
-ATOM    19474    N  NE2 .  GLN   E .   47 ?    2.133 -22.240 -64.871 -1.26  0   E
-ATOM    19458    O    O .  PRO   E .   45 ?    4.834 -24.906 -68.543 -1.21  0   E
-ATOM    19472    C   CD .  GLN   E .   47 ?    3.433 -22.494 -64.721  0.00  0   E
-ATOM    19448    C   CB .  ARG   E .   44 ?    5.243 -26.402 -64.310  0.00  0   E
-ATOM    19762    O    O .  ALA   E .   86 ?    2.899 -30.175 -60.955 -1.07  0   E
-ATOM    19760    C   CA .  ALA   E .   86 ?    0.717 -31.165 -61.068  0.00  0   E
-ATOM    19450    C   CD .  ARG   E .   44 ?    4.013 -26.338 -62.105  0.00  0   E
-ATOM    19777    C  CG1 .  VAL   E .   88 ?    4.877 -33.879 -66.183  0.00  0   E
-ATOM    20443    O   OG .  SER   E .  173 ?   -1.537 -31.215 -69.488  0.00  0   E
-ATOM    19460    C   CG .  PRO   E .   45 ?    5.955 -28.829 -68.735  0.00  0   E
-ATOM    20424    O    O .  GLN   E .  171 ?    2.249 -33.913 -71.879 -4.02  0   E
-ATOM    19776    C   CB .  VAL   E .   88 ?    4.118 -33.599 -64.895  0.00  0   E
+ATOM    19451    N   NE ?  ARG      G 44 ?    3.810 -27.028 -60.830  0.00  0 44 E
+ATOM    19763    C   CB ?  ALA      G 86 ?   -0.030 -30.605 -59.870  0.00  0 86 E
+ATOM    19454    N  NH2 ?  ARG      G 44 ?    3.745 -27.176 -58.529  0.00  0 44 E
+ATOM    19452    C   CZ ?  ARG      G 44 ?    3.951 -26.463 -59.629  0.00  0 44 E
+ATOM    19449    C   CG ?  ARG      G 44 ?    4.725 -27.214 -63.128  0.00  0 44 E
+ATOM    19757    O    O ?  ALA      G 85 ?    1.156 -32.584 -63.451 -4.69  0 85 E
+ATOM    19461    C   CD ?  PRO      G 45 ?    5.664 -28.310 -67.355  0.00  0 45 E
+ATOM    19775    O    O ?  VAL      G 88 ?    5.445 -30.943 -64.068 -2.14  0 88 E
+ATOM    19474    N  NE2 ?  GLN      G 47 ?    2.133 -22.240 -64.871 -1.26  0 47 E
+ATOM    19458    O    O ?  PRO      G 45 ?    4.834 -24.906 -68.543 -1.21  0 45 E
+ATOM    19472    C   CD ?  GLN      G 47 ?    3.433 -22.494 -64.721  0.00  0 47 E
+ATOM    19448    C   CB ?  ARG      G 44 ?    5.243 -26.402 -64.310  0.00  0 44 E
+ATOM    19762    O    O ?  ALA      G 86 ?    2.899 -30.175 -60.955 -1.07  0 86 E
+ATOM    19760    C   CA ?  ALA      G 86 ?    0.717 -31.165 -61.068  0.00  0 86 E
+ATOM    19450    C   CD ?  ARG      G 44 ?    4.013 -26.338 -62.105  0.00  0 44 E
+ATOM    19777    C  CG1 ?  VAL      G 88 ?    4.877 -33.879 -66.183  0.00  0 88 E
+ATOM    20443    O   OG ?  SER      G 173 ?   -1.537 -31.215 -69.488  0.00  0 173 E
+ATOM    19460    C   CG ?  PRO      G 45 ?    5.955 -28.829 -68.735  0.00  0 45 E
+ATOM    20424    O    O ?  GLN      G 171 ?    2.249 -33.913 -71.879 -4.02  0 171 E
+ATOM    19776    C   CB ?  VAL      G 88 ?    4.118 -33.599 -64.895  0.00  0 88 E
 # 

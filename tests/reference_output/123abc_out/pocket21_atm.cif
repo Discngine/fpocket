@@ -15,7 +15,7 @@ Information about the pocket    21:
 6  - Hydrophobicity Score              : 51.7143
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 3.8571
-9  - Pocket volume (Monte Carlo)       : 338.1321
+9  - Pocket volume (Monte Carlo)       : 334.5957
 10  -Pocket volume (convex hull)       : 33.9441
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 32.5294
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,37 +37,38 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5013    C  CD1 .  LEU   C .  113 ?   47.637  45.537  32.420  0.00  0   C
-ATOM     5969    O    O .  GLY   C .  236 ?   41.436  44.926  35.683 -1.88  0   C
-ATOM     5742    C  CE2 .  TYR   C .  208 ?   47.578  41.887  31.506  0.00  0   C
-ATOM     5744    O   OH .  TYR   C .  208 ?   49.149  42.483  33.247  0.00  0   C
-ATOM     5967    C   CA .  GLY   C .  236 ?   40.408  42.885  35.092  0.00  0   C
-ATOM     5960    O    O .  GLU   C .  235 ?   40.959  41.746  32.508 -6.17  0   C
-ATOM     5724    O    O .  ALA   C .  206 ?   44.035  43.617  29.804 -4.29  0   C
-ATOM     4992    C   CB .  ALA   C .  110 ?   46.896  45.998  37.907  0.00  0   C
-ATOM     4989    C   CA .  ALA   C .  110 ?   48.023  46.286  36.893  0.00  0   C
-ATOM     4988    N    N .  ALA   C .  110 ?   49.019  45.250  37.006 -1.09  0   C
-ATOM     5722    C   CA .  ALA   C .  206 ?   44.400  45.936  29.263  0.00  0   C
-ATOM     5011    C   CB .  LEU   C .  113 ?   48.507  47.814  32.706  0.00  0   C
-ATOM     5725    C   CB .  ALA   C .  206 ?   43.007  46.611  29.412  0.00  0   C
-ATOM     5971    C   CA .  CYS   C .  237 ?   40.269  46.381  33.554  0.00  0   C
-ATOM     5968    C    C .  GLY   C .  236 ?   40.655  44.362  34.916  0.00  0   C
-ATOM     5009    C    C .  LEU   C .  113 ?   49.262  50.208  32.866  0.00  0   C
-ATOM     6002    C  CG1 .  VAL   C .  241 ?   41.927  51.680  31.567  0.00  0   C
-ATOM     5010    O    O .  LEU   C .  113 ?   49.304  50.941  31.905  0.00  0   C
-ATOM     5982    C   CD .  PRO   C .  238 ?   41.741  48.427  35.286  0.00  0   C
-ATOM     5975    S   SG .  CYS   C .  237 ?   39.866  48.440  31.675  0.00  0   C
-ATOM     4991    O    O .  ALA   C .  110 ?   48.119  48.581  36.365 -4.29  0   C
-ATOM     5021    C  CD1 .  LEU   C .  114 ?   45.548  52.723  35.306  0.00  0   C
-ATOM     6003    C  CG2 .  VAL   C .  241 ?   42.161  52.318  34.092  0.00  0   C
-ATOM     5981    C   CG .  PRO   C .  238 ?   41.902  49.346  36.487  0.00  0   C
-ATOM     5015    N    N .  LEU   C .  114 ?   48.853  50.629  34.038 -1.09  0   C
-ATOM     5016    C   CA .  LEU   C .  114 ?   48.437  52.025  34.290  0.00  0   C
-ATOM     5047    C   CB .  ALA   C .  117 ?   47.619  53.976  30.267  0.00  0   C
-ATOM     5689    C  CD2 .  LEU   C .  202 ?   44.675  53.384  28.357  0.00  0   C
-ATOM     6210    C  CE1 .  PHE   C .  266 ?   44.724  55.322  32.190  0.00  0   C
-ATOM     5719    C  CG2 .  ILE   C .  205 ?   48.010  48.643  29.034  0.00  0   C
-ATOM     5685    O    O .  LEU   C .  202 ?   43.911  49.067  27.179 -2.14  0   C
-ATOM     5721    N    N .  ALA   C .  206 ?   45.181  46.650  28.250  0.00  0   C
+ATOM     5013    C  CD1 ?  LEU    Cxp 113 ?   47.637  45.537  32.420  0.00  0 340 C
+ATOM     5969    O    O ?  GLY    Cxp 236 ?   41.436  44.926  35.683 -1.88  0 463 C
+ATOM     5742    C  CE2 ?  TYR    Cxp 208 ?   47.578  41.887  31.506  0.00  0 435 C
+ATOM     5744    O   OH ?  TYR    Cxp 208 ?   49.149  42.483  33.247  0.00  0 435 C
+ATOM     5967    C   CA ?  GLY    Cxp 236 ?   40.408  42.885  35.092  0.00  0 463 C
+ATOM     5960    O    O ?  GLU    Cxp 235 ?   40.959  41.746  32.508 -6.17  0 462 C
+ATOM     5724    O    O ?  ALA    Cxp 206 ?   44.035  43.617  29.804 -4.29  0 433 C
+ATOM     4992    C   CB ?  ALA    Cxp 110 ?   46.896  45.998  37.907  0.00  0 337 C
+ATOM     4989    C   CA ?  ALA    Cxp 110 ?   48.023  46.286  36.893  0.00  0 337 C
+ATOM     4988    N    N ?  ALA    Cxp 110 ?   49.019  45.250  37.006 -1.09  0 337 C
+ATOM     5722    C   CA ?  ALA    Cxp 206 ?   44.400  45.936  29.263  0.00  0 433 C
+ATOM     5011    C   CB ?  LEU    Cxp 113 ?   48.507  47.814  32.706  0.00  0 340 C
+ATOM     5725    C   CB ?  ALA    Cxp 206 ?   43.007  46.611  29.412  0.00  0 433 C
+ATOM     5971    C   CA ?  CYS    Cxp 237 ?   40.269  46.381  33.554  0.00  0 464 C
+ATOM     5968    C    C ?  GLY    Cxp 236 ?   40.655  44.362  34.916  0.00  0 463 C
+ATOM     5009    C    C ?  LEU    Cxp 113 ?   49.262  50.208  32.866  0.00  0 340 C
+ATOM     6002    C  CG1 ?  VAL    Cxp 241 ?   41.927  51.680  31.567  0.00  0 468 C
+ATOM     5010    O    O ?  LEU    Cxp 113 ?   49.304  50.941  31.905  0.00  0 340 C
+ATOM     5982    C   CD ?  PRO    Cxp 238 ?   41.741  48.427  35.286  0.00  0 465 C
+ATOM     5975    S   SG ?  CYS    Cxp 237 ?   39.866  48.440  31.675  0.00  0 464 C
+ATOM     4991    O    O ?  ALA    Cxp 110 ?   48.119  48.581  36.365 -4.29  0 337 C
+ATOM     5021    C  CD1 ?  LEU    Cxp 114 ?   45.548  52.723  35.306  0.00  0 341 C
+ATOM     6003    C  CG2 ?  VAL    Cxp 241 ?   42.161  52.318  34.092  0.00  0 468 C
+ATOM     5981    C   CG ?  PRO    Cxp 238 ?   41.902  49.346  36.487  0.00  0 465 C
+ATOM     5015    N    N ?  LEU    Cxp 114 ?   48.853  50.629  34.038 -1.09  0 341 C
+ATOM     5016    C   CA ?  LEU    Cxp 114 ?   48.437  52.025  34.290  0.00  0 341 C
+ATOM     5047    C   CB ?  ALA    Cxp 117 ?   47.619  53.976  30.267  0.00  0 344 C
+ATOM     5689    C  CD2 ?  LEU    Cxp 202 ?   44.675  53.384  28.357  0.00  0 429 C
+ATOM     6210    C  CE1 ?  PHE    Cxp 266 ?   44.724  55.322  32.190  0.00  0 493 C
+ATOM     5719    C  CG2 ?  ILE    Cxp 205 ?   48.010  48.643  29.034  0.00  0 432 C
+ATOM     5685    O    O ?  LEU    Cxp 202 ?   43.911  49.067  27.179 -2.14  0 429 C
+ATOM     5721    N    N ?  ALA    Cxp 206 ?   45.181  46.650  28.250  0.00  0 433 C
 # 

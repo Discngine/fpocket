@@ -15,7 +15,7 @@ Information about the pocket    38:
 6  - Hydrophobicity Score              : 23.9286
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 377.2953
+9  - Pocket volume (Monte Carlo)       : 390.2217
 10  -Pocket volume (convex hull)       : 25.2098
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.2500
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,28 +37,29 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2434    C   CB .  GLU   B .   52 ?   16.705  61.275  28.123  0.00  0   B
-ATOM     2422    N    N .  MET   B .   51 ?   16.863  62.759  23.520  0.00  0   B
-ATOM     2415    N    N .  THR   B .   50 ?   18.296  65.229  24.944 -1.09  0   B
-ATOM     2419    C   CB .  THR   B .   50 ?   19.119  64.285  22.768  0.00  0   B
-ATOM     2430    N    N .  GLU   B .   52 ?   15.858  61.830  25.872  0.00  0   B
-ATOM     2429    C   CE .  MET   B .   51 ?   18.754  58.341  22.855  0.00  0   B
-ATOM     3284    C  CD1 .  LEU   B .  160 ?   24.002  58.165  35.776  0.00  0   B
-ATOM     2389    N   NZ .  LYS   B .   44 ?   17.801  61.554  36.438 -1.51  0   B
-ATOM     3246    O    O .  PHE   B .  155 ?   20.558  58.316  38.318 -3.21  0   B
-ATOM     2388    C   CE .  LYS   B .   44 ?   18.651  62.752  36.130  0.00  0   B
-ATOM     3285    C  CD2 .  LEU   B .  160 ?   24.855  58.372  33.400  0.00  0   B
-ATOM     2249    N    N .  GLU   B .   28 ?   24.796  63.567  34.565 -3.28  0   B
-ATOM     2246    C   CA .  GLY   B .   27 ?   25.877  61.472  35.144  0.00  0   B
-ATOM     2403    C  CD1 .  LEU   B .   46 ?   17.754  64.717  29.739  0.00  0   B
-ATOM     2409    C   CB .  LYS   B .   47 ?   23.185  66.395  27.547  0.00  0   B
-ATOM     2253    C   CB .  GLU   B .   28 ?   23.848  65.518  33.391  0.00  0   B
-ATOM     2393    O    O .  THR   B .   45 ?   20.453  66.175  33.081 -0.81  0   B
-ATOM     2254    C   CG .  GLU   B .   28 ?   24.497  65.301  32.044  0.00  0   B
-ATOM     3257    O    O .  GLY   B .  156 ?   20.946  56.177  35.838 -1.88  0   B
-ATOM     2236    O    O .  TYR   B .   26 ?   24.234  61.199  37.306 -3.21  0   B
-ATOM     2405    N    N .  LYS   B .   47 ?   21.180  66.982  28.938 -3.28  0   B
-ATOM     3283    C   CG .  LEU   B .  160 ?   24.435  57.411  34.518  0.00  0   B
-ATOM     3277    C   CG .  ARG   B .  159 ?   21.090  55.179  32.234  0.00  0   B
+ATOM     2434    C   CB ?  GLU    Bxp 52 ?   16.705  61.275  28.123  0.00  0 279 B
+ATOM     2422    N    N ?  MET    Bxp 51 ?   16.863  62.759  23.520  0.00  0 278 B
+ATOM     2415    N    N ?  THR    Bxp 50 ?   18.296  65.229  24.944 -1.09  0 277 B
+ATOM     2419    C   CB ?  THR    Bxp 50 ?   19.119  64.285  22.768  0.00  0 277 B
+ATOM     2430    N    N ?  GLU    Bxp 52 ?   15.858  61.830  25.872  0.00  0 279 B
+ATOM     2429    C   CE ?  MET    Bxp 51 ?   18.754  58.341  22.855  0.00  0 278 B
+ATOM     3284    C  CD1 ?  LEU    Bxp 160 ?   24.002  58.165  35.776  0.00  0 387 B
+ATOM     2389    N   NZ ?  LYS    Bxp 44 ?   17.801  61.554  36.438 -1.51  0 271 B
+ATOM     3246    O    O ?  PHE    Bxp 155 ?   20.558  58.316  38.318 -3.21  0 382 B
+ATOM     2388    C   CE ?  LYS    Bxp 44 ?   18.651  62.752  36.130  0.00  0 271 B
+ATOM     3285    C  CD2 ?  LEU    Bxp 160 ?   24.855  58.372  33.400  0.00  0 387 B
+ATOM     2249    N    N ?  GLU    Bxp 28 ?   24.796  63.567  34.565 -3.28  0 255 B
+ATOM     2246    C   CA ?  GLY    Bxp 27 ?   25.877  61.472  35.144  0.00  0 254 B
+ATOM     2403    C  CD1 ?  LEU    Bxp 46 ?   17.754  64.717  29.739  0.00  0 273 B
+ATOM     2409    C   CB ?  LYS    Bxp 47 ?   23.185  66.395  27.547  0.00  0 274 B
+ATOM     2253    C   CB ?  GLU    Bxp 28 ?   23.848  65.518  33.391  0.00  0 255 B
+ATOM     2393    O    O ?  THR    Bxp 45 ?   20.453  66.175  33.081 -0.81  0 272 B
+ATOM     2254    C   CG ?  GLU    Bxp 28 ?   24.497  65.301  32.044  0.00  0 255 B
+ATOM     3257    O    O ?  GLY    Bxp 156 ?   20.946  56.177  35.838 -1.88  0 383 B
+ATOM     2236    O    O ?  TYR    Bxp 26 ?   24.234  61.199  37.306 -3.21  0 253 B
+ATOM     2405    N    N ?  LYS    Bxp 47 ?   21.180  66.982  28.938 -3.28  0 274 B
+ATOM     3283    C   CG ?  LEU    Bxp 160 ?   24.435  57.411  34.518  0.00  0 387 B
+ATOM     3277    C   CG ?  ARG    Bxp 159 ?   21.090  55.179  32.234  0.00  0 386 B
 # 

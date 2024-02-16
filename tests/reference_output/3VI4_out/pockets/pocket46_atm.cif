@@ -15,7 +15,7 @@ Information about the pocket    46:
 6  - Hydrophobicity Score              : 32.5000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 279.1112
+9  - Pocket volume (Monte Carlo)       : 271.2480
 10  -Pocket volume (convex hull)       : 9.2604
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 14.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,24 +37,25 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11242    C   CE .  LYS   C .  442 ?  -46.224 -39.387 -70.287  0.00  0   C
-ATOM    11243    N   NZ .  LYS   C .  442 ?  -46.917 -38.352 -69.462 -3.70  0   C
-ATOM    11241    C   CD .  LYS   C .  442 ?  -44.720 -39.288 -70.115  0.00  0   C
-ATOM     7992    C  CG1 .  VAL   C .   10 ?  -41.981 -37.262 -72.827  0.00  0   C
-ATOM    10980    C  CZ3 .  TRP   C .  406 ?  -42.779 -35.810 -68.572  0.00  0   C
-ATOM    11274    O   OH .  TYR   C .  446 ?  -37.590 -32.698 -67.271 -5.36  0   C
-ATOM    10960    N    N .  LEU   C .  405 ?  -43.472 -31.189 -67.308 -2.19  0   C
-ATOM    10954    C   CA .  PRO   C .  404 ?  -42.509 -32.658 -65.614  0.00  0   C
-ATOM    10965    C   CG .  LEU   C .  405 ?  -42.588 -28.951 -69.357  0.00  0   C
-ATOM     7980    C   CG .  PRO   C .    8 ?  -38.278 -31.163 -71.877  0.00  0   C
-ATOM     7959    O    O .  ALA   C .    5 ?  -38.605 -27.608 -70.502 -4.29  0   C
-ATOM    10966    C  CD1 .  LEU   C .  405 ?  -42.086 -28.990 -70.796  0.00  0   C
-ATOM     7993    C  CG2 .  VAL   C .   10 ?  -40.984 -35.066 -73.466  0.00  0   C
-ATOM    11254    C  CG1 .  VAL   C .  444 ?  -37.701 -35.012 -70.221  0.00  0   C
-ATOM    10947    O    O .  GLN   C .  403 ?  -40.805 -30.370 -65.587 -1.48  0   C
-ATOM    10978    C  CE3 .  TRP   C .  406 ?  -44.011 -35.195 -68.833  0.00  0   C
-ATOM    10972    C   CB .  TRP   C .  406 ?  -47.217 -34.146 -68.892  0.00  0   C
-ATOM    10968    N    N .  TRP   C .  406 ?  -45.962 -32.086 -68.293 -3.28  0   C
-ATOM    10964    C   CB .  LEU   C .  405 ?  -43.924 -29.697 -69.246  0.00  0   C
+ATOM    11242    C   CE ?  LYS      C 442 ?  -46.224 -39.387 -70.287  0.00  0 442 C
+ATOM    11243    N   NZ ?  LYS      C 442 ?  -46.917 -38.352 -69.462 -3.70  0 442 C
+ATOM    11241    C   CD ?  LYS      C 442 ?  -44.720 -39.288 -70.115  0.00  0 442 C
+ATOM     7992    C  CG1 ?  VAL      C 10 ?  -41.981 -37.262 -72.827  0.00  0 10 C
+ATOM    10980    C  CZ3 ?  TRP      C 406 ?  -42.779 -35.810 -68.572  0.00  0 406 C
+ATOM    11274    O   OH ?  TYR      C 446 ?  -37.590 -32.698 -67.271 -5.36  0 446 C
+ATOM    10960    N    N ?  LEU      C 405 ?  -43.472 -31.189 -67.308 -2.19  0 405 C
+ATOM    10954    C   CA ?  PRO      C 404 ?  -42.509 -32.658 -65.614  0.00  0 404 C
+ATOM    10965    C   CG ?  LEU      C 405 ?  -42.588 -28.951 -69.357  0.00  0 405 C
+ATOM     7980    C   CG ?  PRO      C 8 ?  -38.278 -31.163 -71.877  0.00  0 8 C
+ATOM     7959    O    O ?  ALA      C 5 ?  -38.605 -27.608 -70.502 -4.29  0 5 C
+ATOM    10966    C  CD1 ?  LEU      C 405 ?  -42.086 -28.990 -70.796  0.00  0 405 C
+ATOM     7993    C  CG2 ?  VAL      C 10 ?  -40.984 -35.066 -73.466  0.00  0 10 C
+ATOM    11254    C  CG1 ?  VAL      C 444 ?  -37.701 -35.012 -70.221  0.00  0 444 C
+ATOM    10947    O    O ?  GLN      C 403 ?  -40.805 -30.370 -65.587 -1.48  0 403 C
+ATOM    10978    C  CE3 ?  TRP      C 406 ?  -44.011 -35.195 -68.833  0.00  0 406 C
+ATOM    10972    C   CB ?  TRP      C 406 ?  -47.217 -34.146 -68.892  0.00  0 406 C
+ATOM    10968    N    N ?  TRP      C 406 ?  -45.962 -32.086 -68.293 -3.28  0 406 C
+ATOM    10964    C   CB ?  LEU      C 405 ?  -43.924 -29.697 -69.246  0.00  0 405 C
 # 

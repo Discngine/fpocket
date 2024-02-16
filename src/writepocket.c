@@ -44,7 +44,6 @@ static const char atomSiteHeader[] =
     "_atom_site.label_alt_id\n"
     "_atom_site.label_comp_id\n"
     "_atom_site.label_asym_id\n"
-    "_atom_site.label_entity_id\n"
     "_atom_site.label_seq_id\n"
     "_atom_site.pdbx_PDB_ins_code\n"
     "_atom_site.Cartn_x\n"
@@ -52,6 +51,7 @@ static const char atomSiteHeader[] =
     "_atom_site.Cartn_z\n"
     "_atom_site.occupancy\n"
     "_atom_site.pdbx_formal_charge\n"
+    "_atom_site.auth_seq_id\n"
     "_atom_site.auth_asym_id\n";
 
     /*static const char atomSiteHeader[] =
@@ -214,7 +214,7 @@ void write_pocket_mmcif_DB(const char out[], s_pocket *pocket, s_pdb *pdb) {
         for (i = 0; i < n_sa; i++) {
             atom = pdb->latoms_p[sa[i]];
             write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
-                    atom->res_name, atom->chain, atom->res_id,
+                    atom->res_name, atom->chain, atom->res_id,atom->label_asym_id,atom->label_seq_id,
                     atom->pdb_insert, atom->x, atom->y, atom->z,
                     atom->dA, atom->a0, atom->abpa, atom->symbol,
                     atom->charge, atom->abpa_sourrounding_prob);
@@ -375,9 +375,9 @@ void write_mmcif_atoms(FILE *f, s_atm *atoms, int natoms) {
     for (i = 0; i < natoms; i++) {
         atom = atoms + i;
         //atom->chain[1]='\0';
-        //printf("%d:%s|symb:%s\t",i,atom->chain,atom->symbol);
+        // printf("%d:%s vs %s\n",i,atom->chain,atom->label_asym_id);
         write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
-                atom->res_name, atom->chain, atom->res_id,
+                atom->res_name, atom->chain,atom->res_id,atom->label_asym_id,atom->label_seq_id,
                 atom->pdb_insert, atom->x, atom->y, atom->z,
                 atom->dA, atom->a0, atom->abpa, atom->symbol,
                 atom->charge, atom->abpa_sourrounding_prob);
@@ -742,7 +742,7 @@ void write_pocket_mmcif(const char out[], s_pocket *pocket) {
             atom = atms[i];
 
             write_mmcif_atom_line(f, atom->type, atom->id, atom->name, atom->pdb_aloc,
-                    atom->res_name, atom->chain, atom->res_id,
+                    atom->res_name, atom->chain, atom->res_id,atom->label_asym_id,atom->label_seq_id,
                     atom->pdb_insert, atom->x, atom->y, atom->z,
                     atom->dA, atom->a0, atom->abpa, atom->symbol,
                     atom->charge, atom->abpa_sourrounding_prob);

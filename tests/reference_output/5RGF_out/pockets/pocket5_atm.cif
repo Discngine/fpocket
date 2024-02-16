@@ -15,7 +15,7 @@ Information about the pocket     5:
 6  - Hydrophobicity Score              : -21.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 2.6667
-9  - Pocket volume (Monte Carlo)       : 195.4206
+9  - Pocket volume (Monte Carlo)       : 193.2645
 10  -Pocket volume (convex hull)       : 4.8576
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 12.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,23 +37,24 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5544    O  OD1 .  ASN   B .   27 ?    1.116  -1.203  22.520  0.00  0   B
-ATOM     5543    C   CG .  ASN   B .   27 ?    2.316  -1.052  22.740  0.00  0   B
-ATOM     5538    N    N .  ASN   B .   27 ?    2.118  -3.889  21.391 -1.09  0   B
-ATOM      361    N  ND2 .  ASN   A .   27 ?   -0.019   0.899  21.130 -0.42  0   A
-ATOM     6265    C   CA .  GLY   B .   67 ?    3.730  -4.030  13.787  0.00  0   B
-ATOM     5514    C   CG .  ASP   B .   25 ?   -1.647  -2.298  16.889  0.00  0   B
-ATOM     5990    C   CB .  SER   B .   50 ?    0.119  -1.804  13.444  0.00  0   B
-ATOM     5515    O  OD1 .  ASP   B .   25 ?   -1.539  -3.190  16.015 -1.07  0   B
-ATOM     5521    N    N .  GLN   B .   26 ?    0.659  -4.805  19.013 -1.09  0   B
-ATOM      800    C   CG .  ASN   A .   49 ?    8.438  -2.420  22.397  0.00  0   A
-ATOM     5527    C   CD .  GLN   B .   26 ?    5.448  -5.942  18.418  0.00  0   B
-ATOM      801    O  OD1 .  ASN   A .   49 ?    7.478  -2.196  23.134 -1.07  0   A
-ATOM      799    C   CB .  ASN   A .   49 ?    8.739  -1.530  21.222  0.00  0   A
-ATOM     5542    C   CB .  ASN   B .   27 ?    3.238  -2.219  22.866  0.00  0   B
-ATOM     5528    O  OE1 .  GLN   B .   26 ?    5.357  -5.387  17.322  0.00  0   B
-ATOM     5513    C   CB .  ASP   B .   25 ?   -1.314  -2.630  18.354  0.00  0   B
-ATOM     5525    C   CB .  GLN   B .   26 ?    3.023  -5.344  18.793  0.00  0   B
-ATOM     5526    C   CG .  GLN   B .   26 ?    4.253  -6.042  19.343  0.00  0   B
+ATOM     5544    O  OD1 ?  ASN      B 27 ?    1.116  -1.203  22.520  0.00  0 25 B
+ATOM     5543    C   CG ?  ASN      B 27 ?    2.316  -1.052  22.740  0.00  0 25 B
+ATOM     5538    N    N ?  ASN      B 27 ?    2.118  -3.889  21.391 -1.09  0 25 B
+ATOM      361    N  ND2 ?  ASN      A 27 ?   -0.019   0.899  21.130 -0.42  0 25 A
+ATOM     6265    C   CA ?  GLY      B 67 ?    3.730  -4.030  13.787  0.00  0 65 B
+ATOM     5514    C   CG ?  ASP      B 25 ?   -1.647  -2.298  16.889  0.00  0 23 B
+ATOM     5990    C   CB ?  SER      B 50 ?    0.119  -1.804  13.444  0.00  0 48 B
+ATOM     5515    O  OD1 ?  ASP      B 25 ?   -1.539  -3.190  16.015 -1.07  0 23 B
+ATOM     5521    N    N ?  GLN      B 26 ?    0.659  -4.805  19.013 -1.09  0 24 B
+ATOM      800    C   CG ?  ASN      A 49 ?    8.438  -2.420  22.397  0.00  0 47 A
+ATOM     5527    C   CD ?  GLN      B 26 ?    5.448  -5.942  18.418  0.00  0 24 B
+ATOM      801    O  OD1 ?  ASN      A 49 ?    7.478  -2.196  23.134 -1.07  0 47 A
+ATOM      799    C   CB ?  ASN      A 49 ?    8.739  -1.530  21.222  0.00  0 47 A
+ATOM     5542    C   CB ?  ASN      B 27 ?    3.238  -2.219  22.866  0.00  0 25 B
+ATOM     5528    O  OE1 ?  GLN      B 26 ?    5.357  -5.387  17.322  0.00  0 24 B
+ATOM     5513    C   CB ?  ASP      B 25 ?   -1.314  -2.630  18.354  0.00  0 23 B
+ATOM     5525    C   CB ?  GLN      B 26 ?    3.023  -5.344  18.793  0.00  0 24 B
+ATOM     5526    C   CG ?  GLN      B 26 ?    4.253  -6.042  19.343  0.00  0 24 B
 # 

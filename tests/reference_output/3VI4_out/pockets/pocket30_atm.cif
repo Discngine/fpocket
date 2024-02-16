@@ -15,7 +15,7 @@ Information about the pocket    30:
 6  - Hydrophobicity Score              : 42.2222
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.2222
-9  - Pocket volume (Monte Carlo)       : 245.5340
+9  - Pocket volume (Monte Carlo)       : 245.2972
 10  -Pocket volume (convex hull)       : 17.9944
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 13.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,28 +37,29 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    10509    C   CA .  LEU   C .  342 ?  -28.101 -31.220 -48.459  0.00  0   C
-ATOM    10895    O    O .  SER   C .  396 ?  -27.520 -25.918 -51.204  0.00  0   C
-ATOM    10504    O    O .  THR   C .  341 ?  -25.755 -30.011 -47.431 -0.54  0   C
-ATOM    10515    C  CD2 .  LEU   C .  342 ?  -26.493 -29.294 -50.644  0.00  0   C
-ATOM    10516    N    N .  THR   C .  343 ?  -30.506 -31.042 -47.950  0.00  0   C
-ATOM    10512    C   CB .  LEU   C .  342 ?  -27.896 -31.316 -49.982  0.00  0   C
-ATOM    10521    O  OG1 .  THR   C .  343 ?  -30.866 -30.984 -45.182 -1.21  0   C
-ATOM    10519    O    O .  THR   C .  343 ?  -32.980 -30.022 -48.869 -3.21  0   C
-ATOM    10535    C  CE1 .  HIS   C .  345 ?  -34.438 -26.487 -49.138  0.00  0   C
-ATOM    10536    N  NE2 .  HIS   C .  345 ?  -34.291 -27.003 -50.373 -6.56  0   C
-ATOM    10520    C   CB .  THR   C .  343 ?  -32.039 -30.876 -45.992  0.00  0   C
-ATOM    10848    C  CE2 .  PHE   C .  387 ?  -28.501 -28.629 -53.930  0.00  0   C
-ATOM    10913    C   CD .  PRO   C .  398 ?  -30.310 -25.490 -54.628  0.00  0   C
-ATOM    10849    C   CZ .  PHE   C .  387 ?  -29.570 -29.470 -54.198  0.00  0   C
-ATOM    10831    C   CZ .  PHE   C .  385 ?  -35.626 -29.632 -54.991  0.00  0   C
-ATOM    10829    C  CE1 .  PHE   C .  385 ?  -34.977 -28.691 -55.781  0.00  0   C
-ATOM    10912    C   CG .  PRO   C .  398 ?  -31.277 -25.730 -55.752  0.00  0   C
-ATOM    10827    C  CD1 .  PHE   C .  385 ?  -33.806 -29.031 -56.445  0.00  0   C
-ATOM    10588    C  CE1 .  PHE   C .  351 ?  -32.698 -32.976 -52.779  0.00  0   C
-ATOM    10534    C  CD2 .  HIS   C .  345 ?  -35.446 -27.609 -50.730  0.00  0   C
-ATOM    10590    C   CZ .  PHE   C .  351 ?  -31.453 -32.941 -52.168  0.00  0   C
-ATOM    10830    C  CE2 .  PHE   C .  385 ?  -35.104 -30.913 -54.868  0.00  0   C
-ATOM    10828    C  CD2 .  PHE   C .  385 ?  -33.936 -31.252 -55.539  0.00  0   C
+ATOM    10509    C   CA ?  LEU      C 342 ?  -28.101 -31.220 -48.459  0.00  0 342 C
+ATOM    10895    O    O ?  SER      C 396 ?  -27.520 -25.918 -51.204  0.00  0 396 C
+ATOM    10504    O    O ?  THR      C 341 ?  -25.755 -30.011 -47.431 -0.54  0 341 C
+ATOM    10515    C  CD2 ?  LEU      C 342 ?  -26.493 -29.294 -50.644  0.00  0 342 C
+ATOM    10516    N    N ?  THR      C 343 ?  -30.506 -31.042 -47.950  0.00  0 343 C
+ATOM    10512    C   CB ?  LEU      C 342 ?  -27.896 -31.316 -49.982  0.00  0 342 C
+ATOM    10521    O  OG1 ?  THR      C 343 ?  -30.866 -30.984 -45.182 -1.21  0 343 C
+ATOM    10519    O    O ?  THR      C 343 ?  -32.980 -30.022 -48.869 -3.21  0 343 C
+ATOM    10535    C  CE1 ?  HIS      C 345 ?  -34.438 -26.487 -49.138  0.00  0 345 C
+ATOM    10536    N  NE2 ?  HIS      C 345 ?  -34.291 -27.003 -50.373 -6.56  0 345 C
+ATOM    10520    C   CB ?  THR      C 343 ?  -32.039 -30.876 -45.992  0.00  0 343 C
+ATOM    10848    C  CE2 ?  PHE      C 387 ?  -28.501 -28.629 -53.930  0.00  0 387 C
+ATOM    10913    C   CD ?  PRO      C 398 ?  -30.310 -25.490 -54.628  0.00  0 398 C
+ATOM    10849    C   CZ ?  PHE      C 387 ?  -29.570 -29.470 -54.198  0.00  0 387 C
+ATOM    10831    C   CZ ?  PHE      C 385 ?  -35.626 -29.632 -54.991  0.00  0 385 C
+ATOM    10829    C  CE1 ?  PHE      C 385 ?  -34.977 -28.691 -55.781  0.00  0 385 C
+ATOM    10912    C   CG ?  PRO      C 398 ?  -31.277 -25.730 -55.752  0.00  0 398 C
+ATOM    10827    C  CD1 ?  PHE      C 385 ?  -33.806 -29.031 -56.445  0.00  0 385 C
+ATOM    10588    C  CE1 ?  PHE      C 351 ?  -32.698 -32.976 -52.779  0.00  0 351 C
+ATOM    10534    C  CD2 ?  HIS      C 345 ?  -35.446 -27.609 -50.730  0.00  0 345 C
+ATOM    10590    C   CZ ?  PHE      C 351 ?  -31.453 -32.941 -52.168  0.00  0 351 C
+ATOM    10830    C  CE2 ?  PHE      C 385 ?  -35.104 -30.913 -54.868  0.00  0 385 C
+ATOM    10828    C  CD2 ?  PHE      C 385 ?  -33.936 -31.252 -55.539  0.00  0 385 C
 # 

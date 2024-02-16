@@ -15,7 +15,7 @@ Information about the pocket   223:
 6  - Hydrophobicity Score              : 32.0000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.9091
-9  - Pocket volume (Monte Carlo)       : 310.0572
+9  - Pocket volume (Monte Carlo)       : 313.6085
 10  -Pocket volume (convex hull)       : 23.9918
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 15.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1947    C  CD2 .  LEU   A .  257 ?  -10.870  -3.504 -20.296  0.00  0   A
-ATOM     1940    N    N .  LEU   A .  257 ?  -10.340  -1.604 -17.217 -1.09  0   A
-ATOM     1922    O    O .  LYS   A .  254 ?  -10.063  -3.821 -13.366 -2.14  0   A
-ATOM     1941    C   CA .  LEU   A .  257 ?   -9.277  -2.329 -17.902  0.00  0   A
-ATOM     1724    O    O .  ASP   A .  227 ?  -13.920  -7.999 -14.087  0.00  0   A
-ATOM     1931    O    O .  GLY   A .  255 ?  -12.805  -1.921 -14.661 -5.36  0   A
-ATOM     1704    O    O .  ILE   A .  225 ?  -16.703  -5.479 -17.404  0.00  0   A
-ATOM     1954    C  CG2 .  THR   A .  258 ?   -6.458  -5.008 -15.488  0.00  0   A
-ATOM     1948    N    N .  THR   A .  258 ?   -8.026  -2.584 -15.852  0.00  0   A
-ATOM     6969    C  CE1 .  PHE   B .  321 ?   -9.813 -10.320 -20.641  0.00  0   B
-ATOM     1733    C   CB .  ASP   A .  228 ?  -11.544  -9.466 -12.841  0.00  0   A
-ATOM     6489    C   CA .  GLY   B .  261 ?   -6.515 -11.218 -18.502  0.00  0   B
-ATOM     6492    N    N .  PHE   B .  262 ?   -4.721 -10.949 -16.891 -2.19  0   B
-ATOM     6993    C  CG1 .  VAL   B .  324 ?   -5.516  -5.919 -20.165  0.00  0   B
-ATOM     6994    C  CG2 .  VAL   B .  324 ?   -7.760  -5.960 -21.211  0.00  0   B
-ATOM     1736    O  OD2 .  ASP   A .  228 ?  -12.287 -11.279 -14.184 -2.95  0   A
-ATOM     6241    O   OG .  SER   B .  227 ?  -11.593 -14.320 -16.909 -4.29  0   B
-ATOM     6971    C   CZ .  PHE   B .  321 ?  -10.561 -11.477 -20.763  0.00  0   B
-ATOM     1732    O    O .  ASP   A .  228 ?  -11.166  -6.851 -12.163  0.00  0   A
-ATOM     1926    C   CE .  LYS   A .  254 ?   -7.214  -8.072 -11.489  0.00  0   A
-ATOM     6247    C   CG .  PRO   B .  228 ?   -8.399 -12.069 -13.687  0.00  0   B
-ATOM     6495    O    O .  PHE   B .  262 ?   -3.998  -9.611 -14.514 -1.07  0   B
-ATOM     6246    C   CB .  PRO   B .  228 ?   -7.098 -12.521 -14.252  0.00  0   B
-ATOM     6488    N    N .  GLY   B .  261 ?   -7.352 -12.250 -19.112  0.00  0   B
+ATOM     1947    C  CD2 ?  LEU      A 257 ?  -10.870  -3.504 -20.296  0.00  0 257 A
+ATOM     1940    N    N ?  LEU      A 257 ?  -10.340  -1.604 -17.217 -1.09  0 257 A
+ATOM     1922    O    O ?  LYS      A 254 ?  -10.063  -3.821 -13.366 -2.14  0 254 A
+ATOM     1941    C   CA ?  LEU      A 257 ?   -9.277  -2.329 -17.902  0.00  0 257 A
+ATOM     1724    O    O ?  ASP      A 227 ?  -13.920  -7.999 -14.087  0.00  0 227 A
+ATOM     1931    O    O ?  GLY      A 255 ?  -12.805  -1.921 -14.661 -5.36  0 255 A
+ATOM     1704    O    O ?  ILE      A 225 ?  -16.703  -5.479 -17.404  0.00  0 225 A
+ATOM     1954    C  CG2 ?  THR      A 258 ?   -6.458  -5.008 -15.488  0.00  0 258 A
+ATOM     1948    N    N ?  THR      A 258 ?   -8.026  -2.584 -15.852  0.00  0 258 A
+ATOM     6969    C  CE1 ?  PHE      B 321 ?   -9.813 -10.320 -20.641  0.00  0 321 B
+ATOM     1733    C   CB ?  ASP      A 228 ?  -11.544  -9.466 -12.841  0.00  0 228 A
+ATOM     6489    C   CA ?  GLY      B 261 ?   -6.515 -11.218 -18.502  0.00  0 261 B
+ATOM     6492    N    N ?  PHE      B 262 ?   -4.721 -10.949 -16.891 -2.19  0 262 B
+ATOM     6993    C  CG1 ?  VAL      B 324 ?   -5.516  -5.919 -20.165  0.00  0 324 B
+ATOM     6994    C  CG2 ?  VAL      B 324 ?   -7.760  -5.960 -21.211  0.00  0 324 B
+ATOM     1736    O  OD2 ?  ASP      A 228 ?  -12.287 -11.279 -14.184 -2.95  0 228 A
+ATOM     6241    O   OG ?  SER      B 227 ?  -11.593 -14.320 -16.909 -4.29  0 227 B
+ATOM     6971    C   CZ ?  PHE      B 321 ?  -10.561 -11.477 -20.763  0.00  0 321 B
+ATOM     1732    O    O ?  ASP      A 228 ?  -11.166  -6.851 -12.163  0.00  0 228 A
+ATOM     1926    C   CE ?  LYS      A 254 ?   -7.214  -8.072 -11.489  0.00  0 254 A
+ATOM     6247    C   CG ?  PRO      B 228 ?   -8.399 -12.069 -13.687  0.00  0 228 B
+ATOM     6495    O    O ?  PHE      B 262 ?   -3.998  -9.611 -14.514 -1.07  0 262 B
+ATOM     6246    C   CB ?  PRO      B 228 ?   -7.098 -12.521 -14.252  0.00  0 228 B
+ATOM     6488    N    N ?  GLY      B 261 ?   -7.352 -12.250 -19.112  0.00  0 261 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket   192:
 6  - Hydrophobicity Score              : -3.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.8000
-9  - Pocket volume (Monte Carlo)       : 283.0289
+9  - Pocket volume (Monte Carlo)       : 273.0332
 10  -Pocket volume (convex hull)       : 14.4089
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 1.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,23 +37,24 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8122    C   CB .  ARG   C .   27 ?  -21.619 -44.801 -77.215  0.00  0   C
-ATOM     8124    C   CD .  ARG   C .   27 ?  -20.976 -42.948 -75.623  0.00  0   C
-ATOM     8121    O    O .  ARG   C .   27 ?  -20.752 -47.344 -77.911  0.00  0   C
-ATOM     8139    O    O .  GLY   C .   29 ?  -17.579 -46.440 -79.925 -1.21  0   C
-ATOM     8722    C   CA .  GLY   C .  109 ?  -18.349 -49.547 -74.676  0.00  0   C
-ATOM     8721    N    N .  GLY   C .  109 ?  -18.738 -49.191 -73.320 -1.51  0   C
-ATOM     8125    N   NE .  ARG   C .   27 ?  -20.890 -41.738 -76.436 -4.79  0   C
-ATOM     8141    C   CA .  THR   C .   30 ?  -18.191 -44.714 -82.060  0.00  0   C
-ATOM     8145    O  OG1 .  THR   C .   30 ?  -16.437 -43.086 -82.600 -5.36  0   C
-ATOM     8143    O    O .  THR   C .   30 ?  -19.559 -42.752 -82.419 -3.35  0   C
-ATOM     8724    O    O .  GLY   C .  109 ?  -20.592 -49.463 -75.532 -2.14  0   C
-ATOM     8128    N  NH2 .  ARG   C .   27 ?  -20.440 -39.516 -76.809  0.00  0   C
-ATOM     8126    C   CZ .  ARG   C .   27 ?  -20.479 -40.555 -75.986  0.00  0   C
-ATOM     8127    N  NH1 .  ARG   C .   27 ?  -20.116 -40.400 -74.717 -4.54  0   C
-ATOM    11102    C   CZ .  ARG   C .  423 ?  -20.302 -44.208 -71.151  0.00  0   C
-ATOM    11104    N  NH2 .  ARG   C .  423 ?  -19.281 -44.852 -70.601 -3.03  0   C
-ATOM    11101    N   NE .  ARG   C .  423 ?  -20.382 -42.879 -71.039 -4.37  0   C
-ATOM    11103    N  NH1 .  ARG   C .  423 ?  -21.231 -44.903 -71.805 -3.28  0   C
+ATOM     8122    C   CB ?  ARG      C 27 ?  -21.619 -44.801 -77.215  0.00  0 27 C
+ATOM     8124    C   CD ?  ARG      C 27 ?  -20.976 -42.948 -75.623  0.00  0 27 C
+ATOM     8121    O    O ?  ARG      C 27 ?  -20.752 -47.344 -77.911  0.00  0 27 C
+ATOM     8139    O    O ?  GLY      C 29 ?  -17.579 -46.440 -79.925 -1.21  0 29 C
+ATOM     8722    C   CA ?  GLY      C 109 ?  -18.349 -49.547 -74.676  0.00  0 109 C
+ATOM     8721    N    N ?  GLY      C 109 ?  -18.738 -49.191 -73.320 -1.51  0 109 C
+ATOM     8125    N   NE ?  ARG      C 27 ?  -20.890 -41.738 -76.436 -4.79  0 27 C
+ATOM     8141    C   CA ?  THR      C 30 ?  -18.191 -44.714 -82.060  0.00  0 30 C
+ATOM     8145    O  OG1 ?  THR      C 30 ?  -16.437 -43.086 -82.600 -5.36  0 30 C
+ATOM     8143    O    O ?  THR      C 30 ?  -19.559 -42.752 -82.419 -3.35  0 30 C
+ATOM     8724    O    O ?  GLY      C 109 ?  -20.592 -49.463 -75.532 -2.14  0 109 C
+ATOM     8128    N  NH2 ?  ARG      C 27 ?  -20.440 -39.516 -76.809  0.00  0 27 C
+ATOM     8126    C   CZ ?  ARG      C 27 ?  -20.479 -40.555 -75.986  0.00  0 27 C
+ATOM     8127    N  NH1 ?  ARG      C 27 ?  -20.116 -40.400 -74.717 -4.54  0 27 C
+ATOM    11102    C   CZ ?  ARG      C 423 ?  -20.302 -44.208 -71.151  0.00  0 423 C
+ATOM    11104    N  NH2 ?  ARG      C 423 ?  -19.281 -44.852 -70.601 -3.03  0 423 C
+ATOM    11101    N   NE ?  ARG      C 423 ?  -20.382 -42.879 -71.039 -4.37  0 423 C
+ATOM    11103    N  NH1 ?  ARG      C 423 ?  -21.231 -44.903 -71.805 -3.28  0 423 C
 # 

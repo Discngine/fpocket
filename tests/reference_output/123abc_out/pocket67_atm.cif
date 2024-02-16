@@ -15,7 +15,7 @@ Information about the pocket    67:
 6  - Hydrophobicity Score              : 2.6154
 7  - Polarity Score                    :    10
 8  - Amino Acid based volume Score     : 4.2308
-9  - Pocket volume (Monte Carlo)       : 513.1837
+9  - Pocket volume (Monte Carlo)       : 507.7176
 10  -Pocket volume (convex hull)       : 52.2971
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 6.8889
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,36 +37,37 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      372    C   CB .  PHE   A .   56 ?   10.872  12.562  28.697  0.00  0   A
-ATOM      293    N   NZ .  LYS   A .   44 ?   14.875  14.916  24.640 -1.51  0   A
-ATOM      341    O  OE1 .  GLU   A .   52 ?   13.671  17.533  31.277 -2.69  0   A
-ATOM      374    C  CD1 .  PHE   A .   56 ?   12.808  11.490  27.469  0.00  0   A
-ATOM      369    C   CA .  PHE   A .   56 ?   10.008  13.594  27.929  0.00  0   A
-ATOM      327    O  OG1 .  THR   A .   50 ?   17.895  12.680  34.851 -0.14  0   A
-ATOM      313    C   CB .  LYS   A .   47 ?   18.667   9.764  33.789  0.00  0   A
-ATOM      309    N    N .  LYS   A .   47 ?   17.569   9.037  31.708  0.00  0   A
-ATOM      158    C   CG .  GLU   A .   28 ?   21.158  10.718  28.684  0.00  0   A
-ATOM      340    C   CD .  GLU   A .   52 ?   14.639  17.538  32.077  0.00  0   A
-ATOM      342    O  OE2 .  GLU   A .   52 ?   15.436  18.506  32.153 -0.54  0   A
-ATOM      361    C    C .  GLU   A .   55 ?    9.132  15.840  28.388  0.00  0   A
-ATOM      363    C   CB .  GLU   A .   55 ?    9.802  18.010  29.678  0.00  0   A
-ATOM      337    O    O .  GLU   A .   52 ?   11.370  14.476  31.588 -2.14  0   A
-ATOM     1174    N    N .  ARG   A .  159 ?   20.573  22.620  27.542  0.00  0   A
-ATOM     1173    O   OG .  SER   A .  158 ?   17.408  24.103  25.862  0.00  0   A
-ATOM     1178    C   CB .  ARG   A .  159 ?   20.444  21.513  29.788  0.00  0   A
-ATOM     1172    C   CB .  SER   A .  158 ?   18.551  24.447  26.597  0.00  0   A
-ATOM     1157    C   CA .  GLY   A .  156 ?   16.836  19.696  23.400  0.00  0   A
-ATOM      366    O  OE1 .  GLU   A .   55 ?   11.414  20.025  30.928 -4.69  0   A
-ATOM      368    N    N .  PHE   A .   56 ?    9.699  14.718  28.811 -1.09  0   A
-ATOM     1159    O    O .  GLY   A .  156 ?   18.767  19.704  24.811  0.00  0   A
-ATOM      307    C  CD1 .  LEU   A .   46 ?   15.091  11.595  30.704  0.00  0   A
-ATOM      157    C   CB .  GLU   A .   28 ?   20.391  10.428  27.388  0.00  0   A
-ATOM      297    O    O .  THR   A .   45 ?   16.706   9.730  27.421 -1.07  0   A
-ATOM      292    C   CE .  LYS   A .   44 ?   15.812  13.774  24.522  0.00  0   A
-ATOM      338    C   CB .  GLU   A .   52 ?   13.930  15.145  32.718  0.00  0   A
-ATOM      339    C   CG .  GLU   A .   52 ?   14.880  16.324  32.991  0.00  0   A
-ATOM     1179    C   CG .  ARG   A .  159 ?   19.803  22.526  30.803  0.00  0   A
-ATOM      399    O  OE1 .  GLU   A .   59 ?   11.933  14.979  24.035 -0.54  0   A
-ATOM      362    O    O .  GLU   A .   55 ?    8.846  16.029  27.207 -4.29  0   A
+ATOM      372    C   CB ?  PHE    Axp 56 ?   10.872  12.562  28.697  0.00  0 283 A
+ATOM      293    N   NZ ?  LYS    Axp 44 ?   14.875  14.916  24.640 -1.51  0 271 A
+ATOM      341    O  OE1 ?  GLU    Axp 52 ?   13.671  17.533  31.277 -2.69  0 279 A
+ATOM      374    C  CD1 ?  PHE    Axp 56 ?   12.808  11.490  27.469  0.00  0 283 A
+ATOM      369    C   CA ?  PHE    Axp 56 ?   10.008  13.594  27.929  0.00  0 283 A
+ATOM      327    O  OG1 ?  THR    Axp 50 ?   17.895  12.680  34.851 -0.14  0 277 A
+ATOM      313    C   CB ?  LYS    Axp 47 ?   18.667   9.764  33.789  0.00  0 274 A
+ATOM      309    N    N ?  LYS    Axp 47 ?   17.569   9.037  31.708  0.00  0 274 A
+ATOM      158    C   CG ?  GLU    Axp 28 ?   21.158  10.718  28.684  0.00  0 255 A
+ATOM      340    C   CD ?  GLU    Axp 52 ?   14.639  17.538  32.077  0.00  0 279 A
+ATOM      342    O  OE2 ?  GLU    Axp 52 ?   15.436  18.506  32.153 -0.54  0 279 A
+ATOM      361    C    C ?  GLU    Axp 55 ?    9.132  15.840  28.388  0.00  0 282 A
+ATOM      363    C   CB ?  GLU    Axp 55 ?    9.802  18.010  29.678  0.00  0 282 A
+ATOM      337    O    O ?  GLU    Axp 52 ?   11.370  14.476  31.588 -2.14  0 279 A
+ATOM     1174    N    N ?  ARG    Axp 159 ?   20.573  22.620  27.542  0.00  0 386 A
+ATOM     1173    O   OG ?  SER    Axp 158 ?   17.408  24.103  25.862  0.00  0 385 A
+ATOM     1178    C   CB ?  ARG    Axp 159 ?   20.444  21.513  29.788  0.00  0 386 A
+ATOM     1172    C   CB ?  SER    Axp 158 ?   18.551  24.447  26.597  0.00  0 385 A
+ATOM     1157    C   CA ?  GLY    Axp 156 ?   16.836  19.696  23.400  0.00  0 383 A
+ATOM      366    O  OE1 ?  GLU    Axp 55 ?   11.414  20.025  30.928 -4.69  0 282 A
+ATOM      368    N    N ?  PHE    Axp 56 ?    9.699  14.718  28.811 -1.09  0 283 A
+ATOM     1159    O    O ?  GLY    Axp 156 ?   18.767  19.704  24.811  0.00  0 383 A
+ATOM      307    C  CD1 ?  LEU    Axp 46 ?   15.091  11.595  30.704  0.00  0 273 A
+ATOM      157    C   CB ?  GLU    Axp 28 ?   20.391  10.428  27.388  0.00  0 255 A
+ATOM      297    O    O ?  THR    Axp 45 ?   16.706   9.730  27.421 -1.07  0 272 A
+ATOM      292    C   CE ?  LYS    Axp 44 ?   15.812  13.774  24.522  0.00  0 271 A
+ATOM      338    C   CB ?  GLU    Axp 52 ?   13.930  15.145  32.718  0.00  0 279 A
+ATOM      339    C   CG ?  GLU    Axp 52 ?   14.880  16.324  32.991  0.00  0 279 A
+ATOM     1179    C   CG ?  ARG    Axp 159 ?   19.803  22.526  30.803  0.00  0 386 A
+ATOM      399    O  OE1 ?  GLU    Axp 59 ?   11.933  14.979  24.035 -0.54  0 286 A
+ATOM      362    O    O ?  GLU    Axp 55 ?    8.846  16.029  27.207 -4.29  0 282 A
 # 

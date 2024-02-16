@@ -15,7 +15,7 @@ Information about the pocket   149:
 6  - Hydrophobicity Score              : 12.3750
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.1250
-9  - Pocket volume (Monte Carlo)       : 344.2270
+9  - Pocket volume (Monte Carlo)       : 348.3969
 10  -Pocket volume (convex hull)       : 23.8014
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 5.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,26 +37,27 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11966    C   CB .  ASP   C .  542 ?  -18.863  -4.607 -80.032  0.00  0   C
-ATOM    11946    C   CB .  ARG   C .  540 ?  -12.503  -5.779 -80.991  0.00  0   C
-ATOM    11963    C   CA .  ASP   C .  542 ?  -17.801  -3.693 -79.421  0.00  0   C
-ATOM    11945    O    O .  ARG   C .  540 ?  -14.765  -6.819 -79.139 -3.21  0   C
-ATOM    11925    N    N .  ASN   C .  537 ?  -16.494 -12.091 -80.716 -1.09  0   C
-ATOM    11923    O  OE1 .  GLN   C .  536 ?  -17.837 -10.642 -85.715  0.00  0   C
-ATOM    11941    C   CB .  ALA   C .  539 ?  -10.857 -10.354 -81.278  0.00  0   C
-ATOM    11929    C   CB .  ASN   C .  537 ?  -14.372 -13.341 -80.809  0.00  0   C
-ATOM    11920    C   CB .  GLN   C .  536 ?  -18.181 -11.938 -83.160  0.00  0   C
-ATOM    11916    N    N .  GLN   C .  536 ?  -19.291 -10.830 -81.266 -1.09  0   C
-ATOM    11968    O  OD1 .  ASP   C .  542 ?  -19.278  -2.850 -81.610 -0.14  0   C
-ATOM    11948    C   CD .  ARG   C .  540 ?  -11.441  -4.414 -82.786  0.00  0   C
-ATOM    11956    O    O .  GLU   C .  541 ?  -15.176  -3.060 -78.907 -2.95  0   C
-ATOM    11951    N  NH1 .  ARG   C .  540 ?  -11.459  -2.396 -84.768 -2.35  0   C
-ATOM    11928    O    O .  ASN   C .  537 ?  -14.699 -10.369 -79.441  0.00  0   C
-ATOM    11914    C  CG2 .  ILE   C .  535 ?  -19.452  -8.489 -79.148  0.00  0   C
-ATOM    11969    O  OD2 .  ASP   C .  542 ?  -19.991  -4.860 -82.122 -4.02  0   C
-ATOM    11942    N    N .  ARG   C .  540 ?  -12.162  -7.874 -79.741  0.00  0   C
-ATOM    11903    O    O .  LEU   C .  534 ?  -22.219  -8.200 -83.230 -2.28  0   C
-ATOM    11909    C   CA .  ILE   C .  535 ?  -21.114  -9.251 -80.885  0.00  0   C
-ATOM    11967    C   CG .  ASP   C .  542 ?  -19.416  -4.066 -81.346  0.00  0   C
+ATOM    11966    C   CB ?  ASP      C 542 ?  -18.863  -4.607 -80.032  0.00  0 542 C
+ATOM    11946    C   CB ?  ARG      C 540 ?  -12.503  -5.779 -80.991  0.00  0 540 C
+ATOM    11963    C   CA ?  ASP      C 542 ?  -17.801  -3.693 -79.421  0.00  0 542 C
+ATOM    11945    O    O ?  ARG      C 540 ?  -14.765  -6.819 -79.139 -3.21  0 540 C
+ATOM    11925    N    N ?  ASN      C 537 ?  -16.494 -12.091 -80.716 -1.09  0 537 C
+ATOM    11923    O  OE1 ?  GLN      C 536 ?  -17.837 -10.642 -85.715  0.00  0 536 C
+ATOM    11941    C   CB ?  ALA      C 539 ?  -10.857 -10.354 -81.278  0.00  0 539 C
+ATOM    11929    C   CB ?  ASN      C 537 ?  -14.372 -13.341 -80.809  0.00  0 537 C
+ATOM    11920    C   CB ?  GLN      C 536 ?  -18.181 -11.938 -83.160  0.00  0 536 C
+ATOM    11916    N    N ?  GLN      C 536 ?  -19.291 -10.830 -81.266 -1.09  0 536 C
+ATOM    11968    O  OD1 ?  ASP      C 542 ?  -19.278  -2.850 -81.610 -0.14  0 542 C
+ATOM    11948    C   CD ?  ARG      C 540 ?  -11.441  -4.414 -82.786  0.00  0 540 C
+ATOM    11956    O    O ?  GLU      C 541 ?  -15.176  -3.060 -78.907 -2.95  0 541 C
+ATOM    11951    N  NH1 ?  ARG      C 540 ?  -11.459  -2.396 -84.768 -2.35  0 540 C
+ATOM    11928    O    O ?  ASN      C 537 ?  -14.699 -10.369 -79.441  0.00  0 537 C
+ATOM    11914    C  CG2 ?  ILE      C 535 ?  -19.452  -8.489 -79.148  0.00  0 535 C
+ATOM    11969    O  OD2 ?  ASP      C 542 ?  -19.991  -4.860 -82.122 -4.02  0 542 C
+ATOM    11942    N    N ?  ARG      C 540 ?  -12.162  -7.874 -79.741  0.00  0 540 C
+ATOM    11903    O    O ?  LEU      C 534 ?  -22.219  -8.200 -83.230 -2.28  0 534 C
+ATOM    11909    C   CA ?  ILE      C 535 ?  -21.114  -9.251 -80.885  0.00  0 535 C
+ATOM    11967    C   CG ?  ASP      C 542 ?  -19.416  -4.066 -81.346  0.00  0 542 C
 # 

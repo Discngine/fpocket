@@ -15,7 +15,7 @@ Information about the pocket   157:
 6  - Hydrophobicity Score              : 3.3750
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 2.8750
-9  - Pocket volume (Monte Carlo)       : 343.7242
+9  - Pocket volume (Monte Carlo)       : 350.6062
 10  -Pocket volume (convex hull)       : 29.2082
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,27 +37,28 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12218    C   CB .  PRO   C .  576 ?  -27.987 -17.274 -83.540  0.00  0   C
-ATOM    12229    C   CA .  ASP   C .  578 ?  -27.771 -23.313 -83.657  0.00  0   C
-ATOM    12217    O    O .  PRO   C .  576 ?  -28.623 -19.770 -82.622 -3.21  0   C
-ATOM    12224    O    O .  VAL   C .  577 ?  -30.042 -22.354 -85.056 -3.35  0   C
-ATOM    12216    C    C .  PRO   C .  576 ?  -29.555 -19.246 -83.243  0.00  0   C
-ATOM    12215    C   CA .  PRO   C .  576 ?  -29.407 -17.815 -83.788  0.00  0   C
-ATOM    11654    O   OG .  SER   C .  498 ?  -23.845 -13.682 -85.823 -0.54  0   C
-ATOM    11645    C   CB .  ASP   C .  497 ?  -20.081 -17.482 -85.715  0.00  0   C
-ATOM    11649    N    N .  SER   C .  498 ?  -21.654 -15.219 -84.445  0.00  0   C
-ATOM    11641    N    N .  ASP   C .  497 ?  -21.228 -17.987 -83.586  0.00  0   C
-ATOM    11632    O    O .  VAL   C .  495 ?  -21.091 -22.102 -82.769 -5.09  0   C
-ATOM    12236    N    N .  SER   C .  579 ?  -26.953 -25.234 -84.911 -1.51  0   C
-ATOM    12240    C   CB .  SER   C .  579 ?  -25.621 -26.909 -86.128  0.00  0   C
-ATOM    12241    O   OG .  SER   C .  579 ?  -24.893 -27.458 -85.041 -4.29  0   C
-ATOM    12230    C    C .  ASP   C .  578 ?  -28.035 -24.589 -84.474  0.00  0   C
-ATOM    12231    O    O .  ASP   C .  578 ?  -29.190 -24.973 -84.699 -1.48  0   C
-ATOM    12237    C   CA .  SER   C .  579 ?  -27.026 -26.469 -85.696  0.00  0   C
-ATOM    11652    O    O .  SER   C .  498 ?  -24.368 -14.685 -83.338 -1.07  0   C
-ATOM    11640    C   CB .  ALA   C .  496 ?  -23.006 -18.596 -81.275  0.00  0   C
-ATOM    11637    C   CA .  ALA   C .  496 ?  -22.153 -19.615 -82.022  0.00  0   C
-ATOM    12232    C   CB .  ASP   C .  578 ?  -26.714 -23.553 -82.560  0.00  0   C
-ATOM    11634    C  CG1 .  VAL   C .  495 ?  -23.630 -23.355 -81.081  0.00  0   C
+ATOM    12218    C   CB ?  PRO      C 576 ?  -27.987 -17.274 -83.540  0.00  0 576 C
+ATOM    12229    C   CA ?  ASP      C 578 ?  -27.771 -23.313 -83.657  0.00  0 578 C
+ATOM    12217    O    O ?  PRO      C 576 ?  -28.623 -19.770 -82.622 -3.21  0 576 C
+ATOM    12224    O    O ?  VAL      C 577 ?  -30.042 -22.354 -85.056 -3.35  0 577 C
+ATOM    12216    C    C ?  PRO      C 576 ?  -29.555 -19.246 -83.243  0.00  0 576 C
+ATOM    12215    C   CA ?  PRO      C 576 ?  -29.407 -17.815 -83.788  0.00  0 576 C
+ATOM    11654    O   OG ?  SER      C 498 ?  -23.845 -13.682 -85.823 -0.54  0 498 C
+ATOM    11645    C   CB ?  ASP      C 497 ?  -20.081 -17.482 -85.715  0.00  0 497 C
+ATOM    11649    N    N ?  SER      C 498 ?  -21.654 -15.219 -84.445  0.00  0 498 C
+ATOM    11641    N    N ?  ASP      C 497 ?  -21.228 -17.987 -83.586  0.00  0 497 C
+ATOM    11632    O    O ?  VAL      C 495 ?  -21.091 -22.102 -82.769 -5.09  0 495 C
+ATOM    12236    N    N ?  SER      C 579 ?  -26.953 -25.234 -84.911 -1.51  0 579 C
+ATOM    12240    C   CB ?  SER      C 579 ?  -25.621 -26.909 -86.128  0.00  0 579 C
+ATOM    12241    O   OG ?  SER      C 579 ?  -24.893 -27.458 -85.041 -4.29  0 579 C
+ATOM    12230    C    C ?  ASP      C 578 ?  -28.035 -24.589 -84.474  0.00  0 578 C
+ATOM    12231    O    O ?  ASP      C 578 ?  -29.190 -24.973 -84.699 -1.48  0 578 C
+ATOM    12237    C   CA ?  SER      C 579 ?  -27.026 -26.469 -85.696  0.00  0 579 C
+ATOM    11652    O    O ?  SER      C 498 ?  -24.368 -14.685 -83.338 -1.07  0 498 C
+ATOM    11640    C   CB ?  ALA      C 496 ?  -23.006 -18.596 -81.275  0.00  0 496 C
+ATOM    11637    C   CA ?  ALA      C 496 ?  -22.153 -19.615 -82.022  0.00  0 496 C
+ATOM    12232    C   CB ?  ASP      C 578 ?  -26.714 -23.553 -82.560  0.00  0 578 C
+ATOM    11634    C  CG1 ?  VAL      C 495 ?  -23.630 -23.355 -81.081  0.00  0 495 C
 # 

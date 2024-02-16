@@ -15,7 +15,7 @@ Information about the pocket    46:
 6  - Hydrophobicity Score              : 32.0000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 371.8515
+9  - Pocket volume (Monte Carlo)       : 375.5502
 10  -Pocket volume (convex hull)       : 42.9375
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,31 +37,32 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3384    C   CZ .  PHE   B .  174 ?   14.646  45.110  33.701  0.00  0   B
-ATOM     3100    N  NH1 .  ARG   B .  135 ?   10.479  49.242  35.166  0.00  0   B
-ATOM     3101    N  NH2 .  ARG   B .  135 ?    8.718  47.763  35.554 -1.01  0   B
-ATOM     3503    C  CE1 .  PHE   B .  189 ?   11.607  44.281  36.188  0.00  0   B
-ATOM     3485    O    O .  ASN   B .  187 ?    8.494  42.697  34.760 -1.88  0   B
-ATOM     3486    C   CB .  ASN   B .  187 ?   10.069  41.398  32.733  0.00  0   B
-ATOM     3488    O  OD1 .  ASN   B .  187 ?   12.383  40.631  32.241 -1.07  0   B
-ATOM     3347    N  ND1 .  HIS   B .  169 ?   15.399  41.864  29.978 -2.19  0   B
-ATOM     3349    C  CE1 .  HIS   B .  169 ?   14.459  40.980  29.690  0.00  0   B
-ATOM     3487    C   CG .  ASN   B .  187 ?   11.180  40.674  31.870  0.00  0   B
-ATOM     1367    O    O .  ALA   A .  185 ?   11.392  41.160  27.885  0.00  0   A
-ATOM     3364    C   CB .  ALA   B .  172 ?   15.959  47.081  30.587  0.00  0   B
-ATOM     1376    C  CD2 .  TYR   A .  186 ?    8.373  42.814  26.824  0.00  0   A
-ATOM     1378    C  CE2 .  TYR   A .  186 ?    8.638  44.185  26.538  0.00  0   A
-ATOM     3382    C  CE1 .  PHE   B .  174 ?   15.273  43.909  33.319  0.00  0   B
-ATOM     3354    O    O .  ALA   B .  170 ?   15.548  45.380  26.780  0.00  0   B
-ATOM     3344    O    O .  HIS   B .  169 ?   16.987  44.273  29.044  0.00  0   B
-ATOM     3360    N    N .  ALA   B .  172 ?   17.214  47.003  28.401  0.00  0   B
-ATOM     3358    C    C .  GLY   B .  171 ?   17.637  47.751  27.365  0.00  0   B
-ATOM     1704    O  OE2 .  GLU   A .  226 ?   13.795  49.067  21.782 -0.14  0   A
-ATOM     1380    O   OH .  TYR   A .  186 ?    9.044  45.902  24.895  0.00  0   A
-ATOM     1670    O   OH .  TYR   A .  222 ?   13.311  44.900  22.966 -3.21  0   A
-ATOM     1368    C   CB .  ALA   A .  185 ?   12.114  42.514  24.956  0.00  0   A
-ATOM     1703    O  OE1 .  GLU   A .  226 ?   15.852  48.909  22.593 -1.88  0   A
-ATOM     3357    C   CA .  GLY   B .  171 ?   17.630  47.061  26.020  0.00  0   B
-ATOM     3359    O    O .  GLY   B .  171 ?   18.014  48.939  27.448  0.00  0   B
+ATOM     3384    C   CZ ?  PHE    Bxp 174 ?   14.646  45.110  33.701  0.00  0 401 B
+ATOM     3100    N  NH1 ?  ARG    Bxp 135 ?   10.479  49.242  35.166  0.00  0 362 B
+ATOM     3101    N  NH2 ?  ARG    Bxp 135 ?    8.718  47.763  35.554 -1.01  0 362 B
+ATOM     3503    C  CE1 ?  PHE    Bxp 189 ?   11.607  44.281  36.188  0.00  0 416 B
+ATOM     3485    O    O ?  ASN    Bxp 187 ?    8.494  42.697  34.760 -1.88  0 414 B
+ATOM     3486    C   CB ?  ASN    Bxp 187 ?   10.069  41.398  32.733  0.00  0 414 B
+ATOM     3488    O  OD1 ?  ASN    Bxp 187 ?   12.383  40.631  32.241 -1.07  0 414 B
+ATOM     3347    N  ND1 ?  HIS    Bxp 169 ?   15.399  41.864  29.978 -2.19  0 396 B
+ATOM     3349    C  CE1 ?  HIS    Bxp 169 ?   14.459  40.980  29.690  0.00  0 396 B
+ATOM     3487    C   CG ?  ASN    Bxp 187 ?   11.180  40.674  31.870  0.00  0 414 B
+ATOM     1367    O    O ?  ALA    Axp 185 ?   11.392  41.160  27.885  0.00  0 412 A
+ATOM     3364    C   CB ?  ALA    Bxp 172 ?   15.959  47.081  30.587  0.00  0 399 B
+ATOM     1376    C  CD2 ?  TYR    Axp 186 ?    8.373  42.814  26.824  0.00  0 413 A
+ATOM     1378    C  CE2 ?  TYR    Axp 186 ?    8.638  44.185  26.538  0.00  0 413 A
+ATOM     3382    C  CE1 ?  PHE    Bxp 174 ?   15.273  43.909  33.319  0.00  0 401 B
+ATOM     3354    O    O ?  ALA    Bxp 170 ?   15.548  45.380  26.780  0.00  0 397 B
+ATOM     3344    O    O ?  HIS    Bxp 169 ?   16.987  44.273  29.044  0.00  0 396 B
+ATOM     3360    N    N ?  ALA    Bxp 172 ?   17.214  47.003  28.401  0.00  0 399 B
+ATOM     3358    C    C ?  GLY    Bxp 171 ?   17.637  47.751  27.365  0.00  0 398 B
+ATOM     1704    O  OE2 ?  GLU    Axp 226 ?   13.795  49.067  21.782 -0.14  0 453 A
+ATOM     1380    O   OH ?  TYR    Axp 186 ?    9.044  45.902  24.895  0.00  0 413 A
+ATOM     1670    O   OH ?  TYR    Axp 222 ?   13.311  44.900  22.966 -3.21  0 449 A
+ATOM     1368    C   CB ?  ALA    Axp 185 ?   12.114  42.514  24.956  0.00  0 412 A
+ATOM     1703    O  OE1 ?  GLU    Axp 226 ?   15.852  48.909  22.593 -1.88  0 453 A
+ATOM     3357    C   CA ?  GLY    Bxp 171 ?   17.630  47.061  26.020  0.00  0 398 B
+ATOM     3359    O    O ?  GLY    Bxp 171 ?   18.014  48.939  27.448  0.00  0 398 B
 # 

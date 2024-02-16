@@ -15,7 +15,7 @@ Information about the pocket    19:
 6  - Hydrophobicity Score              : 23.4000
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 336.5412
+9  - Pocket volume (Monte Carlo)       : 335.5222
 10  -Pocket volume (convex hull)       : 13.3266
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 2.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,23 +37,24 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4798    C  CD1 .  LEU   E .   78 ?  -77.524 -55.769  -6.842  0.00  0   E
-ATOM     4717    C   CA .  ARG   E .   70 ?  -73.700 -51.010  -9.592  0.00  0   E
-ATOM     4766    C  CD2 .  TYR   E .   75 ?  -79.371 -49.452  -8.542  0.00  0   E
-ATOM     4774    O    O .  PRO   E .   76 ?  -75.018 -52.512  -5.855 -1.07  0   E
-ATOM     4777    C   CD .  PRO   E .   76 ?  -77.872 -51.429  -4.323  0.00  0   E
-ATOM     4727    N    N .  ARG   E .   71 ?  -75.369 -49.469 -10.537 -3.28  0   E
-ATOM     4763    C   CB .  TYR   E .   75 ?  -77.463 -48.974  -6.955  0.00  0   E
-ATOM     4713    O    O .  SER   E .   69 ?  -72.949 -53.701  -9.188 -1.48  0   E
-ATOM     4715    O   OG .  SER   E .   69 ?  -72.287 -54.617 -12.135  0.00  0   E
-ATOM     4795    O    O .  LEU   E .   78 ?  -72.438 -56.848  -8.708  0.00  0   E
-ATOM     4803    O    O .  TRP   E .   79 ?  -74.328 -59.571  -9.597  0.00  0   E
-ATOM     4796    C   CB .  LEU   E .   78 ?  -75.186 -56.571  -7.148  0.00  0   E
-ATOM     4815    C   CA .  GLU   E .   80 ?  -73.459 -60.854 -11.914  0.00  0   E
-ATOM     4817    O    O .  GLU   E .   80 ?  -75.740 -61.482 -12.249 -1.62  0   E
-ATOM     4382    C  CH2 .  TRP   E .   27 ?  -71.208 -56.758 -15.022  0.00  0   E
-ATOM     4415    N  NE2 .  GLN   E .   31 ?  -72.942 -59.005 -17.045 -3.45  0   E
-ATOM     4381    C  CZ3 .  TRP   E .   27 ?  -71.420 -56.033 -16.196  0.00  0   E
-ATOM     4718    C    C .  ARG   E .   70 ?  -74.081 -49.854 -10.526  0.00  0   E
+ATOM     4798    C  CD1 ?  LEU      E 78 ?  -77.524 -55.769  -6.842  0.00  0 216 E
+ATOM     4717    C   CA ?  ARG      E 70 ?  -73.700 -51.010  -9.592  0.00  0 208 E
+ATOM     4766    C  CD2 ?  TYR      E 75 ?  -79.371 -49.452  -8.542  0.00  0 213 E
+ATOM     4774    O    O ?  PRO      E 76 ?  -75.018 -52.512  -5.855 -1.07  0 214 E
+ATOM     4777    C   CD ?  PRO      E 76 ?  -77.872 -51.429  -4.323  0.00  0 214 E
+ATOM     4727    N    N ?  ARG      E 71 ?  -75.369 -49.469 -10.537 -3.28  0 209 E
+ATOM     4763    C   CB ?  TYR      E 75 ?  -77.463 -48.974  -6.955  0.00  0 213 E
+ATOM     4713    O    O ?  SER      E 69 ?  -72.949 -53.701  -9.188 -1.48  0 207 E
+ATOM     4715    O   OG ?  SER      E 69 ?  -72.287 -54.617 -12.135  0.00  0 207 E
+ATOM     4795    O    O ?  LEU      E 78 ?  -72.438 -56.848  -8.708  0.00  0 216 E
+ATOM     4803    O    O ?  TRP      E 79 ?  -74.328 -59.571  -9.597  0.00  0 217 E
+ATOM     4796    C   CB ?  LEU      E 78 ?  -75.186 -56.571  -7.148  0.00  0 216 E
+ATOM     4815    C   CA ?  GLU      E 80 ?  -73.459 -60.854 -11.914  0.00  0 218 E
+ATOM     4817    O    O ?  GLU      E 80 ?  -75.740 -61.482 -12.249 -1.62  0 218 E
+ATOM     4382    C  CH2 ?  TRP      E 27 ?  -71.208 -56.758 -15.022  0.00  0 165 E
+ATOM     4415    N  NE2 ?  GLN      E 31 ?  -72.942 -59.005 -17.045 -3.45  0 169 E
+ATOM     4381    C  CZ3 ?  TRP      E 27 ?  -71.420 -56.033 -16.196  0.00  0 165 E
+ATOM     4718    C    C ?  ARG      E 70 ?  -74.081 -49.854 -10.526  0.00  0 208 E
 # 

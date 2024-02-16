@@ -15,7 +15,7 @@ Information about the pocket   118:
 6  - Hydrophobicity Score              : 16.2500
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 297.8879
+9  - Pocket volume (Monte Carlo)       : 301.7141
 10  -Pocket volume (convex hull)       : 20.3241
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 14.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,28 +37,29 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6035    C   CE .  LYS   B .  200 ?    5.342 -30.939 -17.096  0.00  0   B
-ATOM     6034    C   CD .  LYS   B .  200 ?    4.714 -29.577 -17.316  0.00  0   B
-ATOM     6036    N   NZ .  LYS   B .  200 ?    4.811 -31.962 -18.033 -1.93  0   B
-ATOM     5983    O  OG1 .  THR   B .  194 ?   -2.750 -32.352 -14.284 -2.69  0   B
-ATOM     6685    C   CE .  MET   B .  287 ?    4.229 -28.099 -11.782  0.00  0   B
-ATOM     6004    C   CG .  PHE   B .  197 ?    0.455 -26.623 -13.515  0.00  0   B
-ATOM     6005    C  CD1 .  PHE   B .  197 ?   -0.645 -27.228 -14.105  0.00  0   B
-ATOM     5984    C  CG2 .  THR   B .  194 ?   -3.518 -30.906 -16.026  0.00  0   B
-ATOM     6187    C   CB .  ARG   B .  220 ?   -3.425 -33.585 -19.110  0.00  0   B
-ATOM     6183    N    N .  ARG   B .  220 ?   -1.606 -32.526 -20.421  0.00  0   B
-ATOM     6007    C  CE1 .  PHE   B .  197 ?   -0.796 -27.230 -15.488  0.00  0   B
-ATOM     6006    C  CD2 .  PHE   B .  197 ?    1.411 -26.037 -14.346  0.00  0   B
-ATOM     6003    C   CB .  PHE   B .  197 ?    0.629 -26.618 -12.012  0.00  0   B
-ATOM     5990    O  OG1 .  THR   B .  195 ?   -2.768 -30.603  -9.739  0.00  0   B
-ATOM     5988    O    O .  THR   B .  195 ?   -3.221 -29.053 -12.500  0.00  0   B
-ATOM     6182    N  NE2 .  GLN   B .  219 ?    2.851 -30.842 -19.946 -0.84  0   B
-ATOM     6168    O    O .  LYS   B .  218 ?    0.494 -35.154 -21.569 -0.95  0   B
-ATOM     6175    C   CA .  GLN   B .  219 ?    0.423 -32.338 -21.724  0.00  0   B
-ATOM     6009    C   CZ .  PHE   B .  197 ?    0.155 -26.631 -16.302  0.00  0   B
-ATOM     6186    O    O .  ARG   B .  220 ?   -2.836 -30.392 -19.051 -5.36  0   B
-ATOM     6032    C   CB .  LYS   B .  200 ?    4.726 -27.200 -16.425  0.00  0   B
-ATOM     6684    S   SD .  MET   B .  287 ?    5.549 -28.541 -12.911  0.00  0   B
-ATOM     6008    C  CE2 .  PHE   B .  197 ?    1.258 -26.033 -15.729  0.00  0   B
+ATOM     6035    C   CE ?  LYS      B 200 ?    5.342 -30.939 -17.096  0.00  0 200 B
+ATOM     6034    C   CD ?  LYS      B 200 ?    4.714 -29.577 -17.316  0.00  0 200 B
+ATOM     6036    N   NZ ?  LYS      B 200 ?    4.811 -31.962 -18.033 -1.93  0 200 B
+ATOM     5983    O  OG1 ?  THR      B 194 ?   -2.750 -32.352 -14.284 -2.69  0 194 B
+ATOM     6685    C   CE ?  MET      B 287 ?    4.229 -28.099 -11.782  0.00  0 287 B
+ATOM     6004    C   CG ?  PHE      B 197 ?    0.455 -26.623 -13.515  0.00  0 197 B
+ATOM     6005    C  CD1 ?  PHE      B 197 ?   -0.645 -27.228 -14.105  0.00  0 197 B
+ATOM     5984    C  CG2 ?  THR      B 194 ?   -3.518 -30.906 -16.026  0.00  0 194 B
+ATOM     6187    C   CB ?  ARG      B 220 ?   -3.425 -33.585 -19.110  0.00  0 220 B
+ATOM     6183    N    N ?  ARG      B 220 ?   -1.606 -32.526 -20.421  0.00  0 220 B
+ATOM     6007    C  CE1 ?  PHE      B 197 ?   -0.796 -27.230 -15.488  0.00  0 197 B
+ATOM     6006    C  CD2 ?  PHE      B 197 ?    1.411 -26.037 -14.346  0.00  0 197 B
+ATOM     6003    C   CB ?  PHE      B 197 ?    0.629 -26.618 -12.012  0.00  0 197 B
+ATOM     5990    O  OG1 ?  THR      B 195 ?   -2.768 -30.603  -9.739  0.00  0 195 B
+ATOM     5988    O    O ?  THR      B 195 ?   -3.221 -29.053 -12.500  0.00  0 195 B
+ATOM     6182    N  NE2 ?  GLN      B 219 ?    2.851 -30.842 -19.946 -0.84  0 219 B
+ATOM     6168    O    O ?  LYS      B 218 ?    0.494 -35.154 -21.569 -0.95  0 218 B
+ATOM     6175    C   CA ?  GLN      B 219 ?    0.423 -32.338 -21.724  0.00  0 219 B
+ATOM     6009    C   CZ ?  PHE      B 197 ?    0.155 -26.631 -16.302  0.00  0 197 B
+ATOM     6186    O    O ?  ARG      B 220 ?   -2.836 -30.392 -19.051 -5.36  0 220 B
+ATOM     6032    C   CB ?  LYS      B 200 ?    4.726 -27.200 -16.425  0.00  0 200 B
+ATOM     6684    S   SD ?  MET      B 287 ?    5.549 -28.541 -12.911  0.00  0 287 B
+ATOM     6008    C  CE2 ?  PHE      B 197 ?    1.258 -26.033 -15.729  0.00  0 197 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket    36:
 6  - Hydrophobicity Score              : 15.3333
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.6667
-9  - Pocket volume (Monte Carlo)       : 108.4518
+9  - Pocket volume (Monte Carlo)       : 107.4859
 10  -Pocket volume (convex hull)       : 1.9991
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20349    O  OE1 .  GLN   E .  161 ?   20.675 -42.134 -90.892  0.00  0   E
-ATOM    20346    C   CB .  GLN   E .  161 ?   19.315 -40.158 -92.330  0.00  0   E
-ATOM    20330    O  OE2 .  GLU   E .  159 ?   18.618 -45.399 -91.424 -2.14  0   E
-ATOM    20260    O    O .  VAL   E .  151 ?   14.183 -42.471 -88.199 -0.54  0   E
-ATOM    20368    C  CG1 .  VAL   E .  164 ?   14.625 -37.357 -92.705  0.00  0   E
-ATOM    20369    C  CG2 .  VAL   E .  164 ?   16.509 -36.681 -91.245  0.00  0   E
-ATOM    20343    C   CA .  GLN   E .  161 ?   18.571 -39.444 -93.468  0.00  0   E
-ATOM    20385    N  ND2 .  ASN   E .  166 ?   13.848 -37.048 -86.378 -3.45  0   E
-ATOM    20367    C   CB .  VAL   E .  164 ?   15.072 -36.384 -91.640  0.00  0   E
-ATOM    20334    O    O .  ARG   E .  160 ?   17.195 -41.747 -94.046 -1.07  0   E
-ATOM    20273    N    N .  TRP   E .  153 ?   13.785 -43.020 -92.480 -1.09  0   E
-ATOM    20265    C   CA .  LYS   E .  152 ?   13.952 -44.253 -90.405  0.00  0   E
-ATOM    20279    C  CD1 .  TRP   E .  153 ?   12.422 -39.584 -92.328  0.00  0   E
-ATOM    20384    O  OD1 .  ASN   E .  166 ?   12.055 -36.572 -87.625 -1.07  0   E
-ATOM    20511    O   OG .  SER   E .  182 ?   10.656 -37.772 -89.597  0.00  0   E
+ATOM    20349    O  OE1 ?  GLN      G 161 ?   20.675 -42.134 -90.892  0.00  0 161 E
+ATOM    20346    C   CB ?  GLN      G 161 ?   19.315 -40.158 -92.330  0.00  0 161 E
+ATOM    20330    O  OE2 ?  GLU      G 159 ?   18.618 -45.399 -91.424 -2.14  0 159 E
+ATOM    20260    O    O ?  VAL      G 151 ?   14.183 -42.471 -88.199 -0.54  0 151 E
+ATOM    20368    C  CG1 ?  VAL      G 164 ?   14.625 -37.357 -92.705  0.00  0 164 E
+ATOM    20369    C  CG2 ?  VAL      G 164 ?   16.509 -36.681 -91.245  0.00  0 164 E
+ATOM    20343    C   CA ?  GLN      G 161 ?   18.571 -39.444 -93.468  0.00  0 161 E
+ATOM    20385    N  ND2 ?  ASN      G 166 ?   13.848 -37.048 -86.378 -3.45  0 166 E
+ATOM    20367    C   CB ?  VAL      G 164 ?   15.072 -36.384 -91.640  0.00  0 164 E
+ATOM    20334    O    O ?  ARG      G 160 ?   17.195 -41.747 -94.046 -1.07  0 160 E
+ATOM    20273    N    N ?  TRP      G 153 ?   13.785 -43.020 -92.480 -1.09  0 153 E
+ATOM    20265    C   CA ?  LYS      G 152 ?   13.952 -44.253 -90.405  0.00  0 152 E
+ATOM    20279    C  CD1 ?  TRP      G 153 ?   12.422 -39.584 -92.328  0.00  0 153 E
+ATOM    20384    O  OD1 ?  ASN      G 166 ?   12.055 -36.572 -87.625 -1.07  0 166 E
+ATOM    20511    O   OG ?  SER      G 182 ?   10.656 -37.772 -89.597  0.00  0 182 E
 # 

@@ -15,7 +15,7 @@ Information about the pocket    87:
 6  - Hydrophobicity Score              : 15.8889
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 205.4286
+9  - Pocket volume (Monte Carlo)       : 205.8969
 10  -Pocket volume (convex hull)       : 6.2896
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 12.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,22 +37,23 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    18487    C   CB .  ALA   H .  134 ?  -55.537 -82.352  44.218  0.00  0   H
-ATOM    18484    C   CA .  ALA   H .  134 ?  -56.321 -81.192  43.619  0.00  0   H
-ATOM    18480    O    O .  SER   H .  133 ?  -55.999 -78.624  44.706 -1.48  0   H
-ATOM    18924    C  CZ3 .  TRP   H .  193 ?  -50.083 -77.062  41.915  0.00  0   H
-ATOM    18537    C  CG2 .  VAL   H .  141 ?  -52.281 -78.065  38.521  0.00  0   H
-ATOM    18500    O  OE1 .  GLN   H .  136 ?  -54.943 -84.491  39.807 -2.14  0   H
-ATOM    18471    C   CG .  PRO   H .  131 ?  -54.392 -76.030  42.132  0.00  0   H
-ATOM    18488    N    N .  ALA   H .  135 ?  -57.295 -80.790  41.415  0.00  0   H
-ATOM    18915    O    O .  TRP   H .  193 ?  -46.971 -80.531  40.586 -2.14  0   H
-ATOM    18932    C   CD .  PRO   H .  194 ?  -46.540 -79.802  43.185  0.00  0   H
-ATOM    18922    C  CE3 .  TRP   H .  193 ?  -49.098 -77.464  41.005  0.00  0   H
-ATOM    18535    C   CB .  VAL   H .  141 ?  -52.037 -79.186  37.522  0.00  0   H
-ATOM    18536    C  CG1 .  VAL   H .  141 ?  -50.548 -79.373  37.286  0.00  0   H
-ATOM    18491    O    O .  ALA   H .  135 ?  -56.427 -80.233  38.722 -4.69  0   H
-ATOM    18898    O   OG .  SER   H .  190 ?  -51.490 -83.333  37.012 -2.14  0   H
-ATOM    18897    C   CB .  SER   H .  190 ?  -50.200 -83.717  37.448  0.00  0   H
-ATOM    18896    O    O .  SER   H .  190 ?  -47.486 -82.674  38.725 -2.55  0   H
+ATOM    18487    C   CB ?  ALA      F 134 ?  -55.537 -82.352  44.218  0.00  0 134 H
+ATOM    18484    C   CA ?  ALA      F 134 ?  -56.321 -81.192  43.619  0.00  0 134 H
+ATOM    18480    O    O ?  SER      F 133 ?  -55.999 -78.624  44.706 -1.48  0 133 H
+ATOM    18924    C  CZ3 ?  TRP      F 193 ?  -50.083 -77.062  41.915  0.00  0 193 H
+ATOM    18537    C  CG2 ?  VAL      F 141 ?  -52.281 -78.065  38.521  0.00  0 141 H
+ATOM    18500    O  OE1 ?  GLN      F 136 ?  -54.943 -84.491  39.807 -2.14  0 136 H
+ATOM    18471    C   CG ?  PRO      F 131 ?  -54.392 -76.030  42.132  0.00  0 131 H
+ATOM    18488    N    N ?  ALA      F 135 ?  -57.295 -80.790  41.415  0.00  0 135 H
+ATOM    18915    O    O ?  TRP      F 193 ?  -46.971 -80.531  40.586 -2.14  0 193 H
+ATOM    18932    C   CD ?  PRO      F 194 ?  -46.540 -79.802  43.185  0.00  0 194 H
+ATOM    18922    C  CE3 ?  TRP      F 193 ?  -49.098 -77.464  41.005  0.00  0 193 H
+ATOM    18535    C   CB ?  VAL      F 141 ?  -52.037 -79.186  37.522  0.00  0 141 H
+ATOM    18536    C  CG1 ?  VAL      F 141 ?  -50.548 -79.373  37.286  0.00  0 141 H
+ATOM    18491    O    O ?  ALA      F 135 ?  -56.427 -80.233  38.722 -4.69  0 135 H
+ATOM    18898    O   OG ?  SER      F 190 ?  -51.490 -83.333  37.012 -2.14  0 190 H
+ATOM    18897    C   CB ?  SER      F 190 ?  -50.200 -83.717  37.448  0.00  0 190 H
+ATOM    18896    O    O ?  SER      F 190 ?  -47.486 -82.674  38.725 -2.55  0 190 H
 # 

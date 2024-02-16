@@ -15,7 +15,7 @@ Information about the pocket    25:
 6  - Hydrophobicity Score              : 34.3750
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 97.3629
+9  - Pocket volume (Monte Carlo)       : 97.9271
 10  -Pocket volume (convex hull)       : 1.4596
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 15.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,19 +37,20 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8230    C   CG .  GLU   H .  116 ?  -12.195 -64.143 -15.101  0.00  0   H
-ATOM     8273    C   CB .  ALA   H .  122 ?  -14.528 -58.089 -19.139  0.00  0   H
-ATOM     8160    C  CE1 .  TYR   H .  107 ?  -14.194 -61.278 -13.170  0.00  0   H
-ATOM     8158    C  CD1 .  TYR   H .  107 ?  -13.491 -60.103 -13.408  0.00  0   H
-ATOM     7801    C   CG .  PRO   H .   63 ?  -17.879 -58.952 -16.742  0.00  0   H
-ATOM     7800    C   CB .  PRO   H .   63 ?  -17.400 -58.499 -15.437  0.00  0   H
-ATOM     6012    C  CG2 .  THR   F .   99 ?  -17.161 -65.563 -17.869  0.00  0   F
-ATOM     6009    O    O .  THR   F .   99 ?  -18.501 -62.632 -16.607 -1.07  0   F
-ATOM     6010    C   CB .  THR   F .   99 ?  -17.502 -64.370 -18.727  0.00  0   F
-ATOM     8260    C   CB .  LEU   H .  120 ?  -12.156 -63.557 -19.902  0.00  0   H
-ATOM     8267    O    O .  ALA   H .  121 ?  -15.273 -60.415 -21.439 -1.07  0   H
-ATOM     8262    C  CD1 .  LEU   H .  120 ?  -12.897 -65.399 -18.391  0.00  0   H
-ATOM     7825    C  CZ2 .  TRP   H .   65 ?  -10.354 -59.710 -18.021  0.00  0   H
-ATOM     7827    C  CH2 .  TRP   H .   65 ?  -10.090 -60.108 -16.739  0.00  0   H
+ATOM     8230    C   CG ?  GLU      H 116 ?  -12.195 -64.143 -15.101  0.00  0 254 H
+ATOM     8273    C   CB ?  ALA      H 122 ?  -14.528 -58.089 -19.139  0.00  0 260 H
+ATOM     8160    C  CE1 ?  TYR      H 107 ?  -14.194 -61.278 -13.170  0.00  0 245 H
+ATOM     8158    C  CD1 ?  TYR      H 107 ?  -13.491 -60.103 -13.408  0.00  0 245 H
+ATOM     7801    C   CG ?  PRO      H 63 ?  -17.879 -58.952 -16.742  0.00  0 201 H
+ATOM     7800    C   CB ?  PRO      H 63 ?  -17.400 -58.499 -15.437  0.00  0 201 H
+ATOM     6012    C  CG2 ?  THR      F 99 ?  -17.161 -65.563 -17.869  0.00  0 237 F
+ATOM     6009    O    O ?  THR      F 99 ?  -18.501 -62.632 -16.607 -1.07  0 237 F
+ATOM     6010    C   CB ?  THR      F 99 ?  -17.502 -64.370 -18.727  0.00  0 237 F
+ATOM     8260    C   CB ?  LEU      H 120 ?  -12.156 -63.557 -19.902  0.00  0 258 H
+ATOM     8267    O    O ?  ALA      H 121 ?  -15.273 -60.415 -21.439 -1.07  0 259 H
+ATOM     8262    C  CD1 ?  LEU      H 120 ?  -12.897 -65.399 -18.391  0.00  0 258 H
+ATOM     7825    C  CZ2 ?  TRP      H 65 ?  -10.354 -59.710 -18.021  0.00  0 203 H
+ATOM     7827    C  CH2 ?  TRP      H 65 ?  -10.090 -60.108 -16.739  0.00  0 203 H
 # 

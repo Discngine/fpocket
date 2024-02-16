@@ -15,7 +15,7 @@ Information about the pocket    36:
 6  - Hydrophobicity Score              : 0.2857
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.8571
-9  - Pocket volume (Monte Carlo)       : 287.0357
+9  - Pocket volume (Monte Carlo)       : 282.2099
 10  -Pocket volume (convex hull)       : 20.3645
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2104    O    O .  GLU   B .    9 ?    9.610  78.022  40.425 -5.09  0   B
-ATOM     2103    C    C .  GLU   B .    9 ?   10.169  77.277  39.615  0.00  0   B
-ATOM     2105    C   CB .  GLU   B .    9 ?    8.575  76.788  37.798  0.00  0   B
-ATOM     2126    O  OE2 .  GLU   B .   11 ?   11.678  82.829  36.841 -6.83  0   B
-ATOM     2108    O  OE1 .  GLU   B .    9 ?   10.187  75.873  35.706 -0.40  0   B
-ATOM     2642    C   CB .  ARG   B .   80 ?    9.657  77.081  31.688  0.00  0   B
-ATOM     2106    C   CG .  GLU   B .    9 ?    8.042  75.835  36.750  0.00  0   B
-ATOM     2127    N    N .  ARG   B .   12 ?   16.579  79.717  37.090 -4.37  0   B
-ATOM     2113    O    O .  MET   B .   10 ?   13.308  78.467  37.621 -5.76  0   B
-ATOM     2119    C   CA .  GLU   B .   11 ?   14.780  80.814  38.287  0.00  0   B
-ATOM     2125    O  OE1 .  GLU   B .   11 ?   13.662  83.727  36.354  0.00  0   B
-ATOM     2134    N   NE .  ARG   B .   12 ?   17.166  78.180  32.616 -3.70  0   B
-ATOM     2110    N    N .  MET   B .   10 ?   11.446  77.350  39.286  0.00  0   B
-ATOM     2137    N  NH2 .  ARG   B .   12 ?   16.002  76.207  32.344 -1.09  0   B
-ATOM     2638    N    N .  ARG   B .   80 ?   10.760  74.847  31.982 -1.09  0   B
-ATOM     2132    C   CG .  ARG   B .   12 ?   18.304  79.619  34.354  0.00  0   B
-ATOM     2647    C   CB .  GLU   B .   81 ?   13.559  77.774  28.759  0.00  0   B
-ATOM     2643    N    N .  GLU   B .   81 ?   12.076  76.211  29.899 -1.09  0   B
-ATOM     2626    C   CA .  CYS   B .   78 ?   13.442  74.443  35.850  0.00  0   B
-ATOM     2629    C   CB .  CYS   B .   78 ?   14.835  75.041  35.726  0.00  0   B
+ATOM     2104    O    O ?  GLU    Bxp 9 ?    9.610  78.022  40.425 -5.09  0 236 B
+ATOM     2103    C    C ?  GLU    Bxp 9 ?   10.169  77.277  39.615  0.00  0 236 B
+ATOM     2105    C   CB ?  GLU    Bxp 9 ?    8.575  76.788  37.798  0.00  0 236 B
+ATOM     2126    O  OE2 ?  GLU    Bxp 11 ?   11.678  82.829  36.841 -6.83  0 238 B
+ATOM     2108    O  OE1 ?  GLU    Bxp 9 ?   10.187  75.873  35.706 -0.40  0 236 B
+ATOM     2642    C   CB ?  ARG    Bxp 80 ?    9.657  77.081  31.688  0.00  0 307 B
+ATOM     2106    C   CG ?  GLU    Bxp 9 ?    8.042  75.835  36.750  0.00  0 236 B
+ATOM     2127    N    N ?  ARG    Bxp 12 ?   16.579  79.717  37.090 -4.37  0 239 B
+ATOM     2113    O    O ?  MET    Bxp 10 ?   13.308  78.467  37.621 -5.76  0 237 B
+ATOM     2119    C   CA ?  GLU    Bxp 11 ?   14.780  80.814  38.287  0.00  0 238 B
+ATOM     2125    O  OE1 ?  GLU    Bxp 11 ?   13.662  83.727  36.354  0.00  0 238 B
+ATOM     2134    N   NE ?  ARG    Bxp 12 ?   17.166  78.180  32.616 -3.70  0 239 B
+ATOM     2110    N    N ?  MET    Bxp 10 ?   11.446  77.350  39.286  0.00  0 237 B
+ATOM     2137    N  NH2 ?  ARG    Bxp 12 ?   16.002  76.207  32.344 -1.09  0 239 B
+ATOM     2638    N    N ?  ARG    Bxp 80 ?   10.760  74.847  31.982 -1.09  0 307 B
+ATOM     2132    C   CG ?  ARG    Bxp 12 ?   18.304  79.619  34.354  0.00  0 239 B
+ATOM     2647    C   CB ?  GLU    Bxp 81 ?   13.559  77.774  28.759  0.00  0 308 B
+ATOM     2643    N    N ?  GLU    Bxp 81 ?   12.076  76.211  29.899 -1.09  0 308 B
+ATOM     2626    C   CA ?  CYS    Bxp 78 ?   13.442  74.443  35.850  0.00  0 305 B
+ATOM     2629    C   CB ?  CYS    Bxp 78 ?   14.835  75.041  35.726  0.00  0 305 B
 # 

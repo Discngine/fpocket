@@ -15,7 +15,7 @@ Information about the pocket   156:
 6  - Hydrophobicity Score              : 29.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 275.1379
+9  - Pocket volume (Monte Carlo)       : 279.8947
 10  -Pocket volume (convex hull)       : 7.7967
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,21 +37,22 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    17048    N  NE1 .  TRP   L .  168 ?  -67.235 -64.913  26.488 -2.61  0   L
-ATOM    16875    O    O .  LYS   L .  147 ?  -68.286 -69.566  22.807 -6.43  0   L
-ATOM    16887    O  OD1 .  ASP   L .  148 ?  -72.665 -67.423  21.024 -0.95  0   L
-ATOM    16877    C   CG .  LYS   L .  147 ?  -67.712 -67.473  19.412  0.00  0   L
-ATOM    17046    C  CD1 .  TRP   L .  168 ?  -66.089 -65.141  25.768  0.00  0   L
-ATOM    16879    C   CE .  LYS   L .  147 ?  -67.534 -65.257  18.287  0.00  0   L
-ATOM    16882    C   CA .  ASP   L .  148 ?  -71.086 -69.425  22.575  0.00  0   L
-ATOM    16874    C    C .  LYS   L .  147 ?  -68.817 -69.707  21.704  0.00  0   L
-ATOM    17047    C  CD2 .  TRP   L .  168 ?  -66.156 -62.928  26.275  0.00  0   L
-ATOM    17049    C  CE2 .  TRP   L .  168 ?  -67.339 -63.612  26.825  0.00  0   L
-ATOM    17045    C   CG .  TRP   L .  168 ?  -65.362 -63.965  25.599  0.00  0   L
-ATOM    16878    C   CD .  LYS   L .  147 ?  -68.262 -66.585  18.306  0.00  0   L
-ATOM    16880    N   NZ .  LYS   L .  147 ?  -68.067 -64.395  17.199 -2.77  0   L
-ATOM    16892    O    O .  ILE   L .  149 ?  -71.977 -68.072  26.900 -2.69  0   L
-ATOM    17051    C  CZ2 .  TRP   L .  168 ?  -68.315 -62.934  27.537  0.00  0   L
-ATOM    16889    N    N .  ILE   L .  149 ?  -70.978 -69.488  24.960 -2.19  0   L
+ATOM    17048    N  NE1 ?  TRP      E 168 ?  -67.235 -64.913  26.488 -2.61  0 168 L
+ATOM    16875    O    O ?  LYS      E 147 ?  -68.286 -69.566  22.807 -6.43  0 147 L
+ATOM    16887    O  OD1 ?  ASP      E 148 ?  -72.665 -67.423  21.024 -0.95  0 148 L
+ATOM    16877    C   CG ?  LYS      E 147 ?  -67.712 -67.473  19.412  0.00  0 147 L
+ATOM    17046    C  CD1 ?  TRP      E 168 ?  -66.089 -65.141  25.768  0.00  0 168 L
+ATOM    16879    C   CE ?  LYS      E 147 ?  -67.534 -65.257  18.287  0.00  0 147 L
+ATOM    16882    C   CA ?  ASP      E 148 ?  -71.086 -69.425  22.575  0.00  0 148 L
+ATOM    16874    C    C ?  LYS      E 147 ?  -68.817 -69.707  21.704  0.00  0 147 L
+ATOM    17047    C  CD2 ?  TRP      E 168 ?  -66.156 -62.928  26.275  0.00  0 168 L
+ATOM    17049    C  CE2 ?  TRP      E 168 ?  -67.339 -63.612  26.825  0.00  0 168 L
+ATOM    17045    C   CG ?  TRP      E 168 ?  -65.362 -63.965  25.599  0.00  0 168 L
+ATOM    16878    C   CD ?  LYS      E 147 ?  -68.262 -66.585  18.306  0.00  0 147 L
+ATOM    16880    N   NZ ?  LYS      E 147 ?  -68.067 -64.395  17.199 -2.77  0 147 L
+ATOM    16892    O    O ?  ILE      E 149 ?  -71.977 -68.072  26.900 -2.69  0 149 L
+ATOM    17051    C  CZ2 ?  TRP      E 168 ?  -68.315 -62.934  27.537  0.00  0 168 L
+ATOM    16889    N    N ?  ILE      E 149 ?  -70.978 -69.488  24.960 -2.19  0 149 L
 # 

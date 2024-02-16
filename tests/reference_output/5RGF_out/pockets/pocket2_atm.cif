@@ -15,7 +15,7 @@ Information about the pocket     2:
 6  - Hydrophobicity Score              : 29.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.9231
-9  - Pocket volume (Monte Carlo)       : 238.8082
+9  - Pocket volume (Monte Carlo)       : 238.1649
 10  -Pocket volume (convex hull)       : 21.3858
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 31.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,32 +37,33 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5930    C   CA .  GLU   B .   48 ?   -5.688  -0.299  16.408  0.00  0   B
-ATOM     9736    C   CE .  MET   B .  269 ?   -9.541   2.351  18.122  0.00  0   B
-ATOM     5934    O    O .  GLU   B .   48 ?   -5.794   1.479  14.795 -2.14  0   B
-ATOM     5917    O    O .  PRO   B .   47 ?   -6.135  -1.531  13.923 -1.07  0   B
-ATOM     5886    C  CE3 .  TRP   B .   46 ?  -11.025  -4.059  11.865  0.00  0   B
-ATOM     6567    O    O .  GLY   B .   85 ?   -6.455  -0.239   9.590  0.00  0   B
-ATOM     6566    C    C .  GLY   B .   85 ?   -7.256  -0.003   8.684  0.00  0   B
-ATOM     7368    O  OD2 .  ASP   B .  129 ?  -12.975  -1.281   9.560  0.00  0   B
-ATOM     5874    C   CB .  TRP   B .   46 ?   -9.260  -4.629  14.542  0.00  0   B
-ATOM     9237    C   CG .  MET   B .  239 ?  -13.513   2.003  15.612  0.00  0   B
-ATOM     5880    C  CD2 .  TRP   B .   46 ?  -11.262  -4.916  12.942  0.00  0   B
-ATOM     6565    C   CA .  GLY   B .   85 ?   -8.043  -1.117   8.031  0.00  0   B
-ATOM     6040    N  NE2 .  GLN   B .   52 ?   -6.658   2.537  11.619  0.00  0   B
-ATOM     9241    C   CE .  MET   B .  239 ?  -12.159   3.094  13.478  0.00  0   B
-ATOM     9734    S   SD .  MET   B .  269 ?  -11.067   1.495  18.486  0.00  0   B
-ATOM     8145    C   CE .  MET   B .  174 ?  -12.373   3.479   9.626  0.00  0   B
-ATOM     8143    S   SD .  MET   B .  174 ?  -13.577   2.162   9.587  0.00  0   B
-ATOM     9197    C   CB .  LEU   B .  238 ?  -16.310  -0.475  13.670  0.00  0   B
-ATOM     9201    C  CD1 .  LEU   B .  238 ?  -15.949  -0.517  11.181  0.00  0   B
-ATOM     5489    C   CB .  ALA   B .   23 ?   -9.104  -2.198  18.352  0.00  0   B
-ATOM     9682    C  CG2 .  THR   B .  267 ?  -13.344  -4.463  17.018  0.00  0   B
-ATOM     6564    N    N .  GLY   B .   85 ?   -7.714  -2.367   8.683  0.00  0   B
-ATOM     9203    C  CD2 .  LEU   B .  238 ?  -15.643  -2.591  12.540  0.00  0   B
-ATOM     9227    N    N .  MET   B .  239 ?  -15.360  -0.150  16.607  0.00  0   B
-ATOM     5876    C   CG .  TRP   B .   46 ?  -10.543  -5.220  14.132  0.00  0   B
-ATOM     6571    N    N .  CYS   B .   86 ?   -7.485   1.223   8.210  0.00  0   B
-ATOM     6575    C   CB .  CYS   B .   86 ?   -9.255   2.716   7.495  0.00  0   B
+ATOM     5930    C   CA A  GLU      B 48 ?   -5.688  -0.299  16.408  0.00  0 46 B
+ATOM     9736    C   CE A  MET      B 269 ?   -9.541   2.351  18.122  0.00  0 267 B
+ATOM     5934    O    O A  GLU      B 48 ?   -5.794   1.479  14.795 -2.14  0 46 B
+ATOM     5917    O    O ?  PRO      B 47 ?   -6.135  -1.531  13.923 -1.07  0 45 B
+ATOM     5886    C  CE3 A  TRP      B 46 ?  -11.025  -4.059  11.865  0.00  0 44 B
+ATOM     6567    O    O ?  GLY      B 85 ?   -6.455  -0.239   9.590  0.00  0 83 B
+ATOM     6566    C    C ?  GLY      B 85 ?   -7.256  -0.003   8.684  0.00  0 83 B
+ATOM     7368    O  OD2 ?  ASP      B 129 ?  -12.975  -1.281   9.560  0.00  0 127 B
+ATOM     5874    C   CB A  TRP      B 46 ?   -9.260  -4.629  14.542  0.00  0 44 B
+ATOM     9237    C   CG A  MET      B 239 ?  -13.513   2.003  15.612  0.00  0 237 B
+ATOM     5880    C  CD2 A  TRP      B 46 ?  -11.262  -4.916  12.942  0.00  0 44 B
+ATOM     6565    C   CA ?  GLY      B 85 ?   -8.043  -1.117   8.031  0.00  0 83 B
+ATOM     6040    N  NE2 ?  GLN      B 52 ?   -6.658   2.537  11.619  0.00  0 50 B
+ATOM     9241    C   CE A  MET      B 239 ?  -12.159   3.094  13.478  0.00  0 237 B
+ATOM     9734    S   SD A  MET      B 269 ?  -11.067   1.495  18.486  0.00  0 267 B
+ATOM     8145    C   CE A  MET      B 174 ?  -12.373   3.479   9.626  0.00  0 172 B
+ATOM     8143    S   SD A  MET      B 174 ?  -13.577   2.162   9.587  0.00  0 172 B
+ATOM     9197    C   CB A  LEU      B 238 ?  -16.310  -0.475  13.670  0.00  0 236 B
+ATOM     9201    C  CD1 A  LEU      B 238 ?  -15.949  -0.517  11.181  0.00  0 236 B
+ATOM     5489    C   CB ?  ALA      B 23 ?   -9.104  -2.198  18.352  0.00  0 21 B
+ATOM     9682    C  CG2 ?  THR      B 267 ?  -13.344  -4.463  17.018  0.00  0 265 B
+ATOM     6564    N    N ?  GLY      B 85 ?   -7.714  -2.367   8.683  0.00  0 83 B
+ATOM     9203    C  CD2 A  LEU      B 238 ?  -15.643  -2.591  12.540  0.00  0 236 B
+ATOM     9227    N    N A  MET      B 239 ?  -15.360  -0.150  16.607  0.00  0 237 B
+ATOM     5876    C   CG A  TRP      B 46 ?  -10.543  -5.220  14.132  0.00  0 44 B
+ATOM     6571    N    N ?  CYS      B 86 ?   -7.485   1.223   8.210  0.00  0 84 B
+ATOM     6575    C   CB ?  CYS      B 86 ?   -9.255   2.716   7.495  0.00  0 84 B
 # 

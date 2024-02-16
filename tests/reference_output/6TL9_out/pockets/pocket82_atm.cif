@@ -15,7 +15,7 @@ Information about the pocket    82:
 6  - Hydrophobicity Score              : 14.6250
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.1250
-9  - Pocket volume (Monte Carlo)       : 188.8464
+9  - Pocket volume (Monte Carlo)       : 184.6813
 10  -Pocket volume (convex hull)       : 4.8316
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 2.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,18 +37,19 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2899    C   CB .  PRO   C .  101 ?   10.025 -28.514 -47.519  0.00  0   C
-ATOM      857    O   OH .  TYR   A .  107 ?   13.559 -27.817 -45.384 -1.07  0   A
-ATOM      927    O  OE2 .  GLU   A .  116 ?   13.285 -23.758 -44.206 -6.83  0   A
-ATOM     2896    C   CA .  PRO   C .  101 ?    9.184 -28.133 -46.293  0.00  0   C
-ATOM      917    O    O .  ALA   A .  115 ?   15.687 -23.353 -46.728  0.00  0   A
-ATOM      762    C   CA .  GLY   A .   94 ?   13.014 -23.554 -50.949  0.00  0   A
-ATOM      765    N    N .  ALA   A .   95 ?   13.186 -21.394 -49.876  0.00  0   A
-ATOM      906    C   CB .  TYR   A .  114 ?   15.271 -27.303 -48.604  0.00  0   A
-ATOM     2652    N  NH1 .  ARG   C .   71 ?    7.479 -23.784 -45.202 -4.37  0   C
-ATOM     2898    O    O .  PRO   C .  101 ?    7.224 -26.917 -46.917  0.00  0   C
-ATOM      769    C   CB .  ALA   A .   95 ?   12.630 -19.376 -48.614  0.00  0   A
-ATOM      926    O  OE1 .  GLU   A .  116 ?   13.737 -21.979 -42.975 -1.88  0   A
-ATOM      908    C  CD1 .  TYR   A .  114 ?   13.481 -27.992 -50.250  0.00  0   A
+ATOM     2899    C   CB ?  PRO      C 101 ?   10.025 -28.514 -47.519  0.00  0 239 C
+ATOM      857    O   OH ?  TYR      A 107 ?   13.559 -27.817 -45.384 -1.07  0 245 A
+ATOM      927    O  OE2 ?  GLU      A 116 ?   13.285 -23.758 -44.206 -6.83  0 254 A
+ATOM     2896    C   CA ?  PRO      C 101 ?    9.184 -28.133 -46.293  0.00  0 239 C
+ATOM      917    O    O ?  ALA      A 115 ?   15.687 -23.353 -46.728  0.00  0 253 A
+ATOM      762    C   CA ?  GLY      A 94 ?   13.014 -23.554 -50.949  0.00  0 232 A
+ATOM      765    N    N ?  ALA      A 95 ?   13.186 -21.394 -49.876  0.00  0 233 A
+ATOM      906    C   CB ?  TYR      A 114 ?   15.271 -27.303 -48.604  0.00  0 252 A
+ATOM     2652    N  NH1 ?  ARG      C 71 ?    7.479 -23.784 -45.202 -4.37  0 209 C
+ATOM     2898    O    O ?  PRO      C 101 ?    7.224 -26.917 -46.917  0.00  0 239 C
+ATOM      769    C   CB ?  ALA      A 95 ?   12.630 -19.376 -48.614  0.00  0 233 A
+ATOM      926    O  OE1 ?  GLU      A 116 ?   13.737 -21.979 -42.975 -1.88  0 254 A
+ATOM      908    C  CD1 ?  TYR      A 114 ?   13.481 -27.992 -50.250  0.00  0 252 A
 # 

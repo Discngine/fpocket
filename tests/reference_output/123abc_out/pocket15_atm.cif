@@ -15,7 +15,7 @@ Information about the pocket    15:
 6  - Hydrophobicity Score              : 57.6667
 7  - Polarity Score                    :     0
 8  - Amino Acid based volume Score     : 3.5833
-9  - Pocket volume (Monte Carlo)       : 221.5000
+9  - Pocket volume (Monte Carlo)       : 225.0932
 10  -Pocket volume (convex hull)       : 14.5929
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 33.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,30 +37,31 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3639    C   CA .  ALA   B .  206 ?   25.485  44.511  57.685  0.00  0   B
-ATOM     2914    C  CD1 .  LEU   B .  113 ?   26.128  47.415  60.882  0.00  0   B
-ATOM     3642    C   CB .  ALA   B .  206 ?   24.633  43.235  57.872  0.00  0   B
-ATOM     3641    O    O .  ALA   B .  206 ?   27.664  43.745  58.449 -4.29  0   B
-ATOM     2922    C  CD1 .  LEU   B .  114 ?   18.369  46.670  63.743  0.00  0   B
-ATOM     3902    C   CD .  PRO   B .  238 ?   22.462  42.067  63.671  0.00  0   B
-ATOM     2892    O    O .  ALA   B .  110 ?   23.079  48.277  64.744 -3.21  0   B
-ATOM     3901    C   CG .  PRO   B .  238 ?   21.818  42.336  65.023  0.00  0   B
-ATOM     3919    C  CG2 .  VAL   B .  241 ?   18.754  43.171  62.407  0.00  0   B
-ATOM     2890    C   CA .  ALA   B .  110 ?   25.351  47.954  65.540  0.00  0   B
-ATOM     3918    C  CG1 .  VAL   B .  241 ?   19.352  42.826  59.944  0.00  0   B
-ATOM     3895    S   SG .  CYS   B .  237 ?   22.468  40.332  60.148  0.00  0   B
-ATOM     2893    C   CB .  ALA   B .  110 ?   25.301  47.008  66.740  0.00  0   B
-ATOM     2916    N    N .  LEU   B .  114 ?   21.229  49.545  62.399 -2.19  0   B
-ATOM     3889    O    O .  GLY   B .  236 ?   25.751  41.531  64.057  0.00  0   B
-ATOM     2912    C   CB .  LEU   B .  113 ?   24.074  48.764  61.348  0.00  0   B
-ATOM     2917    C   CA .  LEU   B .  114 ?   19.825  49.298  62.629  0.00  0   B
-ATOM     4130    C  CE1 .  PHE   B .  266 ?   16.326  46.124  60.459  0.00  0   B
-ATOM     2948    C   CB .  ALA   B .  117 ?   17.953  48.663  58.385  0.00  0   B
-ATOM     2910    C    C .  LEU   B .  113 ?   21.785  49.807  61.241  0.00  0   B
-ATOM     3891    C   CA .  CYS   B .  237 ?   24.487  40.444  62.093  0.00  0   B
-ATOM     2911    O    O .  LEU   B .  113 ?   21.152  49.905  60.239  0.00  0   B
-ATOM     3636    C  CG2 .  ILE   B .  205 ?   23.388  48.453  57.534  0.00  0   B
-ATOM     3602    O    O .  LEU   B .  202 ?   22.353  44.476  55.620 -1.07  0   B
-ATOM     3606    C  CD2 .  LEU   B .  202 ?   18.004  45.680  56.609  0.00  0   B
+ATOM     3639    C   CA ?  ALA    Bxp 206 ?   25.485  44.511  57.685  0.00  0 433 B
+ATOM     2914    C  CD1 ?  LEU    Bxp 113 ?   26.128  47.415  60.882  0.00  0 340 B
+ATOM     3642    C   CB ?  ALA    Bxp 206 ?   24.633  43.235  57.872  0.00  0 433 B
+ATOM     3641    O    O ?  ALA    Bxp 206 ?   27.664  43.745  58.449 -4.29  0 433 B
+ATOM     2922    C  CD1 ?  LEU    Bxp 114 ?   18.369  46.670  63.743  0.00  0 341 B
+ATOM     3902    C   CD ?  PRO    Bxp 238 ?   22.462  42.067  63.671  0.00  0 465 B
+ATOM     2892    O    O ?  ALA    Bxp 110 ?   23.079  48.277  64.744 -3.21  0 337 B
+ATOM     3901    C   CG ?  PRO    Bxp 238 ?   21.818  42.336  65.023  0.00  0 465 B
+ATOM     3919    C  CG2 ?  VAL    Bxp 241 ?   18.754  43.171  62.407  0.00  0 468 B
+ATOM     2890    C   CA ?  ALA    Bxp 110 ?   25.351  47.954  65.540  0.00  0 337 B
+ATOM     3918    C  CG1 ?  VAL    Bxp 241 ?   19.352  42.826  59.944  0.00  0 468 B
+ATOM     3895    S   SG ?  CYS    Bxp 237 ?   22.468  40.332  60.148  0.00  0 464 B
+ATOM     2893    C   CB ?  ALA    Bxp 110 ?   25.301  47.008  66.740  0.00  0 337 B
+ATOM     2916    N    N ?  LEU    Bxp 114 ?   21.229  49.545  62.399 -2.19  0 341 B
+ATOM     3889    O    O ?  GLY    Bxp 236 ?   25.751  41.531  64.057  0.00  0 463 B
+ATOM     2912    C   CB ?  LEU    Bxp 113 ?   24.074  48.764  61.348  0.00  0 340 B
+ATOM     2917    C   CA ?  LEU    Bxp 114 ?   19.825  49.298  62.629  0.00  0 341 B
+ATOM     4130    C  CE1 ?  PHE    Bxp 266 ?   16.326  46.124  60.459  0.00  0 493 B
+ATOM     2948    C   CB ?  ALA    Bxp 117 ?   17.953  48.663  58.385  0.00  0 344 B
+ATOM     2910    C    C ?  LEU    Bxp 113 ?   21.785  49.807  61.241  0.00  0 340 B
+ATOM     3891    C   CA ?  CYS    Bxp 237 ?   24.487  40.444  62.093  0.00  0 464 B
+ATOM     2911    O    O ?  LEU    Bxp 113 ?   21.152  49.905  60.239  0.00  0 340 B
+ATOM     3636    C  CG2 ?  ILE    Bxp 205 ?   23.388  48.453  57.534  0.00  0 432 B
+ATOM     3602    O    O ?  LEU    Bxp 202 ?   22.353  44.476  55.620 -1.07  0 429 B
+ATOM     3606    C  CD2 ?  LEU    Bxp 202 ?   18.004  45.680  56.609  0.00  0 429 B
 # 

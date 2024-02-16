@@ -15,7 +15,7 @@ Information about the pocket     9:
 6  - Hydrophobicity Score              : 8.4444
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5556
-9  - Pocket volume (Monte Carlo)       : 107.2626
+9  - Pocket volume (Monte Carlo)       : 107.7182
 10  -Pocket volume (convex hull)       : 0.9581
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 1.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     9728    O    O .  MET   B .  269 ?   -9.773  -0.300  21.140 -2.14  0   B
-ATOM     5942    O  OE1 .  GLU   B .   48 ?   -4.651  -0.035  20.524 -1.07  0   B
-ATOM     9826    O    O .  ASP   B .  275 ?   -6.209   2.689  25.176 -4.29  0   B
-ATOM     9758    C   CA .  GLY   B .  270 ?   -9.887  -1.711  23.496  0.00  0   B
-ATOM     5566    N   NE .  ARG   B .   28 ?   -2.849  -0.473  23.374  0.00  0   B
-ATOM     9770    N    N .  VAL   B .  271 ?   -9.414  -3.201  25.321 -3.28  0   B
-ATOM     5564    C   CD .  ARG   B .   28 ?   -2.502  -1.759  23.962  0.00  0   B
-ATOM     5562    C   CG .  ARG   B .   28 ?   -2.557  -2.867  22.958  0.00  0   B
-ATOM     5683    O  OD1 .  ASN   B .   34 ?   -5.241  -5.285  27.448 -2.14  0   B
-ATOM     9776    C  CG2 .  VAL   B .  271 ?   -8.477  -6.055  25.458  0.00  0   B
-ATOM     5560    C   CB .  ARG   B .   28 ?   -2.286  -4.206  23.589  0.00  0   B
-ATOM     5488    O    O .  ALA   B .   23 ?   -7.788  -3.683  20.800 -2.14  0   B
-ATOM     5500    O  OG1 .  THR   B .   24 ?   -4.302  -5.755  21.458 -1.07  0   B
-ATOM     9827    C   CB .  ASP   B .  275 ?   -5.226   0.684  27.061  0.00  0   B
-ATOM     9830    O  OD2 .  ASP   B .  275 ?   -4.204  -1.008  28.373 -1.07  0   B
+ATOM     9728    O    O A  MET      B 269 ?   -9.773  -0.300  21.140 -2.14  0 267 B
+ATOM     5942    O  OE1 A  GLU      B 48 ?   -4.651  -0.035  20.524 -1.07  0 46 B
+ATOM     9826    O    O ?  ASP      B 275 ?   -6.209   2.689  25.176 -4.29  0 273 B
+ATOM     9758    C   CA A  GLY      B 270 ?   -9.887  -1.711  23.496  0.00  0 268 B
+ATOM     5566    N   NE A  ARG      B 28 ?   -2.849  -0.473  23.374  0.00  0 26 B
+ATOM     9770    N    N ?  VAL      B 271 ?   -9.414  -3.201  25.321 -3.28  0 269 B
+ATOM     5564    C   CD A  ARG      B 28 ?   -2.502  -1.759  23.962  0.00  0 26 B
+ATOM     5562    C   CG A  ARG      B 28 ?   -2.557  -2.867  22.958  0.00  0 26 B
+ATOM     5683    O  OD1 ?  ASN      B 34 ?   -5.241  -5.285  27.448 -2.14  0 32 B
+ATOM     9776    C  CG2 ?  VAL      B 271 ?   -8.477  -6.055  25.458  0.00  0 269 B
+ATOM     5560    C   CB A  ARG      B 28 ?   -2.286  -4.206  23.589  0.00  0 26 B
+ATOM     5488    O    O ?  ALA      B 23 ?   -7.788  -3.683  20.800 -2.14  0 21 B
+ATOM     5500    O  OG1 ?  THR      B 24 ?   -4.302  -5.755  21.458 -1.07  0 22 B
+ATOM     9827    C   CB ?  ASP      B 275 ?   -5.226   0.684  27.061  0.00  0 273 B
+ATOM     9830    O  OD2 ?  ASP      B 275 ?   -4.204  -1.008  28.373 -1.07  0 273 B
 # 

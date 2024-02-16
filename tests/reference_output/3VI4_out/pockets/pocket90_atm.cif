@@ -15,7 +15,7 @@ Information about the pocket    90:
 6  - Hydrophobicity Score              : -12.5000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 152.6170
+9  - Pocket volume (Monte Carlo)       : 151.5253
 10  -Pocket volume (convex hull)       : 1.0450
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,19 +37,20 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    10698    N    N .  ASN   C .  367 ?  -17.114 -30.527 -61.937 -1.09  0   C
-ATOM    10645    C   CB .  ASP   C .  360 ?  -17.730 -30.346 -66.394  0.00  0   C
-ATOM    10686    N    N .  TYR   C .  366 ?  -15.658 -27.849 -63.597  0.00  0   C
-ATOM    10704    O  OD1 .  ASN   C .  367 ?  -17.408 -33.418 -64.071 -2.55  0   C
-ATOM    10684    C    C .  GLY   C .  365 ?  -14.411 -27.465 -63.881  0.00  0   C
-ATOM    10685    O    O .  GLY   C .  365 ?  -13.462 -27.591 -63.098  0.00  0   C
-ATOM    10647    O  OD1 .  ASP   C .  360 ?  -16.434 -28.369 -66.549 -3.21  0   C
-ATOM    10705    N  ND2 .  ASN   C .  367 ?  -15.949 -34.310 -62.617 -4.54  0   C
-ATOM    10162    C   CA .  GLY   C .  296 ?  -11.376 -29.904 -59.295  0.00  0   C
-ATOM    10164    O    O .  GLY   C .  296 ?   -9.842 -31.530 -60.109 -0.54  0   C
-ATOM    10144    O  OD1 .  ASP   C .  293 ?  -12.373 -33.534 -59.066 -6.43  0   C
-ATOM    10161    N    N .  GLY   C .  296 ?  -12.541 -30.190 -58.463  0.00  0   C
-ATOM    10687    C   CA .  TYR   C .  366 ?  -16.054 -28.357 -62.279  0.00  0   C
-ATOM    10703    C   CG .  ASN   C .  367 ?  -17.007 -33.566 -62.917  0.00  0   C
+ATOM    10698    N    N ?  ASN      C 367 ?  -17.114 -30.527 -61.937 -1.09  0 367 C
+ATOM    10645    C   CB ?  ASP      C 360 ?  -17.730 -30.346 -66.394  0.00  0 360 C
+ATOM    10686    N    N ?  TYR      C 366 ?  -15.658 -27.849 -63.597  0.00  0 366 C
+ATOM    10704    O  OD1 ?  ASN      C 367 ?  -17.408 -33.418 -64.071 -2.55  0 367 C
+ATOM    10684    C    C ?  GLY      C 365 ?  -14.411 -27.465 -63.881  0.00  0 365 C
+ATOM    10685    O    O ?  GLY      C 365 ?  -13.462 -27.591 -63.098  0.00  0 365 C
+ATOM    10647    O  OD1 ?  ASP      C 360 ?  -16.434 -28.369 -66.549 -3.21  0 360 C
+ATOM    10705    N  ND2 ?  ASN      C 367 ?  -15.949 -34.310 -62.617 -4.54  0 367 C
+ATOM    10162    C   CA ?  GLY      C 296 ?  -11.376 -29.904 -59.295  0.00  0 296 C
+ATOM    10164    O    O ?  GLY      C 296 ?   -9.842 -31.530 -60.109 -0.54  0 296 C
+ATOM    10144    O  OD1 ?  ASP      C 293 ?  -12.373 -33.534 -59.066 -6.43  0 293 C
+ATOM    10161    N    N ?  GLY      C 296 ?  -12.541 -30.190 -58.463  0.00  0 296 C
+ATOM    10687    C   CA ?  TYR      C 366 ?  -16.054 -28.357 -62.279  0.00  0 366 C
+ATOM    10703    C   CG ?  ASN      C 367 ?  -17.007 -33.566 -62.917  0.00  0 367 C
 # 

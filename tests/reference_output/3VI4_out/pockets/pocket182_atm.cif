@@ -15,7 +15,7 @@ Information about the pocket   182:
 6  - Hydrophobicity Score              : 8.5000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 127.4012
+9  - Pocket volume (Monte Carlo)       : 129.2103
 10  -Pocket volume (convex hull)       : 1.8711
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,19 +37,20 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    21014    C  CG2 .  THR   F .   28 ?   11.123  -2.705 -48.023  0.00  0   F
-ATOM     7534    O    O .  ASN   B .  397 ?   12.298   0.801 -42.790 -1.07  0   B
-ATOM     7536    C   CG .  ASN   B .  397 ?    8.696   1.658 -42.851  0.00  0   B
-ATOM     7537    O  OD1 .  ASN   B .  397 ?    7.800   0.992 -42.313 -2.28  0   B
-ATOM     7551    C   CB .  SER   B .  399 ?   13.399  -3.782 -44.780  0.00  0   B
-ATOM     7552    O   OG .  SER   B .  399 ?   13.645  -2.729 -45.666  0.00  0   B
-ATOM     7263    C   CB .  SER   B .  360 ?   11.141  -3.612 -39.367  0.00  0   B
-ATOM     7532    C   CA .  ASN   B .  397 ?   10.488   0.883 -41.224  0.00  0   B
-ATOM     7538    N  ND2 .  ASN   B .  397 ?    8.625   2.077 -44.124  0.00  0   B
-ATOM     7264    O   OG .  SER   B .  360 ?    9.861  -3.657 -38.800  0.00  0   B
-ATOM     7533    C    C .  ASN   B .  397 ?   11.886   0.483 -41.680  0.00  0   B
-ATOM     7547    N    N .  SER   B .  399 ?   14.065  -2.197 -42.981  0.00  0   B
-ATOM     7541    C    C .  ILE   B .  398 ?   13.940  -2.029 -41.671  0.00  0   B
-ATOM     7435    N   NZ .  LYS   B .  382 ?   12.995   1.467 -46.999 -4.37  0   B
+ATOM    21014    C  CG2 ?  THR      H 28 ?   11.123  -2.705 -48.023  0.00  0 28 F
+ATOM     7534    O    O ?  ASN      B 397 ?   12.298   0.801 -42.790 -1.07  0 397 B
+ATOM     7536    C   CG ?  ASN      B 397 ?    8.696   1.658 -42.851  0.00  0 397 B
+ATOM     7537    O  OD1 ?  ASN      B 397 ?    7.800   0.992 -42.313 -2.28  0 397 B
+ATOM     7551    C   CB ?  SER      B 399 ?   13.399  -3.782 -44.780  0.00  0 399 B
+ATOM     7552    O   OG ?  SER      B 399 ?   13.645  -2.729 -45.666  0.00  0 399 B
+ATOM     7263    C   CB ?  SER      B 360 ?   11.141  -3.612 -39.367  0.00  0 360 B
+ATOM     7532    C   CA ?  ASN      B 397 ?   10.488   0.883 -41.224  0.00  0 397 B
+ATOM     7538    N  ND2 ?  ASN      B 397 ?    8.625   2.077 -44.124  0.00  0 397 B
+ATOM     7264    O   OG ?  SER      B 360 ?    9.861  -3.657 -38.800  0.00  0 360 B
+ATOM     7533    C    C ?  ASN      B 397 ?   11.886   0.483 -41.680  0.00  0 397 B
+ATOM     7547    N    N ?  SER      B 399 ?   14.065  -2.197 -42.981  0.00  0 399 B
+ATOM     7541    C    C ?  ILE      B 398 ?   13.940  -2.029 -41.671  0.00  0 398 B
+ATOM     7435    N   NZ ?  LYS      B 382 ?   12.995   1.467 -46.999 -4.37  0 382 B
 # 

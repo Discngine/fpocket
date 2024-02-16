@@ -15,7 +15,7 @@ Information about the pocket   181:
 6  - Hydrophobicity Score              : 30.2500
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.5833
-9  - Pocket volume (Monte Carlo)       : 217.4755
+9  - Pocket volume (Monte Carlo)       : 212.7823
 10  -Pocket volume (convex hull)       : 19.9246
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 2.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,26 +37,27 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5164    N  NE2 .  GLN   B .   93 ?   22.219  -7.790 -35.716 -2.19  0   B
-ATOM     5371    O    O .  ALA   B .  118 ?   19.736  -8.503 -40.662 -5.36  0   B
-ATOM     7796    C  CE2 .  PHE   B .  430 ?   18.954  -7.477 -32.942  0.00  0   B
-ATOM     7797    C   CZ .  PHE   B .  430 ?   18.361  -6.316 -33.408  0.00  0   B
-ATOM     5689    C  CG2 .  ILE   B .  156 ?   13.352 -13.977 -40.246  0.00  0   B
-ATOM     5367    N  NH2 .  ARG   B .  117 ?   13.629  -7.764 -40.531 -2.19  0   B
-ATOM     5376    O    O .  GLU   B .  119 ?   18.555 -11.961 -42.010 -5.36  0   B
-ATOM     7560    C  CD1 .  ILE   B .  400 ?   15.834  -9.409 -44.206  0.00  0   B
-ATOM     5163    O  OE1 .  GLN   B .   93 ?   21.341  -5.736 -35.443 -1.07  0   B
-ATOM     5362    C   CG .  ARG   B .  117 ?   17.737  -5.532 -39.654  0.00  0   B
-ATOM     5382    N    N .  ASP   B .  120 ?   20.606 -12.074 -41.078 -1.09  0   B
-ATOM     5390    N    N .  TYR   B .  121 ?   20.297 -13.746 -38.075 -1.09  0   B
-ATOM     7230    O   OH .  TYR   B .  355 ?   14.978 -11.392 -36.459 -5.36  0   B
-ATOM     5364    N   NE .  ARG   B .  117 ?   15.531  -6.520 -40.121 -2.19  0   B
-ATOM     5394    C   CB .  TYR   B .  121 ?   20.507 -12.581 -35.921  0.00  0   B
-ATOM     6416    C  CG2 .  THR   B .  251 ?   18.061 -10.986 -32.144  0.00  0   B
-ATOM     7228    C  CE2 .  TYR   B .  355 ?   12.827 -11.699 -37.514  0.00  0   B
-ATOM     5686    O    O .  ILE   B .  156 ?   16.125 -15.336 -40.422 -3.21  0   B
-ATOM     7257    C   CB .  SER   B .  359 ?   13.330  -7.897 -36.758  0.00  0   B
-ATOM     7256    O    O .  SER   B .  359 ?   14.271  -5.175 -37.559 -1.07  0   B
-ATOM     7558    C  CG1 .  ILE   B .  400 ?   16.435  -8.204 -43.505  0.00  0   B
+ATOM     5164    N  NE2 ?  GLN      B 93 ?   22.219  -7.790 -35.716 -2.19  0 93 B
+ATOM     5371    O    O ?  ALA      B 118 ?   19.736  -8.503 -40.662 -5.36  0 118 B
+ATOM     7796    C  CE2 ?  PHE      B 430 ?   18.954  -7.477 -32.942  0.00  0 430 B
+ATOM     7797    C   CZ ?  PHE      B 430 ?   18.361  -6.316 -33.408  0.00  0 430 B
+ATOM     5689    C  CG2 ?  ILE      B 156 ?   13.352 -13.977 -40.246  0.00  0 156 B
+ATOM     5367    N  NH2 ?  ARG      B 117 ?   13.629  -7.764 -40.531 -2.19  0 117 B
+ATOM     5376    O    O ?  GLU      B 119 ?   18.555 -11.961 -42.010 -5.36  0 119 B
+ATOM     7560    C  CD1 ?  ILE      B 400 ?   15.834  -9.409 -44.206  0.00  0 400 B
+ATOM     5163    O  OE1 ?  GLN      B 93 ?   21.341  -5.736 -35.443 -1.07  0 93 B
+ATOM     5362    C   CG ?  ARG      B 117 ?   17.737  -5.532 -39.654  0.00  0 117 B
+ATOM     5382    N    N ?  ASP      B 120 ?   20.606 -12.074 -41.078 -1.09  0 120 B
+ATOM     5390    N    N ?  TYR      B 121 ?   20.297 -13.746 -38.075 -1.09  0 121 B
+ATOM     7230    O   OH ?  TYR      B 355 ?   14.978 -11.392 -36.459 -5.36  0 355 B
+ATOM     5364    N   NE ?  ARG      B 117 ?   15.531  -6.520 -40.121 -2.19  0 117 B
+ATOM     5394    C   CB ?  TYR      B 121 ?   20.507 -12.581 -35.921  0.00  0 121 B
+ATOM     6416    C  CG2 ?  THR      B 251 ?   18.061 -10.986 -32.144  0.00  0 251 B
+ATOM     7228    C  CE2 ?  TYR      B 355 ?   12.827 -11.699 -37.514  0.00  0 355 B
+ATOM     5686    O    O ?  ILE      B 156 ?   16.125 -15.336 -40.422 -3.21  0 156 B
+ATOM     7257    C   CB ?  SER      B 359 ?   13.330  -7.897 -36.758  0.00  0 359 B
+ATOM     7256    O    O ?  SER      B 359 ?   14.271  -5.175 -37.559 -1.07  0 359 B
+ATOM     7558    C  CG1 ?  ILE      B 400 ?   16.435  -8.204 -43.505  0.00  0 400 B
 # 

@@ -8,7 +8,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -16,39 +15,40 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2748    C   CG .  TYR   B .   93 ?   28.347  62.433  55.906  0.00  0   B
-ATOM     2749    C  CD1 .  TYR   B .   93 ?   27.464  63.247  56.634  0.00  0   B
-ATOM     2750    C  CD2 .  TYR   B .   93 ?   29.699  62.458  56.235  0.00  0   B
-ATOM     2751    C  CE1 .  TYR   B .   93 ?   27.916  64.065  57.675  0.00  0   B
-ATOM     2752    C  CE2 .  TYR   B .   93 ?   30.166  63.254  57.309  0.00  0   B
-ATOM     2753    C   CZ .  TYR   B .   93 ?   29.259  64.044  58.017  0.00  0   B
-ATOM     2754    O   OH .  TYR   B .   93 ?   29.703  64.823  59.044  0.00  0   B
-ATOM     2797    C  CD1 .  TYR   B .   99 ?   29.075  58.066  55.512  0.00  0   B
-ATOM     2799    C  CE1 .  TYR   B .   99 ?   29.022  58.408  56.848  0.00  0   B
-ATOM     2801    C   CZ .  TYR   B .   99 ?   28.332  57.583  57.750  0.00  0   B
-ATOM     2802    O   OH .  TYR   B .   99 ?   28.273  57.952  59.075 -7.50  0   B
-ATOM     2832    C   CA .  CYS   B .  103 ?   33.088  55.081  57.860  0.00  0   B
-ATOM     2833    C    C .  CYS   B .  103 ?   34.047  54.644  59.003  0.00  0   B
-ATOM     2835    C   CB .  CYS   B .  103 ?   31.652  54.686  58.227  0.00  0   B
-ATOM     2837    N    N .  ASN   B .  104 ?   33.994  55.404  60.098 -1.09  0   B
-ATOM     2841    C   CB .  ASN   B .  104 ?   34.555  56.312  62.312  0.00  0   B
-ATOM     2871    C   CD .  GLU   B .  107 ?   30.339  58.618  63.162  0.00  0   B
-ATOM     2872    O  OE1 .  GLU   B .  107 ?   31.484  58.761  62.681 -0.95  0   B
-ATOM     2873    O  OE2 .  GLU   B .  107 ?   29.348  59.201  62.656 -7.90  0   B
-ATOM     2880    C  CG2 .  VAL   B .  108 ?   29.169  55.016  60.859  0.00  0   B
-ATOM     3170    C    C .  GLY   B .  145 ?   23.940  63.150  57.410  0.00  0   B
-ATOM     3171    O    O .  GLY   B .  145 ?   24.279  62.076  57.870  0.00  0   B
-ATOM     3173    C   CA .  GLU   B .  146 ?   24.527  64.377  59.465  0.00  0   B
-ATOM     3174    C    C .  GLU   B .  146 ?   23.693  63.539  60.431  0.00  0   B
-ATOM     3181    N    N .  ASN   B .  147 ?   24.353  63.017  61.460 -3.03  0   B
-ATOM     3182    C   CA .  ASN   B .  147 ?   23.727  62.121  62.392  0.00  0   B
-ATOM     3183    C    C .  ASN   B .  147 ?   23.179  60.827  61.846  0.00  0   B
-ATOM     3189    N    N .  HIS   B .  148 ?   23.808  60.293  60.791  0.00  0   B
-ATOM     3190    C   CA .  HIS   B .  148 ?   23.386  59.007  60.237  0.00  0   B
-ATOM     3194    C   CG .  HIS   B .  148 ?   24.910  57.903  61.905  0.00  0   B
-ATOM     3195    N  ND1 .  HIS   B .  148 ?   25.150  58.412  63.173  0.00  0   B
-ATOM     3196    C  CD2 .  HIS   B .  148 ?   26.118  57.632  61.362  0.00  0   B
-ATOM     3197    C  CE1 .  HIS   B .  148 ?   26.449  58.390  63.404  0.00  0   B
-ATOM     3198    N  NE2 .  HIS   B .  148 ?   27.061  57.958  62.310  0.00  0   B
+ATOM     2748    C   CG ?  TYR    Bxp 93 ?   28.347  62.433  55.906  0.00  0 320 B
+ATOM     2749    C  CD1 ?  TYR    Bxp 93 ?   27.464  63.247  56.634  0.00  0 320 B
+ATOM     2750    C  CD2 ?  TYR    Bxp 93 ?   29.699  62.458  56.235  0.00  0 320 B
+ATOM     2751    C  CE1 ?  TYR    Bxp 93 ?   27.916  64.065  57.675  0.00  0 320 B
+ATOM     2752    C  CE2 ?  TYR    Bxp 93 ?   30.166  63.254  57.309  0.00  0 320 B
+ATOM     2753    C   CZ ?  TYR    Bxp 93 ?   29.259  64.044  58.017  0.00  0 320 B
+ATOM     2754    O   OH ?  TYR    Bxp 93 ?   29.703  64.823  59.044  0.00  0 320 B
+ATOM     2797    C  CD1 ?  TYR    Bxp 99 ?   29.075  58.066  55.512  0.00  0 326 B
+ATOM     2799    C  CE1 ?  TYR    Bxp 99 ?   29.022  58.408  56.848  0.00  0 326 B
+ATOM     2801    C   CZ ?  TYR    Bxp 99 ?   28.332  57.583  57.750  0.00  0 326 B
+ATOM     2802    O   OH ?  TYR    Bxp 99 ?   28.273  57.952  59.075 -7.50  0 326 B
+ATOM     2832    C   CA ?  CYS    Bxp 103 ?   33.088  55.081  57.860  0.00  0 330 B
+ATOM     2833    C    C ?  CYS    Bxp 103 ?   34.047  54.644  59.003  0.00  0 330 B
+ATOM     2835    C   CB ?  CYS    Bxp 103 ?   31.652  54.686  58.227  0.00  0 330 B
+ATOM     2837    N    N ?  ASN    Bxp 104 ?   33.994  55.404  60.098 -1.09  0 331 B
+ATOM     2841    C   CB ?  ASN    Bxp 104 ?   34.555  56.312  62.312  0.00  0 331 B
+ATOM     2871    C   CD ?  GLU    Bxp 107 ?   30.339  58.618  63.162  0.00  0 334 B
+ATOM     2872    O  OE1 ?  GLU    Bxp 107 ?   31.484  58.761  62.681 -0.95  0 334 B
+ATOM     2873    O  OE2 ?  GLU    Bxp 107 ?   29.348  59.201  62.656 -7.90  0 334 B
+ATOM     2880    C  CG2 ?  VAL    Bxp 108 ?   29.169  55.016  60.859  0.00  0 335 B
+ATOM     3170    C    C ?  GLY    Bxp 145 ?   23.940  63.150  57.410  0.00  0 372 B
+ATOM     3171    O    O ?  GLY    Bxp 145 ?   24.279  62.076  57.870  0.00  0 372 B
+ATOM     3173    C   CA ?  GLU    Bxp 146 ?   24.527  64.377  59.465  0.00  0 373 B
+ATOM     3174    C    C ?  GLU    Bxp 146 ?   23.693  63.539  60.431  0.00  0 373 B
+ATOM     3181    N    N ?  ASN    Bxp 147 ?   24.353  63.017  61.460 -3.03  0 374 B
+ATOM     3182    C   CA ?  ASN    Bxp 147 ?   23.727  62.121  62.392  0.00  0 374 B
+ATOM     3183    C    C ?  ASN    Bxp 147 ?   23.179  60.827  61.846  0.00  0 374 B
+ATOM     3189    N    N ?  HIS    Bxp 148 ?   23.808  60.293  60.791  0.00  0 375 B
+ATOM     3190    C   CA ?  HIS    Bxp 148 ?   23.386  59.007  60.237  0.00  0 375 B
+ATOM     3194    C   CG ?  HIS    Bxp 148 ?   24.910  57.903  61.905  0.00  0 375 B
+ATOM     3195    N  ND1 ?  HIS    Bxp 148 ?   25.150  58.412  63.173  0.00  0 375 B
+ATOM     3196    C  CD2 ?  HIS    Bxp 148 ?   26.118  57.632  61.362  0.00  0 375 B
+ATOM     3197    C  CE1 ?  HIS    Bxp 148 ?   26.449  58.390  63.404  0.00  0 375 B
+ATOM     3198    N  NE2 ?  HIS    Bxp 148 ?   27.061  57.958  62.310  0.00  0 375 B
 #

@@ -15,7 +15,7 @@ Information about the pocket    91:
 6  - Hydrophobicity Score              : 12.2500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 211.8776
+9  - Pocket volume (Monte Carlo)       : 210.9382
 10  -Pocket volume (convex hull)       : 1.5076
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 17.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1236    C  CE1 .  PHE   B .   25 ?   12.216 -53.353 -54.406  0.00  0   B
-ATOM     1234    C  CD1 .  PHE   B .   25 ?   11.530 -54.229 -53.582  0.00  0   B
-ATOM     1276    C   CD .  LYS   B .   29 ?   11.991 -58.401 -54.983  0.00  0   B
-ATOM     1237    C  CE2 .  PHE   B .   25 ?   13.558 -52.667 -52.575  0.00  0   B
-ATOM     1238    C   CZ .  PHE   B .   25 ?   13.226 -52.579 -53.902  0.00  0   B
-ATOM     1235    C  CD2 .  PHE   B .   25 ?   12.870 -53.544 -51.745  0.00  0   B
-ATOM     1273    O    O .  LYS   B .   29 ?   14.436 -59.278 -51.444 -1.07  0   B
-ATOM     1217    O   OG .  SER   B .   22 ?   17.379 -49.252 -52.355 -4.43  0   B
-ATOM     1310    C   CE .  LYS   B .   33 ?   19.651 -55.253 -53.026  0.00  0   B
-ATOM     1311    N   NZ .  LYS   B .   33 ?   20.212 -55.261 -54.407  0.00  0   B
-ATOM     1309    C   CD .  LYS   B .   33 ?   18.949 -56.549 -52.710  0.00  0   B
-ATOM     1278    N   NZ .  LYS   B .   29 ?   12.553 -58.459 -57.429  0.00  0   B
-ATOM     1307    C   CB .  LYS   B .   33 ?   17.634 -57.904 -51.036  0.00  0   B
-ATOM     1308    C   CG .  LYS   B .   33 ?   18.557 -56.707 -51.243  0.00  0   B
-ATOM     1233    C   CG .  PHE   B .   25 ?   11.839 -54.328 -52.242  0.00  0   B
+ATOM     1236    C  CE1 ?  PHE      B 25 ?   12.216 -53.353 -54.406  0.00  0 163 B
+ATOM     1234    C  CD1 ?  PHE      B 25 ?   11.530 -54.229 -53.582  0.00  0 163 B
+ATOM     1276    C   CD ?  LYS      B 29 ?   11.991 -58.401 -54.983  0.00  0 167 B
+ATOM     1237    C  CE2 ?  PHE      B 25 ?   13.558 -52.667 -52.575  0.00  0 163 B
+ATOM     1238    C   CZ ?  PHE      B 25 ?   13.226 -52.579 -53.902  0.00  0 163 B
+ATOM     1235    C  CD2 ?  PHE      B 25 ?   12.870 -53.544 -51.745  0.00  0 163 B
+ATOM     1273    O    O ?  LYS      B 29 ?   14.436 -59.278 -51.444 -1.07  0 167 B
+ATOM     1217    O   OG ?  SER      B 22 ?   17.379 -49.252 -52.355 -4.43  0 160 B
+ATOM     1310    C   CE ?  LYS      B 33 ?   19.651 -55.253 -53.026  0.00  0 171 B
+ATOM     1311    N   NZ ?  LYS      B 33 ?   20.212 -55.261 -54.407  0.00  0 171 B
+ATOM     1309    C   CD ?  LYS      B 33 ?   18.949 -56.549 -52.710  0.00  0 171 B
+ATOM     1278    N   NZ ?  LYS      B 29 ?   12.553 -58.459 -57.429  0.00  0 167 B
+ATOM     1307    C   CB ?  LYS      B 33 ?   17.634 -57.904 -51.036  0.00  0 171 B
+ATOM     1308    C   CG ?  LYS      B 33 ?   18.557 -56.707 -51.243  0.00  0 171 B
+ATOM     1233    C   CG ?  PHE      B 25 ?   11.839 -54.328 -52.242  0.00  0 163 B
 # 

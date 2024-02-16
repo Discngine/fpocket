@@ -15,7 +15,7 @@ Information about the pocket    47:
 6  - Hydrophobicity Score              : 18.0714
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.4286
-9  - Pocket volume (Monte Carlo)       : 380.0536
+9  - Pocket volume (Monte Carlo)       : 363.3370
 10  -Pocket volume (convex hull)       : 70.1718
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 16.4800
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,35 +37,36 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    16875    O    O .  LYS   L .  147 ?  -68.286 -69.566  22.807 -6.43  0   L
-ATOM    17046    C  CD1 .  TRP   L .  168 ?  -66.089 -65.141  25.768  0.00  0   L
-ATOM    17128    C  CD1 .  TYR   L .  178 ?  -63.657 -68.069  20.175  0.00  0   L
-ATOM    16877    C   CG .  LYS   L .  147 ?  -67.712 -67.473  19.412  0.00  0   L
-ATOM    17044    C   CB .  TRP   L .  168 ?  -64.063 -63.788  24.862  0.00  0   L
-ATOM    17126    C   CB .  TYR   L .  178 ?  -63.327 -69.820  21.950  0.00  0   L
-ATOM    16852    C   CZ .  PHE   L .  144 ?  -65.345 -70.420  25.569  0.00  0   L
-ATOM    16879    C   CE .  LYS   L .  147 ?  -67.534 -65.257  18.287  0.00  0   L
-ATOM    17045    C   CG .  TRP   L .  168 ?  -65.362 -63.965  25.599  0.00  0   L
-ATOM    17137    O    O .  SER   L .  179 ?  -62.122 -67.125  25.740  0.00  0   L
-ATOM    17057    O    O .  THR   L .  169 ?  -61.705 -65.030  22.083 -7.50  0   L
-ATOM    16588    N   NZ .  LYS   L .  108 ?  -64.100 -60.856  16.673 -1.93  0   L
-ATOM    17067    O  OD1 .  ASP   L .  170 ?  -60.504 -61.845  19.209 -0.54  0   L
-ATOM    17062    C   CA .  ASP   L .  170 ?  -60.198 -64.655  19.757  0.00  0   L
-ATOM    17043    O    O .  TRP   L .  168 ?  -61.349 -62.370  24.482 -2.28  0   L
-ATOM    17130    C  CE1 .  TYR   L .  178 ?  -63.946 -67.679  18.878  0.00  0   L
-ATOM    16587    C   CE .  LYS   L .  108 ?  -64.069 -61.703  15.448  0.00  0   L
-ATOM    16425    C  CG1 .  VAL   L .   88 ?  -60.055 -65.642  11.750  0.00  0   L
-ATOM    16427    N    N .  GLY   L .   89 ?  -61.082 -63.097  10.050  0.00  0   L
-ATOM    16428    C   CA .  GLY   L .   89 ?  -61.135 -61.675  10.372  0.00  0   L
-ATOM    16602    C   CG .  GLU   L .  110 ?  -65.166 -66.931  13.819  0.00  0   L
-ATOM    17073    C   CB .  GLN   L .  171 ?  -60.912 -68.264  16.584  0.00  0   L
-ATOM    16108    C   CG .  PRO   L .   45 ?  -58.123 -61.691  14.355  0.00  0   L
-ATOM    16604    O  OE1 .  GLU   L .  110 ?  -66.667 -65.826  15.287 -1.07  0   L
-ATOM    17133    O   OH .  TYR   L .  178 ?  -64.501 -68.242  16.630  0.00  0   L
-ATOM    17065    C   CB .  ASP   L .  170 ?  -59.365 -63.866  18.744  0.00  0   L
-ATOM    17072    O    O .  GLN   L .  171 ?  -58.017 -67.401  17.354 -1.21  0   L
-ATOM    17069    N    N .  GLN   L .  171 ?  -60.530 -66.622  18.373 -3.28  0   L
-ATOM    16592    O    O .  LEU   L .  109 ?  -63.218 -65.635  10.889 -1.07  0   L
-ATOM    16585    C   CG .  LYS   L .  108 ?  -65.429 -62.605  13.543  0.00  0   L
+ATOM    16875    O    O ?  LYS      E 147 ?  -68.286 -69.566  22.807 -6.43  0 147 L
+ATOM    17046    C  CD1 ?  TRP      E 168 ?  -66.089 -65.141  25.768  0.00  0 168 L
+ATOM    17128    C  CD1 ?  TYR      E 178 ?  -63.657 -68.069  20.175  0.00  0 178 L
+ATOM    16877    C   CG ?  LYS      E 147 ?  -67.712 -67.473  19.412  0.00  0 147 L
+ATOM    17044    C   CB ?  TRP      E 168 ?  -64.063 -63.788  24.862  0.00  0 168 L
+ATOM    17126    C   CB ?  TYR      E 178 ?  -63.327 -69.820  21.950  0.00  0 178 L
+ATOM    16852    C   CZ ?  PHE      E 144 ?  -65.345 -70.420  25.569  0.00  0 144 L
+ATOM    16879    C   CE ?  LYS      E 147 ?  -67.534 -65.257  18.287  0.00  0 147 L
+ATOM    17045    C   CG ?  TRP      E 168 ?  -65.362 -63.965  25.599  0.00  0 168 L
+ATOM    17137    O    O ?  SER      E 179 ?  -62.122 -67.125  25.740  0.00  0 179 L
+ATOM    17057    O    O ?  THR      E 169 ?  -61.705 -65.030  22.083 -7.50  0 169 L
+ATOM    16588    N   NZ ?  LYS      E 108 ?  -64.100 -60.856  16.673 -1.93  0 108 L
+ATOM    17067    O  OD1 ?  ASP      E 170 ?  -60.504 -61.845  19.209 -0.54  0 170 L
+ATOM    17062    C   CA ?  ASP      E 170 ?  -60.198 -64.655  19.757  0.00  0 170 L
+ATOM    17043    O    O ?  TRP      E 168 ?  -61.349 -62.370  24.482 -2.28  0 168 L
+ATOM    17130    C  CE1 ?  TYR      E 178 ?  -63.946 -67.679  18.878  0.00  0 178 L
+ATOM    16587    C   CE ?  LYS      E 108 ?  -64.069 -61.703  15.448  0.00  0 108 L
+ATOM    16425    C  CG1 ?  VAL      E 88 ?  -60.055 -65.642  11.750  0.00  0 88 L
+ATOM    16427    N    N ?  GLY      E 89 ?  -61.082 -63.097  10.050  0.00  0 89 L
+ATOM    16428    C   CA ?  GLY      E 89 ?  -61.135 -61.675  10.372  0.00  0 89 L
+ATOM    16602    C   CG ?  GLU      E 110 ?  -65.166 -66.931  13.819  0.00  0 110 L
+ATOM    17073    C   CB ?  GLN      E 171 ?  -60.912 -68.264  16.584  0.00  0 171 L
+ATOM    16108    C   CG ?  PRO      E 45 ?  -58.123 -61.691  14.355  0.00  0 45 L
+ATOM    16604    O  OE1 ?  GLU      E 110 ?  -66.667 -65.826  15.287 -1.07  0 110 L
+ATOM    17133    O   OH ?  TYR      E 178 ?  -64.501 -68.242  16.630  0.00  0 178 L
+ATOM    17065    C   CB ?  ASP      E 170 ?  -59.365 -63.866  18.744  0.00  0 170 L
+ATOM    17072    O    O ?  GLN      E 171 ?  -58.017 -67.401  17.354 -1.21  0 171 L
+ATOM    17069    N    N ?  GLN      E 171 ?  -60.530 -66.622  18.373 -3.28  0 171 L
+ATOM    16592    O    O ?  LEU      E 109 ?  -63.218 -65.635  10.889 -1.07  0 109 L
+ATOM    16585    C   CG ?  LYS      E 108 ?  -65.429 -62.605  13.543  0.00  0 108 L
 # 

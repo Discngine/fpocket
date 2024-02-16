@@ -15,7 +15,7 @@ Information about the pocket    16:
 6  - Hydrophobicity Score              : 2.8750
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.1250
-9  - Pocket volume (Monte Carlo)       : 335.9960
+9  - Pocket volume (Monte Carlo)       : 327.6151
 10  -Pocket volume (convex hull)       : 15.3305
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,27 +37,28 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4692    C   CD .  PRO   B .   23 ?   27.867  28.548 -20.263  0.00  0   B
-ATOM     4578    N  NH2 .  ARG   B .    6 ?   22.805  29.032 -22.146  0.00  0   B
-ATOM     4575    N   NE .  ARG   B .    6 ?   23.063  30.932 -20.875  0.00  0   B
-ATOM     4576    C   CZ .  ARG   B .    6 ?   23.501  30.115 -21.832  0.00  0   B
-ATOM     4613    O  OD1 .  ASN   B .   11 ?   27.004  34.777 -12.770  0.00  0   B
-ATOM     4579    N    N .  CYS   B .    7 ?   25.637  34.764 -16.752  0.00  0   B
-ATOM     4580    C   CA .  CYS   B .    7 ?   26.779  35.163 -15.915  0.00  0   B
-ATOM     4584    S   SG .  CYS   B .    7 ?   29.145  33.601 -15.693  0.00  0   B
-ATOM     4680    O    O .  ALA   B .   21 ?   28.512  29.014 -16.517  0.00  0   B
-ATOM     4574    C   CD .  ARG   B .    6 ?   23.747  32.150 -20.441  0.00  0   B
-ATOM     4700    N  ND2 .  ASN   B .   24 ?   27.145  32.604 -21.168 -2.19  0   B
-ATOM     4572    C   CB .  ARG   B .    6 ?   23.907  33.840 -18.614  0.00  0   B
-ATOM     4573    C   CG .  ARG   B .    6 ?   22.990  32.874 -19.341  0.00  0   B
-ATOM     4706    S   SG .  CYS   B .   25 ?   29.862  32.392 -17.166  0.00  0   B
-ATOM     4569    C   CA .  ARG   B .    6 ?   23.288  34.460 -17.360  0.00  0   B
-ATOM     4614    N  ND2 .  ASN   B .   11 ?   27.218  33.378 -11.023  0.00  0   B
-ATOM     4681    C   CB .  ALA   B .   21 ?   30.247  29.853 -14.384  0.00  0   B
-ATOM     4571    O    O .  ARG   B .    6 ?   24.048  35.195 -15.204 -1.88  0   B
-ATOM     4691    C   CG .  PRO   B .   23 ?   27.280  28.397 -21.632  0.00  0   B
-ATOM     5267    C   CA .  GLY   B .  106 ?   27.871  23.155 -20.054  0.00  0   B
-ATOM     4570    C    C .  ARG   B .    6 ?   24.368  34.840 -16.341  0.00  0   B
-ATOM     5269    O    O .  GLY   B .  106 ?   27.201  23.493 -22.328 -1.21  0   B
+ATOM     4692    C   CD ?  PRO      B 23 ?   27.867  28.548 -20.263  0.00  0 23 B
+ATOM     4578    N  NH2 ?  ARG      B 6 ?   22.805  29.032 -22.146  0.00  0 6 B
+ATOM     4575    N   NE ?  ARG      B 6 ?   23.063  30.932 -20.875  0.00  0 6 B
+ATOM     4576    C   CZ ?  ARG      B 6 ?   23.501  30.115 -21.832  0.00  0 6 B
+ATOM     4613    O  OD1 ?  ASN      B 11 ?   27.004  34.777 -12.770  0.00  0 11 B
+ATOM     4579    N    N ?  CYS      B 7 ?   25.637  34.764 -16.752  0.00  0 7 B
+ATOM     4580    C   CA ?  CYS      B 7 ?   26.779  35.163 -15.915  0.00  0 7 B
+ATOM     4584    S   SG ?  CYS      B 7 ?   29.145  33.601 -15.693  0.00  0 7 B
+ATOM     4680    O    O ?  ALA      B 21 ?   28.512  29.014 -16.517  0.00  0 21 B
+ATOM     4574    C   CD ?  ARG      B 6 ?   23.747  32.150 -20.441  0.00  0 6 B
+ATOM     4700    N  ND2 ?  ASN      B 24 ?   27.145  32.604 -21.168 -2.19  0 24 B
+ATOM     4572    C   CB ?  ARG      B 6 ?   23.907  33.840 -18.614  0.00  0 6 B
+ATOM     4573    C   CG ?  ARG      B 6 ?   22.990  32.874 -19.341  0.00  0 6 B
+ATOM     4706    S   SG ?  CYS      B 25 ?   29.862  32.392 -17.166  0.00  0 25 B
+ATOM     4569    C   CA ?  ARG      B 6 ?   23.288  34.460 -17.360  0.00  0 6 B
+ATOM     4614    N  ND2 ?  ASN      B 11 ?   27.218  33.378 -11.023  0.00  0 11 B
+ATOM     4681    C   CB ?  ALA      B 21 ?   30.247  29.853 -14.384  0.00  0 21 B
+ATOM     4571    O    O ?  ARG      B 6 ?   24.048  35.195 -15.204 -1.88  0 6 B
+ATOM     4691    C   CG ?  PRO      B 23 ?   27.280  28.397 -21.632  0.00  0 23 B
+ATOM     5267    C   CA ?  GLY      B 106 ?   27.871  23.155 -20.054  0.00  0 106 B
+ATOM     4570    C    C ?  ARG      B 6 ?   24.368  34.840 -16.341  0.00  0 6 B
+ATOM     5269    O    O ?  GLY      B 106 ?   27.201  23.493 -22.328 -1.21  0 106 B
 # 

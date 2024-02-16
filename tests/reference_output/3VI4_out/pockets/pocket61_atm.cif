@@ -15,7 +15,7 @@ Information about the pocket    61:
 6  - Hydrophobicity Score              : 31.0000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.6250
-9  - Pocket volume (Monte Carlo)       : 381.7636
+9  - Pocket volume (Monte Carlo)       : 399.0064
 10  -Pocket volume (convex hull)       : 22.5374
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1626    N  NE2 .  GLN   A .  214 ?  -35.181  -7.569  10.500  0.00  0   A
-ATOM     1515    O    O .  GLU   A .  202 ?  -31.911  -9.646  15.350 -3.62  0   A
-ATOM     1550    O   OH .  TYR   A .  205 ?  -33.357 -12.279  17.101 -0.81  0   A
-ATOM     1625    O  OE1 .  GLN   A .  214 ?  -35.393  -9.598   9.549 -2.95  0   A
-ATOM     1548    C  CE2 .  TYR   A .  205 ?  -31.933 -13.156  15.402  0.00  0   A
-ATOM     1522    C   CA .  SER   A .  203 ?  -29.947 -10.302  13.477  0.00  0   A
-ATOM     1526    O   OG .  SER   A .  203 ?  -30.469  -8.643  11.757  0.00  0   A
-ATOM     1606    O    O .  LEU   A .  212 ?  -30.844 -10.902   8.679  0.00  0   A
-ATOM     1525    C   CB .  SER   A .  203 ?  -29.673  -9.787  12.057  0.00  0   A
-ATOM     1574    C  CD2 .  TYR   A .  208 ?  -31.093 -20.513  13.372  0.00  0   A
-ATOM     1572    C   CG .  TYR   A .  208 ?  -30.243 -20.973  12.360  0.00  0   A
-ATOM     1590    O    O .  ILE   A .  210 ?  -28.757 -16.929   8.754  0.00  0   A
-ATOM     1571    C   CB .  TYR   A .  208 ?  -29.147 -20.095  11.793  0.00  0   A
-ATOM     1543    C   CB .  TYR   A .  205 ?  -29.644 -16.201  15.333  0.00  0   A
-ATOM     1546    C  CD2 .  TYR   A .  205 ?  -31.031 -14.123  14.970  0.00  0   A
-ATOM     1544    C   CG .  TYR   A .  205 ?  -30.645 -15.179  15.800  0.00  0   A
-ATOM     1596    C   CA .  ASN   A .  211 ?  -28.027 -14.264   9.259  0.00  0   A
-ATOM     1601    O  OD1 .  ASN   A .  211 ?  -27.951 -15.771  11.656  0.00  0   A
-ATOM     1524    O    O .  SER   A .  203 ?  -28.936 -12.428  13.087 -2.14  0   A
-ATOM     1603    N    N .  LEU   A .  212 ?  -29.336 -13.147   7.517  0.00  0   A
+ATOM     1626    N  NE2 ?  GLN      A 214 ?  -35.181  -7.569  10.500  0.00  0 214 A
+ATOM     1515    O    O ?  GLU      A 202 ?  -31.911  -9.646  15.350 -3.62  0 202 A
+ATOM     1550    O   OH ?  TYR      A 205 ?  -33.357 -12.279  17.101 -0.81  0 205 A
+ATOM     1625    O  OE1 ?  GLN      A 214 ?  -35.393  -9.598   9.549 -2.95  0 214 A
+ATOM     1548    C  CE2 ?  TYR      A 205 ?  -31.933 -13.156  15.402  0.00  0 205 A
+ATOM     1522    C   CA ?  SER      A 203 ?  -29.947 -10.302  13.477  0.00  0 203 A
+ATOM     1526    O   OG ?  SER      A 203 ?  -30.469  -8.643  11.757  0.00  0 203 A
+ATOM     1606    O    O ?  LEU      A 212 ?  -30.844 -10.902   8.679  0.00  0 212 A
+ATOM     1525    C   CB ?  SER      A 203 ?  -29.673  -9.787  12.057  0.00  0 203 A
+ATOM     1574    C  CD2 ?  TYR      A 208 ?  -31.093 -20.513  13.372  0.00  0 208 A
+ATOM     1572    C   CG ?  TYR      A 208 ?  -30.243 -20.973  12.360  0.00  0 208 A
+ATOM     1590    O    O ?  ILE      A 210 ?  -28.757 -16.929   8.754  0.00  0 210 A
+ATOM     1571    C   CB ?  TYR      A 208 ?  -29.147 -20.095  11.793  0.00  0 208 A
+ATOM     1543    C   CB ?  TYR      A 205 ?  -29.644 -16.201  15.333  0.00  0 205 A
+ATOM     1546    C  CD2 ?  TYR      A 205 ?  -31.031 -14.123  14.970  0.00  0 205 A
+ATOM     1544    C   CG ?  TYR      A 205 ?  -30.645 -15.179  15.800  0.00  0 205 A
+ATOM     1596    C   CA ?  ASN      A 211 ?  -28.027 -14.264   9.259  0.00  0 211 A
+ATOM     1601    O  OD1 ?  ASN      A 211 ?  -27.951 -15.771  11.656  0.00  0 211 A
+ATOM     1524    O    O ?  SER      A 203 ?  -28.936 -12.428  13.087 -2.14  0 203 A
+ATOM     1603    N    N ?  LEU      A 212 ?  -29.336 -13.147   7.517  0.00  0 212 A
 # 

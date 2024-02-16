@@ -15,7 +15,7 @@ Information about the pocket   104:
 6  - Hydrophobicity Score              : 23.4000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 3.2000
-9  - Pocket volume (Monte Carlo)       : 174.2773
+9  - Pocket volume (Monte Carlo)       : 175.8602
 10  -Pocket volume (convex hull)       : 1.7370
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,21 +37,22 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2525    C   CA .  GLY   A .  333 ?  -18.328  19.393  -5.905  0.00  0   A
-ATOM     2521    C    C .  ALA   A .  332 ?  -19.317  21.623  -6.330  0.00  0   A
-ATOM     2522    O    O .  ALA   A .  332 ?  -20.265  21.176  -6.981 -1.21  0   A
-ATOM     2524    N    N .  GLY   A .  333 ?  -18.379  20.855  -5.773  0.00  0   A
-ATOM     2537    C   CA .  GLU   A .  335 ?  -12.468  18.074  -8.940  0.00  0   A
-ATOM     2540    C   CB .  GLU   A .  335 ?  -11.168  18.797  -8.612  0.00  0   A
-ATOM     2541    C   CG .  GLU   A .  335 ?  -10.540  19.573  -9.757  0.00  0   A
-ATOM     2509    C  CD2 .  HIS   A .  330 ?  -12.391  22.904  -5.646  0.00  0   A
-ATOM     2536    N    N .  GLU   A .  335 ?  -13.243  17.949  -7.718 -1.09  0   A
-ATOM     2526    C    C .  GLY   A .  333 ?  -16.916  18.907  -5.625  0.00  0   A
-ATOM     2523    C   CB .  ALA   A .  332 ?  -18.279  23.745  -7.193  0.00  0   A
-ATOM     2530    C    C .  ILE   A .  334 ?  -14.462  17.421  -7.656  0.00  0   A
-ATOM     2531    O    O .  ILE   A .  334 ?  -15.073  16.965  -8.635 -3.62  0   A
-ATOM     2528    N    N .  ILE   A .  334 ?  -16.494  17.836  -6.298  0.00  0   A
-ATOM     2527    O    O .  GLY   A .  333 ?  -16.212  19.493  -4.801  0.00  0   A
-ATOM     2506    C   CB .  HIS   A .  330 ?  -14.663  23.141  -4.316  0.00  0   A
+ATOM     2525    C   CA ?  GLY      A 333 ?  -18.328  19.393  -5.905  0.00  0 333 A
+ATOM     2521    C    C ?  ALA      A 332 ?  -19.317  21.623  -6.330  0.00  0 332 A
+ATOM     2522    O    O ?  ALA      A 332 ?  -20.265  21.176  -6.981 -1.21  0 332 A
+ATOM     2524    N    N ?  GLY      A 333 ?  -18.379  20.855  -5.773  0.00  0 333 A
+ATOM     2537    C   CA ?  GLU      A 335 ?  -12.468  18.074  -8.940  0.00  0 335 A
+ATOM     2540    C   CB ?  GLU      A 335 ?  -11.168  18.797  -8.612  0.00  0 335 A
+ATOM     2541    C   CG ?  GLU      A 335 ?  -10.540  19.573  -9.757  0.00  0 335 A
+ATOM     2509    C  CD2 ?  HIS      A 330 ?  -12.391  22.904  -5.646  0.00  0 330 A
+ATOM     2536    N    N ?  GLU      A 335 ?  -13.243  17.949  -7.718 -1.09  0 335 A
+ATOM     2526    C    C ?  GLY      A 333 ?  -16.916  18.907  -5.625  0.00  0 333 A
+ATOM     2523    C   CB ?  ALA      A 332 ?  -18.279  23.745  -7.193  0.00  0 332 A
+ATOM     2530    C    C ?  ILE      A 334 ?  -14.462  17.421  -7.656  0.00  0 334 A
+ATOM     2531    O    O ?  ILE      A 334 ?  -15.073  16.965  -8.635 -3.62  0 334 A
+ATOM     2528    N    N ?  ILE      A 334 ?  -16.494  17.836  -6.298  0.00  0 334 A
+ATOM     2527    O    O ?  GLY      A 333 ?  -16.212  19.493  -4.801  0.00  0 333 A
+ATOM     2506    C   CB ?  HIS      A 330 ?  -14.663  23.141  -4.316  0.00  0 330 A
 # 

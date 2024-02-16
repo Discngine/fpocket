@@ -1488,23 +1488,23 @@ void write_mmcif_vert(FILE *f, s_vvertice *v, int i)
     if (v->electrostatic_energy <= -0.05)
     {
 
-        write_mmcif_atom_line(f, "HETATM", i, " POL",
-                              ' ', "ACC", "O", v->resid, ' ',
+        write_mmcif_atom_line(f, "HETATM", i, "POL",
+                              '.', "ACC", "O", v->resid, "O",v->resid,'.',
                               v->x, v->y, v->z, 0.0, 0.0, 0,
                               "V", -1, 0.0);
     }
     else if (v->electrostatic_energy >= 0.05)
     {
 
-        write_mmcif_atom_line(f, "HETATM", i, " POL", ' ', "DON", "N",
-                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+        write_mmcif_atom_line(f, "HETATM", i, "POL", '.', "DON", "N",
+                              v->resid, "N",v->resid,'.', v->x, v->y, v->z, 0.0, 0.0, 0,
                               "V", -1, 0.0);
     }
     else
     {
 
-        write_mmcif_atom_line(f, "HETATM", i, "APOL", ' ', "STP", "C",
-                              v->resid, ' ', v->x, v->y, v->z, 0.0, 0.0, 0,
+        write_mmcif_atom_line(f, "HETATM", i, "APOL", '.', "STP", "C",
+                              v->resid, "C", v->resid,'.', v->x, v->y, v->z, 0.0, 0.0, 0,
                               "V", -1, 0.0);
     }
 }

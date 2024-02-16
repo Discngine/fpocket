@@ -15,7 +15,7 @@ Information about the pocket    69:
 6  - Hydrophobicity Score              : 14.3333
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.2222
-9  - Pocket volume (Monte Carlo)       : 362.6789
+9  - Pocket volume (Monte Carlo)       : 369.8250
 10  -Pocket volume (convex hull)       : 54.8326
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 16.1053
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,32 +37,33 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12434    N    N .  ASN   D .   11 ?  -34.223   1.643 -44.688  0.00  0   D
-ATOM    12437    O    O .  ASN   D .   11 ?  -35.539   2.080 -47.174 -0.54  0   D
-ATOM    12433    C   CB .  ALA   D .   10 ?  -33.706  -1.435 -42.894  0.00  0   D
-ATOM    12431    C    C .  ALA   D .   10 ?  -34.263   0.925 -43.568  0.00  0   D
-ATOM    12430    C   CA .  ALA   D .   10 ?  -33.152  -0.111 -43.406  0.00  0   D
-ATOM    12446    C   CB .  ALA   D .   12 ?  -38.839   1.964 -47.269  0.00  0   D
-ATOM    12508    C   CB .  ALA   D .   21 ?  -38.373  -1.867 -41.351  0.00  0   D
-ATOM    12475    O    O .  GLU   D .   17 ?  -41.401  -1.142 -43.218 -3.21  0   D
-ATOM    15507    N   NZ .  LYS   D .  414 ?  -37.866  -6.778 -43.809 -2.35  0   D
-ATOM    15506    C   CE .  LYS   D .  414 ?  -39.237  -6.934 -44.370  0.00  0   D
-ATOM    12505    C   CA .  ALA   D .   21 ?  -38.930  -3.196 -40.854  0.00  0   D
-ATOM    12499    C   CB .  GLN   D .   20 ?  -43.118  -4.750 -42.541  0.00  0   D
-ATOM    12473    C   CA .  GLU   D .   17 ?  -42.693  -0.809 -45.207  0.00  0   D
-ATOM    12476    C   CB .  GLU   D .   17 ?  -41.758  -0.237 -46.274  0.00  0   D
-ATOM    12479    O  OE1 .  GLU   D .   17 ?  -40.460  -0.165 -49.366 -2.28  0   D
-ATOM    12503    N  NE2 .  GLN   D .   20 ?  -44.706  -6.151 -44.716 -0.59  0   D
-ATOM    12442    N    N .  ALA   D .   12 ?  -37.133   3.302 -46.144 -4.37  0   D
-ATOM    12482    C   CA .  CYS   D .   18 ?  -42.020   1.398 -42.176  0.00  0   D
-ATOM    12432    O    O .  ALA   D .   10 ?  -35.115   1.086 -42.690 -5.36  0   D
-ATOM    12477    C   CG .  GLU   D .   17 ?  -42.111  -0.571 -47.712  0.00  0   D
-ATOM    12436    C    C .  ASN   D .   11 ?  -35.950   2.691 -46.185  0.00  0   D
-ATOM    12618    S   SG .  CYS   D .   44 ?  -40.107   3.661 -40.374  0.00  0   D
-ATOM    12617    C   CB .  CYS   D .   44 ?  -39.618   5.166 -41.259  0.00  0   D
-ATOM    12502    O  OE1 .  GLN   D .   20 ?  -45.961  -4.298 -44.479 -1.21  0   D
-ATOM    12444    C    C .  ALA   D .   12 ?  -39.030   4.479 -47.243  0.00  0   D
-ATOM    12485    C   CB .  CYS   D .   18 ?  -42.568   2.817 -42.005  0.00  0   D
-ATOM    12445    O    O .  ALA   D .   12 ?  -38.781   5.469 -46.545 -3.21  0   D
+ATOM    12434    N    N ?  ASN      D 11 ?  -34.223   1.643 -44.688  0.00  0 11 D
+ATOM    12437    O    O ?  ASN      D 11 ?  -35.539   2.080 -47.174 -0.54  0 11 D
+ATOM    12433    C   CB ?  ALA      D 10 ?  -33.706  -1.435 -42.894  0.00  0 10 D
+ATOM    12431    C    C ?  ALA      D 10 ?  -34.263   0.925 -43.568  0.00  0 10 D
+ATOM    12430    C   CA ?  ALA      D 10 ?  -33.152  -0.111 -43.406  0.00  0 10 D
+ATOM    12446    C   CB ?  ALA      D 12 ?  -38.839   1.964 -47.269  0.00  0 12 D
+ATOM    12508    C   CB ?  ALA      D 21 ?  -38.373  -1.867 -41.351  0.00  0 21 D
+ATOM    12475    O    O ?  GLU      D 17 ?  -41.401  -1.142 -43.218 -3.21  0 17 D
+ATOM    15507    N   NZ ?  LYS      D 414 ?  -37.866  -6.778 -43.809 -2.35  0 414 D
+ATOM    15506    C   CE ?  LYS      D 414 ?  -39.237  -6.934 -44.370  0.00  0 414 D
+ATOM    12505    C   CA ?  ALA      D 21 ?  -38.930  -3.196 -40.854  0.00  0 21 D
+ATOM    12499    C   CB ?  GLN      D 20 ?  -43.118  -4.750 -42.541  0.00  0 20 D
+ATOM    12473    C   CA ?  GLU      D 17 ?  -42.693  -0.809 -45.207  0.00  0 17 D
+ATOM    12476    C   CB ?  GLU      D 17 ?  -41.758  -0.237 -46.274  0.00  0 17 D
+ATOM    12479    O  OE1 ?  GLU      D 17 ?  -40.460  -0.165 -49.366 -2.28  0 17 D
+ATOM    12503    N  NE2 ?  GLN      D 20 ?  -44.706  -6.151 -44.716 -0.59  0 20 D
+ATOM    12442    N    N ?  ALA      D 12 ?  -37.133   3.302 -46.144 -4.37  0 12 D
+ATOM    12482    C   CA ?  CYS      D 18 ?  -42.020   1.398 -42.176  0.00  0 18 D
+ATOM    12432    O    O ?  ALA      D 10 ?  -35.115   1.086 -42.690 -5.36  0 10 D
+ATOM    12477    C   CG ?  GLU      D 17 ?  -42.111  -0.571 -47.712  0.00  0 17 D
+ATOM    12436    C    C ?  ASN      D 11 ?  -35.950   2.691 -46.185  0.00  0 11 D
+ATOM    12618    S   SG ?  CYS      D 44 ?  -40.107   3.661 -40.374  0.00  0 44 D
+ATOM    12617    C   CB ?  CYS      D 44 ?  -39.618   5.166 -41.259  0.00  0 44 D
+ATOM    12502    O  OE1 ?  GLN      D 20 ?  -45.961  -4.298 -44.479 -1.21  0 20 D
+ATOM    12444    C    C ?  ALA      D 12 ?  -39.030   4.479 -47.243  0.00  0 12 D
+ATOM    12485    C   CB ?  CYS      D 18 ?  -42.568   2.817 -42.005  0.00  0 18 D
+ATOM    12445    O    O ?  ALA      D 12 ?  -38.781   5.469 -46.545 -3.21  0 12 D
 # 
