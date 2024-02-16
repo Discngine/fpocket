@@ -15,7 +15,7 @@ Information about the pocket    16:
 6  - Hydrophobicity Score              : 13.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 6.0000
-9  - Pocket volume (Monte Carlo)       : 97.5208
+9  - Pocket volume (Monte Carlo)       : 96.0589
 10  -Pocket volume (convex hull)       : 1.8132
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 11.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1959    O   OH .  TYR   B .  114 ?    3.766 -50.401 -32.131 -5.76  0   B
-ATOM     1918    C   CD .  GLN   B .  109 ?    5.410 -48.645 -38.203  0.00  0   B
-ATOM     2997    O   OH .  TYR   C .  114 ?    2.522 -45.223 -32.198 -2.14  0   C
-ATOM     1927    C   CD .  ARG   B .  110 ?    6.096 -44.760 -34.304  0.00  0   B
-ATOM     1917    C   CG .  GLN   B .  109 ?    6.737 -48.653 -37.490  0.00  0   B
-ATOM     1957    C  CE2 .  TYR   B .  114 ?    4.682 -51.690 -33.912  0.00  0   B
-ATOM     1915    O    O .  GLN   B .  109 ?    7.617 -49.633 -34.082  0.00  0   B
-ATOM     2965    C   CD .  ARG   C .  110 ?    0.284 -50.912 -34.662  0.00  0   C
-ATOM     2963    C   CB .  ARG   C .  110 ?   -1.207 -49.048 -33.985  0.00  0   C
-ATOM     2964    C   CG .  ARG   C .  110 ?   -0.775 -49.940 -35.122  0.00  0   C
-ATOM     2956    C   CD .  GLN   C .  109 ?    1.390 -46.824 -38.413  0.00  0   C
-ATOM     1920    N  NE2 .  GLN   B .  109 ?    4.950 -47.469 -38.561 -1.09  0   B
-ATOM     2958    N  NE2 .  GLN   C .  109 ?    1.872 -48.006 -38.744 -1.09  0   C
-ATOM     2995    C  CE2 .  TYR   C .  114 ?    1.742 -43.865 -34.000  0.00  0   C
-ATOM     2957    O  OE1 .  GLN   C .  109 ?    2.033 -45.783 -38.599 -1.07  0   C
-ATOM     2953    O    O .  GLN   C .  109 ?   -1.160 -45.926 -34.445  0.00  0   C
-ATOM     1926    C   CG .  ARG   B .  110 ?    7.259 -45.649 -34.685  0.00  0   B
-ATOM     1919    O  OE1 .  GLN   B .  109 ?    4.780 -49.679 -38.461 -1.07  0   B
-ATOM     2955    C   CG .  GLN   C .  109 ?    0.004 -46.826 -37.827  0.00  0   C
-ATOM     1925    C   CB .  ARG   B .  110 ?    7.663 -46.537 -33.522  0.00  0   B
+ATOM     1959    O   OH ?  TYR      B 114 ?    3.766 -50.401 -32.131 -5.76  0 252 B
+ATOM     1918    C   CD ?  GLN      B 109 ?    5.410 -48.645 -38.203  0.00  0 247 B
+ATOM     2997    O   OH ?  TYR      C 114 ?    2.522 -45.223 -32.198 -2.14  0 252 C
+ATOM     1927    C   CD ?  ARG      B 110 ?    6.096 -44.760 -34.304  0.00  0 248 B
+ATOM     1917    C   CG ?  GLN      B 109 ?    6.737 -48.653 -37.490  0.00  0 247 B
+ATOM     1957    C  CE2 ?  TYR      B 114 ?    4.682 -51.690 -33.912  0.00  0 252 B
+ATOM     1915    O    O ?  GLN      B 109 ?    7.617 -49.633 -34.082  0.00  0 247 B
+ATOM     2965    C   CD ?  ARG      C 110 ?    0.284 -50.912 -34.662  0.00  0 248 C
+ATOM     2963    C   CB ?  ARG      C 110 ?   -1.207 -49.048 -33.985  0.00  0 248 C
+ATOM     2964    C   CG ?  ARG      C 110 ?   -0.775 -49.940 -35.122  0.00  0 248 C
+ATOM     2956    C   CD ?  GLN      C 109 ?    1.390 -46.824 -38.413  0.00  0 247 C
+ATOM     1920    N  NE2 ?  GLN      B 109 ?    4.950 -47.469 -38.561 -1.09  0 247 B
+ATOM     2958    N  NE2 ?  GLN      C 109 ?    1.872 -48.006 -38.744 -1.09  0 247 C
+ATOM     2995    C  CE2 ?  TYR      C 114 ?    1.742 -43.865 -34.000  0.00  0 252 C
+ATOM     2957    O  OE1 ?  GLN      C 109 ?    2.033 -45.783 -38.599 -1.07  0 247 C
+ATOM     2953    O    O ?  GLN      C 109 ?   -1.160 -45.926 -34.445  0.00  0 247 C
+ATOM     1926    C   CG ?  ARG      B 110 ?    7.259 -45.649 -34.685  0.00  0 248 B
+ATOM     1919    O  OE1 ?  GLN      B 109 ?    4.780 -49.679 -38.461 -1.07  0 247 B
+ATOM     2955    C   CG ?  GLN      C 109 ?    0.004 -46.826 -37.827  0.00  0 247 C
+ATOM     1925    C   CB ?  ARG      B 110 ?    7.663 -46.537 -33.522  0.00  0 248 B
 # 

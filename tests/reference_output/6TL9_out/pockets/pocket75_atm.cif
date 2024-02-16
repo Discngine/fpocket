@@ -15,7 +15,7 @@ Information about the pocket    75:
 6  - Hydrophobicity Score              : 21.0000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 298.6147
+9  - Pocket volume (Monte Carlo)       : 301.3930
 10  -Pocket volume (convex hull)       : 6.3837
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,24 +37,25 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4176    C  CD2 .  HIS   E .    3 ?  -61.207 -87.422 -19.462  0.00  0   E
-ATOM     6248    O    O .  ASN   F .  131 ?  -53.203 -86.543 -16.420 -3.62  0   F
-ATOM     4172    O    O .  HIS   E .    3 ?  -60.550 -86.137 -15.551 -2.55  0   E
-ATOM     6256    O    O .  LEU   F .  132 ?  -53.360 -90.431 -18.143  0.00  0   F
-ATOM     6254    C   CA .  LEU   F .  132 ?  -52.731 -88.193 -18.629  0.00  0   F
-ATOM     6255    C    C .  LEU   F .  132 ?  -52.795 -89.680 -18.928  0.00  0   F
-ATOM     5218    O    O .  HIS   F .    3 ?  -58.436 -86.935 -12.471 -1.21  0   F
-ATOM     5239    C   CD .  PRO   F .    5 ?  -56.194 -83.471 -15.037  0.00  0   F
-ATOM     4186    C   CE .  MET   E .    4 ?  -59.695 -84.184 -19.698  0.00  0   E
-ATOM     6260    C  CD2 .  LEU   F .  132 ?  -53.384 -85.165 -19.634  0.00  0   F
-ATOM     4178    N  NE2 .  HIS   E .    3 ?  -61.289 -86.500 -20.480  0.00  0   E
-ATOM     6257    C   CB .  LEU   F .  132 ?  -52.306 -87.428 -19.895  0.00  0   F
-ATOM     5238    C   CG .  PRO   F .    5 ?  -55.677 -83.303 -16.431  0.00  0   F
-ATOM     5225    N    N .  MET   F .    4 ?  -56.268 -86.513 -12.097  0.00  0   F
-ATOM     5217    C    C .  HIS   F .    3 ?  -57.333 -87.312 -12.085  0.00  0   F
-ATOM     6252    N  ND2 .  ASN   F .  131 ?  -53.196 -88.603 -12.904 -4.54  0   F
-ATOM     5216    C   CA .  HIS   F .    3 ?  -57.155 -88.751 -11.556  0.00  0   F
-ATOM     5233    N    N .  PRO   F .    5 ?  -55.021 -83.989 -14.313  0.00  0   F
-ATOM     5226    C   CA .  MET   F .    4 ?  -56.326 -85.126 -12.558  0.00  0   F
+ATOM     4176    C  CD2 ?  HIS      E 3 ?  -61.207 -87.422 -19.462  0.00  0 141 E
+ATOM     6248    O    O ?  ASN      F 131 ?  -53.203 -86.543 -16.420 -3.62  0 269 F
+ATOM     4172    O    O ?  HIS      E 3 ?  -60.550 -86.137 -15.551 -2.55  0 141 E
+ATOM     6256    O    O ?  LEU      F 132 ?  -53.360 -90.431 -18.143  0.00  0 270 F
+ATOM     6254    C   CA ?  LEU      F 132 ?  -52.731 -88.193 -18.629  0.00  0 270 F
+ATOM     6255    C    C ?  LEU      F 132 ?  -52.795 -89.680 -18.928  0.00  0 270 F
+ATOM     5218    O    O ?  HIS      F 3 ?  -58.436 -86.935 -12.471 -1.21  0 141 F
+ATOM     5239    C   CD ?  PRO      F 5 ?  -56.194 -83.471 -15.037  0.00  0 143 F
+ATOM     4186    C   CE ?  MET      E 4 ?  -59.695 -84.184 -19.698  0.00  0 142 E
+ATOM     6260    C  CD2 ?  LEU      F 132 ?  -53.384 -85.165 -19.634  0.00  0 270 F
+ATOM     4178    N  NE2 ?  HIS      E 3 ?  -61.289 -86.500 -20.480  0.00  0 141 E
+ATOM     6257    C   CB ?  LEU      F 132 ?  -52.306 -87.428 -19.895  0.00  0 270 F
+ATOM     5238    C   CG ?  PRO      F 5 ?  -55.677 -83.303 -16.431  0.00  0 143 F
+ATOM     5225    N    N ?  MET      F 4 ?  -56.268 -86.513 -12.097  0.00  0 142 F
+ATOM     5217    C    C ?  HIS      F 3 ?  -57.333 -87.312 -12.085  0.00  0 141 F
+ATOM     6252    N  ND2 ?  ASN      F 131 ?  -53.196 -88.603 -12.904 -4.54  0 269 F
+ATOM     5216    C   CA ?  HIS      F 3 ?  -57.155 -88.751 -11.556  0.00  0 141 F
+ATOM     5233    N    N ?  PRO      F 5 ?  -55.021 -83.989 -14.313  0.00  0 143 F
+ATOM     5226    C   CA ?  MET      F 4 ?  -56.326 -85.126 -12.558  0.00  0 142 F
 # 

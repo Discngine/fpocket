@@ -15,7 +15,7 @@ Information about the pocket    66:
 6  - Hydrophobicity Score              : 13.4167
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 372.0058
+9  - Pocket volume (Monte Carlo)       : 373.8182
 10  -Pocket volume (convex hull)       : 34.0718
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2865    C   CB .  SER   C .   97 ?   11.101 -30.981 -32.136  0.00  0   C
-ATOM     2874    O  OE1 .  GLN   C .   98 ?   13.552 -33.157 -35.667 -1.48  0   C
-ATOM      180    C   CB .  SER   A .   24 ?   16.956 -31.887 -33.812  0.00  0   A
-ATOM     2866    O   OG .  SER   C .   97 ?   10.662 -31.522 -30.899 -2.28  0   C
-ATOM     2850    C   CA .  ALA   C .   95 ?    9.056 -36.223 -34.082  0.00  0   C
-ATOM     2861    N    N .  SER   C .   97 ?    9.091 -31.969 -33.144  0.00  0   C
-ATOM     1931    N  NH2 .  ARG   B .  110 ?    7.039 -42.095 -34.271  0.00  0   B
-ATOM     2849    N    N .  ALA   C .   95 ?    8.178 -37.361 -33.877 -1.09  0   C
-ATOM     2847    C    C .  GLY   C .   94 ?    7.633 -37.639 -32.696  0.00  0   C
-ATOM     1498    O    O .  SER   B .   58 ?   13.589 -41.784 -34.908  0.00  0   B
-ATOM     1516    O    O .  SER   B .   60 ?   10.978 -44.577 -37.530 -3.21  0   B
-ATOM     1515    C    C .  SER   B .   60 ?   10.938 -43.892 -38.542  0.00  0   B
-ATOM      489    C   CZ .  PHE   A .   62 ?   12.305 -38.446 -37.084  0.00  0   A
-ATOM     1930    N  NH1 .  ARG   B .  110 ?    5.877 -41.606 -36.176 -2.19  0   B
-ATOM     2848    O    O .  GLY   C .   94 ?    7.820 -36.953 -31.687 -3.35  0   C
-ATOM     2846    C   CA .  GLY   C .   94 ?    6.749 -38.864 -32.652  0.00  0   C
-ATOM     2853    C   CB .  ALA   C .   95 ?    9.979 -36.500 -35.252  0.00  0   C
-ATOM     3011    O  OE2 .  GLU   C .  116 ?    7.110 -39.684 -39.922 -3.21  0   C
-ATOM      488    C  CE2 .  PHE   A .   62 ?   13.650 -38.262 -36.897  0.00  0   A
-ATOM      978    C   CZ .  PHE   A .  123 ?   17.087 -36.663 -34.387  0.00  0   A
-ATOM      976    C  CE1 .  PHE   A .  123 ?   16.396 -35.828 -35.220  0.00  0   A
-ATOM     1523    C   CB .  SER   B .   61 ?    7.500 -42.781 -38.783  0.00  0   B
-ATOM      487    C  CE1 .  PHE   A .   62 ?   11.697 -37.992 -38.218  0.00  0   A
-ATOM     1519    N    N .  SER   B .   61 ?    9.807 -43.480 -39.103  0.00  0   B
+ATOM     2865    C   CB ?  SER      C 97 ?   11.101 -30.981 -32.136  0.00  0 235 C
+ATOM     2874    O  OE1 ?  GLN      C 98 ?   13.552 -33.157 -35.667 -1.48  0 236 C
+ATOM      180    C   CB ?  SER      A 24 ?   16.956 -31.887 -33.812  0.00  0 162 A
+ATOM     2866    O   OG ?  SER      C 97 ?   10.662 -31.522 -30.899 -2.28  0 235 C
+ATOM     2850    C   CA ?  ALA      C 95 ?    9.056 -36.223 -34.082  0.00  0 233 C
+ATOM     2861    N    N ?  SER      C 97 ?    9.091 -31.969 -33.144  0.00  0 235 C
+ATOM     1931    N  NH2 ?  ARG      B 110 ?    7.039 -42.095 -34.271  0.00  0 248 B
+ATOM     2849    N    N ?  ALA      C 95 ?    8.178 -37.361 -33.877 -1.09  0 233 C
+ATOM     2847    C    C ?  GLY      C 94 ?    7.633 -37.639 -32.696  0.00  0 232 C
+ATOM     1498    O    O ?  SER      B 58 ?   13.589 -41.784 -34.908  0.00  0 196 B
+ATOM     1516    O    O ?  SER      B 60 ?   10.978 -44.577 -37.530 -3.21  0 198 B
+ATOM     1515    C    C ?  SER      B 60 ?   10.938 -43.892 -38.542  0.00  0 198 B
+ATOM      489    C   CZ ?  PHE      A 62 ?   12.305 -38.446 -37.084  0.00  0 200 A
+ATOM     1930    N  NH1 ?  ARG      B 110 ?    5.877 -41.606 -36.176 -2.19  0 248 B
+ATOM     2848    O    O ?  GLY      C 94 ?    7.820 -36.953 -31.687 -3.35  0 232 C
+ATOM     2846    C   CA ?  GLY      C 94 ?    6.749 -38.864 -32.652  0.00  0 232 C
+ATOM     2853    C   CB ?  ALA      C 95 ?    9.979 -36.500 -35.252  0.00  0 233 C
+ATOM     3011    O  OE2 ?  GLU      C 116 ?    7.110 -39.684 -39.922 -3.21  0 254 C
+ATOM      488    C  CE2 ?  PHE      A 62 ?   13.650 -38.262 -36.897  0.00  0 200 A
+ATOM      978    C   CZ ?  PHE      A 123 ?   17.087 -36.663 -34.387  0.00  0 261 A
+ATOM      976    C  CE1 ?  PHE      A 123 ?   16.396 -35.828 -35.220  0.00  0 261 A
+ATOM     1523    C   CB ?  SER      B 61 ?    7.500 -42.781 -38.783  0.00  0 199 B
+ATOM      487    C  CE1 ?  PHE      A 62 ?   11.697 -37.992 -38.218  0.00  0 200 A
+ATOM     1519    N    N ?  SER      B 61 ?    9.807 -43.480 -39.103  0.00  0 199 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket    65:
 6  - Hydrophobicity Score              : 34.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 188.8826
+9  - Pocket volume (Monte Carlo)       : 192.7650
 10  -Pocket volume (convex hull)       : 3.5694
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3880    C   CZ .  ARG   D .   93 ?   -5.594 -65.004 -57.586  0.00  0   D
-ATOM     3882    N  NH2 .  ARG   D .   93 ?   -5.344 -64.645 -58.837  0.00  0   D
-ATOM     4011    O    O .  GLY   D .  111 ?   -9.925 -60.304 -54.377 -0.14  0   D
-ATOM     3881    N  NH1 .  ARG   D .   93 ?   -5.068 -64.301 -56.589 -1.01  0   D
-ATOM     4016    C   CB .  ALA   D .  112 ?   -7.148 -63.059 -53.690  0.00  0   D
-ATOM     4013    C   CA .  ALA   D .  112 ?   -8.532 -62.497 -53.423  0.00  0   D
-ATOM     3879    N   NE .  ARG   D .   93 ?   -6.353 -66.064 -57.332 -1.09  0   D
-ATOM     3859    C   CG .  ARG   D .   91 ?   -9.718 -67.545 -59.490  0.00  0   D
-ATOM     3847    C   CB .  PHE   D .   90 ?  -14.051 -64.357 -57.385  0.00  0   D
-ATOM     3512    C  CD2 .  LEU   D .   50 ?  -14.754 -60.167 -57.240  0.00  0   D
-ATOM     3548    N  NE2 .  GLN   D .   54 ?  -11.625 -58.406 -55.956 -4.54  0   D
-ATOM     3854    N    N .  ARG   D .   91 ?  -12.527 -66.733 -58.634 -3.28  0   D
-ATOM     4017    N    N .  VAL   D .  113 ?   -9.985 -64.409 -53.079 -2.19  0   D
-ATOM     3878    C   CD .  ARG   D .   93 ?   -6.669 -66.551 -55.990  0.00  0   D
-ATOM     3857    O    O .  ARG   D .   91 ?  -10.847 -67.439 -56.525 -3.21  0   D
+ATOM     3880    C   CZ ?  ARG      D 93 ?   -5.594 -65.004 -57.586  0.00  0 231 D
+ATOM     3882    N  NH2 ?  ARG      D 93 ?   -5.344 -64.645 -58.837  0.00  0 231 D
+ATOM     4011    O    O ?  GLY      D 111 ?   -9.925 -60.304 -54.377 -0.14  0 249 D
+ATOM     3881    N  NH1 ?  ARG      D 93 ?   -5.068 -64.301 -56.589 -1.01  0 231 D
+ATOM     4016    C   CB ?  ALA      D 112 ?   -7.148 -63.059 -53.690  0.00  0 250 D
+ATOM     4013    C   CA ?  ALA      D 112 ?   -8.532 -62.497 -53.423  0.00  0 250 D
+ATOM     3879    N   NE ?  ARG      D 93 ?   -6.353 -66.064 -57.332 -1.09  0 231 D
+ATOM     3859    C   CG ?  ARG      D 91 ?   -9.718 -67.545 -59.490  0.00  0 229 D
+ATOM     3847    C   CB ?  PHE      D 90 ?  -14.051 -64.357 -57.385  0.00  0 228 D
+ATOM     3512    C  CD2 ?  LEU      D 50 ?  -14.754 -60.167 -57.240  0.00  0 188 D
+ATOM     3548    N  NE2 ?  GLN      D 54 ?  -11.625 -58.406 -55.956 -4.54  0 192 D
+ATOM     3854    N    N ?  ARG      D 91 ?  -12.527 -66.733 -58.634 -3.28  0 229 D
+ATOM     4017    N    N ?  VAL      D 113 ?   -9.985 -64.409 -53.079 -2.19  0 251 D
+ATOM     3878    C   CD ?  ARG      D 93 ?   -6.669 -66.551 -55.990  0.00  0 231 D
+ATOM     3857    O    O ?  ARG      D 91 ?  -10.847 -67.439 -56.525 -3.21  0 229 D
 # 

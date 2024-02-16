@@ -15,7 +15,7 @@ Information about the pocket    67:
 6  - Hydrophobicity Score              : 11.5000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.7500
-9  - Pocket volume (Monte Carlo)       : 420.5218
+9  - Pocket volume (Monte Carlo)       : 413.0108
 10  -Pocket volume (convex hull)       : 34.3630
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 5.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,27 +37,28 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6713    C   CB .  SER   G .   58 ?  -25.604 -49.907 -24.780  0.00  0   G
-ATOM     6681    O    O .  GLN   G .   54 ?  -28.062 -47.386 -25.276 -4.29  0   G
-ATOM     7138    O    O .  ARG   G .  110 ?  -33.597 -51.607 -26.643  0.00  0   G
-ATOM     7137    C    C .  ARG   G .  110 ?  -33.270 -51.067 -25.583  0.00  0   G
-ATOM     7139    C   CB .  ARG   G .  110 ?  -33.452 -53.368 -24.516  0.00  0   G
-ATOM     7145    N  NH2 .  ARG   G .  110 ?  -30.398 -56.772 -23.820  0.00  0   G
-ATOM     7136    C   CA .  ARG   G .  110 ?  -33.004 -51.911 -24.327  0.00  0   G
-ATOM     7140    C   CG .  ARG   G .  110 ?  -33.037 -54.276 -23.380  0.00  0   G
-ATOM     7154    C   CB .  ALA   G .  112 ?  -37.805 -50.359 -27.145  0.00  0   G
-ATOM     7019    N  NH1 .  ARG   G .   93 ?  -39.507 -51.983 -30.112  0.00  0   G
-ATOM     7149    O    O .  GLY   G .  111 ?  -34.988 -47.608 -27.731 -4.43  0   G
-ATOM     6712    O    O .  SER   G .   58 ?  -26.055 -52.481 -23.083 -1.21  0   G
-ATOM     6730    O    O .  SER   G .   60 ?  -29.799 -52.367 -20.417 -3.21  0   G
-ATOM     6704    O    O .  ILE   G .   57 ?  -28.444 -49.894 -21.553 -1.07  0   G
-ATOM     7148    C    C .  GLY   G .  111 ?  -34.757 -48.511 -26.929  0.00  0   G
-ATOM     6710    C   CA .  SER   G .   58 ?  -26.571 -50.203 -23.634  0.00  0   G
-ATOM     7146    N    N .  GLY   G .  111 ?  -33.149 -49.748 -25.439 -1.09  0   G
-ATOM     6684    C   CD .  GLN   G .   54 ?  -31.929 -45.478 -28.904  0.00  0   G
-ATOM     7147    C   CA .  GLY   G .  111 ?  -33.327 -48.815 -26.541  0.00  0   G
-ATOM     6685    O  OE1 .  GLN   G .   54 ?  -31.074 -45.194 -29.754  0.00  0   G
-ATOM     6682    C   CB .  GLN   G .   54 ?  -30.139 -45.854 -27.198  0.00  0   G
-ATOM     6686    N  NE2 .  GLN   G .   54 ?  -33.177 -45.729 -29.242  0.00  0   G
+ATOM     6713    C   CB ?  SER      G 58 ?  -25.604 -49.907 -24.780  0.00  0 196 G
+ATOM     6681    O    O ?  GLN      G 54 ?  -28.062 -47.386 -25.276 -4.29  0 192 G
+ATOM     7138    O    O ?  ARG      G 110 ?  -33.597 -51.607 -26.643  0.00  0 248 G
+ATOM     7137    C    C ?  ARG      G 110 ?  -33.270 -51.067 -25.583  0.00  0 248 G
+ATOM     7139    C   CB ?  ARG      G 110 ?  -33.452 -53.368 -24.516  0.00  0 248 G
+ATOM     7145    N  NH2 ?  ARG      G 110 ?  -30.398 -56.772 -23.820  0.00  0 248 G
+ATOM     7136    C   CA ?  ARG      G 110 ?  -33.004 -51.911 -24.327  0.00  0 248 G
+ATOM     7140    C   CG ?  ARG      G 110 ?  -33.037 -54.276 -23.380  0.00  0 248 G
+ATOM     7154    C   CB ?  ALA      G 112 ?  -37.805 -50.359 -27.145  0.00  0 250 G
+ATOM     7019    N  NH1 ?  ARG      G 93 ?  -39.507 -51.983 -30.112  0.00  0 231 G
+ATOM     7149    O    O ?  GLY      G 111 ?  -34.988 -47.608 -27.731 -4.43  0 249 G
+ATOM     6712    O    O ?  SER      G 58 ?  -26.055 -52.481 -23.083 -1.21  0 196 G
+ATOM     6730    O    O ?  SER      G 60 ?  -29.799 -52.367 -20.417 -3.21  0 198 G
+ATOM     6704    O    O ?  ILE      G 57 ?  -28.444 -49.894 -21.553 -1.07  0 195 G
+ATOM     7148    C    C ?  GLY      G 111 ?  -34.757 -48.511 -26.929  0.00  0 249 G
+ATOM     6710    C   CA ?  SER      G 58 ?  -26.571 -50.203 -23.634  0.00  0 196 G
+ATOM     7146    N    N ?  GLY      G 111 ?  -33.149 -49.748 -25.439 -1.09  0 249 G
+ATOM     6684    C   CD ?  GLN      G 54 ?  -31.929 -45.478 -28.904  0.00  0 192 G
+ATOM     7147    C   CA ?  GLY      G 111 ?  -33.327 -48.815 -26.541  0.00  0 249 G
+ATOM     6685    O  OE1 ?  GLN      G 54 ?  -31.074 -45.194 -29.754  0.00  0 192 G
+ATOM     6682    C   CB ?  GLN      G 54 ?  -30.139 -45.854 -27.198  0.00  0 192 G
+ATOM     6686    N  NE2 ?  GLN      G 54 ?  -33.177 -45.729 -29.242  0.00  0 192 G
 # 

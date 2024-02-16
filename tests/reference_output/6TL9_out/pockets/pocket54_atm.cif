@@ -15,7 +15,7 @@ Information about the pocket    54:
 6  - Hydrophobicity Score              : 10.8333
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 228.5260
+9  - Pocket volume (Monte Carlo)       : 225.9470
 10  -Pocket volume (convex hull)       : 3.3049
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,19 +37,20 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6091    C    C .  ARG   F .  110 ?  -41.914 -60.303 -25.041  0.00  0   F
-ATOM     5666    O    O .  SER   F .   58 ?  -48.767 -58.817 -22.022  0.00  0   F
-ATOM     6090    C   CA .  ARG   F .  110 ?  -42.050 -59.448 -23.771  0.00  0   F
-ATOM     6092    O    O .  ARG   F .  110 ?  -41.713 -59.769 -26.133 -4.43  0   F
-ATOM     6101    C   CA .  GLY   F .  111 ?  -41.868 -62.550 -25.993  0.00  0   F
-ATOM     5635    O    O .  GLN   F .   54 ?  -47.064 -64.045 -23.832 -2.55  0   F
-ATOM     6100    N    N .  GLY   F .  111 ?  -41.970 -61.623 -24.871  0.00  0   F
-ATOM     5667    C   CB .  SER   F .   58 ?  -49.391 -61.465 -23.539  0.00  0   F
-ATOM     5684    O    O .  SER   F .   60 ?  -44.944 -58.795 -19.626 -2.14  0   F
-ATOM     6094    C   CG .  ARG   F .  110 ?  -41.933 -57.063 -22.873  0.00  0   F
-ATOM     6099    N  NH2 .  ARG   F .  110 ?  -44.564 -54.513 -23.437  0.00  0   F
-ATOM     6093    C   CB .  ARG   F .  110 ?  -41.619 -57.993 -24.018  0.00  0   F
-ATOM     5658    O    O .  ILE   F .   57 ?  -46.358 -61.357 -20.479 -1.07  0   F
-ATOM     5664    C   CA .  SER   F .   58 ?  -48.356 -61.125 -22.473  0.00  0   F
+ATOM     6091    C    C ?  ARG      F 110 ?  -41.914 -60.303 -25.041  0.00  0 248 F
+ATOM     5666    O    O ?  SER      F 58 ?  -48.767 -58.817 -22.022  0.00  0 196 F
+ATOM     6090    C   CA ?  ARG      F 110 ?  -42.050 -59.448 -23.771  0.00  0 248 F
+ATOM     6092    O    O ?  ARG      F 110 ?  -41.713 -59.769 -26.133 -4.43  0 248 F
+ATOM     6101    C   CA ?  GLY      F 111 ?  -41.868 -62.550 -25.993  0.00  0 249 F
+ATOM     5635    O    O ?  GLN      F 54 ?  -47.064 -64.045 -23.832 -2.55  0 192 F
+ATOM     6100    N    N ?  GLY      F 111 ?  -41.970 -61.623 -24.871  0.00  0 249 F
+ATOM     5667    C   CB ?  SER      F 58 ?  -49.391 -61.465 -23.539  0.00  0 196 F
+ATOM     5684    O    O ?  SER      F 60 ?  -44.944 -58.795 -19.626 -2.14  0 198 F
+ATOM     6094    C   CG ?  ARG      F 110 ?  -41.933 -57.063 -22.873  0.00  0 248 F
+ATOM     6099    N  NH2 ?  ARG      F 110 ?  -44.564 -54.513 -23.437  0.00  0 248 F
+ATOM     6093    C   CB ?  ARG      F 110 ?  -41.619 -57.993 -24.018  0.00  0 248 F
+ATOM     5658    O    O ?  ILE      F 57 ?  -46.358 -61.357 -20.479 -1.07  0 195 F
+ATOM     5664    C   CA ?  SER      F 58 ?  -48.356 -61.125 -22.473  0.00  0 196 F
 # 

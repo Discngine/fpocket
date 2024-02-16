@@ -15,7 +15,7 @@ Information about the pocket    36:
 6  - Hydrophobicity Score              : 0.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 272.1624
+9  - Pocket volume (Monte Carlo)       : 262.9439
 10  -Pocket volume (convex hull)       : 8.7937
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,24 +37,25 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1360    C   CE .  LYS   B .   40 ?   22.722 -63.726 -39.163  0.00  0   B
-ATOM     2055    C   CA .  LYS   B .  128 ?   26.336 -60.457 -41.577  0.00  0   B
-ATOM     2063    N    N .  LYS   B .  129 ?   28.271 -61.339 -40.372 -2.61  0   B
-ATOM     1361    N   NZ .  LYS   B .   40 ?   23.419 -64.772 -38.366 -7.66  0   B
-ATOM     1325    C  CD2 .  LEU   B .   35 ?   20.269 -65.931 -47.686  0.00  0   B
-ATOM     1342    C    C .  ASP   B .   38 ?   25.679 -62.626 -47.007  0.00  0   B
-ATOM     1351    O    O .  ALA   B .   39 ?   21.842 -62.955 -46.200  0.00  0   B
-ATOM     1343    O    O .  ASP   B .   38 ?   26.471 -62.732 -46.070 -0.95  0   B
-ATOM     1348    N    N .  ALA   B .   39 ?   24.413 -62.259 -46.836  0.00  0   B
-ATOM     1350    C    C .  ALA   B .   39 ?   22.477 -62.435 -45.286  0.00  0   B
-ATOM     1321    O    O .  LEU   B .   35 ?   23.294 -63.762 -50.625  0.00  0   B
-ATOM     1346    O  OD1 .  ASP   B .   38 ?   27.630 -65.280 -48.557  0.00  0   B
-ATOM     1357    C   CB .  LYS   B .   40 ?   20.720 -63.793 -42.492  0.00  0   B
-ATOM     1353    N    N .  LYS   B .   40 ?   22.028 -62.419 -44.037 -1.09  0   B
-ATOM     2058    C   CB .  LYS   B .  128 ?   26.776 -60.532 -43.041  0.00  0   B
-ATOM     1349    C   CA .  ALA   B .   39 ?   23.892 -61.873 -45.536  0.00  0   B
-ATOM     2048    O    O .  GLN   B .  127 ?   23.549 -60.640 -42.043 -1.07  0   B
-ATOM     1341    C   CA .  ASP   B .   38 ?   26.124 -62.917 -48.457  0.00  0   B
-ATOM     1359    C   CD .  LYS   B .   40 ?   21.979 -64.310 -40.347  0.00  0   B
+ATOM     1360    C   CE ?  LYS      B 40 ?   22.722 -63.726 -39.163  0.00  0 178 B
+ATOM     2055    C   CA ?  LYS      B 128 ?   26.336 -60.457 -41.577  0.00  0 266 B
+ATOM     2063    N    N ?  LYS      B 129 ?   28.271 -61.339 -40.372 -2.61  0 267 B
+ATOM     1361    N   NZ ?  LYS      B 40 ?   23.419 -64.772 -38.366 -7.66  0 178 B
+ATOM     1325    C  CD2 ?  LEU      B 35 ?   20.269 -65.931 -47.686  0.00  0 173 B
+ATOM     1342    C    C ?  ASP      B 38 ?   25.679 -62.626 -47.007  0.00  0 176 B
+ATOM     1351    O    O ?  ALA      B 39 ?   21.842 -62.955 -46.200  0.00  0 177 B
+ATOM     1343    O    O ?  ASP      B 38 ?   26.471 -62.732 -46.070 -0.95  0 176 B
+ATOM     1348    N    N ?  ALA      B 39 ?   24.413 -62.259 -46.836  0.00  0 177 B
+ATOM     1350    C    C ?  ALA      B 39 ?   22.477 -62.435 -45.286  0.00  0 177 B
+ATOM     1321    O    O ?  LEU      B 35 ?   23.294 -63.762 -50.625  0.00  0 173 B
+ATOM     1346    O  OD1 ?  ASP      B 38 ?   27.630 -65.280 -48.557  0.00  0 176 B
+ATOM     1357    C   CB ?  LYS      B 40 ?   20.720 -63.793 -42.492  0.00  0 178 B
+ATOM     1353    N    N ?  LYS      B 40 ?   22.028 -62.419 -44.037 -1.09  0 178 B
+ATOM     2058    C   CB ?  LYS      B 128 ?   26.776 -60.532 -43.041  0.00  0 266 B
+ATOM     1349    C   CA ?  ALA      B 39 ?   23.892 -61.873 -45.536  0.00  0 177 B
+ATOM     2048    O    O ?  GLN      B 127 ?   23.549 -60.640 -42.043 -1.07  0 265 B
+ATOM     1341    C   CA ?  ASP      B 38 ?   26.124 -62.917 -48.457  0.00  0 176 B
+ATOM     1359    C   CD ?  LYS      B 40 ?   21.979 -64.310 -40.347  0.00  0 178 B
 # 

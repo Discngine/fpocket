@@ -15,7 +15,7 @@ Information about the pocket     8:
 6  - Hydrophobicity Score              : 3.6000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.8000
-9  - Pocket volume (Monte Carlo)       : 257.1210
+9  - Pocket volume (Monte Carlo)       : 260.2699
 10  -Pocket volume (convex hull)       : 7.0894
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 18.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2272    C  CD1 .  PHE   C .   25 ?   -3.418 -40.757 -54.125  0.00  0   C
-ATOM     2314    C   CD .  LYS   C .   29 ?   -2.002 -36.827 -55.092  0.00  0   C
-ATOM     2274    C  CE1 .  PHE   C .   25 ?   -4.094 -41.595 -55.001  0.00  0   C
-ATOM     2312    C   CB .  LYS   C .   29 ?   -3.413 -36.219 -53.134  0.00  0   C
-ATOM     2339    O  OE1 .  GLU   C .   32 ?   -5.519 -32.822 -55.426 -6.17  0   C
-ATOM     2311    O    O .  LYS   C .   29 ?   -6.497 -35.742 -52.170 -0.40  0   C
-ATOM     2346    C   CG .  LYS   C .   33 ?   -9.575 -38.376 -53.184  0.00  0   C
-ATOM     2273    C  CD2 .  PHE   C .   25 ?   -4.944 -41.345 -52.396  0.00  0   C
-ATOM     2276    C   CZ .  PHE   C .   25 ?   -5.186 -42.309 -54.570  0.00  0   C
-ATOM     2275    C  CE2 .  PHE   C .   25 ?   -5.610 -42.198 -53.270  0.00  0   C
-ATOM     2271    C   CG .  PHE   C .   25 ?   -3.827 -40.634 -52.809  0.00  0   C
-ATOM     2336    C   CB .  GLU   C .   32 ?   -7.517 -32.759 -53.506  0.00  0   C
-ATOM     2341    N    N .  LYS   C .   33 ?   -9.340 -34.947 -52.251  0.00  0   C
-ATOM     2348    C   CE .  LYS   C .   33 ?  -10.760 -39.526 -55.071  0.00  0   C
-ATOM     2342    C   CA .  LYS   C .   33 ?  -10.314 -36.029 -52.384  0.00  0   C
-ATOM     2335    O    O .  GLU   C .   32 ?  -10.724 -33.272 -52.921 -2.95  0   C
-ATOM     2369    O   OG .  SER   C .   36 ?  -13.398 -35.495 -54.426 -2.14  0   C
-ATOM     2347    C   CD .  LYS   C .   33 ?  -10.935 -38.759 -53.779  0.00  0   C
-ATOM     2313    C   CG .  LYS   C .   29 ?   -2.597 -35.679 -54.296  0.00  0   C
-ATOM     2334    C    C .  GLU   C .   32 ?   -9.622 -33.654 -52.523  0.00  0   C
+ATOM     2272    C  CD1 ?  PHE      C 25 ?   -3.418 -40.757 -54.125  0.00  0 163 C
+ATOM     2314    C   CD ?  LYS      C 29 ?   -2.002 -36.827 -55.092  0.00  0 167 C
+ATOM     2274    C  CE1 ?  PHE      C 25 ?   -4.094 -41.595 -55.001  0.00  0 163 C
+ATOM     2312    C   CB ?  LYS      C 29 ?   -3.413 -36.219 -53.134  0.00  0 167 C
+ATOM     2339    O  OE1 ?  GLU      C 32 ?   -5.519 -32.822 -55.426 -6.17  0 170 C
+ATOM     2311    O    O ?  LYS      C 29 ?   -6.497 -35.742 -52.170 -0.40  0 167 C
+ATOM     2346    C   CG ?  LYS      C 33 ?   -9.575 -38.376 -53.184  0.00  0 171 C
+ATOM     2273    C  CD2 ?  PHE      C 25 ?   -4.944 -41.345 -52.396  0.00  0 163 C
+ATOM     2276    C   CZ ?  PHE      C 25 ?   -5.186 -42.309 -54.570  0.00  0 163 C
+ATOM     2275    C  CE2 ?  PHE      C 25 ?   -5.610 -42.198 -53.270  0.00  0 163 C
+ATOM     2271    C   CG ?  PHE      C 25 ?   -3.827 -40.634 -52.809  0.00  0 163 C
+ATOM     2336    C   CB ?  GLU      C 32 ?   -7.517 -32.759 -53.506  0.00  0 170 C
+ATOM     2341    N    N ?  LYS      C 33 ?   -9.340 -34.947 -52.251  0.00  0 171 C
+ATOM     2348    C   CE ?  LYS      C 33 ?  -10.760 -39.526 -55.071  0.00  0 171 C
+ATOM     2342    C   CA ?  LYS      C 33 ?  -10.314 -36.029 -52.384  0.00  0 171 C
+ATOM     2335    O    O ?  GLU      C 32 ?  -10.724 -33.272 -52.921 -2.95  0 170 C
+ATOM     2369    O   OG ?  SER      C 36 ?  -13.398 -35.495 -54.426 -2.14  0 174 C
+ATOM     2347    C   CD ?  LYS      C 33 ?  -10.935 -38.759 -53.779  0.00  0 171 C
+ATOM     2313    C   CG ?  LYS      C 29 ?   -2.597 -35.679 -54.296  0.00  0 167 C
+ATOM     2334    C    C ?  GLU      C 32 ?   -9.622 -33.654 -52.523  0.00  0 170 C
 # 

@@ -15,7 +15,7 @@ Information about the pocket    71:
 6  - Hydrophobicity Score              : 33.6667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.6667
-9  - Pocket volume (Monte Carlo)       : 282.0504
+9  - Pocket volume (Monte Carlo)       : 279.5841
 10  -Pocket volume (convex hull)       : 15.2111
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 12.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,27 +37,28 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2101    S   SD .  MET   C .    4 ?  -30.368 -41.791 -49.503  0.00  0   C
-ATOM     3211    C  CZ2 .  TRP   D .   12 ?  -29.087 -45.797 -49.901  0.00  0   D
-ATOM     3213    C  CH2 .  TRP   D .   12 ?  -28.878 -44.461 -49.704  0.00  0   D
-ATOM     4168    C  CD2 .  LEU   D .  132 ?  -32.197 -47.784 -49.548  0.00  0   D
-ATOM     2088    O    O .  HIS   C .    3 ?  -33.362 -40.780 -45.364 -1.07  0   C
-ATOM     2100    C   CG .  MET   C .    4 ?  -31.167 -41.396 -47.940  0.00  0   C
-ATOM     3146    C   CG .  PRO   D .    5 ?  -30.633 -45.531 -46.133  0.00  0   D
-ATOM     2092    C  CD2 .  HIS   C .    3 ?  -35.333 -40.673 -49.073  0.00  0   C
-ATOM     2094    N  NE2 .  HIS   C .    3 ?  -34.604 -40.753 -50.238 -1.01  0   C
-ATOM     3126    O    O .  HIS   D .    3 ?  -34.702 -42.704 -42.518 -4.69  0   D
-ATOM     4164    O    O .  LEU   D .  132 ?  -37.453 -47.213 -48.540  0.00  0   D
-ATOM     2089    C   CB .  HIS   C .    3 ?  -35.176 -39.164 -46.985  0.00  0   C
-ATOM     4156    O    O .  ASN   D .  131 ?  -33.875 -47.916 -46.476 -5.36  0   D
-ATOM     3147    C   CD .  PRO   D .    5 ?  -30.969 -45.001 -44.784  0.00  0   D
-ATOM     3124    C   CA .  HIS   D .    3 ?  -36.578 -43.997 -41.759  0.00  0   D
-ATOM     4162    C   CA .  LEU   D .  132 ?  -35.292 -48.207 -48.844  0.00  0   D
-ATOM     4165    C   CB .  LEU   D .  132 ?  -34.470 -48.713 -50.047  0.00  0   D
-ATOM     4163    C    C .  LEU   D .  132 ?  -36.727 -47.889 -49.267  0.00  0   D
-ATOM     3125    C    C .  HIS   D .    3 ?  -35.101 -43.819 -42.179  0.00  0   D
-ATOM     3133    N    N .  MET   D .    4 ?  -34.296 -44.893 -42.146  0.00  0   D
-ATOM     4160    N  ND2 .  ASN   D .  131 ?  -36.375 -47.884 -43.217 -0.84  0   D
-ATOM     3134    C   CA .  MET   D .    4 ?  -32.885 -44.833 -42.514  0.00  0   D
+ATOM     2101    S   SD ?  MET      C 4 ?  -30.368 -41.791 -49.503  0.00  0 142 C
+ATOM     3211    C  CZ2 ?  TRP      D 12 ?  -29.087 -45.797 -49.901  0.00  0 150 D
+ATOM     3213    C  CH2 ?  TRP      D 12 ?  -28.878 -44.461 -49.704  0.00  0 150 D
+ATOM     4168    C  CD2 ?  LEU      D 132 ?  -32.197 -47.784 -49.548  0.00  0 270 D
+ATOM     2088    O    O ?  HIS      C 3 ?  -33.362 -40.780 -45.364 -1.07  0 141 C
+ATOM     2100    C   CG ?  MET      C 4 ?  -31.167 -41.396 -47.940  0.00  0 142 C
+ATOM     3146    C   CG ?  PRO      D 5 ?  -30.633 -45.531 -46.133  0.00  0 143 D
+ATOM     2092    C  CD2 ?  HIS      C 3 ?  -35.333 -40.673 -49.073  0.00  0 141 C
+ATOM     2094    N  NE2 ?  HIS      C 3 ?  -34.604 -40.753 -50.238 -1.01  0 141 C
+ATOM     3126    O    O ?  HIS      D 3 ?  -34.702 -42.704 -42.518 -4.69  0 141 D
+ATOM     4164    O    O ?  LEU      D 132 ?  -37.453 -47.213 -48.540  0.00  0 270 D
+ATOM     2089    C   CB ?  HIS      C 3 ?  -35.176 -39.164 -46.985  0.00  0 141 C
+ATOM     4156    O    O ?  ASN      D 131 ?  -33.875 -47.916 -46.476 -5.36  0 269 D
+ATOM     3147    C   CD ?  PRO      D 5 ?  -30.969 -45.001 -44.784  0.00  0 143 D
+ATOM     3124    C   CA ?  HIS      D 3 ?  -36.578 -43.997 -41.759  0.00  0 141 D
+ATOM     4162    C   CA ?  LEU      D 132 ?  -35.292 -48.207 -48.844  0.00  0 270 D
+ATOM     4165    C   CB ?  LEU      D 132 ?  -34.470 -48.713 -50.047  0.00  0 270 D
+ATOM     4163    C    C ?  LEU      D 132 ?  -36.727 -47.889 -49.267  0.00  0 270 D
+ATOM     3125    C    C ?  HIS      D 3 ?  -35.101 -43.819 -42.179  0.00  0 141 D
+ATOM     3133    N    N ?  MET      D 4 ?  -34.296 -44.893 -42.146  0.00  0 142 D
+ATOM     4160    N  ND2 ?  ASN      D 131 ?  -36.375 -47.884 -43.217 -0.84  0 269 D
+ATOM     3134    C   CA ?  MET      D 4 ?  -32.885 -44.833 -42.514  0.00  0 142 D
 # 
