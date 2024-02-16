@@ -15,7 +15,7 @@ Information about the pocket   196:
 6  - Hydrophobicity Score              : 37.3333
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.1667
-9  - Pocket volume (Monte Carlo)       : 230.1144
+9  - Pocket volume (Monte Carlo)       : 233.5618
 10  -Pocket volume (convex hull)       : 3.5986
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 6.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,18 +37,19 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8497    O    O .  LEU   C .   80 ?  -36.952 -81.577 -65.793 -1.07  0   C
-ATOM     8530    C  CD2 .  LEU   C .   84 ?  -35.745 -85.642 -70.641  0.00  0   C
-ATOM     8492    C  CD1 .  LEU   C .   79 ?  -38.802 -78.685 -70.906  0.00  0   C
-ATOM     8503    C   CA .  GLU   C .   81 ?  -34.477 -82.457 -66.638  0.00  0   C
-ATOM     8524    C   CA .  LEU   C .   84 ?  -38.269 -85.977 -68.446  0.00  0   C
-ATOM     8569    O  OE1 .  GLU   C .   90 ?  -40.977 -82.097 -71.551 -2.55  0   C
-ATOM     8506    C   CB .  GLU   C .   81 ?  -33.024 -82.521 -67.117  0.00  0   C
-ATOM     8490    C   CB .  LEU   C .   79 ?  -37.911 -78.243 -68.624  0.00  0   C
-ATOM     8567    C   CG .  GLU   C .   90 ?  -42.015 -81.982 -69.402  0.00  0   C
-ATOM     8520    O    O .  SER   C .   83 ?  -40.153 -84.240 -67.194  0.00  0   C
-ATOM     8523    N    N .  LEU   C .   84 ?  -38.230 -85.444 -67.078  0.00  0   C
-ATOM     8489    O    O .  LEU   C .   79 ?  -35.111 -77.927 -66.867 -6.17  0   C
-ATOM     8486    N    N .  LEU   C .   79 ?  -36.601 -76.172 -68.408 -0.42  0   C
+ATOM     8497    O    O ?  LEU      C 80 ?  -36.952 -81.577 -65.793 -1.07  0 80 C
+ATOM     8530    C  CD2 ?  LEU      C 84 ?  -35.745 -85.642 -70.641  0.00  0 84 C
+ATOM     8492    C  CD1 ?  LEU      C 79 ?  -38.802 -78.685 -70.906  0.00  0 79 C
+ATOM     8503    C   CA ?  GLU      C 81 ?  -34.477 -82.457 -66.638  0.00  0 81 C
+ATOM     8524    C   CA ?  LEU      C 84 ?  -38.269 -85.977 -68.446  0.00  0 84 C
+ATOM     8569    O  OE1 ?  GLU      C 90 ?  -40.977 -82.097 -71.551 -2.55  0 90 C
+ATOM     8506    C   CB ?  GLU      C 81 ?  -33.024 -82.521 -67.117  0.00  0 81 C
+ATOM     8490    C   CB ?  LEU      C 79 ?  -37.911 -78.243 -68.624  0.00  0 79 C
+ATOM     8567    C   CG ?  GLU      C 90 ?  -42.015 -81.982 -69.402  0.00  0 90 C
+ATOM     8520    O    O ?  SER      C 83 ?  -40.153 -84.240 -67.194  0.00  0 83 C
+ATOM     8523    N    N ?  LEU      C 84 ?  -38.230 -85.444 -67.078  0.00  0 84 C
+ATOM     8489    O    O ?  LEU      C 79 ?  -35.111 -77.927 -66.867 -6.17  0 79 C
+ATOM     8486    N    N ?  LEU      C 79 ?  -36.601 -76.172 -68.408 -0.42  0 79 C
 # 

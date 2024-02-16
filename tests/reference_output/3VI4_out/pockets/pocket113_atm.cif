@@ -15,7 +15,7 @@ Information about the pocket   113:
 6  - Hydrophobicity Score              : -9.6667
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 296.7589
+9  - Pocket volume (Monte Carlo)       : 307.5937
 10  -Pocket volume (convex hull)       : 12.9262
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 11.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,24 +37,25 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    21506    C   CG .  GLU   F .   89 ?   27.567 -19.652 -78.035  0.00  0   F
-ATOM    21493    O  OG1 .  THR   F .   87 ?   27.198 -16.638 -79.404 -1.07  0   F
-ATOM    21345    C   CE .  LYS   F .   67 ?   28.427 -13.397 -75.202  0.00  0   F
-ATOM    21346    N   NZ .  LYS   F .   67 ?   29.066 -12.797 -76.407 -1.26  0   F
-ATOM    21505    C   CB .  GLU   F .   89 ?   26.534 -19.165 -77.036  0.00  0   F
-ATOM    21344    C   CD .  LYS   F .   67 ?   29.356 -13.432 -74.001  0.00  0   F
-ATOM    21308    O    O .  LYS   F .   63 ?   32.034 -16.546 -69.862 -7.90  0   F
-ATOM    21323    C  CE2 .  PHE   F .   64 ?   26.443 -16.639 -70.107  0.00  0   F
-ATOM    21343    C   CG .  LYS   F .   67 ?   28.589 -13.156 -72.719  0.00  0   F
-ATOM    21324    C   CZ .  PHE   F .   64 ?   26.595 -17.924 -69.607  0.00  0   F
-ATOM    21111    N   NZ .  LYS   F .   38 ?   24.535 -18.820 -72.917 -2.61  0   F
-ATOM    21172    O  OE1 .  GLU   F .   46 ?   25.380 -21.501 -69.187 -3.21  0   F
-ATOM    21130    N  NH1 .  ARG   F .   40 ?   24.702 -22.157 -74.301 -4.54  0   F
-ATOM    21173    O  OE2 .  GLU   F .   46 ?   27.134 -20.777 -68.059 -4.29  0   F
-ATOM    21309    C   CB .  LYS   F .   63 ?   31.454 -19.087 -67.985  0.00  0   F
-ATOM    21322    C  CE1 .  PHE   F .   64 ?   27.510 -18.162 -68.594  0.00  0   F
-ATOM    21516    O  OD1 .  ASP   F .   90 ?   26.017 -15.491 -75.470 -2.14  0   F
-ATOM    21321    C  CD2 .  PHE   F .   64 ?   27.206 -15.595 -69.594  0.00  0   F
-ATOM    21311    C   CD .  LYS   F .   63 ?   31.038 -21.555 -67.748  0.00  0   F
+ATOM    21506    C   CG ?  GLU      H 89 ?   27.567 -19.652 -78.035  0.00  0 89 F
+ATOM    21493    O  OG1 ?  THR      H 87 ?   27.198 -16.638 -79.404 -1.07  0 87 F
+ATOM    21345    C   CE ?  LYS      H 67 ?   28.427 -13.397 -75.202  0.00  0 67 F
+ATOM    21346    N   NZ ?  LYS      H 67 ?   29.066 -12.797 -76.407 -1.26  0 67 F
+ATOM    21505    C   CB ?  GLU      H 89 ?   26.534 -19.165 -77.036  0.00  0 89 F
+ATOM    21344    C   CD ?  LYS      H 67 ?   29.356 -13.432 -74.001  0.00  0 67 F
+ATOM    21308    O    O ?  LYS      H 63 ?   32.034 -16.546 -69.862 -7.90  0 63 F
+ATOM    21323    C  CE2 ?  PHE      H 64 ?   26.443 -16.639 -70.107  0.00  0 64 F
+ATOM    21343    C   CG ?  LYS      H 67 ?   28.589 -13.156 -72.719  0.00  0 67 F
+ATOM    21324    C   CZ ?  PHE      H 64 ?   26.595 -17.924 -69.607  0.00  0 64 F
+ATOM    21111    N   NZ ?  LYS      H 38 ?   24.535 -18.820 -72.917 -2.61  0 38 F
+ATOM    21172    O  OE1 ?  GLU      H 46 ?   25.380 -21.501 -69.187 -3.21  0 46 F
+ATOM    21130    N  NH1 ?  ARG      H 40 ?   24.702 -22.157 -74.301 -4.54  0 40 F
+ATOM    21173    O  OE2 ?  GLU      H 46 ?   27.134 -20.777 -68.059 -4.29  0 46 F
+ATOM    21309    C   CB ?  LYS      H 63 ?   31.454 -19.087 -67.985  0.00  0 63 F
+ATOM    21322    C  CE1 ?  PHE      H 64 ?   27.510 -18.162 -68.594  0.00  0 64 F
+ATOM    21516    O  OD1 ?  ASP      H 90 ?   26.017 -15.491 -75.470 -2.14  0 90 F
+ATOM    21321    C  CD2 ?  PHE      H 64 ?   27.206 -15.595 -69.594  0.00  0 64 F
+ATOM    21311    C   CD ?  LYS      H 63 ?   31.038 -21.555 -67.748  0.00  0 63 F
 # 

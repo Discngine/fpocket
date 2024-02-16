@@ -15,7 +15,7 @@ Information about the pocket   146:
 6  - Hydrophobicity Score              : -1.9000
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 389.3343
+9  - Pocket volume (Monte Carlo)       : 381.2061
 10  -Pocket volume (convex hull)       : 26.6326
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,27 +37,28 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    19336    N  NE2 .  HIS   E .   31 ?   29.912 -21.214 -44.320  0.00  0   E
-ATOM     5084    C   CG .  GLU   B .   84 ?   30.958 -14.491 -46.015  0.00  0   B
-ATOM     5080    C   CA .  GLU   B .   84 ?   29.395 -15.811 -47.524  0.00  0   B
-ATOM     5088    N    N .  LYS   B .   85 ?   28.419 -16.904 -45.594  0.00  0   B
-ATOM     5091    O    O .  LYS   B .   85 ?   28.686 -17.387 -42.535 -0.40  0   B
-ATOM     5028    C  CG2 .  THR   B .   76 ?   29.964  -7.535 -40.426  0.00  0   B
-ATOM     5006    N   NZ .  LYS   B .   73 ?   33.426  -8.050 -37.090 -3.28  0   B
-ATOM     5062    N   NZ .  LYS   B .   80 ?   35.337 -10.236 -45.280  0.00  0   B
-ATOM     5005    C   CE .  LYS   B .   73 ?   33.897  -6.692 -37.476  0.00  0   B
-ATOM     5112    C   CE .  LYS   B .   87 ?   32.313 -19.803 -39.665  0.00  0   B
-ATOM     5110    C   CG .  LYS   B .   87 ?   31.307 -17.594 -39.077  0.00  0   B
-ATOM     5077    O    O .  ALA   B .   83 ?   28.603 -18.127 -48.810 -2.28  0   B
-ATOM     5104    C  CD2 .  LEU   B .   86 ?   30.122 -11.685 -42.012  0.00  0   B
-ATOM     5087    O  OE2 .  GLU   B .   84 ?   32.532 -13.053 -44.953 -1.48  0   B
-ATOM     5137    O  OD2 .  ASP   B .   90 ?   34.082 -12.604 -37.795  0.00  0   B
-ATOM     5105    N    N .  LYS   B .   87 ?   29.221 -15.805 -39.860 -1.09  0   B
-ATOM     5098    C   CA .  LEU   B .   86 ?   28.479 -14.687 -41.853  0.00  0   B
-ATOM     5136    O  OD1 .  ASP   B .   90 ?   32.699 -14.301 -38.071 -4.02  0   B
-ATOM     5134    C   CB .  ASP   B .   90 ?   31.797 -12.106 -38.268  0.00  0   B
-ATOM     5133    O    O .  ASP   B .   90 ?   30.930  -9.152 -37.571  0.00  0   B
-ATOM    19335    C  CE1 .  HIS   E .   31 ?   29.810 -21.336 -42.990  0.00  0   E
-ATOM     5135    C   CG .  ASP   B .   90 ?   32.945 -13.072 -38.032  0.00  0   B
+ATOM    19336    N  NE2 ?  HIS      G 31 ?   29.912 -21.214 -44.320  0.00  0 31 E
+ATOM     5084    C   CG ?  GLU      B 84 ?   30.958 -14.491 -46.015  0.00  0 84 B
+ATOM     5080    C   CA ?  GLU      B 84 ?   29.395 -15.811 -47.524  0.00  0 84 B
+ATOM     5088    N    N ?  LYS      B 85 ?   28.419 -16.904 -45.594  0.00  0 85 B
+ATOM     5091    O    O ?  LYS      B 85 ?   28.686 -17.387 -42.535 -0.40  0 85 B
+ATOM     5028    C  CG2 ?  THR      B 76 ?   29.964  -7.535 -40.426  0.00  0 76 B
+ATOM     5006    N   NZ ?  LYS      B 73 ?   33.426  -8.050 -37.090 -3.28  0 73 B
+ATOM     5062    N   NZ ?  LYS      B 80 ?   35.337 -10.236 -45.280  0.00  0 80 B
+ATOM     5005    C   CE ?  LYS      B 73 ?   33.897  -6.692 -37.476  0.00  0 73 B
+ATOM     5112    C   CE ?  LYS      B 87 ?   32.313 -19.803 -39.665  0.00  0 87 B
+ATOM     5110    C   CG ?  LYS      B 87 ?   31.307 -17.594 -39.077  0.00  0 87 B
+ATOM     5077    O    O ?  ALA      B 83 ?   28.603 -18.127 -48.810 -2.28  0 83 B
+ATOM     5104    C  CD2 ?  LEU      B 86 ?   30.122 -11.685 -42.012  0.00  0 86 B
+ATOM     5087    O  OE2 ?  GLU      B 84 ?   32.532 -13.053 -44.953 -1.48  0 84 B
+ATOM     5137    O  OD2 ?  ASP      B 90 ?   34.082 -12.604 -37.795  0.00  0 90 B
+ATOM     5105    N    N ?  LYS      B 87 ?   29.221 -15.805 -39.860 -1.09  0 87 B
+ATOM     5098    C   CA ?  LEU      B 86 ?   28.479 -14.687 -41.853  0.00  0 86 B
+ATOM     5136    O  OD1 ?  ASP      B 90 ?   32.699 -14.301 -38.071 -4.02  0 90 B
+ATOM     5134    C   CB ?  ASP      B 90 ?   31.797 -12.106 -38.268  0.00  0 90 B
+ATOM     5133    O    O ?  ASP      B 90 ?   30.930  -9.152 -37.571  0.00  0 90 B
+ATOM    19335    C  CE1 ?  HIS      G 31 ?   29.810 -21.336 -42.990  0.00  0 31 E
+ATOM     5135    C   CG ?  ASP      B 90 ?   32.945 -13.072 -38.032  0.00  0 90 B
 # 

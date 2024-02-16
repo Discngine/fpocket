@@ -15,7 +15,7 @@ Information about the pocket     8:
 6  - Hydrophobicity Score              : 19.0667
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 5.1333
-9  - Pocket volume (Monte Carlo)       : 494.8185
+9  - Pocket volume (Monte Carlo)       : 502.1282
 10  -Pocket volume (convex hull)       : 66.4378
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 12.1429
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,35 +37,36 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1657    C   CA .  MET   A .  208 ?   -9.248  24.700 -18.712  0.00  0   A
-ATOM     1669    C   CE .  MET   A .  208 ?   -6.262  22.586 -16.002  0.00  0   A
-ATOM     1665    C   CG .  MET   A .  208 ?   -7.680  24.820 -16.724  0.00  0   A
-ATOM     1394    C  CH2 .  TRP   A .  175 ?  -11.393  22.502 -13.856  0.00  0   A
-ATOM     1677    C   CD .  PRO   A .  209 ?  -11.337  25.116 -16.524  0.00  0   A
-ATOM     1606    O  OE1 .  GLU   A .  201 ?  -14.159  21.507 -17.496  0.00  0   A
-ATOM     1091    C   CZ .  ARG   A .  137 ?  -12.655  18.869 -11.687  0.00  0   A
-ATOM     1092    N  NH1 .  ARG   A .  137 ?  -12.380  19.633 -12.732 -2.19  0   A
-ATOM     1339    O    O .  LYS   A .  170 ?   -8.397  18.895  -6.738 -6.43  0   A
-ATOM     1090    N   NE .  ARG   A .  137 ?  -12.452  17.555 -11.740 -3.28  0   A
-ATOM     1357    C   CA .  PRO   A .  172 ?  -11.232  22.276  -7.751  0.00  0   A
-ATOM     1093    N  NH2 .  ARG   A .  137 ?  -13.081  19.435 -10.567 -1.09  0   A
-ATOM     1342    C   CD .  LYS   A .  170 ?   -4.458  16.786  -8.208  0.00  0   A
-ATOM     1089    C   CD .  ARG   A .  137 ?  -12.062  16.828 -12.957  0.00  0   A
-ATOM     1299    O   OH .  TYR   A .  163 ?   -6.138  13.323  -7.763 -0.95  0   A
-ATOM     1297    C  CE2 .  TYR   A .  163 ?   -7.970  14.534  -6.826  0.00  0   A
-ATOM     1333    O    O .  SER   A .  169 ?   -4.138  20.837  -7.381  0.00  0   A
-ATOM     1338    C    C .  LYS   A .  170 ?   -7.430  19.429  -6.169  0.00  0   A
-ATOM     1348    O    O .  PHE   A .  171 ?   -8.589  22.370  -6.951 -1.48  0   A
-ATOM      730    C  CD2 .  LEU   A .   95 ?  -11.287  17.850 -18.599  0.00  0   A
-ATOM     1392    C  CZ2 .  TRP   A .  175 ?  -12.647  22.522 -14.434  0.00  0   A
-ATOM     1337    C   CA .  LYS   A .  170 ?   -6.019  18.949  -6.464  0.00  0   A
-ATOM      769    N  NH2 .  ARG   A .   99 ?   -8.845  20.416 -20.251 -4.37  0   A
-ATOM      768    N  NH1 .  ARG   A .   99 ?   -8.194  18.291 -20.837  0.00  0   A
-ATOM     1377    N   NE .  ARG   A .  174 ?   -6.914  25.897 -12.731  0.00  0   A
-ATOM     1393    C  CZ3 .  TRP   A .  175 ?  -11.224  22.717 -12.475  0.00  0   A
-ATOM     1376    C   CD .  ARG   A .  174 ?   -8.358  25.753 -12.947  0.00  0   A
-ATOM     1734    O  OD1 .  ASN   A .  215 ?   -6.364  25.754  -9.874 -3.21  0   A
-ATOM     1735    N  ND2 .  ASN   A .  215 ?   -5.010  24.434  -8.604  0.00  0   A
-ATOM     1363    N    N .  VAL   A .  173 ?  -10.296  24.500  -7.358  0.00  0   A
+ATOM     1657    C   CA A  MET      A 208 ?   -9.248  24.700 -18.712  0.00  0 596 A
+ATOM     1669    C   CE A  MET      A 208 ?   -6.262  22.586 -16.002  0.00  0 596 A
+ATOM     1665    C   CG A  MET      A 208 ?   -7.680  24.820 -16.724  0.00  0 596 A
+ATOM     1394    C  CH2 ?  TRP      A 175 ?  -11.393  22.502 -13.856  0.00  0 563 A
+ATOM     1677    C   CD ?  PRO      A 209 ?  -11.337  25.116 -16.524  0.00  0 597 A
+ATOM     1606    O  OE1 ?  GLU      A 201 ?  -14.159  21.507 -17.496  0.00  0 589 A
+ATOM     1091    C   CZ ?  ARG      A 137 ?  -12.655  18.869 -11.687  0.00  0 525 A
+ATOM     1092    N  NH1 ?  ARG      A 137 ?  -12.380  19.633 -12.732 -2.19  0 525 A
+ATOM     1339    O    O ?  LYS      A 170 ?   -8.397  18.895  -6.738 -6.43  0 558 A
+ATOM     1090    N   NE ?  ARG      A 137 ?  -12.452  17.555 -11.740 -3.28  0 525 A
+ATOM     1357    C   CA ?  PRO      A 172 ?  -11.232  22.276  -7.751  0.00  0 560 A
+ATOM     1093    N  NH2 ?  ARG      A 137 ?  -13.081  19.435 -10.567 -1.09  0 525 A
+ATOM     1342    C   CD ?  LYS      A 170 ?   -4.458  16.786  -8.208  0.00  0 558 A
+ATOM     1089    C   CD ?  ARG      A 137 ?  -12.062  16.828 -12.957  0.00  0 525 A
+ATOM     1299    O   OH ?  TYR      A 163 ?   -6.138  13.323  -7.763 -0.95  0 551 A
+ATOM     1297    C  CE2 ?  TYR      A 163 ?   -7.970  14.534  -6.826  0.00  0 551 A
+ATOM     1333    O    O ?  SER      A 169 ?   -4.138  20.837  -7.381  0.00  0 557 A
+ATOM     1338    C    C ?  LYS      A 170 ?   -7.430  19.429  -6.169  0.00  0 558 A
+ATOM     1348    O    O ?  PHE      A 171 ?   -8.589  22.370  -6.951 -1.48  0 559 A
+ATOM      730    C  CD2 ?  LEU      A 95 ?  -11.287  17.850 -18.599  0.00  0 483 A
+ATOM     1392    C  CZ2 ?  TRP      A 175 ?  -12.647  22.522 -14.434  0.00  0 563 A
+ATOM     1337    C   CA ?  LYS      A 170 ?   -6.019  18.949  -6.464  0.00  0 558 A
+ATOM      769    N  NH2 ?  ARG      A 99 ?   -8.845  20.416 -20.251 -4.37  0 487 A
+ATOM      768    N  NH1 ?  ARG      A 99 ?   -8.194  18.291 -20.837  0.00  0 487 A
+ATOM     1377    N   NE ?  ARG      A 174 ?   -6.914  25.897 -12.731  0.00  0 562 A
+ATOM     1393    C  CZ3 ?  TRP      A 175 ?  -11.224  22.717 -12.475  0.00  0 563 A
+ATOM     1376    C   CD ?  ARG      A 174 ?   -8.358  25.753 -12.947  0.00  0 562 A
+ATOM     1734    O  OD1 ?  ASN      A 215 ?   -6.364  25.754  -9.874 -3.21  0 603 A
+ATOM     1735    N  ND2 ?  ASN      A 215 ?   -5.010  24.434  -8.604  0.00  0 603 A
+ATOM     1363    N    N ?  VAL      A 173 ?  -10.296  24.500  -7.358  0.00  0 561 A
 # 

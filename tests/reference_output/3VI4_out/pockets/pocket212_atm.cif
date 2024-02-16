@@ -15,7 +15,7 @@ Information about the pocket   212:
 6  - Hydrophobicity Score              : 12.5000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.7000
-9  - Pocket volume (Monte Carlo)       : 264.7692
+9  - Pocket volume (Monte Carlo)       : 269.9958
 10  -Pocket volume (convex hull)       : 9.6504
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,22 +37,23 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     9206    O    O .  PHE   C .  172 ?  -18.821 -49.274 -63.920 -2.95  0   C
-ATOM     8709    O    O .  ALA   C .  107 ?  -21.894 -48.526 -69.511 -0.81  0   C
-ATOM     8717    N  ND1 .  HIS   C .  108 ?  -17.087 -48.611 -69.536 -3.28  0   C
-ATOM     9207    C   CB .  PHE   C .  172 ?  -19.836 -50.890 -66.415  0.00  0   C
-ATOM    11104    N  NH2 .  ARG   C .  423 ?  -19.281 -44.852 -70.601 -3.03  0   C
-ATOM     9222    C   CA .  LYS   C .  174 ?  -13.622 -48.019 -66.232  0.00  0   C
-ATOM     8719    C  CE1 .  HIS   C .  108 ?  -15.743 -48.598 -69.666  0.00  0   C
-ATOM    11085    N  NH2 .  ARG   C .  420 ?  -24.008 -45.962 -65.426 -4.12  0   C
-ATOM     9201    O  OE1 .  GLU   C .  171 ?  -22.573 -46.597 -61.954  0.00  0   C
-ATOM    11084    N  NH1 .  ARG   C .  420 ?  -24.065 -43.696 -65.086 -4.79  0   C
-ATOM     9200    C   CD .  GLU   C .  171 ?  -22.213 -47.666 -62.497  0.00  0   C
-ATOM     9202    O  OE2 .  GLU   C .  171 ?  -22.618 -48.003 -63.629 -2.55  0   C
-ATOM     9216    C    C .  THR   C .  173 ?  -15.538 -49.404 -65.448  0.00  0   C
-ATOM     9217    O    O .  THR   C .  173 ?  -15.911 -49.726 -66.575 -1.07  0   C
-ATOM     9723    C  CG2 .  VAL   C .  237 ?  -17.719 -47.460 -61.079  0.00  0   C
-ATOM     9221    N    N .  LYS   C .  174 ?  -14.578 -48.515 -65.234 -2.19  0   C
-ATOM     9789    O  OE2 .  GLU   C .  246 ?  -13.963 -45.733 -62.885 -1.21  0   C
+ATOM     9206    O    O ?  PHE      C 172 ?  -18.821 -49.274 -63.920 -2.95  0 172 C
+ATOM     8709    O    O ?  ALA      C 107 ?  -21.894 -48.526 -69.511 -0.81  0 107 C
+ATOM     8717    N  ND1 ?  HIS      C 108 ?  -17.087 -48.611 -69.536 -3.28  0 108 C
+ATOM     9207    C   CB ?  PHE      C 172 ?  -19.836 -50.890 -66.415  0.00  0 172 C
+ATOM    11104    N  NH2 ?  ARG      C 423 ?  -19.281 -44.852 -70.601 -3.03  0 423 C
+ATOM     9222    C   CA ?  LYS      C 174 ?  -13.622 -48.019 -66.232  0.00  0 174 C
+ATOM     8719    C  CE1 ?  HIS      C 108 ?  -15.743 -48.598 -69.666  0.00  0 108 C
+ATOM    11085    N  NH2 ?  ARG      C 420 ?  -24.008 -45.962 -65.426 -4.12  0 420 C
+ATOM     9201    O  OE1 ?  GLU      C 171 ?  -22.573 -46.597 -61.954  0.00  0 171 C
+ATOM    11084    N  NH1 ?  ARG      C 420 ?  -24.065 -43.696 -65.086 -4.79  0 420 C
+ATOM     9200    C   CD ?  GLU      C 171 ?  -22.213 -47.666 -62.497  0.00  0 171 C
+ATOM     9202    O  OE2 ?  GLU      C 171 ?  -22.618 -48.003 -63.629 -2.55  0 171 C
+ATOM     9216    C    C ?  THR      C 173 ?  -15.538 -49.404 -65.448  0.00  0 173 C
+ATOM     9217    O    O ?  THR      C 173 ?  -15.911 -49.726 -66.575 -1.07  0 173 C
+ATOM     9723    C  CG2 ?  VAL      C 237 ?  -17.719 -47.460 -61.079  0.00  0 237 C
+ATOM     9221    N    N ?  LYS      C 174 ?  -14.578 -48.515 -65.234 -2.19  0 174 C
+ATOM     9789    O  OE2 ?  GLU      C 246 ?  -13.963 -45.733 -62.885 -1.21  0 246 C
 # 

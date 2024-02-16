@@ -15,7 +15,7 @@ Information about the pocket    93:
 6  - Hydrophobicity Score              : 10.8571
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 206.9189
+9  - Pocket volume (Monte Carlo)       : 199.9782
 10  -Pocket volume (convex hull)       : 3.0878
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5028    C  CG2 .  THR   B .   76 ?   29.964  -7.535 -40.426  0.00  0   B
-ATOM     5104    C  CD2 .  LEU   B .   86 ?   30.122 -11.685 -42.012  0.00  0   B
-ATOM     5032    O    O .  ASN   B .   77 ?   29.030  -7.119 -45.411 -2.95  0   B
-ATOM     5062    N   NZ .  LYS   B .   80 ?   35.337 -10.236 -45.280  0.00  0   B
-ATOM     5060    C   CD .  LYS   B .   80 ?   33.832 -10.887 -47.168  0.00  0   B
-ATOM     5061    C   CE .  LYS   B .   80 ?   35.050 -10.076 -46.737  0.00  0   B
-ATOM     5035    O  OD1 .  ASN   B .   77 ?   31.149  -5.141 -46.771 -1.07  0   B
-ATOM     5029    N    N .  ASN   B .   77 ?   29.142  -4.903 -43.881 -1.09  0   B
-ATOM     5036    N  ND2 .  ASN   B .   77 ?   31.600  -3.171 -45.800 -2.77  0   B
-ATOM     5011    C   CB .  ASN   B .   74 ?   33.197  -0.911 -40.697  0.00  0   B
-ATOM     5018    O    O .  VAL   B .   75 ?   29.653  -2.741 -41.833 -1.07  0   B
-ATOM     5010    O    O .  ASN   B .   74 ?   31.633  -3.174 -39.046 -0.14  0   B
-ATOM     5086    O  OE1 .  GLU   B .   84 ?   30.884 -12.091 -46.063 -1.07  0   B
-ATOM     5087    O  OE2 .  GLU   B .   84 ?   32.532 -13.053 -44.953 -1.48  0   B
-ATOM     5023    C   CA .  THR   B .   76 ?   29.129  -5.420 -41.520  0.00  0   B
+ATOM     5028    C  CG2 ?  THR      B 76 ?   29.964  -7.535 -40.426  0.00  0 76 B
+ATOM     5104    C  CD2 ?  LEU      B 86 ?   30.122 -11.685 -42.012  0.00  0 86 B
+ATOM     5032    O    O ?  ASN      B 77 ?   29.030  -7.119 -45.411 -2.95  0 77 B
+ATOM     5062    N   NZ ?  LYS      B 80 ?   35.337 -10.236 -45.280  0.00  0 80 B
+ATOM     5060    C   CD ?  LYS      B 80 ?   33.832 -10.887 -47.168  0.00  0 80 B
+ATOM     5061    C   CE ?  LYS      B 80 ?   35.050 -10.076 -46.737  0.00  0 80 B
+ATOM     5035    O  OD1 ?  ASN      B 77 ?   31.149  -5.141 -46.771 -1.07  0 77 B
+ATOM     5029    N    N ?  ASN      B 77 ?   29.142  -4.903 -43.881 -1.09  0 77 B
+ATOM     5036    N  ND2 ?  ASN      B 77 ?   31.600  -3.171 -45.800 -2.77  0 77 B
+ATOM     5011    C   CB ?  ASN      B 74 ?   33.197  -0.911 -40.697  0.00  0 74 B
+ATOM     5018    O    O ?  VAL      B 75 ?   29.653  -2.741 -41.833 -1.07  0 75 B
+ATOM     5010    O    O ?  ASN      B 74 ?   31.633  -3.174 -39.046 -0.14  0 74 B
+ATOM     5086    O  OE1 ?  GLU      B 84 ?   30.884 -12.091 -46.063 -1.07  0 84 B
+ATOM     5087    O  OE2 ?  GLU      B 84 ?   32.532 -13.053 -44.953 -1.48  0 84 B
+ATOM     5023    C   CA ?  THR      B 76 ?   29.129  -5.420 -41.520  0.00  0 76 B
 # 

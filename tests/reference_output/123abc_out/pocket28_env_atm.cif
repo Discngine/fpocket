@@ -8,7 +8,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -16,29 +15,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5121    O    O .  LEU   C .  127 ?   50.397  68.122  19.530  0.00  0   C
-ATOM     5127    C   CA .  GLU   C .  128 ?   48.268  67.988  21.395  0.00  0   C
-ATOM     5128    C    C .  GLU   C .  128 ?   48.593  69.482  21.560  0.00  0   C
-ATOM     5129    O    O .  GLU   C .  128 ?   48.054  70.332  20.849 -1.48  0   C
-ATOM     5153    N    N .  ASN   C .  131 ?   50.135  71.066  18.529  0.00  0   C
-ATOM     5154    C   CA .  ASN   C .  131 ?   49.335  70.969  17.293  0.00  0   C
-ATOM     5155    C    C .  ASN   C .  131 ?   49.791  69.967  16.216  0.00  0   C
-ATOM     5156    O    O .  ASN   C .  131 ?   49.458  70.110  15.000 -2.55  0   C
-ATOM     5157    C   CB .  ASN   C .  131 ?   49.099  72.344  16.675  0.00  0   C
-ATOM     5158    C   CG .  ASN   C .  131 ?   48.068  73.136  17.435  0.00  0   C
-ATOM     5159    O  OD1 .  ASN   C .  131 ?   46.848  72.862  17.330  0.00  0   C
-ATOM     5161    N    N .  PHE   C .  132 ?   50.528  68.950  16.668  0.00  0   C
-ATOM     5163    C    C .  PHE   C .  132 ?   49.677  66.798  16.013  0.00  0   C
-ATOM     5164    O    O .  PHE   C .  132 ?   48.967  66.829  17.018  0.00  0   C
-ATOM     5177    C  CG1 .  ILE   C .  133 ?   46.547  66.252  14.171  0.00  0   C
-ATOM     5179    C  CD1 .  ILE   C .  133 ?   45.747  66.718  12.918  0.00  0   C
-ATOM     5590    C   CA .  SER   C .  190 ?   42.695  65.333  13.987  0.00  0   C
-ATOM     5591    C    C .  SER   C .  190 ?   43.234  64.721  15.300  0.00  0   C
-ATOM     5593    C   CB .  SER   C .  190 ?   41.413  66.119  14.252  0.00  0   C
-ATOM     5595    N    N .  ILE   C .  191 ?   43.539  65.578  16.244  0.00  0   C
-ATOM     5596    C   CA .  ILE   C .  191 ?   43.914  65.163  17.570  0.00  0   C
-ATOM     5599    C   CB .  ILE   C .  191 ?   44.408  66.418  18.397  0.00  0   C
-ATOM     5600    C  CG1 .  ILE   C .  191 ?   45.611  66.019  19.250  0.00  0   C
-ATOM     5601    C  CG2 .  ILE   C .  191 ?   43.280  67.132  19.172  0.00  0   C
+ATOM     5121    O    O ?  LEU    Cxp 127 ?   50.397  68.122  19.530  0.00  0 354 C
+ATOM     5127    C   CA ?  GLU    Cxp 128 ?   48.268  67.988  21.395  0.00  0 355 C
+ATOM     5128    C    C ?  GLU    Cxp 128 ?   48.593  69.482  21.560  0.00  0 355 C
+ATOM     5129    O    O ?  GLU    Cxp 128 ?   48.054  70.332  20.849 -1.48  0 355 C
+ATOM     5153    N    N ?  ASN    Cxp 131 ?   50.135  71.066  18.529  0.00  0 358 C
+ATOM     5154    C   CA ?  ASN    Cxp 131 ?   49.335  70.969  17.293  0.00  0 358 C
+ATOM     5155    C    C ?  ASN    Cxp 131 ?   49.791  69.967  16.216  0.00  0 358 C
+ATOM     5156    O    O ?  ASN    Cxp 131 ?   49.458  70.110  15.000 -2.55  0 358 C
+ATOM     5157    C   CB ?  ASN    Cxp 131 ?   49.099  72.344  16.675  0.00  0 358 C
+ATOM     5158    C   CG ?  ASN    Cxp 131 ?   48.068  73.136  17.435  0.00  0 358 C
+ATOM     5159    O  OD1 ?  ASN    Cxp 131 ?   46.848  72.862  17.330  0.00  0 358 C
+ATOM     5161    N    N ?  PHE    Cxp 132 ?   50.528  68.950  16.668  0.00  0 359 C
+ATOM     5163    C    C ?  PHE    Cxp 132 ?   49.677  66.798  16.013  0.00  0 359 C
+ATOM     5164    O    O ?  PHE    Cxp 132 ?   48.967  66.829  17.018  0.00  0 359 C
+ATOM     5177    C  CG1 ?  ILE    Cxp 133 ?   46.547  66.252  14.171  0.00  0 360 C
+ATOM     5179    C  CD1 ?  ILE    Cxp 133 ?   45.747  66.718  12.918  0.00  0 360 C
+ATOM     5590    C   CA ?  SER    Cxp 190 ?   42.695  65.333  13.987  0.00  0 417 C
+ATOM     5591    C    C ?  SER    Cxp 190 ?   43.234  64.721  15.300  0.00  0 417 C
+ATOM     5593    C   CB ?  SER    Cxp 190 ?   41.413  66.119  14.252  0.00  0 417 C
+ATOM     5595    N    N ?  ILE    Cxp 191 ?   43.539  65.578  16.244  0.00  0 418 C
+ATOM     5596    C   CA ?  ILE    Cxp 191 ?   43.914  65.163  17.570  0.00  0 418 C
+ATOM     5599    C   CB ?  ILE    Cxp 191 ?   44.408  66.418  18.397  0.00  0 418 C
+ATOM     5600    C  CG1 ?  ILE    Cxp 191 ?   45.611  66.019  19.250  0.00  0 418 C
+ATOM     5601    C  CG2 ?  ILE    Cxp 191 ?   43.280  67.132  19.172  0.00  0 418 C
 #

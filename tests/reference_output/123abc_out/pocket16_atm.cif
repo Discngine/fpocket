@@ -15,7 +15,7 @@ Information about the pocket    16:
 6  - Hydrophobicity Score              : 11.6923
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.5385
-9  - Pocket volume (Monte Carlo)       : 380.3267
+9  - Pocket volume (Monte Carlo)       : 384.1161
 10  -Pocket volume (convex hull)       : 34.1542
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 6.5000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,26 +37,27 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7853    C   CA .  SER   D .  211 ?   42.974  31.063  42.423  0.00  0   D
-ATOM     7600    C  CH2 .  TRP   D .  178 ?   43.960  26.363  45.206  0.00  0   D
-ATOM     7847    O    O .  MET   D .  210 ?   44.036  29.741  40.141 -1.07  0   D
-ATOM     7857    O   OG .  SER   D .  211 ?   44.316  32.109  43.942  0.00  0   D
-ATOM     7598    C  CZ2 .  TRP   D .  178 ?   44.202  25.607  44.069  0.00  0   D
-ATOM     7864    C   CD .  PRO   D .  212 ?   41.974  28.366  43.102  0.00  0   D
-ATOM     7302    C   CB .  ARG   D .  140 ?   50.864  24.591  44.728  0.00  0   D
-ATOM     6415    N  NE2 .  GLN   D .   25 ?   56.420  27.531  45.718 -0.42  0   D
-ATOM     6936    N  ND2 .  ASN   D .   95 ?   54.321  26.577  41.672  0.00  0   D
-ATOM     6952    C  CD2 .  LEU   D .   97 ?   49.815  28.277  43.031  0.00  0   D
-ATOM     7493    O  OG1 .  THR   D .  165 ?   46.860  28.337  49.111 -0.95  0   D
-ATOM     7307    N  NH1 .  ARG   D .  140 ?   46.275  24.168  46.062  0.00  0   D
-ATOM     7304    C   CD .  ARG   D .  140 ?   49.165  24.333  46.741  0.00  0   D
-ATOM     7468    C   CE .  MET   D .  161 ?   51.743  26.507  49.224  0.00  0   D
-ATOM     6959    O  OD1 .  ASP   D .   98 ?   54.141  30.867  42.252 -4.02  0   D
-ATOM     7806    O  OE1 .  GLU   D .  204 ?   46.278  25.826  41.102 -2.14  0   D
-ATOM     6960    O  OD2 .  ASP   D .   98 ?   55.820  29.536  42.600 -2.55  0   D
-ATOM     6991    N  NH2 .  ARG   D .  101 ?   47.806  31.880  42.344 -2.61  0   D
-ATOM     6951    C  CD1 .  LEU   D .   97 ?   48.963  28.362  40.622  0.00  0   D
-ATOM     6990    N  NH1 .  ARG   D .  101 ?   49.983  32.573  42.931 -3.70  0   D
-ATOM     7467    S   SD .  MET   D .  161 ?   50.163  27.152  49.858  0.00  0   D
+ATOM     7853    C   CA ?  SER    Dxp 211 ?   42.974  31.063  42.423  0.00  0 438 D
+ATOM     7600    C  CH2 ?  TRP    Dxp 178 ?   43.960  26.363  45.206  0.00  0 405 D
+ATOM     7847    O    O ?  MET    Dxp 210 ?   44.036  29.741  40.141 -1.07  0 437 D
+ATOM     7857    O   OG ?  SER    Dxp 211 ?   44.316  32.109  43.942  0.00  0 438 D
+ATOM     7598    C  CZ2 ?  TRP    Dxp 178 ?   44.202  25.607  44.069  0.00  0 405 D
+ATOM     7864    C   CD ?  PRO    Dxp 212 ?   41.974  28.366  43.102  0.00  0 439 D
+ATOM     7302    C   CB ?  ARG    Dxp 140 ?   50.864  24.591  44.728  0.00  0 367 D
+ATOM     6415    N  NE2 ?  GLN    Dxp 25 ?   56.420  27.531  45.718 -0.42  0 252 D
+ATOM     6936    N  ND2 ?  ASN    Dxp 95 ?   54.321  26.577  41.672  0.00  0 322 D
+ATOM     6952    C  CD2 ?  LEU    Dxp 97 ?   49.815  28.277  43.031  0.00  0 324 D
+ATOM     7493    O  OG1 ?  THR    Dxp 165 ?   46.860  28.337  49.111 -0.95  0 392 D
+ATOM     7307    N  NH1 ?  ARG    Dxp 140 ?   46.275  24.168  46.062  0.00  0 367 D
+ATOM     7304    C   CD ?  ARG    Dxp 140 ?   49.165  24.333  46.741  0.00  0 367 D
+ATOM     7468    C   CE ?  MET    Dxp 161 ?   51.743  26.507  49.224  0.00  0 388 D
+ATOM     6959    O  OD1 ?  ASP    Dxp 98 ?   54.141  30.867  42.252 -4.02  0 325 D
+ATOM     7806    O  OE1 ?  GLU    Dxp 204 ?   46.278  25.826  41.102 -2.14  0 431 D
+ATOM     6960    O  OD2 ?  ASP    Dxp 98 ?   55.820  29.536  42.600 -2.55  0 325 D
+ATOM     6991    N  NH2 ?  ARG    Dxp 101 ?   47.806  31.880  42.344 -2.61  0 328 D
+ATOM     6951    C  CD1 ?  LEU    Dxp 97 ?   48.963  28.362  40.622  0.00  0 324 D
+ATOM     6990    N  NH1 ?  ARG    Dxp 101 ?   49.983  32.573  42.931 -3.70  0 328 D
+ATOM     7467    S   SD ?  MET    Dxp 161 ?   50.163  27.152  49.858  0.00  0 388 D
 # 

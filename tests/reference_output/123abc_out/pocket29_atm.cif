@@ -15,7 +15,7 @@ Information about the pocket    29:
 6  - Hydrophobicity Score              : 23.8333
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.0833
-9  - Pocket volume (Monte Carlo)       : 280.7122
+9  - Pocket volume (Monte Carlo)       : 292.0307
 10  -Pocket volume (convex hull)       : 12.3014
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,23 +37,24 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      633    C  CE1 .  PHE   A .   90 ?   23.219   7.620  12.523  0.00  0   A
-ATOM      115    C  CD2 .  LEU   A .   21 ?   23.833   8.296  15.998  0.00  0   A
-ATOM      116    N    N .  GLY   A .   22 ?   26.977  10.989  17.772  0.00  0   A
-ATOM      664    C   CA .  GLY   A .   94 ?   24.159  13.940  10.732  0.00  0   A
-ATOM      148    O   OH .  TYR   A .   26 ?   24.138  15.654  15.314  0.00  0   A
-ATOM      667    N    N .  ASN   A .   95 ?   23.996  16.143  11.694  0.00  0   A
-ATOM      673    O  OD1 .  ASN   A .   95 ?   25.880  18.114  13.960 -2.14  0   A
-ATOM      135    O  OE1 .  GLN   A .   25 ?   27.558  15.740  17.545 -2.14  0   A
-ATOM      117    C   CA .  GLY   A .   22 ?   27.711  12.259  17.704  0.00  0   A
-ATOM      635    C   CZ .  PHE   A .   90 ?   23.754   7.359  11.279  0.00  0   A
-ATOM      639    O    O .  MET   A .   91 ?   22.317  10.826   9.705  0.00  0   A
-ATOM      647    O    O .  THR   A .   92 ?   25.377  10.176   8.230  0.00  0   A
-ATOM      698    O  OD2 .  ASP   A .   98 ?   28.581  18.421  13.874  0.00  0   A
-ATOM      695    C   CB .  ASP   A .   98 ?   28.818  18.983  11.564  0.00  0   A
-ATOM      654    O    O .  TYR   A .   93 ?   25.886  14.436   8.543 -2.95  0   A
-ATOM      737    O  OE1 .  GLU   A .  102 ?   31.683  16.733   9.180  0.00  0   A
-ATOM      738    O  OE2 .  GLU   A .  102 ?   32.646  17.951  10.762 -1.88  0   A
-ATOM      145    C  CE1 .  TYR   A .   26 ?   24.215  14.118  17.108  0.00  0   A
+ATOM      633    C  CE1 ?  PHE    Axp 90 ?   23.219   7.620  12.523  0.00  0 317 A
+ATOM      115    C  CD2 ?  LEU    Axp 21 ?   23.833   8.296  15.998  0.00  0 248 A
+ATOM      116    N    N ?  GLY    Axp 22 ?   26.977  10.989  17.772  0.00  0 249 A
+ATOM      664    C   CA ?  GLY    Axp 94 ?   24.159  13.940  10.732  0.00  0 321 A
+ATOM      148    O   OH ?  TYR    Axp 26 ?   24.138  15.654  15.314  0.00  0 253 A
+ATOM      667    N    N ?  ASN    Axp 95 ?   23.996  16.143  11.694  0.00  0 322 A
+ATOM      673    O  OD1 ?  ASN    Axp 95 ?   25.880  18.114  13.960 -2.14  0 322 A
+ATOM      135    O  OE1 ?  GLN    Axp 25 ?   27.558  15.740  17.545 -2.14  0 252 A
+ATOM      117    C   CA ?  GLY    Axp 22 ?   27.711  12.259  17.704  0.00  0 249 A
+ATOM      635    C   CZ ?  PHE    Axp 90 ?   23.754   7.359  11.279  0.00  0 317 A
+ATOM      639    O    O ?  MET    Axp 91 ?   22.317  10.826   9.705  0.00  0 318 A
+ATOM      647    O    O ?  THR    Axp 92 ?   25.377  10.176   8.230  0.00  0 319 A
+ATOM      698    O  OD2 ?  ASP    Axp 98 ?   28.581  18.421  13.874  0.00  0 325 A
+ATOM      695    C   CB ?  ASP    Axp 98 ?   28.818  18.983  11.564  0.00  0 325 A
+ATOM      654    O    O ?  TYR    Axp 93 ?   25.886  14.436   8.543 -2.95  0 320 A
+ATOM      737    O  OE1 ?  GLU    Axp 102 ?   31.683  16.733   9.180  0.00  0 329 A
+ATOM      738    O  OE2 ?  GLU    Axp 102 ?   32.646  17.951  10.762 -1.88  0 329 A
+ATOM      145    C  CE1 ?  TYR    Axp 26 ?   24.215  14.118  17.108  0.00  0 253 A
 # 

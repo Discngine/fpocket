@@ -15,7 +15,7 @@ Information about the pocket   220:
 6  - Hydrophobicity Score              : 9.8182
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.3636
-9  - Pocket volume (Monte Carlo)       : 376.5864
+9  - Pocket volume (Monte Carlo)       : 385.5730
 10  -Pocket volume (convex hull)       : 35.6884
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 17.5789
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,28 +37,29 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    21137    C   CG .  PRO   F .   41 ?   16.830 -23.709 -76.469  0.00  0   F
-ATOM    21128    N   NE .  ARG   F .   40 ?   23.001 -22.871 -75.714  0.00  0   F
-ATOM    21498    O    O .  SER   F .   88 ?   22.667 -19.411 -78.967 -2.69  0   F
-ATOM    21127    C   CD .  ARG   F .   40 ?   22.022 -21.837 -75.341  0.00  0   F
-ATOM    21521    O    O .  SER   F .   91 ?   19.839 -19.402 -76.320 -2.14  0   F
-ATOM    21522    C   CB .  SER   F .   91 ?   19.937 -17.878 -78.896  0.00  0   F
-ATOM    21523    O   OG .  SER   F .   91 ?   18.817 -17.337 -79.564 -0.54  0   F
-ATOM    21138    C   CD .  PRO   F .   41 ?   17.679 -23.103 -75.379  0.00  0   F
-ATOM    21136    C   CB .  PRO   F .   41 ?   16.715 -25.176 -76.188  0.00  0   F
-ATOM    21139    N    N .  GLY   F .   42 ?   18.696 -26.857 -74.502 -0.42  0   F
-ATOM    21119    O  OE1 .  GLN   F .   39 ?   14.445 -22.908 -70.506 -0.95  0   F
-ATOM    21535    C  CG2 .  VAL   F .   93 ?   13.539 -18.826 -72.724  0.00  0   F
-ATOM    21115    O    O .  GLN   F .   39 ?   17.574 -21.060 -71.877  0.00  0   F
-ATOM    21520    C    C .  SER   F .   91 ?   19.482 -18.221 -76.414  0.00  0   F
-ATOM    21711    C  CG2 .  THR   F .  115 ?   14.928 -16.722 -80.124  0.00  0   F
-ATOM    21133    C   CA .  PRO   F .   41 ?   16.846 -25.272 -74.673  0.00  0   F
-ATOM    22183    O   OH .  TYR   F .  180 ?   13.787 -19.151 -83.313 -1.07  0   F
-ATOM    21525    C   CA .  ALA   F .   92 ?   18.046 -18.381 -74.429  0.00  0   F
-ATOM    21529    N    N .  VAL   F .   93 ?   16.359 -18.211 -72.717 -1.09  0   F
-ATOM    21526    C    C .  ALA   F .   92 ?   16.894 -17.638 -73.790  0.00  0   F
-ATOM    21696    C   CB .  SER   F .  113 ?   12.945 -15.837 -75.173  0.00  0   F
-ATOM    21527    O    O .  ALA   F .   92 ?   16.490 -16.583 -74.261 -1.07  0   F
-ATOM    21524    N    N .  ALA   F .   92 ?   18.599 -17.663 -75.584  0.00  0   F
+ATOM    21137    C   CG ?  PRO      H 41 ?   16.830 -23.709 -76.469  0.00  0 41 F
+ATOM    21128    N   NE ?  ARG      H 40 ?   23.001 -22.871 -75.714  0.00  0 40 F
+ATOM    21498    O    O ?  SER      H 88 ?   22.667 -19.411 -78.967 -2.69  0 88 F
+ATOM    21127    C   CD ?  ARG      H 40 ?   22.022 -21.837 -75.341  0.00  0 40 F
+ATOM    21521    O    O ?  SER      H 91 ?   19.839 -19.402 -76.320 -2.14  0 91 F
+ATOM    21522    C   CB ?  SER      H 91 ?   19.937 -17.878 -78.896  0.00  0 91 F
+ATOM    21523    O   OG ?  SER      H 91 ?   18.817 -17.337 -79.564 -0.54  0 91 F
+ATOM    21138    C   CD ?  PRO      H 41 ?   17.679 -23.103 -75.379  0.00  0 41 F
+ATOM    21136    C   CB ?  PRO      H 41 ?   16.715 -25.176 -76.188  0.00  0 41 F
+ATOM    21139    N    N ?  GLY      H 42 ?   18.696 -26.857 -74.502 -0.42  0 42 F
+ATOM    21119    O  OE1 ?  GLN      H 39 ?   14.445 -22.908 -70.506 -0.95  0 39 F
+ATOM    21535    C  CG2 ?  VAL      H 93 ?   13.539 -18.826 -72.724  0.00  0 93 F
+ATOM    21115    O    O ?  GLN      H 39 ?   17.574 -21.060 -71.877  0.00  0 39 F
+ATOM    21520    C    C ?  SER      H 91 ?   19.482 -18.221 -76.414  0.00  0 91 F
+ATOM    21711    C  CG2 ?  THR      H 115 ?   14.928 -16.722 -80.124  0.00  0 115 F
+ATOM    21133    C   CA ?  PRO      H 41 ?   16.846 -25.272 -74.673  0.00  0 41 F
+ATOM    22183    O   OH ?  TYR      H 180 ?   13.787 -19.151 -83.313 -1.07  0 180 F
+ATOM    21525    C   CA ?  ALA      H 92 ?   18.046 -18.381 -74.429  0.00  0 92 F
+ATOM    21529    N    N ?  VAL      H 93 ?   16.359 -18.211 -72.717 -1.09  0 93 F
+ATOM    21526    C    C ?  ALA      H 92 ?   16.894 -17.638 -73.790  0.00  0 92 F
+ATOM    21696    C   CB ?  SER      H 113 ?   12.945 -15.837 -75.173  0.00  0 113 F
+ATOM    21527    O    O ?  ALA      H 92 ?   16.490 -16.583 -74.261 -1.07  0 92 F
+ATOM    21524    N    N ?  ALA      H 92 ?   18.599 -17.663 -75.584  0.00  0 92 F
 # 

@@ -15,7 +15,7 @@ Information about the pocket    56:
 6  - Hydrophobicity Score              : 27.1667
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 5.1667
-9  - Pocket volume (Monte Carlo)       : 429.4645
+9  - Pocket volume (Monte Carlo)       : 416.8331
 10  -Pocket volume (convex hull)       : 48.7557
 11 - Charge Score                      :     5
 12 - Local hydrophobic density Score   : 13.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6760    C   CA .  GLN   D .   73 ?   61.809  10.644  40.056  0.00  0   D
-ATOM     6709    O    O .  ILE   D .   66 ?   58.379   5.459  41.620 -9.64  0   D
-ATOM     6718    C   CB .  LYS   D .   67 ?   59.145   4.236  38.594  0.00  0   D
-ATOM     6768    N    N .  LEU   D .   74 ?   62.296   9.691  42.190  0.00  0   D
-ATOM     6715    C   CA .  LYS   D .   67 ?   57.946   5.180  38.885  0.00  0   D
-ATOM     6771    O    O .  LEU   D .   74 ?   64.584   7.866  42.108 -0.40  0   D
-ATOM     6730    C   CA .  PRO   D .   69 ?   57.799   9.749  33.402  0.00  0   D
-ATOM     6729    N    N .  PRO   D .   69 ?   57.206   8.495  33.986 -1.09  0   D
-ATOM     6766    O  OE1 .  GLN   D .   73 ?   64.569  10.345  36.784  0.00  0   D
-ATOM     6722    O    O .  HIS   D .   68 ?   57.658   9.026  36.127 -5.36  0   D
-ATOM     6764    C   CG .  GLN   D .   73 ?   63.845   9.491  38.932  0.00  0   D
-ATOM     6765    C   CD .  GLN   D .   73 ?   64.745   9.502  37.683  0.00  0   D
-ATOM     6719    N    N .  HIS   D .   68 ?   57.252   6.620  37.010 -0.42  0   D
-ATOM     6285    C  CZ2 .  TRP   D .    8 ?   63.972   2.828  43.487  0.00  0   D
-ATOM     6694    O    O .  LYS   D .   64 ?   60.125   1.997  44.197  0.00  0   D
-ATOM     6273    N   NZ .  LYS   D .    7 ?   65.253  -0.614  41.426  0.00  0   D
-ATOM     7392    N   NZ .  LYS   D .  151 ?   60.865  13.101  35.443 -2.61  0   D
-ATOM     6755    O    O .  VAL   D .   72 ?   59.541  11.227  41.576 -7.50  0   D
-ATOM     6748    C   CB .  LEU   D .   71 ?   55.487  10.215  39.179  0.00  0   D
-ATOM     6747    O    O .  LEU   D .   71 ?   58.357  11.501  38.256  0.00  0   D
-ATOM     6767    N  NE2 .  GLN   D .   73 ?   65.720   8.585  37.629 -0.17  0   D
-ATOM     6763    C   CB .  GLN   D .   73 ?   62.739  10.529  38.829  0.00  0   D
-ATOM     6287    C  CH2 .  TRP   D .    8 ?   64.440   3.924  42.810  0.00  0   D
-ATOM     6772    C   CB .  LEU   D .   74 ?   62.470   8.238  44.155  0.00  0   D
+ATOM     6760    C   CA ?  GLN    Dxp 73 ?   61.809  10.644  40.056  0.00  0 300 D
+ATOM     6709    O    O ?  ILE    Dxp 66 ?   58.379   5.459  41.620 -9.64  0 293 D
+ATOM     6718    C   CB ?  LYS    Dxp 67 ?   59.145   4.236  38.594  0.00  0 294 D
+ATOM     6768    N    N ?  LEU    Dxp 74 ?   62.296   9.691  42.190  0.00  0 301 D
+ATOM     6715    C   CA ?  LYS    Dxp 67 ?   57.946   5.180  38.885  0.00  0 294 D
+ATOM     6771    O    O ?  LEU    Dxp 74 ?   64.584   7.866  42.108 -0.40  0 301 D
+ATOM     6730    C   CA ?  PRO    Dxp 69 ?   57.799   9.749  33.402  0.00  0 296 D
+ATOM     6729    N    N ?  PRO    Dxp 69 ?   57.206   8.495  33.986 -1.09  0 296 D
+ATOM     6766    O  OE1 ?  GLN    Dxp 73 ?   64.569  10.345  36.784  0.00  0 300 D
+ATOM     6722    O    O ?  HIS    Dxp 68 ?   57.658   9.026  36.127 -5.36  0 295 D
+ATOM     6764    C   CG ?  GLN    Dxp 73 ?   63.845   9.491  38.932  0.00  0 300 D
+ATOM     6765    C   CD ?  GLN    Dxp 73 ?   64.745   9.502  37.683  0.00  0 300 D
+ATOM     6719    N    N ?  HIS    Dxp 68 ?   57.252   6.620  37.010 -0.42  0 295 D
+ATOM     6285    C  CZ2 ?  TRP    Dxp 8 ?   63.972   2.828  43.487  0.00  0 235 D
+ATOM     6694    O    O ?  LYS    Dxp 64 ?   60.125   1.997  44.197  0.00  0 291 D
+ATOM     6273    N   NZ ?  LYS    Dxp 7 ?   65.253  -0.614  41.426  0.00  0 234 D
+ATOM     7392    N   NZ ?  LYS    Dxp 151 ?   60.865  13.101  35.443 -2.61  0 378 D
+ATOM     6755    O    O ?  VAL    Dxp 72 ?   59.541  11.227  41.576 -7.50  0 299 D
+ATOM     6748    C   CB ?  LEU    Dxp 71 ?   55.487  10.215  39.179  0.00  0 298 D
+ATOM     6747    O    O ?  LEU    Dxp 71 ?   58.357  11.501  38.256  0.00  0 298 D
+ATOM     6767    N  NE2 ?  GLN    Dxp 73 ?   65.720   8.585  37.629 -0.17  0 300 D
+ATOM     6763    C   CB ?  GLN    Dxp 73 ?   62.739  10.529  38.829  0.00  0 300 D
+ATOM     6287    C  CH2 ?  TRP    Dxp 8 ?   64.440   3.924  42.810  0.00  0 235 D
+ATOM     6772    C   CB ?  LEU    Dxp 74 ?   62.470   8.238  44.155  0.00  0 301 D
 # 

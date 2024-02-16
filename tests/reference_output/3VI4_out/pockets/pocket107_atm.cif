@@ -15,7 +15,7 @@ Information about the pocket   107:
 6  - Hydrophobicity Score              : 3.5455
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 3.3636
-9  - Pocket volume (Monte Carlo)       : 383.6299
+9  - Pocket volume (Monte Carlo)       : 381.7324
 10  -Pocket volume (convex hull)       : 27.1766
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 2.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     9408    O  OE1 .  GLU   C .  198 ?  -13.115 -58.906 -71.117 -4.29  0   C
-ATOM     9400    N  NE2 .  GLN   C .  197 ?  -18.602 -56.595 -71.567 -1.51  0   C
-ATOM     8961    O  OD2 .  ASP   C .  140 ?  -17.355 -58.438 -78.578 -4.02  0   C
-ATOM     8953    C  CG2 .  THR   C .  139 ?  -20.053 -59.083 -73.990  0.00  0   C
-ATOM     9399    O  OE1 .  GLN   C .  197 ?  -16.851 -55.534 -70.647 -1.07  0   C
-ATOM     8960    O  OD1 .  ASP   C .  140 ?  -16.989 -56.384 -79.261 -4.02  0   C
-ATOM     8730    O   OG .  SER   C .  110 ?  -18.742 -53.739 -77.406  0.00  0   C
-ATOM     8735    C   CB .  SER   C .  111 ?  -20.422 -54.424 -72.976  0.00  0   C
-ATOM     8714    O    O .  HIS   C .  108 ?  -19.194 -51.309 -72.687  0.00  0   C
-ATOM     8736    O   OG .  SER   C .  111 ?  -20.366 -55.828 -72.956 -1.07  0   C
-ATOM     8952    O  OG1 .  THR   C .  139 ?  -20.519 -60.249 -76.061  0.00  0   C
-ATOM     9431    C   CB .  ALA   C .  201 ?  -17.356 -64.837 -72.439  0.00  0   C
-ATOM     8725    N    N .  SER   C .  110 ?  -19.318 -51.254 -76.078 -0.42  0   C
-ATOM     8722    C   CA .  GLY   C .  109 ?  -18.349 -49.547 -74.676  0.00  0   C
-ATOM     9396    C   CB .  GLN   C .  197 ?  -16.917 -58.798 -70.105  0.00  0   C
-ATOM     9013    C  CD1 .  LEU   C .  146 ?  -20.436 -63.054 -71.905  0.00  0   C
-ATOM     8994    C   CD .  ARG   C .  144 ?  -20.735 -65.174 -76.817  0.00  0   C
-ATOM     9398    C   CD .  GLN   C .  197 ?  -17.656 -56.464 -70.643  0.00  0   C
-ATOM     9395    O    O .  GLN   C .  197 ?  -16.705 -62.003 -70.137 -1.07  0   C
-ATOM     8951    C   CB .  THR   C .  139 ?  -20.195 -58.966 -75.507  0.00  0   C
-ATOM     8954    N    N .  ASP   C .  140 ?  -20.292 -56.737 -77.731 -2.19  0   C
-ATOM     9394    C    C .  GLN   C .  197 ?  -16.019 -61.097 -69.675  0.00  0   C
-ATOM     9401    N    N .  GLU   C .  198 ?  -14.695 -61.134 -69.683  0.00  0   C
-ATOM     9402    C   CA .  GLU   C .  198 ?  -13.983 -62.304 -70.167  0.00  0   C
+ATOM     9408    O  OE1 ?  GLU      C 198 ?  -13.115 -58.906 -71.117 -4.29  0 198 C
+ATOM     9400    N  NE2 ?  GLN      C 197 ?  -18.602 -56.595 -71.567 -1.51  0 197 C
+ATOM     8961    O  OD2 ?  ASP      C 140 ?  -17.355 -58.438 -78.578 -4.02  0 140 C
+ATOM     8953    C  CG2 ?  THR      C 139 ?  -20.053 -59.083 -73.990  0.00  0 139 C
+ATOM     9399    O  OE1 ?  GLN      C 197 ?  -16.851 -55.534 -70.647 -1.07  0 197 C
+ATOM     8960    O  OD1 ?  ASP      C 140 ?  -16.989 -56.384 -79.261 -4.02  0 140 C
+ATOM     8730    O   OG ?  SER      C 110 ?  -18.742 -53.739 -77.406  0.00  0 110 C
+ATOM     8735    C   CB ?  SER      C 111 ?  -20.422 -54.424 -72.976  0.00  0 111 C
+ATOM     8714    O    O ?  HIS      C 108 ?  -19.194 -51.309 -72.687  0.00  0 108 C
+ATOM     8736    O   OG ?  SER      C 111 ?  -20.366 -55.828 -72.956 -1.07  0 111 C
+ATOM     8952    O  OG1 ?  THR      C 139 ?  -20.519 -60.249 -76.061  0.00  0 139 C
+ATOM     9431    C   CB ?  ALA      C 201 ?  -17.356 -64.837 -72.439  0.00  0 201 C
+ATOM     8725    N    N ?  SER      C 110 ?  -19.318 -51.254 -76.078 -0.42  0 110 C
+ATOM     8722    C   CA ?  GLY      C 109 ?  -18.349 -49.547 -74.676  0.00  0 109 C
+ATOM     9396    C   CB ?  GLN      C 197 ?  -16.917 -58.798 -70.105  0.00  0 197 C
+ATOM     9013    C  CD1 ?  LEU      C 146 ?  -20.436 -63.054 -71.905  0.00  0 146 C
+ATOM     8994    C   CD ?  ARG      C 144 ?  -20.735 -65.174 -76.817  0.00  0 144 C
+ATOM     9398    C   CD ?  GLN      C 197 ?  -17.656 -56.464 -70.643  0.00  0 197 C
+ATOM     9395    O    O ?  GLN      C 197 ?  -16.705 -62.003 -70.137 -1.07  0 197 C
+ATOM     8951    C   CB ?  THR      C 139 ?  -20.195 -58.966 -75.507  0.00  0 139 C
+ATOM     8954    N    N ?  ASP      C 140 ?  -20.292 -56.737 -77.731 -2.19  0 140 C
+ATOM     9394    C    C ?  GLN      C 197 ?  -16.019 -61.097 -69.675  0.00  0 197 C
+ATOM     9401    N    N ?  GLU      C 198 ?  -14.695 -61.134 -69.683  0.00  0 198 C
+ATOM     9402    C   CA ?  GLU      C 198 ?  -13.983 -62.304 -70.167  0.00  0 198 C
 # 

@@ -12,28 +12,28 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.3655
 HEADER 6  - Hydrophobicity Score              : 20.2500
 HEADER 7  - Polarity Score                    :     3
 HEADER 8  - Amino Acid based volume Score     : 3.8750
-HEADER 9  - Pocket volume (Monte Carlo)       : 246.9534
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.2091
 HEADER 10 - Pocket volume (convex hull)       : 10.2300
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 13.0000
 HEADER 13 - Number of apolar alpha sphere     :    14
 HEADER 14 - Proportion of apolar alpha sphere : 0.7368
-ATOM    305   CB MET A  43     -11.383  -1.585  -9.842  0.00  0.00           C 0
-ATOM    172  CG2 VAL A  27      -8.930  -0.618 -12.618  0.00  0.00           C 0
-ATOM    611   CG PRO A  81      -9.886  -3.583  -6.754  0.00  0.00           C 0
-ATOM    307   SD MET A  43     -10.806  -3.777 -11.507  0.00  0.00           S 0
-ATOM    304    O MET A  43     -10.949   1.210  -9.008  0.62  1.07           O 0
-ATOM    163   CA GLY A  26      -9.778   3.912 -10.054  0.00  0.00           C 0
-ATOM    164    C GLY A  26      -9.797   3.601 -11.525  0.00  0.00           C 0
-ATOM    137  CG2 THR A  22      -6.025   5.677 -13.658  0.00  0.00           C 0
-ATOM    171  CG1 VAL A  27      -7.095   1.022 -13.059  0.00  0.00           C 0
-ATOM    326    N GLU A  46      -7.447   1.293  -3.940  0.00  0.00           N 0
-ATOM    318   CA LYS A  45      -8.347   2.531  -5.825  0.00  0.00           C 0
-ATOM    322   CG LYS A  45      -6.064   3.680  -5.618  0.00  0.00           C 0
-ATOM    331   CG GLU A  46      -6.218  -1.458  -3.327  0.00  0.00           C 0
-ATOM    321   CB LYS A  45      -7.467   3.699  -6.280  0.00  0.00           C 0
-ATOM    610   CB PRO A  81     -10.266  -2.519  -5.765  0.00  0.00           C 0
-ATOM    312    O ILE A  44     -10.324   0.684  -5.427  0.68  1.07           O 0
-ATOM    166    N VAL A  27      -9.485   2.335 -11.826  0.42  1.09           N 0
+ATOM    305   CB MET A 431     -11.383  -1.585  -9.842  0.00  0.00           C 0
+ATOM    172  CG2 VAL A 415      -8.930  -0.618 -12.618  0.00  0.00           C 0
+ATOM    611   CG PRO A 469      -9.886  -3.583  -6.754  0.00  0.00           C 0
+ATOM    307   SD MET A 431     -10.806  -3.777 -11.507  0.00  0.00           S 0
+ATOM    304    O MET A 431     -10.949   1.210  -9.008  0.62  1.07           O 0
+ATOM    163   CA GLY A 414      -9.778   3.912 -10.054  0.00  0.00           C 0
+ATOM    164    C GLY A 414      -9.797   3.601 -11.525  0.00  0.00           C 0
+ATOM    137  CG2 THR A 410      -6.025   5.677 -13.658  0.00  0.00           C 0
+ATOM    171  CG1 VAL A 415      -7.095   1.022 -13.059  0.00  0.00           C 0
+ATOM    326    N GLU A 434      -7.447   1.293  -3.940  0.00  0.00           N 0
+ATOM    318   CA LYS A 433      -8.347   2.531  -5.825  0.00  0.00           C 0
+ATOM    322   CG LYS A 433      -6.064   3.680  -5.618  0.00  0.00           C 0
+ATOM    331   CG GLU A 434      -6.218  -1.458  -3.327  0.00  0.00           C 0
+ATOM    321   CB LYS A 433      -7.467   3.699  -6.280  0.00  0.00           C 0
+ATOM    610   CB PRO A 469     -10.266  -2.519  -5.765  0.00  0.00           C 0
+ATOM    312    O ILE A 432     -10.324   0.684  -5.427  0.68  1.07           O 0
+ATOM    166    N VAL A 415      -9.485   2.335 -11.826  0.42  1.09           N 0
 TER
 END

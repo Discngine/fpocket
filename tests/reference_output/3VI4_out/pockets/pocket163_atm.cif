@@ -15,7 +15,7 @@ Information about the pocket   163:
 6  - Hydrophobicity Score              : 18.6667
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.2222
-9  - Pocket volume (Monte Carlo)       : 416.8517
+9  - Pocket volume (Monte Carlo)       : 409.8391
 10  -Pocket volume (convex hull)       : 38.6282
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 12.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20299    O    O .  ILE   E .  155 ?   14.744 -45.280-101.512 -1.07  0   E
-ATOM    20613    N  ND1 .  HIS   E .  194 ?   15.071 -41.224-105.814 -1.51  0   E
-ATOM    20615    C  CE1 .  HIS   E .  194 ?   16.265 -40.617-105.705  0.00  0   E
-ATOM    20341    N  NH2 .  ARG   E .  160 ?   20.057 -44.411-101.704 -1.26  0   E
-ATOM    20302    C  CG2 .  ILE   E .  155 ?   13.503 -42.038-102.487  0.00  0   E
-ATOM    20355    C   CB .  ASN   E .  162 ?   19.950 -35.866 -96.368  0.00  0   E
-ATOM    20525    C  CD1 .  LEU   E .  184 ?   14.229 -36.610 -96.397  0.00  0   E
-ATOM    20335    C   CB .  ARG   E .  160 ?   17.436 -41.141 -97.333  0.00  0   E
-ATOM    20351    N    N .  ASN   E .  162 ?   18.869 -37.395 -94.756  0.00  0   E
-ATOM    20338    N   NE .  ARG   E .  160 ?   18.980 -43.021-100.226 -4.37  0   E
-ATOM    20339    C   CZ .  ARG   E .  160 ?   20.097 -43.574-100.679  0.00  0   E
-ATOM    20303    C  CD1 .  ILE   E .  155 ?   14.313 -39.934-100.367  0.00  0   E
-ATOM    20300    C   CB .  ILE   E .  155 ?   13.918 -42.362-101.050  0.00  0   E
-ATOM    20573    O  OE1 .  GLU   E .  190 ?   17.478 -36.630-104.922 -0.14  0   E
-ATOM    20308    C   CB .  ASP   E .  156 ?   13.542 -45.777-104.650  0.00  0   E
-ATOM    20321    O   OG .  SER   E .  158 ?   18.160 -47.515-101.536 -1.07  0   E
-ATOM    20307    O    O .  ASP   E .  156 ?   14.560 -47.983-103.300 -1.07  0   E
-ATOM    20337    C   CD .  ARG   E .  160 ?   18.930 -42.084 -99.109  0.00  0   E
-ATOM    20336    C   CG .  ARG   E .  160 ?   17.500 -41.750 -98.722  0.00  0   E
-ATOM    20358    N  ND2 .  ASN   E .  162 ?   21.904 -36.522 -97.669  0.00  0   E
-ATOM    20616    N  NE2 .  HIS   E .  194 ?   16.054 -39.335-105.354 -2.19  0   E
-ATOM    20541    C  CD2 .  LEU   E .  186 ?   15.476 -34.913 -99.861  0.00  0   E
-ATOM    20540    C  CD1 .  LEU   E .  186 ?   13.668 -35.920-101.278  0.00  0   E
-ATOM    20311    O  OD2 .  ASP   E .  156 ?   13.277 -43.977-106.198 -4.02  0   E
+ATOM    20299    O    O ?  ILE      G 155 ?   14.744 -45.280-101.512 -1.07  0 155 E
+ATOM    20613    N  ND1 ?  HIS      G 194 ?   15.071 -41.224-105.814 -1.51  0 194 E
+ATOM    20615    C  CE1 ?  HIS      G 194 ?   16.265 -40.617-105.705  0.00  0 194 E
+ATOM    20341    N  NH2 ?  ARG      G 160 ?   20.057 -44.411-101.704 -1.26  0 160 E
+ATOM    20302    C  CG2 ?  ILE      G 155 ?   13.503 -42.038-102.487  0.00  0 155 E
+ATOM    20355    C   CB ?  ASN      G 162 ?   19.950 -35.866 -96.368  0.00  0 162 E
+ATOM    20525    C  CD1 ?  LEU      G 184 ?   14.229 -36.610 -96.397  0.00  0 184 E
+ATOM    20335    C   CB ?  ARG      G 160 ?   17.436 -41.141 -97.333  0.00  0 160 E
+ATOM    20351    N    N ?  ASN      G 162 ?   18.869 -37.395 -94.756  0.00  0 162 E
+ATOM    20338    N   NE ?  ARG      G 160 ?   18.980 -43.021-100.226 -4.37  0 160 E
+ATOM    20339    C   CZ ?  ARG      G 160 ?   20.097 -43.574-100.679  0.00  0 160 E
+ATOM    20303    C  CD1 ?  ILE      G 155 ?   14.313 -39.934-100.367  0.00  0 155 E
+ATOM    20300    C   CB ?  ILE      G 155 ?   13.918 -42.362-101.050  0.00  0 155 E
+ATOM    20573    O  OE1 ?  GLU      G 190 ?   17.478 -36.630-104.922 -0.14  0 190 E
+ATOM    20308    C   CB ?  ASP      G 156 ?   13.542 -45.777-104.650  0.00  0 156 E
+ATOM    20321    O   OG ?  SER      G 158 ?   18.160 -47.515-101.536 -1.07  0 158 E
+ATOM    20307    O    O ?  ASP      G 156 ?   14.560 -47.983-103.300 -1.07  0 156 E
+ATOM    20337    C   CD ?  ARG      G 160 ?   18.930 -42.084 -99.109  0.00  0 160 E
+ATOM    20336    C   CG ?  ARG      G 160 ?   17.500 -41.750 -98.722  0.00  0 160 E
+ATOM    20358    N  ND2 ?  ASN      G 162 ?   21.904 -36.522 -97.669  0.00  0 162 E
+ATOM    20616    N  NE2 ?  HIS      G 194 ?   16.054 -39.335-105.354 -2.19  0 194 E
+ATOM    20541    C  CD2 ?  LEU      G 186 ?   15.476 -34.913 -99.861  0.00  0 186 E
+ATOM    20540    C  CD1 ?  LEU      G 186 ?   13.668 -35.920-101.278  0.00  0 186 E
+ATOM    20311    O  OD2 ?  ASP      G 156 ?   13.277 -43.977-106.198 -4.02  0 156 E
 # 

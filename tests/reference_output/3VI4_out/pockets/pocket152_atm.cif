@@ -15,7 +15,7 @@ Information about the pocket   152:
 6  - Hydrophobicity Score              : -11.8333
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 175.6812
+9  - Pocket volume (Monte Carlo)       : 173.4658
 10  -Pocket volume (convex hull)       : 1.3344
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 0.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,21 +37,22 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11782    N   NE .  ARG   C .  518 ?  -39.515  12.477 -62.739 -1.51  0   C
-ATOM    11755    O  OE1 .  GLN   C .  510 ?  -36.111   8.416 -58.891 -2.14  0   C
-ATOM    11752    C   CB .  GLN   C .  510 ?  -38.786   7.107 -58.878  0.00  0   C
-ATOM    11733    O  OD2 .  ASP   C .  508 ?  -34.910   8.964 -62.402 -1.07  0   C
-ATOM    11730    C   CB .  ASP   C .  508 ?  -35.886   7.917 -64.316  0.00  0   C
-ATOM    11785    N  NH2 .  ARG   C .  518 ?  -41.456  11.242 -62.625 -3.28  0   C
-ATOM    11784    N  NH1 .  ARG   C .  518 ?  -40.671  11.938 -64.666 -0.59  0   C
-ATOM    11760    O    O .  LYS   C .  511 ?  -43.526   7.238 -62.458 -2.95  0   C
-ATOM    11853    C   CB .  ALA   C .  527 ?  -37.004   7.419 -69.252  0.00  0   C
-ATOM    11775    N    N .  ARG   C .  518 ?  -36.724  11.871 -66.402 -3.70  0   C
-ATOM    11729    O    O .  ASP   C .  508 ?  -36.828   5.001 -64.694 -2.55  0   C
-ATOM    11748    N    N .  GLN   C .  510 ?  -38.837   5.351 -60.612 -1.09  0   C
-ATOM    11757    N    N .  LYS   C .  511 ?  -41.401   7.124 -60.015 -3.28  0   C
-ATOM    11731    C   CG .  ASP   C .  508 ?  -35.241   9.093 -63.600  0.00  0   C
-ATOM    11783    C   CZ .  ARG   C .  518 ?  -40.544  11.886 -63.345  0.00  0   C
-ATOM    11774    N  NE2 .  GLN   C .  512 ?  -41.056   3.624 -62.491 -0.42  0   C
+ATOM    11782    N   NE ?  ARG      C 518 ?  -39.515  12.477 -62.739 -1.51  0 518 C
+ATOM    11755    O  OE1 ?  GLN      C 510 ?  -36.111   8.416 -58.891 -2.14  0 510 C
+ATOM    11752    C   CB ?  GLN      C 510 ?  -38.786   7.107 -58.878  0.00  0 510 C
+ATOM    11733    O  OD2 ?  ASP      C 508 ?  -34.910   8.964 -62.402 -1.07  0 508 C
+ATOM    11730    C   CB ?  ASP      C 508 ?  -35.886   7.917 -64.316  0.00  0 508 C
+ATOM    11785    N  NH2 ?  ARG      C 518 ?  -41.456  11.242 -62.625 -3.28  0 518 C
+ATOM    11784    N  NH1 ?  ARG      C 518 ?  -40.671  11.938 -64.666 -0.59  0 518 C
+ATOM    11760    O    O ?  LYS      C 511 ?  -43.526   7.238 -62.458 -2.95  0 511 C
+ATOM    11853    C   CB ?  ALA      C 527 ?  -37.004   7.419 -69.252  0.00  0 527 C
+ATOM    11775    N    N ?  ARG      C 518 ?  -36.724  11.871 -66.402 -3.70  0 518 C
+ATOM    11729    O    O ?  ASP      C 508 ?  -36.828   5.001 -64.694 -2.55  0 508 C
+ATOM    11748    N    N ?  GLN      C 510 ?  -38.837   5.351 -60.612 -1.09  0 510 C
+ATOM    11757    N    N ?  LYS      C 511 ?  -41.401   7.124 -60.015 -3.28  0 511 C
+ATOM    11731    C   CG ?  ASP      C 508 ?  -35.241   9.093 -63.600  0.00  0 508 C
+ATOM    11783    C   CZ ?  ARG      C 518 ?  -40.544  11.886 -63.345  0.00  0 518 C
+ATOM    11774    N  NE2 ?  GLN      C 512 ?  -41.056   3.624 -62.491 -0.42  0 512 C
 # 

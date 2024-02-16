@@ -15,7 +15,7 @@ Information about the pocket   105:
 6  - Hydrophobicity Score              : -17.1429
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 336.3605
+9  - Pocket volume (Monte Carlo)       : 342.9913
 10  -Pocket volume (convex hull)       : 22.7726
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,23 +37,24 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7818    C   CB .  GLU   B .  433 ?   26.957  -2.721 -25.242  0.00  0   B
-ATOM     7817    O    O .  GLU   B .  433 ?   28.141  -1.632 -28.212 -5.36  0   B
-ATOM     5192    O    O .  GLN   B .   97 ?   31.894  -0.061 -27.374 -0.40  0   B
-ATOM     7821    O  OE1 .  GLU   B .  433 ?   27.857  -4.005 -22.959 -4.02  0   B
-ATOM     5194    C   CG .  GLN   B .   97 ?   31.729  -2.044 -31.228  0.00  0   B
-ATOM     4988    C   CE .  LYS   B .   71 ?   37.151  -3.614 -29.850  0.00  0   B
-ATOM     5193    C   CB .  GLN   B .   97 ?   32.329  -1.265 -30.076  0.00  0   B
-ATOM     4989    N   NZ .  LYS   B .   71 ?   37.428  -4.645 -28.814  0.00  0   B
-ATOM     5154    C  CE1 .  HIS   B .   92 ?   31.563  -6.011 -33.252  0.00  0   B
-ATOM     5196    O  OE1 .  GLN   B .   97 ?   33.714  -1.912 -32.542 -1.07  0   B
-ATOM     7838    O  OE2 .  GLU   B .  435 ?   33.795  -1.349 -22.196 -2.69  0   B
-ATOM     7835    C   CG .  GLU   B .  435 ?   31.957  -0.128 -23.117  0.00  0   B
-ATOM     7747    C   CE .  LYS   B .  424 ?   29.467  -1.753 -21.330  0.00  0   B
-ATOM     4987    C   CD .  LYS   B .   71 ?   36.927  -2.241 -29.233  0.00  0   B
-ATOM     5203    C   CG .  GLN   B .   98 ?   34.918   0.197 -25.809  0.00  0   B
-ATOM     5205    O  OE1 .  GLN   B .   98 ?   37.182  -0.558 -25.572  0.00  0   B
-ATOM     5204    C   CD .  GLN   B .   98 ?   36.236   0.059 -25.075  0.00  0   B
-ATOM     7748    N   NZ .  LYS   B .  424 ?   30.576  -1.584 -20.347 -2.35  0   B
+ATOM     7818    C   CB ?  GLU      B 433 ?   26.957  -2.721 -25.242  0.00  0 433 B
+ATOM     7817    O    O ?  GLU      B 433 ?   28.141  -1.632 -28.212 -5.36  0 433 B
+ATOM     5192    O    O ?  GLN      B 97 ?   31.894  -0.061 -27.374 -0.40  0 97 B
+ATOM     7821    O  OE1 ?  GLU      B 433 ?   27.857  -4.005 -22.959 -4.02  0 433 B
+ATOM     5194    C   CG ?  GLN      B 97 ?   31.729  -2.044 -31.228  0.00  0 97 B
+ATOM     4988    C   CE ?  LYS      B 71 ?   37.151  -3.614 -29.850  0.00  0 71 B
+ATOM     5193    C   CB ?  GLN      B 97 ?   32.329  -1.265 -30.076  0.00  0 97 B
+ATOM     4989    N   NZ ?  LYS      B 71 ?   37.428  -4.645 -28.814  0.00  0 71 B
+ATOM     5154    C  CE1 ?  HIS      B 92 ?   31.563  -6.011 -33.252  0.00  0 92 B
+ATOM     5196    O  OE1 ?  GLN      B 97 ?   33.714  -1.912 -32.542 -1.07  0 97 B
+ATOM     7838    O  OE2 ?  GLU      B 435 ?   33.795  -1.349 -22.196 -2.69  0 435 B
+ATOM     7835    C   CG ?  GLU      B 435 ?   31.957  -0.128 -23.117  0.00  0 435 B
+ATOM     7747    C   CE ?  LYS      B 424 ?   29.467  -1.753 -21.330  0.00  0 424 B
+ATOM     4987    C   CD ?  LYS      B 71 ?   36.927  -2.241 -29.233  0.00  0 71 B
+ATOM     5203    C   CG ?  GLN      B 98 ?   34.918   0.197 -25.809  0.00  0 98 B
+ATOM     5205    O  OE1 ?  GLN      B 98 ?   37.182  -0.558 -25.572  0.00  0 98 B
+ATOM     5204    C   CD ?  GLN      B 98 ?   36.236   0.059 -25.075  0.00  0 98 B
+ATOM     7748    N   NZ ?  LYS      B 424 ?   30.576  -1.584 -20.347 -2.35  0 424 B
 # 

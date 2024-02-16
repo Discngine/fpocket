@@ -15,7 +15,7 @@ Information about the pocket   115:
 6  - Hydrophobicity Score              : 24.6667
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 238.3594
+9  - Pocket volume (Monte Carlo)       : 239.0795
 10  -Pocket volume (convex hull)       : 17.8626
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 10.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,26 +37,27 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11545    C   CG .  ASN   C .  483 ?  -19.788  11.685 -75.256  0.00  0   C
-ATOM    11995    O  OE2 .  GLU   C .  545 ?  -16.647   7.007 -77.846  0.00  0   C
-ATOM    11993    C   CD .  GLU   C .  545 ?  -17.815   7.362 -78.121  0.00  0   C
-ATOM    11994    O  OE1 .  GLU   C .  545 ?  -18.075   8.451 -78.683 -3.62  0   C
-ATOM    11544    C   CB .  ASN   C .  483 ?  -19.948  11.067 -73.883  0.00  0   C
-ATOM    11561    O   OG .  SER   C .  485 ?  -18.494   5.162 -73.494 -0.14  0   C
-ATOM    11380    C  CD1 .  PHE   C .  461 ?  -15.231  11.359 -71.466  0.00  0   C
-ATOM    11378    C   CB .  PHE   C .  461 ?  -17.692  11.758 -71.066  0.00  0   C
-ATOM    11546    O  OD1 .  ASN   C .  483 ?  -19.055  12.660 -75.424 -2.69  0   C
-ATOM    11383    C  CE2 .  PHE   C .  461 ?  -14.823  14.022 -72.115  0.00  0   C
-ATOM    11384    C   CZ .  PHE   C .  461 ?  -13.757  13.136 -72.136  0.00  0   C
-ATOM    11363    C   CB .  THR   C .  459 ?  -17.138   5.238 -69.486  0.00  0   C
-ATOM    11364    O  OG1 .  THR   C .  459 ?  -17.093   4.357 -70.615 -6.17  0   C
-ATOM    11382    C  CE1 .  PHE   C .  461 ?  -13.960  11.803 -71.810  0.00  0   C
-ATOM    11369    O    O .  ILE   C .  460 ?  -18.319   9.573 -67.455 -0.14  0   C
-ATOM    11365    C  CG2 .  THR   C .  459 ?  -16.065   4.814 -68.488  0.00  0   C
-ATOM    11381    C  CD2 .  PHE   C .  461 ?  -16.092  13.574 -71.769  0.00  0   C
-ATOM    11379    C   CG .  PHE   C .  461 ?  -16.311  12.240 -71.433  0.00  0   C
-ATOM    11362    O    O .  THR   C .  459 ?  -19.633   6.649 -70.419 -2.14  0   C
-ATOM    11375    C   CA .  PHE   C .  461 ?  -17.821  11.262 -69.612  0.00  0   C
-ATOM    11377    O    O .  PHE   C .  461 ?  -16.717  12.460 -67.840 -0.14  0   C
+ATOM    11545    C   CG ?  ASN      C 483 ?  -19.788  11.685 -75.256  0.00  0 483 C
+ATOM    11995    O  OE2 ?  GLU      C 545 ?  -16.647   7.007 -77.846  0.00  0 545 C
+ATOM    11993    C   CD ?  GLU      C 545 ?  -17.815   7.362 -78.121  0.00  0 545 C
+ATOM    11994    O  OE1 ?  GLU      C 545 ?  -18.075   8.451 -78.683 -3.62  0 545 C
+ATOM    11544    C   CB ?  ASN      C 483 ?  -19.948  11.067 -73.883  0.00  0 483 C
+ATOM    11561    O   OG ?  SER      C 485 ?  -18.494   5.162 -73.494 -0.14  0 485 C
+ATOM    11380    C  CD1 ?  PHE      C 461 ?  -15.231  11.359 -71.466  0.00  0 461 C
+ATOM    11378    C   CB ?  PHE      C 461 ?  -17.692  11.758 -71.066  0.00  0 461 C
+ATOM    11546    O  OD1 ?  ASN      C 483 ?  -19.055  12.660 -75.424 -2.69  0 483 C
+ATOM    11383    C  CE2 ?  PHE      C 461 ?  -14.823  14.022 -72.115  0.00  0 461 C
+ATOM    11384    C   CZ ?  PHE      C 461 ?  -13.757  13.136 -72.136  0.00  0 461 C
+ATOM    11363    C   CB ?  THR      C 459 ?  -17.138   5.238 -69.486  0.00  0 459 C
+ATOM    11364    O  OG1 ?  THR      C 459 ?  -17.093   4.357 -70.615 -6.17  0 459 C
+ATOM    11382    C  CE1 ?  PHE      C 461 ?  -13.960  11.803 -71.810  0.00  0 461 C
+ATOM    11369    O    O ?  ILE      C 460 ?  -18.319   9.573 -67.455 -0.14  0 460 C
+ATOM    11365    C  CG2 ?  THR      C 459 ?  -16.065   4.814 -68.488  0.00  0 459 C
+ATOM    11381    C  CD2 ?  PHE      C 461 ?  -16.092  13.574 -71.769  0.00  0 461 C
+ATOM    11379    C   CG ?  PHE      C 461 ?  -16.311  12.240 -71.433  0.00  0 461 C
+ATOM    11362    O    O ?  THR      C 459 ?  -19.633   6.649 -70.419 -2.14  0 459 C
+ATOM    11375    C   CA ?  PHE      C 461 ?  -17.821  11.262 -69.612  0.00  0 461 C
+ATOM    11377    O    O ?  PHE      C 461 ?  -16.717  12.460 -67.840 -0.14  0 461 C
 # 

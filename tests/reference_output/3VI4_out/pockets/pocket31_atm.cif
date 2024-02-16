@@ -15,7 +15,7 @@ Information about the pocket    31:
 6  - Hydrophobicity Score              : 22.5556
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.8889
-9  - Pocket volume (Monte Carlo)       : 414.4399
+9  - Pocket volume (Monte Carlo)       : 415.1775
 10  -Pocket volume (convex hull)       : 28.2626
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 7.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,28 +37,29 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11503    C   CB .  ASN   C .  477 ?  -34.409  25.397 -75.384  0.00  0   C
-ATOM    11506    N  ND2 .  ASN   C .  477 ?  -36.333  26.226 -74.167 -6.31  0   C
-ATOM    11504    C   CG .  ASN   C .  477 ?  -35.582  26.363 -75.256  0.00  0   C
-ATOM    11499    N    N .  ASN   C .  477 ?  -34.602  25.265 -77.853  0.00  0   C
-ATOM    11485    C  CD2 .  LEU   C .  474 ?  -35.884  19.855 -78.950  0.00  0   C
-ATOM    12059    N  ND2 .  ASN   C .  552 ?  -35.994  24.485 -71.460  0.00  0   C
-ATOM    11510    O    O .  PRO   C .  478 ?  -30.858  23.963 -74.124 -4.29  0   C
-ATOM    11520    C  CG2 .  VAL   C .  479 ?  -31.479  20.571 -74.957  0.00  0   C
-ATOM    11502    O    O .  ASN   C .  477 ?  -32.669  23.322 -76.859 -2.14  0   C
-ATOM    11519    C  CG1 .  VAL   C .  479 ?  -31.317  20.303 -72.490  0.00  0   C
-ATOM    12030    C  CE2 .  TYR   C .  549 ?  -34.000  16.637 -73.008  0.00  0   C
-ATOM    12052    N    N .  ASN   C .  552 ?  -35.269  21.017 -69.090 -0.42  0   C
-ATOM    11484    C  CD1 .  LEU   C .  474 ?  -34.712  18.351 -77.306  0.00  0   C
-ATOM    11797    C  CD1 .  LEU   C .  520 ?  -36.791  13.728 -71.690  0.00  0   C
-ATOM    12048    N   NE .  ARG   C .  551 ?  -38.906  15.996 -69.242  0.00  0   C
-ATOM    12032    O   OH .  TYR   C .  549 ?  -35.698  15.409 -74.116 -2.55  0   C
-ATOM    12051    N  NH2 .  ARG   C .  551 ?  -40.701  14.610 -69.611 -3.45  0   C
-ATOM    11482    C   CB .  LEU   C .  474 ?  -33.458  20.223 -78.419  0.00  0   C
-ATOM    11835    C   CD .  ARG   C .  525 ?  -37.321  15.623 -76.928  0.00  0   C
-ATOM    12042    C   CA .  ARG   C .  551 ?  -34.642  18.667 -68.960  0.00  0   C
-ATOM    12046    C   CG .  ARG   C .  551 ?  -36.961  17.556 -69.234  0.00  0   C
-ATOM    11838    N  NH1 .  ARG   C .  525 ?  -38.559  17.995 -77.852  0.00  0   C
-ATOM    11832    O    O .  ARG   C .  525 ?  -37.890  11.789 -74.234 -2.95  0   C
+ATOM    11503    C   CB ?  ASN      C 477 ?  -34.409  25.397 -75.384  0.00  0 477 C
+ATOM    11506    N  ND2 ?  ASN      C 477 ?  -36.333  26.226 -74.167 -6.31  0 477 C
+ATOM    11504    C   CG ?  ASN      C 477 ?  -35.582  26.363 -75.256  0.00  0 477 C
+ATOM    11499    N    N ?  ASN      C 477 ?  -34.602  25.265 -77.853  0.00  0 477 C
+ATOM    11485    C  CD2 ?  LEU      C 474 ?  -35.884  19.855 -78.950  0.00  0 474 C
+ATOM    12059    N  ND2 ?  ASN      C 552 ?  -35.994  24.485 -71.460  0.00  0 552 C
+ATOM    11510    O    O ?  PRO      C 478 ?  -30.858  23.963 -74.124 -4.29  0 478 C
+ATOM    11520    C  CG2 ?  VAL      C 479 ?  -31.479  20.571 -74.957  0.00  0 479 C
+ATOM    11502    O    O ?  ASN      C 477 ?  -32.669  23.322 -76.859 -2.14  0 477 C
+ATOM    11519    C  CG1 ?  VAL      C 479 ?  -31.317  20.303 -72.490  0.00  0 479 C
+ATOM    12030    C  CE2 ?  TYR      C 549 ?  -34.000  16.637 -73.008  0.00  0 549 C
+ATOM    12052    N    N ?  ASN      C 552 ?  -35.269  21.017 -69.090 -0.42  0 552 C
+ATOM    11484    C  CD1 ?  LEU      C 474 ?  -34.712  18.351 -77.306  0.00  0 474 C
+ATOM    11797    C  CD1 ?  LEU      C 520 ?  -36.791  13.728 -71.690  0.00  0 520 C
+ATOM    12048    N   NE ?  ARG      C 551 ?  -38.906  15.996 -69.242  0.00  0 551 C
+ATOM    12032    O   OH ?  TYR      C 549 ?  -35.698  15.409 -74.116 -2.55  0 549 C
+ATOM    12051    N  NH2 ?  ARG      C 551 ?  -40.701  14.610 -69.611 -3.45  0 551 C
+ATOM    11482    C   CB ?  LEU      C 474 ?  -33.458  20.223 -78.419  0.00  0 474 C
+ATOM    11835    C   CD ?  ARG      C 525 ?  -37.321  15.623 -76.928  0.00  0 525 C
+ATOM    12042    C   CA ?  ARG      C 551 ?  -34.642  18.667 -68.960  0.00  0 551 C
+ATOM    12046    C   CG ?  ARG      C 551 ?  -36.961  17.556 -69.234  0.00  0 551 C
+ATOM    11838    N  NH1 ?  ARG      C 525 ?  -38.559  17.995 -77.852  0.00  0 525 C
+ATOM    11832    O    O ?  ARG      C 525 ?  -37.890  11.789 -74.234 -2.95  0 525 C
 # 

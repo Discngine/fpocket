@@ -15,7 +15,7 @@ Information about the pocket    16:
 6  - Hydrophobicity Score              : -3.6667
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 277.5270
+9  - Pocket volume (Monte Carlo)       : 261.8629
 10  -Pocket volume (convex hull)       : 10.5770
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 12.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,25 +37,26 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7846    C  CG1 .  ILE   B .  157 ?  -11.611   4.373  -9.562  0.00  0   B
-ATOM     7720    C   CB .  ASP   B .  153 ?  -14.886   7.648 -10.053  0.00  0   B
-ATOM     7723    O  OD2 .  ASP   B .  153 ?  -15.976   7.708 -12.165  0.00  0   B
-ATOM     7721    C   CG .  ASP   B .  153 ?  -16.129   7.617 -10.930  0.00  0   B
-ATOM     7722    O  OD1 .  ASP   B .  153 ?  -17.255   7.499 -10.396 -3.35  0   B
-ATOM     7816    C   CB .  PRO   B .  156 ?  -16.385   3.323  -8.091  0.00  0   B
-ATOM     7937    O  OG1 .  THR   B .  161 ?   -8.315  -0.216  -7.396 -2.55  0   B
-ATOM     7917    C    C .  GLN   B .  160 ?  -11.279  -2.914  -7.195  0.00  0   B
-ATOM     7919    C   CB .  GLN   B .  160 ?  -12.835  -1.666  -8.691  0.00  0   B
-ATOM     7918    O    O .  GLN   B .  160 ?  -10.990  -4.093  -7.432 -3.21  0   B
-ATOM     7011    C   CE .  LYS   B .  111 ?   -6.725   2.031 -10.221  0.00  0   B
-ATOM     7012    N   NZ .  LYS   B .  111 ?   -6.515   1.850 -11.683  0.00  0   B
-ATOM     7848    C  CG2 .  ILE   B .  157 ?   -9.655   3.410  -8.301  0.00  0   B
-ATOM     7838    C   CA .  ILE   B .  157 ?  -11.997   2.654  -7.767  0.00  0   B
-ATOM     7842    O    O .  ILE   B .  157 ?  -10.783   0.834  -6.760  0.00  0   B
-ATOM     7920    C   CG .  GLN   B .  160 ?  -14.258  -1.350  -9.109  0.00  0   B
-ATOM     7836    N    N .  ILE   B .  157 ?  -13.345   3.115  -7.437  0.00  0   B
-ATOM     7812    C    C .  PRO   B .  156 ?  -14.305   2.245  -7.119  0.00  0   B
-ATOM     7932    N    N .  THR   B .  161 ?  -10.367  -2.022  -6.799  0.00  0   B
-ATOM     7933    C   CA .  THR   B .  161 ?   -8.972  -2.407  -6.610  0.00  0   B
+ATOM     7846    C  CG1 A  ILE      B 157 ?  -11.611   4.373  -9.562  0.00  0 155 B
+ATOM     7720    C   CB ?  ASP      B 153 ?  -14.886   7.648 -10.053  0.00  0 151 B
+ATOM     7723    O  OD2 ?  ASP      B 153 ?  -15.976   7.708 -12.165  0.00  0 151 B
+ATOM     7721    C   CG ?  ASP      B 153 ?  -16.129   7.617 -10.930  0.00  0 151 B
+ATOM     7722    O  OD1 ?  ASP      B 153 ?  -17.255   7.499 -10.396 -3.35  0 151 B
+ATOM     7816    C   CB A  PRO      B 156 ?  -16.385   3.323  -8.091  0.00  0 154 B
+ATOM     7937    O  OG1 ?  THR      B 161 ?   -8.315  -0.216  -7.396 -2.55  0 159 B
+ATOM     7917    C    C ?  GLN      B 160 ?  -11.279  -2.914  -7.195  0.00  0 158 B
+ATOM     7919    C   CB ?  GLN      B 160 ?  -12.835  -1.666  -8.691  0.00  0 158 B
+ATOM     7918    O    O ?  GLN      B 160 ?  -10.990  -4.093  -7.432 -3.21  0 158 B
+ATOM     7011    C   CE ?  LYS      B 111 ?   -6.725   2.031 -10.221  0.00  0 109 B
+ATOM     7012    N   NZ ?  LYS      B 111 ?   -6.515   1.850 -11.683  0.00  0 109 B
+ATOM     7848    C  CG2 A  ILE      B 157 ?   -9.655   3.410  -8.301  0.00  0 155 B
+ATOM     7838    C   CA A  ILE      B 157 ?  -11.997   2.654  -7.767  0.00  0 155 B
+ATOM     7842    O    O A  ILE      B 157 ?  -10.783   0.834  -6.760  0.00  0 155 B
+ATOM     7920    C   CG ?  GLN      B 160 ?  -14.258  -1.350  -9.109  0.00  0 158 B
+ATOM     7836    N    N A  ILE      B 157 ?  -13.345   3.115  -7.437  0.00  0 155 B
+ATOM     7812    C    C A  PRO      B 156 ?  -14.305   2.245  -7.119  0.00  0 154 B
+ATOM     7932    N    N ?  THR      B 161 ?  -10.367  -2.022  -6.799  0.00  0 159 B
+ATOM     7933    C   CA ?  THR      B 161 ?   -8.972  -2.407  -6.610  0.00  0 159 B
 # 

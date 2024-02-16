@@ -15,7 +15,7 @@ Information about the pocket   139:
 6  - Hydrophobicity Score              : 18.8333
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 195.8279
+9  - Pocket volume (Monte Carlo)       : 196.3353
 10  -Pocket volume (convex hull)       : 4.0623
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,26 +37,27 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      207    N  NH1 .  ARG   A .   27 ?  -10.350   9.794  22.891 -0.59  0   A
-ATOM     3180    C   CD .  ARG   A .  423 ?   -8.663   7.760  17.727  0.00  0   A
-ATOM      202    C   CB .  ARG   A .   27 ?  -10.275   5.734  23.973  0.00  0   A
-ATOM     3181    N   NE .  ARG   A .  423 ?  -10.030   7.821  17.199 -0.42  0   A
-ATOM      198    N    N .  ARG   A .   27 ?  -10.168   3.531  22.905  0.00  0   A
-ATOM     3183    N  NH1 .  ARG   A .  423 ?  -10.204   5.543  16.778 -1.09  0   A
-ATOM      178    O    O .  PHE   A .   25 ?   -8.788   2.765  18.720 -1.07  0   A
-ATOM     3182    C   CZ .  ARG   A .  423 ?  -10.729   6.767  16.766  0.00  0   A
-ATOM      201    O    O .  ARG   A .   27 ?  -12.886   4.603  23.913 -5.36  0   A
-ATOM      177    C    C .  PHE   A .   25 ?   -7.731   2.856  19.366  0.00  0   A
-ATOM      179    C   CB .  PHE   A .   25 ?   -6.541   4.865  18.523  0.00  0   A
-ATOM     3184    N  NH2 .  ARG   A .  423 ?  -11.963   6.938  16.309 -0.17  0   A
-ATOM      203    C   CG .  ARG   A .   27 ?   -8.816   6.151  24.005  0.00  0   A
-ATOM      804    O    O .  GLY   A .  109 ?  -14.488   2.694  21.542 -3.21  0   A
-ATOM      789    O    O .  ALA   A .  107 ?  -12.625   3.024  16.014 -1.07  0   A
-ATOM      802    C   CA .  GLY   A .  109 ?  -16.179   4.251  20.867  0.00  0   A
-ATOM      219    O    O .  GLY   A .   29 ?  -14.252   7.861  25.748 -0.95  0   A
-ATOM      204    C   CD .  ARG   A .   27 ?   -8.709   7.643  23.761  0.00  0   A
-ATOM      788    C    C .  ALA   A .  107 ?  -13.165   2.083  16.603  0.00  0   A
-ATOM      790    C   CB .  ALA   A .  107 ?  -11.608   0.619  17.901  0.00  0   A
-ATOM      801    N    N .  GLY   A .  109 ?  -15.662   4.301  19.508 -7.66  0   A
+ATOM      207    N  NH1 ?  ARG      A 27 ?  -10.350   9.794  22.891 -0.59  0 27 A
+ATOM     3180    C   CD ?  ARG      A 423 ?   -8.663   7.760  17.727  0.00  0 423 A
+ATOM      202    C   CB ?  ARG      A 27 ?  -10.275   5.734  23.973  0.00  0 27 A
+ATOM     3181    N   NE ?  ARG      A 423 ?  -10.030   7.821  17.199 -0.42  0 423 A
+ATOM      198    N    N ?  ARG      A 27 ?  -10.168   3.531  22.905  0.00  0 27 A
+ATOM     3183    N  NH1 ?  ARG      A 423 ?  -10.204   5.543  16.778 -1.09  0 423 A
+ATOM      178    O    O ?  PHE      A 25 ?   -8.788   2.765  18.720 -1.07  0 25 A
+ATOM     3182    C   CZ ?  ARG      A 423 ?  -10.729   6.767  16.766  0.00  0 423 A
+ATOM      201    O    O ?  ARG      A 27 ?  -12.886   4.603  23.913 -5.36  0 27 A
+ATOM      177    C    C ?  PHE      A 25 ?   -7.731   2.856  19.366  0.00  0 25 A
+ATOM      179    C   CB ?  PHE      A 25 ?   -6.541   4.865  18.523  0.00  0 25 A
+ATOM     3184    N  NH2 ?  ARG      A 423 ?  -11.963   6.938  16.309 -0.17  0 423 A
+ATOM      203    C   CG ?  ARG      A 27 ?   -8.816   6.151  24.005  0.00  0 27 A
+ATOM      804    O    O ?  GLY      A 109 ?  -14.488   2.694  21.542 -3.21  0 109 A
+ATOM      789    O    O ?  ALA      A 107 ?  -12.625   3.024  16.014 -1.07  0 107 A
+ATOM      802    C   CA ?  GLY      A 109 ?  -16.179   4.251  20.867  0.00  0 109 A
+ATOM      219    O    O ?  GLY      A 29 ?  -14.252   7.861  25.748 -0.95  0 29 A
+ATOM      204    C   CD ?  ARG      A 27 ?   -8.709   7.643  23.761  0.00  0 27 A
+ATOM      788    C    C ?  ALA      A 107 ?  -13.165   2.083  16.603  0.00  0 107 A
+ATOM      790    C   CB ?  ALA      A 107 ?  -11.608   0.619  17.901  0.00  0 107 A
+ATOM      801    N    N ?  GLY      A 109 ?  -15.662   4.301  19.508 -7.66  0 109 A
 # 

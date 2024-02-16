@@ -15,7 +15,7 @@ Information about the pocket   147:
 6  - Hydrophobicity Score              : 23.8889
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.4444
-9  - Pocket volume (Monte Carlo)       : 144.5232
+9  - Pocket volume (Monte Carlo)       : 148.8403
 10  -Pocket volume (convex hull)       : 2.6036
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 11.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,20 +37,21 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    22281    O    O .  PRO   F .  194 ?  -16.623 -32.934 -97.977 -0.14  0   F
-ATOM    22443    C  CG1 .  VAL   F .  216 ?  -10.521 -30.483-102.496  0.00  0   F
-ATOM    22428    C   CE .  LYS   F .  214 ?  -12.476 -25.865 -99.885  0.00  0   F
-ATOM    22282    C   CB .  PRO   F .  194 ?  -14.231 -34.293 -98.667  0.00  0   F
-ATOM    22272    N  NE1 .  TRP   F .  193 ?  -11.254 -32.785 -96.083  0.00  0   F
-ATOM    22451    C   CD .  PRO   F .  217 ?  -10.809 -33.292-100.610  0.00  0   F
-ATOM    22433    O    O .  ILE   F .  215 ?   -9.522 -30.825 -97.470 -1.07  0   F
-ATOM    22427    C   CD .  LYS   F .  214 ?  -12.595 -25.898 -98.371  0.00  0   F
-ATOM    22305    O  OG1 .  THR   F .  197 ?  -16.367 -27.298 -96.176 -0.14  0   F
-ATOM    22307    N    N .  VAL   F .  198 ?  -12.987 -28.967 -93.540 -1.09  0   F
-ATOM    22301    C   CA .  THR   F .  197 ?  -15.188 -28.570 -94.478  0.00  0   F
-ATOM    22426    C   CG .  LYS   F .  214 ?  -11.306 -26.359 -97.705  0.00  0   F
-ATOM    22294    O    O .  GLU   F .  196 ?  -15.770 -31.199 -95.257 -1.07  0   F
-ATOM    22439    C   CA .  VAL   F .  216 ?   -9.272 -30.774-100.320  0.00  0   F
-ATOM    22444    C  CG2 .  VAL   F .  216 ?   -9.508 -28.496-101.375  0.00  0   F
+ATOM    22281    O    O ?  PRO      H 194 ?  -16.623 -32.934 -97.977 -0.14  0 194 F
+ATOM    22443    C  CG1 ?  VAL      H 216 ?  -10.521 -30.483-102.496  0.00  0 216 F
+ATOM    22428    C   CE ?  LYS      H 214 ?  -12.476 -25.865 -99.885  0.00  0 214 F
+ATOM    22282    C   CB ?  PRO      H 194 ?  -14.231 -34.293 -98.667  0.00  0 194 F
+ATOM    22272    N  NE1 ?  TRP      H 193 ?  -11.254 -32.785 -96.083  0.00  0 193 F
+ATOM    22451    C   CD ?  PRO      H 217 ?  -10.809 -33.292-100.610  0.00  0 217 F
+ATOM    22433    O    O ?  ILE      H 215 ?   -9.522 -30.825 -97.470 -1.07  0 215 F
+ATOM    22427    C   CD ?  LYS      H 214 ?  -12.595 -25.898 -98.371  0.00  0 214 F
+ATOM    22305    O  OG1 ?  THR      H 197 ?  -16.367 -27.298 -96.176 -0.14  0 197 F
+ATOM    22307    N    N ?  VAL      H 198 ?  -12.987 -28.967 -93.540 -1.09  0 198 F
+ATOM    22301    C   CA ?  THR      H 197 ?  -15.188 -28.570 -94.478  0.00  0 197 F
+ATOM    22426    C   CG ?  LYS      H 214 ?  -11.306 -26.359 -97.705  0.00  0 214 F
+ATOM    22294    O    O ?  GLU      H 196 ?  -15.770 -31.199 -95.257 -1.07  0 196 F
+ATOM    22439    C   CA ?  VAL      H 216 ?   -9.272 -30.774-100.320  0.00  0 216 F
+ATOM    22444    C  CG2 ?  VAL      H 216 ?   -9.508 -28.496-101.375  0.00  0 216 F
 # 

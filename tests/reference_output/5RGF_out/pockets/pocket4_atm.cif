@@ -15,7 +15,7 @@ Information about the pocket     4:
 6  - Hydrophobicity Score              : 6.5000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.6000
-9  - Pocket volume (Monte Carlo)       : 349.0829
+9  - Pocket volume (Monte Carlo)       : 349.1645
 10  -Pocket volume (convex hull)       : 31.0213
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 4.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,29 +37,30 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      970    C   CB .  SER   A .   59 ?   13.774  -6.996   5.200  0.00  0   A
-ATOM      950    C    C .  PRO   A .   58 ?   13.393  -6.814   8.530  0.00  0   A
-ATOM      952    C   CB .  PRO   A .   58 ?   11.395  -5.794   9.700  0.00  0   A
-ATOM      951    O    O .  PRO   A .   58 ?   13.221  -8.037   8.493 -1.48  0   A
-ATOM     6182    O    O .  GLY   B .   61 ?    8.447   1.767  -0.245  0.00  0   B
-ATOM     6204    C   CB .  PHE   B .   63 ?    5.747  -0.778   2.970  0.00  0   B
-ATOM     6207    C  CD2 .  PHE   B .   63 ?    5.362  -0.132   0.566  0.00  0   B
-ATOM     1023    N  ND2 .  ASN   A .   62 ?   12.660  -2.628   2.237 -1.68  0   A
-ATOM     7193    N  NH2 .  ARG   B .  120 ?    6.337  -8.249   5.771 -2.19  0   B
-ATOM      953    C   CG .  PRO   A .   58 ?   11.257  -4.421   9.115  0.00  0   A
-ATOM      972    O   OG .  SER   A .   59 ?   13.560  -5.767   4.540 -4.29  0   A
-ATOM     6203    O    O .  PHE   B .   63 ?    7.979  -0.735   5.183 -6.43  0   B
-ATOM     6288    O  OD2 .  ASP   B .   69 ?    5.792  -8.343   8.537 -1.21  0   B
-ATOM     6254    N    N .  ALA   B .   66 ?    6.210  -4.062  10.323 -1.09  0   B
-ATOM     6238    C   CB .  PHE   B .   65 ?    4.880  -4.727   7.130  0.00  0   B
-ATOM     6200    N    N .  PHE   B .   63 ?    7.356   1.046   3.033 -1.09  0   B
-ATOM     1021    O  OD1 .  ASN   A .   62 ?   12.792  -0.805   3.538 -4.69  0   A
-ATOM     1064    O  OD1 .  ASN   A .   64 ?   10.170  -0.822   7.925 -1.07  0   A
-ATOM     1015    O    O .  ASN   A .   62 ?   14.011  -1.967   6.784 -1.07  0   A
-ATOM     6234    N    N .  PHE   B .   65 ?    5.848  -2.626   7.962  0.00  0   B
-ATOM     1019    C   CG .  ASN   A .   62 ?   13.179  -1.932   3.240  0.00  0   A
-ATOM     6241    C  CD2 .  PHE   B .   65 ?    4.832  -4.210   4.690  0.00  0   B
-ATOM     6243    C  CE2 .  PHE   B .   65 ?    4.170  -3.793   3.554  0.00  0   B
-ATOM     7192    N  NH1 .  ARG   B .  120 ?    5.768  -7.731   3.609  0.00  0   B
+ATOM      970    C   CB A  SER      A 59 ?   13.774  -6.996   5.200  0.00  0 57 A
+ATOM      950    C    C ?  PRO      A 58 ?   13.393  -6.814   8.530  0.00  0 56 A
+ATOM      952    C   CB ?  PRO      A 58 ?   11.395  -5.794   9.700  0.00  0 56 A
+ATOM      951    O    O ?  PRO      A 58 ?   13.221  -8.037   8.493 -1.48  0 56 A
+ATOM     6182    O    O ?  GLY      B 61 ?    8.447   1.767  -0.245  0.00  0 59 B
+ATOM     6204    C   CB ?  PHE      B 63 ?    5.747  -0.778   2.970  0.00  0 61 B
+ATOM     6207    C  CD2 ?  PHE      B 63 ?    5.362  -0.132   0.566  0.00  0 61 B
+ATOM     1023    N  ND2 A  ASN      A 62 ?   12.660  -2.628   2.237 -1.68  0 60 A
+ATOM     7193    N  NH2 ?  ARG      B 120 ?    6.337  -8.249   5.771 -2.19  0 118 B
+ATOM      953    C   CG ?  PRO      A 58 ?   11.257  -4.421   9.115  0.00  0 56 A
+ATOM      972    O   OG A  SER      A 59 ?   13.560  -5.767   4.540 -4.29  0 57 A
+ATOM     6203    O    O ?  PHE      B 63 ?    7.979  -0.735   5.183 -6.43  0 61 B
+ATOM     6288    O  OD2 ?  ASP      B 69 ?    5.792  -8.343   8.537 -1.21  0 67 B
+ATOM     6254    N    N ?  ALA      B 66 ?    6.210  -4.062  10.323 -1.09  0 64 B
+ATOM     6238    C   CB ?  PHE      B 65 ?    4.880  -4.727   7.130  0.00  0 63 B
+ATOM     6200    N    N ?  PHE      B 63 ?    7.356   1.046   3.033 -1.09  0 61 B
+ATOM     1021    O  OD1 A  ASN      A 62 ?   12.792  -0.805   3.538 -4.69  0 60 A
+ATOM     1064    O  OD1 ?  ASN      A 64 ?   10.170  -0.822   7.925 -1.07  0 62 A
+ATOM     1015    O    O A  ASN      A 62 ?   14.011  -1.967   6.784 -1.07  0 60 A
+ATOM     6234    N    N ?  PHE      B 65 ?    5.848  -2.626   7.962  0.00  0 63 B
+ATOM     1019    C   CG A  ASN      A 62 ?   13.179  -1.932   3.240  0.00  0 60 A
+ATOM     6241    C  CD2 ?  PHE      B 65 ?    4.832  -4.210   4.690  0.00  0 63 B
+ATOM     6243    C  CE2 ?  PHE      B 65 ?    4.170  -3.793   3.554  0.00  0 63 B
+ATOM     7192    N  NH1 ?  ARG      B 120 ?    5.768  -7.731   3.609  0.00  0 118 B
 # 

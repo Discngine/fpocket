@@ -15,7 +15,7 @@ Information about the pocket    96:
 6  - Hydrophobicity Score              : -17.1111
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.6667
-9  - Pocket volume (Monte Carlo)       : 430.3309
+9  - Pocket volume (Monte Carlo)       : 423.6676
 10  -Pocket volume (convex hull)       : 37.4000
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 7.3333
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,30 +37,31 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12526    O  OD1 .  ASN   D .   24 ?  -37.318  -1.564 -31.185  0.00  0   D
-ATOM    12773    N  NH1 .  ARG   D .   64 ?  -44.166  -0.881 -28.528  0.00  0   D
-ATOM    12521    C   CA .  ASN   D .   24 ?  -38.701   0.462 -32.547  0.00  0   D
-ATOM    12516    O    O .  PRO   D .   23 ?  -41.242  -0.743 -32.891 -1.07  0   D
-ATOM    13116    O  OE2 .  GLU   D .  107 ?  -44.802  -4.163 -28.788 -4.43  0   D
-ATOM    12517    C   CB .  PRO   D .   23 ?  -39.978  -3.820 -32.768  0.00  0   D
-ATOM    13113    C   CG .  GLU   D .  107 ?  -43.754  -6.160 -29.534  0.00  0   D
-ATOM    12647    C   CB .  GLU   D .   48 ?  -35.578   6.879 -27.378  0.00  0   D
-ATOM    12646    O    O .  GLU   D .   48 ?  -33.745   8.048 -29.121 -0.40  0   D
-ATOM    12634    O  OD2 .  ASP   D .   46 ?  -32.238   3.821 -33.441 -1.48  0   D
-ATOM    12631    C   CB .  ASP   D .   46 ?  -34.449   4.704 -33.202  0.00  0   D
-ATOM    12518    C   CG .  PRO   D .   23 ?  -38.540  -4.120 -33.008  0.00  0   D
-ATOM    13107    O    O .  GLY   D .  106 ?  -39.524  -8.218 -31.803 -0.14  0   D
-ATOM    13112    C   CB .  GLU   D .  107 ?  -43.065  -6.265 -30.885  0.00  0   D
-ATOM    13109    C   CA .  GLU   D .  107 ?  -42.118  -7.455 -31.065  0.00  0   D
-ATOM    12774    N  NH2 .  ARG   D .   64 ?  -43.822  -1.120 -30.787  0.00  0   D
-ATOM    13123    C   CD .  PRO   D .  108 ?  -41.255  -9.192 -28.892  0.00  0   D
-ATOM    12643    N    N .  GLU   D .   48 ?  -36.713   6.396 -29.522 -3.28  0   D
-ATOM    12641    C  CD1 .  LEU   D .   47 ?  -41.232   3.565 -29.540  0.00  0   D
-ATOM    12524    C   CB .  ASN   D .   24 ?  -37.197   0.591 -32.250  0.00  0   D
-ATOM    12635    N    N .  LEU   D .   47 ?  -37.317   4.889 -31.981 -1.09  0   D
-ATOM    12527    N  ND2 .  ASN   D .   24 ?  -35.274  -0.719 -31.576  0.00  0   D
-ATOM    12639    C   CB .  LEU   D .   47 ?  -38.988   4.468 -30.212  0.00  0   D
-ATOM    12642    C  CD2 .  LEU   D .   47 ?  -40.153   5.339 -28.140  0.00  0   D
-ATOM    12525    C   CG .  ASN   D .   24 ?  -36.601  -0.662 -31.623  0.00  0   D
+ATOM    12526    O  OD1 ?  ASN      D 24 ?  -37.318  -1.564 -31.185  0.00  0 24 D
+ATOM    12773    N  NH1 ?  ARG      D 64 ?  -44.166  -0.881 -28.528  0.00  0 64 D
+ATOM    12521    C   CA ?  ASN      D 24 ?  -38.701   0.462 -32.547  0.00  0 24 D
+ATOM    12516    O    O ?  PRO      D 23 ?  -41.242  -0.743 -32.891 -1.07  0 23 D
+ATOM    13116    O  OE2 ?  GLU      D 107 ?  -44.802  -4.163 -28.788 -4.43  0 107 D
+ATOM    12517    C   CB ?  PRO      D 23 ?  -39.978  -3.820 -32.768  0.00  0 23 D
+ATOM    13113    C   CG ?  GLU      D 107 ?  -43.754  -6.160 -29.534  0.00  0 107 D
+ATOM    12647    C   CB ?  GLU      D 48 ?  -35.578   6.879 -27.378  0.00  0 48 D
+ATOM    12646    O    O ?  GLU      D 48 ?  -33.745   8.048 -29.121 -0.40  0 48 D
+ATOM    12634    O  OD2 ?  ASP      D 46 ?  -32.238   3.821 -33.441 -1.48  0 46 D
+ATOM    12631    C   CB ?  ASP      D 46 ?  -34.449   4.704 -33.202  0.00  0 46 D
+ATOM    12518    C   CG ?  PRO      D 23 ?  -38.540  -4.120 -33.008  0.00  0 23 D
+ATOM    13107    O    O ?  GLY      D 106 ?  -39.524  -8.218 -31.803 -0.14  0 106 D
+ATOM    13112    C   CB ?  GLU      D 107 ?  -43.065  -6.265 -30.885  0.00  0 107 D
+ATOM    13109    C   CA ?  GLU      D 107 ?  -42.118  -7.455 -31.065  0.00  0 107 D
+ATOM    12774    N  NH2 ?  ARG      D 64 ?  -43.822  -1.120 -30.787  0.00  0 64 D
+ATOM    13123    C   CD ?  PRO      D 108 ?  -41.255  -9.192 -28.892  0.00  0 108 D
+ATOM    12643    N    N ?  GLU      D 48 ?  -36.713   6.396 -29.522 -3.28  0 48 D
+ATOM    12641    C  CD1 ?  LEU      D 47 ?  -41.232   3.565 -29.540  0.00  0 47 D
+ATOM    12524    C   CB ?  ASN      D 24 ?  -37.197   0.591 -32.250  0.00  0 24 D
+ATOM    12635    N    N ?  LEU      D 47 ?  -37.317   4.889 -31.981 -1.09  0 47 D
+ATOM    12527    N  ND2 ?  ASN      D 24 ?  -35.274  -0.719 -31.576  0.00  0 24 D
+ATOM    12639    C   CB ?  LEU      D 47 ?  -38.988   4.468 -30.212  0.00  0 47 D
+ATOM    12642    C  CD2 ?  LEU      D 47 ?  -40.153   5.339 -28.140  0.00  0 47 D
+ATOM    12525    C   CG ?  ASN      D 24 ?  -36.601  -0.662 -31.623  0.00  0 24 D
 # 

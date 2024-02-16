@@ -15,7 +15,7 @@ Information about the pocket   221:
 6  - Hydrophobicity Score              : 4.5000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 217.2523
+9  - Pocket volume (Monte Carlo)       : 214.3839
 10  -Pocket volume (convex hull)       : 3.4667
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 7.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,22 +37,23 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    15351    O    O .  LYS   D .  394 ?  -41.104 -29.302 -19.555 -1.07  0   D
-ATOM    15363    N    N .  SER   D .  396 ?  -41.505 -33.004 -16.687 -0.42  0   D
-ATOM    15291    C  CG1 .  VAL   D .  385 ?  -36.922 -29.112 -14.272  0.00  0   D
-ATOM    15264    S   SG .  CYS   D .  381 ?  -41.205 -28.768 -16.180  0.00  0   D
-ATOM    15301    N    N .  GLY   D .  387 ?  -37.577 -25.458 -18.098  0.00  0   D
-ATOM    15246    O   OG .  SER   D .  379 ?  -40.138 -26.486 -19.207  0.00  0   D
-ATOM    15302    C   CA .  GLY   D .  387 ?  -37.130 -25.818 -19.440  0.00  0   D
-ATOM    15328    O    O .  ASN   D .  391 ?  -38.825 -27.852 -21.643 -1.07  0   D
-ATOM    15368    O   OG .  SER   D .  396 ?  -40.048 -35.719 -17.439 -0.95  0   D
-ATOM    15352    C   CB .  LYS   D .  394 ?  -40.229 -31.445 -21.639  0.00  0   D
-ATOM    15367    C   CB .  SER   D .  396 ?  -40.118 -34.969 -16.240  0.00  0   D
-ATOM    15330    C   CG .  ASN   D .  391 ?  -35.062 -29.650 -22.450  0.00  0   D
-ATOM    15354    C   CD .  LYS   D .  394 ?  -38.830 -33.114 -22.855  0.00  0   D
-ATOM    15331    O  OD1 .  ASN   D .  391 ?  -35.459 -30.621 -23.110 -0.14  0   D
-ATOM    15329    C   CB .  ASN   D .  391 ?  -35.917 -28.427 -22.246  0.00  0   D
-ATOM    15332    N  ND2 .  ASN   D .  391 ?  -33.875 -29.620 -21.862 -1.01  0   D
-ATOM    15296    O    O .  ASN   D .  386 ?  -35.533 -25.628 -17.151 -2.69  0   D
+ATOM    15351    O    O ?  LYS      D 394 ?  -41.104 -29.302 -19.555 -1.07  0 394 D
+ATOM    15363    N    N ?  SER      D 396 ?  -41.505 -33.004 -16.687 -0.42  0 396 D
+ATOM    15291    C  CG1 ?  VAL      D 385 ?  -36.922 -29.112 -14.272  0.00  0 385 D
+ATOM    15264    S   SG ?  CYS      D 381 ?  -41.205 -28.768 -16.180  0.00  0 381 D
+ATOM    15301    N    N ?  GLY      D 387 ?  -37.577 -25.458 -18.098  0.00  0 387 D
+ATOM    15246    O   OG ?  SER      D 379 ?  -40.138 -26.486 -19.207  0.00  0 379 D
+ATOM    15302    C   CA ?  GLY      D 387 ?  -37.130 -25.818 -19.440  0.00  0 387 D
+ATOM    15328    O    O ?  ASN      D 391 ?  -38.825 -27.852 -21.643 -1.07  0 391 D
+ATOM    15368    O   OG ?  SER      D 396 ?  -40.048 -35.719 -17.439 -0.95  0 396 D
+ATOM    15352    C   CB ?  LYS      D 394 ?  -40.229 -31.445 -21.639  0.00  0 394 D
+ATOM    15367    C   CB ?  SER      D 396 ?  -40.118 -34.969 -16.240  0.00  0 396 D
+ATOM    15330    C   CG ?  ASN      D 391 ?  -35.062 -29.650 -22.450  0.00  0 391 D
+ATOM    15354    C   CD ?  LYS      D 394 ?  -38.830 -33.114 -22.855  0.00  0 394 D
+ATOM    15331    O  OD1 ?  ASN      D 391 ?  -35.459 -30.621 -23.110 -0.14  0 391 D
+ATOM    15329    C   CB ?  ASN      D 391 ?  -35.917 -28.427 -22.246  0.00  0 391 D
+ATOM    15332    N  ND2 ?  ASN      D 391 ?  -33.875 -29.620 -21.862 -1.01  0 391 D
+ATOM    15296    O    O ?  ASN      D 386 ?  -35.533 -25.628 -17.151 -2.69  0 386 D
 # 

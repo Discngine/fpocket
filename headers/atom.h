@@ -37,12 +37,14 @@ typedef struct s_atm
     char name[5],		/**< Atom name */
          type[7],		/**< Atom type */
          chain[16],		/**< Chain name */
+         label_asym_id[16],
          symbol[3],		/**< Chemical symbol of the atom */
          res_name[8];		/**< Atom residue name */
 
     int id,			/**< Atom id */
         seen,                   /**< Say if we have seen this atom during a neighbor search */
         res_id,			/**< Atom residue ID */
+        label_seq_id,   /**<MMCIF label seq ID*/
         atype,
         charge,                 /**< Atom charge */
         abpa;                   /**< 1 if atom is an abpa, 0 otherwise*/	

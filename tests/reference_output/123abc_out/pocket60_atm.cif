@@ -15,7 +15,7 @@ Information about the pocket    60:
 6  - Hydrophobicity Score              : 22.1667
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 232.7639
+9  - Pocket volume (Monte Carlo)       : 231.8231
 10  -Pocket volume (convex hull)       : 6.4480
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 13.0000
@@ -30,7 +30,6 @@ _atom_site.label_atom_id
 _atom_site.label_alt_id
 _atom_site.label_comp_id
 _atom_site.label_asym_id
-_atom_site.label_entity_id
 _atom_site.label_seq_id
 _atom_site.pdbx_PDB_ins_code
 _atom_site.Cartn_x
@@ -38,21 +37,22 @@ _atom_site.Cartn_y
 _atom_site.Cartn_z
 _atom_site.occupancy
 _atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5490    C   CE .  LYS   C .  177 ?   38.712  44.170  13.440  0.00  0   C
-ATOM     5393    N    N .  THR   C .  165 ?   45.602  44.348   9.551 -4.79  0   C
-ATOM     5489    C   CD .  LYS   C .  177 ?   39.773  45.105  14.090  0.00  0   C
-ATOM     5491    N   NZ .  LYS   C .  177 ?   38.513  42.817  14.056  0.00  0   C
-ATOM     5816    C  CD2 .  LEU   C .  218 ?   39.150  45.253  10.131  0.00  0   C
-ATOM     5814    C   CG .  LEU   C .  218 ?   38.771  44.284   8.980  0.00  0   C
-ATOM     5398    O  OG1 .  THR   C .  165 ?   47.400  44.396  11.802  0.00  0   C
-ATOM     5505    C  CH2 .  TRP   C .  178 ?   44.938  46.925  15.557  0.00  0   C
-ATOM     5504    C  CZ3 .  TRP   C .  178 ?   44.309  47.583  14.487  0.00  0   C
-ATOM     5761    C   CB .  SER   C .  211 ?   43.393  41.351  17.194  0.00  0   C
-ATOM     5762    O   OG .  SER   C .  211 ?   44.690  40.816  16.932 -2.69  0   C
-ATOM     5815    C  CD1 .  LEU   C .  218 ?   39.936  44.139   7.939  0.00  0   C
-ATOM     5394    C   CA .  THR   C .  165 ?   45.817  45.534  10.379  0.00  0   C
-ATOM     5396    O    O .  THR   C .  165 ?   44.714  47.622  10.079 -4.29  0   C
-ATOM     5488    C   CG .  LYS   C .  177 ?   39.413  46.574  13.764  0.00  0   C
-ATOM     5769    C   CD .  PRO   C .  212 ?   42.913  45.141  17.978  0.00  0   C
+ATOM     5490    C   CE ?  LYS    Cxp 177 ?   38.712  44.170  13.440  0.00  0 404 C
+ATOM     5393    N    N ?  THR    Cxp 165 ?   45.602  44.348   9.551 -4.79  0 392 C
+ATOM     5489    C   CD ?  LYS    Cxp 177 ?   39.773  45.105  14.090  0.00  0 404 C
+ATOM     5491    N   NZ ?  LYS    Cxp 177 ?   38.513  42.817  14.056  0.00  0 404 C
+ATOM     5816    C  CD2 ?  LEU    Cxp 218 ?   39.150  45.253  10.131  0.00  0 445 C
+ATOM     5814    C   CG ?  LEU    Cxp 218 ?   38.771  44.284   8.980  0.00  0 445 C
+ATOM     5398    O  OG1 ?  THR    Cxp 165 ?   47.400  44.396  11.802  0.00  0 392 C
+ATOM     5505    C  CH2 ?  TRP    Cxp 178 ?   44.938  46.925  15.557  0.00  0 405 C
+ATOM     5504    C  CZ3 ?  TRP    Cxp 178 ?   44.309  47.583  14.487  0.00  0 405 C
+ATOM     5761    C   CB ?  SER    Cxp 211 ?   43.393  41.351  17.194  0.00  0 438 C
+ATOM     5762    O   OG ?  SER    Cxp 211 ?   44.690  40.816  16.932 -2.69  0 438 C
+ATOM     5815    C  CD1 ?  LEU    Cxp 218 ?   39.936  44.139   7.939  0.00  0 445 C
+ATOM     5394    C   CA ?  THR    Cxp 165 ?   45.817  45.534  10.379  0.00  0 392 C
+ATOM     5396    O    O ?  THR    Cxp 165 ?   44.714  47.622  10.079 -4.29  0 392 C
+ATOM     5488    C   CG ?  LYS    Cxp 177 ?   39.413  46.574  13.764  0.00  0 404 C
+ATOM     5769    C   CD ?  PRO    Cxp 212 ?   42.913  45.141  17.978  0.00  0 439 C
 # 
