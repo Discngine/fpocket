@@ -227,7 +227,7 @@ void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char at
 		sprintf(res_id_buf, "****");
 
 	alt_loc = (alt_loc == '\0' || (alt_loc == ' '))  ? '?' : alt_loc;
-	insert = (insert == '\0') ? '?' : insert;
+	insert = (insert == '\0' || insert==' ') ? '?' : insert;
 
 	if (charge == -1)
 		sprintf(charge_buf, " 0");
