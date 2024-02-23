@@ -1161,6 +1161,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                 atom->radius = pte_get_vdw_ray(atom->symbol);
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
                                 atom->sort_x = -1;
+                                atom->label_seq_id=atom->res_id;
+                                strcpy(atom->label_asym_id, atom->chain);
+
 
                                 atoms_p[iatoms] = atom;
                                 iatoms++;
@@ -1189,7 +1192,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                 atom->radius = pte_get_vdw_ray(atom->symbol);
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
                                 atom->sort_x = -1;
-
+                                atom->label_seq_id=atom->res_id;
+                                strcpy(atom->label_asym_id, atom->chain);
+                                
                                 atoms_p[iatoms] = atom;
                                 iatoms++;
 
@@ -1215,6 +1220,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             atom->radius = pte_get_vdw_ray(atom->symbol);
                             atom->electroneg = pte_get_enegativity(atom->symbol);
                             atom->sort_x = -1;
+                            atom->label_seq_id=atom->res_id;
+                            strcpy(atom->label_asym_id, atom->chain);
+                                
                             // printf("type : %s, id : %d, name : %s, aloc : %c, res_name : %s, chain  : %s, res_id : %d, pdb_insert : %c, occupancy : %f, b_factor : %f, symbol : %s, charge : %d\n",
                             // atom->type, atom->id,atom->name ,atom->pdb_aloc,atom->res_name,atom->chain,atom->res_id,atom->pdb_insert,atom->occupancy,atom->bfactor, atom->symbol,atom->charge);
                             // printf("electroneg : %s\n",atom->symbol);
@@ -1284,7 +1292,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                             atom->radius = pte_get_vdw_ray(atom->symbol);
                             atom->electroneg = pte_get_enegativity(atom->symbol);
                             atom->sort_x = -1;
-
+                            atom->label_seq_id=atom->res_id;
+                            strcpy(atom->label_asym_id, atom->chain);
+                                
                             atoms_p[iatoms] = atom;
                             atm_lig[iatm_lig] = atom;
 
@@ -1310,7 +1320,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                 atom->radius = pte_get_vdw_ray(atom->symbol);
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
                                 atom->sort_x = -1;
-
+                                atom->label_seq_id=atom->res_id;
+                                strcpy(atom->label_asym_id, atom->chain);
+                                
                                 atoms_p[iatoms] = atom;
                                 atm_lig[iatm_lig] = atom;
 
@@ -1338,7 +1350,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                 atom->radius = pte_get_vdw_ray(atom->symbol);
                                 atom->electroneg = pte_get_enegativity(atom->symbol);
                                 atom->sort_x = -1;
-
+                                atom->label_seq_id=atom->res_id;
+                                strcpy(atom->label_asym_id, atom->chain);
+                                
                                 atoms_p[iatoms] = atom;
                                 pdb->lhetatm[ihetatm] = atom;
                                 ihetatm++;
@@ -1366,7 +1380,9 @@ void rpdb_read(s_pdb *pdb, const char *ligan, const int keep_lig, int model_numb
                                         atom->radius = pte_get_vdw_ray(atom->symbol);
                                         atom->electroneg = pte_get_enegativity(atom->symbol);
                                         atom->sort_x = -1;
-
+                                        atom->label_seq_id=atom->res_id;
+                                        strcpy(atom->label_asym_id, atom->chain);
+                                
                                         atoms_p[iatoms] = atom;
                                         pdb->lhetatm[ihetatm] = atom;
                                         ihetatm++;
