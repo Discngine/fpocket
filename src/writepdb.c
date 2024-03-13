@@ -238,7 +238,7 @@ void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char at
 	if (abpa)
 		finalabpa = abpa_prob;
 
-	status = fprintf(f, "%-7s %-6s %3s %4s %c %4s %6s %d %c %8.3f%8.3f%8.3f%6.2f %2s %d %s\n",
+	status = fprintf(f, "%-7s %-6s %3s %4s %c %4s %6s %d %c %8.3f %8.3f %8.3f %6.2f %2s %d %s\n",
 					 rec_name, id_buf, symbol, atom_name,alt_loc, res_name, label_asym_id, label_seq_id,insert, x, y, z, occ, charge_buf, res_id,chain);
 
 }
