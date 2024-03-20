@@ -15,7 +15,7 @@ Information about the pocket    50:
 6  - Hydrophobicity Score              : 14.1000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 271.4732
+9  - Pocket volume (Monte Carlo)       : 272.9998
 10  -Pocket volume (convex hull)       : 20.3498
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7351    N    N ?  ASN    Dxp 147 ?   61.301  21.977  27.980 -1.51  0 374 D
-ATOM     7347    C   CG ?  GLU    Dxp 146 ?   64.890  22.259  29.041  0.00  0 373 D
-ATOM     7357    O  OD1 ?  ASN    Dxp 147 ?   62.276  22.061  24.845  0.00  0 374 D
-ATOM     6924    O   OH ?  TYR    Dxp 93 ?   64.217  26.725  30.486  0.00  0 320 D
-ATOM     7043    O  OE2 ?  GLU    Dxp 107 ?   58.461  28.097  26.697  0.00  0 334 D
-ATOM     7352    C   CA ?  ASN    Dxp 147 ?   60.354  21.610  26.948  0.00  0 374 D
-ATOM     7368    N  NE2 ?  HIS    Dxp 148 ?   57.049  25.692  26.843  0.00  0 375 D
-ATOM     6921    C  CE1 ?  TYR    Dxp 93 ?   62.960  25.184  31.767  0.00  0 320 D
-ATOM     6923    C   CZ ?  TYR    Dxp 93 ?   63.348  26.475  31.520  0.00  0 320 D
-ATOM     7341    O    O ?  GLY    Dxp 145 ?   60.537  22.517  31.591 -2.14  0 372 D
-ATOM     6972    O   OH ?  TYR    Dxp 99 ?   57.322  26.754  30.435 -7.50  0 326 D
-ATOM     7366    C  CD2 ?  HIS    Dxp 148 ?   56.698  24.973  27.966  0.00  0 375 D
-ATOM     7042    O  OE1 ?  GLU    Dxp 107 ?   58.654  30.340  26.481  0.00  0 334 D
-ATOM     7005    C   CB ?  CYS    Dxp 103 ?   54.589  31.213  31.358  0.00  0 330 D
-ATOM     6969    C  CE1 ?  TYR    Dxp 99 ?   57.793  27.460  32.634  0.00  0 326 D
-ATOM     7002    C   CA ?  CYS    Dxp 103 ?   55.212  32.554  31.707  0.00  0 330 D
-ATOM     7007    N    N ?  ASN    Dxp 104 ?   55.693  33.399  29.499 -2.19  0 331 D
-ATOM     7050    C  CG2 ?  VAL    Dxp 108 ?   54.739  28.456  28.775  0.00  0 335 D
-ATOM     6922    C  CE2 ?  TYR    Dxp 93 ?   62.885  27.524  32.288  0.00  0 320 D
-ATOM     7359    N    N ?  HIS    Dxp 148 ?   58.520  21.986  28.512  0.00  0 375 D
-ATOM     7367    C  CE1 ?  HIS    Dxp 148 ?   57.036  24.884  25.794  0.00  0 375 D
+ATOM     7351    N    N ?  ASN    Dxp 147 ?   61.301   21.977   27.980  -1.51  0 374 D
+ATOM     7347    C   CG ?  GLU    Dxp 146 ?   64.890   22.259   29.041   0.00  0 373 D
+ATOM     7357    O  OD1 ?  ASN    Dxp 147 ?   62.276   22.061   24.845   0.00  0 374 D
+ATOM     6924    O   OH ?  TYR    Dxp 93 ?   64.217   26.725   30.486   0.00  0 320 D
+ATOM     7043    O  OE2 ?  GLU    Dxp 107 ?   58.461   28.097   26.697   0.00  0 334 D
+ATOM     7352    C   CA ?  ASN    Dxp 147 ?   60.354   21.610   26.948   0.00  0 374 D
+ATOM     7368    N  NE2 ?  HIS    Dxp 148 ?   57.049   25.692   26.843   0.00  0 375 D
+ATOM     6921    C  CE1 ?  TYR    Dxp 93 ?   62.960   25.184   31.767   0.00  0 320 D
+ATOM     6923    C   CZ ?  TYR    Dxp 93 ?   63.348   26.475   31.520   0.00  0 320 D
+ATOM     7341    O    O ?  GLY    Dxp 145 ?   60.537   22.517   31.591  -2.14  0 372 D
+ATOM     6972    O   OH ?  TYR    Dxp 99 ?   57.322   26.754   30.435  -7.50  0 326 D
+ATOM     7366    C  CD2 ?  HIS    Dxp 148 ?   56.698   24.973   27.966   0.00  0 375 D
+ATOM     7042    O  OE1 ?  GLU    Dxp 107 ?   58.654   30.340   26.481   0.00  0 334 D
+ATOM     7005    C   CB ?  CYS    Dxp 103 ?   54.589   31.213   31.358   0.00  0 330 D
+ATOM     6969    C  CE1 ?  TYR    Dxp 99 ?   57.793   27.460   32.634   0.00  0 326 D
+ATOM     7002    C   CA ?  CYS    Dxp 103 ?   55.212   32.554   31.707   0.00  0 330 D
+ATOM     7007    N    N ?  ASN    Dxp 104 ?   55.693   33.399   29.499  -2.19  0 331 D
+ATOM     7050    C  CG2 ?  VAL    Dxp 108 ?   54.739   28.456   28.775   0.00  0 335 D
+ATOM     6922    C  CE2 ?  TYR    Dxp 93 ?   62.885   27.524   32.288   0.00  0 320 D
+ATOM     7359    N    N ?  HIS    Dxp 148 ?   58.520   21.986   28.512   0.00  0 375 D
+ATOM     7367    C  CE1 ?  HIS    Dxp 148 ?   57.036   24.884   25.794   0.00  0 375 D
 # 

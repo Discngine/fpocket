@@ -15,7 +15,7 @@ Information about the pocket    18:
 6  - Hydrophobicity Score              : 53.6000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 282.6770
+9  - Pocket volume (Monte Carlo)       : 282.9662
 10  -Pocket volume (convex hull)       : 22.1820
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 17.8947
@@ -39,27 +39,27 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1359    O    O ?  LEU    Axp 184 ?   14.349  39.319  26.613 -1.07  0 411 A
-ATOM     3348    C  CD2 ?  HIS    Bxp 169 ?   16.267  39.878  30.268  0.00  0 396 B
-ATOM     1363    C  CD2 ?  LEU    Axp 184 ?   17.375  37.076  23.709  0.00  0 411 A
-ATOM     3351    N    N ?  ALA    Bxp 170 ?   17.691  42.856  27.354 -6.98  0 397 B
-ATOM     3340    C   CB ?  ALA    Bxp 168 ?   22.786  43.694  28.595  0.00  0 395 B
-ATOM     1640    O    O ?  SER    Axp 219 ?   23.891  43.579  25.385 -1.07  0 446 A
-ATOM     1638    C   CA ?  SER    Axp 219 ?   25.023  41.475  25.807  0.00  0 446 A
-ATOM     1632    O    O ?  LEU    Axp 218 ?   23.990  39.840  23.886  0.00  0 445 A
-ATOM     3339    O    O ?  ALA    Bxp 168 ?   21.154  41.582  30.397  0.00  0 395 B
-ATOM     3338    C    C ?  ALA    Bxp 168 ?   20.955  42.763  30.104  0.00  0 395 B
-ATOM     1298    C  CD1 ?  ILE    Axp 176 ?   20.379  35.378  24.896  0.00  0 403 A
-ATOM     1238    O    O ?  ALA    Axp 168 ?   20.773  34.081  30.515  0.00  0 395 A
-ATOM     1279    C  CD1 ?  PHE    Axp 174 ?   15.732  32.610  26.953  0.00  0 401 A
-ATOM     1244    C   CB ?  HIS    Axp 169 ?   17.333  33.968  29.971  0.00  0 396 A
-ATOM     3342    C   CA ?  HIS    Bxp 169 ?   18.586  42.470  29.578  0.00  0 396 B
-ATOM     1297    C  CG2 ?  ILE    Axp 176 ?   21.592  37.080  22.335  0.00  0 403 A
-ATOM     1663    C   CB ?  TYR    Axp 222 ?   18.792  43.075  23.036  0.00  0 449 A
-ATOM     1659    N    N ?  TYR    Axp 222 ?   20.759  42.581  21.578 -1.09  0 449 A
-ATOM     1362    C  CD1 ?  LEU    Axp 184 ?   17.407  38.949  21.882  0.00  0 411 A
-ATOM     1247    C  CD2 ?  HIS    Axp 169 ?   15.907  36.141  30.193  0.00  0 396 A
-ATOM     1357    C   CA ?  LEU    Axp 184 ?   14.567  38.323  24.463  0.00  0 411 A
-ATOM     1353    O    O ?  SER    Axp 183 ?   12.402  36.556  25.117  0.00  0 410 A
-ATOM     1360    C   CB ?  LEU    Axp 184 ?   15.704  39.018  23.710  0.00  0 411 A
+ATOM     1359    O    O ?  LEU    Axp 184 ?   14.349   39.319   26.613  -1.07  0 411 A
+ATOM     3348    C  CD2 ?  HIS    Bxp 169 ?   16.267   39.878   30.268   0.00  0 396 B
+ATOM     1363    C  CD2 ?  LEU    Axp 184 ?   17.375   37.076   23.709   0.00  0 411 A
+ATOM     3351    N    N ?  ALA    Bxp 170 ?   17.691   42.856   27.354  -6.98  0 397 B
+ATOM     3340    C   CB ?  ALA    Bxp 168 ?   22.786   43.694   28.595   0.00  0 395 B
+ATOM     1640    O    O ?  SER    Axp 219 ?   23.891   43.579   25.385  -1.07  0 446 A
+ATOM     1638    C   CA ?  SER    Axp 219 ?   25.023   41.475   25.807   0.00  0 446 A
+ATOM     1632    O    O ?  LEU    Axp 218 ?   23.990   39.840   23.886   0.00  0 445 A
+ATOM     3339    O    O ?  ALA    Bxp 168 ?   21.154   41.582   30.397   0.00  0 395 B
+ATOM     3338    C    C ?  ALA    Bxp 168 ?   20.955   42.763   30.104   0.00  0 395 B
+ATOM     1298    C  CD1 ?  ILE    Axp 176 ?   20.379   35.378   24.896   0.00  0 403 A
+ATOM     1238    O    O ?  ALA    Axp 168 ?   20.773   34.081   30.515   0.00  0 395 A
+ATOM     1279    C  CD1 ?  PHE    Axp 174 ?   15.732   32.610   26.953   0.00  0 401 A
+ATOM     1244    C   CB ?  HIS    Axp 169 ?   17.333   33.968   29.971   0.00  0 396 A
+ATOM     3342    C   CA ?  HIS    Bxp 169 ?   18.586   42.470   29.578   0.00  0 396 B
+ATOM     1297    C  CG2 ?  ILE    Axp 176 ?   21.592   37.080   22.335   0.00  0 403 A
+ATOM     1663    C   CB ?  TYR    Axp 222 ?   18.792   43.075   23.036   0.00  0 449 A
+ATOM     1659    N    N ?  TYR    Axp 222 ?   20.759   42.581   21.578  -1.09  0 449 A
+ATOM     1362    C  CD1 ?  LEU    Axp 184 ?   17.407   38.949   21.882   0.00  0 411 A
+ATOM     1247    C  CD2 ?  HIS    Axp 169 ?   15.907   36.141   30.193   0.00  0 396 A
+ATOM     1357    C   CA ?  LEU    Axp 184 ?   14.567   38.323   24.463   0.00  0 411 A
+ATOM     1353    O    O ?  SER    Axp 183 ?   12.402   36.556   25.117   0.00  0 410 A
+ATOM     1360    C   CB ?  LEU    Axp 184 ?   15.704   39.018   23.710   0.00  0 411 A
 # 

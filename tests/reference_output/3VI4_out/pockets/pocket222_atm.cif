@@ -15,7 +15,7 @@ Information about the pocket   222:
 6  - Hydrophobicity Score              : 23.5000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.3571
-9  - Pocket volume (Monte Carlo)       : 460.1989
+9  - Pocket volume (Monte Carlo)       : 456.6432
 10  -Pocket volume (convex hull)       : 62.9876
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 9.0000
@@ -39,28 +39,28 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    16237    O    O ?  GLY      E 62 ?  -52.693 -60.921  -2.501  0.00  0 62 L
-ATOM    16102    N  NH2 ?  ARG      E 44 ?  -55.184 -61.861   4.523  0.00  0 44 L
-ATOM    16251    C   CD ?  PRO      E 64 ?  -55.355 -63.047  -1.988  0.00  0 64 L
-ATOM    16250    C   CG ?  PRO      E 64 ?  -55.122 -64.511  -1.832  0.00  0 64 L
-ATOM    16244    C  CG2 ?  VAL      E 63 ?  -56.342 -58.388  -2.146  0.00  0 63 L
-ATOM    16239    C   CA ?  VAL      E 63 ?  -55.320 -60.432  -3.172  0.00  0 63 L
-ATOM    16162    C  CD2 ?  LEU      E 52 ?  -59.070 -58.892   0.453  0.00  0 52 L
-ATOM    16280    C  CE2 ?  PHE      E 67 ?  -59.052 -64.009  -0.259  0.00  0 67 L
-ATOM    16281    C   CZ ?  PHE      E 67 ?  -59.725 -63.670   0.907  0.00  0 67 L
-ATOM    16150    O    O ?  LEU      E 51 ?  -57.658 -55.393  -0.359 -2.14  0 51 L
-ATOM    16142    C   CD ?  ARG      E 50 ?  -54.063 -56.482   4.132  0.00  0 50 L
-ATOM    16101    N  NH1 ?  ARG      E 44 ?  -54.409 -60.007   5.641 -0.84  0 44 L
-ATOM    16082    C  CD2 ?  LEU      E 42 ?  -58.578 -60.345   5.081  0.00  0 42 L
-ATOM    16140    C   CB ?  ARG      E 50 ?  -56.325 -55.392   3.822  0.00  0 50 L
-ATOM    16143    N   NE ?  ARG      E 50 ?  -53.290 -56.986   5.268 -1.09  0 50 L
-ATOM    16146    N  NH2 ?  ARG      E 50 ?  -51.528 -57.025   6.735  0.00  0 50 L
-ATOM    16144    C   CZ ?  ARG      E 50 ?  -52.128 -56.487   5.683  0.00  0 50 L
-ATOM    16231    O    O ?  SER      E 61 ?  -53.300 -56.689  -3.056  0.00  0 61 L
-ATOM    16235    C   CA ?  GLY      E 62 ?  -51.835 -59.015  -3.622  0.00  0 62 L
-ATOM    16270    N  NH2 ?  ARG      E 66 ?  -56.431 -67.132   0.308 -1.09  0 66 L
-ATOM    16411    C   CB ?  ALA      E 86 ?  -54.451 -66.100   5.389  0.00  0 86 L
-ATOM    16400    O  OE1 ?  GLU      E 84 ?  -54.070 -69.552   2.070  0.00  0 84 L
-ATOM    16236    C    C ?  GLY      E 62 ?  -52.943 -59.947  -3.198  0.00  0 62 L
-ATOM    16418    O  OD1 ?  ASP      E 87 ?  -57.916 -66.086   3.043 -1.07  0 87 L
+ATOM    16237    O    O ?  GLY      E 62 ?  -52.693  -60.921   -2.501   0.00  0 62 L
+ATOM    16102    N  NH2 ?  ARG      E 44 ?  -55.184  -61.861    4.523   0.00  0 44 L
+ATOM    16251    C   CD ?  PRO      E 64 ?  -55.355  -63.047   -1.988   0.00  0 64 L
+ATOM    16250    C   CG ?  PRO      E 64 ?  -55.122  -64.511   -1.832   0.00  0 64 L
+ATOM    16244    C  CG2 ?  VAL      E 63 ?  -56.342  -58.388   -2.146   0.00  0 63 L
+ATOM    16239    C   CA ?  VAL      E 63 ?  -55.320  -60.432   -3.172   0.00  0 63 L
+ATOM    16162    C  CD2 ?  LEU      E 52 ?  -59.070  -58.892    0.453   0.00  0 52 L
+ATOM    16280    C  CE2 ?  PHE      E 67 ?  -59.052  -64.009   -0.259   0.00  0 67 L
+ATOM    16281    C   CZ ?  PHE      E 67 ?  -59.725  -63.670    0.907   0.00  0 67 L
+ATOM    16150    O    O ?  LEU      E 51 ?  -57.658  -55.393   -0.359  -2.14  0 51 L
+ATOM    16142    C   CD ?  ARG      E 50 ?  -54.063  -56.482    4.132   0.00  0 50 L
+ATOM    16101    N  NH1 ?  ARG      E 44 ?  -54.409  -60.007    5.641  -0.84  0 44 L
+ATOM    16082    C  CD2 ?  LEU      E 42 ?  -58.578  -60.345    5.081   0.00  0 42 L
+ATOM    16140    C   CB ?  ARG      E 50 ?  -56.325  -55.392    3.822   0.00  0 50 L
+ATOM    16143    N   NE ?  ARG      E 50 ?  -53.290  -56.986    5.268  -1.09  0 50 L
+ATOM    16146    N  NH2 ?  ARG      E 50 ?  -51.528  -57.025    6.735   0.00  0 50 L
+ATOM    16144    C   CZ ?  ARG      E 50 ?  -52.128  -56.487    5.683   0.00  0 50 L
+ATOM    16231    O    O ?  SER      E 61 ?  -53.300  -56.689   -3.056   0.00  0 61 L
+ATOM    16235    C   CA ?  GLY      E 62 ?  -51.835  -59.015   -3.622   0.00  0 62 L
+ATOM    16270    N  NH2 ?  ARG      E 66 ?  -56.431  -67.132    0.308  -1.09  0 66 L
+ATOM    16411    C   CB ?  ALA      E 86 ?  -54.451  -66.100    5.389   0.00  0 86 L
+ATOM    16400    O  OE1 ?  GLU      E 84 ?  -54.070  -69.552    2.070   0.00  0 84 L
+ATOM    16236    C    C ?  GLY      E 62 ?  -52.943  -59.947   -3.198   0.00  0 62 L
+ATOM    16418    O  OD1 ?  ASP      E 87 ?  -57.916  -66.086    3.043  -1.07  0 87 L
 # 

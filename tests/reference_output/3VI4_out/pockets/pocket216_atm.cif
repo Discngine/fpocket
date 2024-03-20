@@ -15,7 +15,7 @@ Information about the pocket   216:
 6  - Hydrophobicity Score              : 8.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 303.8246
+9  - Pocket volume (Monte Carlo)       : 298.0763
 10  -Pocket volume (convex hull)       : 12.0672
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 13.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    18635    C   CG ?  PRO      F 154 ?  -48.669 -50.287  27.163  0.00  0 154 H
-ATOM    18619    C   CG ?  PRO      F 152 ?  -50.644 -46.471  30.067  0.00  0 152 H
-ATOM    19016    C   CB ?  ALA      F 206 ?  -46.873 -47.283  31.231  0.00  0 206 H
-ATOM    17543    C  CD2 ?  LEU      F 11 ?  -51.187 -43.160  26.981  0.00  0 11 H
-ATOM    18636    C   CD ?  PRO      F 154 ?  -50.055 -49.979  27.665  0.00  0 154 H
-ATOM    17526    C   CB ?  ALA      F 9 ?  -51.169 -45.308  22.471  0.00  0 9 H
-ATOM    17542    C  CD1 ?  LEU      F 11 ?  -53.438 -44.173  27.495  0.00  0 11 H
-ATOM    18618    C   CB ?  PRO      F 152 ?  -52.110 -46.689  29.923  0.00  0 152 H
-ATOM    18621    N    N ?  GLU      F 153 ?  -52.722 -49.422  29.218 -1.09  0 153 H
-ATOM    18625    C   CB ?  GLU      F 153 ?  -53.840 -50.685  27.418  0.00  0 153 H
-ATOM    18345    O   OG ?  SER      F 113 ?  -54.278 -46.705  21.551  0.00  0 113 H
-ATOM    18626    C   CG ?  GLU      F 153 ?  -54.038 -51.994  26.643  0.00  0 153 H
-ATOM    18630    N    N ?  PRO      F 154 ?  -50.633 -51.311  27.895  0.00  0 154 H
-ATOM    18634    C   CB ?  PRO      F 154 ?  -48.589 -51.736  26.780  0.00  0 154 H
-ATOM    18631    C   CA ?  PRO      F 154 ?  -49.691 -52.411  27.592  0.00  0 154 H
-ATOM    18358    O  OG1 ?  THR      F 115 ?  -56.453 -45.463  25.348 -3.35  0 115 H
+ATOM    18635    C   CG ?  PRO      F 154 ?  -48.669  -50.287   27.163   0.00  0 154 H
+ATOM    18619    C   CG ?  PRO      F 152 ?  -50.644  -46.471   30.067   0.00  0 152 H
+ATOM    19016    C   CB ?  ALA      F 206 ?  -46.873  -47.283   31.231   0.00  0 206 H
+ATOM    17543    C  CD2 ?  LEU      F 11 ?  -51.187  -43.160   26.981   0.00  0 11 H
+ATOM    18636    C   CD ?  PRO      F 154 ?  -50.055  -49.979   27.665   0.00  0 154 H
+ATOM    17526    C   CB ?  ALA      F 9 ?  -51.169  -45.308   22.471   0.00  0 9 H
+ATOM    17542    C  CD1 ?  LEU      F 11 ?  -53.438  -44.173   27.495   0.00  0 11 H
+ATOM    18618    C   CB ?  PRO      F 152 ?  -52.110  -46.689   29.923   0.00  0 152 H
+ATOM    18621    N    N ?  GLU      F 153 ?  -52.722  -49.422   29.218  -1.09  0 153 H
+ATOM    18625    C   CB ?  GLU      F 153 ?  -53.840  -50.685   27.418   0.00  0 153 H
+ATOM    18345    O   OG ?  SER      F 113 ?  -54.278  -46.705   21.551   0.00  0 113 H
+ATOM    18626    C   CG ?  GLU      F 153 ?  -54.038  -51.994   26.643   0.00  0 153 H
+ATOM    18630    N    N ?  PRO      F 154 ?  -50.633  -51.311   27.895   0.00  0 154 H
+ATOM    18634    C   CB ?  PRO      F 154 ?  -48.589  -51.736   26.780   0.00  0 154 H
+ATOM    18631    C   CA ?  PRO      F 154 ?  -49.691  -52.411   27.592   0.00  0 154 H
+ATOM    18358    O  OG1 ?  THR      F 115 ?  -56.453  -45.463   25.348  -3.35  0 115 H
 # 

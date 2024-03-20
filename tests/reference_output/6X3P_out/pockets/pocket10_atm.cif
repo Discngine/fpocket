@@ -15,7 +15,7 @@ Information about the pocket    10:
 6  - Hydrophobicity Score              : 27.4444
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 2.7778
-9  - Pocket volume (Monte Carlo)       : 307.1834
+9  - Pocket volume (Monte Carlo)       : 302.0511
 10  -Pocket volume (convex hull)       : 11.0654
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1331    C   CA ?  SER      A 169 ?   -3.096  21.117  -5.246  0.00  0 557 A
-ATOM     1329    O    O ?  GLY      A 168 ?   -5.243  22.414  -3.994 -2.14  0 556 A
-ATOM     1732    C   CB ?  ASN      A 215 ?   -4.947  26.822  -8.278  0.00  0 603 A
-ATOM     1735    N  ND2 ?  ASN      A 215 ?   -5.010  24.434  -8.604  0.00  0 603 A
-ATOM     1322    O    O ?  VAL      A 167 ?   -3.446  24.109  -1.310 -0.40  0 555 A
-ATOM     1316    O    O ?  SER      A 166 ?   -7.194  25.626  -2.047 -2.28  0 554 A
-ATOM     1744    C   CB A  SER      A 216 ?   -2.074  30.892  -6.266  0.00  0 604 A
-ATOM     1320    C   CA ?  VAL      A 167 ?   -5.271  25.053   0.028  0.00  0 555 A
-ATOM     1738    C   CA A  SER      A 216 ?   -3.539  30.762  -6.678  0.00  0 604 A
-ATOM     1369    C  CG2 ?  VAL      A 173 ?   -8.162  26.008  -5.831  0.00  0 561 A
-ATOM     1438    C  CD2 ?  LEU      A 181 ?  -11.402  28.307  -4.028  0.00  0 569 A
-ATOM     1768    C   CB ?  ALA      A 219 ?   -7.920  31.739  -5.155  0.00  0 607 A
-ATOM     1317    C   CB ?  SER      A 166 ?   -9.695  26.237  -0.302  0.00  0 554 A
-ATOM     1435    C   CB ?  LEU      A 181 ?  -11.851  30.263  -2.527  0.00  0 569 A
-ATOM     1736    N    N A  SER      A 216 ?   -3.709  29.625  -7.594  0.00  0 604 A
-ATOM     1730    C    C ?  ASN      A 215 ?   -4.918  29.300  -8.089  0.00  0 603 A
-ATOM     1731    O    O ?  ASN      A 215 ?   -5.948  29.926  -7.799  0.00  0 603 A
-ATOM     1434    O    O ?  LEU      A 181 ?  -10.964  29.900   0.492 -4.29  0 569 A
-ATOM     1318    O   OG ?  SER      A 166 ?   -9.184  26.653   0.953 -4.69  0 554 A
+ATOM     1331    C   CA ?  SER      A 169 ?   -3.096   21.117   -5.246   0.00  0 557 A
+ATOM     1329    O    O ?  GLY      A 168 ?   -5.243   22.414   -3.994  -2.14  0 556 A
+ATOM     1732    C   CB ?  ASN      A 215 ?   -4.947   26.822   -8.278   0.00  0 603 A
+ATOM     1735    N  ND2 ?  ASN      A 215 ?   -5.010   24.434   -8.604   0.00  0 603 A
+ATOM     1322    O    O ?  VAL      A 167 ?   -3.446   24.109   -1.310  -0.40  0 555 A
+ATOM     1316    O    O ?  SER      A 166 ?   -7.194   25.626   -2.047  -2.28  0 554 A
+ATOM     1744    C   CB A  SER      A 216 ?   -2.074   30.892   -6.266   0.00  0 604 A
+ATOM     1320    C   CA ?  VAL      A 167 ?   -5.271   25.053    0.028   0.00  0 555 A
+ATOM     1738    C   CA A  SER      A 216 ?   -3.539   30.762   -6.678   0.00  0 604 A
+ATOM     1369    C  CG2 ?  VAL      A 173 ?   -8.162   26.008   -5.831   0.00  0 561 A
+ATOM     1438    C  CD2 ?  LEU      A 181 ?  -11.402   28.307   -4.028   0.00  0 569 A
+ATOM     1768    C   CB ?  ALA      A 219 ?   -7.920   31.739   -5.155   0.00  0 607 A
+ATOM     1317    C   CB ?  SER      A 166 ?   -9.695   26.237   -0.302   0.00  0 554 A
+ATOM     1435    C   CB ?  LEU      A 181 ?  -11.851   30.263   -2.527   0.00  0 569 A
+ATOM     1736    N    N A  SER      A 216 ?   -3.709   29.625   -7.594   0.00  0 604 A
+ATOM     1730    C    C ?  ASN      A 215 ?   -4.918   29.300   -8.089   0.00  0 603 A
+ATOM     1731    O    O ?  ASN      A 215 ?   -5.948   29.926   -7.799   0.00  0 603 A
+ATOM     1434    O    O ?  LEU      A 181 ?  -10.964   29.900    0.492  -4.29  0 569 A
+ATOM     1318    O   OG ?  SER      A 166 ?   -9.184   26.653    0.953  -4.69  0 554 A
 # 

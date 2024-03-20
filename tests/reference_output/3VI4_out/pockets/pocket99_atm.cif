@@ -15,7 +15,7 @@ Information about the pocket    99:
 6  - Hydrophobicity Score              : 23.8750
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.6250
-9  - Pocket volume (Monte Carlo)       : 329.9425
+9  - Pocket volume (Monte Carlo)       : 326.8606
 10  -Pocket volume (convex hull)       : 14.5512
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.2000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20012    O    O ?  PRO      G 118 ?    0.560 -46.209 -84.374 -1.48  0 118 E
-ATOM    21860    C  CG2 ?  THR      H 137 ?   -4.604 -47.729 -86.932  0.00  0 137 F
-ATOM    20736    C  CD1 ?  ILE      G 210 ?    3.209 -49.118 -85.134  0.00  0 210 E
-ATOM    20008    C   CB ?  ALA      G 117 ?    0.811 -49.151 -81.260  0.00  0 117 E
-ATOM    20752    N   NZ ?  LYS      G 212 ?   -1.632 -47.913 -92.508  0.00  0 212 E
-ATOM    21859    O  OG1 ?  THR      H 137 ?   -3.948 -46.021 -88.505 -1.07  0 137 F
-ATOM    20751    C   CE ?  LYS      G 212 ?   -0.531 -47.117 -91.892  0.00  0 212 E
-ATOM    21855    C   CA ?  THR      H 137 ?   -6.221 -46.900 -88.727  0.00  0 137 F
-ATOM    21845    N    N ?  GLN      H 136 ?   -7.232 -45.146 -93.110 -3.28  0 136 F
-ATOM    21842    C    C ?  ALA      H 135 ?   -6.137 -44.767 -93.766  0.00  0 135 F
-ATOM    21844    C   CB ?  ALA      H 135 ?   -4.680 -45.431 -95.700  0.00  0 135 F
-ATOM    21841    C   CA ?  ALA      H 135 ?   -6.105 -45.109 -95.255  0.00  0 135 F
-ATOM    20735    C  CG2 ?  ILE      G 210 ?    2.936 -48.415 -88.160  0.00  0 210 E
-ATOM    20023    N    N ?  VAL      G 120 ?    0.475 -43.916 -87.378 -2.19  0 120 E
-ATOM    21847    C    C ?  GLN      H 136 ?   -7.325 -46.006 -90.752  0.00  0 136 F
-ATOM    21848    O    O ?  GLN      H 136 ?   -7.987 -47.028 -90.924 -3.35  0 136 F
-ATOM    21854    N    N ?  THR      H 137 ?   -6.462 -45.856 -89.744 -1.09  0 137 F
+ATOM    20012    O    O ?  PRO      G 118 ?    0.560  -46.209  -84.374  -1.48  0 118 E
+ATOM    21860    C  CG2 ?  THR      H 137 ?   -4.604  -47.729  -86.932   0.00  0 137 F
+ATOM    20736    C  CD1 ?  ILE      G 210 ?    3.209  -49.118  -85.134   0.00  0 210 E
+ATOM    20008    C   CB ?  ALA      G 117 ?    0.811  -49.151  -81.260   0.00  0 117 E
+ATOM    20752    N   NZ ?  LYS      G 212 ?   -1.632  -47.913  -92.508   0.00  0 212 E
+ATOM    21859    O  OG1 ?  THR      H 137 ?   -3.948  -46.021  -88.505  -1.07  0 137 F
+ATOM    20751    C   CE ?  LYS      G 212 ?   -0.531  -47.117  -91.892   0.00  0 212 E
+ATOM    21855    C   CA ?  THR      H 137 ?   -6.221  -46.900  -88.727   0.00  0 137 F
+ATOM    21845    N    N ?  GLN      H 136 ?   -7.232  -45.146  -93.110  -3.28  0 136 F
+ATOM    21842    C    C ?  ALA      H 135 ?   -6.137  -44.767  -93.766   0.00  0 135 F
+ATOM    21844    C   CB ?  ALA      H 135 ?   -4.680  -45.431  -95.700   0.00  0 135 F
+ATOM    21841    C   CA ?  ALA      H 135 ?   -6.105  -45.109  -95.255   0.00  0 135 F
+ATOM    20735    C  CG2 ?  ILE      G 210 ?    2.936  -48.415  -88.160   0.00  0 210 E
+ATOM    20023    N    N ?  VAL      G 120 ?    0.475  -43.916  -87.378  -2.19  0 120 E
+ATOM    21847    C    C ?  GLN      H 136 ?   -7.325  -46.006  -90.752   0.00  0 136 F
+ATOM    21848    O    O ?  GLN      H 136 ?   -7.987  -47.028  -90.924  -3.35  0 136 F
+ATOM    21854    N    N ?  THR      H 137 ?   -6.462  -45.856  -89.744  -1.09  0 137 F
 # 

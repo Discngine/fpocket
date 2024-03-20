@@ -15,7 +15,7 @@ Information about the pocket     5:
 6  - Hydrophobicity Score              : 21.9231
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.1538
-9  - Pocket volume (Monte Carlo)       : 161.8698
+9  - Pocket volume (Monte Carlo)       : 165.4433
 10  -Pocket volume (convex hull)       : 8.2742
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 9.0000
@@ -39,26 +39,26 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1384    O    O ?  TRP      A 175 ?  -16.727  25.679  -8.631 -2.14  0 563 A
-ATOM     1049    O    O ?  ARG      A 132 ?  -17.553  19.852  -4.909 -3.62  0 520 A
-ATOM     1385    C   CB ?  TRP      A 175 ?  -15.200  24.036 -10.360  0.00  0 563 A
-ATOM     1361    C   CG ?  PRO      A 172 ?  -13.011  21.280  -6.522  0.00  0 560 A
-ATOM     1400    O   OG ?  SER      A 176 ?  -13.968  25.516  -5.609 -3.21  0 564 A
-ATOM     1511    O   OG ?  SER      A 190 ?  -21.287  24.960  -2.974 -3.21  0 578 A
-ATOM     1510    C   CB ?  SER      A 190 ?  -20.782  26.071  -3.696  0.00  0 578 A
-ATOM     1480    C  CD1 ?  PHE      A 186 ?  -18.422  22.859  -1.111  0.00  0 574 A
-ATOM     1518    O  OD1 ?  ASP      A 191 ?  -22.500  21.281  -5.998 -3.21  0 579 A
-ATOM     1047    C   CA ?  ARG      A 132 ?  -19.808  19.252  -4.464  0.00  0 520 A
-ATOM     1482    C  CE1 ?  PHE      A 186 ?  -17.055  22.778  -1.391  0.00  0 574 A
-ATOM     1429    C  CG1 ?  VAL      A 180 ?  -15.150  26.032  -1.999  0.00  0 568 A
-ATOM     1430    C  CG2 ?  VAL      A 180 ?  -17.604  26.606  -1.856  0.00  0 568 A
-ATOM     1355    C   CZ ?  PHE      A 171 ?  -12.550  23.344  -2.353  0.00  0 559 A
-ATOM     1407    C   CD ?  PRO      A 177 ?  -17.826  27.983  -5.371  0.00  0 565 A
-ATOM     1546    C   CB ?  ALA      A 194 ?  -19.508  23.900  -9.855  0.00  0 582 A
-ATOM     1065    N    N ?  LEU      A 134 ?  -18.904  19.458  -9.212 -1.09  0 522 A
-ATOM     1068    O    O ?  LEU      A 134 ?  -17.826  21.103 -11.262 -1.07  0 522 A
-ATOM     1058    C   CA ?  ASP      A 133 ?  -17.397  18.730  -7.437  0.00  0 521 A
-ATOM     1063    O  OD1 ?  ASP      A 133 ?  -14.726  18.764  -8.351  0.00  0 521 A
-ATOM     1509    O    O ?  SER      A 190 ?  -21.000  25.524  -6.919 -2.14  0 578 A
-ATOM     1048    C    C ?  ARG      A 132 ?  -18.551  19.263  -5.328  0.00  0 520 A
+ATOM     1384    O    O ?  TRP      A 175 ?  -16.727   25.679   -8.631  -2.14  0 563 A
+ATOM     1049    O    O ?  ARG      A 132 ?  -17.553   19.852   -4.909  -3.62  0 520 A
+ATOM     1385    C   CB ?  TRP      A 175 ?  -15.200   24.036  -10.360   0.00  0 563 A
+ATOM     1361    C   CG ?  PRO      A 172 ?  -13.011   21.280   -6.522   0.00  0 560 A
+ATOM     1400    O   OG ?  SER      A 176 ?  -13.968   25.516   -5.609  -3.21  0 564 A
+ATOM     1511    O   OG ?  SER      A 190 ?  -21.287   24.960   -2.974  -3.21  0 578 A
+ATOM     1510    C   CB ?  SER      A 190 ?  -20.782   26.071   -3.696   0.00  0 578 A
+ATOM     1480    C  CD1 ?  PHE      A 186 ?  -18.422   22.859   -1.111   0.00  0 574 A
+ATOM     1518    O  OD1 ?  ASP      A 191 ?  -22.500   21.281   -5.998  -3.21  0 579 A
+ATOM     1047    C   CA ?  ARG      A 132 ?  -19.808   19.252   -4.464   0.00  0 520 A
+ATOM     1482    C  CE1 ?  PHE      A 186 ?  -17.055   22.778   -1.391   0.00  0 574 A
+ATOM     1429    C  CG1 ?  VAL      A 180 ?  -15.150   26.032   -1.999   0.00  0 568 A
+ATOM     1430    C  CG2 ?  VAL      A 180 ?  -17.604   26.606   -1.856   0.00  0 568 A
+ATOM     1355    C   CZ ?  PHE      A 171 ?  -12.550   23.344   -2.353   0.00  0 559 A
+ATOM     1407    C   CD ?  PRO      A 177 ?  -17.826   27.983   -5.371   0.00  0 565 A
+ATOM     1546    C   CB ?  ALA      A 194 ?  -19.508   23.900   -9.855   0.00  0 582 A
+ATOM     1065    N    N ?  LEU      A 134 ?  -18.904   19.458   -9.212  -1.09  0 522 A
+ATOM     1068    O    O ?  LEU      A 134 ?  -17.826   21.103  -11.262  -1.07  0 522 A
+ATOM     1058    C   CA ?  ASP      A 133 ?  -17.397   18.730   -7.437   0.00  0 521 A
+ATOM     1063    O  OD1 ?  ASP      A 133 ?  -14.726   18.764   -8.351   0.00  0 521 A
+ATOM     1509    O    O ?  SER      A 190 ?  -21.000   25.524   -6.919  -2.14  0 578 A
+ATOM     1048    C    C ?  ARG      A 132 ?  -18.551   19.263   -5.328   0.00  0 520 A
 # 

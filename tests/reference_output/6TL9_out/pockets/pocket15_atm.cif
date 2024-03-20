@@ -15,7 +15,7 @@ Information about the pocket    15:
 6  - Hydrophobicity Score              : 0.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 327.2923
+9  - Pocket volume (Monte Carlo)       : 317.9632
 10  -Pocket volume (convex hull)       : 9.8028
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,28 +39,28 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      296    C    C ?  ASP      A 38 ?   36.770 -35.153 -36.799  0.00  0 176 A
-ATOM      275    O    O ?  LEU      A 35 ?   36.003 -32.257 -33.503 -2.14  0 173 A
-ATOM      295    C   CA ?  ASP      A 38 ?   37.290 -35.114 -35.356  0.00  0 176 A
-ATOM      300    O  OD1 ?  ASP      A 38 ?   40.015 -34.468 -35.173  0.00  0 176 A
-ATOM      297    O    O ?  ASP      A 38 ?   37.421 -35.712 -37.677  0.00  0 176 A
-ATOM      305    O    O ?  ALA      A 39 ?   34.360 -32.249 -37.955 -2.14  0 177 A
-ATOM      302    N    N ?  ALA      A 39 ?   35.608 -34.537 -37.035  0.00  0 177 A
-ATOM      311    C   CB ?  LYS      A 40 ?   33.960 -31.347 -41.727  0.00  0 178 A
-ATOM      307    N    N ?  LYS      A 40 ?   33.820 -33.073 -39.990 -1.09  0 178 A
-ATOM      312    C   CG ?  LYS      A 40 ?   33.918 -32.267 -42.945  0.00  0 178 A
-ATOM      279    C  CD2 ?  LEU      A 35 ?   35.297 -28.983 -36.895  0.00  0 173 A
-ATOM     1022    C   CG ?  LYS      A 129 ?   39.941 -37.602 -45.427  0.00  0 267 A
-ATOM      314    C   CE ?  LYS      A 40 ?   34.638 -32.510 -45.371  0.00  0 178 A
-ATOM     1017    N    N ?  LYS      A 129 ?   37.760 -38.305 -43.144 -1.51  0 267 A
-ATOM      313    C   CD ?  LYS      A 40 ?   34.621 -31.628 -44.147  0.00  0 178 A
-ATOM     1025    N   NZ ?  LYS      A 129 ?   38.138 -36.518 -47.736 -3.03  0 267 A
-ATOM      304    C    C ?  ALA      A 39 ?   34.321 -33.197 -38.736  0.00  0 177 A
-ATOM      303    C   CA ?  ALA      A 39 ?   34.939 -34.570 -38.325  0.00  0 177 A
-ATOM      315    N   NZ ?  LYS      A 40 ?   35.366 -31.865 -46.500 -3.70  0 178 A
-ATOM     1002    O    O ?  GLN      A 127 ?   33.861 -35.470 -41.749  0.00  0 265 A
-ATOM     1012    C   CB ?  LYS      A 128 ?   36.115 -37.689 -40.540  0.00  0 266 A
-ATOM     1007    N  NE2 ?  GLN      A 127 ?   33.448 -35.605 -46.777 -3.28  0 265 A
-ATOM     1009    C   CA ?  LYS      A 128 ?   35.732 -37.534 -42.017  0.00  0 266 A
-ATOM     1010    C    C ?  LYS      A 128 ?   36.462 -38.533 -42.894  0.00  0 266 A
+ATOM      296    C    C ?  ASP      A 38 ?   36.770  -35.153  -36.799   0.00  0 176 A
+ATOM      275    O    O ?  LEU      A 35 ?   36.003  -32.257  -33.503  -2.14  0 173 A
+ATOM      295    C   CA ?  ASP      A 38 ?   37.290  -35.114  -35.356   0.00  0 176 A
+ATOM      300    O  OD1 ?  ASP      A 38 ?   40.015  -34.468  -35.173   0.00  0 176 A
+ATOM      297    O    O ?  ASP      A 38 ?   37.421  -35.712  -37.677   0.00  0 176 A
+ATOM      305    O    O ?  ALA      A 39 ?   34.360  -32.249  -37.955  -2.14  0 177 A
+ATOM      302    N    N ?  ALA      A 39 ?   35.608  -34.537  -37.035   0.00  0 177 A
+ATOM      311    C   CB ?  LYS      A 40 ?   33.960  -31.347  -41.727   0.00  0 178 A
+ATOM      307    N    N ?  LYS      A 40 ?   33.820  -33.073  -39.990  -1.09  0 178 A
+ATOM      312    C   CG ?  LYS      A 40 ?   33.918  -32.267  -42.945   0.00  0 178 A
+ATOM      279    C  CD2 ?  LEU      A 35 ?   35.297  -28.983  -36.895   0.00  0 173 A
+ATOM     1022    C   CG ?  LYS      A 129 ?   39.941  -37.602  -45.427   0.00  0 267 A
+ATOM      314    C   CE ?  LYS      A 40 ?   34.638  -32.510  -45.371   0.00  0 178 A
+ATOM     1017    N    N ?  LYS      A 129 ?   37.760  -38.305  -43.144  -1.51  0 267 A
+ATOM      313    C   CD ?  LYS      A 40 ?   34.621  -31.628  -44.147   0.00  0 178 A
+ATOM     1025    N   NZ ?  LYS      A 129 ?   38.138  -36.518  -47.736  -3.03  0 267 A
+ATOM      304    C    C ?  ALA      A 39 ?   34.321  -33.197  -38.736   0.00  0 177 A
+ATOM      303    C   CA ?  ALA      A 39 ?   34.939  -34.570  -38.325   0.00  0 177 A
+ATOM      315    N   NZ ?  LYS      A 40 ?   35.366  -31.865  -46.500  -3.70  0 178 A
+ATOM     1002    O    O ?  GLN      A 127 ?   33.861  -35.470  -41.749   0.00  0 265 A
+ATOM     1012    C   CB ?  LYS      A 128 ?   36.115  -37.689  -40.540   0.00  0 266 A
+ATOM     1007    N  NE2 ?  GLN      A 127 ?   33.448  -35.605  -46.777  -3.28  0 265 A
+ATOM     1009    C   CA ?  LYS      A 128 ?   35.732  -37.534  -42.017   0.00  0 266 A
+ATOM     1010    C    C ?  LYS      A 128 ?   36.462  -38.533  -42.894   0.00  0 266 A
 # 

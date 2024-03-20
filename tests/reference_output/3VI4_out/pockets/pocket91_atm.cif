@@ -15,7 +15,7 @@ Information about the pocket    91:
 6  - Hydrophobicity Score              : 17.4000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 297.7643
+9  - Pocket volume (Monte Carlo)       : 295.6147
 10  -Pocket volume (convex hull)       : 6.0889
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 14.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    13362    O    O ?  LYS      D 136 ?  -46.741 -69.138 -28.779 -2.14  0 136 D
-ATOM    13397    C   CG ?  GLU      D 140 ?  -49.368 -71.709 -25.530  0.00  0 140 D
-ATOM    14037    C  CG1 ?  ILE      D 221 ?  -48.269 -70.309 -32.523  0.00  0 221 D
-ATOM    13364    C   CG ?  LYS      D 136 ?  -44.853 -71.796 -30.468  0.00  0 136 D
-ATOM    14039    C  CD1 ?  ILE      D 221 ?  -48.324 -69.032 -31.707  0.00  0 221 D
-ATOM    13390    C  CD1 ?  LEU      D 139 ?  -51.297 -68.237 -29.718  0.00  0 139 D
-ATOM    13366    C   CE ?  LYS      D 136 ?  -44.662 -74.267 -30.782  0.00  0 136 D
-ATOM    13399    O  OE1 ?  GLU      D 140 ?  -48.124 -73.297 -24.250 -0.54  0 140 D
-ATOM    13369    C   CA ?  ASP      D 137 ?  -45.033 -69.571 -26.564  0.00  0 137 D
-ATOM    13365    C   CD ?  LYS      D 136 ?  -43.896 -72.970 -30.604  0.00  0 136 D
-ATOM    13372    C   CB ?  ASP      D 137 ?  -43.789 -69.919 -25.755  0.00  0 137 D
-ATOM    13398    C   CD ?  GLU      D 140 ?  -49.222 -73.027 -24.794  0.00  0 140 D
-ATOM    13400    O  OE2 ?  GLU      D 140 ?  -50.208 -73.794 -24.759  0.00  0 140 D
+ATOM    13362    O    O ?  LYS      D 136 ?  -46.741  -69.138  -28.779  -2.14  0 136 D
+ATOM    13397    C   CG ?  GLU      D 140 ?  -49.368  -71.709  -25.530   0.00  0 140 D
+ATOM    14037    C  CG1 ?  ILE      D 221 ?  -48.269  -70.309  -32.523   0.00  0 221 D
+ATOM    13364    C   CG ?  LYS      D 136 ?  -44.853  -71.796  -30.468   0.00  0 136 D
+ATOM    14039    C  CD1 ?  ILE      D 221 ?  -48.324  -69.032  -31.707   0.00  0 221 D
+ATOM    13390    C  CD1 ?  LEU      D 139 ?  -51.297  -68.237  -29.718   0.00  0 139 D
+ATOM    13366    C   CE ?  LYS      D 136 ?  -44.662  -74.267  -30.782   0.00  0 136 D
+ATOM    13399    O  OE1 ?  GLU      D 140 ?  -48.124  -73.297  -24.250  -0.54  0 140 D
+ATOM    13369    C   CA ?  ASP      D 137 ?  -45.033  -69.571  -26.564   0.00  0 137 D
+ATOM    13365    C   CD ?  LYS      D 136 ?  -43.896  -72.970  -30.604   0.00  0 136 D
+ATOM    13372    C   CB ?  ASP      D 137 ?  -43.789  -69.919  -25.755   0.00  0 137 D
+ATOM    13398    C   CD ?  GLU      D 140 ?  -49.222  -73.027  -24.794   0.00  0 140 D
+ATOM    13400    O  OE2 ?  GLU      D 140 ?  -50.208  -73.794  -24.759   0.00  0 140 D
 # 

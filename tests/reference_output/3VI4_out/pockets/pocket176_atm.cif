@@ -15,7 +15,7 @@ Information about the pocket   176:
 6  - Hydrophobicity Score              : 11.3333
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 189.0041
+9  - Pocket volume (Monte Carlo)       : 197.1485
 10  -Pocket volume (convex hull)       : 6.3957
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    22162    O  OD1 ?  ASP      H 178 ?   17.930 -16.606 -92.419 -6.17  0 178 F
-ATOM    21743    C   CE ?  LYS      H 120 ?   14.653 -11.095 -96.004  0.00  0 120 F
-ATOM    22171    C  CD2 ?  LEU      H 179 ?   13.054 -16.888 -92.515  0.00  0 179 F
-ATOM    21741    C   CG ?  LYS      H 120 ?   14.875 -10.631 -93.580  0.00  0 120 F
-ATOM    21736    N    N ?  LYS      H 120 ?   15.462 -11.641 -91.084  0.00  0 120 F
-ATOM    22170    C  CD1 ?  LEU      H 179 ?   13.232 -18.665 -94.268  0.00  0 179 F
-ATOM    22163    O  OD2 ?  ASP      H 178 ?   16.936 -18.491 -92.960  0.00  0 178 F
-ATOM    21732    C   CA ?  ALA      H 119 ?   16.887 -13.366 -90.197  0.00  0 119 F
-ATOM    21728    O    O ?  SER      H 118 ?   19.328 -12.314 -91.037 -0.81  0 118 F
-ATOM    21757    O  OG1 ?  THR      H 122 ?   11.279 -14.152 -92.989 -2.14  0 122 F
-ATOM    21758    C  CG2 ?  THR      H 122 ?    9.687 -14.816 -94.674  0.00  0 122 F
-ATOM    21735    C   CB ?  ALA      H 119 ?   16.242 -14.691 -89.848  0.00  0 119 F
-ATOM    21739    O    O ?  LYS      H 120 ?   12.932 -12.504 -90.906  0.00  0 120 F
+ATOM    22162    O  OD1 ?  ASP      H 178 ?   17.930  -16.606  -92.419  -6.17  0 178 F
+ATOM    21743    C   CE ?  LYS      H 120 ?   14.653  -11.095  -96.004   0.00  0 120 F
+ATOM    22171    C  CD2 ?  LEU      H 179 ?   13.054  -16.888  -92.515   0.00  0 179 F
+ATOM    21741    C   CG ?  LYS      H 120 ?   14.875  -10.631  -93.580   0.00  0 120 F
+ATOM    21736    N    N ?  LYS      H 120 ?   15.462  -11.641  -91.084   0.00  0 120 F
+ATOM    22170    C  CD1 ?  LEU      H 179 ?   13.232  -18.665  -94.268   0.00  0 179 F
+ATOM    22163    O  OD2 ?  ASP      H 178 ?   16.936  -18.491  -92.960   0.00  0 178 F
+ATOM    21732    C   CA ?  ALA      H 119 ?   16.887  -13.366  -90.197   0.00  0 119 F
+ATOM    21728    O    O ?  SER      H 118 ?   19.328  -12.314  -91.037  -0.81  0 118 F
+ATOM    21757    O  OG1 ?  THR      H 122 ?   11.279  -14.152  -92.989  -2.14  0 122 F
+ATOM    21758    C  CG2 ?  THR      H 122 ?    9.687  -14.816  -94.674   0.00  0 122 F
+ATOM    21735    C   CB ?  ALA      H 119 ?   16.242  -14.691  -89.848   0.00  0 119 F
+ATOM    21739    O    O ?  LYS      H 120 ?   12.932  -12.504  -90.906   0.00  0 120 F
 # 

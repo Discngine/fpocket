@@ -15,7 +15,7 @@ Information about the pocket    22:
 6  - Hydrophobicity Score              : -0.6667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.1667
-9  - Pocket volume (Monte Carlo)       : 241.3279
+9  - Pocket volume (Monte Carlo)       : 246.7135
 10  -Pocket volume (convex hull)       : 5.5666
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7696    C   CB ?  LYS      B 418 ?   37.591  13.319  -9.537  0.00  0 418 B
-ATOM     7698    C   CD ?  LYS      B 418 ?   38.126  15.546  -8.469  0.00  0 418 B
-ATOM     7697    C   CG ?  LYS      B 418 ?   37.392  14.826  -9.586  0.00  0 418 B
-ATOM     7692    N    N ?  LYS      B 418 ?   35.391  12.208  -9.760  0.00  0 418 B
-ATOM     7685    C    C ?  LYS      B 417 ?   34.301  12.960  -9.848  0.00  0 417 B
-ATOM     7679    O    O ?  PRO      B 416 ?   31.818  14.508  -8.119  0.00  0 416 B
-ATOM     7686    O    O ?  LYS      B 417 ?   34.318  14.118 -10.274 -1.07  0 417 B
-ATOM     7895    C   CB ?  CYS      B 442 ?   37.225  18.824 -11.974  0.00  0 442 B
-ATOM     4676    N  NE2 ?  GLN      B 20 ?   35.870  22.839 -11.970 -1.09  0 20 B
-ATOM     7700    N   NZ ?  LYS      B 418 ?   38.354  17.791  -7.400  0.00  0 418 B
-ATOM     7894    O    O ?  CYS      B 442 ?   38.354  21.663 -11.892 -0.14  0 442 B
-ATOM     7674    C   CB ?  CYS      B 415 ?   33.576  18.626 -11.187  0.00  0 415 B
-ATOM     7684    C   CA ?  LYS      B 417 ?   33.000  12.315  -9.376  0.00  0 417 B
-ATOM     7675    S   SG ?  CYS      B 415 ?   34.813  17.362 -10.793  0.00  0 415 B
-ATOM     7673    O    O ?  CYS      B 415 ?   31.599  17.536  -9.324 -2.28  0 415 B
-ATOM     7699    C   CE ?  LYS      B 418 ?   37.996  17.050  -8.639  0.00  0 418 B
+ATOM     7696    C   CB ?  LYS      B 418 ?   37.591   13.319   -9.537   0.00  0 418 B
+ATOM     7698    C   CD ?  LYS      B 418 ?   38.126   15.546   -8.469   0.00  0 418 B
+ATOM     7697    C   CG ?  LYS      B 418 ?   37.392   14.826   -9.586   0.00  0 418 B
+ATOM     7692    N    N ?  LYS      B 418 ?   35.391   12.208   -9.760   0.00  0 418 B
+ATOM     7685    C    C ?  LYS      B 417 ?   34.301   12.960   -9.848   0.00  0 417 B
+ATOM     7679    O    O ?  PRO      B 416 ?   31.818   14.508   -8.119   0.00  0 416 B
+ATOM     7686    O    O ?  LYS      B 417 ?   34.318   14.118  -10.274  -1.07  0 417 B
+ATOM     7895    C   CB ?  CYS      B 442 ?   37.225   18.824  -11.974   0.00  0 442 B
+ATOM     4676    N  NE2 ?  GLN      B 20 ?   35.870   22.839  -11.970  -1.09  0 20 B
+ATOM     7700    N   NZ ?  LYS      B 418 ?   38.354   17.791   -7.400   0.00  0 418 B
+ATOM     7894    O    O ?  CYS      B 442 ?   38.354   21.663  -11.892  -0.14  0 442 B
+ATOM     7674    C   CB ?  CYS      B 415 ?   33.576   18.626  -11.187   0.00  0 415 B
+ATOM     7684    C   CA ?  LYS      B 417 ?   33.000   12.315   -9.376   0.00  0 417 B
+ATOM     7675    S   SG ?  CYS      B 415 ?   34.813   17.362  -10.793   0.00  0 415 B
+ATOM     7673    O    O ?  CYS      B 415 ?   31.599   17.536   -9.324  -2.28  0 415 B
+ATOM     7699    C   CE ?  LYS      B 418 ?   37.996   17.050   -8.639   0.00  0 418 B
 # 

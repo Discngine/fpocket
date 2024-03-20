@@ -15,7 +15,7 @@ Information about the pocket    40:
 6  - Hydrophobicity Score              : 50.7143
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.7143
-9  - Pocket volume (Monte Carlo)       : 288.5138
+9  - Pocket volume (Monte Carlo)       : 291.9120
 10  -Pocket volume (convex hull)       : 20.8119
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 16.7778
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4122    O    O ?  LYS      A 547 ?   31.187  43.841  26.417  0.00  0 547 A
-ATOM     3933    N    N ?  ALA      A 523 ?   32.913  41.935  30.360  0.00  0 523 A
-ATOM     4119    N    N ?  LYS      A 547 ?   28.482  44.781  26.729 -1.51  0 547 A
-ATOM     3937    C   CB ?  ALA      A 523 ?   31.231  40.731  31.657  0.00  0 523 A
-ATOM     4115    C   CB ?  MET      A 546 ?   26.589  42.223  26.826  0.00  0 546 A
-ATOM     3983    C  CD2 ?  LEU      A 529 ?   27.260  36.639  27.566  0.00  0 529 A
-ATOM     3921    C  CD2 ?  PHE      A 521 ?   30.419  39.582  25.352  0.00  0 521 A
-ATOM     3918    C   CB ?  PHE      A 521 ?   32.430  39.582  26.872  0.00  0 521 A
-ATOM     3982    C  CD1 ?  LEU      A 529 ?   28.978  35.465  28.978  0.00  0 529 A
-ATOM     3932    C  CD2 ?  LEU      A 522 ?   32.634  46.990  29.981  0.00  0 522 A
-ATOM     4123    C   CB ?  LYS      A 547 ?   30.027  46.681  27.043  0.00  0 547 A
-ATOM     4124    C   CG ?  LYS      A 547 ?   28.924  47.635  27.488  0.00  0 547 A
-ATOM     3934    C   CA ?  ALA      A 523 ?   32.666  41.244  31.619  0.00  0 523 A
-ATOM     3929    C   CB ?  LEU      A 522 ?   33.188  44.814  28.876  0.00  0 522 A
-ATOM     3919    C   CG ?  PHE      A 521 ?   31.563  38.937  25.828  0.00  0 521 A
-ATOM     3927    C    C ?  LEU      A 522 ?   33.910  42.802  30.197  0.00  0 522 A
-ATOM     3928    O    O ?  LEU      A 522 ?   34.754  43.043  31.067 -6.17  0 522 A
-ATOM     4118    C   CE ?  MET      A 546 ?   24.563  39.763  27.616  0.00  0 546 A
-ATOM     4105    O    O ?  GLU      A 545 ?   24.007  42.907  28.325  0.00  0 545 A
-ATOM     4112    C   CA ?  MET      A 546 ?   26.299  43.730  26.941  0.00  0 546 A
+ATOM     4122    O    O ?  LYS      A 547 ?   31.187   43.841   26.417   0.00  0 547 A
+ATOM     3933    N    N ?  ALA      A 523 ?   32.913   41.935   30.360   0.00  0 523 A
+ATOM     4119    N    N ?  LYS      A 547 ?   28.482   44.781   26.729  -1.51  0 547 A
+ATOM     3937    C   CB ?  ALA      A 523 ?   31.231   40.731   31.657   0.00  0 523 A
+ATOM     4115    C   CB ?  MET      A 546 ?   26.589   42.223   26.826   0.00  0 546 A
+ATOM     3983    C  CD2 ?  LEU      A 529 ?   27.260   36.639   27.566   0.00  0 529 A
+ATOM     3921    C  CD2 ?  PHE      A 521 ?   30.419   39.582   25.352   0.00  0 521 A
+ATOM     3918    C   CB ?  PHE      A 521 ?   32.430   39.582   26.872   0.00  0 521 A
+ATOM     3982    C  CD1 ?  LEU      A 529 ?   28.978   35.465   28.978   0.00  0 529 A
+ATOM     3932    C  CD2 ?  LEU      A 522 ?   32.634   46.990   29.981   0.00  0 522 A
+ATOM     4123    C   CB ?  LYS      A 547 ?   30.027   46.681   27.043   0.00  0 547 A
+ATOM     4124    C   CG ?  LYS      A 547 ?   28.924   47.635   27.488   0.00  0 547 A
+ATOM     3934    C   CA ?  ALA      A 523 ?   32.666   41.244   31.619   0.00  0 523 A
+ATOM     3929    C   CB ?  LEU      A 522 ?   33.188   44.814   28.876   0.00  0 522 A
+ATOM     3919    C   CG ?  PHE      A 521 ?   31.563   38.937   25.828   0.00  0 521 A
+ATOM     3927    C    C ?  LEU      A 522 ?   33.910   42.802   30.197   0.00  0 522 A
+ATOM     3928    O    O ?  LEU      A 522 ?   34.754   43.043   31.067  -6.17  0 522 A
+ATOM     4118    C   CE ?  MET      A 546 ?   24.563   39.763   27.616   0.00  0 546 A
+ATOM     4105    O    O ?  GLU      A 545 ?   24.007   42.907   28.325   0.00  0 545 A
+ATOM     4112    C   CA ?  MET      A 546 ?   26.299   43.730   26.941   0.00  0 546 A
 # 

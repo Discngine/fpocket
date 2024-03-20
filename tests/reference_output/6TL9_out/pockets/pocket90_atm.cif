@@ -15,7 +15,7 @@ Information about the pocket    90:
 6  - Hydrophobicity Score              : 18.0000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 6.0000
-9  - Pocket volume (Monte Carlo)       : 214.1714
+9  - Pocket volume (Monte Carlo)       : 213.8868
 10  -Pocket volume (convex hull)       : 5.7812
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 16.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5404    C  CE1 ?  PHE      F 25 ?  -38.206 -64.829  -3.027  0.00  0 163 F
-ATOM     5402    C  CD1 ?  PHE      F 25 ?  -37.175 -65.042  -3.930  0.00  0 163 F
-ATOM     5443    C   CG ?  LYS      F 29 ?  -32.797 -68.316  -3.761  0.00  0 167 F
-ATOM     5442    C   CB ?  LYS      F 29 ?  -33.768 -68.622  -4.892  0.00  0 167 F
-ATOM     5444    C   CD ?  LYS      F 29 ?  -32.928 -66.871  -3.303  0.00  0 167 F
-ATOM     5446    N   NZ ?  LYS      F 29 ?  -32.326 -65.400  -1.383  0.00  0 167 F
-ATOM     5441    O    O ?  LYS      F 29 ?  -35.603 -71.098  -5.790 -2.95  0 167 F
-ATOM     5403    C  CD2 ?  PHE      F 25 ?  -38.751 -65.738  -5.563  0.00  0 163 F
-ATOM     5401    C   CG ?  PHE      F 25 ?  -37.437 -65.487  -5.213  0.00  0 163 F
-ATOM     5477    C   CD ?  LYS      F 33 ?  -40.746 -72.142  -4.067  0.00  0 171 F
-ATOM     5478    C   CE ?  LYS      F 33 ?  -42.141 -71.693  -3.689  0.00  0 171 F
-ATOM     5406    C   CZ ?  PHE      F 25 ?  -39.493 -65.090  -3.384  0.00  0 163 F
-ATOM     5405    C  CE2 ?  PHE      F 25 ?  -39.775 -65.537  -4.645  0.00  0 163 F
-ATOM     5476    C   CG ?  LYS      F 33 ?  -40.460 -72.052  -5.564  0.00  0 171 F
-ATOM     5475    C   CB ?  LYS      F 33 ?  -38.983 -72.238  -5.885  0.00  0 171 F
-ATOM     5479    N   NZ ?  LYS      F 33 ?  -42.453 -72.004  -2.257  0.00  0 171 F
+ATOM     5404    C  CE1 ?  PHE      F 25 ?  -38.206  -64.829   -3.027   0.00  0 163 F
+ATOM     5402    C  CD1 ?  PHE      F 25 ?  -37.175  -65.042   -3.930   0.00  0 163 F
+ATOM     5443    C   CG ?  LYS      F 29 ?  -32.797  -68.316   -3.761   0.00  0 167 F
+ATOM     5442    C   CB ?  LYS      F 29 ?  -33.768  -68.622   -4.892   0.00  0 167 F
+ATOM     5444    C   CD ?  LYS      F 29 ?  -32.928  -66.871   -3.303   0.00  0 167 F
+ATOM     5446    N   NZ ?  LYS      F 29 ?  -32.326  -65.400   -1.383   0.00  0 167 F
+ATOM     5441    O    O ?  LYS      F 29 ?  -35.603  -71.098   -5.790  -2.95  0 167 F
+ATOM     5403    C  CD2 ?  PHE      F 25 ?  -38.751  -65.738   -5.563   0.00  0 163 F
+ATOM     5401    C   CG ?  PHE      F 25 ?  -37.437  -65.487   -5.213   0.00  0 163 F
+ATOM     5477    C   CD ?  LYS      F 33 ?  -40.746  -72.142   -4.067   0.00  0 171 F
+ATOM     5478    C   CE ?  LYS      F 33 ?  -42.141  -71.693   -3.689   0.00  0 171 F
+ATOM     5406    C   CZ ?  PHE      F 25 ?  -39.493  -65.090   -3.384   0.00  0 163 F
+ATOM     5405    C  CE2 ?  PHE      F 25 ?  -39.775  -65.537   -4.645   0.00  0 163 F
+ATOM     5476    C   CG ?  LYS      F 33 ?  -40.460  -72.052   -5.564   0.00  0 171 F
+ATOM     5475    C   CB ?  LYS      F 33 ?  -38.983  -72.238   -5.885   0.00  0 171 F
+ATOM     5479    N   NZ ?  LYS      F 33 ?  -42.453  -72.004   -2.257   0.00  0 171 F
 # 

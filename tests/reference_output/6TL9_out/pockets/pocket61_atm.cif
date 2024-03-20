@@ -15,7 +15,7 @@ Information about the pocket    61:
 6  - Hydrophobicity Score              : 13.0000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 400.4676
+9  - Pocket volume (Monte Carlo)       : 399.7430
 10  -Pocket volume (convex hull)       : 37.2303
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 8.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1867    O    O ?  SER      B 102 ?    4.067 -65.753 -45.986 -0.14  0 240 B
-ATOM     1257    C  CE3 ?  TRP      B 27 ?   10.357 -63.858 -45.630  0.00  0 165 B
-ATOM     1259    C  CZ3 ?  TRP      B 27 ?   11.059 -64.968 -45.218  0.00  0 165 B
-ATOM     1268    O  OE1 ?  GLU      B 28 ?    8.662 -66.047 -51.636  0.00  0 166 B
-ATOM     1292    O  OE1 ?  GLN      B 31 ?   12.640 -65.895 -48.051 -4.02  0 169 B
-ATOM     1265    C   CB ?  GLU      B 28 ?    9.589 -63.490 -50.779  0.00  0 166 B
-ATOM     1266    C   CG ?  GLU      B 28 ?   10.324 -64.367 -51.782  0.00  0 166 B
-ATOM     1267    C   CD ?  GLU      B 28 ?    9.459 -65.445 -52.391  0.00  0 166 B
-ATOM     1269    O  OE2 ?  GLU      B 28 ?    9.585 -65.700 -53.612 -0.95  0 166 B
-ATOM     1245    O  OD1 ?  ASN      B 26 ?    8.495 -59.946 -51.542  0.00  0 164 B
-ATOM     1261    N    N ?  GLU      B 28 ?    9.765 -61.823 -48.965 -3.28  0 166 B
-ATOM     1986    C   CB ?  CYS      B 118 ?    5.217 -62.604 -45.629  0.00  0 256 B
-ATOM     1985    O    O ?  CYS      B 118 ?    5.720 -60.187 -47.487  0.00  0 256 B
-ATOM     1868    C   CB ?  SER      B 102 ?    2.673 -65.095 -48.257  0.00  0 240 B
-ATOM     1994    C  CG2 ?  ILE      B 119 ?    2.444 -61.889 -50.086  0.00  0 257 B
-ATOM     1244    C   CG ?  ASN      B 26 ?    7.432 -59.337 -51.564  0.00  0 164 B
-ATOM     1869    O   OG ?  SER      B 102 ?    2.285 -65.298 -49.604 -5.09  0 240 B
-ATOM     1275    C   CG ?  LYS      B 29 ?   10.982 -58.880 -53.915  0.00  0 167 B
-ATOM     1277    C   CE ?  LYS      B 29 ?   11.545 -58.795 -56.386  0.00  0 167 B
-ATOM     1301    O  OE1 ?  GLU      B 32 ?   14.036 -62.247 -54.851 -4.43  0 170 B
-ATOM     1246    N  ND2 ?  ASN      B 26 ?    6.712 -59.254 -52.666 -2.35  0 164 B
+ATOM     1867    O    O ?  SER      B 102 ?    4.067  -65.753  -45.986  -0.14  0 240 B
+ATOM     1257    C  CE3 ?  TRP      B 27 ?   10.357  -63.858  -45.630   0.00  0 165 B
+ATOM     1259    C  CZ3 ?  TRP      B 27 ?   11.059  -64.968  -45.218   0.00  0 165 B
+ATOM     1268    O  OE1 ?  GLU      B 28 ?    8.662  -66.047  -51.636   0.00  0 166 B
+ATOM     1292    O  OE1 ?  GLN      B 31 ?   12.640  -65.895  -48.051  -4.02  0 169 B
+ATOM     1265    C   CB ?  GLU      B 28 ?    9.589  -63.490  -50.779   0.00  0 166 B
+ATOM     1266    C   CG ?  GLU      B 28 ?   10.324  -64.367  -51.782   0.00  0 166 B
+ATOM     1267    C   CD ?  GLU      B 28 ?    9.459  -65.445  -52.391   0.00  0 166 B
+ATOM     1269    O  OE2 ?  GLU      B 28 ?    9.585  -65.700  -53.612  -0.95  0 166 B
+ATOM     1245    O  OD1 ?  ASN      B 26 ?    8.495  -59.946  -51.542   0.00  0 164 B
+ATOM     1261    N    N ?  GLU      B 28 ?    9.765  -61.823  -48.965  -3.28  0 166 B
+ATOM     1986    C   CB ?  CYS      B 118 ?    5.217  -62.604  -45.629   0.00  0 256 B
+ATOM     1985    O    O ?  CYS      B 118 ?    5.720  -60.187  -47.487   0.00  0 256 B
+ATOM     1868    C   CB ?  SER      B 102 ?    2.673  -65.095  -48.257   0.00  0 240 B
+ATOM     1994    C  CG2 ?  ILE      B 119 ?    2.444  -61.889  -50.086   0.00  0 257 B
+ATOM     1244    C   CG ?  ASN      B 26 ?    7.432  -59.337  -51.564   0.00  0 164 B
+ATOM     1869    O   OG ?  SER      B 102 ?    2.285  -65.298  -49.604  -5.09  0 240 B
+ATOM     1275    C   CG ?  LYS      B 29 ?   10.982  -58.880  -53.915   0.00  0 167 B
+ATOM     1277    C   CE ?  LYS      B 29 ?   11.545  -58.795  -56.386   0.00  0 167 B
+ATOM     1301    O  OE1 ?  GLU      B 32 ?   14.036  -62.247  -54.851  -4.43  0 170 B
+ATOM     1246    N  ND2 ?  ASN      B 26 ?    6.712  -59.254  -52.666  -2.35  0 164 B
 # 

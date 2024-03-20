@@ -15,7 +15,7 @@ Information about the pocket    92:
 6  - Hydrophobicity Score              : 4.0000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.6667
-9  - Pocket volume (Monte Carlo)       : 301.8496
+9  - Pocket volume (Monte Carlo)       : 291.3947
 10  -Pocket volume (convex hull)       : 10.6960
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3694    C   CB ?  LYS      A 493 ?   -0.599  25.205  21.289  0.00  0 493 A
-ATOM     2749    C   CB ?  GLN      A 363 ?   -1.230  21.948  17.406  0.00  0 363 A
-ATOM     2740    O    O ?  ASP      A 362 ?    1.183  22.628  15.100 -4.43  0 362 A
-ATOM     3236    O   OH ?  TYR      A 430 ?    2.400  22.188  20.652 -2.14  0 430 A
-ATOM     2748    O    O ?  GLN      A 363 ?   -1.973  24.250  15.963 -3.35  0 363 A
-ATOM     3690    N    N ?  LYS      A 493 ?    1.575  26.213  21.907  0.00  0 493 A
-ATOM     3392    C   CB ?  ILE      A 451 ?    5.228  22.770  18.284  0.00  0 451 A
-ATOM     3688    C    C ?  GLY      A 492 ?    2.415  26.985  22.594  0.00  0 492 A
-ATOM     3686    N    N ?  GLY      A 492 ?    4.104  28.735  22.156 -1.09  0 492 A
-ATOM     3685    O   OG ?  SER      A 491 ?    4.506  31.628  19.913  0.00  0 491 A
-ATOM     3689    O    O ?  GLY      A 492 ?    2.190  27.379  23.741 -3.21  0 492 A
-ATOM     4046    O  OD1 ?  ASN      A 537 ?    3.189  30.079  24.634  0.00  0 537 A
-ATOM     3684    C   CB ?  SER      A 491 ?    4.452  31.685  21.328  0.00  0 491 A
-ATOM     3687    C   CA ?  GLY      A 492 ?    3.709  27.352  21.897  0.00  0 492 A
-ATOM     3391    O    O ?  ILE      A 451 ?    5.165  24.800  20.579 -2.55  0 451 A
-ATOM     3394    C  CG2 ?  ILE      A 451 ?    5.848  23.858  17.414  0.00  0 451 A
-ATOM     3408    O   OG ?  SER      A 453 ?    6.276  29.010  17.235 -0.81  0 453 A
-ATOM     3683    O    O ?  SER      A 491 ?    5.944  28.676  20.852  0.00  0 491 A
+ATOM     3694    C   CB ?  LYS      A 493 ?   -0.599   25.205   21.289   0.00  0 493 A
+ATOM     2749    C   CB ?  GLN      A 363 ?   -1.230   21.948   17.406   0.00  0 363 A
+ATOM     2740    O    O ?  ASP      A 362 ?    1.183   22.628   15.100  -4.43  0 362 A
+ATOM     3236    O   OH ?  TYR      A 430 ?    2.400   22.188   20.652  -2.14  0 430 A
+ATOM     2748    O    O ?  GLN      A 363 ?   -1.973   24.250   15.963  -3.35  0 363 A
+ATOM     3690    N    N ?  LYS      A 493 ?    1.575   26.213   21.907   0.00  0 493 A
+ATOM     3392    C   CB ?  ILE      A 451 ?    5.228   22.770   18.284   0.00  0 451 A
+ATOM     3688    C    C ?  GLY      A 492 ?    2.415   26.985   22.594   0.00  0 492 A
+ATOM     3686    N    N ?  GLY      A 492 ?    4.104   28.735   22.156  -1.09  0 492 A
+ATOM     3685    O   OG ?  SER      A 491 ?    4.506   31.628   19.913   0.00  0 491 A
+ATOM     3689    O    O ?  GLY      A 492 ?    2.190   27.379   23.741  -3.21  0 492 A
+ATOM     4046    O  OD1 ?  ASN      A 537 ?    3.189   30.079   24.634   0.00  0 537 A
+ATOM     3684    C   CB ?  SER      A 491 ?    4.452   31.685   21.328   0.00  0 491 A
+ATOM     3687    C   CA ?  GLY      A 492 ?    3.709   27.352   21.897   0.00  0 492 A
+ATOM     3391    O    O ?  ILE      A 451 ?    5.165   24.800   20.579  -2.55  0 451 A
+ATOM     3394    C  CG2 ?  ILE      A 451 ?    5.848   23.858   17.414   0.00  0 451 A
+ATOM     3408    O   OG ?  SER      A 453 ?    6.276   29.010   17.235  -0.81  0 453 A
+ATOM     3683    O    O ?  SER      A 491 ?    5.944   28.676   20.852   0.00  0 491 A
 # 

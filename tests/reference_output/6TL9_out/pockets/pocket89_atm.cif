@@ -15,7 +15,7 @@ Information about the pocket    89:
 6  - Hydrophobicity Score              : 21.0000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 388.6616
+9  - Pocket volume (Monte Carlo)       : 391.5613
 10  -Pocket volume (convex hull)       : 21.8761
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6285    C   CD ?  PRO      G 5 ?  -18.212 -27.533 -17.171  0.00  0 143 G
-ATOM     6284    C   CG ?  PRO      G 5 ?  -18.756 -27.875 -18.532  0.00  0 143 G
-ATOM     7294    O    O ?  ASN      G 131 ?  -21.263 -24.670 -18.641 -0.40  0 269 G
-ATOM     7324    C   CE ?  MET      H 4 ?  -15.030 -26.387 -21.247  0.00  0 142 H
-ATOM     6271    N    N ?  MET      G 4 ?  -18.312 -24.348 -14.317  0.00  0 142 G
-ATOM     6272    C   CA ?  MET      G 4 ?  -18.168 -25.749 -14.730  0.00  0 142 G
-ATOM     6264    O    O ?  HIS      G 3 ?  -16.140 -23.820 -14.636 -4.29  0 141 G
-ATOM     7301    C    C ?  LEU      G 132 ?  -21.448 -21.631 -21.259  0.00  0 270 G
-ATOM     7300    C   CA ?  LEU      G 132 ?  -21.637 -23.108 -20.904  0.00  0 270 G
-ATOM     7316    N  NE2 ?  HIS      H 3 ?  -13.449 -24.084 -22.177  0.00  0 141 H
-ATOM     7298    N  ND2 ?  ASN      G 131 ?  -21.470 -22.415 -15.199 -0.42  0 269 G
-ATOM     6261    N    N ?  HIS      G 3 ?  -18.915 -21.785 -13.439 -1.93  0 141 G
-ATOM     6262    C   CA ?  HIS      G 3 ?  -17.538 -22.037 -13.853  0.00  0 141 G
-ATOM     7302    O    O ?  LEU      G 132 ?  -21.060 -20.808 -20.428  0.00  0 270 G
-ATOM     7297    O  OD1 ?  ASN      G 131 ?  -22.730 -21.657 -16.895  0.00  0 269 G
-ATOM     7314    C  CD2 ?  HIS      H 3 ?  -13.368 -23.257 -21.082  0.00  0 141 H
-ATOM     7310    O    O ?  HIS      H 3 ?  -13.468 -24.824 -17.203 -4.29  0 141 H
-ATOM     7311    C   CB ?  HIS      H 3 ?  -11.857 -23.235 -18.988  0.00  0 141 H
-ATOM     6263    C    C ?  HIS      G 3 ?  -17.280 -23.488 -14.307  0.00  0 141 G
-ATOM     7306    C  CD2 ?  LEU      G 132 ?  -21.195 -26.200 -21.798  0.00  0 270 G
-ATOM     7303    C   CB ?  LEU      G 132 ?  -22.120 -23.887 -22.154  0.00  0 270 G
+ATOM     6285    C   CD ?  PRO      G 5 ?  -18.212  -27.533  -17.171   0.00  0 143 G
+ATOM     6284    C   CG ?  PRO      G 5 ?  -18.756  -27.875  -18.532   0.00  0 143 G
+ATOM     7294    O    O ?  ASN      G 131 ?  -21.263  -24.670  -18.641  -0.40  0 269 G
+ATOM     7324    C   CE ?  MET      H 4 ?  -15.030  -26.387  -21.247   0.00  0 142 H
+ATOM     6271    N    N ?  MET      G 4 ?  -18.312  -24.348  -14.317   0.00  0 142 G
+ATOM     6272    C   CA ?  MET      G 4 ?  -18.168  -25.749  -14.730   0.00  0 142 G
+ATOM     6264    O    O ?  HIS      G 3 ?  -16.140  -23.820  -14.636  -4.29  0 141 G
+ATOM     7301    C    C ?  LEU      G 132 ?  -21.448  -21.631  -21.259   0.00  0 270 G
+ATOM     7300    C   CA ?  LEU      G 132 ?  -21.637  -23.108  -20.904   0.00  0 270 G
+ATOM     7316    N  NE2 ?  HIS      H 3 ?  -13.449  -24.084  -22.177   0.00  0 141 H
+ATOM     7298    N  ND2 ?  ASN      G 131 ?  -21.470  -22.415  -15.199  -0.42  0 269 G
+ATOM     6261    N    N ?  HIS      G 3 ?  -18.915  -21.785  -13.439  -1.93  0 141 G
+ATOM     6262    C   CA ?  HIS      G 3 ?  -17.538  -22.037  -13.853   0.00  0 141 G
+ATOM     7302    O    O ?  LEU      G 132 ?  -21.060  -20.808  -20.428   0.00  0 270 G
+ATOM     7297    O  OD1 ?  ASN      G 131 ?  -22.730  -21.657  -16.895   0.00  0 269 G
+ATOM     7314    C  CD2 ?  HIS      H 3 ?  -13.368  -23.257  -21.082   0.00  0 141 H
+ATOM     7310    O    O ?  HIS      H 3 ?  -13.468  -24.824  -17.203  -4.29  0 141 H
+ATOM     7311    C   CB ?  HIS      H 3 ?  -11.857  -23.235  -18.988   0.00  0 141 H
+ATOM     6263    C    C ?  HIS      G 3 ?  -17.280  -23.488  -14.307   0.00  0 141 G
+ATOM     7306    C  CD2 ?  LEU      G 132 ?  -21.195  -26.200  -21.798   0.00  0 270 G
+ATOM     7303    C   CB ?  LEU      G 132 ?  -22.120  -23.887  -22.154   0.00  0 270 G
 # 

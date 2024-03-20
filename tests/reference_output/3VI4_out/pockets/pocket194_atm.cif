@@ -15,7 +15,7 @@ Information about the pocket   194:
 6  - Hydrophobicity Score              : -29.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 135.1749
+9  - Pocket volume (Monte Carlo)       : 135.3983
 10  -Pocket volume (convex hull)       : 0.8251
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20223    C   CD ?  PRO      G 146 ?    6.613 -47.224 -74.555  0.00  0 146 E
-ATOM    20222    C   CG ?  PRO      G 146 ?    7.765 -47.089 -73.611  0.00  0 146 E
-ATOM    20691    C   CB ?  LYS      G 204 ?    9.553 -51.662 -78.142  0.00  0 204 E
-ATOM    20684    C  CD2 ?  HIS      G 203 ?    7.490 -46.623 -78.864  0.00  0 203 E
-ATOM    20237    C   CB ?  ASP      G 148 ?   10.699 -44.643 -75.869  0.00  0 148 E
-ATOM    20693    C   CD ?  LYS      G 204 ?   12.077 -51.465 -78.342  0.00  0 204 E
-ATOM    20240    O  OD2 ?  ASP      G 148 ?   12.221 -45.165 -74.170 -0.54  0 148 E
-ATOM    20236    O    O ?  ASP      G 148 ?   10.518 -45.504 -78.399 -5.76  0 148 E
-ATOM    20687    N    N ?  LYS      G 204 ?    8.363 -50.042 -79.579  0.00  0 204 E
-ATOM    20238    C   CG ?  ASP      G 148 ?   12.071 -44.687 -75.312  0.00  0 148 E
-ATOM    20695    N   NZ ?  LYS      G 204 ?   14.460 -50.940 -78.846  0.00  0 204 E
-ATOM    20239    O  OD1 ?  ASP      G 148 ?   12.995 -44.244 -76.018 -4.69  0 148 E
-ATOM    20686    N  NE2 ?  HIS      G 203 ?    6.711 -46.471 -77.780 -1.09  0 203 E
+ATOM    20223    C   CD ?  PRO      G 146 ?    6.613  -47.224  -74.555   0.00  0 146 E
+ATOM    20222    C   CG ?  PRO      G 146 ?    7.765  -47.089  -73.611   0.00  0 146 E
+ATOM    20691    C   CB ?  LYS      G 204 ?    9.553  -51.662  -78.142   0.00  0 204 E
+ATOM    20684    C  CD2 ?  HIS      G 203 ?    7.490  -46.623  -78.864   0.00  0 203 E
+ATOM    20237    C   CB ?  ASP      G 148 ?   10.699  -44.643  -75.869   0.00  0 148 E
+ATOM    20693    C   CD ?  LYS      G 204 ?   12.077  -51.465  -78.342   0.00  0 204 E
+ATOM    20240    O  OD2 ?  ASP      G 148 ?   12.221  -45.165  -74.170  -0.54  0 148 E
+ATOM    20236    O    O ?  ASP      G 148 ?   10.518  -45.504  -78.399  -5.76  0 148 E
+ATOM    20687    N    N ?  LYS      G 204 ?    8.363  -50.042  -79.579   0.00  0 204 E
+ATOM    20238    C   CG ?  ASP      G 148 ?   12.071  -44.687  -75.312   0.00  0 148 E
+ATOM    20695    N   NZ ?  LYS      G 204 ?   14.460  -50.940  -78.846   0.00  0 204 E
+ATOM    20239    O  OD1 ?  ASP      G 148 ?   12.995  -44.244  -76.018  -4.69  0 148 E
+ATOM    20686    N  NE2 ?  HIS      G 203 ?    6.711  -46.471  -77.780  -1.09  0 203 E
 # 

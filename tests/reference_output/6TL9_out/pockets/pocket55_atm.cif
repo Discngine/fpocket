@@ -15,7 +15,7 @@ Information about the pocket    55:
 6  - Hydrophobicity Score              : 0.7500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 233.7749
+9  - Pocket volume (Monte Carlo)       : 224.8783
 10  -Pocket volume (convex hull)       : 8.4621
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 2.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5184    N   NZ ?  LYS      E 128 ?  -65.411 -74.208 -19.356  0.00  0 266 E
-ATOM     5183    C   CE ?  LYS      E 128 ?  -64.938 -73.722 -18.030  0.00  0 266 E
-ATOM     5182    C   CD ?  LYS      E 128 ?  -66.007 -72.949 -17.303  0.00  0 266 E
-ATOM     5188    O    O ?  LYS      E 129 ?  -66.854 -75.952 -13.276  0.00  0 267 E
-ATOM     4190    O    O ?  PRO      E 5 ?  -62.683 -78.501 -14.153 -2.55  0 143 E
-ATOM     4296    S   SG ?  CYS      E 17 ?  -62.230 -75.189 -13.848  0.00  0 155 E
-ATOM     5203    C   CB ?  ASN      E 131 ?  -65.558 -81.443 -13.827  0.00  0 269 E
-ATOM     4206    C   CD ?  PRO      E 7 ?  -61.509 -75.879 -17.925  0.00  0 145 E
-ATOM     4205    C   CG ?  PRO      E 7 ?  -61.982 -75.684 -19.320  0.00  0 145 E
-ATOM     4182    O    O ?  MET      E 4 ?  -62.571 -81.684 -15.345 -1.48  0 142 E
-ATOM     4185    S   SD ?  MET      E 4 ?  -60.408 -82.497 -19.596  0.00  0 142 E
-ATOM     4201    C   CA ?  PRO      E 7 ?  -60.079 -77.195 -19.403  0.00  0 145 E
-ATOM     4204    C   CB ?  PRO      E 7 ?  -61.091 -76.428 -20.270  0.00  0 145 E
-ATOM     4184    C   CG ?  MET      E 4 ?  -61.092 -82.542 -17.933  0.00  0 142 E
-ATOM     5199    N    N ?  ASN      E 131 ?  -65.095 -79.439 -12.502 -1.09  0 269 E
-ATOM     4200    N    N ?  PRO      E 7 ?  -60.589 -77.028 -18.031  0.00  0 145 E
-ATOM     4196    C    C ?  CYS      E 6 ?  -60.107 -77.818 -17.051  0.00  0 144 E
+ATOM     5184    N   NZ ?  LYS      E 128 ?  -65.411  -74.208  -19.356   0.00  0 266 E
+ATOM     5183    C   CE ?  LYS      E 128 ?  -64.938  -73.722  -18.030   0.00  0 266 E
+ATOM     5182    C   CD ?  LYS      E 128 ?  -66.007  -72.949  -17.303   0.00  0 266 E
+ATOM     5188    O    O ?  LYS      E 129 ?  -66.854  -75.952  -13.276   0.00  0 267 E
+ATOM     4190    O    O ?  PRO      E 5 ?  -62.683  -78.501  -14.153  -2.55  0 143 E
+ATOM     4296    S   SG ?  CYS      E 17 ?  -62.230  -75.189  -13.848   0.00  0 155 E
+ATOM     5203    C   CB ?  ASN      E 131 ?  -65.558  -81.443  -13.827   0.00  0 269 E
+ATOM     4206    C   CD ?  PRO      E 7 ?  -61.509  -75.879  -17.925   0.00  0 145 E
+ATOM     4205    C   CG ?  PRO      E 7 ?  -61.982  -75.684  -19.320   0.00  0 145 E
+ATOM     4182    O    O ?  MET      E 4 ?  -62.571  -81.684  -15.345  -1.48  0 142 E
+ATOM     4185    S   SD ?  MET      E 4 ?  -60.408  -82.497  -19.596   0.00  0 142 E
+ATOM     4201    C   CA ?  PRO      E 7 ?  -60.079  -77.195  -19.403   0.00  0 145 E
+ATOM     4204    C   CB ?  PRO      E 7 ?  -61.091  -76.428  -20.270   0.00  0 145 E
+ATOM     4184    C   CG ?  MET      E 4 ?  -61.092  -82.542  -17.933   0.00  0 142 E
+ATOM     5199    N    N ?  ASN      E 131 ?  -65.095  -79.439  -12.502  -1.09  0 269 E
+ATOM     4200    N    N ?  PRO      E 7 ?  -60.589  -77.028  -18.031   0.00  0 145 E
+ATOM     4196    C    C ?  CYS      E 6 ?  -60.107  -77.818  -17.051   0.00  0 144 E
 # 

@@ -15,7 +15,7 @@ Information about the pocket   122:
 6  - Hydrophobicity Score              : -25.6667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 5.3333
-9  - Pocket volume (Monte Carlo)       : 156.2022
+9  - Pocket volume (Monte Carlo)       : 159.9261
 10  -Pocket volume (convex hull)       : 0.7748
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,16 +39,16 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12649    C   CD ?  GLU      D 48 ?  -36.863   8.430 -25.795  0.00  0 48 D
-ATOM    12648    C   CG ?  GLU      D 48 ?  -35.503   7.921 -26.264  0.00  0 48 D
-ATOM    12680    C   CD ?  LYS      D 52 ?  -33.997  14.750 -27.592  0.00  0 52 D
-ATOM    12650    O  OE1 ?  GLU      D 48 ?  -36.912   9.076 -24.728  0.00  0 48 D
-ATOM    12674    N    N ?  LYS      D 52 ?  -36.643  13.236 -30.372  0.00  0 52 D
-ATOM    12678    C   CB ?  LYS      D 52 ?  -34.326  14.003 -29.972  0.00  0 52 D
-ATOM    12645    C    C ?  GLU      D 48 ?  -34.912   8.076 -29.524  0.00  0 48 D
-ATOM    12646    O    O ?  GLU      D 48 ?  -33.745   8.048 -29.121 -0.40  0 48 D
-ATOM    12669    C   CB ?  LYS      D 51 ?  -39.054  11.233 -29.259  0.00  0 51 D
-ATOM    12667    C    C ?  LYS      D 51 ?  -37.968  13.291 -30.227  0.00  0 51 D
-ATOM    12668    O    O ?  LYS      D 51 ?  -38.559  14.311 -29.864  0.00  0 51 D
-ATOM    12682    N   NZ ?  LYS      D 52 ?  -33.834  15.649 -25.283  0.00  0 52 D
+ATOM    12649    C   CD ?  GLU      D 48 ?  -36.863    8.430  -25.795   0.00  0 48 D
+ATOM    12648    C   CG ?  GLU      D 48 ?  -35.503    7.921  -26.264   0.00  0 48 D
+ATOM    12680    C   CD ?  LYS      D 52 ?  -33.997   14.750  -27.592   0.00  0 52 D
+ATOM    12650    O  OE1 ?  GLU      D 48 ?  -36.912    9.076  -24.728   0.00  0 48 D
+ATOM    12674    N    N ?  LYS      D 52 ?  -36.643   13.236  -30.372   0.00  0 52 D
+ATOM    12678    C   CB ?  LYS      D 52 ?  -34.326   14.003  -29.972   0.00  0 52 D
+ATOM    12645    C    C ?  GLU      D 48 ?  -34.912    8.076  -29.524   0.00  0 48 D
+ATOM    12646    O    O ?  GLU      D 48 ?  -33.745    8.048  -29.121  -0.40  0 48 D
+ATOM    12669    C   CB ?  LYS      D 51 ?  -39.054   11.233  -29.259   0.00  0 51 D
+ATOM    12667    C    C ?  LYS      D 51 ?  -37.968   13.291  -30.227   0.00  0 51 D
+ATOM    12668    O    O ?  LYS      D 51 ?  -38.559   14.311  -29.864   0.00  0 51 D
+ATOM    12682    N   NZ ?  LYS      D 52 ?  -33.834   15.649  -25.283   0.00  0 52 D
 # 

@@ -15,7 +15,7 @@ Information about the pocket   132:
 6  - Hydrophobicity Score              : -35.8333
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 202.1261
+9  - Pocket volume (Monte Carlo)       : 206.1030
 10  -Pocket volume (convex hull)       : 3.2669
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    15525    C   CB ?  LYS      D 417 ?  -50.943 -13.726 -45.895  0.00  0 417 D
-ATOM    15516    C    C ?  PRO      D 416 ?  -47.914 -13.374 -44.993  0.00  0 416 D
-ATOM    15518    C   CB ?  PRO      D 416 ?  -47.040 -14.293 -42.815  0.00  0 416 D
-ATOM    15177    C   CB ?  SER      D 370 ?  -47.506 -18.780 -42.342  0.00  0 370 D
-ATOM    15178    O   OG ?  SER      D 370 ?  -48.120 -18.034 -41.306 -2.14  0 370 D
-ATOM    15559    O  OD1 ?  ASP      D 421 ?  -50.736 -17.354 -40.878 -7.50  0 421 D
-ATOM    15517    O    O ?  PRO      D 416 ?  -47.770 -13.857 -46.117 -0.14  0 416 D
-ATOM    15527    C   CD ?  LYS      D 417 ?  -50.842 -15.592 -47.565  0.00  0 417 D
-ATOM    15187    O  OE2 ?  GLU      D 371 ?  -45.373 -16.235 -45.246  0.00  0 371 D
-ATOM    15543    C   CB ?  ASP      D 419 ?  -54.889 -14.158 -44.197  0.00  0 419 D
-ATOM    15560    O  OD2 ?  ASP      D 421 ?  -52.234 -18.951 -41.051  0.00  0 421 D
-ATOM    15546    O  OD2 ?  ASP      D 419 ?  -54.627 -14.147 -46.560 -0.81  0 419 D
-ATOM    15529    N   NZ ?  LYS      D 417 ?  -50.120 -17.533 -48.925  0.00  0 417 D
-ATOM    15186    O  OE1 ?  GLU      D 371 ?  -45.198 -18.423 -45.216 -4.43  0 371 D
+ATOM    15525    C   CB ?  LYS      D 417 ?  -50.943  -13.726  -45.895   0.00  0 417 D
+ATOM    15516    C    C ?  PRO      D 416 ?  -47.914  -13.374  -44.993   0.00  0 416 D
+ATOM    15518    C   CB ?  PRO      D 416 ?  -47.040  -14.293  -42.815   0.00  0 416 D
+ATOM    15177    C   CB ?  SER      D 370 ?  -47.506  -18.780  -42.342   0.00  0 370 D
+ATOM    15178    O   OG ?  SER      D 370 ?  -48.120  -18.034  -41.306  -2.14  0 370 D
+ATOM    15559    O  OD1 ?  ASP      D 421 ?  -50.736  -17.354  -40.878  -7.50  0 421 D
+ATOM    15517    O    O ?  PRO      D 416 ?  -47.770  -13.857  -46.117  -0.14  0 416 D
+ATOM    15527    C   CD ?  LYS      D 417 ?  -50.842  -15.592  -47.565   0.00  0 417 D
+ATOM    15187    O  OE2 ?  GLU      D 371 ?  -45.373  -16.235  -45.246   0.00  0 371 D
+ATOM    15543    C   CB ?  ASP      D 419 ?  -54.889  -14.158  -44.197   0.00  0 419 D
+ATOM    15560    O  OD2 ?  ASP      D 421 ?  -52.234  -18.951  -41.051   0.00  0 421 D
+ATOM    15546    O  OD2 ?  ASP      D 419 ?  -54.627  -14.147  -46.560  -0.81  0 419 D
+ATOM    15529    N   NZ ?  LYS      D 417 ?  -50.120  -17.533  -48.925   0.00  0 417 D
+ATOM    15186    O  OE1 ?  GLU      D 371 ?  -45.198  -18.423  -45.216  -4.43  0 371 D
 # 

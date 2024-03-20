@@ -15,7 +15,7 @@ Information about the pocket   209:
 6  - Hydrophobicity Score              : -2.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.2857
-9  - Pocket volume (Monte Carlo)       : 184.1338
+9  - Pocket volume (Monte Carlo)       : 183.3385
 10  -Pocket volume (convex hull)       : 2.7254
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    13018    O  OE1 ?  GLN      D 95 ?  -57.758 -20.585 -16.247 -3.62  0 95 D
-ATOM    13174    N   NZ ?  LYS      D 114 ?  -53.914 -19.838 -13.190  0.00  0 114 D
-ATOM    13173    C   CE ?  LYS      D 114 ?  -52.836 -20.355 -14.074  0.00  0 114 D
-ATOM    12835    N  ND2 ?  ASN      D 72 ?  -58.680 -17.164 -18.084  0.00  0 72 D
-ATOM    13014    O    O ?  GLN      D 95 ?  -53.776 -22.190 -19.748 -1.07  0 95 D
-ATOM    13026    C   CD ?  PRO      D 96 ?  -54.451 -20.015 -21.274  0.00  0 96 D
-ATOM    12834    O  OD1 ?  ASN      D 72 ?  -58.271 -19.260 -18.788  0.00  0 72 D
-ATOM    13025    C   CG ?  PRO      D 96 ?  -55.356 -18.873 -21.574  0.00  0 96 D
-ATOM    13017    C   CD ?  GLN      D 95 ?  -57.333 -21.679 -16.608  0.00  0 95 D
-ATOM    13154    O    O ?  THR      D 112 ?  -51.171 -19.075 -20.357 -2.14  0 112 D
-ATOM    12809    C  CD1 ?  ILE      D 69 ?  -55.582 -14.189 -21.021  0.00  0 69 D
-ATOM    13171    C   CG ?  LYS      D 114 ?  -52.011 -22.275 -15.421  0.00  0 114 D
-ATOM    13156    O  OG1 ?  THR      D 112 ?  -49.481 -17.883 -17.911  0.00  0 112 D
-ATOM    12793    N   NZ ?  LYS      D 67 ?  -50.698 -14.030 -21.211 -1.26  0 67 D
-ATOM    13020    N    N ?  PRO      D 96 ?  -55.387 -21.090 -20.903  0.00  0 96 D
-ATOM    13016    C   CG ?  GLN      D 95 ?  -57.296 -22.034 -18.069  0.00  0 95 D
+ATOM    13018    O  OE1 ?  GLN      D 95 ?  -57.758  -20.585  -16.247  -3.62  0 95 D
+ATOM    13174    N   NZ ?  LYS      D 114 ?  -53.914  -19.838  -13.190   0.00  0 114 D
+ATOM    13173    C   CE ?  LYS      D 114 ?  -52.836  -20.355  -14.074   0.00  0 114 D
+ATOM    12835    N  ND2 ?  ASN      D 72 ?  -58.680  -17.164  -18.084   0.00  0 72 D
+ATOM    13014    O    O ?  GLN      D 95 ?  -53.776  -22.190  -19.748  -1.07  0 95 D
+ATOM    13026    C   CD ?  PRO      D 96 ?  -54.451  -20.015  -21.274   0.00  0 96 D
+ATOM    12834    O  OD1 ?  ASN      D 72 ?  -58.271  -19.260  -18.788   0.00  0 72 D
+ATOM    13025    C   CG ?  PRO      D 96 ?  -55.356  -18.873  -21.574   0.00  0 96 D
+ATOM    13017    C   CD ?  GLN      D 95 ?  -57.333  -21.679  -16.608   0.00  0 95 D
+ATOM    13154    O    O ?  THR      D 112 ?  -51.171  -19.075  -20.357  -2.14  0 112 D
+ATOM    12809    C  CD1 ?  ILE      D 69 ?  -55.582  -14.189  -21.021   0.00  0 69 D
+ATOM    13171    C   CG ?  LYS      D 114 ?  -52.011  -22.275  -15.421   0.00  0 114 D
+ATOM    13156    O  OG1 ?  THR      D 112 ?  -49.481  -17.883  -17.911   0.00  0 112 D
+ATOM    12793    N   NZ ?  LYS      D 67 ?  -50.698  -14.030  -21.211  -1.26  0 67 D
+ATOM    13020    N    N ?  PRO      D 96 ?  -55.387  -21.090  -20.903   0.00  0 96 D
+ATOM    13016    C   CG ?  GLN      D 95 ?  -57.296  -22.034  -18.069   0.00  0 95 D
 # 

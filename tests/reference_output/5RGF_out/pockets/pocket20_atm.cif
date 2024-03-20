@@ -15,7 +15,7 @@ Information about the pocket    20:
 6  - Hydrophobicity Score              : 29.2000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.9000
-9  - Pocket volume (Monte Carlo)       : 400.5745
+9  - Pocket volume (Monte Carlo)       : 397.0019
 10  -Pocket volume (convex hull)       : 49.3894
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 23.0000
@@ -39,33 +39,33 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3664    C  CD2 ?  HIS      A 211 ?   12.472  -8.099  36.016  0.00  0 209 A
-ATOM     3063    C  CD2 ?  TYR      A 176 ?   18.921  -9.776  33.932  0.00  0 174 A
-ATOM     3660    O    O ?  HIS      A 211 ?   14.471  -6.873  38.615 -2.55  0 209 A
-ATOM     3083    O  OD1 ?  ASN      A 177 ?   18.897 -10.169  37.786  0.00  0 175 A
-ATOM     3661    C   CB ?  HIS      A 211 ?   13.716  -5.825  36.043  0.00  0 209 A
-ATOM     3061    C   CG ?  TYR      A 176 ?   19.132  -8.666  33.125  0.00  0 174 A
-ATOM     2336    O  OE2 ?  GLU      A 133 ?   17.989  -7.769  28.985  0.00  0 131 A
-ATOM     4103    S   SD A  MET      A 239 ?   15.266  -2.753  30.257  0.00  0 237 A
-ATOM     1499    C  CH2 ?  TRP      A 89 ?   15.927  -5.184  26.134  0.00  0 87 A
-ATOM     3624    N  NE2 A  GLN      A 209 ?   17.860  -4.959  30.225 -3.28  0 207 A
-ATOM     4598    S   SD A  MET      A 269 ?   11.156  -1.396  31.001  0.00  0 267 A
-ATOM     4729    C  CE2 ?  PHE      A 278 ?    8.889  -6.386  33.514  0.00  0 276 A
-ATOM     1497    C  CZ2 ?  TRP      A 89 ?   16.619  -6.353  26.281  0.00  0 87 A
-ATOM     3066    C   CZ ?  TYR      A 176 ?   19.271 -11.239  32.078  0.00  0 174 A
-ATOM     3065    C  CE2 ?  TYR      A 176 ?   18.990 -11.058  33.415  0.00  0 174 A
-ATOM     3062    C  CD1 ?  TYR      A 176 ?   19.411  -8.878  31.786  0.00  0 174 A
-ATOM     3060    C   CB ?  TYR      A 176 ?   19.056  -7.266  33.691  0.00  0 174 A
-ATOM     3077    N    N ?  ASN      A 177 ?   20.505  -7.778  36.259  0.00  0 175 A
-ATOM     3614    O    O A  GLN      A 209 ?   17.955  -4.306  35.531  0.00  0 207 A
-ATOM     4730    C   CZ ?  PHE      A 278 ?    9.275  -7.642  33.083  0.00  0 276 A
-ATOM     3662    C   CG ?  HIS      A 211 ?   12.546  -6.751  36.107  0.00  0 209 A
-ATOM     4099    C   CB A  MET      A 239 ?   14.490  -1.268  32.398  0.00  0 237 A
-ATOM     3064    C  CE1 ?  TYR      A 176 ?   19.484 -10.155  31.263  0.00  0 174 A
-ATOM     2335    O  OE1 ?  GLU      A 133 ?   18.619  -9.480  27.764 -1.48  0 131 A
-ATOM     3067    O   OH ?  TYR      A 176 ?   19.341 -12.503  31.538 -0.14  0 174 A
-ATOM     3616    C   CB A  GLN      A 209 ?   18.214  -3.547  32.814  0.00  0 207 A
-ATOM     3663    N  ND1 ?  HIS      A 211 ?   11.253  -6.305  36.275  0.00  0 209 A
-ATOM     4097    O    O A  MET      A 239 ?   13.146  -1.383  34.771 -1.07  0 237 A
-ATOM     4152    O  OD2 ?  ASP      A 241 ?    9.487  -3.153  35.246 -1.07  0 239 A
+ATOM     3664    C  CD2 ?  HIS      A 211 ?   12.472   -8.099   36.016   0.00  0 209 A
+ATOM     3063    C  CD2 ?  TYR      A 176 ?   18.921   -9.776   33.932   0.00  0 174 A
+ATOM     3660    O    O ?  HIS      A 211 ?   14.471   -6.873   38.615  -2.55  0 209 A
+ATOM     3083    O  OD1 ?  ASN      A 177 ?   18.897  -10.169   37.786   0.00  0 175 A
+ATOM     3661    C   CB ?  HIS      A 211 ?   13.716   -5.825   36.043   0.00  0 209 A
+ATOM     3061    C   CG ?  TYR      A 176 ?   19.132   -8.666   33.125   0.00  0 174 A
+ATOM     2336    O  OE2 ?  GLU      A 133 ?   17.989   -7.769   28.985   0.00  0 131 A
+ATOM     4103    S   SD A  MET      A 239 ?   15.266   -2.753   30.257   0.00  0 237 A
+ATOM     1499    C  CH2 ?  TRP      A 89 ?   15.927   -5.184   26.134   0.00  0 87 A
+ATOM     3624    N  NE2 A  GLN      A 209 ?   17.860   -4.959   30.225  -3.28  0 207 A
+ATOM     4598    S   SD A  MET      A 269 ?   11.156   -1.396   31.001   0.00  0 267 A
+ATOM     4729    C  CE2 ?  PHE      A 278 ?    8.889   -6.386   33.514   0.00  0 276 A
+ATOM     1497    C  CZ2 ?  TRP      A 89 ?   16.619   -6.353   26.281   0.00  0 87 A
+ATOM     3066    C   CZ ?  TYR      A 176 ?   19.271  -11.239   32.078   0.00  0 174 A
+ATOM     3065    C  CE2 ?  TYR      A 176 ?   18.990  -11.058   33.415   0.00  0 174 A
+ATOM     3062    C  CD1 ?  TYR      A 176 ?   19.411   -8.878   31.786   0.00  0 174 A
+ATOM     3060    C   CB ?  TYR      A 176 ?   19.056   -7.266   33.691   0.00  0 174 A
+ATOM     3077    N    N ?  ASN      A 177 ?   20.505   -7.778   36.259   0.00  0 175 A
+ATOM     3614    O    O A  GLN      A 209 ?   17.955   -4.306   35.531   0.00  0 207 A
+ATOM     4730    C   CZ ?  PHE      A 278 ?    9.275   -7.642   33.083   0.00  0 276 A
+ATOM     3662    C   CG ?  HIS      A 211 ?   12.546   -6.751   36.107   0.00  0 209 A
+ATOM     4099    C   CB A  MET      A 239 ?   14.490   -1.268   32.398   0.00  0 237 A
+ATOM     3064    C  CE1 ?  TYR      A 176 ?   19.484  -10.155   31.263   0.00  0 174 A
+ATOM     2335    O  OE1 ?  GLU      A 133 ?   18.619   -9.480   27.764  -1.48  0 131 A
+ATOM     3067    O   OH ?  TYR      A 176 ?   19.341  -12.503   31.538  -0.14  0 174 A
+ATOM     3616    C   CB A  GLN      A 209 ?   18.214   -3.547   32.814   0.00  0 207 A
+ATOM     3663    N  ND1 ?  HIS      A 211 ?   11.253   -6.305   36.275   0.00  0 209 A
+ATOM     4097    O    O A  MET      A 239 ?   13.146   -1.383   34.771  -1.07  0 237 A
+ATOM     4152    O  OD2 ?  ASP      A 241 ?    9.487   -3.153   35.246  -1.07  0 239 A
 # 

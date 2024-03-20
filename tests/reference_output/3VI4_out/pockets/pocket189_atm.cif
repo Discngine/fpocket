@@ -15,7 +15,7 @@ Information about the pocket   189:
 6  - Hydrophobicity Score              : 8.7500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 231.6216
+9  - Pocket volume (Monte Carlo)       : 233.5051
 10  -Pocket volume (convex hull)       : 3.8938
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,16 +39,16 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4751    O  OG1 ?  THR      B 40 ?   31.077  48.679 -15.688  0.00  0 40 B
-ATOM     4760    C   CA ?  ALA      B 42 ?   29.486  42.168 -14.874  0.00  0 42 B
-ATOM     4756    O    O ?  SER      B 41 ?   27.669  44.186 -14.147  0.00  0 41 B
-ATOM     4759    N    N ?  ALA      B 42 ?   28.959  43.239 -15.742 -1.09  0 42 B
-ATOM     4755    C    C ?  SER      B 41 ?   28.084  44.153 -15.310  0.00  0 41 B
-ATOM     4750    C   CB ?  THR      B 40 ?   31.169  47.846 -16.851  0.00  0 40 B
-ATOM     4769    C   CG ?  ARG      B 43 ?   34.086  41.766 -12.310  0.00  0 43 B
-ATOM     4762    O    O ?  ALA      B 42 ?   31.330  41.835 -16.396 -4.02  0 42 B
-ATOM     4752    C  CG2 ?  THR      B 40 ?   32.383  48.259 -17.679  0.00  0 40 B
-ATOM     4761    C    C ?  ALA      B 42 ?   30.910  41.713 -15.241  0.00  0 42 B
-ATOM     4764    N    N ?  ARG      B 43 ?   31.638  41.185 -14.250 -3.28  0 43 B
-ATOM     4765    C   CA ?  ARG      B 43 ?   33.021  40.705 -14.429  0.00  0 43 B
+ATOM     4751    O  OG1 ?  THR      B 40 ?   31.077   48.679  -15.688   0.00  0 40 B
+ATOM     4760    C   CA ?  ALA      B 42 ?   29.486   42.168  -14.874   0.00  0 42 B
+ATOM     4756    O    O ?  SER      B 41 ?   27.669   44.186  -14.147   0.00  0 41 B
+ATOM     4759    N    N ?  ALA      B 42 ?   28.959   43.239  -15.742  -1.09  0 42 B
+ATOM     4755    C    C ?  SER      B 41 ?   28.084   44.153  -15.310   0.00  0 41 B
+ATOM     4750    C   CB ?  THR      B 40 ?   31.169   47.846  -16.851   0.00  0 40 B
+ATOM     4769    C   CG ?  ARG      B 43 ?   34.086   41.766  -12.310   0.00  0 43 B
+ATOM     4762    O    O ?  ALA      B 42 ?   31.330   41.835  -16.396  -4.02  0 42 B
+ATOM     4752    C  CG2 ?  THR      B 40 ?   32.383   48.259  -17.679   0.00  0 40 B
+ATOM     4761    C    C ?  ALA      B 42 ?   30.910   41.713  -15.241   0.00  0 42 B
+ATOM     4764    N    N ?  ARG      B 43 ?   31.638   41.185  -14.250  -3.28  0 43 B
+ATOM     4765    C   CA ?  ARG      B 43 ?   33.021   40.705  -14.429   0.00  0 43 B
 # 

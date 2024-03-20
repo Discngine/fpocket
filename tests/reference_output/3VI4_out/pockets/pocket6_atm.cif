@@ -15,7 +15,7 @@ Information about the pocket     6:
 6  - Hydrophobicity Score              : 19.7143
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5714
-9  - Pocket volume (Monte Carlo)       : 215.1794
+9  - Pocket volume (Monte Carlo)       : 216.5224
 10  -Pocket volume (convex hull)       : 4.4594
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12175    C   CB ?  SER      C 570 ?  -31.034  -9.882 -71.696  0.00  0 570 C
-ATOM    12159    N  ND2 ?  ASN      C 568 ?  -31.867  -5.384 -67.260 -1.09  0 568 C
-ATOM    12155    O    O ?  ASN      C 568 ?  -28.710  -5.180 -70.456  0.00  0 568 C
-ATOM    12158    O  OD1 ?  ASN      C 568 ?  -30.972  -3.775 -68.578  0.00  0 568 C
-ATOM    11700    O  OE2 ?  GLU      C 504 ?  -35.992  -3.066 -71.079 -0.95  0 504 C
-ATOM    11683    O  OG1 ?  THR      C 502 ?  -31.839  -8.594 -74.475 -1.88  0 502 C
-ATOM    12176    O   OG ?  SER      C 570 ?  -31.907 -10.938 -72.063  0.00  0 570 C
-ATOM    11698    C   CD ?  GLU      C 504 ?  -34.855  -2.760 -70.662  0.00  0 504 C
-ATOM    11699    O  OE1 ?  GLU      C 504 ?  -34.539  -2.801 -69.450 -3.21  0 504 C
-ATOM    11696    C   CB ?  GLU      C 504 ?  -32.401  -2.474 -71.170  0.00  0 504 C
-ATOM    11692    N    N ?  GLU      C 504 ?  -30.469  -2.979 -72.608  0.00  0 504 C
-ATOM    12163    O    O ?  PHE      C 569 ?  -29.319  -8.723 -69.465 -1.88  0 569 C
-ATOM    11697    C   CG ?  GLU      C 504 ?  -33.819  -2.310 -71.674  0.00  0 504 C
-ATOM    11681    O    O ?  THR      C 502 ?  -29.292  -7.068 -73.992  0.00  0 502 C
-ATOM    11682    C   CB ?  THR      C 502 ?  -31.890  -7.747 -75.622  0.00  0 502 C
-ATOM    11875    C  CG2 ?  THR      C 530 ?  -35.374  -2.210 -74.417  0.00  0 530 C
-ATOM    11687    C    C ?  VAL      C 503 ?  -30.263  -3.198 -73.906  0.00  0 503 C
-ATOM    11688    O    O ?  VAL      C 503 ?  -30.851  -2.593 -74.813  0.00  0 503 C
+ATOM    12175    C   CB ?  SER      C 570 ?  -31.034   -9.882  -71.696   0.00  0 570 C
+ATOM    12159    N  ND2 ?  ASN      C 568 ?  -31.867   -5.384  -67.260  -1.09  0 568 C
+ATOM    12155    O    O ?  ASN      C 568 ?  -28.710   -5.180  -70.456   0.00  0 568 C
+ATOM    12158    O  OD1 ?  ASN      C 568 ?  -30.972   -3.775  -68.578   0.00  0 568 C
+ATOM    11700    O  OE2 ?  GLU      C 504 ?  -35.992   -3.066  -71.079  -0.95  0 504 C
+ATOM    11683    O  OG1 ?  THR      C 502 ?  -31.839   -8.594  -74.475  -1.88  0 502 C
+ATOM    12176    O   OG ?  SER      C 570 ?  -31.907  -10.938  -72.063   0.00  0 570 C
+ATOM    11698    C   CD ?  GLU      C 504 ?  -34.855   -2.760  -70.662   0.00  0 504 C
+ATOM    11699    O  OE1 ?  GLU      C 504 ?  -34.539   -2.801  -69.450  -3.21  0 504 C
+ATOM    11696    C   CB ?  GLU      C 504 ?  -32.401   -2.474  -71.170   0.00  0 504 C
+ATOM    11692    N    N ?  GLU      C 504 ?  -30.469   -2.979  -72.608   0.00  0 504 C
+ATOM    12163    O    O ?  PHE      C 569 ?  -29.319   -8.723  -69.465  -1.88  0 569 C
+ATOM    11697    C   CG ?  GLU      C 504 ?  -33.819   -2.310  -71.674   0.00  0 504 C
+ATOM    11681    O    O ?  THR      C 502 ?  -29.292   -7.068  -73.992   0.00  0 502 C
+ATOM    11682    C   CB ?  THR      C 502 ?  -31.890   -7.747  -75.622   0.00  0 502 C
+ATOM    11875    C  CG2 ?  THR      C 530 ?  -35.374   -2.210  -74.417   0.00  0 530 C
+ATOM    11687    C    C ?  VAL      C 503 ?  -30.263   -3.198  -73.906   0.00  0 503 C
+ATOM    11688    O    O ?  VAL      C 503 ?  -30.851   -2.593  -74.813   0.00  0 503 C
 # 
