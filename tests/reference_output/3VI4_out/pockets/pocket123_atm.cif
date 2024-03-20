@@ -15,7 +15,7 @@ Information about the pocket   123:
 6  - Hydrophobicity Score              : 33.2500
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.6667
-9  - Pocket volume (Monte Carlo)       : 364.0999
+9  - Pocket volume (Monte Carlo)       : 365.4788
 10  -Pocket volume (convex hull)       : 27.1672
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    21174    N    N ?  TRP      H 47 ?   23.873 -20.274 -63.702  0.00  0 47 F
-ATOM    19886    O    O ?  PHE      G 101 ?   26.188 -22.003 -60.476 -6.43  0 101 E
-ATOM    21166    C   CA ?  GLU      H 46 ?   23.051 -21.596 -65.552  0.00  0 46 F
-ATOM    21170    C   CG ?  GLU      H 46 ?   25.280 -21.513 -66.780  0.00  0 46 F
-ATOM    19895    C   CA ?  THR      G 102 ?   25.758 -24.694 -59.994  0.00  0 102 E
-ATOM    19900    C  CG2 ?  THR      G 102 ?   26.890 -26.689 -61.045  0.00  0 102 E
-ATOM    21295    N  ND2 ?  ASN      H 61 ?   28.799 -19.246 -64.990 -2.19  0 61 F
-ATOM    21313    N   NZ ?  LYS      H 63 ?   30.558 -23.878 -66.980  0.00  0 63 F
-ATOM    19899    O  OG1 ?  THR      G 102 ?   28.156 -24.834 -60.223 -5.36  0 102 E
-ATOM    19881    C   CG ?  PRO      G 100 ?   30.984 -20.801 -61.017  0.00  0 100 E
-ATOM    21294    O  OD1 ?  ASN      H 61 ?   30.757 -19.071 -63.904 -2.14  0 61 F
-ATOM    19111    N    N ?  ASP      G 1 ?   33.160 -24.445 -60.466 -2.77  0 1 E
-ATOM    21312    C   CE ?  LYS      H 63 ?   31.616 -22.848 -67.189  0.00  0 63 F
-ATOM    19133    C  CG2 ?  VAL      G 3 ?   31.749 -30.359 -61.603  0.00  0 3 E
-ATOM    19132    C  CG1 ?  VAL      G 3 ?   29.650 -31.606 -62.134  0.00  0 3 E
-ATOM    21160    O    O ?  LEU      H 45 ?   22.122 -24.178 -65.229 -4.69  0 45 F
-ATOM    19901    N    N ?  PHE      G 103 ?   23.706 -25.594 -60.880 -2.19  0 103 E
-ATOM    19904    O    O ?  PHE      G 103 ?   24.161 -27.782 -62.399 -0.95  0 103 E
-ATOM    19122    O    O ?  ILE      G 2 ?   29.752 -27.348 -59.464  0.00  0 2 E
-ATOM    19114    O    O ?  ASP      G 1 ?   33.092 -27.780 -59.996 -1.48  0 1 E
-ATOM    19128    C   CA ?  VAL      G 3 ?   29.714 -30.047 -60.139  0.00  0 3 E
+ATOM    21174    N    N ?  TRP      H 47 ?   23.873  -20.274  -63.702   0.00  0 47 F
+ATOM    19886    O    O ?  PHE      G 101 ?   26.188  -22.003  -60.476  -6.43  0 101 E
+ATOM    21166    C   CA ?  GLU      H 46 ?   23.051  -21.596  -65.552   0.00  0 46 F
+ATOM    21170    C   CG ?  GLU      H 46 ?   25.280  -21.513  -66.780   0.00  0 46 F
+ATOM    19895    C   CA ?  THR      G 102 ?   25.758  -24.694  -59.994   0.00  0 102 E
+ATOM    19900    C  CG2 ?  THR      G 102 ?   26.890  -26.689  -61.045   0.00  0 102 E
+ATOM    21295    N  ND2 ?  ASN      H 61 ?   28.799  -19.246  -64.990  -2.19  0 61 F
+ATOM    21313    N   NZ ?  LYS      H 63 ?   30.558  -23.878  -66.980   0.00  0 63 F
+ATOM    19899    O  OG1 ?  THR      G 102 ?   28.156  -24.834  -60.223  -5.36  0 102 E
+ATOM    19881    C   CG ?  PRO      G 100 ?   30.984  -20.801  -61.017   0.00  0 100 E
+ATOM    21294    O  OD1 ?  ASN      H 61 ?   30.757  -19.071  -63.904  -2.14  0 61 F
+ATOM    19111    N    N ?  ASP      G 1 ?   33.160  -24.445  -60.466  -2.77  0 1 E
+ATOM    21312    C   CE ?  LYS      H 63 ?   31.616  -22.848  -67.189   0.00  0 63 F
+ATOM    19133    C  CG2 ?  VAL      G 3 ?   31.749  -30.359  -61.603   0.00  0 3 E
+ATOM    19132    C  CG1 ?  VAL      G 3 ?   29.650  -31.606  -62.134   0.00  0 3 E
+ATOM    21160    O    O ?  LEU      H 45 ?   22.122  -24.178  -65.229  -4.69  0 45 F
+ATOM    19901    N    N ?  PHE      G 103 ?   23.706  -25.594  -60.880  -2.19  0 103 E
+ATOM    19904    O    O ?  PHE      G 103 ?   24.161  -27.782  -62.399  -0.95  0 103 E
+ATOM    19122    O    O ?  ILE      G 2 ?   29.752  -27.348  -59.464   0.00  0 2 E
+ATOM    19114    O    O ?  ASP      G 1 ?   33.092  -27.780  -59.996  -1.48  0 1 E
+ATOM    19128    C   CA ?  VAL      G 3 ?   29.714  -30.047  -60.139   0.00  0 3 E
 # 

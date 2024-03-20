@@ -15,7 +15,7 @@ Information about the pocket   144:
 6  - Hydrophobicity Score              : 24.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 151.8624
+9  - Pocket volume (Monte Carlo)       : 145.7269
 10  -Pocket volume (convex hull)       : 1.9472
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20443    O   OG ?  SER      G 173 ?   -1.537 -31.215 -69.488  0.00  0 173 E
-ATOM    20442    C   CB ?  SER      G 173 ?   -2.526 -32.103 -69.966  0.00  0 173 E
-ATOM    20441    O    O ?  SER      G 173 ?   -3.153 -35.188 -68.752 -5.09  0 173 E
-ATOM    19758    C   CB ?  ALA      G 85 ?   -1.498 -34.353 -63.522  0.00  0 85 E
-ATOM    20439    C   CA ?  SER      G 173 ?   -1.988 -33.533 -70.038  0.00  0 173 E
-ATOM    19757    O    O ?  ALA      G 85 ?    1.156 -32.584 -63.451 -4.69  0 85 E
-ATOM    19777    C  CG1 ?  VAL      G 88 ?    4.877 -33.879 -66.183  0.00  0 88 E
-ATOM    20424    O    O ?  GLN      G 171 ?    2.249 -33.913 -71.879 -4.02  0 171 E
-ATOM    20433    O    O ?  ASP      G 172 ?   -0.712 -35.903 -70.883  0.00  0 172 E
-ATOM    20429    N  NE2 ?  GLN      G 171 ?    3.756 -37.081 -68.324 -2.19  0 171 E
-ATOM    19964    C  CD1 ?  LEU      G 111 ?    0.530 -37.895 -65.140  0.00  0 111 E
-ATOM    19778    C  CG2 ?  VAL      G 88 ?    3.232 -34.785 -64.555  0.00  0 88 E
-ATOM    19776    C   CB ?  VAL      G 88 ?    4.118 -33.599 -64.895  0.00  0 88 E
+ATOM    20443    O   OG ?  SER      G 173 ?   -1.537  -31.215  -69.488   0.00  0 173 E
+ATOM    20442    C   CB ?  SER      G 173 ?   -2.526  -32.103  -69.966   0.00  0 173 E
+ATOM    20441    O    O ?  SER      G 173 ?   -3.153  -35.188  -68.752  -5.09  0 173 E
+ATOM    19758    C   CB ?  ALA      G 85 ?   -1.498  -34.353  -63.522   0.00  0 85 E
+ATOM    20439    C   CA ?  SER      G 173 ?   -1.988  -33.533  -70.038   0.00  0 173 E
+ATOM    19757    O    O ?  ALA      G 85 ?    1.156  -32.584  -63.451  -4.69  0 85 E
+ATOM    19777    C  CG1 ?  VAL      G 88 ?    4.877  -33.879  -66.183   0.00  0 88 E
+ATOM    20424    O    O ?  GLN      G 171 ?    2.249  -33.913  -71.879  -4.02  0 171 E
+ATOM    20433    O    O ?  ASP      G 172 ?   -0.712  -35.903  -70.883   0.00  0 172 E
+ATOM    20429    N  NE2 ?  GLN      G 171 ?    3.756  -37.081  -68.324  -2.19  0 171 E
+ATOM    19964    C  CD1 ?  LEU      G 111 ?    0.530  -37.895  -65.140   0.00  0 111 E
+ATOM    19778    C  CG2 ?  VAL      G 88 ?    3.232  -34.785  -64.555   0.00  0 88 E
+ATOM    19776    C   CB ?  VAL      G 88 ?    4.118  -33.599  -64.895   0.00  0 88 E
 # 

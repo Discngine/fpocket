@@ -15,7 +15,7 @@ Information about the pocket    30:
 6  - Hydrophobicity Score              : 13.1000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.9000
-9  - Pocket volume (Monte Carlo)       : 361.7592
+9  - Pocket volume (Monte Carlo)       : 369.3806
 10  -Pocket volume (convex hull)       : 39.9031
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 13.0000
@@ -39,32 +39,32 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3308    O    O ?  ASP    Bxp 164 ?   27.151  43.554  37.600 -1.21  0 391 B
-ATOM     3313    O    O ?  THR    Bxp 165 ?   24.462  45.035  38.384 -2.14  0 392 B
-ATOM     3405    C   CG ?  LYS    Bxp 177 ?   24.464  39.615  42.306  0.00  0 404 B
-ATOM     3406    C   CD ?  LYS    Bxp 177 ?   25.964  39.772  42.543  0.00  0 404 B
-ATOM     3422    C  CH2 ?  TRP    Bxp 178 ?   24.948  45.190  44.295  0.00  0 405 B
-ATOM     3678    C   CB ?  SER    Bxp 211 ?   30.018  43.102  45.878  0.00  0 438 B
-ATOM     3686    C   CD ?  PRO    Bxp 212 ?   26.363  42.775  46.525  0.00  0 439 B
-ATOM     3683    O    O ?  PRO    Bxp 212 ?   27.502  39.687  45.538 -1.07  0 439 B
-ATOM     3408    N   NZ ?  LYS    Bxp 177 ?   28.079  38.314  42.470  0.00  0 404 B
-ATOM     3315    O  OG1 ?  THR    Bxp 165 ?   27.785  47.295  40.411 -2.69  0 392 B
-ATOM     3679    O   OG ?  SER    Bxp 211 ?   30.571  44.344  45.570  0.00  0 438 B
-ATOM     3421    C  CZ3 ?  TRP    Bxp 178 ?   24.294  44.617  43.200  0.00  0 405 B
-ATOM     3733    C  CD2 ?  LEU    Bxp 218 ?   25.994  39.197  38.463  0.00  0 445 B
-ATOM     3407    C   CE ?  LYS    Bxp 177 ?   26.663  38.511  41.999  0.00  0 404 B
-ATOM     3309    C   CB ?  ASP    Bxp 164 ?   29.556  43.103  36.104  0.00  0 391 B
-ATOM     3731    C   CG ?  LEU    Bxp 218 ?   26.746  38.765  37.215  0.00  0 445 B
-ATOM     3732    C  CD1 ?  LEU    Bxp 218 ?   26.904  39.928  36.336  0.00  0 445 B
-ATOM     3400    N    N ?  LYS    Bxp 177 ?   22.059  41.042  41.095  0.00  0 404 B
-ATOM     3404    C   CB ?  LYS    Bxp 177 ?   23.625  40.732  42.913  0.00  0 404 B
-ATOM     3311    C   CA ?  THR    Bxp 165 ?   26.568  46.000  38.856  0.00  0 392 B
-ATOM     3310    N    N ?  THR    Bxp 165 ?   27.717  45.708  37.984 -1.09  0 392 B
-ATOM     3307    C    C ?  ASP    Bxp 164 ?   27.840  44.547  37.321  0.00  0 391 B
-ATOM     3713    O    O ?  ILE    Bxp 216 ?   28.851  36.052  40.595 -4.02  0 443 B
-ATOM     3707    C   CA ?  GLY    Bxp 215 ?   32.598  35.981  43.265  0.00  0 442 B
-ATOM     3709    O    O ?  GLY    Bxp 215 ?   32.021  34.395  41.605  0.00  0 442 B
-ATOM     3708    C    C ?  GLY    Bxp 215 ?   31.630  35.052  42.556  0.00  0 442 B
-ATOM     3706    N    N ?  GLY    Bxp 215 ?   31.992  36.921  44.159  0.00  0 442 B
-ATOM     3700    C   CA ?  PRO    Bxp 214 ?   30.804  37.638  46.187  0.00  0 441 B
+ATOM     3308    O    O ?  ASP    Bxp 164 ?   27.151   43.554   37.600  -1.21  0 391 B
+ATOM     3313    O    O ?  THR    Bxp 165 ?   24.462   45.035   38.384  -2.14  0 392 B
+ATOM     3405    C   CG ?  LYS    Bxp 177 ?   24.464   39.615   42.306   0.00  0 404 B
+ATOM     3406    C   CD ?  LYS    Bxp 177 ?   25.964   39.772   42.543   0.00  0 404 B
+ATOM     3422    C  CH2 ?  TRP    Bxp 178 ?   24.948   45.190   44.295   0.00  0 405 B
+ATOM     3678    C   CB ?  SER    Bxp 211 ?   30.018   43.102   45.878   0.00  0 438 B
+ATOM     3686    C   CD ?  PRO    Bxp 212 ?   26.363   42.775   46.525   0.00  0 439 B
+ATOM     3683    O    O ?  PRO    Bxp 212 ?   27.502   39.687   45.538  -1.07  0 439 B
+ATOM     3408    N   NZ ?  LYS    Bxp 177 ?   28.079   38.314   42.470   0.00  0 404 B
+ATOM     3315    O  OG1 ?  THR    Bxp 165 ?   27.785   47.295   40.411  -2.69  0 392 B
+ATOM     3679    O   OG ?  SER    Bxp 211 ?   30.571   44.344   45.570   0.00  0 438 B
+ATOM     3421    C  CZ3 ?  TRP    Bxp 178 ?   24.294   44.617   43.200   0.00  0 405 B
+ATOM     3733    C  CD2 ?  LEU    Bxp 218 ?   25.994   39.197   38.463   0.00  0 445 B
+ATOM     3407    C   CE ?  LYS    Bxp 177 ?   26.663   38.511   41.999   0.00  0 404 B
+ATOM     3309    C   CB ?  ASP    Bxp 164 ?   29.556   43.103   36.104   0.00  0 391 B
+ATOM     3731    C   CG ?  LEU    Bxp 218 ?   26.746   38.765   37.215   0.00  0 445 B
+ATOM     3732    C  CD1 ?  LEU    Bxp 218 ?   26.904   39.928   36.336   0.00  0 445 B
+ATOM     3400    N    N ?  LYS    Bxp 177 ?   22.059   41.042   41.095   0.00  0 404 B
+ATOM     3404    C   CB ?  LYS    Bxp 177 ?   23.625   40.732   42.913   0.00  0 404 B
+ATOM     3311    C   CA ?  THR    Bxp 165 ?   26.568   46.000   38.856   0.00  0 392 B
+ATOM     3310    N    N ?  THR    Bxp 165 ?   27.717   45.708   37.984  -1.09  0 392 B
+ATOM     3307    C    C ?  ASP    Bxp 164 ?   27.840   44.547   37.321   0.00  0 391 B
+ATOM     3713    O    O ?  ILE    Bxp 216 ?   28.851   36.052   40.595  -4.02  0 443 B
+ATOM     3707    C   CA ?  GLY    Bxp 215 ?   32.598   35.981   43.265   0.00  0 442 B
+ATOM     3709    O    O ?  GLY    Bxp 215 ?   32.021   34.395   41.605   0.00  0 442 B
+ATOM     3708    C    C ?  GLY    Bxp 215 ?   31.630   35.052   42.556   0.00  0 442 B
+ATOM     3706    N    N ?  GLY    Bxp 215 ?   31.992   36.921   44.159   0.00  0 442 B
+ATOM     3700    C   CA ?  PRO    Bxp 214 ?   30.804   37.638   46.187   0.00  0 441 B
 # 

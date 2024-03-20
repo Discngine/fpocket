@@ -15,7 +15,7 @@ Information about the pocket    15:
 6  - Hydrophobicity Score              : -7.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.8000
-9  - Pocket volume (Monte Carlo)       : 185.5991
+9  - Pocket volume (Monte Carlo)       : 189.9117
 10  -Pocket volume (convex hull)       : 2.1222
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 12.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8236    C   CB ?  ASP      B 179 ?  -25.321   6.412  16.751  0.00  0 177 B
-ATOM     8244    N    N ?  SER      B 180 ?  -28.105   7.261  14.894 -1.09  0 178 B
-ATOM     8202    O    O ?  ASN      B 177 ?  -24.248   9.437  12.165  0.00  0 175 B
-ATOM     8232    N    N ?  ASP      B 179 ?  -25.508   6.597  14.333  0.00  0 177 B
-ATOM     8248    C   CB ?  SER      B 180 ?  -29.572   9.142  15.455  0.00  0 178 B
-ATOM     8281    C   CG ?  TYR      B 183 ?  -27.312  12.284  12.215  0.00  0 181 B
-ATOM     8201    C    C ?  ASN      B 177 ?  -23.447   8.725  12.777  0.00  0 175 B
-ATOM     8200    C   CA ?  ASN      B 177 ?  -22.358   9.332  13.662  0.00  0 175 B
-ATOM     8286    C   CZ ?  TYR      B 183 ?  -25.204  14.091  12.445  0.00  0 181 B
-ATOM     8284    C  CE1 ?  TYR      B 183 ?  -26.447  14.419  12.948  0.00  0 181 B
-ATOM     8206    N  ND2 ?  ASN      B 177 ?  -21.241  12.842  14.300 -3.45  0 175 B
-ATOM     8287    O   OH ?  TYR      B 183 ?  -24.164  14.987  12.556  0.00  0 181 B
-ATOM     8239    O  OD2 ?  ASP      B 179 ?  -23.092   7.226  16.679 -2.55  0 177 B
-ATOM     8204    C   CG ?  ASN      B 177 ?  -21.590  11.585  14.536  0.00  0 175 B
-ATOM     8282    C  CD1 ?  TYR      B 183 ?  -27.491  13.513  12.837  0.00  0 181 B
-ATOM     8283    C  CD2 ?  TYR      B 183 ?  -26.050  11.976  11.723  0.00  0 181 B
-ATOM     8203    C   CB ?  ASN      B 177 ?  -22.158  10.817  13.358  0.00  0 175 B
-ATOM     8285    C  CE2 ?  TYR      B 183 ?  -25.000  12.872  11.830  0.00  0 181 B
-ATOM     8205    O  OD1 ?  ASN      B 177 ?  -21.483  11.064  15.648 -1.21  0 175 B
-ATOM     8833    N  NE2 ?  GLN      B 216 ?  -24.977  10.854  21.275 -1.01  0 214 B
+ATOM     8236    C   CB ?  ASP      B 179 ?  -25.321    6.412   16.751   0.00  0 177 B
+ATOM     8244    N    N ?  SER      B 180 ?  -28.105    7.261   14.894  -1.09  0 178 B
+ATOM     8202    O    O ?  ASN      B 177 ?  -24.248    9.437   12.165   0.00  0 175 B
+ATOM     8232    N    N ?  ASP      B 179 ?  -25.508    6.597   14.333   0.00  0 177 B
+ATOM     8248    C   CB ?  SER      B 180 ?  -29.572    9.142   15.455   0.00  0 178 B
+ATOM     8281    C   CG ?  TYR      B 183 ?  -27.312   12.284   12.215   0.00  0 181 B
+ATOM     8201    C    C ?  ASN      B 177 ?  -23.447    8.725   12.777   0.00  0 175 B
+ATOM     8200    C   CA ?  ASN      B 177 ?  -22.358    9.332   13.662   0.00  0 175 B
+ATOM     8286    C   CZ ?  TYR      B 183 ?  -25.204   14.091   12.445   0.00  0 181 B
+ATOM     8284    C  CE1 ?  TYR      B 183 ?  -26.447   14.419   12.948   0.00  0 181 B
+ATOM     8206    N  ND2 ?  ASN      B 177 ?  -21.241   12.842   14.300  -3.45  0 175 B
+ATOM     8287    O   OH ?  TYR      B 183 ?  -24.164   14.987   12.556   0.00  0 181 B
+ATOM     8239    O  OD2 ?  ASP      B 179 ?  -23.092    7.226   16.679  -2.55  0 177 B
+ATOM     8204    C   CG ?  ASN      B 177 ?  -21.590   11.585   14.536   0.00  0 175 B
+ATOM     8282    C  CD1 ?  TYR      B 183 ?  -27.491   13.513   12.837   0.00  0 181 B
+ATOM     8283    C  CD2 ?  TYR      B 183 ?  -26.050   11.976   11.723   0.00  0 181 B
+ATOM     8203    C   CB ?  ASN      B 177 ?  -22.158   10.817   13.358   0.00  0 175 B
+ATOM     8285    C  CE2 ?  TYR      B 183 ?  -25.000   12.872   11.830   0.00  0 181 B
+ATOM     8205    O  OD1 ?  ASN      B 177 ?  -21.483   11.064   15.648  -1.21  0 175 B
+ATOM     8833    N  NE2 ?  GLN      B 216 ?  -24.977   10.854   21.275  -1.01  0 214 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket    28:
 6  - Hydrophobicity Score              : 47.8000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 152.1429
+9  - Pocket volume (Monte Carlo)       : 150.8492
 10  -Pocket volume (convex hull)       : 1.1933
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,16 +39,16 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5155    C    C ?  ASN    Cxp 131 ?   49.791  69.967  16.216  0.00  0 358 C
-ATOM     5164    O    O ?  PHE    Cxp 132 ?   48.967  66.829  17.018  0.00  0 359 C
-ATOM     5154    C   CA ?  ASN    Cxp 131 ?   49.335  70.969  17.293  0.00  0 358 C
-ATOM     5156    O    O ?  ASN    Cxp 131 ?   49.458  70.110  15.000 -2.55  0 358 C
-ATOM     5177    C  CG1 ?  ILE    Cxp 133 ?   46.547  66.252  14.171  0.00  0 360 C
-ATOM     5179    C  CD1 ?  ILE    Cxp 133 ?   45.747  66.718  12.918  0.00  0 360 C
-ATOM     5159    O  OD1 ?  ASN    Cxp 131 ?   46.848  72.862  17.330  0.00  0 358 C
-ATOM     5600    C  CG1 ?  ILE    Cxp 191 ?   45.611  66.019  19.250  0.00  0 418 C
-ATOM     5129    O    O ?  GLU    Cxp 128 ?   48.054  70.332  20.849 -1.48  0 355 C
-ATOM     5595    N    N ?  ILE    Cxp 191 ?   43.539  65.578  16.244  0.00  0 418 C
-ATOM     5599    C   CB ?  ILE    Cxp 191 ?   44.408  66.418  18.397  0.00  0 418 C
-ATOM     5601    C  CG2 ?  ILE    Cxp 191 ?   43.280  67.132  19.172  0.00  0 418 C
+ATOM     5155    C    C ?  ASN    Cxp 131 ?   49.791   69.967   16.216   0.00  0 358 C
+ATOM     5164    O    O ?  PHE    Cxp 132 ?   48.967   66.829   17.018   0.00  0 359 C
+ATOM     5154    C   CA ?  ASN    Cxp 131 ?   49.335   70.969   17.293   0.00  0 358 C
+ATOM     5156    O    O ?  ASN    Cxp 131 ?   49.458   70.110   15.000  -2.55  0 358 C
+ATOM     5177    C  CG1 ?  ILE    Cxp 133 ?   46.547   66.252   14.171   0.00  0 360 C
+ATOM     5179    C  CD1 ?  ILE    Cxp 133 ?   45.747   66.718   12.918   0.00  0 360 C
+ATOM     5159    O  OD1 ?  ASN    Cxp 131 ?   46.848   72.862   17.330   0.00  0 358 C
+ATOM     5600    C  CG1 ?  ILE    Cxp 191 ?   45.611   66.019   19.250   0.00  0 418 C
+ATOM     5129    O    O ?  GLU    Cxp 128 ?   48.054   70.332   20.849  -1.48  0 355 C
+ATOM     5595    N    N ?  ILE    Cxp 191 ?   43.539   65.578   16.244   0.00  0 418 C
+ATOM     5599    C   CB ?  ILE    Cxp 191 ?   44.408   66.418   18.397   0.00  0 418 C
+ATOM     5601    C  CG2 ?  ILE    Cxp 191 ?   43.280   67.132   19.172   0.00  0 418 C
 # 

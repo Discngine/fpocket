@@ -15,7 +15,7 @@ Information about the pocket   120:
 6  - Hydrophobicity Score              : 19.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.5455
-9  - Pocket volume (Monte Carlo)       : 440.2564
+9  - Pocket volume (Monte Carlo)       : 427.9345
 10  -Pocket volume (convex hull)       : 43.6686
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,29 +39,29 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4396    C  CE1 ?  HIS      A 580 ?    1.406   9.346  31.054  0.00  0 580 A
-ATOM      440    N    N ?  ALA      A 62 ?    2.471   2.529  31.026 -0.42  0 62 A
-ATOM      437    C   CA ?  GLY      A 61 ?    0.255   3.391  30.532  0.00  0 61 A
-ATOM     4394    N  ND1 ?  HIS      A 580 ?    2.571   9.815  30.566 -2.35  0 580 A
-ATOM      425    O    O ?  TRP      A 60 ?    1.208   2.452  28.058 -0.81  0 60 A
-ATOM       66    C   CB ?  ALA      A 9 ?    6.247   3.066  22.849  0.00  0 9 A
-ATOM      434    C  CZ3 ?  TRP      A 60 ?    2.640   3.401  24.095  0.00  0 60 A
-ATOM      444    C   CB ?  ALA      A 62 ?    4.823   2.182  31.679  0.00  0 62 A
-ATOM      473    N  NE2 ?  GLN      A 66 ?    6.331  -3.530  25.221  0.00  0 66 A
-ATOM     3365    N  NH2 ?  ARG      A 447 ?    6.583   8.702  25.725 -5.47  0 447 A
-ATOM     4398    N    N ?  GLY      A 581 ?    6.731  11.968  29.989 -0.42  0 581 A
-ATOM     3364    N  NH1 ?  ARG      A 447 ?    4.987  10.352  25.907 -1.09  0 447 A
-ATOM     3363    C   CZ ?  ARG      A 447 ?    5.473   9.280  25.282  0.00  0 447 A
-ATOM      435    C  CH2 ?  TRP      A 60 ?    3.371   4.600  24.125  0.00  0 60 A
-ATOM      441    C   CA ?  ALA      A 62 ?    3.528   1.516  31.226  0.00  0 62 A
-ATOM      445    N    N ?  SER      A 63 ?    3.498  -0.853  31.768 -1.09  0 63 A
-ATOM      448    O    O ?  SER      A 63 ?    5.291  -2.956  32.092  0.00  0 63 A
-ATOM       81    C  CD2 ?  LEU      A 11 ?    3.523  -1.468  22.799  0.00  0 11 A
-ATOM      430    N  NE1 ?  TRP      A 60 ?    0.944   6.547  26.115 -2.19  0 60 A
-ATOM      450    O   OG ?  SER      A 63 ?    2.351  -3.127  30.416 -3.62  0 63 A
-ATOM      433    C  CZ2 ?  TRP      A 60 ?    2.897   5.740  24.784  0.00  0 60 A
-ATOM      470    C   CG ?  GLN      A 66 ?    4.308  -4.494  26.144  0.00  0 66 A
-ATOM      418    O    O ?  PRO      A 59 ?   -0.560  -0.301  27.305 -2.95  0 59 A
-ATOM      431    C  CE2 ?  TRP      A 60 ?    1.660   5.640  25.411  0.00  0 60 A
-ATOM      432    C  CE3 ?  TRP      A 60 ?    1.391   3.287  24.721  0.00  0 60 A
+ATOM     4396    C  CE1 ?  HIS      A 580 ?    1.406    9.346   31.054   0.00  0 580 A
+ATOM      440    N    N ?  ALA      A 62 ?    2.471    2.529   31.026  -0.42  0 62 A
+ATOM      437    C   CA ?  GLY      A 61 ?    0.255    3.391   30.532   0.00  0 61 A
+ATOM     4394    N  ND1 ?  HIS      A 580 ?    2.571    9.815   30.566  -2.35  0 580 A
+ATOM      425    O    O ?  TRP      A 60 ?    1.208    2.452   28.058  -0.81  0 60 A
+ATOM       66    C   CB ?  ALA      A 9 ?    6.247    3.066   22.849   0.00  0 9 A
+ATOM      434    C  CZ3 ?  TRP      A 60 ?    2.640    3.401   24.095   0.00  0 60 A
+ATOM      444    C   CB ?  ALA      A 62 ?    4.823    2.182   31.679   0.00  0 62 A
+ATOM      473    N  NE2 ?  GLN      A 66 ?    6.331   -3.530   25.221   0.00  0 66 A
+ATOM     3365    N  NH2 ?  ARG      A 447 ?    6.583    8.702   25.725  -5.47  0 447 A
+ATOM     4398    N    N ?  GLY      A 581 ?    6.731   11.968   29.989  -0.42  0 581 A
+ATOM     3364    N  NH1 ?  ARG      A 447 ?    4.987   10.352   25.907  -1.09  0 447 A
+ATOM     3363    C   CZ ?  ARG      A 447 ?    5.473    9.280   25.282   0.00  0 447 A
+ATOM      435    C  CH2 ?  TRP      A 60 ?    3.371    4.600   24.125   0.00  0 60 A
+ATOM      441    C   CA ?  ALA      A 62 ?    3.528    1.516   31.226   0.00  0 62 A
+ATOM      445    N    N ?  SER      A 63 ?    3.498   -0.853   31.768  -1.09  0 63 A
+ATOM      448    O    O ?  SER      A 63 ?    5.291   -2.956   32.092   0.00  0 63 A
+ATOM       81    C  CD2 ?  LEU      A 11 ?    3.523   -1.468   22.799   0.00  0 11 A
+ATOM      430    N  NE1 ?  TRP      A 60 ?    0.944    6.547   26.115  -2.19  0 60 A
+ATOM      450    O   OG ?  SER      A 63 ?    2.351   -3.127   30.416  -3.62  0 63 A
+ATOM      433    C  CZ2 ?  TRP      A 60 ?    2.897    5.740   24.784   0.00  0 60 A
+ATOM      470    C   CG ?  GLN      A 66 ?    4.308   -4.494   26.144   0.00  0 66 A
+ATOM      418    O    O ?  PRO      A 59 ?   -0.560   -0.301   27.305  -2.95  0 59 A
+ATOM      431    C  CE2 ?  TRP      A 60 ?    1.660    5.640   25.411   0.00  0 60 A
+ATOM      432    C  CE3 ?  TRP      A 60 ?    1.391    3.287   24.721   0.00  0 60 A
 # 

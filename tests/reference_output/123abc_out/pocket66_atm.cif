@@ -15,7 +15,7 @@ Information about the pocket    66:
 6  - Hydrophobicity Score              : 1.0769
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.2308
-9  - Pocket volume (Monte Carlo)       : 530.3579
+9  - Pocket volume (Monte Carlo)       : 518.6321
 10  -Pocket volume (convex hull)       : 44.6196
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 4.6667
@@ -39,29 +39,29 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5199    N  NH1 ?  ARG    Cxp 135 ?   46.983  62.955   6.822  0.00  0 362 C
-ATOM     5467    C   CZ ?  PHE    Cxp 174 ?   42.999  57.240   4.939  0.00  0 401 C
-ATOM     5586    C  CE1 ?  PHE    Cxp 189 ?   42.475  59.937   7.928  0.00  0 416 C
-ATOM     5572    N  ND2 ?  ASN    Cxp 187 ?   41.797  62.120   4.812 -1.68  0 414 C
-ATOM     5466    C  CE2 ?  PHE    Cxp 174 ?   44.006  56.807   5.781  0.00  0 401 C
-ATOM     5571    O  OD1 ?  ASN    Cxp 187 ?   41.266  60.244   3.646  0.00  0 414 C
-ATOM     5369    C   CB ?  SER    Cxp 158 ?   50.030  52.336   6.523  0.00  0 385 C
-ATOM     5409    C  CE2 ?  TYR    Cxp 166 ?   48.366  51.354   9.734  0.00  0 393 C
-ATOM     5208    O  OD2 ?  ASP    Cxp 136 ?   50.099  53.619  11.504 -2.14  0 363 C
-ATOM     5451    O    O ?  LYS    Cxp 173 ?   45.939  53.831   5.611 -3.35  0 400 C
-ATOM     5193    O    O ?  ARG    Cxp 135 ?   46.759  57.566  12.019 -5.36  0 362 C
-ATOM     5370    O   OG ?  SER    Cxp 158 ?   50.613  53.457   5.918  0.00  0 385 C
-ATOM     5354    C   CA ?  GLY    Cxp 156 ?   55.185  54.289   9.070  0.00  0 383 C
-ATOM     5340    O  OD1 ?  ASP    Cxp 154 ?   54.160  56.484  12.072 -0.40  0 381 C
-ATOM     5341    O  OD2 ?  ASP    Cxp 154 ?   53.714  58.561  12.241 -0.14  0 381 C
-ATOM     5196    C   CD ?  ARG    Cxp 135 ?   47.306  61.416   9.264  0.00  0 362 C
-ATOM     5587    C  CE2 ?  PHE    Cxp 189 ?   43.380  58.843   9.912  0.00  0 416 C
-ATOM     5194    C   CB ?  ARG    Cxp 135 ?   48.071  60.093  11.338  0.00  0 362 C
-ATOM     5205    C   CB ?  ASP    Cxp 136 ?   49.456  55.632  12.561  0.00  0 363 C
-ATOM     5183    O    O ?  HIS    Cxp 134 ?   50.262  60.307  13.190  0.00  0 361 C
-ATOM     5206    C   CG ?  ASP    Cxp 136 ?   49.286  54.146  12.280  0.00  0 363 C
-ATOM     5464    C  CD2 ?  PHE    Cxp 174 ?   43.836  55.575   6.454  0.00  0 401 C
-ATOM     5588    C   CZ ?  PHE    Cxp 189 ?   42.798  58.752   8.637  0.00  0 416 C
-ATOM     5474    C   CD ?  PRO    Cxp 175 ?   44.919  52.786   9.923  0.00  0 402 C
-ATOM     4557    O  OE1 ?  GLU    Cxp 55 ?   54.968  62.335   4.361  0.00  0 282 C
+ATOM     5199    N  NH1 ?  ARG    Cxp 135 ?   46.983   62.955    6.822   0.00  0 362 C
+ATOM     5467    C   CZ ?  PHE    Cxp 174 ?   42.999   57.240    4.939   0.00  0 401 C
+ATOM     5586    C  CE1 ?  PHE    Cxp 189 ?   42.475   59.937    7.928   0.00  0 416 C
+ATOM     5572    N  ND2 ?  ASN    Cxp 187 ?   41.797   62.120    4.812  -1.68  0 414 C
+ATOM     5466    C  CE2 ?  PHE    Cxp 174 ?   44.006   56.807    5.781   0.00  0 401 C
+ATOM     5571    O  OD1 ?  ASN    Cxp 187 ?   41.266   60.244    3.646   0.00  0 414 C
+ATOM     5369    C   CB ?  SER    Cxp 158 ?   50.030   52.336    6.523   0.00  0 385 C
+ATOM     5409    C  CE2 ?  TYR    Cxp 166 ?   48.366   51.354    9.734   0.00  0 393 C
+ATOM     5208    O  OD2 ?  ASP    Cxp 136 ?   50.099   53.619   11.504  -2.14  0 363 C
+ATOM     5451    O    O ?  LYS    Cxp 173 ?   45.939   53.831    5.611  -3.35  0 400 C
+ATOM     5193    O    O ?  ARG    Cxp 135 ?   46.759   57.566   12.019  -5.36  0 362 C
+ATOM     5370    O   OG ?  SER    Cxp 158 ?   50.613   53.457    5.918   0.00  0 385 C
+ATOM     5354    C   CA ?  GLY    Cxp 156 ?   55.185   54.289    9.070   0.00  0 383 C
+ATOM     5340    O  OD1 ?  ASP    Cxp 154 ?   54.160   56.484   12.072  -0.40  0 381 C
+ATOM     5341    O  OD2 ?  ASP    Cxp 154 ?   53.714   58.561   12.241  -0.14  0 381 C
+ATOM     5196    C   CD ?  ARG    Cxp 135 ?   47.306   61.416    9.264   0.00  0 362 C
+ATOM     5587    C  CE2 ?  PHE    Cxp 189 ?   43.380   58.843    9.912   0.00  0 416 C
+ATOM     5194    C   CB ?  ARG    Cxp 135 ?   48.071   60.093   11.338   0.00  0 362 C
+ATOM     5205    C   CB ?  ASP    Cxp 136 ?   49.456   55.632   12.561   0.00  0 363 C
+ATOM     5183    O    O ?  HIS    Cxp 134 ?   50.262   60.307   13.190   0.00  0 361 C
+ATOM     5206    C   CG ?  ASP    Cxp 136 ?   49.286   54.146   12.280   0.00  0 363 C
+ATOM     5464    C  CD2 ?  PHE    Cxp 174 ?   43.836   55.575    6.454   0.00  0 401 C
+ATOM     5588    C   CZ ?  PHE    Cxp 189 ?   42.798   58.752    8.637   0.00  0 416 C
+ATOM     5474    C   CD ?  PRO    Cxp 175 ?   44.919   52.786    9.923   0.00  0 402 C
+ATOM     4557    O  OE1 ?  GLU    Cxp 55 ?   54.968   62.335    4.361   0.00  0 282 C
 # 

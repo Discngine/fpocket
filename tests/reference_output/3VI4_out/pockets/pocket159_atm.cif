@@ -15,7 +15,7 @@ Information about the pocket   159:
 6  - Hydrophobicity Score              : 6.2500
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.7500
-9  - Pocket volume (Monte Carlo)       : 202.5324
+9  - Pocket volume (Monte Carlo)       : 199.8481
 10  -Pocket volume (convex hull)       : 2.5222
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4474    C    C ?  SER      A 590 ?   14.029  29.304  13.017  0.00  0 590 A
-ATOM     4478    N    N ?  LYS      A 591 ?   14.690  30.376  12.577 -3.70  0 591 A
-ATOM     4483    C   CG ?  LYS      A 591 ?   16.506  31.362  10.131  0.00  0 591 A
-ATOM     4454    O    O ?  TYR      A 588 ?   12.895  25.394  10.639  0.00  0 588 A
-ATOM     4479    C   CA ?  LYS      A 591 ?   16.147  30.422  12.494  0.00  0 591 A
-ATOM     4465    C    C ?  GLN      A 589 ?   11.071  28.354  11.197  0.00  0 589 A
-ATOM     4464    C   CA ?  GLN      A 589 ?   10.726  27.089  10.403  0.00  0 589 A
-ATOM     4485    C   CE ?  LYS      A 591 ?   16.648  32.450   7.863  0.00  0 591 A
-ATOM     4475    O    O ?  SER      A 590 ?   14.584  28.305  13.475 -5.36  0 590 A
-ATOM     4466    O    O ?  GLN      A 589 ?   10.506  29.430  10.952  0.00  0 589 A
-ATOM     4471    N  NE2 ?  GLN      A 589 ?    7.815  27.665   7.231  0.00  0 589 A
-ATOM     4467    C   CB ?  GLN      A 589 ?    9.359  27.226   9.735  0.00  0 589 A
-ATOM     4468    C   CG ?  GLN      A 589 ?    9.080  26.186   8.670  0.00  0 589 A
-ATOM     4472    N    N ?  SER      A 590 ?   11.999  28.218  12.144 -1.09  0 590 A
+ATOM     4474    C    C ?  SER      A 590 ?   14.029   29.304   13.017   0.00  0 590 A
+ATOM     4478    N    N ?  LYS      A 591 ?   14.690   30.376   12.577  -3.70  0 591 A
+ATOM     4483    C   CG ?  LYS      A 591 ?   16.506   31.362   10.131   0.00  0 591 A
+ATOM     4454    O    O ?  TYR      A 588 ?   12.895   25.394   10.639   0.00  0 588 A
+ATOM     4479    C   CA ?  LYS      A 591 ?   16.147   30.422   12.494   0.00  0 591 A
+ATOM     4465    C    C ?  GLN      A 589 ?   11.071   28.354   11.197   0.00  0 589 A
+ATOM     4464    C   CA ?  GLN      A 589 ?   10.726   27.089   10.403   0.00  0 589 A
+ATOM     4485    C   CE ?  LYS      A 591 ?   16.648   32.450    7.863   0.00  0 591 A
+ATOM     4475    O    O ?  SER      A 590 ?   14.584   28.305   13.475  -5.36  0 590 A
+ATOM     4466    O    O ?  GLN      A 589 ?   10.506   29.430   10.952   0.00  0 589 A
+ATOM     4471    N  NE2 ?  GLN      A 589 ?    7.815   27.665    7.231   0.00  0 589 A
+ATOM     4467    C   CB ?  GLN      A 589 ?    9.359   27.226    9.735   0.00  0 589 A
+ATOM     4468    C   CG ?  GLN      A 589 ?    9.080   26.186    8.670   0.00  0 589 A
+ATOM     4472    N    N ?  SER      A 590 ?   11.999   28.218   12.144  -1.09  0 590 A
 # 

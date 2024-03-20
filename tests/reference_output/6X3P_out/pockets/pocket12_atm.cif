@@ -15,7 +15,7 @@ Information about the pocket    12:
 6  - Hydrophobicity Score              : 17.6667
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 170.8572
+9  - Pocket volume (Monte Carlo)       : 171.4156
 10  -Pocket volume (convex hull)       : 5.0600
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 9.0000
@@ -39,19 +39,19 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2016    O  OE2 ?  GLU      A 248 ?  -17.388  40.106  -4.696 -0.81  0 636 A
-ATOM     1446    C   CE ?  MET      A 182 ?  -15.450  35.276   0.220  0.00  0 570 A
-ATOM     1412    C   CB ?  PRO      A 178 ?  -15.968  34.397  -3.512  0.00  0 566 A
-ATOM     1445    S   SD ?  MET      A 182 ?  -13.796  35.684   0.078  0.00  0 570 A
-ATOM     1799    O    O ?  ALA      A 223 ?  -12.214  39.842  -4.411 -5.76  0 611 A
-ATOM     2015    O  OE1 ?  GLU      A 248 ?  -18.592  40.824  -2.999  0.00  0 636 A
-ATOM     1797    C   CA ?  ALA      A 223 ?  -11.486  37.583  -4.752  0.00  0 611 A
-ATOM     2014    C   CD ?  GLU      A 248 ?  -18.364  40.005  -3.918  0.00  0 636 A
-ATOM     2013    C   CG ?  GLU      A 248 ?  -19.298  38.818  -4.073  0.00  0 636 A
-ATOM     1419    C   CB ?  GLU      A 179 ?  -18.916  31.726   0.116  0.00  0 567 A
-ATOM     1415    N    N ?  GLU      A 179 ?  -17.144  32.086  -1.599  0.00  0 567 A
-ATOM     2011    O    O ?  GLU      A 248 ?  -21.075  36.068  -3.720 -1.48  0 636 A
-ATOM     1413    C   CG ?  PRO      A 178 ?  -17.160  34.490  -4.427  0.00  0 566 A
-ATOM     1422    O  OE1 ?  GLU      A 179 ?  -19.772  32.051  -2.559 -1.07  0 567 A
-ATOM     1791    O    O ?  ILE      A 222 ?  -13.489  37.331  -6.714 -1.07  0 610 A
+ATOM     2016    O  OE2 ?  GLU      A 248 ?  -17.388   40.106   -4.696  -0.81  0 636 A
+ATOM     1446    C   CE ?  MET      A 182 ?  -15.450   35.276    0.220   0.00  0 570 A
+ATOM     1412    C   CB ?  PRO      A 178 ?  -15.968   34.397   -3.512   0.00  0 566 A
+ATOM     1445    S   SD ?  MET      A 182 ?  -13.796   35.684    0.078   0.00  0 570 A
+ATOM     1799    O    O ?  ALA      A 223 ?  -12.214   39.842   -4.411  -5.76  0 611 A
+ATOM     2015    O  OE1 ?  GLU      A 248 ?  -18.592   40.824   -2.999   0.00  0 636 A
+ATOM     1797    C   CA ?  ALA      A 223 ?  -11.486   37.583   -4.752   0.00  0 611 A
+ATOM     2014    C   CD ?  GLU      A 248 ?  -18.364   40.005   -3.918   0.00  0 636 A
+ATOM     2013    C   CG ?  GLU      A 248 ?  -19.298   38.818   -4.073   0.00  0 636 A
+ATOM     1419    C   CB ?  GLU      A 179 ?  -18.916   31.726    0.116   0.00  0 567 A
+ATOM     1415    N    N ?  GLU      A 179 ?  -17.144   32.086   -1.599   0.00  0 567 A
+ATOM     2011    O    O ?  GLU      A 248 ?  -21.075   36.068   -3.720  -1.48  0 636 A
+ATOM     1413    C   CG ?  PRO      A 178 ?  -17.160   34.490   -4.427   0.00  0 566 A
+ATOM     1422    O  OE1 ?  GLU      A 179 ?  -19.772   32.051   -2.559  -1.07  0 567 A
+ATOM     1791    O    O ?  ILE      A 222 ?  -13.489   37.331   -6.714  -1.07  0 610 A
 # 

@@ -15,7 +15,7 @@ Information about the pocket    27:
 6  - Hydrophobicity Score              : 33.9000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.8000
-9  - Pocket volume (Monte Carlo)       : 343.2927
+9  - Pocket volume (Monte Carlo)       : 343.2164
 10  -Pocket volume (convex hull)       : 17.3658
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     9571    O    O ?  GLN      C 218 ?  -15.962 -61.681 -51.590 -5.36  0 218 C
-ATOM     9578    C   CA ?  THR      C 219 ?  -17.879 -60.433 -50.057  0.00  0 219 C
-ATOM     9962    O    O ?  ILE      C 270 ?  -12.304 -57.971 -50.384 -0.81  0 270 C
-ATOM     9965    C  CG2 ?  ILE      C 270 ?  -15.045 -57.560 -51.376  0.00  0 270 C
-ATOM     9682    C  CD2 ?  LEU      C 231 ?  -21.458 -56.491 -48.337  0.00  0 231 C
-ATOM     9932    C  CD2 ?  LEU      C 265 ?  -15.929 -53.317 -49.040  0.00  0 265 C
-ATOM     9915    O  OG1 ?  THR      C 263 ?  -19.517 -51.261 -48.258  0.00  0 263 C
-ATOM     9916    C  CG2 ?  THR      C 263 ?  -18.346 -51.287 -46.140  0.00  0 263 C
-ATOM     9983    O   OG ?  SER      C 272 ?  -14.897 -53.363 -45.112 -4.29  0 272 C
-ATOM     9584    N    N ?  ARG      C 220 ?  -17.462 -62.078 -48.279 -0.84  0 220 C
-ATOM     9590    C   CD ?  ARG      C 220 ?  -13.969 -63.285 -46.499  0.00  0 220 C
-ATOM     9589    C   CG ?  ARG      C 220 ?  -15.055 -63.740 -47.472  0.00  0 220 C
-ATOM     9581    C   CB ?  THR      C 219 ?  -18.851 -59.336 -49.576  0.00  0 219 C
-ATOM     9583    C  CG2 ?  THR      C 219 ?  -18.523 -58.007 -50.225  0.00  0 219 C
-ATOM     9902    O   OH ?  TYR      C 261 ?  -21.872 -53.410 -42.957 -5.36  0 261 C
-ATOM     9681    C  CD1 ?  LEU      C 231 ?  -22.083 -54.157 -48.930  0.00  0 231 C
-ATOM     9978    N    N ?  SER      C 272 ?  -12.778 -54.132 -47.262  0.00  0 272 C
-ATOM     9968    C   CA ?  ARG      C 271 ?  -11.908 -55.573 -48.980  0.00  0 271 C
-ATOM     9972    C   CG ?  ARG      C 271 ?   -9.959 -57.115 -48.398  0.00  0 271 C
+ATOM     9571    O    O ?  GLN      C 218 ?  -15.962  -61.681  -51.590  -5.36  0 218 C
+ATOM     9578    C   CA ?  THR      C 219 ?  -17.879  -60.433  -50.057   0.00  0 219 C
+ATOM     9962    O    O ?  ILE      C 270 ?  -12.304  -57.971  -50.384  -0.81  0 270 C
+ATOM     9965    C  CG2 ?  ILE      C 270 ?  -15.045  -57.560  -51.376   0.00  0 270 C
+ATOM     9682    C  CD2 ?  LEU      C 231 ?  -21.458  -56.491  -48.337   0.00  0 231 C
+ATOM     9932    C  CD2 ?  LEU      C 265 ?  -15.929  -53.317  -49.040   0.00  0 265 C
+ATOM     9915    O  OG1 ?  THR      C 263 ?  -19.517  -51.261  -48.258   0.00  0 263 C
+ATOM     9916    C  CG2 ?  THR      C 263 ?  -18.346  -51.287  -46.140   0.00  0 263 C
+ATOM     9983    O   OG ?  SER      C 272 ?  -14.897  -53.363  -45.112  -4.29  0 272 C
+ATOM     9584    N    N ?  ARG      C 220 ?  -17.462  -62.078  -48.279  -0.84  0 220 C
+ATOM     9590    C   CD ?  ARG      C 220 ?  -13.969  -63.285  -46.499   0.00  0 220 C
+ATOM     9589    C   CG ?  ARG      C 220 ?  -15.055  -63.740  -47.472   0.00  0 220 C
+ATOM     9581    C   CB ?  THR      C 219 ?  -18.851  -59.336  -49.576   0.00  0 219 C
+ATOM     9583    C  CG2 ?  THR      C 219 ?  -18.523  -58.007  -50.225   0.00  0 219 C
+ATOM     9902    O   OH ?  TYR      C 261 ?  -21.872  -53.410  -42.957  -5.36  0 261 C
+ATOM     9681    C  CD1 ?  LEU      C 231 ?  -22.083  -54.157  -48.930   0.00  0 231 C
+ATOM     9978    N    N ?  SER      C 272 ?  -12.778  -54.132  -47.262   0.00  0 272 C
+ATOM     9968    C   CA ?  ARG      C 271 ?  -11.908  -55.573  -48.980   0.00  0 271 C
+ATOM     9972    C   CG ?  ARG      C 271 ?   -9.959  -57.115  -48.398   0.00  0 271 C
 # 

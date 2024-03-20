@@ -15,7 +15,7 @@ Information about the pocket    21:
 6  - Hydrophobicity Score              : 0.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 235.9469
+9  - Pocket volume (Monte Carlo)       : 238.3435
 10  -Pocket volume (convex hull)       : 4.0951
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7277    N    N ?  LYS      G 129 ?  -29.777 -28.461 -17.365 -1.09  0 267 G
-ATOM     6573    C   CD ?  LYS      G 40 ?  -36.582 -31.096 -17.320  0.00  0 178 G
-ATOM     6574    C   CE ?  LYS      G 40 ?  -35.826 -31.040 -18.630  0.00  0 178 G
-ATOM     7269    C   CA ?  LYS      G 128 ?  -30.461 -30.466 -16.141  0.00  0 266 G
-ATOM     6555    C   CA ?  ASP      G 38 ?  -32.107 -28.923  -9.087  0.00  0 176 G
-ATOM     6556    C    C ?  ASP      G 38 ?  -32.249 -29.394 -10.537  0.00  0 176 G
-ATOM     6535    O    O ?  LEU      G 35 ?  -34.656 -30.398  -6.874 -1.88  0 173 G
-ATOM     6560    O  OD1 ?  ASP      G 38 ?  -32.808 -26.250  -8.577 -5.09  0 176 G
-ATOM     6539    C  CD2 ?  LEU      G 35 ?  -38.377 -31.025  -9.765  0.00  0 173 G
-ATOM     6562    N    N ?  ALA      G 39 ?  -32.855 -30.569 -10.721  0.00  0 177 G
-ATOM     6565    O    O ?  ALA      G 39 ?  -35.203 -31.864 -11.346 -1.07  0 177 G
-ATOM     7272    C   CB ?  LYS      G 128 ?  -30.165 -30.088 -14.671  0.00  0 266 G
-ATOM     7262    O    O ?  GLN      G 127 ?  -32.566 -32.270 -16.036  0.00  0 265 G
-ATOM     6572    C   CG ?  LYS      G 40 ?  -35.854 -31.920 -16.266  0.00  0 178 G
-ATOM     6567    N    N ?  LYS      G 40 ?  -34.690 -32.230 -13.514  0.00  0 178 G
-ATOM     6563    C   CA ?  ALA      G 39 ?  -32.984 -31.199 -12.032  0.00  0 177 G
-ATOM     6557    O    O ?  ASP      G 38 ?  -31.809 -28.717 -11.468  0.00  0 176 G
-ATOM     6571    C   CB ?  LYS      G 40 ?  -36.639 -32.003 -14.959  0.00  0 178 G
-ATOM     6564    C    C ?  ALA      G 39 ?  -34.391 -31.812 -12.269  0.00  0 177 G
+ATOM     7277    N    N ?  LYS      G 129 ?  -29.777  -28.461  -17.365  -1.09  0 267 G
+ATOM     6573    C   CD ?  LYS      G 40 ?  -36.582  -31.096  -17.320   0.00  0 178 G
+ATOM     6574    C   CE ?  LYS      G 40 ?  -35.826  -31.040  -18.630   0.00  0 178 G
+ATOM     7269    C   CA ?  LYS      G 128 ?  -30.461  -30.466  -16.141   0.00  0 266 G
+ATOM     6555    C   CA ?  ASP      G 38 ?  -32.107  -28.923   -9.087   0.00  0 176 G
+ATOM     6556    C    C ?  ASP      G 38 ?  -32.249  -29.394  -10.537   0.00  0 176 G
+ATOM     6535    O    O ?  LEU      G 35 ?  -34.656  -30.398   -6.874  -1.88  0 173 G
+ATOM     6560    O  OD1 ?  ASP      G 38 ?  -32.808  -26.250   -8.577  -5.09  0 176 G
+ATOM     6539    C  CD2 ?  LEU      G 35 ?  -38.377  -31.025   -9.765   0.00  0 173 G
+ATOM     6562    N    N ?  ALA      G 39 ?  -32.855  -30.569  -10.721   0.00  0 177 G
+ATOM     6565    O    O ?  ALA      G 39 ?  -35.203  -31.864  -11.346  -1.07  0 177 G
+ATOM     7272    C   CB ?  LYS      G 128 ?  -30.165  -30.088  -14.671   0.00  0 266 G
+ATOM     7262    O    O ?  GLN      G 127 ?  -32.566  -32.270  -16.036   0.00  0 265 G
+ATOM     6572    C   CG ?  LYS      G 40 ?  -35.854  -31.920  -16.266   0.00  0 178 G
+ATOM     6567    N    N ?  LYS      G 40 ?  -34.690  -32.230  -13.514   0.00  0 178 G
+ATOM     6563    C   CA ?  ALA      G 39 ?  -32.984  -31.199  -12.032   0.00  0 177 G
+ATOM     6557    O    O ?  ASP      G 38 ?  -31.809  -28.717  -11.468   0.00  0 176 G
+ATOM     6571    C   CB ?  LYS      G 40 ?  -36.639  -32.003  -14.959   0.00  0 178 G
+ATOM     6564    C    C ?  ALA      G 39 ?  -34.391  -31.812  -12.269   0.00  0 177 G
 # 

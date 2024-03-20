@@ -15,7 +15,7 @@ Information about the pocket   208:
 6  - Hydrophobicity Score              : 10.0000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 3.2857
-9  - Pocket volume (Monte Carlo)       : 233.6089
+9  - Pocket volume (Monte Carlo)       : 233.5131
 10  -Pocket volume (convex hull)       : 3.8899
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 9.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    20193    N  ND2 ?  ASN      G 143 ?   -3.543 -40.781 -81.011 -3.45  0 143 E
-ATOM    21880    C   CG ?  MET      H 140 ?  -10.838 -41.899 -85.298  0.00  0 140 F
-ATOM    21882    C   CE ?  MET      H 140 ?  -10.970 -39.806 -83.493  0.00  0 140 F
-ATOM    22230    C  CG2 ?  THR      H 187 ?   -7.586 -38.898 -85.627  0.00  0 187 F
-ATOM    20021    O  OG1 ?  THR      G 119 ?   -2.756 -43.823 -83.835 -6.43  0 119 E
-ATOM    21860    C  CG2 ?  THR      H 137 ?   -4.604 -47.729 -86.932  0.00  0 137 F
-ATOM    21868    N  ND2 ?  ASN      H 138 ?   -9.972 -47.203 -83.734 -1.26  0 138 F
-ATOM    21865    C   CB ?  ASN      H 138 ?   -9.716 -46.008 -85.829  0.00  0 138 F
-ATOM    21858    C   CB ?  THR      H 137 ?   -5.064 -46.523 -87.760  0.00  0 137 F
-ATOM    20022    C  CG2 ?  THR      G 119 ?   -3.283 -43.586 -86.208  0.00  0 119 E
-ATOM    21879    C   CB ?  MET      H 140 ?  -10.085 -41.338 -86.501  0.00  0 140 F
-ATOM    21861    N    N ?  ASN      H 138 ?   -8.430 -46.265 -87.907  0.00  0 138 F
-ATOM    21878    O    O ?  MET      H 140 ?   -8.733 -42.161 -89.089 -3.21  0 140 F
-ATOM    21895    O  OG1 ?  THR      H 142 ?   -4.828 -38.980 -88.480 -2.14  0 142 F
+ATOM    20193    N  ND2 ?  ASN      G 143 ?   -3.543  -40.781  -81.011  -3.45  0 143 E
+ATOM    21880    C   CG ?  MET      H 140 ?  -10.838  -41.899  -85.298   0.00  0 140 F
+ATOM    21882    C   CE ?  MET      H 140 ?  -10.970  -39.806  -83.493   0.00  0 140 F
+ATOM    22230    C  CG2 ?  THR      H 187 ?   -7.586  -38.898  -85.627   0.00  0 187 F
+ATOM    20021    O  OG1 ?  THR      G 119 ?   -2.756  -43.823  -83.835  -6.43  0 119 E
+ATOM    21860    C  CG2 ?  THR      H 137 ?   -4.604  -47.729  -86.932   0.00  0 137 F
+ATOM    21868    N  ND2 ?  ASN      H 138 ?   -9.972  -47.203  -83.734  -1.26  0 138 F
+ATOM    21865    C   CB ?  ASN      H 138 ?   -9.716  -46.008  -85.829   0.00  0 138 F
+ATOM    21858    C   CB ?  THR      H 137 ?   -5.064  -46.523  -87.760   0.00  0 137 F
+ATOM    20022    C  CG2 ?  THR      G 119 ?   -3.283  -43.586  -86.208   0.00  0 119 E
+ATOM    21879    C   CB ?  MET      H 140 ?  -10.085  -41.338  -86.501   0.00  0 140 F
+ATOM    21861    N    N ?  ASN      H 138 ?   -8.430  -46.265  -87.907   0.00  0 138 F
+ATOM    21878    O    O ?  MET      H 140 ?   -8.733  -42.161  -89.089  -3.21  0 140 F
+ATOM    21895    O  OG1 ?  THR      H 142 ?   -4.828  -38.980  -88.480  -2.14  0 142 F
 # 

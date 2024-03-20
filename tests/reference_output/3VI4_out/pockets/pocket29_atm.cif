@@ -15,7 +15,7 @@ Information about the pocket    29:
 6  - Hydrophobicity Score              : -31.5000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 2.5000
-9  - Pocket volume (Monte Carlo)       : 229.9086
+9  - Pocket volume (Monte Carlo)       : 229.7854
 10  -Pocket volume (convex hull)       : 3.8317
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8966    C   CB ?  ASN      C 141 ?  -23.055 -53.717 -81.661  0.00  0 141 C
-ATOM     8132    O    O ?  PRO      C 28 ?  -21.063 -47.964 -81.803  0.00  0 28 C
-ATOM     8154    O  OD2 ?  ASP      C 31 ?  -21.527 -47.180 -84.724 -2.55  0 31 C
-ATOM     8969    N  ND2 ?  ASN      C 141 ?  -24.735 -53.099 -83.326 -1.09  0 141 C
-ATOM     8134    C   CG ?  PRO      C 28 ?  -24.115 -48.531 -80.779  0.00  0 28 C
-ATOM     8153    O  OD1 ?  ASP      C 31 ?  -23.344 -45.960 -84.589 -4.29  0 31 C
-ATOM     8729    C   CB ?  SER      C 110 ?  -19.565 -52.732 -78.000  0.00  0 110 C
-ATOM     8962    N    N ?  ASN      C 141 ?  -21.930 -54.963 -79.808  0.00  0 141 C
-ATOM     8960    O  OD1 ?  ASP      C 140 ?  -16.989 -56.384 -79.261 -4.02  0 140 C
-ATOM     8131    C    C ?  PRO      C 28 ?  -20.817 -48.534 -80.731  0.00  0 28 C
-ATOM     8136    N    N ?  GLY      C 29 ?  -19.583 -48.793 -80.301 -1.09  0 29 C
-ATOM     8137    C   CA ?  GLY      C 29 ?  -18.400 -48.390 -81.051  0.00  0 29 C
-ATOM     8958    C   CB ?  ASP      C 140 ?  -19.093 -57.354 -79.791  0.00  0 140 C
-ATOM     8956    C    C ?  ASP      C 140 ?  -21.281 -56.114 -79.981  0.00  0 140 C
-ATOM     8955    C   CA ?  ASP      C 140 ?  -20.023 -56.334 -79.123  0.00  0 140 C
-ATOM     8133    C   CB ?  PRO      C 28 ?  -23.098 -49.608 -80.616  0.00  0 28 C
-ATOM     8967    C   CG ?  ASN      C 141 ?  -24.349 -52.995 -82.047  0.00  0 141 C
+ATOM     8966    C   CB ?  ASN      C 141 ?  -23.055  -53.717  -81.661   0.00  0 141 C
+ATOM     8132    O    O ?  PRO      C 28 ?  -21.063  -47.964  -81.803   0.00  0 28 C
+ATOM     8154    O  OD2 ?  ASP      C 31 ?  -21.527  -47.180  -84.724  -2.55  0 31 C
+ATOM     8969    N  ND2 ?  ASN      C 141 ?  -24.735  -53.099  -83.326  -1.09  0 141 C
+ATOM     8134    C   CG ?  PRO      C 28 ?  -24.115  -48.531  -80.779   0.00  0 28 C
+ATOM     8153    O  OD1 ?  ASP      C 31 ?  -23.344  -45.960  -84.589  -4.29  0 31 C
+ATOM     8729    C   CB ?  SER      C 110 ?  -19.565  -52.732  -78.000   0.00  0 110 C
+ATOM     8962    N    N ?  ASN      C 141 ?  -21.930  -54.963  -79.808   0.00  0 141 C
+ATOM     8960    O  OD1 ?  ASP      C 140 ?  -16.989  -56.384  -79.261  -4.02  0 140 C
+ATOM     8131    C    C ?  PRO      C 28 ?  -20.817  -48.534  -80.731   0.00  0 28 C
+ATOM     8136    N    N ?  GLY      C 29 ?  -19.583  -48.793  -80.301  -1.09  0 29 C
+ATOM     8137    C   CA ?  GLY      C 29 ?  -18.400  -48.390  -81.051   0.00  0 29 C
+ATOM     8958    C   CB ?  ASP      C 140 ?  -19.093  -57.354  -79.791   0.00  0 140 C
+ATOM     8956    C    C ?  ASP      C 140 ?  -21.281  -56.114  -79.981   0.00  0 140 C
+ATOM     8955    C   CA ?  ASP      C 140 ?  -20.023  -56.334  -79.123   0.00  0 140 C
+ATOM     8133    C   CB ?  PRO      C 28 ?  -23.098  -49.608  -80.616   0.00  0 28 C
+ATOM     8967    C   CG ?  ASN      C 141 ?  -24.349  -52.995  -82.047   0.00  0 141 C
 # 

@@ -15,7 +15,7 @@ Information about the pocket    12:
 6  - Hydrophobicity Score              : 14.1667
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.4167
-9  - Pocket volume (Monte Carlo)       : 286.1766
+9  - Pocket volume (Monte Carlo)       : 293.7227
 10  -Pocket volume (convex hull)       : 19.5893
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3242    O  OD2 ?  ASP    Bxp 154 ?   14.601  55.095  40.376 -2.28  0 381 B
-ATOM     3271    O   OG ?  SER    Bxp 158 ?   19.353  51.914  34.201 -4.02  0 385 B
-ATOM     3255    C   CA ?  GLY    Bxp 156 ?   19.014  56.342  37.269  0.00  0 383 B
-ATOM     3241    O  OD1 ?  ASP    Bxp 154 ?   16.754  55.332  40.331 -1.07  0 381 B
-ATOM     3383    C  CE2 ?  PHE    Bxp 174 ?   15.221  45.900  34.664  0.00  0 401 B
-ATOM     3094    O    O ?  ARG    Bxp 135 ?   14.784  48.309  40.445 -7.50  0 362 B
-ATOM     3097    C   CD ?  ARG    Bxp 135 ?   10.822  49.558  37.921  0.00  0 362 B
-ATOM     3504    C  CE2 ?  PHE    Bxp 189 ?   12.691  45.021  38.263  0.00  0 416 B
-ATOM     3368    O    O ?  LYS    Bxp 173 ?   18.932  47.542  34.352 -3.62  0 400 B
-ATOM     3109    O  OD2 ?  ASP    Bxp 136 ?   19.063  51.084  39.753 -0.40  0 363 B
-ATOM     3258    N    N ?  LEU    Bxp 157 ?   20.869  54.873  37.697  0.00  0 384 B
-ATOM     3095    C   CB ?  ARG    Bxp 135 ?   12.276  49.729  39.764  0.00  0 362 B
-ATOM     3084    O    O ?  HIS    Bxp 134 ?   12.372  52.048  41.332 -1.07  0 361 B
-ATOM     3381    C  CD2 ?  PHE    Bxp 174 ?   16.430  45.506  35.243  0.00  0 401 B
-ATOM     3270    C   CB ?  SER    Bxp 158 ?   20.116  50.947  34.907  0.00  0 385 B
-ATOM     3326    C  CE2 ?  TYR    Bxp 166 ?   21.152  49.314  38.053  0.00  0 393 B
-ATOM     3391    C   CD ?  PRO    Bxp 175 ?   19.172  45.854  38.445  0.00  0 402 B
-ATOM     3106    C   CB ?  ASP    Bxp 136 ?   17.005  50.806  40.933  0.00  0 363 B
-ATOM     3107    C   CG ?  ASP    Bxp 136 ?   18.465  50.434  40.626  0.00  0 363 B
+ATOM     3242    O  OD2 ?  ASP    Bxp 154 ?   14.601   55.095   40.376  -2.28  0 381 B
+ATOM     3271    O   OG ?  SER    Bxp 158 ?   19.353   51.914   34.201  -4.02  0 385 B
+ATOM     3255    C   CA ?  GLY    Bxp 156 ?   19.014   56.342   37.269   0.00  0 383 B
+ATOM     3241    O  OD1 ?  ASP    Bxp 154 ?   16.754   55.332   40.331  -1.07  0 381 B
+ATOM     3383    C  CE2 ?  PHE    Bxp 174 ?   15.221   45.900   34.664   0.00  0 401 B
+ATOM     3094    O    O ?  ARG    Bxp 135 ?   14.784   48.309   40.445  -7.50  0 362 B
+ATOM     3097    C   CD ?  ARG    Bxp 135 ?   10.822   49.558   37.921   0.00  0 362 B
+ATOM     3504    C  CE2 ?  PHE    Bxp 189 ?   12.691   45.021   38.263   0.00  0 416 B
+ATOM     3368    O    O ?  LYS    Bxp 173 ?   18.932   47.542   34.352  -3.62  0 400 B
+ATOM     3109    O  OD2 ?  ASP    Bxp 136 ?   19.063   51.084   39.753  -0.40  0 363 B
+ATOM     3258    N    N ?  LEU    Bxp 157 ?   20.869   54.873   37.697   0.00  0 384 B
+ATOM     3095    C   CB ?  ARG    Bxp 135 ?   12.276   49.729   39.764   0.00  0 362 B
+ATOM     3084    O    O ?  HIS    Bxp 134 ?   12.372   52.048   41.332  -1.07  0 361 B
+ATOM     3381    C  CD2 ?  PHE    Bxp 174 ?   16.430   45.506   35.243   0.00  0 401 B
+ATOM     3270    C   CB ?  SER    Bxp 158 ?   20.116   50.947   34.907   0.00  0 385 B
+ATOM     3326    C  CE2 ?  TYR    Bxp 166 ?   21.152   49.314   38.053   0.00  0 393 B
+ATOM     3391    C   CD ?  PRO    Bxp 175 ?   19.172   45.854   38.445   0.00  0 402 B
+ATOM     3106    C   CB ?  ASP    Bxp 136 ?   17.005   50.806   40.933   0.00  0 363 B
+ATOM     3107    C   CG ?  ASP    Bxp 136 ?   18.465   50.434   40.626   0.00  0 363 B
 # 

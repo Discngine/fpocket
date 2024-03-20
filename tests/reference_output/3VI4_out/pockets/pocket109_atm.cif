@@ -15,7 +15,7 @@ Information about the pocket   109:
 6  - Hydrophobicity Score              : 24.6667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 240.0155
+9  - Pocket volume (Monte Carlo)       : 245.9985
 10  -Pocket volume (convex hull)       : 5.0058
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 8.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    17025    C  CD2 ?  LEU      E 165 ?  -66.251 -56.454  34.125  0.00  0 165 L
-ATOM    17023    C   CG ?  LEU      E 165 ?  -65.372 -56.932  35.276  0.00  0 165 L
-ATOM    17002    O    O ?  ASN      E 162 ?  -70.749 -57.245  39.009 -0.14  0 162 L
-ATOM    17014    O    O ?  VAL      E 164 ?  -68.166 -58.504  36.036 -0.95  0 164 L
-ATOM    17010    O    O ?  GLY      E 163 ?  -66.841 -59.260  39.999 -1.07  0 163 L
-ATOM    17024    C  CD1 ?  LEU      E 165 ?  -64.254 -55.932  35.504  0.00  0 165 L
-ATOM    18797    N  NE2 ?  GLN      F 176 ?  -62.293 -56.470  39.498 -0.84  0 176 H
-ATOM    18792    O    O ?  GLN      F 176 ?  -64.396 -51.488  37.035  0.00  0 176 H
-ATOM    17008    C   CA ?  GLY      E 163 ?  -68.735 -58.000  40.718  0.00  0 163 L
-ATOM    17009    C    C ?  GLY      E 163 ?  -68.001 -58.906  39.760  0.00  0 163 L
-ATOM    18794    C   CG ?  GLN      F 176 ?  -62.371 -54.451  38.162  0.00  0 176 H
-ATOM    17179    C   CB ?  THR      E 185 ?  -63.771 -58.536  42.126  0.00  0 185 L
-ATOM    17178    O    O ?  THR      E 185 ?  -66.416 -58.298  43.574  0.00  0 185 L
-ATOM    17181    C  CG2 ?  THR      E 185 ?  -62.726 -57.936  43.060  0.00  0 185 L
+ATOM    17025    C  CD2 ?  LEU      E 165 ?  -66.251  -56.454   34.125   0.00  0 165 L
+ATOM    17023    C   CG ?  LEU      E 165 ?  -65.372  -56.932   35.276   0.00  0 165 L
+ATOM    17002    O    O ?  ASN      E 162 ?  -70.749  -57.245   39.009  -0.14  0 162 L
+ATOM    17014    O    O ?  VAL      E 164 ?  -68.166  -58.504   36.036  -0.95  0 164 L
+ATOM    17010    O    O ?  GLY      E 163 ?  -66.841  -59.260   39.999  -1.07  0 163 L
+ATOM    17024    C  CD1 ?  LEU      E 165 ?  -64.254  -55.932   35.504   0.00  0 165 L
+ATOM    18797    N  NE2 ?  GLN      F 176 ?  -62.293  -56.470   39.498  -0.84  0 176 H
+ATOM    18792    O    O ?  GLN      F 176 ?  -64.396  -51.488   37.035   0.00  0 176 H
+ATOM    17008    C   CA ?  GLY      E 163 ?  -68.735  -58.000   40.718   0.00  0 163 L
+ATOM    17009    C    C ?  GLY      E 163 ?  -68.001  -58.906   39.760   0.00  0 163 L
+ATOM    18794    C   CG ?  GLN      F 176 ?  -62.371  -54.451   38.162   0.00  0 176 H
+ATOM    17179    C   CB ?  THR      E 185 ?  -63.771  -58.536   42.126   0.00  0 185 L
+ATOM    17178    O    O ?  THR      E 185 ?  -66.416  -58.298   43.574   0.00  0 185 L
+ATOM    17181    C  CG2 ?  THR      E 185 ?  -62.726  -57.936   43.060   0.00  0 185 L
 # 

@@ -15,7 +15,7 @@ Information about the pocket    77:
 6  - Hydrophobicity Score              : 34.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 191.3480
+9  - Pocket volume (Monte Carlo)       : 188.8923
 10  -Pocket volume (convex hull)       : 2.8114
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,19 +39,19 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4925    N   NE ?  ARG      E 93 ?  -57.420 -49.635  -0.641 -0.42  0 231 E
-ATOM     4900    N    N ?  ARG      E 91 ?  -62.302 -53.511   0.611 -2.19  0 229 E
-ATOM     4893    C   CB ?  PHE      E 90 ?  -61.642 -56.263  -0.599  0.00  0 228 E
-ATOM     4905    C   CG ?  ARG      E 91 ?  -60.885 -50.966   1.466  0.00  0 229 E
-ATOM     4926    C   CZ ?  ARG      E 93 ?  -56.132 -49.825  -0.379  0.00  0 231 E
-ATOM     4928    N  NH2 ?  ARG      E 93 ?  -55.712 -49.925   0.875 -1.01  0 231 E
-ATOM     5062    C   CB ?  ALA      E 112 ?  -55.826 -52.277  -4.273  0.00  0 250 E
-ATOM     5059    C   CA ?  ALA      E 112 ?  -56.396 -53.654  -4.550  0.00  0 250 E
-ATOM     5063    N    N ?  VAL      E 113 ?  -58.764 -53.341  -4.936 -1.09  0 251 E
-ATOM     4924    C   CD ?  ARG      E 93 ?  -57.978 -49.505  -1.986  0.00  0 231 E
-ATOM     5057    O    O ?  GLY      E 111 ?  -55.828 -56.181  -3.593 -4.43  0 249 E
-ATOM     4927    N  NH1 ?  ARG      E 93 ?  -55.249 -49.903  -1.369 -5.47  0 231 E
-ATOM     4558    C  CD2 ?  LEU      E 50 ?  -59.095 -59.655  -0.754  0.00  0 188 E
-ATOM     4594    N  NE2 ?  GLN      E 54 ?  -55.584 -58.698  -1.999 -1.26  0 192 E
-ATOM     4903    O    O ?  ARG      E 91 ?  -61.567 -51.840  -1.499 -1.07  0 229 E
+ATOM     4925    N   NE ?  ARG      E 93 ?  -57.420  -49.635   -0.641  -0.42  0 231 E
+ATOM     4900    N    N ?  ARG      E 91 ?  -62.302  -53.511    0.611  -2.19  0 229 E
+ATOM     4893    C   CB ?  PHE      E 90 ?  -61.642  -56.263   -0.599   0.00  0 228 E
+ATOM     4905    C   CG ?  ARG      E 91 ?  -60.885  -50.966    1.466   0.00  0 229 E
+ATOM     4926    C   CZ ?  ARG      E 93 ?  -56.132  -49.825   -0.379   0.00  0 231 E
+ATOM     4928    N  NH2 ?  ARG      E 93 ?  -55.712  -49.925    0.875  -1.01  0 231 E
+ATOM     5062    C   CB ?  ALA      E 112 ?  -55.826  -52.277   -4.273   0.00  0 250 E
+ATOM     5059    C   CA ?  ALA      E 112 ?  -56.396  -53.654   -4.550   0.00  0 250 E
+ATOM     5063    N    N ?  VAL      E 113 ?  -58.764  -53.341   -4.936  -1.09  0 251 E
+ATOM     4924    C   CD ?  ARG      E 93 ?  -57.978  -49.505   -1.986   0.00  0 231 E
+ATOM     5057    O    O ?  GLY      E 111 ?  -55.828  -56.181   -3.593  -4.43  0 249 E
+ATOM     4927    N  NH1 ?  ARG      E 93 ?  -55.249  -49.903   -1.369  -5.47  0 231 E
+ATOM     4558    C  CD2 ?  LEU      E 50 ?  -59.095  -59.655   -0.754   0.00  0 188 E
+ATOM     4594    N  NE2 ?  GLN      E 54 ?  -55.584  -58.698   -1.999  -1.26  0 192 E
+ATOM     4903    O    O ?  ARG      E 91 ?  -61.567  -51.840   -1.499  -1.07  0 229 E
 # 

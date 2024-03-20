@@ -15,7 +15,7 @@ Information about the pocket    21:
 6  - Hydrophobicity Score              : 29.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.8750
-9  - Pocket volume (Monte Carlo)       : 95.0201
+9  - Pocket volume (Monte Carlo)       : 97.7357
 10  -Pocket volume (convex hull)       : 1.6267
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    12661    C   CB ?  LEU      D 50 ?  -38.347   9.468 -34.387  0.00  0 50 D
-ATOM    12664    C  CD2 ?  LEU      D 50 ?  -40.616  10.390 -35.022  0.00  0 50 D
-ATOM    12636    C   CA ?  LEU      D 47 ?  -38.329   5.515 -31.126  0.00  0 47 D
-ATOM    12638    O    O ?  LEU      D 47 ?  -38.235   7.806 -30.408  0.00  0 47 D
-ATOM    12670    C   CG ?  LYS      D 51 ?  -40.321  10.395 -29.343  0.00  0 51 D
-ATOM    12738    C  CG2 ?  ILE      D 60 ?  -43.849  10.714 -32.814  0.00  0 60 D
-ATOM    12739    C  CD1 ?  ILE      D 60 ?  -44.591   8.368 -30.768  0.00  0 60 D
-ATOM    12640    C   CG ?  LEU      D 47 ?  -40.333   4.791 -29.550  0.00  0 47 D
-ATOM    12736    C   CB ?  ILE      D 60 ?  -44.889   9.613 -32.988  0.00  0 60 D
-ATOM    12753    C   CB ?  ASN      D 62 ?  -45.518   3.671 -32.914  0.00  0 62 D
-ATOM    12641    C  CD1 ?  LEU      D 47 ?  -41.232   3.565 -29.540  0.00  0 47 D
-ATOM    12531    O    O ?  CYS      D 25 ?  -41.803   2.933 -34.521 -1.07  0 25 D
-ATOM    12535    C   CA ?  GLY      D 26 ?  -42.128   5.360 -35.984  0.00  0 26 D
-ATOM    12630    O    O ?  ASP      D 46 ?  -37.163   6.611 -33.432  0.00  0 46 D
+ATOM    12661    C   CB ?  LEU      D 50 ?  -38.347    9.468  -34.387   0.00  0 50 D
+ATOM    12664    C  CD2 ?  LEU      D 50 ?  -40.616   10.390  -35.022   0.00  0 50 D
+ATOM    12636    C   CA ?  LEU      D 47 ?  -38.329    5.515  -31.126   0.00  0 47 D
+ATOM    12638    O    O ?  LEU      D 47 ?  -38.235    7.806  -30.408   0.00  0 47 D
+ATOM    12670    C   CG ?  LYS      D 51 ?  -40.321   10.395  -29.343   0.00  0 51 D
+ATOM    12738    C  CG2 ?  ILE      D 60 ?  -43.849   10.714  -32.814   0.00  0 60 D
+ATOM    12739    C  CD1 ?  ILE      D 60 ?  -44.591    8.368  -30.768   0.00  0 60 D
+ATOM    12640    C   CG ?  LEU      D 47 ?  -40.333    4.791  -29.550   0.00  0 47 D
+ATOM    12736    C   CB ?  ILE      D 60 ?  -44.889    9.613  -32.988   0.00  0 60 D
+ATOM    12753    C   CB ?  ASN      D 62 ?  -45.518    3.671  -32.914   0.00  0 62 D
+ATOM    12641    C  CD1 ?  LEU      D 47 ?  -41.232    3.565  -29.540   0.00  0 47 D
+ATOM    12531    O    O ?  CYS      D 25 ?  -41.803    2.933  -34.521  -1.07  0 25 D
+ATOM    12535    C   CA ?  GLY      D 26 ?  -42.128    5.360  -35.984   0.00  0 26 D
+ATOM    12630    O    O ?  ASP      D 46 ?  -37.163    6.611  -33.432   0.00  0 46 D
 # 

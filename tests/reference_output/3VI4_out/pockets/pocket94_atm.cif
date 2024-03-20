@@ -15,7 +15,7 @@ Information about the pocket    94:
 6  - Hydrophobicity Score              : 7.8889
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 260.7655
+9  - Pocket volume (Monte Carlo)       : 269.7488
 10  -Pocket volume (convex hull)       : 16.1802
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    11737    O    O ?  TRP      C 509 ?  -37.146   4.194 -59.647 -2.55  0 509 C
-ATOM    12127    N  ND1 ?  HIS      C 564 ?  -32.368   5.295 -58.694 -1.09  0 564 C
-ATOM    12129    C  CE1 ?  HIS      C 564 ?  -33.343   5.472 -57.783  0.00  0 564 C
-ATOM    11744    C  CE3 ?  TRP      C 509 ?  -38.012   0.473 -59.887  0.00  0 509 C
-ATOM    12143    C   CB ?  ALA      C 566 ?  -29.952   0.564 -64.275  0.00  0 566 C
-ATOM    12125    C   CB ?  HIS      C 564 ?  -31.982   5.532 -61.164  0.00  0 564 C
-ATOM    12374    O  OE2 ?  GLU      C 595 ?  -28.008  -0.372 -59.806  0.00  0 595 C
-ATOM    12134    O    O ?  ILE      C 565 ?  -27.922   2.910 -62.866 -1.07  0 565 C
-ATOM    12378    O    O ?  ASP      C 596 ?  -25.905   4.734 -61.676 -2.14  0 596 C
-ATOM    12386    C   CG ?  LYS      C 597 ?  -27.427   6.607 -59.444  0.00  0 597 C
-ATOM    12131    N    N ?  ILE      C 565 ?  -29.207   5.419 -62.654 -1.09  0 565 C
-ATOM    11713    C   CB ?  GLN      C 506 ?  -33.251   1.908 -66.788  0.00  0 506 C
-ATOM    11717    N  NE2 ?  GLN      C 506 ?  -34.725  -0.060 -65.206 -2.77  0 506 C
-ATOM    11738    C   CB ?  TRP      C 509 ?  -36.786   2.746 -62.083  0.00  0 509 C
-ATOM    12126    C   CG ?  HIS      C 564 ?  -32.828   5.633 -59.914  0.00  0 564 C
-ATOM    11712    O    O ?  GLN      C 506 ?  -30.845   3.945 -66.593  0.00  0 506 C
-ATOM    11726    N    N ?  ASP      C 508 ?  -34.221   6.280 -65.174  0.00  0 508 C
-ATOM    11734    N    N ?  TRP      C 509 ?  -36.246   5.111 -62.511  0.00  0 509 C
-ATOM    11728    C    C ?  ASP      C 508 ?  -36.152   5.491 -63.785  0.00  0 508 C
+ATOM    11737    O    O ?  TRP      C 509 ?  -37.146    4.194  -59.647  -2.55  0 509 C
+ATOM    12127    N  ND1 ?  HIS      C 564 ?  -32.368    5.295  -58.694  -1.09  0 564 C
+ATOM    12129    C  CE1 ?  HIS      C 564 ?  -33.343    5.472  -57.783   0.00  0 564 C
+ATOM    11744    C  CE3 ?  TRP      C 509 ?  -38.012    0.473  -59.887   0.00  0 509 C
+ATOM    12143    C   CB ?  ALA      C 566 ?  -29.952    0.564  -64.275   0.00  0 566 C
+ATOM    12125    C   CB ?  HIS      C 564 ?  -31.982    5.532  -61.164   0.00  0 564 C
+ATOM    12374    O  OE2 ?  GLU      C 595 ?  -28.008   -0.372  -59.806   0.00  0 595 C
+ATOM    12134    O    O ?  ILE      C 565 ?  -27.922    2.910  -62.866  -1.07  0 565 C
+ATOM    12378    O    O ?  ASP      C 596 ?  -25.905    4.734  -61.676  -2.14  0 596 C
+ATOM    12386    C   CG ?  LYS      C 597 ?  -27.427    6.607  -59.444   0.00  0 597 C
+ATOM    12131    N    N ?  ILE      C 565 ?  -29.207    5.419  -62.654  -1.09  0 565 C
+ATOM    11713    C   CB ?  GLN      C 506 ?  -33.251    1.908  -66.788   0.00  0 506 C
+ATOM    11717    N  NE2 ?  GLN      C 506 ?  -34.725   -0.060  -65.206  -2.77  0 506 C
+ATOM    11738    C   CB ?  TRP      C 509 ?  -36.786    2.746  -62.083   0.00  0 509 C
+ATOM    12126    C   CG ?  HIS      C 564 ?  -32.828    5.633  -59.914   0.00  0 564 C
+ATOM    11712    O    O ?  GLN      C 506 ?  -30.845    3.945  -66.593   0.00  0 506 C
+ATOM    11726    N    N ?  ASP      C 508 ?  -34.221    6.280  -65.174   0.00  0 508 C
+ATOM    11734    N    N ?  TRP      C 509 ?  -36.246    5.111  -62.511   0.00  0 509 C
+ATOM    11728    C    C ?  ASP      C 508 ?  -36.152    5.491  -63.785   0.00  0 508 C
 # 

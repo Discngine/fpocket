@@ -15,7 +15,7 @@ Information about the pocket    89:
 6  - Hydrophobicity Score              : -20.4286
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 172.2550
+9  - Pocket volume (Monte Carlo)       : 180.1638
 10  -Pocket volume (convex hull)       : 1.8284
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,16 +39,16 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    16876    C   CB ?  LYS      E 147 ?  -68.429 -68.805  19.397  0.00  0 147 L
-ATOM    16864    O   OH ?  TYR      E 145 ?  -67.510 -73.375  14.472 -4.29  0 145 L
-ATOM    16605    O  OE2 ?  GLU      E 110 ?  -67.348 -67.725  14.390 -2.14  0 110 L
-ATOM    16872    N    N ?  LYS      E 147 ?  -68.136 -71.150  19.785 -1.09  0 147 L
-ATOM    16869    C   CB ?  PRO      E 146 ?  -69.768 -73.462  18.914  0.00  0 146 L
-ATOM    15844    C   CG ?  PRO      E 12 ?  -70.216 -71.149  11.889  0.00  0 12 L
-ATOM    16888    O  OD2 ?  ASP      E 148 ?  -72.989 -69.189  19.748  0.00  0 148 L
-ATOM    15830    O   OG ?  SER      E 10 ?  -70.295 -65.391  13.873 -0.40  0 10 L
-ATOM    16878    C   CD ?  LYS      E 147 ?  -68.262 -66.585  18.306  0.00  0 147 L
-ATOM    16861    C  CE1 ?  TYR      E 145 ?  -65.813 -73.150  16.158  0.00  0 145 L
-ATOM    15845    C   CD ?  PRO      E 12 ?  -70.458 -69.791  11.297  0.00  0 12 L
-ATOM    15843    C   CB ?  PRO      E 12 ?  -68.741 -71.367  11.967  0.00  0 12 L
+ATOM    16876    C   CB ?  LYS      E 147 ?  -68.429  -68.805   19.397   0.00  0 147 L
+ATOM    16864    O   OH ?  TYR      E 145 ?  -67.510  -73.375   14.472  -4.29  0 145 L
+ATOM    16605    O  OE2 ?  GLU      E 110 ?  -67.348  -67.725   14.390  -2.14  0 110 L
+ATOM    16872    N    N ?  LYS      E 147 ?  -68.136  -71.150   19.785  -1.09  0 147 L
+ATOM    16869    C   CB ?  PRO      E 146 ?  -69.768  -73.462   18.914   0.00  0 146 L
+ATOM    15844    C   CG ?  PRO      E 12 ?  -70.216  -71.149   11.889   0.00  0 12 L
+ATOM    16888    O  OD2 ?  ASP      E 148 ?  -72.989  -69.189   19.748   0.00  0 148 L
+ATOM    15830    O   OG ?  SER      E 10 ?  -70.295  -65.391   13.873  -0.40  0 10 L
+ATOM    16878    C   CD ?  LYS      E 147 ?  -68.262  -66.585   18.306   0.00  0 147 L
+ATOM    16861    C  CE1 ?  TYR      E 145 ?  -65.813  -73.150   16.158   0.00  0 145 L
+ATOM    15845    C   CD ?  PRO      E 12 ?  -70.458  -69.791   11.297   0.00  0 12 L
+ATOM    15843    C   CB ?  PRO      E 12 ?  -68.741  -71.367   11.967   0.00  0 12 L
 # 

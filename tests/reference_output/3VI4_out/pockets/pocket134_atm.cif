@@ -15,7 +15,7 @@ Information about the pocket   134:
 6  - Hydrophobicity Score              : 32.4545
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.0909
-9  - Pocket volume (Monte Carlo)       : 373.2895
+9  - Pocket volume (Monte Carlo)       : 370.5641
 10  -Pocket volume (convex hull)       : 35.7624
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 14.0000
@@ -39,28 +39,28 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2616    N  NE2 ?  HIS      A 345 ?   11.410  12.436  -3.358 -0.84  0 345 A
-ATOM     2975    O    O ?  SER      A 396 ?    6.416  17.503  -1.895  0.00  0 396 A
-ATOM     2985    C   CE ?  LYS      A 397 ?   10.905  20.263  -2.164  0.00  0 397 A
-ATOM     2615    C  CE1 ?  HIS      A 345 ?   11.653  12.499  -4.678  0.00  0 345 A
-ATOM     2983    C   CG ?  LYS      A 397 ?    9.379  19.057  -0.579  0.00  0 397 A
-ATOM     2614    C  CD2 ?  HIS      A 345 ?   11.738  11.201  -2.915  0.00  0 345 A
-ATOM     2909    C  CE1 ?  PHE      A 385 ?    9.828   9.965   2.297  0.00  0 385 A
-ATOM     2992    C   CG ?  PRO      A 398 ?    8.889  14.520   2.259  0.00  0 398 A
-ATOM     2599    O    O ?  THR      A 343 ?    7.783  10.803  -5.014 -2.14  0 343 A
-ATOM     2993    C   CD ?  PRO      A 398 ?    8.949  15.931   1.763  0.00  0 398 A
-ATOM     2595    C  CD2 ?  LEU      A 342 ?    3.510  14.851  -2.404  0.00  0 342 A
-ATOM     2976    C   CB ?  SER      A 396 ?    4.325  19.164  -3.054  0.00  0 396 A
-ATOM     2584    O    O ?  THR      A 341 ?    2.266  15.090  -6.446  0.00  0 341 A
-ATOM     2604    C   CA ?  GLY      A 344 ?    8.015   8.128  -4.278  0.00  0 344 A
-ATOM     2911    C   CZ ?  PHE      A 385 ?    9.713   8.851   1.476  0.00  0 385 A
-ATOM     2910    C  CE2 ?  PHE      A 385 ?    8.487   8.215   1.341  0.00  0 385 A
-ATOM     2596    N    N ?  THR      A 343 ?    4.984  11.521  -5.525  0.00  0 343 A
-ATOM     2589    C   CA ?  LEU      A 342 ?    3.009  12.847  -4.968  0.00  0 342 A
-ATOM     2600    C   CB ?  THR      A 343 ?    6.174  10.896  -7.621  0.00  0 343 A
-ATOM     2601    O  OG1 ?  THR      A 343 ?    5.054  11.354  -8.389 -0.14  0 343 A
-ATOM     2668    C  CE1 ?  PHE      A 351 ?    5.169   8.915  -0.638  0.00  0 351 A
-ATOM     2928    C  CE2 ?  PHE      A 387 ?    5.325  14.519   0.666  0.00  0 387 A
-ATOM     2929    C   CZ ?  PHE      A 387 ?    5.388  13.134   0.714  0.00  0 387 A
-ATOM     2670    C   CZ ?  PHE      A 351 ?    4.245   9.712  -1.290  0.00  0 351 A
+ATOM     2616    N  NE2 ?  HIS      A 345 ?   11.410   12.436   -3.358  -0.84  0 345 A
+ATOM     2975    O    O ?  SER      A 396 ?    6.416   17.503   -1.895   0.00  0 396 A
+ATOM     2985    C   CE ?  LYS      A 397 ?   10.905   20.263   -2.164   0.00  0 397 A
+ATOM     2615    C  CE1 ?  HIS      A 345 ?   11.653   12.499   -4.678   0.00  0 345 A
+ATOM     2983    C   CG ?  LYS      A 397 ?    9.379   19.057   -0.579   0.00  0 397 A
+ATOM     2614    C  CD2 ?  HIS      A 345 ?   11.738   11.201   -2.915   0.00  0 345 A
+ATOM     2909    C  CE1 ?  PHE      A 385 ?    9.828    9.965    2.297   0.00  0 385 A
+ATOM     2992    C   CG ?  PRO      A 398 ?    8.889   14.520    2.259   0.00  0 398 A
+ATOM     2599    O    O ?  THR      A 343 ?    7.783   10.803   -5.014  -2.14  0 343 A
+ATOM     2993    C   CD ?  PRO      A 398 ?    8.949   15.931    1.763   0.00  0 398 A
+ATOM     2595    C  CD2 ?  LEU      A 342 ?    3.510   14.851   -2.404   0.00  0 342 A
+ATOM     2976    C   CB ?  SER      A 396 ?    4.325   19.164   -3.054   0.00  0 396 A
+ATOM     2584    O    O ?  THR      A 341 ?    2.266   15.090   -6.446   0.00  0 341 A
+ATOM     2604    C   CA ?  GLY      A 344 ?    8.015    8.128   -4.278   0.00  0 344 A
+ATOM     2911    C   CZ ?  PHE      A 385 ?    9.713    8.851    1.476   0.00  0 385 A
+ATOM     2910    C  CE2 ?  PHE      A 385 ?    8.487    8.215    1.341   0.00  0 385 A
+ATOM     2596    N    N ?  THR      A 343 ?    4.984   11.521   -5.525   0.00  0 343 A
+ATOM     2589    C   CA ?  LEU      A 342 ?    3.009   12.847   -4.968   0.00  0 342 A
+ATOM     2600    C   CB ?  THR      A 343 ?    6.174   10.896   -7.621   0.00  0 343 A
+ATOM     2601    O  OG1 ?  THR      A 343 ?    5.054   11.354   -8.389  -0.14  0 343 A
+ATOM     2668    C  CE1 ?  PHE      A 351 ?    5.169    8.915   -0.638   0.00  0 351 A
+ATOM     2928    C  CE2 ?  PHE      A 387 ?    5.325   14.519    0.666   0.00  0 387 A
+ATOM     2929    C   CZ ?  PHE      A 387 ?    5.388   13.134    0.714   0.00  0 387 A
+ATOM     2670    C   CZ ?  PHE      A 351 ?    4.245    9.712   -1.290   0.00  0 351 A
 # 

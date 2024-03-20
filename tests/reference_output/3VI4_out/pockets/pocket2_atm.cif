@@ -15,7 +15,7 @@ Information about the pocket     2:
 6  - Hydrophobicity Score              : 24.1667
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 182.0959
+9  - Pocket volume (Monte Carlo)       : 177.6468
 10  -Pocket volume (convex hull)       : 13.1068
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2680    O   OG ?  SER      A 353 ?    2.397  -0.162  -0.496 -1.07  0 353 A
-ATOM     2839    C  CE2 ?  PHE      A 375 ?    6.663  -3.652  -0.139  0.00  0 375 A
-ATOM     2658    N  NH1 ?  ARG      A 350 ?    3.656  -5.113  -3.893 -5.47  0 350 A
-ATOM     2655    C   CD ?  ARG      A 350 ?    4.410  -2.387  -3.782  0.00  0 350 A
-ATOM     3118    C  CE1 ?  PHE      A 414 ?    5.652  -7.023   2.628  0.00  0 414 A
-ATOM     6584    C  CG2 ?  VAL      B 274 ?    1.364  -7.829   1.607  0.00  0 274 B
-ATOM     6581    O    O ?  VAL      B 274 ?    3.958  -8.366  -0.146 -2.14  0 274 B
-ATOM     2840    C   CZ ?  PHE      A 375 ?    7.022  -4.868   0.441  0.00  0 375 A
-ATOM     2188    O   OH ?  TYR      A 287 ?   -0.700  -3.879  -0.455 -0.40  0 287 A
-ATOM     2828    C   CG ?  PRO      A 374 ?    4.843  -0.755   2.406  0.00  0 374 A
-ATOM     3116    C  CD1 ?  PHE      A 414 ?    5.581  -6.022   3.592  0.00  0 414 A
-ATOM     6760    O  OD2 ?  ASP      B 295 ?    1.621  -8.916  -4.783  0.00  0 295 B
-ATOM     6579    C   CA ?  VAL      B 274 ?    2.090  -9.836   0.248  0.00  0 274 B
-ATOM     6573    O    O ?  ILE      B 273 ?    0.168 -11.035  -1.355  0.00  0 273 B
-ATOM     6530    C   CA ?  GLY      B 266 ?   -1.318  -6.639  -5.241  0.00  0 266 B
-ATOM     6549    C   CB ?  LYS      B 269 ?   -3.218  -8.517  -0.920  0.00  0 269 B
-ATOM     3140    C   CB ?  SER      A 417 ?    2.963  -2.549   5.251  0.00  0 417 A
-ATOM     2679    C   CB ?  SER      A 353 ?    1.871   0.668   0.507  0.00  0 353 A
-ATOM     3139    O    O ?  SER      A 417 ?    0.285  -1.008   5.398 -4.43  0 417 A
-ATOM     2678    O    O ?  SER      A 353 ?   -1.167   0.885   1.296 -1.07  0 353 A
+ATOM     2680    O   OG ?  SER      A 353 ?    2.397   -0.162   -0.496  -1.07  0 353 A
+ATOM     2839    C  CE2 ?  PHE      A 375 ?    6.663   -3.652   -0.139   0.00  0 375 A
+ATOM     2658    N  NH1 ?  ARG      A 350 ?    3.656   -5.113   -3.893  -5.47  0 350 A
+ATOM     2655    C   CD ?  ARG      A 350 ?    4.410   -2.387   -3.782   0.00  0 350 A
+ATOM     3118    C  CE1 ?  PHE      A 414 ?    5.652   -7.023    2.628   0.00  0 414 A
+ATOM     6584    C  CG2 ?  VAL      B 274 ?    1.364   -7.829    1.607   0.00  0 274 B
+ATOM     6581    O    O ?  VAL      B 274 ?    3.958   -8.366   -0.146  -2.14  0 274 B
+ATOM     2840    C   CZ ?  PHE      A 375 ?    7.022   -4.868    0.441   0.00  0 375 A
+ATOM     2188    O   OH ?  TYR      A 287 ?   -0.700   -3.879   -0.455  -0.40  0 287 A
+ATOM     2828    C   CG ?  PRO      A 374 ?    4.843   -0.755    2.406   0.00  0 374 A
+ATOM     3116    C  CD1 ?  PHE      A 414 ?    5.581   -6.022    3.592   0.00  0 414 A
+ATOM     6760    O  OD2 ?  ASP      B 295 ?    1.621   -8.916   -4.783   0.00  0 295 B
+ATOM     6579    C   CA ?  VAL      B 274 ?    2.090   -9.836    0.248   0.00  0 274 B
+ATOM     6573    O    O ?  ILE      B 273 ?    0.168  -11.035   -1.355   0.00  0 273 B
+ATOM     6530    C   CA ?  GLY      B 266 ?   -1.318   -6.639   -5.241   0.00  0 266 B
+ATOM     6549    C   CB ?  LYS      B 269 ?   -3.218   -8.517   -0.920   0.00  0 269 B
+ATOM     3140    C   CB ?  SER      A 417 ?    2.963   -2.549    5.251   0.00  0 417 A
+ATOM     2679    C   CB ?  SER      A 353 ?    1.871    0.668    0.507   0.00  0 353 A
+ATOM     3139    O    O ?  SER      A 417 ?    0.285   -1.008    5.398  -4.43  0 417 A
+ATOM     2678    O    O ?  SER      A 353 ?   -1.167    0.885    1.296  -1.07  0 353 A
 # 

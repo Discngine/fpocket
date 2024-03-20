@@ -15,7 +15,7 @@ Information about the pocket   153:
 6  - Hydrophobicity Score              : 12.5000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.1250
-9  - Pocket volume (Monte Carlo)       : 340.9352
+9  - Pocket volume (Monte Carlo)       : 339.2028
 10  -Pocket volume (convex hull)       : 26.4253
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM       48    O  OE1 ?  GLU      A 6 ?   17.289  12.309  19.645  0.00  0 6 A
-ATOM       47    C   CD ?  GLU      A 6 ?   16.168  12.830  19.408  0.00  0 6 A
-ATOM     4419    N  NH1 ?  ARG      A 583 ?   16.872  15.563  27.153  0.00  0 583 A
-ATOM       49    O  OE2 ?  GLU      A 6 ?   15.925  14.041  19.617  0.00  0 6 A
-ATOM       34    O  OD1 ?  ASP      A 4 ?   10.547  10.937  22.340 -5.09  0 4 A
-ATOM     4417    N   NE ?  ARG      A 583 ?   14.789  16.027  28.047  0.00  0 583 A
-ATOM     4416    C   CD ?  ARG      A 583 ?   14.349  16.875  26.940  0.00  0 583 A
-ATOM     4418    C   CZ ?  ARG      A 583 ?   15.973  15.419  28.123  0.00  0 583 A
-ATOM       45    C   CB ?  GLU      A 6 ?   14.825  10.670  19.595  0.00  0 6 A
-ATOM     3379    N  NH1 ?  ARG      A 449 ?   12.097  15.156  20.359 -3.28  0 449 A
-ATOM     3380    N  NH2 ?  ARG      A 449 ?   12.112  17.403  20.845 -3.45  0 449 A
-ATOM     4414    C   CB ?  ARG      A 583 ?   12.155  17.198  25.743  0.00  0 583 A
-ATOM     4410    N    N ?  ARG      A 583 ?   10.071  15.890  26.023 -1.09  0 583 A
-ATOM     4415    C   CG ?  ARG      A 583 ?   12.873  17.197  27.080  0.00  0 583 A
-ATOM       35    O  OD2 ?  ASP      A 4 ?   11.472  10.209  20.491  0.00  0 4 A
-ATOM       54    C   CB ?  ALA      A 7 ?   13.615   7.108  22.557  0.00  0 7 A
-ATOM     4373    C  CG2 ?  VAL      A 577 ?   11.025  15.115  30.777  0.00  0 577 A
-ATOM     4401    O    O ?  GLY      A 581 ?    8.982  11.687  27.522 -0.14  0 581 A
-ATOM     4420    N  NH2 ?  ARG      A 583 ?   16.259  14.661  29.176  0.00  0 583 A
-ATOM     4403    C   CA ?  LEU      A 582 ?    8.355  14.216  26.456  0.00  0 582 A
+ATOM       48    O  OE1 ?  GLU      A 6 ?   17.289   12.309   19.645   0.00  0 6 A
+ATOM       47    C   CD ?  GLU      A 6 ?   16.168   12.830   19.408   0.00  0 6 A
+ATOM     4419    N  NH1 ?  ARG      A 583 ?   16.872   15.563   27.153   0.00  0 583 A
+ATOM       49    O  OE2 ?  GLU      A 6 ?   15.925   14.041   19.617   0.00  0 6 A
+ATOM       34    O  OD1 ?  ASP      A 4 ?   10.547   10.937   22.340  -5.09  0 4 A
+ATOM     4417    N   NE ?  ARG      A 583 ?   14.789   16.027   28.047   0.00  0 583 A
+ATOM     4416    C   CD ?  ARG      A 583 ?   14.349   16.875   26.940   0.00  0 583 A
+ATOM     4418    C   CZ ?  ARG      A 583 ?   15.973   15.419   28.123   0.00  0 583 A
+ATOM       45    C   CB ?  GLU      A 6 ?   14.825   10.670   19.595   0.00  0 6 A
+ATOM     3379    N  NH1 ?  ARG      A 449 ?   12.097   15.156   20.359  -3.28  0 449 A
+ATOM     3380    N  NH2 ?  ARG      A 449 ?   12.112   17.403   20.845  -3.45  0 449 A
+ATOM     4414    C   CB ?  ARG      A 583 ?   12.155   17.198   25.743   0.00  0 583 A
+ATOM     4410    N    N ?  ARG      A 583 ?   10.071   15.890   26.023  -1.09  0 583 A
+ATOM     4415    C   CG ?  ARG      A 583 ?   12.873   17.197   27.080   0.00  0 583 A
+ATOM       35    O  OD2 ?  ASP      A 4 ?   11.472   10.209   20.491   0.00  0 4 A
+ATOM       54    C   CB ?  ALA      A 7 ?   13.615    7.108   22.557   0.00  0 7 A
+ATOM     4373    C  CG2 ?  VAL      A 577 ?   11.025   15.115   30.777   0.00  0 577 A
+ATOM     4401    O    O ?  GLY      A 581 ?    8.982   11.687   27.522  -0.14  0 581 A
+ATOM     4420    N  NH2 ?  ARG      A 583 ?   16.259   14.661   29.176   0.00  0 583 A
+ATOM     4403    C   CA ?  LEU      A 582 ?    8.355   14.216   26.456   0.00  0 582 A
 # 

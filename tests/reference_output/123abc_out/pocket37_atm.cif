@@ -15,7 +15,7 @@ Information about the pocket    37:
 6  - Hydrophobicity Score              : 5.1250
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.8750
-9  - Pocket volume (Monte Carlo)       : 236.3865
+9  - Pocket volume (Monte Carlo)       : 240.2758
 10  -Pocket volume (convex hull)       : 11.9595
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 12.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1380    O   OH ?  TYR    Axp 186 ?    9.044  45.902  24.895  0.00  0 413 A
-ATOM     1912    C  CZ2 ?  TRP    Axp 251 ?   12.981  45.897  19.507  0.00  0 478 A
-ATOM     1670    O   OH ?  TYR    Axp 222 ?   13.311  44.900  22.966 -3.21  0 449 A
-ATOM     1377    C  CE1 ?  TYR    Axp 186 ?    8.719  43.625  24.184  0.00  0 413 A
-ATOM     1916    C   CA ?  ASN    Axp 252 ?    7.616  43.585  14.588  0.00  0 479 A
-ATOM     1907    C  CD1 ?  TRP    Axp 251 ?   10.581  46.580  16.890  0.00  0 478 A
-ATOM     1919    C   CB ?  ASN    Axp 252 ?    6.603  44.693  14.189  0.00  0 479 A
-ATOM     1922    N  ND2 ?  ASN    Axp 252 ?    4.934  43.645  15.753  0.00  0 479 A
-ATOM     1929    C   CD ?  PRO    Axp 253 ?    6.822  41.521  16.535  0.00  0 480 A
-ATOM     1904    O    O ?  TRP    Axp 251 ?   10.010  42.943  15.867 -2.14  0 478 A
-ATOM     1920    C   CG ?  ASN    Axp 252 ?    5.132  44.445  14.708  0.00  0 479 A
-ATOM     1342    C   CA ?  GLU    Axp 182 ?   10.202  40.012  21.581  0.00  0 409 A
-ATOM     1341    N    N ?  GLU    Axp 182 ?   11.384  40.036  20.693  0.00  0 409 A
-ATOM     1910    C  CE2 ?  TRP    Axp 251 ?   12.201  46.076  18.371  0.00  0 478 A
-ATOM     1345    C   CB ?  GLU    Axp 182 ?    8.847  40.008  20.806  0.00  0 409 A
-ATOM     1909    N  NE1 ?  TRP    Axp 251 ?   10.978  46.673  18.232  0.00  0 478 A
-ATOM     1338    C   CB ?  PRO    Axp 181 ?   13.549  41.822  19.415  0.00  0 408 A
-ATOM     1704    O  OE2 ?  GLU    Axp 226 ?   13.795  49.067  21.782 -0.14  0 453 A
+ATOM     1380    O   OH ?  TYR    Axp 186 ?    9.044   45.902   24.895   0.00  0 413 A
+ATOM     1912    C  CZ2 ?  TRP    Axp 251 ?   12.981   45.897   19.507   0.00  0 478 A
+ATOM     1670    O   OH ?  TYR    Axp 222 ?   13.311   44.900   22.966  -3.21  0 449 A
+ATOM     1377    C  CE1 ?  TYR    Axp 186 ?    8.719   43.625   24.184   0.00  0 413 A
+ATOM     1916    C   CA ?  ASN    Axp 252 ?    7.616   43.585   14.588   0.00  0 479 A
+ATOM     1907    C  CD1 ?  TRP    Axp 251 ?   10.581   46.580   16.890   0.00  0 478 A
+ATOM     1919    C   CB ?  ASN    Axp 252 ?    6.603   44.693   14.189   0.00  0 479 A
+ATOM     1922    N  ND2 ?  ASN    Axp 252 ?    4.934   43.645   15.753   0.00  0 479 A
+ATOM     1929    C   CD ?  PRO    Axp 253 ?    6.822   41.521   16.535   0.00  0 480 A
+ATOM     1904    O    O ?  TRP    Axp 251 ?   10.010   42.943   15.867  -2.14  0 478 A
+ATOM     1920    C   CG ?  ASN    Axp 252 ?    5.132   44.445   14.708   0.00  0 479 A
+ATOM     1342    C   CA ?  GLU    Axp 182 ?   10.202   40.012   21.581   0.00  0 409 A
+ATOM     1341    N    N ?  GLU    Axp 182 ?   11.384   40.036   20.693   0.00  0 409 A
+ATOM     1910    C  CE2 ?  TRP    Axp 251 ?   12.201   46.076   18.371   0.00  0 478 A
+ATOM     1345    C   CB ?  GLU    Axp 182 ?    8.847   40.008   20.806   0.00  0 409 A
+ATOM     1909    N  NE1 ?  TRP    Axp 251 ?   10.978   46.673   18.232   0.00  0 478 A
+ATOM     1338    C   CB ?  PRO    Axp 181 ?   13.549   41.822   19.415   0.00  0 408 A
+ATOM     1704    O  OE2 ?  GLU    Axp 226 ?   13.795   49.067   21.782  -0.14  0 453 A
 # 

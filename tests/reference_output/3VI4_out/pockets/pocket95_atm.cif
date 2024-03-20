@@ -15,7 +15,7 @@ Information about the pocket    95:
 6  - Hydrophobicity Score              : -13.1667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 254.6066
+9  - Pocket volume (Monte Carlo)       : 249.3701
 10  -Pocket volume (convex hull)       : 8.8505
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    15503    C   CB ?  LYS      D 414 ?  -42.179  -9.414 -43.789  0.00  0 414 D
-ATOM    15498    N  ND2 ?  ASN      D 413 ?  -37.687 -12.236 -40.482  0.00  0 413 D
-ATOM    15505    C   CD ?  LYS      D 414 ?  -40.002  -8.086 -43.731  0.00  0 414 D
-ATOM    15496    C   CG ?  ASN      D 413 ?  -38.644 -11.326 -40.369  0.00  0 413 D
-ATOM    15497    O  OD1 ?  ASN      D 413 ?  -38.416 -10.115 -40.408 -3.62  0 413 D
-ATOM    15507    N   NZ ?  LYS      D 414 ?  -37.866  -6.778 -43.809 -2.35  0 414 D
-ATOM    15511    O    O ?  CYS      D 415 ?  -46.889 -10.809 -45.238 -4.43  0 415 D
-ATOM    15515    C   CA ?  PRO      D 416 ?  -46.749 -13.380 -44.004  0.00  0 416 D
-ATOM    15187    O  OE2 ?  GLU      D 371 ?  -45.373 -16.235 -45.246  0.00  0 371 D
-ATOM    15517    O    O ?  PRO      D 416 ?  -47.770 -13.857 -46.117 -0.14  0 416 D
-ATOM    15514    N    N ?  PRO      D 416 ?  -46.551 -12.071 -43.373 -1.09  0 416 D
-ATOM    15182    O    O ?  GLU      D 371 ?  -43.988 -16.050 -42.062 -1.07  0 371 D
-ATOM    15184    C   CG ?  GLU      D 371 ?  -43.162 -17.132 -45.072  0.00  0 371 D
-ATOM    15189    C   CA ?  GLY      D 372 ?  -41.700 -15.197 -40.749  0.00  0 372 D
-ATOM    15499    N    N ?  LYS      D 414 ?  -41.893 -10.151 -41.446 -1.09  0 414 D
-ATOM    15510    C    C ?  CYS      D 415 ?  -46.603 -10.897 -44.039  0.00  0 415 D
-ATOM    15495    C   CB ?  ASN      D 413 ?  -40.050 -11.855 -40.192  0.00  0 413 D
-ATOM    15520    C   CD ?  PRO      D 416 ?  -46.352 -12.198 -41.917  0.00  0 416 D
+ATOM    15503    C   CB ?  LYS      D 414 ?  -42.179   -9.414  -43.789   0.00  0 414 D
+ATOM    15498    N  ND2 ?  ASN      D 413 ?  -37.687  -12.236  -40.482   0.00  0 413 D
+ATOM    15505    C   CD ?  LYS      D 414 ?  -40.002   -8.086  -43.731   0.00  0 414 D
+ATOM    15496    C   CG ?  ASN      D 413 ?  -38.644  -11.326  -40.369   0.00  0 413 D
+ATOM    15497    O  OD1 ?  ASN      D 413 ?  -38.416  -10.115  -40.408  -3.62  0 413 D
+ATOM    15507    N   NZ ?  LYS      D 414 ?  -37.866   -6.778  -43.809  -2.35  0 414 D
+ATOM    15511    O    O ?  CYS      D 415 ?  -46.889  -10.809  -45.238  -4.43  0 415 D
+ATOM    15515    C   CA ?  PRO      D 416 ?  -46.749  -13.380  -44.004   0.00  0 416 D
+ATOM    15187    O  OE2 ?  GLU      D 371 ?  -45.373  -16.235  -45.246   0.00  0 371 D
+ATOM    15517    O    O ?  PRO      D 416 ?  -47.770  -13.857  -46.117  -0.14  0 416 D
+ATOM    15514    N    N ?  PRO      D 416 ?  -46.551  -12.071  -43.373  -1.09  0 416 D
+ATOM    15182    O    O ?  GLU      D 371 ?  -43.988  -16.050  -42.062  -1.07  0 371 D
+ATOM    15184    C   CG ?  GLU      D 371 ?  -43.162  -17.132  -45.072   0.00  0 371 D
+ATOM    15189    C   CA ?  GLY      D 372 ?  -41.700  -15.197  -40.749   0.00  0 372 D
+ATOM    15499    N    N ?  LYS      D 414 ?  -41.893  -10.151  -41.446  -1.09  0 414 D
+ATOM    15510    C    C ?  CYS      D 415 ?  -46.603  -10.897  -44.039   0.00  0 415 D
+ATOM    15495    C   CB ?  ASN      D 413 ?  -40.050  -11.855  -40.192   0.00  0 413 D
+ATOM    15520    C   CD ?  PRO      D 416 ?  -46.352  -12.198  -41.917   0.00  0 416 D
 # 

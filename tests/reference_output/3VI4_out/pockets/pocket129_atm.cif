@@ -15,7 +15,7 @@ Information about the pocket   129:
 6  - Hydrophobicity Score              : -9.5714
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.2857
-9  - Pocket volume (Monte Carlo)       : 217.5762
+9  - Pocket volume (Monte Carlo)       : 211.4087
 10  -Pocket volume (convex hull)       : 6.5323
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    13019    N  NE2 ?  GLN      D 95 ?  -56.884 -22.596 -15.753 -1.51  0 95 D
-ATOM    13174    N   NZ ?  LYS      D 114 ?  -53.914 -19.838 -13.190  0.00  0 114 D
-ATOM    15418    O  OE1 ?  GLU      D 403 ?  -52.938 -24.902 -11.446 -6.43  0 403 D
-ATOM    13172    C   CD ?  LYS      D 114 ?  -53.051 -21.819 -14.412  0.00  0 114 D
-ATOM    12850    C   CG ?  ASN      D 74 ?  -60.969 -21.267 -13.753  0.00  0 74 D
-ATOM    12851    O  OD1 ?  ASN      D 74 ?  -60.149 -20.614 -14.398  0.00  0 74 D
-ATOM    15419    O  OE2 ?  GLU      D 403 ?  -54.096 -26.103  -9.993  0.00  0 403 D
-ATOM    12871    C   CB ?  ASN      D 77 ?  -60.289 -27.204  -8.363  0.00  0 77 D
-ATOM    12856    O    O ?  VAL      D 75 ?  -59.869 -26.197 -12.797 -0.40  0 75 D
-ATOM    12874    N  ND2 ?  ASN      D 77 ?  -61.850 -25.391  -8.684 -2.77  0 77 D
-ATOM    13192    C   CD ?  LYS      D 116 ?  -55.288 -29.017 -11.531  0.00  0 116 D
-ATOM    12858    C  CG1 ?  VAL      D 75 ?  -56.845 -27.341 -13.534  0.00  0 75 D
-ATOM    12868    C   CA ?  ASN      D 77 ?  -60.163 -28.484  -9.197  0.00  0 77 D
-ATOM    12857    C   CB ?  VAL      D 75 ?  -57.185 -26.219 -14.488  0.00  0 75 D
-ATOM    12853    N    N ?  VAL      D 75 ?  -59.135 -24.908 -15.111 -1.09  0 75 D
-ATOM    12849    C   CB ?  ASN      D 74 ?  -61.121 -22.744 -13.987  0.00  0 74 D
-ATOM    12852    N  ND2 ?  ASN      D 74 ?  -61.754 -20.725 -12.828  0.00  0 74 D
+ATOM    13019    N  NE2 ?  GLN      D 95 ?  -56.884  -22.596  -15.753  -1.51  0 95 D
+ATOM    13174    N   NZ ?  LYS      D 114 ?  -53.914  -19.838  -13.190   0.00  0 114 D
+ATOM    15418    O  OE1 ?  GLU      D 403 ?  -52.938  -24.902  -11.446  -6.43  0 403 D
+ATOM    13172    C   CD ?  LYS      D 114 ?  -53.051  -21.819  -14.412   0.00  0 114 D
+ATOM    12850    C   CG ?  ASN      D 74 ?  -60.969  -21.267  -13.753   0.00  0 74 D
+ATOM    12851    O  OD1 ?  ASN      D 74 ?  -60.149  -20.614  -14.398   0.00  0 74 D
+ATOM    15419    O  OE2 ?  GLU      D 403 ?  -54.096  -26.103   -9.993   0.00  0 403 D
+ATOM    12871    C   CB ?  ASN      D 77 ?  -60.289  -27.204   -8.363   0.00  0 77 D
+ATOM    12856    O    O ?  VAL      D 75 ?  -59.869  -26.197  -12.797  -0.40  0 75 D
+ATOM    12874    N  ND2 ?  ASN      D 77 ?  -61.850  -25.391   -8.684  -2.77  0 77 D
+ATOM    13192    C   CD ?  LYS      D 116 ?  -55.288  -29.017  -11.531   0.00  0 116 D
+ATOM    12858    C  CG1 ?  VAL      D 75 ?  -56.845  -27.341  -13.534   0.00  0 75 D
+ATOM    12868    C   CA ?  ASN      D 77 ?  -60.163  -28.484   -9.197   0.00  0 77 D
+ATOM    12857    C   CB ?  VAL      D 75 ?  -57.185  -26.219  -14.488   0.00  0 75 D
+ATOM    12853    N    N ?  VAL      D 75 ?  -59.135  -24.908  -15.111  -1.09  0 75 D
+ATOM    12849    C   CB ?  ASN      D 74 ?  -61.121  -22.744  -13.987   0.00  0 74 D
+ATOM    12852    N  ND2 ?  ASN      D 74 ?  -61.754  -20.725  -12.828   0.00  0 74 D
 # 

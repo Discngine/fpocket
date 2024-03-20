@@ -15,7 +15,7 @@ Information about the pocket    50:
 6  - Hydrophobicity Score              : 33.6667
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.6667
-9  - Pocket volume (Monte Carlo)       : 227.4217
+9  - Pocket volume (Monte Carlo)       : 224.2065
 10  -Pocket volume (convex hull)       : 9.7647
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1034    O    O ?  ASN      A 131 ?   41.449 -46.913 -44.344  0.00  0 269 A
-ATOM        2    C   CA ?  HIS      A 3 ?   43.899 -51.428 -40.270  0.00  0 141 A
-ATOM        3    C    C ?  HIS      A 3 ?   42.390 -51.486 -40.533  0.00  0 141 A
-ATOM     1042    O    O ?  LEU      A 132 ?   45.261 -47.090 -46.337  0.00  0 270 A
-ATOM     1038    N  ND2 ?  ASN      A 131 ?   43.676 -47.203 -40.964 -3.28  0 269 A
-ATOM        1    N    N ?  HIS      A 3 ?   44.397 -50.130 -39.837 -0.17  0 141 A
-ATOM     1037    O  OD1 ?  ASN      A 131 ?   44.537 -45.830 -42.544 -0.95  0 269 A
-ATOM       11    N    N ?  MET      A 4 ?   41.663 -50.356 -40.404 -2.19  0 142 A
-ATOM       25    C   CD ?  PRO      A 5 ?   38.297 -50.006 -42.848  0.00  0 143 A
-ATOM       19    N    N ?  PRO      A 5 ?   38.933 -48.888 -42.127  0.00  0 143 A
-ATOM     1046    C  CD2 ?  LEU      A 132 ?   39.962 -46.999 -47.453  0.00  0 270 A
-ATOM     1064    C   CE ?  MET      B 4 ?   39.100 -53.327 -47.055  0.00  0 142 B
-ATOM     1040    C   CA ?  LEU      A 132 ?   43.003 -46.343 -46.623  0.00  0 270 A
-ATOM     1050    O    O ?  HIS      B 3 ?   40.952 -54.597 -42.048 -3.21  0 141 B
-ATOM     1061    C   CB ?  MET      B 4 ?   37.925 -53.724 -44.063  0.00  0 142 B
-ATOM        4    O    O ?  HIS      A 3 ?   41.888 -52.569 -40.831 -0.40  0 141 A
-ATOM     1054    C  CD2 ?  HIS      B 3 ?   41.931 -55.870 -46.393  0.00  0 141 B
-ATOM       89    C  CZ2 ?  TRP      A 12 ?   36.857 -49.115 -47.937  0.00  0 150 A
+ATOM     1034    O    O ?  ASN      A 131 ?   41.449  -46.913  -44.344   0.00  0 269 A
+ATOM        2    C   CA ?  HIS      A 3 ?   43.899  -51.428  -40.270   0.00  0 141 A
+ATOM        3    C    C ?  HIS      A 3 ?   42.390  -51.486  -40.533   0.00  0 141 A
+ATOM     1042    O    O ?  LEU      A 132 ?   45.261  -47.090  -46.337   0.00  0 270 A
+ATOM     1038    N  ND2 ?  ASN      A 131 ?   43.676  -47.203  -40.964  -3.28  0 269 A
+ATOM        1    N    N ?  HIS      A 3 ?   44.397  -50.130  -39.837  -0.17  0 141 A
+ATOM     1037    O  OD1 ?  ASN      A 131 ?   44.537  -45.830  -42.544  -0.95  0 269 A
+ATOM       11    N    N ?  MET      A 4 ?   41.663  -50.356  -40.404  -2.19  0 142 A
+ATOM       25    C   CD ?  PRO      A 5 ?   38.297  -50.006  -42.848   0.00  0 143 A
+ATOM       19    N    N ?  PRO      A 5 ?   38.933  -48.888  -42.127   0.00  0 143 A
+ATOM     1046    C  CD2 ?  LEU      A 132 ?   39.962  -46.999  -47.453   0.00  0 270 A
+ATOM     1064    C   CE ?  MET      B 4 ?   39.100  -53.327  -47.055   0.00  0 142 B
+ATOM     1040    C   CA ?  LEU      A 132 ?   43.003  -46.343  -46.623   0.00  0 270 A
+ATOM     1050    O    O ?  HIS      B 3 ?   40.952  -54.597  -42.048  -3.21  0 141 B
+ATOM     1061    C   CB ?  MET      B 4 ?   37.925  -53.724  -44.063   0.00  0 142 B
+ATOM        4    O    O ?  HIS      A 3 ?   41.888  -52.569  -40.831  -0.40  0 141 A
+ATOM     1054    C  CD2 ?  HIS      B 3 ?   41.931  -55.870  -46.393   0.00  0 141 B
+ATOM       89    C  CZ2 ?  TRP      A 12 ?   36.857  -49.115  -47.937   0.00  0 150 A
 # 

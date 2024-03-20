@@ -15,7 +15,7 @@ Information about the pocket     5:
 6  - Hydrophobicity Score              : 23.4000
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 315.8633
+9  - Pocket volume (Monte Carlo)       : 308.2130
 10  -Pocket volume (convex hull)       : 14.2450
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.5000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5763    C   CA ?  ARG      F 70 ?  -24.419 -72.017 -19.419  0.00  0 208 F
-ATOM     5773    N    N ?  ARG      F 71 ?  -22.203 -71.952 -18.364 -1.09  0 209 F
-ATOM     5844    C  CD1 ?  LEU      F 78 ?  -25.029 -78.510 -21.456  0.00  0 216 F
-ATOM     5812    C  CD2 ?  TYR      F 75 ?  -19.256 -75.035 -19.782  0.00  0 213 F
-ATOM     5820    O    O ?  PRO      F 76 ?  -24.396 -74.538 -22.831 -1.07  0 214 F
-ATOM     5823    C   CD ?  PRO      F 76 ?  -21.549 -76.005 -24.045  0.00  0 214 F
-ATOM     5809    C   CB ?  TYR      F 75 ?  -20.210 -73.612 -21.646  0.00  0 213 F
-ATOM     5861    C   CA ?  GLU      F 80 ?  -31.507 -78.411 -16.428  0.00  0 218 F
-ATOM     5428    C  CH2 ?  TRP      F 27 ?  -30.207 -73.461 -13.918  0.00  0 165 F
-ATOM     5865    C   CG ?  GLU      F 80 ?  -32.700 -76.635 -15.052  0.00  0 218 F
-ATOM     5461    N  NE2 ?  GLN      F 31 ?  -30.838 -76.023 -11.398 -1.01  0 169 F
-ATOM     5863    O    O ?  GLU      F 80 ?  -30.380 -80.414 -15.789  0.00  0 218 F
-ATOM     5759    O    O ?  SER      F 69 ?  -26.836 -73.447 -19.736  0.00  0 207 F
-ATOM     5761    O   OG ?  SER      F 69 ?  -28.070 -73.165 -16.815  0.00  0 207 F
-ATOM     5849    O    O ?  TRP      F 79 ?  -30.003 -78.459 -18.766  0.00  0 217 F
-ATOM     5764    C    C ?  ARG      F 70 ?  -23.382 -71.330 -18.527  0.00  0 208 F
-ATOM     5842    C   CB ?  LEU      F 78 ?  -27.219 -77.336 -21.338  0.00  0 216 F
-ATOM     5841    O    O ?  LEU      F 78 ?  -29.364 -75.357 -20.070 -1.07  0 216 F
+ATOM     5763    C   CA ?  ARG      F 70 ?  -24.419  -72.017  -19.419   0.00  0 208 F
+ATOM     5773    N    N ?  ARG      F 71 ?  -22.203  -71.952  -18.364  -1.09  0 209 F
+ATOM     5844    C  CD1 ?  LEU      F 78 ?  -25.029  -78.510  -21.456   0.00  0 216 F
+ATOM     5812    C  CD2 ?  TYR      F 75 ?  -19.256  -75.035  -19.782   0.00  0 213 F
+ATOM     5820    O    O ?  PRO      F 76 ?  -24.396  -74.538  -22.831  -1.07  0 214 F
+ATOM     5823    C   CD ?  PRO      F 76 ?  -21.549  -76.005  -24.045   0.00  0 214 F
+ATOM     5809    C   CB ?  TYR      F 75 ?  -20.210  -73.612  -21.646   0.00  0 213 F
+ATOM     5861    C   CA ?  GLU      F 80 ?  -31.507  -78.411  -16.428   0.00  0 218 F
+ATOM     5428    C  CH2 ?  TRP      F 27 ?  -30.207  -73.461  -13.918   0.00  0 165 F
+ATOM     5865    C   CG ?  GLU      F 80 ?  -32.700  -76.635  -15.052   0.00  0 218 F
+ATOM     5461    N  NE2 ?  GLN      F 31 ?  -30.838  -76.023  -11.398  -1.01  0 169 F
+ATOM     5863    O    O ?  GLU      F 80 ?  -30.380  -80.414  -15.789   0.00  0 218 F
+ATOM     5759    O    O ?  SER      F 69 ?  -26.836  -73.447  -19.736   0.00  0 207 F
+ATOM     5761    O   OG ?  SER      F 69 ?  -28.070  -73.165  -16.815   0.00  0 207 F
+ATOM     5849    O    O ?  TRP      F 79 ?  -30.003  -78.459  -18.766   0.00  0 217 F
+ATOM     5764    C    C ?  ARG      F 70 ?  -23.382  -71.330  -18.527   0.00  0 208 F
+ATOM     5842    C   CB ?  LEU      F 78 ?  -27.219  -77.336  -21.338   0.00  0 216 F
+ATOM     5841    O    O ?  LEU      F 78 ?  -29.364  -75.357  -20.070  -1.07  0 216 F
 # 

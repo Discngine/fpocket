@@ -15,7 +15,7 @@ Information about the pocket    59:
 6  - Hydrophobicity Score              : 3.5385
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 4.4615
-9  - Pocket volume (Monte Carlo)       : 656.6672
+9  - Pocket volume (Monte Carlo)       : 656.2551
 10  -Pocket volume (convex hull)       : 106.2343
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 17.3684
@@ -39,35 +39,35 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1547    C   CA ?  THR    Axp 207 ?   27.986  31.127   5.000  0.00  0 434 A
-ATOM     1787    O  OE1 ?  GLU    Axp 235 ?   33.363  35.303  -0.471  0.00  0 462 A
-ATOM     1784    C   CB ?  GLU    Axp 235 ?   30.904  36.280   0.032  0.00  0 462 A
-ATOM     1576    C   CE ?  MET    Axp 210 ?   32.722  32.318   7.370  0.00  0 437 A
-ATOM     1780    N    N ?  GLU    Axp 235 ?   28.816  36.573   1.254 -5.89  0 462 A
-ATOM     5807    O  OD1 ?  ASP    Cxp 217 ?   32.593  41.667   7.258 -0.40  0 444 C
-ATOM     1761    O  OE2 ?  GLU    Axp 232 ?   29.185  39.899   7.651 -1.07  0 459 A
-ATOM     5806    C   CG ?  ASP    Cxp 217 ?   33.788  41.393   7.609  0.00  0 444 C
-ATOM     5805    C   CB ?  ASP    Cxp 217 ?   33.924  40.652   8.999  0.00  0 444 C
-ATOM     1758    C   CG ?  GLU    Axp 232 ?   27.828  41.157   6.001  0.00  0 459 A
-ATOM     1549    O    O ?  THR    Axp 207 ?   29.712  29.672   5.779 -1.07  0 434 A
-ATOM     1560    C  CD2 ?  TYR    Axp 208 ?   29.463  27.946   1.884  0.00  0 435 A
-ATOM      762    N  NH1 ?  ARG    Axp 105 ?   33.395  28.281   1.771  0.00  0 332 A
-ATOM     1548    C    C ?  THR    Axp 207 ?   28.620  29.770   5.219  0.00  0 434 A
-ATOM     1552    C  CG2 ?  THR    Axp 207 ?   27.447  33.265   6.150  0.00  0 434 A
-ATOM     1777    C   CB ?  PRO    Axp 234 ?   26.643  35.371   3.274  0.00  0 461 A
-ATOM     1774    C   CA ?  PRO    Axp 234 ?   27.006  36.821   2.896  0.00  0 461 A
-ATOM     1783    O    O ?  GLU    Axp 235 ?   28.595  34.381  -0.451 -0.95  0 462 A
-ATOM     1562    C  CE2 ?  TYR    Axp 208 ?   29.149  27.781   0.533  0.00  0 435 A
-ATOM     1521    C  CZ2 ?  TRP    Axp 203 ?   27.150  36.088   8.821  0.00  0 430 A
-ATOM     1765    O    O ?  ARG    Axp 233 ?   26.857  39.483   2.729 -1.48  0 460 A
-ATOM     1785    C   CG ?  GLU    Axp 235 ?   31.764  36.954  -1.083  0.00  0 462 A
-ATOM     1781    C   CA ?  GLU    Axp 235 ?   29.407  36.582  -0.059  0.00  0 462 A
-ATOM     1772    N  NH2 ?  ARG    Axp 233 ?   26.327  40.891  -2.143  0.00  0 460 A
-ATOM     5822    O   OG ?  SER    Cxp 219 ?   31.901  43.385   6.332 -0.40  0 446 C
-ATOM     1575    S   SD ?  MET    Axp 210 ?   31.420  33.318   8.109  0.00  0 437 A
-ATOM     1607    C   CG ?  PRO    Axp 214 ?   30.525  36.985  12.095  0.00  0 441 A
-ATOM     1523    C  CH2 ?  TRP    Axp 203 ?   27.644  35.055   9.597  0.00  0 430 A
-ATOM     1776    O    O ?  PRO    Axp 234 ?   26.873  37.397   0.542  0.00  0 461 A
-ATOM     1550    C   CB ?  THR    Axp 207 ?   28.061  31.937   6.296  0.00  0 434 A
-ATOM     1544    O    O ?  ALA    Axp 206 ?   26.983  31.382   2.492 -3.21  0 433 A
+ATOM     1547    C   CA ?  THR    Axp 207 ?   27.986   31.127    5.000   0.00  0 434 A
+ATOM     1787    O  OE1 ?  GLU    Axp 235 ?   33.363   35.303   -0.471   0.00  0 462 A
+ATOM     1784    C   CB ?  GLU    Axp 235 ?   30.904   36.280    0.032   0.00  0 462 A
+ATOM     1576    C   CE ?  MET    Axp 210 ?   32.722   32.318    7.370   0.00  0 437 A
+ATOM     1780    N    N ?  GLU    Axp 235 ?   28.816   36.573    1.254  -5.89  0 462 A
+ATOM     5807    O  OD1 ?  ASP    Cxp 217 ?   32.593   41.667    7.258  -0.40  0 444 C
+ATOM     1761    O  OE2 ?  GLU    Axp 232 ?   29.185   39.899    7.651  -1.07  0 459 A
+ATOM     5806    C   CG ?  ASP    Cxp 217 ?   33.788   41.393    7.609   0.00  0 444 C
+ATOM     5805    C   CB ?  ASP    Cxp 217 ?   33.924   40.652    8.999   0.00  0 444 C
+ATOM     1758    C   CG ?  GLU    Axp 232 ?   27.828   41.157    6.001   0.00  0 459 A
+ATOM     1549    O    O ?  THR    Axp 207 ?   29.712   29.672    5.779  -1.07  0 434 A
+ATOM     1560    C  CD2 ?  TYR    Axp 208 ?   29.463   27.946    1.884   0.00  0 435 A
+ATOM      762    N  NH1 ?  ARG    Axp 105 ?   33.395   28.281    1.771   0.00  0 332 A
+ATOM     1548    C    C ?  THR    Axp 207 ?   28.620   29.770    5.219   0.00  0 434 A
+ATOM     1552    C  CG2 ?  THR    Axp 207 ?   27.447   33.265    6.150   0.00  0 434 A
+ATOM     1777    C   CB ?  PRO    Axp 234 ?   26.643   35.371    3.274   0.00  0 461 A
+ATOM     1774    C   CA ?  PRO    Axp 234 ?   27.006   36.821    2.896   0.00  0 461 A
+ATOM     1783    O    O ?  GLU    Axp 235 ?   28.595   34.381   -0.451  -0.95  0 462 A
+ATOM     1562    C  CE2 ?  TYR    Axp 208 ?   29.149   27.781    0.533   0.00  0 435 A
+ATOM     1521    C  CZ2 ?  TRP    Axp 203 ?   27.150   36.088    8.821   0.00  0 430 A
+ATOM     1765    O    O ?  ARG    Axp 233 ?   26.857   39.483    2.729  -1.48  0 460 A
+ATOM     1785    C   CG ?  GLU    Axp 235 ?   31.764   36.954   -1.083   0.00  0 462 A
+ATOM     1781    C   CA ?  GLU    Axp 235 ?   29.407   36.582   -0.059   0.00  0 462 A
+ATOM     1772    N  NH2 ?  ARG    Axp 233 ?   26.327   40.891   -2.143   0.00  0 460 A
+ATOM     5822    O   OG ?  SER    Cxp 219 ?   31.901   43.385    6.332  -0.40  0 446 C
+ATOM     1575    S   SD ?  MET    Axp 210 ?   31.420   33.318    8.109   0.00  0 437 A
+ATOM     1607    C   CG ?  PRO    Axp 214 ?   30.525   36.985   12.095   0.00  0 441 A
+ATOM     1523    C  CH2 ?  TRP    Axp 203 ?   27.644   35.055    9.597   0.00  0 430 A
+ATOM     1776    O    O ?  PRO    Axp 234 ?   26.873   37.397    0.542   0.00  0 461 A
+ATOM     1550    C   CB ?  THR    Axp 207 ?   28.061   31.937    6.296   0.00  0 434 A
+ATOM     1544    O    O ?  ALA    Axp 206 ?   26.983   31.382    2.492  -3.21  0 433 A
 # 

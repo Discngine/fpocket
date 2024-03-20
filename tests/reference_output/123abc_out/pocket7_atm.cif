@@ -15,7 +15,7 @@ Information about the pocket     7:
 6  - Hydrophobicity Score              : 17.4167
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 140.0599
+9  - Pocket volume (Monte Carlo)       : 138.9383
 10  -Pocket volume (convex hull)       : 4.3832
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5192    C    C ?  ARG    Cxp 135 ?   47.519  58.173  12.780  0.00  0 362 C
-ATOM     5651    C   CB ?  ALA    Cxp 197 ?   43.896  56.020  17.714  0.00  0 424 C
-ATOM     5624    O  OD1 ?  ASP    Cxp 194 ?   46.240  60.732  15.994 -1.07  0 421 C
-ATOM     5193    O    O ?  ARG    Cxp 135 ?   46.759  57.566  12.019 -5.36  0 362 C
-ATOM     5615    O    O ?  SER    Cxp 193 ?   42.020  58.972  17.005 -1.07  0 420 C
-ATOM     5202    C   CA ?  ASP    Cxp 136 ?   48.507  56.131  13.671  0.00  0 363 C
-ATOM     5209    N    N ?  LEU    Cxp 137 ?   48.237  56.031  16.055 -1.09  0 364 C
-ATOM     5212    O    O ?  LEU    Cxp 137 ?   46.832  53.795  17.171  0.00  0 364 C
-ATOM     5496    C   CB ?  TRP    Cxp 178 ?   43.528  52.138  15.422  0.00  0 405 C
-ATOM     5207    O  OD1 ?  ASP    Cxp 136 ?   48.346  53.507  12.825 -1.07  0 363 C
-ATOM     5473    C   CG ?  PRO    Cxp 175 ?   45.245  52.318  11.308  0.00  0 402 C
-ATOM     5587    C  CE2 ?  PHE    Cxp 189 ?   43.380  58.843   9.912  0.00  0 416 C
-ATOM     5507    C   CA ?  THR    Cxp 179 ?   40.483  54.626  12.962  0.00  0 406 C
-ATOM     5511    O  OG1 ?  THR    Cxp 179 ?   41.715  53.666  11.101 -1.07  0 406 C
-ATOM     5513    N    N ?  ALA    Cxp 180 ?   39.102  56.525  13.731  0.00  0 407 C
-ATOM     5617    O   OG ?  SER    Cxp 193 ?   41.953  61.629  13.984 -1.07  0 420 C
-ATOM     5614    C    C ?  SER    Cxp 193 ?   42.135  60.168  16.751  0.00  0 420 C
-ATOM     5495    O    O ?  TRP    Cxp 178 ?   41.690  54.405  15.462 -3.21  0 405 C
-ATOM     5585    C  CD2 ?  PHE    Cxp 189 ?   43.631  60.111  10.470  0.00  0 416 C
-ATOM     5616    C   CB ?  SER    Cxp 193 ?   40.918  60.880  14.581  0.00  0 420 C
-ATOM     5539    O   OG ?  SER    Cxp 183 ?   39.650  59.903  11.677  0.00  0 410 C
+ATOM     5192    C    C ?  ARG    Cxp 135 ?   47.519   58.173   12.780   0.00  0 362 C
+ATOM     5651    C   CB ?  ALA    Cxp 197 ?   43.896   56.020   17.714   0.00  0 424 C
+ATOM     5624    O  OD1 ?  ASP    Cxp 194 ?   46.240   60.732   15.994  -1.07  0 421 C
+ATOM     5193    O    O ?  ARG    Cxp 135 ?   46.759   57.566   12.019  -5.36  0 362 C
+ATOM     5615    O    O ?  SER    Cxp 193 ?   42.020   58.972   17.005  -1.07  0 420 C
+ATOM     5202    C   CA ?  ASP    Cxp 136 ?   48.507   56.131   13.671   0.00  0 363 C
+ATOM     5209    N    N ?  LEU    Cxp 137 ?   48.237   56.031   16.055  -1.09  0 364 C
+ATOM     5212    O    O ?  LEU    Cxp 137 ?   46.832   53.795   17.171   0.00  0 364 C
+ATOM     5496    C   CB ?  TRP    Cxp 178 ?   43.528   52.138   15.422   0.00  0 405 C
+ATOM     5207    O  OD1 ?  ASP    Cxp 136 ?   48.346   53.507   12.825  -1.07  0 363 C
+ATOM     5473    C   CG ?  PRO    Cxp 175 ?   45.245   52.318   11.308   0.00  0 402 C
+ATOM     5587    C  CE2 ?  PHE    Cxp 189 ?   43.380   58.843    9.912   0.00  0 416 C
+ATOM     5507    C   CA ?  THR    Cxp 179 ?   40.483   54.626   12.962   0.00  0 406 C
+ATOM     5511    O  OG1 ?  THR    Cxp 179 ?   41.715   53.666   11.101  -1.07  0 406 C
+ATOM     5513    N    N ?  ALA    Cxp 180 ?   39.102   56.525   13.731   0.00  0 407 C
+ATOM     5617    O   OG ?  SER    Cxp 193 ?   41.953   61.629   13.984  -1.07  0 420 C
+ATOM     5614    C    C ?  SER    Cxp 193 ?   42.135   60.168   16.751   0.00  0 420 C
+ATOM     5495    O    O ?  TRP    Cxp 178 ?   41.690   54.405   15.462  -3.21  0 405 C
+ATOM     5585    C  CD2 ?  PHE    Cxp 189 ?   43.631   60.111   10.470   0.00  0 416 C
+ATOM     5616    C   CB ?  SER    Cxp 193 ?   40.918   60.880   14.581   0.00  0 420 C
+ATOM     5539    O   OG ?  SER    Cxp 183 ?   39.650   59.903   11.677   0.00  0 410 C
 # 

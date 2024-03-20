@@ -15,7 +15,7 @@ Information about the pocket    25:
 6  - Hydrophobicity Score              : 5.1667
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 264.3829
+9  - Pocket volume (Monte Carlo)       : 272.2723
 10  -Pocket volume (convex hull)       : 4.5972
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6291    O    O ?  GLU    Dxp 9 ?   72.604   3.890  48.729  0.00  0 236 D
-ATOM     6300    O    O ?  MET    Dxp 10 ?   74.107   7.374  51.316 -2.14  0 237 D
-ATOM     6293    C   CG ?  GLU    Dxp 9 ?   71.423   4.039  52.375  0.00  0 236 D
-ATOM     6312    O  OE1 ?  GLU    Dxp 11 ?   77.808   6.551  52.358  0.00  0 238 D
-ATOM     6299    C    C ?  MET    Dxp 10 ?   74.371   7.293  50.096  0.00  0 237 D
-ATOM     6305    N    N ?  GLU    Dxp 11 ?   75.439   7.869  49.548 -2.19  0 238 D
-ATOM     6309    C   CB ?  GLU    Dxp 11 ?   77.861   8.128  49.916  0.00  0 238 D
-ATOM     6510    C   CE ?  LYS    Dxp 36 ?   78.782   6.894  42.671  0.00  0 263 D
-ATOM     6511    N   NZ ?  LYS    Dxp 36 ?   78.219   5.612  42.198  0.00  0 263 D
-ATOM     6301    C   CB ?  MET    Dxp 10 ?   73.225   7.186  47.771  0.00  0 237 D
-ATOM     6335    O  OD2 ?  ASP    Dxp 14 ?   78.726   9.496  45.541 -2.55  0 241 D
-ATOM     6298    C   CA ?  MET    Dxp 10 ?   73.486   6.472  49.131  0.00  0 237 D
-ATOM     6491    C  CZ2 ?  TRP    Dxp 34 ?   73.535   8.757  43.118  0.00  0 261 D
-ATOM     6488    N  NE1 ?  TRP    Dxp 34 ?   75.151  10.418  44.105 -1.09  0 261 D
+ATOM     6291    O    O ?  GLU    Dxp 9 ?   72.604    3.890   48.729   0.00  0 236 D
+ATOM     6300    O    O ?  MET    Dxp 10 ?   74.107    7.374   51.316  -2.14  0 237 D
+ATOM     6293    C   CG ?  GLU    Dxp 9 ?   71.423    4.039   52.375   0.00  0 236 D
+ATOM     6312    O  OE1 ?  GLU    Dxp 11 ?   77.808    6.551   52.358   0.00  0 238 D
+ATOM     6299    C    C ?  MET    Dxp 10 ?   74.371    7.293   50.096   0.00  0 237 D
+ATOM     6305    N    N ?  GLU    Dxp 11 ?   75.439    7.869   49.548  -2.19  0 238 D
+ATOM     6309    C   CB ?  GLU    Dxp 11 ?   77.861    8.128   49.916   0.00  0 238 D
+ATOM     6510    C   CE ?  LYS    Dxp 36 ?   78.782    6.894   42.671   0.00  0 263 D
+ATOM     6511    N   NZ ?  LYS    Dxp 36 ?   78.219    5.612   42.198   0.00  0 263 D
+ATOM     6301    C   CB ?  MET    Dxp 10 ?   73.225    7.186   47.771   0.00  0 237 D
+ATOM     6335    O  OD2 ?  ASP    Dxp 14 ?   78.726    9.496   45.541  -2.55  0 241 D
+ATOM     6298    C   CA ?  MET    Dxp 10 ?   73.486    6.472   49.131   0.00  0 237 D
+ATOM     6491    C  CZ2 ?  TRP    Dxp 34 ?   73.535    8.757   43.118   0.00  0 261 D
+ATOM     6488    N  NE1 ?  TRP    Dxp 34 ?   75.151   10.418   44.105  -1.09  0 261 D
 # 

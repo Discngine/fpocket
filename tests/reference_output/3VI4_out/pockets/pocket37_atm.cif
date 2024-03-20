@@ -15,7 +15,7 @@ Information about the pocket    37:
 6  - Hydrophobicity Score              : -14.6250
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 227.0250
+9  - Pocket volume (Monte Carlo)       : 225.0958
 10  -Pocket volume (convex hull)       : 3.0047
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8016    C   CB ?  PRO      C 14 ?  -46.150 -50.609 -73.499  0.00  0 14 C
-ATOM     8224    N    N ?  ASN      C 43 ?  -44.657 -56.897 -71.017 -2.19  0 43 C
-ATOM     8022    O    O ?  PRO      C 15 ?  -48.959 -50.524 -69.772 -5.36  0 15 C
-ATOM     8231    N  ND2 ?  ASN      C 43 ?  -48.490 -58.228 -70.912 -5.47  0 43 C
-ATOM     8228    C   CB ?  ASN      C 43 ?  -46.347 -58.424 -71.982  0.00  0 43 C
-ATOM     8029    O    O ?  GLY      C 16 ?  -46.957 -51.939 -66.394 -6.43  0 16 C
-ATOM     8288    N  NE2 ?  GLN      C 51 ?  -48.313 -57.474 -65.699 -2.19  0 51 C
-ATOM     8213    O    O ?  LYS      C 41 ?  -44.927 -55.531 -67.504  0.00  0 41 C
-ATOM     8034    C   CB ?  SER      C 17 ?  -44.311 -51.439 -69.472  0.00  0 17 C
-ATOM     8220    C   CA ?  ALA      C 42 ?  -43.376 -55.174 -69.827  0.00  0 42 C
-ATOM     8017    C   CG ?  PRO      C 14 ?  -44.726 -50.998 -73.294  0.00  0 14 C
-ATOM     8031    C   CA ?  SER      C 17 ?  -44.756 -51.443 -68.008  0.00  0 17 C
-ATOM     8227    O    O ?  ASN      C 43 ?  -43.696 -57.642 -73.512  0.00  0 43 C
+ATOM     8016    C   CB ?  PRO      C 14 ?  -46.150  -50.609  -73.499   0.00  0 14 C
+ATOM     8224    N    N ?  ASN      C 43 ?  -44.657  -56.897  -71.017  -2.19  0 43 C
+ATOM     8022    O    O ?  PRO      C 15 ?  -48.959  -50.524  -69.772  -5.36  0 15 C
+ATOM     8231    N  ND2 ?  ASN      C 43 ?  -48.490  -58.228  -70.912  -5.47  0 43 C
+ATOM     8228    C   CB ?  ASN      C 43 ?  -46.347  -58.424  -71.982   0.00  0 43 C
+ATOM     8029    O    O ?  GLY      C 16 ?  -46.957  -51.939  -66.394  -6.43  0 16 C
+ATOM     8288    N  NE2 ?  GLN      C 51 ?  -48.313  -57.474  -65.699  -2.19  0 51 C
+ATOM     8213    O    O ?  LYS      C 41 ?  -44.927  -55.531  -67.504   0.00  0 41 C
+ATOM     8034    C   CB ?  SER      C 17 ?  -44.311  -51.439  -69.472   0.00  0 17 C
+ATOM     8220    C   CA ?  ALA      C 42 ?  -43.376  -55.174  -69.827   0.00  0 42 C
+ATOM     8017    C   CG ?  PRO      C 14 ?  -44.726  -50.998  -73.294   0.00  0 14 C
+ATOM     8031    C   CA ?  SER      C 17 ?  -44.756  -51.443  -68.008   0.00  0 17 C
+ATOM     8227    O    O ?  ASN      C 43 ?  -43.696  -57.642  -73.512   0.00  0 43 C
 # 

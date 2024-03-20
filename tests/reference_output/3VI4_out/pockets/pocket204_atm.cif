@@ -15,7 +15,7 @@ Information about the pocket   204:
 6  - Hydrophobicity Score              : -19.8571
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.8571
-9  - Pocket volume (Monte Carlo)       : 300.3426
+9  - Pocket volume (Monte Carlo)       : 303.4828
 10  -Pocket volume (convex hull)       : 13.1346
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    10439    N    N ?  ALA      C 332 ?   -4.628 -37.522 -47.873 -2.19  0 332 C
-ATOM    10436    C   CB ?  PRO      C 331 ?   -3.539 -36.204 -50.544  0.00  0 331 C
-ATOM    10437    C   CG ?  PRO      C 331 ?   -4.063 -34.800 -50.506  0.00  0 331 C
-ATOM    10443    C   CB ?  ALA      C 332 ?   -4.383 -37.361 -45.433  0.00  0 332 C
-ATOM    19734    N   NE ?  ARG      G 82 ?   -0.265 -39.887 -49.771 -4.37  0 82 E
-ATOM    19737    N  NH2 ?  ARG      G 82 ?   -0.661 -40.590 -47.614  0.00  0 82 E
-ATOM    10440    C   CA ?  ALA      C 332 ?   -4.418 -38.291 -46.639  0.00  0 332 C
-ATOM    19726    O   OG ?  SER      G 81 ?    5.151 -38.768 -49.361 -5.09  0 81 E
-ATOM    19725    C   CB ?  SER      G 81 ?    4.248 -38.599 -50.438  0.00  0 81 E
-ATOM    19607    O    O ?  ASP      G 65 ?    5.166 -34.044 -47.447 -4.43  0 65 E
-ATOM    19613    C   CA ?  ARG      G 66 ?    4.303 -34.598 -50.071  0.00  0 66 E
-ATOM    19735    C   CZ ?  ARG      G 82 ?   -1.077 -40.429 -48.865  0.00  0 82 E
-ATOM    19617    C   CG ?  ARG      G 66 ?    1.922 -34.740 -51.015  0.00  0 66 E
-ATOM    19612    N    N ?  ARG      G 66 ?    3.964 -33.428 -49.263  0.00  0 66 E
-ATOM    19606    C    C ?  ASP      G 65 ?    4.428 -33.239 -48.028  0.00  0 65 E
-ATOM    19601    C   CB ?  PRO      G 64 ?    1.732 -30.078 -50.913  0.00  0 64 E
-ATOM    19604    N    N ?  ASP      G 65 ?    3.226 -30.985 -48.128  0.00  0 65 E
-ATOM    19608    C   CB ?  ASP      G 65 ?    3.225 -32.320 -46.055  0.00  0 65 E
-ATOM    19619    N   NE ?  ARG      G 66 ?    1.033 -33.923 -53.177 -4.37  0 66 E
-ATOM    19618    C   CD ?  ARG      G 66 ?    1.096 -35.056 -52.255  0.00  0 66 E
+ATOM    10439    N    N ?  ALA      C 332 ?   -4.628  -37.522  -47.873  -2.19  0 332 C
+ATOM    10436    C   CB ?  PRO      C 331 ?   -3.539  -36.204  -50.544   0.00  0 331 C
+ATOM    10437    C   CG ?  PRO      C 331 ?   -4.063  -34.800  -50.506   0.00  0 331 C
+ATOM    10443    C   CB ?  ALA      C 332 ?   -4.383  -37.361  -45.433   0.00  0 332 C
+ATOM    19734    N   NE ?  ARG      G 82 ?   -0.265  -39.887  -49.771  -4.37  0 82 E
+ATOM    19737    N  NH2 ?  ARG      G 82 ?   -0.661  -40.590  -47.614   0.00  0 82 E
+ATOM    10440    C   CA ?  ALA      C 332 ?   -4.418  -38.291  -46.639   0.00  0 332 C
+ATOM    19726    O   OG ?  SER      G 81 ?    5.151  -38.768  -49.361  -5.09  0 81 E
+ATOM    19725    C   CB ?  SER      G 81 ?    4.248  -38.599  -50.438   0.00  0 81 E
+ATOM    19607    O    O ?  ASP      G 65 ?    5.166  -34.044  -47.447  -4.43  0 65 E
+ATOM    19613    C   CA ?  ARG      G 66 ?    4.303  -34.598  -50.071   0.00  0 66 E
+ATOM    19735    C   CZ ?  ARG      G 82 ?   -1.077  -40.429  -48.865   0.00  0 82 E
+ATOM    19617    C   CG ?  ARG      G 66 ?    1.922  -34.740  -51.015   0.00  0 66 E
+ATOM    19612    N    N ?  ARG      G 66 ?    3.964  -33.428  -49.263   0.00  0 66 E
+ATOM    19606    C    C ?  ASP      G 65 ?    4.428  -33.239  -48.028   0.00  0 65 E
+ATOM    19601    C   CB ?  PRO      G 64 ?    1.732  -30.078  -50.913   0.00  0 64 E
+ATOM    19604    N    N ?  ASP      G 65 ?    3.226  -30.985  -48.128   0.00  0 65 E
+ATOM    19608    C   CB ?  ASP      G 65 ?    3.225  -32.320  -46.055   0.00  0 65 E
+ATOM    19619    N   NE ?  ARG      G 66 ?    1.033  -33.923  -53.177  -4.37  0 66 E
+ATOM    19618    C   CD ?  ARG      G 66 ?    1.096  -35.056  -52.255   0.00  0 66 E
 # 
