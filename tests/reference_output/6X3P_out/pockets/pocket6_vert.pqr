@@ -13,7 +13,7 @@ HEADER 5  - Mean B-factor                     : 0.1660
 HEADER 6  - Hydrophobicity Score              : 1.2857
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Volume Score                      : 3.8571
-HEADER 9  - Real volume (approximation)       : 361.7754
+HEADER 9  - Real volume (approximation)       : 356.0328
 HEADER 10 - Charge Score                      :    -1
 HEADER 11 - Local hydrophobic density Score   : 9.8182
 HEADER 12 - Number of apolar alpha sphere     :    11

@@ -15,7 +15,7 @@ Information about the pocket   141:
 6  - Hydrophobicity Score              : 28.4286
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.4286
-9  - Pocket volume (Monte Carlo)       : 282.3504
+9  - Pocket volume (Monte Carlo)       : 281.9732
 10  -Pocket volume (convex hull)       : 8.1232
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4720    C  CE2 ?  TRP      B 27 ?   39.171   37.177  -12.245   0.00  0 27 B
-ATOM     4623    O    O ?  LYS      B 13 ?   37.074   34.041   -8.191  -2.95  0 13 B
-ATOM     4719    N  NE1 ?  TRP      B 27 ?   40.417   37.062  -12.749  -0.42  0 27 B
-ATOM     4722    C  CZ2 ?  TRP      B 27 ?   38.684   37.933  -11.186   0.00  0 27 B
-ATOM     4632    O    O ?  SER      B 14 ?   38.063   31.466   -9.757  -3.21  0 14 B
-ATOM     4715    C   CB ?  TRP      B 27 ?   38.769   34.687  -15.141   0.00  0 27 B
-ATOM     4636    C   CA ?  CYS      B 15 ?   39.882   29.380  -10.079   0.00  0 15 B
-ATOM     4638    O    O ?  CYS      B 15 ?   38.173   29.040  -11.741  -1.07  0 15 B
-ATOM     4667    C  CD1 ?  ILE      B 19 ?   39.632   28.433  -14.806   0.00  0 19 B
-ATOM     4640    S   SG ?  CYS      B 15 ?   42.035   28.304  -11.496   0.00  0 15 B
-ATOM     4631    C    C ?  SER      B 14 ?   38.642   31.037   -8.755   0.00  0 14 B
-ATOM     4630    C   CA ?  SER      B 14 ?   38.420   31.731   -7.395   0.00  0 14 B
-ATOM     4665    C  CG1 ?  ILE      B 19 ?   38.247   28.934  -15.153   0.00  0 19 B
-ATOM     4737    C  CG2 ?  THR      B 29 ?   44.766   33.826  -15.614   0.00  0 29 B
-ATOM     4907    C   CG ?  GLU      B 61 ?   43.490   29.594  -17.877   0.00  0 61 B
-ATOM     4906    C   CB ?  GLU      B 61 ?   42.006   29.351  -18.087   0.00  0 61 B
-ATOM     4718    C  CD2 ?  TRP      B 27 ?   38.301   36.306  -13.045   0.00  0 27 B
-ATOM     4714    O    O ?  TRP      B 27 ?   40.938   34.454  -17.121  -2.14  0 27 B
-ATOM     4717    C  CD1 ?  TRP      B 27 ?   40.440   36.190  -13.808   0.00  0 27 B
-ATOM     4716    C   CG ?  TRP      B 27 ?   39.169   35.679  -14.064   0.00  0 27 B
+ATOM    4720     C  CE2 ?  TRP      B 27 ?   39.171   37.177  -12.245   0.00  0 27 B
+ATOM    4623     O    O ?  LYS      B 13 ?   37.074   34.041   -8.191  -2.95  0 13 B
+ATOM    4719     N  NE1 ?  TRP      B 27 ?   40.417   37.062  -12.749  -0.42  0 27 B
+ATOM    4722     C  CZ2 ?  TRP      B 27 ?   38.684   37.933  -11.186   0.00  0 27 B
+ATOM    4632     O    O ?  SER      B 14 ?   38.063   31.466   -9.757  -3.21  0 14 B
+ATOM    4715     C   CB ?  TRP      B 27 ?   38.769   34.687  -15.141   0.00  0 27 B
+ATOM    4636     C   CA ?  CYS      B 15 ?   39.882   29.380  -10.079   0.00  0 15 B
+ATOM    4638     O    O ?  CYS      B 15 ?   38.173   29.040  -11.741  -1.07  0 15 B
+ATOM    4667     C  CD1 ?  ILE      B 19 ?   39.632   28.433  -14.806   0.00  0 19 B
+ATOM    4640     S   SG ?  CYS      B 15 ?   42.035   28.304  -11.496   0.00  0 15 B
+ATOM    4631     C    C ?  SER      B 14 ?   38.642   31.037   -8.755   0.00  0 14 B
+ATOM    4630     C   CA ?  SER      B 14 ?   38.420   31.731   -7.395   0.00  0 14 B
+ATOM    4665     C  CG1 ?  ILE      B 19 ?   38.247   28.934  -15.153   0.00  0 19 B
+ATOM    4737     C  CG2 ?  THR      B 29 ?   44.766   33.826  -15.614   0.00  0 29 B
+ATOM    4907     C   CG ?  GLU      B 61 ?   43.490   29.594  -17.877   0.00  0 61 B
+ATOM    4906     C   CB ?  GLU      B 61 ?   42.006   29.351  -18.087   0.00  0 61 B
+ATOM    4718     C  CD2 ?  TRP      B 27 ?   38.301   36.306  -13.045   0.00  0 27 B
+ATOM    4714     O    O ?  TRP      B 27 ?   40.938   34.454  -17.121  -2.14  0 27 B
+ATOM    4717     C  CD1 ?  TRP      B 27 ?   40.440   36.190  -13.808   0.00  0 27 B
+ATOM    4716     C   CG ?  TRP      B 27 ?   39.169   35.679  -14.064   0.00  0 27 B
 # 

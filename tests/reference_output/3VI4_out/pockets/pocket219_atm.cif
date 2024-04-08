@@ -15,7 +15,7 @@ Information about the pocket   219:
 6  - Hydrophobicity Score              : 21.5714
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.4286
-9  - Pocket volume (Monte Carlo)       : 280.8848
+9  - Pocket volume (Monte Carlo)       : 280.9883
 10  -Pocket volume (convex hull)       : 3.8885
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -48,9 +48,9 @@ ATOM    21009    C   CA ?  THR      H 28 ?   12.101   -3.485  -50.256   0.00  0 
 ATOM    21014    C  CG2 ?  THR      H 28 ?   11.123   -2.705  -48.023   0.00  0 28 F
 ATOM    20999    O    O ?  TYR      H 27 ?   10.232   -4.045  -52.122  -1.21  0 27 F
 ATOM    21012    C   CB ?  THR      H 28 ?   12.385   -2.757  -48.910   0.00  0 28 F
-ATOM     7435    N   NZ ?  LYS      B 382 ?   12.995    1.467  -46.999  -4.37  0 382 B
+ATOM    7435     N   NZ ?  LYS      B 382 ?   12.995    1.467  -46.999  -4.37  0 382 B
 ATOM    21417    O  OD1 ?  ASN      H 77 ?   13.073    0.262  -55.720  -0.81  0 77 F
-ATOM     7434    C   CE ?  LYS      B 382 ?   13.879    2.649  -47.191   0.00  0 382 B
+ATOM    7434     C   CE ?  LYS      B 382 ?   13.879    2.649  -47.191   0.00  0 382 B
 ATOM    21398    C  CG2 ?  THR      H 74 ?   17.370    2.558  -54.583   0.00  0 74 F
 ATOM    21019    C   CB ?  PHE      H 29 ?   14.240   -2.515  -54.403   0.00  0 29 F
 # 

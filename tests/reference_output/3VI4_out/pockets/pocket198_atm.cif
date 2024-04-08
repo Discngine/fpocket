@@ -15,7 +15,7 @@ Information about the pocket   198:
 6  - Hydrophobicity Score              : 6.5833
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 442.5226
+9  - Pocket volume (Monte Carlo)       : 463.4610
 10  -Pocket volume (convex hull)       : 47.6888
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 3.0000
@@ -42,27 +42,27 @@ _atom_site.auth_asym_id
 ATOM    19586    N    N ?  GLY      G 62 ?    3.781  -22.960  -49.376   0.00  0 62 E
 ATOM    19593    O    O ?  VAL      G 63 ?    4.771  -27.735  -49.057  -5.76  0 63 E
 ATOM    19578    O    O ?  ALA      G 60 ?    6.898  -24.340  -48.962  -1.07  0 60 E
-ATOM     5642    O  OD1 ?  ASN      B 151 ?    8.081  -25.524  -43.949  -6.17  0 151 B
+ATOM    5642     O  OD1 ?  ASN      B 151 ?    8.081  -25.524  -43.949  -6.17  0 151 B
 ATOM    19588    C    C ?  GLY      G 62 ?    3.258  -24.768  -51.014   0.00  0 62 E
 ATOM    19587    C   CA ?  GLY      G 62 ?    2.894  -23.413  -50.443   0.00  0 62 E
 ATOM    19581    C   CA ?  SER      G 61 ?    5.742  -21.906  -48.435   0.00  0 61 E
-ATOM     5681    N  NH1 ?  ARG      B 155 ?    7.232  -20.335  -45.401   0.00  0 155 B
-ATOM     5651    O  OE1 ?  GLU      B 152 ?    5.903  -20.045  -43.170  -2.95  0 152 B
+ATOM    5681     N  NH1 ?  ARG      B 155 ?    7.232  -20.335  -45.401   0.00  0 155 B
+ATOM    5651     O  OE1 ?  GLU      B 152 ?    5.903  -20.045  -43.170  -2.95  0 152 B
 ATOM    19584    C   CB ?  SER      G 61 ?    5.460  -20.453  -48.056   0.00  0 61 E
 ATOM    19609    C   CG ?  ASP      G 65 ?    3.532  -31.394  -44.895   0.00  0 65 E
 ATOM    19611    O  OD2 ?  ASP      G 65 ?    2.593  -31.063  -44.138  -0.95  0 65 E
 ATOM    19604    N    N ?  ASP      G 65 ?    3.226  -30.985  -48.128   0.00  0 65 E
 ATOM    19610    O  OD1 ?  ASP      G 65 ?    4.711  -31.002  -44.730  -2.28  0 65 E
 ATOM    19574    C  CD2 ?  LEU      G 59 ?    7.340  -29.520  -47.376   0.00  0 59 E
-ATOM     5619    O  OD2 ?  ASP      B 148 ?    2.626  -26.788  -40.642  -0.54  0 148 B
-ATOM     5682    N  NH2 ?  ARG      B 155 ?    8.571  -22.105  -45.958   0.00  0 155 B
+ATOM    5619     O  OD2 ?  ASP      B 148 ?    2.626  -26.788  -40.642  -0.54  0 148 B
+ATOM    5682     N  NH2 ?  ARG      B 155 ?    8.571  -22.105  -45.958   0.00  0 155 B
 ATOM    19598    C   CA ?  PRO      G 64 ?    2.705  -29.427  -49.914   0.00  0 64 E
 ATOM    19592    C    C ?  VAL      G 63 ?    4.367  -27.640  -50.224   0.00  0 63 E
 ATOM    19589    O    O ?  GLY      G 62 ?    2.449  -25.379  -51.701   0.00  0 62 E
 ATOM    19602    C   CG ?  PRO      G 64 ?    1.685  -29.155  -52.091   0.00  0 64 E
 ATOM    19601    C   CB ?  PRO      G 64 ?    1.732  -30.078  -50.913   0.00  0 64 E
-ATOM     7171    C  CG2 ?  ILE      B 348 ?    3.811  -20.221  -38.686   0.00  0 348 B
-ATOM     5615    O    O ?  ASP      B 148 ?    6.566  -24.091  -39.567  -3.21  0 148 B
-ATOM     7172    C  CD1 ?  ILE      B 348 ?    2.187  -22.767  -38.102   0.00  0 348 B
-ATOM     5616    C   CB ?  ASP      B 148 ?    3.858  -25.881  -38.802   0.00  0 148 B
+ATOM    7171     C  CG2 ?  ILE      B 348 ?    3.811  -20.221  -38.686   0.00  0 348 B
+ATOM    5615     O    O ?  ASP      B 148 ?    6.566  -24.091  -39.567  -3.21  0 148 B
+ATOM    7172     C  CD1 ?  ILE      B 348 ?    2.187  -22.767  -38.102   0.00  0 348 B
+ATOM    5616     C   CB ?  ASP      B 148 ?    3.858  -25.881  -38.802   0.00  0 148 B
 # 

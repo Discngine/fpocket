@@ -15,7 +15,7 @@ Information about the pocket    57:
 6  - Hydrophobicity Score              : -2.6250
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.1250
-9  - Pocket volume (Monte Carlo)       : 213.7506
+9  - Pocket volume (Monte Carlo)       : 217.9827
 10  -Pocket volume (convex hull)       : 2.5981
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,19 +39,19 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4405    O    O ?  LEU      A 582 ?    7.961   16.581   26.433  -1.07  0 582 A
-ATOM     4391    O    O ?  HIS      A 580 ?    5.865   13.713   28.831  -4.29  0 580 A
-ATOM     4381    O  OD2 ?  ASP      A 578 ?    6.024   18.038   29.697  -1.07  0 578 A
-ATOM     3220    N  ND2 ?  ASN      A 428 ?    2.312   15.020   24.194  -3.28  0 428 A
-ATOM     4380    O  OD1 ?  ASP      A 578 ?    3.993   18.838   29.849  -0.14  0 578 A
-ATOM     4387    O   OG ?  SER      A 579 ?    1.522   15.363   30.341  -3.62  0 579 A
-ATOM     3386    C   CG ?  PRO      A 450 ?    5.265   19.096   24.414   0.00  0 450 A
-ATOM     3214    C   CA ?  ASN      A 428 ?   -0.619   16.752   25.268   0.00  0 428 A
-ATOM     3212    O    O ?  GLY      A 427 ?   -2.883   15.598   26.623  -2.69  0 427 A
-ATOM     3211    C    C ?  GLY      A 427 ?   -1.743   15.184   26.854   0.00  0 427 A
-ATOM     3706    C  CD2 ?  HIS      A 494 ?   -2.668   21.335   25.440   0.00  0 494 A
-ATOM     3702    O    O ?  HIS      A 494 ?    1.752   22.088   26.600  -1.88  0 494 A
-ATOM     4406    C   CB ?  LEU      A 582 ?    6.977   14.007   25.820   0.00  0 582 A
-ATOM     3217    C   CB ?  ASN      A 428 ?    0.748   16.844   24.548   0.00  0 428 A
-ATOM     3213    N    N ?  ASN      A 428 ?   -0.644   15.629   26.232  -1.09  0 428 A
+ATOM    4405     O    O ?  LEU      A 582 ?    7.961   16.581   26.433  -1.07  0 582 A
+ATOM    4391     O    O ?  HIS      A 580 ?    5.865   13.713   28.831  -4.29  0 580 A
+ATOM    4381     O  OD2 ?  ASP      A 578 ?    6.024   18.038   29.697  -1.07  0 578 A
+ATOM    3220     N  ND2 ?  ASN      A 428 ?    2.312   15.020   24.194  -3.28  0 428 A
+ATOM    4380     O  OD1 ?  ASP      A 578 ?    3.993   18.838   29.849  -0.14  0 578 A
+ATOM    4387     O   OG ?  SER      A 579 ?    1.522   15.363   30.341  -3.62  0 579 A
+ATOM    3386     C   CG ?  PRO      A 450 ?    5.265   19.096   24.414   0.00  0 450 A
+ATOM    3214     C   CA ?  ASN      A 428 ?   -0.619   16.752   25.268   0.00  0 428 A
+ATOM    3212     O    O ?  GLY      A 427 ?   -2.883   15.598   26.623  -2.69  0 427 A
+ATOM    3211     C    C ?  GLY      A 427 ?   -1.743   15.184   26.854   0.00  0 427 A
+ATOM    3706     C  CD2 ?  HIS      A 494 ?   -2.668   21.335   25.440   0.00  0 494 A
+ATOM    3702     O    O ?  HIS      A 494 ?    1.752   22.088   26.600  -1.88  0 494 A
+ATOM    4406     C   CB ?  LEU      A 582 ?    6.977   14.007   25.820   0.00  0 582 A
+ATOM    3217     C   CB ?  ASN      A 428 ?    0.748   16.844   24.548   0.00  0 428 A
+ATOM    3213     N    N ?  ASN      A 428 ?   -0.644   15.629   26.232  -1.09  0 428 A
 # 

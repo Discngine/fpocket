@@ -15,7 +15,7 @@ Information about the pocket    49:
 6  - Hydrophobicity Score              : 25.2500
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.3750
-9  - Pocket volume (Monte Carlo)       : 207.7642
+9  - Pocket volume (Monte Carlo)       : 209.5640
 10  -Pocket volume (convex hull)       : 5.7104
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4971    C  CD1 ?  ILE      B 69 ?   35.460    9.048  -34.006   0.00  0 69 B
-ATOM     5318    O  OG1 ?  THR      B 112 ?   27.990    9.848  -36.154   0.00  0 112 B
-ATOM     4997    N  ND2 ?  ASN      B 72 ?   33.718    4.053  -35.993  -5.89  0 72 B
-ATOM     5187    C   CG ?  PRO      B 96 ?   31.173    5.097  -32.565   0.00  0 96 B
-ATOM     5306    C   CB ?  PHE      B 111 ?   29.271   11.074  -30.831   0.00  0 111 B
-ATOM     5213    C  CD1 ?  LEU      B 99 ?   31.630    8.701  -29.190   0.00  0 99 B
-ATOM     4969    C  CG1 ?  ILE      B 69 ?   35.324    8.321  -32.685   0.00  0 69 B
-ATOM     5334    C   CD ?  LYS      B 114 ?   27.384    5.593  -39.555   0.00  0 114 B
-ATOM     5336    N   NZ ?  LYS      B 114 ?   28.978    7.532  -39.978  -2.35  0 114 B
-ATOM     5176    O    O ?  GLN      B 95 ?   28.289    3.434  -34.810  -2.14  0 95 B
-ATOM     5181    N  NE2 ?  GLN      B 95 ?   31.605    3.266  -38.167  -1.51  0 95 B
-ATOM     5316    O    O ?  THR      B 112 ?   27.896    7.840  -33.685  -1.48  0 112 B
-ATOM     5188    C   CD ?  PRO      B 96 ?   29.789    4.706  -32.990   0.00  0 96 B
-ATOM     5313    N    N ?  THR      B 112 ?   27.601   10.604  -33.364   0.00  0 112 B
-ATOM     5308    C  CD1 ?  PHE      B 111 ?   28.393    8.725  -30.597   0.00  0 111 B
-ATOM     5335    C   CE ?  LYS      B 114 ?   27.570    7.103  -39.720   0.00  0 114 B
+ATOM    4971     C  CD1 ?  ILE      B 69 ?   35.460    9.048  -34.006   0.00  0 69 B
+ATOM    5318     O  OG1 ?  THR      B 112 ?   27.990    9.848  -36.154   0.00  0 112 B
+ATOM    4997     N  ND2 ?  ASN      B 72 ?   33.718    4.053  -35.993  -5.89  0 72 B
+ATOM    5187     C   CG ?  PRO      B 96 ?   31.173    5.097  -32.565   0.00  0 96 B
+ATOM    5306     C   CB ?  PHE      B 111 ?   29.271   11.074  -30.831   0.00  0 111 B
+ATOM    5213     C  CD1 ?  LEU      B 99 ?   31.630    8.701  -29.190   0.00  0 99 B
+ATOM    4969     C  CG1 ?  ILE      B 69 ?   35.324    8.321  -32.685   0.00  0 69 B
+ATOM    5334     C   CD ?  LYS      B 114 ?   27.384    5.593  -39.555   0.00  0 114 B
+ATOM    5336     N   NZ ?  LYS      B 114 ?   28.978    7.532  -39.978  -2.35  0 114 B
+ATOM    5176     O    O ?  GLN      B 95 ?   28.289    3.434  -34.810  -2.14  0 95 B
+ATOM    5181     N  NE2 ?  GLN      B 95 ?   31.605    3.266  -38.167  -1.51  0 95 B
+ATOM    5316     O    O ?  THR      B 112 ?   27.896    7.840  -33.685  -1.48  0 112 B
+ATOM    5188     C   CD ?  PRO      B 96 ?   29.789    4.706  -32.990   0.00  0 96 B
+ATOM    5313     N    N ?  THR      B 112 ?   27.601   10.604  -33.364   0.00  0 112 B
+ATOM    5308     C  CD1 ?  PHE      B 111 ?   28.393    8.725  -30.597   0.00  0 111 B
+ATOM    5335     C   CE ?  LYS      B 114 ?   27.570    7.103  -39.720   0.00  0 114 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket    50:
 6  - Hydrophobicity Score              : 21.7500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.0000
-9  - Pocket volume (Monte Carlo)       : 322.8206
+9  - Pocket volume (Monte Carlo)       : 327.7719
 10  -Pocket volume (convex hull)       : 22.7071
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 8.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4763    C   CB ?  ALA      B 42 ?   28.534   40.978  -14.863   0.00  0 42 B
-ATOM     4760    C   CA ?  ALA      B 42 ?   29.486   42.168  -14.874   0.00  0 42 B
-ATOM     4756    O    O ?  SER      B 41 ?   27.669   44.186  -14.147   0.00  0 41 B
-ATOM     4602    N    N ?  ALA      B 10 ?   26.399   38.727  -10.829  -1.51  0 10 B
-ATOM     4768    C   CB ?  ARG      B 43 ?   33.721   40.496  -13.070   0.00  0 43 B
-ATOM     4769    C   CG ?  ARG      B 43 ?   34.086   41.766  -12.310   0.00  0 43 B
-ATOM     4619    C   CB ?  ALA      B 12 ?   33.701   37.292   -9.385   0.00  0 12 B
-ATOM     4770    C   CD ?  ARG      B 43 ?   34.912   41.461  -11.062   0.00  0 43 B
-ATOM     4615    N    N ?  ALA      B 12 ?   31.606   36.045   -9.676  -2.19  0 12 B
-ATOM     4607    N    N ?  ASN      B 11 ?   28.894   36.687  -10.158  -3.28  0 11 B
-ATOM     4606    C   CB ?  ALA      B 10 ?   26.639   38.954   -8.379   0.00  0 10 B
-ATOM     4618    O    O ?  ALA      B 12 ?   32.937   35.373   -7.082   0.00  0 12 B
-ATOM     4604    C    C ?  ALA      B 10 ?   27.767   37.013   -9.524   0.00  0 10 B
-ATOM     4778    O    O ?  CYS      B 44 ?   30.864   36.086  -15.108  -1.07  0 44 B
-ATOM     4764    N    N ?  ARG      B 43 ?   31.638   41.185  -14.250  -3.28  0 43 B
-ATOM     4582    O    O ?  CYS      B 7 ?   27.645   37.133  -14.838   0.00  0 7 B
-ATOM     4605    O    O ?  ALA      B 10 ?   27.134   36.212   -8.828   0.00  0 10 B
-ATOM     4603    C   CA ?  ALA      B 10 ?   27.288   38.465   -9.672   0.00  0 10 B
-ATOM     4775    N    N ?  CYS      B 44 ?   33.098   38.272  -14.585  -1.09  0 44 B
+ATOM    4763     C   CB ?  ALA      B 42 ?   28.534   40.978  -14.863   0.00  0 42 B
+ATOM    4760     C   CA ?  ALA      B 42 ?   29.486   42.168  -14.874   0.00  0 42 B
+ATOM    4756     O    O ?  SER      B 41 ?   27.669   44.186  -14.147   0.00  0 41 B
+ATOM    4602     N    N ?  ALA      B 10 ?   26.399   38.727  -10.829  -1.51  0 10 B
+ATOM    4768     C   CB ?  ARG      B 43 ?   33.721   40.496  -13.070   0.00  0 43 B
+ATOM    4769     C   CG ?  ARG      B 43 ?   34.086   41.766  -12.310   0.00  0 43 B
+ATOM    4619     C   CB ?  ALA      B 12 ?   33.701   37.292   -9.385   0.00  0 12 B
+ATOM    4770     C   CD ?  ARG      B 43 ?   34.912   41.461  -11.062   0.00  0 43 B
+ATOM    4615     N    N ?  ALA      B 12 ?   31.606   36.045   -9.676  -2.19  0 12 B
+ATOM    4607     N    N ?  ASN      B 11 ?   28.894   36.687  -10.158  -3.28  0 11 B
+ATOM    4606     C   CB ?  ALA      B 10 ?   26.639   38.954   -8.379   0.00  0 10 B
+ATOM    4618     O    O ?  ALA      B 12 ?   32.937   35.373   -7.082   0.00  0 12 B
+ATOM    4604     C    C ?  ALA      B 10 ?   27.767   37.013   -9.524   0.00  0 10 B
+ATOM    4778     O    O ?  CYS      B 44 ?   30.864   36.086  -15.108  -1.07  0 44 B
+ATOM    4764     N    N ?  ARG      B 43 ?   31.638   41.185  -14.250  -3.28  0 43 B
+ATOM    4582     O    O ?  CYS      B 7 ?   27.645   37.133  -14.838   0.00  0 7 B
+ATOM    4605     O    O ?  ALA      B 10 ?   27.134   36.212   -8.828   0.00  0 10 B
+ATOM    4603     C   CA ?  ALA      B 10 ?   27.288   38.465   -9.672   0.00  0 10 B
+ATOM    4775     N    N ?  CYS      B 44 ?   33.098   38.272  -14.585  -1.09  0 44 B
 # 

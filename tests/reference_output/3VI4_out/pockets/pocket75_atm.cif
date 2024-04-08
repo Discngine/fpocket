@@ -15,7 +15,7 @@ Information about the pocket    75:
 6  - Hydrophobicity Score              : 27.7778
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.3333
-9  - Pocket volume (Monte Carlo)       : 233.8129
+9  - Pocket volume (Monte Carlo)       : 231.2357
 10  -Pocket volume (convex hull)       : 11.9399
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 8.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5594    C   CA ?  LEU      B 145 ?    3.184  -26.467  -34.049   0.00  0 145 B
-ATOM     5592    O   OG ?  SER      B 144 ?    0.245  -29.142  -36.441   0.00  0 144 B
-ATOM     5593    N    N ?  LEU      B 145 ?    2.544  -27.794  -34.010   0.00  0 145 B
-ATOM     5566    O    O ?  ASN      B 141 ?   -2.294  -27.704  -33.584  -1.48  0 141 B
-ATOM     5619    O  OD2 ?  ASP      B 148 ?    2.626  -26.788  -40.642  -0.54  0 148 B
-ATOM     5618    O  OD1 ?  ASP      B 148 ?    2.884  -28.056  -38.864  -0.14  0 148 B
-ATOM     5617    C   CG ?  ASP      B 148 ?    3.073  -26.990  -39.487   0.00  0 148 B
-ATOM     5569    O  OD1 ?  ASN      B 141 ?   -4.842  -26.547  -35.164   0.00  0 141 B
-ATOM     7141    O    O ?  SER      B 344 ?   -3.482  -21.358  -33.935  -2.14  0 344 B
-ATOM     5568    C   CG ?  ASN      B 141 ?   -5.184  -25.776  -34.265   0.00  0 141 B
-ATOM     7147    O    O ?  SER      B 345 ?   -3.634  -21.199  -37.626   0.00  0 345 B
-ATOM     5570    N  ND2 ?  ASN      B 141 ?   -5.666  -24.560  -34.507   0.00  0 141 B
-ATOM     7170    C  CG1 ?  ILE      B 348 ?    2.294  -21.559  -37.202   0.00  0 348 B
-ATOM     7164    C  CG2 ?  VAL      B 347 ?   -1.001  -20.621  -33.165   0.00  0 347 B
-ATOM     5599    C  CD1 ?  LEU      B 145 ?    2.188  -23.274  -33.525   0.00  0 145 B
-ATOM     5616    C   CB ?  ASP      B 148 ?    3.858  -25.881  -38.802   0.00  0 148 B
-ATOM     7172    C  CD1 ?  ILE      B 348 ?    2.187  -22.767  -38.102   0.00  0 348 B
-ATOM     5572    C   CA ?  VAL      B 142 ?   -0.969  -26.950  -31.221   0.00  0 142 B
-ATOM     5577    C  CG2 ?  VAL      B 142 ?   -1.161  -24.763  -29.999   0.00  0 142 B
-ATOM     5565    C    C ?  ASN      B 141 ?   -2.956  -27.483  -32.572   0.00  0 141 B
-ATOM     5597    C   CB ?  LEU      B 145 ?    2.747  -25.622  -32.844   0.00  0 145 B
+ATOM    5594     C   CA ?  LEU      B 145 ?    3.184  -26.467  -34.049   0.00  0 145 B
+ATOM    5592     O   OG ?  SER      B 144 ?    0.245  -29.142  -36.441   0.00  0 144 B
+ATOM    5593     N    N ?  LEU      B 145 ?    2.544  -27.794  -34.010   0.00  0 145 B
+ATOM    5566     O    O ?  ASN      B 141 ?   -2.294  -27.704  -33.584  -1.48  0 141 B
+ATOM    5619     O  OD2 ?  ASP      B 148 ?    2.626  -26.788  -40.642  -0.54  0 148 B
+ATOM    5618     O  OD1 ?  ASP      B 148 ?    2.884  -28.056  -38.864  -0.14  0 148 B
+ATOM    5617     C   CG ?  ASP      B 148 ?    3.073  -26.990  -39.487   0.00  0 148 B
+ATOM    5569     O  OD1 ?  ASN      B 141 ?   -4.842  -26.547  -35.164   0.00  0 141 B
+ATOM    7141     O    O ?  SER      B 344 ?   -3.482  -21.358  -33.935  -2.14  0 344 B
+ATOM    5568     C   CG ?  ASN      B 141 ?   -5.184  -25.776  -34.265   0.00  0 141 B
+ATOM    7147     O    O ?  SER      B 345 ?   -3.634  -21.199  -37.626   0.00  0 345 B
+ATOM    5570     N  ND2 ?  ASN      B 141 ?   -5.666  -24.560  -34.507   0.00  0 141 B
+ATOM    7170     C  CG1 ?  ILE      B 348 ?    2.294  -21.559  -37.202   0.00  0 348 B
+ATOM    7164     C  CG2 ?  VAL      B 347 ?   -1.001  -20.621  -33.165   0.00  0 347 B
+ATOM    5599     C  CD1 ?  LEU      B 145 ?    2.188  -23.274  -33.525   0.00  0 145 B
+ATOM    5616     C   CB ?  ASP      B 148 ?    3.858  -25.881  -38.802   0.00  0 148 B
+ATOM    7172     C  CD1 ?  ILE      B 348 ?    2.187  -22.767  -38.102   0.00  0 348 B
+ATOM    5572     C   CA ?  VAL      B 142 ?   -0.969  -26.950  -31.221   0.00  0 142 B
+ATOM    5577     C  CG2 ?  VAL      B 142 ?   -1.161  -24.763  -29.999   0.00  0 142 B
+ATOM    5565     C    C ?  ASN      B 141 ?   -2.956  -27.483  -32.572   0.00  0 141 B
+ATOM    5597     C   CB ?  LEU      B 145 ?    2.747  -25.622  -32.844   0.00  0 145 B
 # 

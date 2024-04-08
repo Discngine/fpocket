@@ -15,7 +15,7 @@ Information about the pocket   220:
 6  - Hydrophobicity Score              : 9.8182
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.3636
-9  - Pocket volume (Monte Carlo)       : 382.7351
+9  - Pocket volume (Monte Carlo)       : 381.9785
 10  -Pocket volume (convex hull)       : 35.6884
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 17.5789

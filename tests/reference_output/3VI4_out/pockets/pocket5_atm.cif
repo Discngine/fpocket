@@ -15,7 +15,7 @@ Information about the pocket     5:
 6  - Hydrophobicity Score              : 25.7500
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.8750
-9  - Pocket volume (Monte Carlo)       : 93.2831
+9  - Pocket volume (Monte Carlo)       : 93.4284
 10  -Pocket volume (convex hull)       : 1.9808
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7791    C   CB ?  PHE      B 430 ?   20.935   -6.160  -29.982   0.00  0 430 B
-ATOM     7798    N    N ?  THR      B 431 ?   22.383   -7.628  -27.550  -2.19  0 431 B
-ATOM     5401    O   OH ?  TYR      B 121 ?   24.489  -11.585  -32.001  -1.07  0 121 B
-ATOM     7810    C   CG ?  GLU      B 432 ?   25.822   -6.377  -31.175   0.00  0 432 B
-ATOM     7794    C  CD2 ?  PHE      B 430 ?   19.790   -7.423  -31.835   0.00  0 430 B
-ATOM     7813    O  OE2 ?  GLU      B 432 ?   25.460   -6.875  -33.472  -1.07  0 432 B
-ATOM     5399    C  CE2 ?  TYR      B 121 ?   22.368  -12.528  -32.598   0.00  0 121 B
-ATOM     7788    C   CA ?  PHE      B 430 ?   20.401   -6.963  -28.789   0.00  0 430 B
-ATOM     6404    C   CA ?  VAL      B 250 ?   21.152  -14.277  -29.449   0.00  0 250 B
-ATOM     6398    O    O ?  ASN      B 249 ?   23.769  -14.175  -28.439   0.00  0 249 B
-ATOM     7803    O  OG1 ?  THR      B 431 ?   24.725   -9.513  -27.088  -3.21  0 431 B
-ATOM     6406    O    O ?  VAL      B 250 ?   19.500  -13.123  -28.164   0.00  0 250 B
-ATOM     6405    C    C ?  VAL      B 250 ?   19.848  -13.503  -29.279   0.00  0 250 B
-ATOM     7804    C  CG2 ?  THR      B 431 ?   22.817   -9.813  -25.625   0.00  0 431 B
-ATOM     7786    O    O ?  GLY      B 429 ?   18.263   -8.645  -28.022  -1.07  0 429 B
-ATOM     6410    N    N ?  THR      B 251 ?   19.131  -13.252  -30.364   0.00  0 251 B
-ATOM     6416    C  CG2 ?  THR      B 251 ?   18.061  -10.986  -32.144   0.00  0 251 B
+ATOM    7791     C   CB ?  PHE      B 430 ?   20.935   -6.160  -29.982   0.00  0 430 B
+ATOM    7798     N    N ?  THR      B 431 ?   22.383   -7.628  -27.550  -2.19  0 431 B
+ATOM    5401     O   OH ?  TYR      B 121 ?   24.489  -11.585  -32.001  -1.07  0 121 B
+ATOM    7810     C   CG ?  GLU      B 432 ?   25.822   -6.377  -31.175   0.00  0 432 B
+ATOM    7794     C  CD2 ?  PHE      B 430 ?   19.790   -7.423  -31.835   0.00  0 430 B
+ATOM    7813     O  OE2 ?  GLU      B 432 ?   25.460   -6.875  -33.472  -1.07  0 432 B
+ATOM    5399     C  CE2 ?  TYR      B 121 ?   22.368  -12.528  -32.598   0.00  0 121 B
+ATOM    7788     C   CA ?  PHE      B 430 ?   20.401   -6.963  -28.789   0.00  0 430 B
+ATOM    6404     C   CA ?  VAL      B 250 ?   21.152  -14.277  -29.449   0.00  0 250 B
+ATOM    6398     O    O ?  ASN      B 249 ?   23.769  -14.175  -28.439   0.00  0 249 B
+ATOM    7803     O  OG1 ?  THR      B 431 ?   24.725   -9.513  -27.088  -3.21  0 431 B
+ATOM    6406     O    O ?  VAL      B 250 ?   19.500  -13.123  -28.164   0.00  0 250 B
+ATOM    6405     C    C ?  VAL      B 250 ?   19.848  -13.503  -29.279   0.00  0 250 B
+ATOM    7804     C  CG2 ?  THR      B 431 ?   22.817   -9.813  -25.625   0.00  0 431 B
+ATOM    7786     O    O ?  GLY      B 429 ?   18.263   -8.645  -28.022  -1.07  0 429 B
+ATOM    6410     N    N ?  THR      B 251 ?   19.131  -13.252  -30.364   0.00  0 251 B
+ATOM    6416     C  CG2 ?  THR      B 251 ?   18.061  -10.986  -32.144   0.00  0 251 B
 # 

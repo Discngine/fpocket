@@ -260,11 +260,13 @@ float pte_get_enegativity(const char *symbol)
 */
 char *pte_get_element_from_number(int atomicnumber)
 {
+	
 	char *tmp=malloc(sizeof(char)*3) ;
 	if(atomicnumber>0 && atomicnumber<112){
 	
 		tmp[0] = ST_pte_symbol[atomicnumber][0] ;
 		tmp[1] = ST_pte_symbol[atomicnumber][1] ;
+		tmp[2]='\0';
 		return tmp;
 	} else {
 		tmp[0]='-';

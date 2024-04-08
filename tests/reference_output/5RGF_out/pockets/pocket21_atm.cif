@@ -15,7 +15,7 @@ Information about the pocket    21:
 6  - Hydrophobicity Score              : -14.0000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 2.2000
-9  - Pocket volume (Monte Carlo)       : 160.4786
+9  - Pocket volume (Monte Carlo)       : 163.5500
 10  -Pocket volume (convex hull)       : 1.0499
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8235    O    O ?  ASP      B 179 ?  -28.202    5.816   16.617   0.00  0 177 B
-ATOM     8860    C   CA ?  GLY      B 219 ?  -30.768    4.795   19.217   0.00  0 217 B
-ATOM     8828    O    O ?  GLN      B 216 ?  -27.407    5.136   21.327  -1.07  0 214 B
-ATOM     8248    C   CB ?  SER      B 180 ?  -29.572    9.142   15.455   0.00  0 178 B
-ATOM     8236    C   CB ?  ASP      B 179 ?  -25.321    6.412   16.751   0.00  0 177 B
-ATOM     8833    N  NE2 ?  GLN      B 216 ?  -24.977   10.854   21.275  -1.01  0 214 B
-ATOM     8234    C    C ?  ASP      B 179 ?  -27.566    6.356   15.707   0.00  0 177 B
-ATOM     8830    C   CG ?  GLN      B 216 ?  -25.746    8.925   22.496   0.00  0 214 B
-ATOM     8831    C   CD ?  GLN      B 216 ?  -24.682    9.626   21.675   0.00  0 214 B
-ATOM     8829    C   CB ?  GLN      B 216 ?  -25.805    7.428   22.277   0.00  0 214 B
-ATOM     8826    C   CA ?  GLN      B 216 ?  -26.982    6.769   23.009   0.00  0 214 B
-ATOM     8859    N    N ?  GLY      B 219 ?  -30.546    4.361   20.586  -0.84  0 217 B
-ATOM     8821    O    O ?  GLY      B 215 ?  -29.029    6.827   24.842   0.00  0 213 B
+ATOM    8235     O    O ?  ASP      B 179 ?  -28.202    5.816   16.617   0.00  0 177 B
+ATOM    8860     C   CA ?  GLY      B 219 ?  -30.768    4.795   19.217   0.00  0 217 B
+ATOM    8828     O    O ?  GLN      B 216 ?  -27.407    5.136   21.327  -1.07  0 214 B
+ATOM    8248     C   CB ?  SER      B 180 ?  -29.572    9.142   15.455   0.00  0 178 B
+ATOM    8236     C   CB ?  ASP      B 179 ?  -25.321    6.412   16.751   0.00  0 177 B
+ATOM    8833     N  NE2 ?  GLN      B 216 ?  -24.977   10.854   21.275  -1.01  0 214 B
+ATOM    8234     C    C ?  ASP      B 179 ?  -27.566    6.356   15.707   0.00  0 177 B
+ATOM    8830     C   CG ?  GLN      B 216 ?  -25.746    8.925   22.496   0.00  0 214 B
+ATOM    8831     C   CD ?  GLN      B 216 ?  -24.682    9.626   21.675   0.00  0 214 B
+ATOM    8829     C   CB ?  GLN      B 216 ?  -25.805    7.428   22.277   0.00  0 214 B
+ATOM    8826     C   CA ?  GLN      B 216 ?  -26.982    6.769   23.009   0.00  0 214 B
+ATOM    8859     N    N ?  GLY      B 219 ?  -30.546    4.361   20.586  -0.84  0 217 B
+ATOM    8821     O    O ?  GLY      B 215 ?  -29.029    6.827   24.842   0.00  0 213 B
 # 

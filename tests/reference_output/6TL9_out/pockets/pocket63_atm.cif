@@ -15,7 +15,7 @@ Information about the pocket    63:
 6  - Hydrophobicity Score              : 35.0000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 275.3522
+9  - Pocket volume (Monte Carlo)       : 278.1442
 10  -Pocket volume (convex hull)       : 5.6436
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6887    O    O ?  LEU      G 78 ?  -45.361  -35.872  -20.035  -3.21  0 216 G
-ATOM     6906    N    N ?  GLU      G 80 ?  -42.671  -33.370  -17.984  -1.09  0 218 G
-ATOM     6895    O    O ?  TRP      G 79 ?  -44.645  -32.750  -18.873  -0.14  0 217 G
-ATOM     6907    C   CA ?  GLU      G 80 ?  -42.905  -32.715  -16.699   0.00  0 218 G
-ATOM     6888    C   CB ?  LEU      G 78 ?  -47.627  -33.948  -21.171   0.00  0 216 G
-ATOM     6805    O    O ?  SER      G 69 ?  -48.072  -37.670  -19.410  -2.14  0 207 G
-ATOM     6909    O    O ?  GLU      G 80 ?  -44.063  -30.725  -16.055  -0.54  0 218 G
-ATOM     6474    C  CH2 ?  TRP      G 27 ?  -43.771  -37.599  -13.851   0.00  0 165 G
-ATOM     6507    N  NE2 ?  GLN      G 31 ?  -43.091  -35.028  -11.571  -2.77  0 169 G
-ATOM     6807    O   OG ?  SER      G 69 ?  -47.104  -38.217  -16.359   0.00  0 207 G
-ATOM     6793    O    O ?  GLY      G 67 ?  -41.989  -36.465  -18.579  -1.07  0 205 G
-ATOM     6473    C  CZ3 ?  TRP      G 27 ?  -44.224  -38.123  -12.640   0.00  0 165 G
-ATOM     6890    C  CD1 ?  LEU      G 78 ?  -49.832  -32.804  -21.106   0.00  0 216 G
-ATOM     6911    C   CG ?  GLU      G 80 ?  -41.544  -34.398  -15.374   0.00  0 218 G
+ATOM    6887     O    O ?  LEU      G 78 ?  -45.361  -35.872  -20.035  -3.21  0 216 G
+ATOM    6906     N    N ?  GLU      G 80 ?  -42.671  -33.370  -17.984  -1.09  0 218 G
+ATOM    6895     O    O ?  TRP      G 79 ?  -44.645  -32.750  -18.873  -0.14  0 217 G
+ATOM    6907     C   CA ?  GLU      G 80 ?  -42.905  -32.715  -16.699   0.00  0 218 G
+ATOM    6888     C   CB ?  LEU      G 78 ?  -47.627  -33.948  -21.171   0.00  0 216 G
+ATOM    6805     O    O ?  SER      G 69 ?  -48.072  -37.670  -19.410  -2.14  0 207 G
+ATOM    6909     O    O ?  GLU      G 80 ?  -44.063  -30.725  -16.055  -0.54  0 218 G
+ATOM    6474     C  CH2 ?  TRP      G 27 ?  -43.771  -37.599  -13.851   0.00  0 165 G
+ATOM    6507     N  NE2 ?  GLN      G 31 ?  -43.091  -35.028  -11.571  -2.77  0 169 G
+ATOM    6807     O   OG ?  SER      G 69 ?  -47.104  -38.217  -16.359   0.00  0 207 G
+ATOM    6793     O    O ?  GLY      G 67 ?  -41.989  -36.465  -18.579  -1.07  0 205 G
+ATOM    6473     C  CZ3 ?  TRP      G 27 ?  -44.224  -38.123  -12.640   0.00  0 165 G
+ATOM    6890     C  CD1 ?  LEU      G 78 ?  -49.832  -32.804  -21.106   0.00  0 216 G
+ATOM    6911     C   CG ?  GLU      G 80 ?  -41.544  -34.398  -15.374   0.00  0 218 G
 # 

@@ -15,7 +15,7 @@ Information about the pocket    61:
 6  - Hydrophobicity Score              : 0.2857
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.8571
-9  - Pocket volume (Monte Carlo)       : 157.0775
+9  - Pocket volume (Monte Carlo)       : 162.5152
 10  -Pocket volume (convex hull)       : 1.3916
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM       27    O    O ?  MET    Axp 10 ?    8.442   -1.429   22.951  -2.55  0 237 A
-ATOM       46    C   CG ?  ARG    Axp 12 ?   11.949   -3.180   26.495   0.00  0 239 A
-ATOM      550    C   CB ?  ARG    Axp 80 ?    4.642    0.331   29.133   0.00  0 307 A
-ATOM       39    O  OE1 ?  GLU    Axp 11 ?    7.948   -5.643   24.768  -2.28  0 238 A
-ATOM       22    O  OE1 ?  GLU    Axp 9 ?    5.508    1.322   24.704  -2.55  0 236 A
-ATOM       40    O  OE2 ?  GLU    Axp 11 ?    6.205   -5.064   23.520   0.00  0 238 A
-ATOM      551    N    N ?  GLU    Axp 81 ?    7.225    0.743   30.598   0.00  0 308 A
-ATOM      555    C   CB ?  GLU    Axp 81 ?    8.706   -0.883   31.688   0.00  0 308 A
-ATOM      537    C   CB ?  CYS    Axp 78 ?   10.270    1.893   25.042   0.00  0 305 A
-ATOM      546    N    N ?  ARG    Axp 80 ?    5.851    2.435   28.620   0.00  0 307 A
-ATOM      554    O    O ?  GLU    Axp 81 ?    9.803    1.727   30.115  -6.43  0 308 A
-ATOM      535    C    C ?  CYS    Axp 78 ?    8.643    3.375   26.285   0.00  0 305 A
-ATOM      534    C   CA ?  CYS    Axp 78 ?    8.967    2.720   24.953   0.00  0 305 A
+ATOM    27       O    O ?  MET    Axp 10 ?    8.442   -1.429   22.951  -2.55  0 237 A
+ATOM    46       C   CG ?  ARG    Axp 12 ?   11.949   -3.180   26.495   0.00  0 239 A
+ATOM    550      C   CB ?  ARG    Axp 80 ?    4.642    0.331   29.133   0.00  0 307 A
+ATOM    39       O  OE1 ?  GLU    Axp 11 ?    7.948   -5.643   24.768  -2.28  0 238 A
+ATOM    22       O  OE1 ?  GLU    Axp 9 ?    5.508    1.322   24.704  -2.55  0 236 A
+ATOM    40       O  OE2 ?  GLU    Axp 11 ?    6.205   -5.064   23.520   0.00  0 238 A
+ATOM    551      N    N ?  GLU    Axp 81 ?    7.225    0.743   30.598   0.00  0 308 A
+ATOM    555      C   CB ?  GLU    Axp 81 ?    8.706   -0.883   31.688   0.00  0 308 A
+ATOM    537      C   CB ?  CYS    Axp 78 ?   10.270    1.893   25.042   0.00  0 305 A
+ATOM    546      N    N ?  ARG    Axp 80 ?    5.851    2.435   28.620   0.00  0 307 A
+ATOM    554      O    O ?  GLU    Axp 81 ?    9.803    1.727   30.115  -6.43  0 308 A
+ATOM    535      C    C ?  CYS    Axp 78 ?    8.643    3.375   26.285   0.00  0 305 A
+ATOM    534      C   CA ?  CYS    Axp 78 ?    8.967    2.720   24.953   0.00  0 305 A
 # 

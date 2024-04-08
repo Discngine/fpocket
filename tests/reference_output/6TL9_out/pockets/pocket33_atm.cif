@@ -15,7 +15,7 @@ Information about the pocket    33:
 6  - Hydrophobicity Score              : 34.3750
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 104.6919
+9  - Pocket volume (Monte Carlo)       : 103.0647
 10  -Pocket volume (convex hull)       : 1.2347
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 16.0000
@@ -39,19 +39,19 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3617    C   CG ?  PRO      D 63 ?   -7.614  -63.799  -42.089   0.00  0 201 D
-ATOM     4046    C   CG ?  GLU      D 116 ?   -8.172  -71.409  -43.933   0.00  0 254 D
-ATOM     3976    C  CE1 ?  TYR      D 107 ?   -8.540  -68.204  -46.166   0.00  0 245 D
-ATOM     1841    O    O ?  THR      B 99 ?   -4.356  -66.113  -42.663  -5.36  0 237 B
-ATOM     4089    C   CB ?  ALA      D 122 ?  -10.947  -65.647  -40.139   0.00  0 260 D
-ATOM     3974    C  CD1 ?  TYR      D 107 ?   -9.867  -67.838  -45.982   0.00  0 245 D
-ATOM     1842    C   CB ?  THR      B 99 ?   -3.964  -68.123  -40.554   0.00  0 237 B
-ATOM     1838    N    N ?  THR      B 99 ?   -3.939  -65.824  -39.694  -1.09  0 237 B
-ATOM     4083    O    O ?  ALA      D 121 ?   -8.825  -66.526  -37.592  -4.29  0 259 D
-ATOM     4076    C   CB ?  LEU      D 120 ?   -8.885  -71.067  -39.112   0.00  0 258 D
-ATOM     4078    C  CD1 ?  LEU      D 120 ?   -7.137  -72.124  -40.577   0.00  0 258 D
-ATOM     3643    C  CH2 ?  TRP      D 65 ?  -12.371  -69.805  -42.535   0.00  0 203 D
-ATOM     3641    C  CZ2 ?  TRP      D 65 ?  -12.587  -69.370  -41.254   0.00  0 203 D
-ATOM     3616    C   CB ?  PRO      D 63 ?   -8.378  -63.846  -43.382   0.00  0 201 D
-ATOM     3978    C   CZ ?  TYR      D 107 ?   -7.582  -67.234  -46.374   0.00  0 245 D
+ATOM    3617     C   CG ?  PRO      D 63 ?   -7.614  -63.799  -42.089   0.00  0 201 D
+ATOM    4046     C   CG ?  GLU      D 116 ?   -8.172  -71.409  -43.933   0.00  0 254 D
+ATOM    3976     C  CE1 ?  TYR      D 107 ?   -8.540  -68.204  -46.166   0.00  0 245 D
+ATOM    1841     O    O ?  THR      B 99 ?   -4.356  -66.113  -42.663  -5.36  0 237 B
+ATOM    4089     C   CB ?  ALA      D 122 ?  -10.947  -65.647  -40.139   0.00  0 260 D
+ATOM    3974     C  CD1 ?  TYR      D 107 ?   -9.867  -67.838  -45.982   0.00  0 245 D
+ATOM    1842     C   CB ?  THR      B 99 ?   -3.964  -68.123  -40.554   0.00  0 237 B
+ATOM    1838     N    N ?  THR      B 99 ?   -3.939  -65.824  -39.694  -1.09  0 237 B
+ATOM    4083     O    O ?  ALA      D 121 ?   -8.825  -66.526  -37.592  -4.29  0 259 D
+ATOM    4076     C   CB ?  LEU      D 120 ?   -8.885  -71.067  -39.112   0.00  0 258 D
+ATOM    4078     C  CD1 ?  LEU      D 120 ?   -7.137  -72.124  -40.577   0.00  0 258 D
+ATOM    3643     C  CH2 ?  TRP      D 65 ?  -12.371  -69.805  -42.535   0.00  0 203 D
+ATOM    3641     C  CZ2 ?  TRP      D 65 ?  -12.587  -69.370  -41.254   0.00  0 203 D
+ATOM    3616     C   CB ?  PRO      D 63 ?   -8.378  -63.846  -43.382   0.00  0 201 D
+ATOM    3978     C   CZ ?  TYR      D 107 ?   -7.582  -67.234  -46.374   0.00  0 245 D
 # 

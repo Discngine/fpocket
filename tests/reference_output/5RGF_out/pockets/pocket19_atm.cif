@@ -15,7 +15,7 @@ Information about the pocket    19:
 6  - Hydrophobicity Score              : -27.6667
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 2.3333
-9  - Pocket volume (Monte Carlo)       : 155.2369
+9  - Pocket volume (Monte Carlo)       : 161.7608
 10  -Pocket volume (convex hull)       : 2.6173
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 4.0000
@@ -41,17 +41,17 @@ _atom_site.auth_seq_id
 _atom_site.auth_asym_id
 ATOM    10034    O  OD1 ?  ASN      B 289 ?   -6.223   -2.520   39.611   0.00  0 287 B
 ATOM    10035    N  ND2 ?  ASN      B 289 ?   -8.329   -2.481   40.390  -1.26  0 287 B
-ATOM     4868    O  OD2 ?  ASP      A 287 ?   -4.251    4.273   41.950   0.00  0 285 A
-ATOM     4887    N  ND2 ?  ASN      A 289 ?   -9.151    4.026   39.749   0.00  0 287 A
-ATOM     4886    O  OD1 ?  ASN      A 289 ?   -8.992    3.725   37.531  -2.95  0 287 A
-ATOM     4885    C   CG ?  ASN      A 289 ?   -8.618    4.283   38.562   0.00  0 287 A
+ATOM    4868     O  OD2 ?  ASP      A 287 ?   -4.251    4.273   41.950   0.00  0 285 A
+ATOM    4887     N  ND2 ?  ASN      A 289 ?   -9.151    4.026   39.749   0.00  0 287 A
+ATOM    4886     O  OD1 ?  ASN      A 289 ?   -8.992    3.725   37.531  -2.95  0 287 A
+ATOM    4885     C   CG ?  ASN      A 289 ?   -8.618    4.283   38.562   0.00  0 287 A
 ATOM    10023    C    C ?  GLY      B 288 ?   -7.019   -1.746   35.968   0.00  0 286 B
-ATOM     4875    C    C ?  GLY      A 288 ?   -5.597    2.939   36.623   0.00  0 286 A
-ATOM     4866    C   CG ?  ASP      A 287 ?   -3.799    4.057   40.805   0.00  0 285 A
-ATOM     4865    C   CB ?  ASP      A 287 ?   -2.785    2.922   40.672   0.00  0 285 A
-ATOM     4873    N    N ?  GLY      A 288 ?   -3.772    2.031   38.059  -2.19  0 286 A
-ATOM     4880    N    N ?  ASN      A 289 ?   -5.762    3.874   37.560   0.00  0 287 A
-ATOM     4874    C   CA ?  GLY      A 288 ?   -4.594    1.838   36.883   0.00  0 286 A
+ATOM    4875     C    C ?  GLY      A 288 ?   -5.597    2.939   36.623   0.00  0 286 A
+ATOM    4866     C   CG ?  ASP      A 287 ?   -3.799    4.057   40.805   0.00  0 285 A
+ATOM    4865     C   CB ?  ASP      A 287 ?   -2.785    2.922   40.672   0.00  0 285 A
+ATOM    4873     N    N ?  GLY      A 288 ?   -3.772    2.031   38.059  -2.19  0 286 A
+ATOM    4880     N    N ?  ASN      A 289 ?   -5.762    3.874   37.560   0.00  0 287 A
+ATOM    4874     C   CA ?  GLY      A 288 ?   -4.594    1.838   36.883   0.00  0 286 A
 ATOM    10013    C   CB ?  ASP      B 287 ?  -11.934   -1.683   35.836   0.00  0 285 B
 ATOM    10022    C   CA ?  GLY      B 288 ?   -7.746   -0.641   35.233   0.00  0 286 B
 ATOM    10016    O  OD2 ?  ASP      B 287 ?  -12.252   -3.079   37.739  -0.95  0 285 B

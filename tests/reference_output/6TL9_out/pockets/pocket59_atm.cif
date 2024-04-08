@@ -15,7 +15,7 @@ Information about the pocket    59:
 6  - Hydrophobicity Score              : 25.8333
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 408.0048
+9  - Pocket volume (Monte Carlo)       : 412.0104
 10  -Pocket volume (convex hull)       : 33.1848
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,29 +39,29 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      551    O    O ?  ARG      A 70 ?   24.557  -17.581  -45.427  -1.07  0 208 A
-ATOM      546    C   CB ?  SER      A 69 ?   26.299  -22.098  -44.579   0.00  0 207 A
-ATOM      547    O   OG ?  SER      A 69 ?   27.674  -21.882  -44.326   0.00  0 207 A
-ATOM      821    O    O ?  SER      A 102 ?   23.505  -17.963  -39.875   0.00  0 240 A
-ATOM      825    C   CA ?  GLY      A 103 ?   22.915  -16.812  -42.343   0.00  0 241 A
-ATOM      565    C   CD ?  ARG      A 71 ?   26.802  -12.673  -43.156   0.00  0 209 A
-ATOM      569    N  NH2 ?  ARG      A 71 ?   24.430  -13.234  -41.706  -2.19  0 209 A
-ATOM      560    C   CA ?  ARG      A 71 ?   25.717  -15.009  -45.316   0.00  0 209 A
-ATOM      559    N    N ?  ARG      A 71 ?   26.163  -16.135  -46.133   0.00  0 209 A
-ATOM      563    C   CB ?  ARG      A 71 ?   26.739  -13.862  -45.390   0.00  0 209 A
-ATOM      647    C   CA ?  GLU      A 80 ?   32.930  -25.285  -44.327   0.00  0 218 A
-ATOM      635    O    O ?  TRP      A 79 ?   32.691  -23.855  -46.718  -4.02  0 217 A
-ATOM      649    O    O ?  GLU      A 80 ?   34.917  -24.019  -44.002  -0.95  0 218 A
-ATOM      211    C  CE3 ?  TRP      A 27 ?   26.878  -23.626  -39.622   0.00  0 165 A
-ATOM      213    C  CZ3 ?  TRP      A 27 ?   28.138  -23.437  -40.149   0.00  0 165 A
-ATOM      941    S   SG ?  CYS      A 118 ?   22.537  -20.819  -41.356   0.00  0 256 A
-ATOM      627    O    O ?  LEU      A 78 ?   29.500  -23.326  -47.728  -1.07  0 216 A
-ATOM      628    C   CB ?  LEU      A 78 ?   31.235  -21.237  -49.335   0.00  0 216 A
-ATOM      549    C   CA ?  ARG      A 70 ?   26.130  -18.435  -47.017   0.00  0 208 A
-ATOM      550    C    C ?  ARG      A 70 ?   25.545  -17.339  -46.125   0.00  0 208 A
-ATOM      214    C  CH2 ?  TRP      A 27 ?   28.548  -24.115  -41.297   0.00  0 165 A
-ATOM      247    N  NE2 ?  GLN      A 31 ?   31.332  -24.343  -39.145  -3.03  0 169 A
-ATOM      840    S   SG ?  CYS      A 105 ?   23.552  -22.530  -41.805   0.00  0 243 A
-ATOM      545    O    O ?  SER      A 69 ?   27.536  -20.880  -47.360  -2.14  0 207 A
-ATOM      630    C  CD1 ?  LEU      A 78 ?   32.301  -19.015  -49.715   0.00  0 216 A
+ATOM    551      O    O ?  ARG      A 70 ?   24.557  -17.581  -45.427  -1.07  0 208 A
+ATOM    546      C   CB ?  SER      A 69 ?   26.299  -22.098  -44.579   0.00  0 207 A
+ATOM    547      O   OG ?  SER      A 69 ?   27.674  -21.882  -44.326   0.00  0 207 A
+ATOM    821      O    O ?  SER      A 102 ?   23.505  -17.963  -39.875   0.00  0 240 A
+ATOM    825      C   CA ?  GLY      A 103 ?   22.915  -16.812  -42.343   0.00  0 241 A
+ATOM    565      C   CD ?  ARG      A 71 ?   26.802  -12.673  -43.156   0.00  0 209 A
+ATOM    569      N  NH2 ?  ARG      A 71 ?   24.430  -13.234  -41.706  -2.19  0 209 A
+ATOM    560      C   CA ?  ARG      A 71 ?   25.717  -15.009  -45.316   0.00  0 209 A
+ATOM    559      N    N ?  ARG      A 71 ?   26.163  -16.135  -46.133   0.00  0 209 A
+ATOM    563      C   CB ?  ARG      A 71 ?   26.739  -13.862  -45.390   0.00  0 209 A
+ATOM    647      C   CA ?  GLU      A 80 ?   32.930  -25.285  -44.327   0.00  0 218 A
+ATOM    635      O    O ?  TRP      A 79 ?   32.691  -23.855  -46.718  -4.02  0 217 A
+ATOM    649      O    O ?  GLU      A 80 ?   34.917  -24.019  -44.002  -0.95  0 218 A
+ATOM    211      C  CE3 ?  TRP      A 27 ?   26.878  -23.626  -39.622   0.00  0 165 A
+ATOM    213      C  CZ3 ?  TRP      A 27 ?   28.138  -23.437  -40.149   0.00  0 165 A
+ATOM    941      S   SG ?  CYS      A 118 ?   22.537  -20.819  -41.356   0.00  0 256 A
+ATOM    627      O    O ?  LEU      A 78 ?   29.500  -23.326  -47.728  -1.07  0 216 A
+ATOM    628      C   CB ?  LEU      A 78 ?   31.235  -21.237  -49.335   0.00  0 216 A
+ATOM    549      C   CA ?  ARG      A 70 ?   26.130  -18.435  -47.017   0.00  0 208 A
+ATOM    550      C    C ?  ARG      A 70 ?   25.545  -17.339  -46.125   0.00  0 208 A
+ATOM    214      C  CH2 ?  TRP      A 27 ?   28.548  -24.115  -41.297   0.00  0 165 A
+ATOM    247      N  NE2 ?  GLN      A 31 ?   31.332  -24.343  -39.145  -3.03  0 169 A
+ATOM    840      S   SG ?  CYS      A 105 ?   23.552  -22.530  -41.805   0.00  0 243 A
+ATOM    545      O    O ?  SER      A 69 ?   27.536  -20.880  -47.360  -2.14  0 207 A
+ATOM    630      C  CD1 ?  LEU      A 78 ?   32.301  -19.015  -49.715   0.00  0 216 A
 # 

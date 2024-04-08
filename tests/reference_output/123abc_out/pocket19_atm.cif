@@ -15,7 +15,7 @@ Information about the pocket    19:
 6  - Hydrophobicity Score              : 62.1111
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 420.3820
+9  - Pocket volume (Monte Carlo)       : 433.0316
 10  -Pocket volume (convex hull)       : 67.6357
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 28.1176
@@ -39,36 +39,36 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7944    C   CZ ?  TYR    Dxp 222 ?   28.663   18.750   51.374   0.00  0 449 D
-ATOM     7943    C  CE2 ?  TYR    Dxp 222 ?   27.884   19.861   51.731   0.00  0 449 D
-ATOM     7945    O   OH ?  TYR    Dxp 222 ?   28.142   17.449   51.358  -4.29  0 449 D
-ATOM     7647    C   CB ?  ALA    Dxp 185 ?   30.355   15.757   53.617   0.00  0 412 D
-ATOM     7644    C   CA ?  ALA    Dxp 185 ?   31.641   16.003   54.405   0.00  0 412 D
-ATOM     7942    C  CE1 ?  TYR    Dxp 222 ?   29.998   18.906   51.064   0.00  0 449 D
-ATOM     7940    C  CD1 ?  TYR    Dxp 222 ?   30.563   20.141   51.099   0.00  0 449 D
-ATOM     7941    C  CD2 ?  TYR    Dxp 222 ?   28.465   21.119   51.770   0.00  0 449 D
-ATOM     7577    C  CD1 ?  ILE    Dxp 176 ?   37.672   25.382   53.690   0.00  0 403 D
-ATOM     7576    C  CG2 ?  ILE    Dxp 176 ?   36.592   24.562   50.949   0.00  0 403 D
-ATOM     7575    C  CG1 ?  ILE    Dxp 176 ?   38.212   24.231   52.898   0.00  0 403 D
-ATOM     7642    C  CD2 ?  LEU    Dxp 184 ?   36.369   20.233   52.078   0.00  0 411 D
-ATOM     7641    C  CD1 ?  LEU    Dxp 184 ?   34.448   20.808   50.650   0.00  0 411 D
-ATOM     7938    C   CB ?  TYR    Dxp 222 ?   30.486   22.638   51.402   0.00  0 449 D
-ATOM     7934    N    N ?  TYR    Dxp 222 ?   31.202   24.455   49.938  -1.09  0 449 D
-ATOM     7907    O    O ?  LEU    Dxp 218 ?   34.008   27.525   52.271  -0.40  0 445 D
-ATOM     7639    C   CB ?  LEU    Dxp 184 ?   34.244   18.838   52.215   0.00  0 411 D
-ATOM     7939    C   CG ?  TYR    Dxp 222 ?   29.832   21.273   51.448   0.00  0 449 D
-ATOM     7560    C  CE1 ?  PHE    Dxp 174 ?   39.595   17.433   56.140   0.00  0 401 D
-ATOM     7638    O    O ?  LEU    Dxp 184 ?   33.870   17.251   55.188   0.00  0 411 D
-ATOM     7525    N  ND1 ?  HIS    Dxp 169 ?   36.365   20.155   60.429  -1.93  0 396 D
-ATOM     7558    C  CD1 ?  PHE    Dxp 174 ?   39.696   18.611   55.390   0.00  0 401 D
-ATOM     7524    C   CG ?  HIS    Dxp 169 ?   36.743   21.442   60.097   0.00  0 396 D
-ATOM     7527    C  CE1 ?  HIS    Dxp 169 ?   35.170   20.180   60.996   0.00  0 396 D
-ATOM     7528    N  NE2 ?  HIS    Dxp 169 ?   34.778   21.438   61.089   0.00  0 396 D
-ATOM     7526    C  CD2 ?  HIS    Dxp 169 ?   35.750   22.249   60.547   0.00  0 396 D
-ATOM     7637    C    C ?  LEU    Dxp 184 ?   33.727   17.072   53.991   0.00  0 411 D
-ATOM     7523    C   CB ?  HIS    Dxp 169 ?   38.074   21.770   59.468   0.00  0 396 D
-ATOM     7556    C   CB ?  PHE    Dxp 174 ?   40.965   20.182   53.857   0.00  0 401 D
-ATOM     7513    C  CG2 ?  THR    Dxp 167 ?   39.795   26.405   56.782   0.00  0 394 D
-ATOM     7510    O    O ?  THR    Dxp 167 ?   41.927   23.289   56.784   0.00  0 394 D
-ATOM     7517    O    O ?  ALA    Dxp 168 ?   40.187   24.764   60.121  -3.35  0 395 D
+ATOM    7944     C   CZ ?  TYR    Dxp 222 ?   28.663   18.750   51.374   0.00  0 449 D
+ATOM    7943     C  CE2 ?  TYR    Dxp 222 ?   27.884   19.861   51.731   0.00  0 449 D
+ATOM    7945     O   OH ?  TYR    Dxp 222 ?   28.142   17.449   51.358  -4.29  0 449 D
+ATOM    7647     C   CB ?  ALA    Dxp 185 ?   30.355   15.757   53.617   0.00  0 412 D
+ATOM    7644     C   CA ?  ALA    Dxp 185 ?   31.641   16.003   54.405   0.00  0 412 D
+ATOM    7942     C  CE1 ?  TYR    Dxp 222 ?   29.998   18.906   51.064   0.00  0 449 D
+ATOM    7940     C  CD1 ?  TYR    Dxp 222 ?   30.563   20.141   51.099   0.00  0 449 D
+ATOM    7941     C  CD2 ?  TYR    Dxp 222 ?   28.465   21.119   51.770   0.00  0 449 D
+ATOM    7577     C  CD1 ?  ILE    Dxp 176 ?   37.672   25.382   53.690   0.00  0 403 D
+ATOM    7576     C  CG2 ?  ILE    Dxp 176 ?   36.592   24.562   50.949   0.00  0 403 D
+ATOM    7575     C  CG1 ?  ILE    Dxp 176 ?   38.212   24.231   52.898   0.00  0 403 D
+ATOM    7642     C  CD2 ?  LEU    Dxp 184 ?   36.369   20.233   52.078   0.00  0 411 D
+ATOM    7641     C  CD1 ?  LEU    Dxp 184 ?   34.448   20.808   50.650   0.00  0 411 D
+ATOM    7938     C   CB ?  TYR    Dxp 222 ?   30.486   22.638   51.402   0.00  0 449 D
+ATOM    7934     N    N ?  TYR    Dxp 222 ?   31.202   24.455   49.938  -1.09  0 449 D
+ATOM    7907     O    O ?  LEU    Dxp 218 ?   34.008   27.525   52.271  -0.40  0 445 D
+ATOM    7639     C   CB ?  LEU    Dxp 184 ?   34.244   18.838   52.215   0.00  0 411 D
+ATOM    7939     C   CG ?  TYR    Dxp 222 ?   29.832   21.273   51.448   0.00  0 449 D
+ATOM    7560     C  CE1 ?  PHE    Dxp 174 ?   39.595   17.433   56.140   0.00  0 401 D
+ATOM    7638     O    O ?  LEU    Dxp 184 ?   33.870   17.251   55.188   0.00  0 411 D
+ATOM    7525     N  ND1 ?  HIS    Dxp 169 ?   36.365   20.155   60.429  -1.93  0 396 D
+ATOM    7558     C  CD1 ?  PHE    Dxp 174 ?   39.696   18.611   55.390   0.00  0 401 D
+ATOM    7524     C   CG ?  HIS    Dxp 169 ?   36.743   21.442   60.097   0.00  0 396 D
+ATOM    7527     C  CE1 ?  HIS    Dxp 169 ?   35.170   20.180   60.996   0.00  0 396 D
+ATOM    7528     N  NE2 ?  HIS    Dxp 169 ?   34.778   21.438   61.089   0.00  0 396 D
+ATOM    7526     C  CD2 ?  HIS    Dxp 169 ?   35.750   22.249   60.547   0.00  0 396 D
+ATOM    7637     C    C ?  LEU    Dxp 184 ?   33.727   17.072   53.991   0.00  0 411 D
+ATOM    7523     C   CB ?  HIS    Dxp 169 ?   38.074   21.770   59.468   0.00  0 396 D
+ATOM    7556     C   CB ?  PHE    Dxp 174 ?   40.965   20.182   53.857   0.00  0 401 D
+ATOM    7513     C  CG2 ?  THR    Dxp 167 ?   39.795   26.405   56.782   0.00  0 394 D
+ATOM    7510     O    O ?  THR    Dxp 167 ?   41.927   23.289   56.784   0.00  0 394 D
+ATOM    7517     O    O ?  ALA    Dxp 168 ?   40.187   24.764   60.121  -3.35  0 395 D
 # 

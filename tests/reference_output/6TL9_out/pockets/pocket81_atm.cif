@@ -15,7 +15,7 @@ Information about the pocket    81:
 6  - Hydrophobicity Score              : 21.0000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 340.4685
+9  - Pocket volume (Monte Carlo)       : 339.2531
 10  -Pocket volume (convex hull)       : 10.9056
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6278    C   CE ?  MET      G 4 ?  -16.458  -26.211  -10.697   0.00  0 142 G
-ATOM     6264    O    O ?  HIS      G 3 ?  -16.140  -23.820  -14.636  -4.29  0 141 G
-ATOM     8340    O    O ?  ASN      H 131 ?  -10.046  -29.174  -13.800  -3.21  0 269 H
-ATOM     7330    C   CG ?  PRO      H 5 ?  -14.049  -29.680  -13.835   0.00  0 143 H
-ATOM     7331    C   CD ?  PRO      H 5 ?  -14.311  -29.092  -15.175   0.00  0 143 H
-ATOM     7310    O    O ?  HIS      H 3 ?  -13.468  -24.824  -17.203  -4.29  0 141 H
-ATOM     7317    N    N ?  MET      H 4 ?  -12.217  -26.593  -17.820   0.00  0 142 H
-ATOM     8352    C  CD2 ?  LEU      H 132 ?  -11.154  -30.195  -10.661   0.00  0 270 H
-ATOM     8346    C   CA ?  LEU      H 132 ?   -8.598  -28.444  -11.537   0.00  0 270 H
-ATOM     7309    C    C ?  HIS      H 3 ?  -12.419  -25.279  -17.648   0.00  0 141 H
-ATOM     8347    C    C ?  LEU      H 132 ?   -7.662  -27.278  -11.173   0.00  0 270 H
-ATOM     8349    C   CB ?  LEU      H 132 ?   -8.800  -29.363  -10.320   0.00  0 270 H
-ATOM     7307    N    N ?  HIS      H 3 ?  -10.121  -24.973  -18.632  -1.68  0 141 H
-ATOM     8348    O    O ?  LEU      H 132 ?   -7.567  -26.291  -11.904   0.00  0 270 H
-ATOM     7308    C   CA ?  HIS      H 3 ?  -11.302  -24.323  -18.055   0.00  0 141 H
-ATOM     8344    N  ND2 ?  ASN      H 131 ?   -8.560  -27.454  -17.226  -4.79  0 269 H
-ATOM     8343    O  OD1 ?  ASN      H 131 ?   -7.034  -27.820  -15.610   0.00  0 269 H
-ATOM     6268    C  CD2 ?  HIS      G 3 ?  -15.723  -22.703  -10.561   0.00  0 141 G
-ATOM     7318    C   CA ?  MET      H 4 ?  -13.223  -27.606  -17.482   0.00  0 142 H
+ATOM    6278     C   CE ?  MET      G 4 ?  -16.458  -26.211  -10.697   0.00  0 142 G
+ATOM    6264     O    O ?  HIS      G 3 ?  -16.140  -23.820  -14.636  -4.29  0 141 G
+ATOM    8340     O    O ?  ASN      H 131 ?  -10.046  -29.174  -13.800  -3.21  0 269 H
+ATOM    7330     C   CG ?  PRO      H 5 ?  -14.049  -29.680  -13.835   0.00  0 143 H
+ATOM    7331     C   CD ?  PRO      H 5 ?  -14.311  -29.092  -15.175   0.00  0 143 H
+ATOM    7310     O    O ?  HIS      H 3 ?  -13.468  -24.824  -17.203  -4.29  0 141 H
+ATOM    7317     N    N ?  MET      H 4 ?  -12.217  -26.593  -17.820   0.00  0 142 H
+ATOM    8352     C  CD2 ?  LEU      H 132 ?  -11.154  -30.195  -10.661   0.00  0 270 H
+ATOM    8346     C   CA ?  LEU      H 132 ?   -8.598  -28.444  -11.537   0.00  0 270 H
+ATOM    7309     C    C ?  HIS      H 3 ?  -12.419  -25.279  -17.648   0.00  0 141 H
+ATOM    8347     C    C ?  LEU      H 132 ?   -7.662  -27.278  -11.173   0.00  0 270 H
+ATOM    8349     C   CB ?  LEU      H 132 ?   -8.800  -29.363  -10.320   0.00  0 270 H
+ATOM    7307     N    N ?  HIS      H 3 ?  -10.121  -24.973  -18.632  -1.68  0 141 H
+ATOM    8348     O    O ?  LEU      H 132 ?   -7.567  -26.291  -11.904   0.00  0 270 H
+ATOM    7308     C   CA ?  HIS      H 3 ?  -11.302  -24.323  -18.055   0.00  0 141 H
+ATOM    8344     N  ND2 ?  ASN      H 131 ?   -8.560  -27.454  -17.226  -4.79  0 269 H
+ATOM    8343     O  OD1 ?  ASN      H 131 ?   -7.034  -27.820  -15.610   0.00  0 269 H
+ATOM    6268     C  CD2 ?  HIS      G 3 ?  -15.723  -22.703  -10.561   0.00  0 141 G
+ATOM    7318     C   CA ?  MET      H 4 ?  -13.223  -27.606  -17.482   0.00  0 142 H
 # 

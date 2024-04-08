@@ -15,7 +15,7 @@ Information about the pocket    41:
 6  - Hydrophobicity Score              : 49.2500
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 119.7866
+9  - Pocket volume (Monte Carlo)       : 116.1738
 10  -Pocket volume (convex hull)       : 1.0332
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2114    C   CB ?  CYS      C 6 ?  -24.135  -41.625  -44.285   0.00  0 144 C
-ATOM     3148    N    N ?  CYS      D 6 ?  -29.384  -47.886  -43.138  -1.09  0 144 D
-ATOM     3151    O    O ?  CYS      D 6 ?  -28.467  -47.029  -40.670  -3.21  0 144 D
-ATOM     2113    O    O ?  CYS      C 6 ?  -26.196  -42.086  -46.710  -3.21  0 144 C
-ATOM     2166    C   CB ?  TRP      C 12 ?  -24.243  -43.514  -40.281   0.00  0 150 C
-ATOM     3152    C   CB ?  CYS      D 6 ?  -27.186  -48.926  -42.954   0.00  0 144 D
-ATOM     3147    C   CD ?  PRO      D 5 ?  -30.969  -45.001  -44.784   0.00  0 143 D
-ATOM     3204    C   CB ?  TRP      D 12 ?  -25.567  -47.426  -46.721   0.00  0 150 D
-ATOM     3181    O    O ?  TRP      D 10 ?  -22.644  -48.094  -42.046  -2.14  0 148 D
-ATOM     2143    O    O ?  TRP      C 10 ?  -21.500  -45.426  -44.626   0.00  0 148 C
-ATOM     3210    C  CE3 ?  TRP      D 12 ?  -27.092  -44.872  -48.132   0.00  0 150 D
-ATOM     3146    C   CG ?  PRO      D 5 ?  -30.633  -45.531  -46.133   0.00  0 143 D
-ATOM     2108    C   CG ?  PRO      C 5 ?  -28.474  -40.942  -41.866   0.00  0 143 C
-ATOM     2110    N    N ?  CYS      C 6 ?  -26.292  -40.481  -44.425   0.00  0 144 C
-ATOM     2109    C   CD ?  PRO      C 5 ?  -29.511  -40.911  -42.953   0.00  0 143 C
-ATOM     2172    C  CE3 ?  TRP      C 12 ?  -27.211  -44.141  -38.991   0.00  0 150 C
+ATOM    2114     C   CB ?  CYS      C 6 ?  -24.135  -41.625  -44.285   0.00  0 144 C
+ATOM    3148     N    N ?  CYS      D 6 ?  -29.384  -47.886  -43.138  -1.09  0 144 D
+ATOM    3151     O    O ?  CYS      D 6 ?  -28.467  -47.029  -40.670  -3.21  0 144 D
+ATOM    2113     O    O ?  CYS      C 6 ?  -26.196  -42.086  -46.710  -3.21  0 144 C
+ATOM    2166     C   CB ?  TRP      C 12 ?  -24.243  -43.514  -40.281   0.00  0 150 C
+ATOM    3152     C   CB ?  CYS      D 6 ?  -27.186  -48.926  -42.954   0.00  0 144 D
+ATOM    3147     C   CD ?  PRO      D 5 ?  -30.969  -45.001  -44.784   0.00  0 143 D
+ATOM    3204     C   CB ?  TRP      D 12 ?  -25.567  -47.426  -46.721   0.00  0 150 D
+ATOM    3181     O    O ?  TRP      D 10 ?  -22.644  -48.094  -42.046  -2.14  0 148 D
+ATOM    2143     O    O ?  TRP      C 10 ?  -21.500  -45.426  -44.626   0.00  0 148 C
+ATOM    3210     C  CE3 ?  TRP      D 12 ?  -27.092  -44.872  -48.132   0.00  0 150 D
+ATOM    3146     C   CG ?  PRO      D 5 ?  -30.633  -45.531  -46.133   0.00  0 143 D
+ATOM    2108     C   CG ?  PRO      C 5 ?  -28.474  -40.942  -41.866   0.00  0 143 C
+ATOM    2110     N    N ?  CYS      C 6 ?  -26.292  -40.481  -44.425   0.00  0 144 C
+ATOM    2109     C   CD ?  PRO      C 5 ?  -29.511  -40.911  -42.953   0.00  0 143 C
+ATOM    2172     C  CE3 ?  TRP      C 12 ?  -27.211  -44.141  -38.991   0.00  0 150 C
 # 

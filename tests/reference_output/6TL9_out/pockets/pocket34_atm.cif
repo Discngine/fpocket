@@ -15,7 +15,7 @@ Information about the pocket    34:
 6  - Hydrophobicity Score              : 24.3333
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.4444
-9  - Pocket volume (Monte Carlo)       : 283.6141
+9  - Pocket volume (Monte Carlo)       : 280.6323
 10  -Pocket volume (convex hull)       : 10.2799
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1739    C   CG ?  MET      B 86 ?   17.075  -65.865  -26.749   0.00  0 224 B
-ATOM     1729    O    O ?  LEU      B 85 ?   12.825  -67.211  -28.357  -6.83  0 223 B
-ATOM     1748    C   CD ?  PRO      B 87 ?   12.823  -66.673  -24.914   0.00  0 225 B
-ATOM     1735    C   CA ?  MET      B 86 ?   14.584  -65.545  -27.009   0.00  0 224 B
-ATOM     1722    O    O ?  PRO      B 84 ?   15.422  -67.884  -31.254  -5.76  0 222 B
-ATOM     1724    C   CG ?  PRO      B 84 ?   14.692  -71.703  -30.818   0.00  0 222 B
-ATOM     1725    C   CD ?  PRO      B 84 ?   15.867  -71.228  -31.592   0.00  0 222 B
-ATOM     1741    C   CE ?  MET      B 86 ?   19.765  -66.474  -26.583   0.00  0 224 B
-ATOM     1734    N    N ?  MET      B 86 ?   14.395  -65.592  -28.454  -1.09  0 224 B
-ATOM     1390    O    O ?  ILE      B 44 ?   17.636  -61.885  -31.426  -3.21  0 182 B
-ATOM     1686    N  NE1 ?  TRP      B 79 ?   15.720  -65.102  -33.318  -2.19  0 217 B
-ATOM     1401    O  OD1 ?  ASN      B 45 ?   21.028  -64.899  -31.642   0.00  0 183 B
-ATOM     1740    S   SD ?  MET      B 86 ?   18.694  -65.059  -26.814   0.00  0 224 B
-ATOM     1717    C   CB ?  SER      B 83 ?   18.136  -69.985  -34.017   0.00  0 221 B
-ATOM     1718    O   OG ?  SER      B 83 ?   18.150  -68.721  -34.653   0.00  0 221 B
-ATOM     1386    N   NZ ?  LYS      B 43 ?   20.964  -66.764  -34.544  -1.09  0 181 B
+ATOM    1739     C   CG ?  MET      B 86 ?   17.075  -65.865  -26.749   0.00  0 224 B
+ATOM    1729     O    O ?  LEU      B 85 ?   12.825  -67.211  -28.357  -6.83  0 223 B
+ATOM    1748     C   CD ?  PRO      B 87 ?   12.823  -66.673  -24.914   0.00  0 225 B
+ATOM    1735     C   CA ?  MET      B 86 ?   14.584  -65.545  -27.009   0.00  0 224 B
+ATOM    1722     O    O ?  PRO      B 84 ?   15.422  -67.884  -31.254  -5.76  0 222 B
+ATOM    1724     C   CG ?  PRO      B 84 ?   14.692  -71.703  -30.818   0.00  0 222 B
+ATOM    1725     C   CD ?  PRO      B 84 ?   15.867  -71.228  -31.592   0.00  0 222 B
+ATOM    1741     C   CE ?  MET      B 86 ?   19.765  -66.474  -26.583   0.00  0 224 B
+ATOM    1734     N    N ?  MET      B 86 ?   14.395  -65.592  -28.454  -1.09  0 224 B
+ATOM    1390     O    O ?  ILE      B 44 ?   17.636  -61.885  -31.426  -3.21  0 182 B
+ATOM    1686     N  NE1 ?  TRP      B 79 ?   15.720  -65.102  -33.318  -2.19  0 217 B
+ATOM    1401     O  OD1 ?  ASN      B 45 ?   21.028  -64.899  -31.642   0.00  0 183 B
+ATOM    1740     S   SD ?  MET      B 86 ?   18.694  -65.059  -26.814   0.00  0 224 B
+ATOM    1717     C   CB ?  SER      B 83 ?   18.136  -69.985  -34.017   0.00  0 221 B
+ATOM    1718     O   OG ?  SER      B 83 ?   18.150  -68.721  -34.653   0.00  0 221 B
+ATOM    1386     N   NZ ?  LYS      B 43 ?   20.964  -66.764  -34.544  -1.09  0 181 B
 # 

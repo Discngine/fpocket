@@ -15,7 +15,7 @@ Information about the pocket    48:
 6  - Hydrophobicity Score              : 5.1250
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.8750
-9  - Pocket volume (Monte Carlo)       : 367.9894
+9  - Pocket volume (Monte Carlo)       : 367.3858
 10  -Pocket volume (convex hull)       : 21.3709
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6090    N  NE1 ?  TRP    Cxp 251 ?   28.662   59.804   14.394  -6.56  0 478 C
-ATOM     6110    C   CD ?  PRO    Cxp 253 ?   33.519   63.884   16.193   0.00  0 480 C
-ATOM     5561    C  CE1 ?  TYR    Cxp 186 ?   31.366   62.541    8.374   0.00  0 413 C
-ATOM     6103    N  ND2 ?  ASN    Cxp 252 ?   31.388   65.735   16.918   0.00  0 479 C
-ATOM     6088    C  CD1 ?  TRP    Cxp 251 ?   28.689   60.127   15.728   0.00  0 478 C
-ATOM     6101    C   CG ?  ASN    Cxp 252 ?   30.440   65.556   17.813   0.00  0 479 C
-ATOM     6100    C   CB ?  ASN    Cxp 252 ?   30.243   64.137   18.392   0.00  0 479 C
-ATOM     6102    O  OD1 ?  ASN    Cxp 252 ?   29.697   66.476   18.171   0.00  0 479 C
-ATOM     6097    C   CA ?  ASN    Cxp 252 ?   31.350   63.118   17.975   0.00  0 479 C
-ATOM     6085    O    O ?  TRP    Cxp 251 ?   31.838   60.725   16.610  -1.07  0 478 C
-ATOM     5850    O   OH ?  TYR    Cxp 222 ?   29.907   57.157    9.562  -7.50  0 449 C
-ATOM     6093    C  CZ2 ?  TRP    Cxp 251 ?   29.235   57.738   13.068   0.00  0 478 C
-ATOM     5564    O   OH ?  TYR    Cxp 186 ?   29.113   62.297    7.563   0.00  0 413 C
-ATOM     5884    O  OE2 ?  GLU    Cxp 226 ?   26.650   56.552   10.125  -2.28  0 453 C
-ATOM     5529    C   CB ?  GLU    Cxp 182 ?   34.856   61.945   11.786   0.00  0 409 C
-ATOM     5525    N    N ?  GLU    Cxp 182 ?   34.876   59.497   11.935   0.00  0 409 C
-ATOM     5522    C   CB ?  PRO    Cxp 181 ?   33.183   57.514   13.410   0.00  0 408 C
-ATOM     5526    C   CA ?  GLU    Cxp 182 ?   34.920   60.606   11.023   0.00  0 409 C
+ATOM    6090     N  NE1 ?  TRP    Cxp 251 ?   28.662   59.804   14.394  -6.56  0 478 C
+ATOM    6110     C   CD ?  PRO    Cxp 253 ?   33.519   63.884   16.193   0.00  0 480 C
+ATOM    5561     C  CE1 ?  TYR    Cxp 186 ?   31.366   62.541    8.374   0.00  0 413 C
+ATOM    6103     N  ND2 ?  ASN    Cxp 252 ?   31.388   65.735   16.918   0.00  0 479 C
+ATOM    6088     C  CD1 ?  TRP    Cxp 251 ?   28.689   60.127   15.728   0.00  0 478 C
+ATOM    6101     C   CG ?  ASN    Cxp 252 ?   30.440   65.556   17.813   0.00  0 479 C
+ATOM    6100     C   CB ?  ASN    Cxp 252 ?   30.243   64.137   18.392   0.00  0 479 C
+ATOM    6102     O  OD1 ?  ASN    Cxp 252 ?   29.697   66.476   18.171   0.00  0 479 C
+ATOM    6097     C   CA ?  ASN    Cxp 252 ?   31.350   63.118   17.975   0.00  0 479 C
+ATOM    6085     O    O ?  TRP    Cxp 251 ?   31.838   60.725   16.610  -1.07  0 478 C
+ATOM    5850     O   OH ?  TYR    Cxp 222 ?   29.907   57.157    9.562  -7.50  0 449 C
+ATOM    6093     C  CZ2 ?  TRP    Cxp 251 ?   29.235   57.738   13.068   0.00  0 478 C
+ATOM    5564     O   OH ?  TYR    Cxp 186 ?   29.113   62.297    7.563   0.00  0 413 C
+ATOM    5884     O  OE2 ?  GLU    Cxp 226 ?   26.650   56.552   10.125  -2.28  0 453 C
+ATOM    5529     C   CB ?  GLU    Cxp 182 ?   34.856   61.945   11.786   0.00  0 409 C
+ATOM    5525     N    N ?  GLU    Cxp 182 ?   34.876   59.497   11.935   0.00  0 409 C
+ATOM    5522     C   CB ?  PRO    Cxp 181 ?   33.183   57.514   13.410   0.00  0 408 C
+ATOM    5526     C   CA ?  GLU    Cxp 182 ?   34.920   60.606   11.023   0.00  0 409 C
 # 

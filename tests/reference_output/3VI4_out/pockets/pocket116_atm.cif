@@ -15,7 +15,7 @@ Information about the pocket   116:
 6  - Hydrophobicity Score              : -2.3333
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.8333
-9  - Pocket volume (Monte Carlo)       : 193.0952
+9  - Pocket volume (Monte Carlo)       : 194.0704
 10  -Pocket volume (convex hull)       : 4.3541
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4521    N    N ?  ASP      A 596 ?   26.003   38.319   12.313   0.00  0 596 A
-ATOM     4522    C   CA ?  ASP      A 596 ?   26.165   39.752   12.068   0.00  0 596 A
-ATOM     4534    C   CG ?  LYS      A 597 ?   29.534   40.904    8.936   0.00  0 597 A
-ATOM     4515    O    O ?  GLU      A 595 ?   24.297   38.030   10.863   0.00  0 595 A
-ATOM     4516    C   CB ?  GLU      A 595 ?   25.681   35.237   11.132   0.00  0 595 A
-ATOM     4514    C    C ?  GLU      A 595 ?   25.062   37.587   11.723   0.00  0 595 A
-ATOM     4536    C   CE ?  LYS      A 597 ?   29.743   40.201    6.540   0.00  0 597 A
-ATOM     4519    O  OE1 ?  GLU      A 595 ?   25.952   33.192    9.288   0.00  0 595 A
-ATOM     4273    N  ND1 ?  HIS      A 564 ?   31.290   37.684    9.624  -1.09  0 564 A
-ATOM     4523    C    C ?  ASP      A 596 ?   27.647   40.109   12.125   0.00  0 596 A
-ATOM     3826    C  CZ3 ?  TRP      A 509 ?   29.419   34.447   10.632   0.00  0 509 A
-ATOM     3836    N  NE2 ?  GLN      A 510 ?   31.617   34.826    8.034   0.00  0 510 A
-ATOM     4275    C  CE1 ?  HIS      A 564 ?   31.766   37.946    8.393   0.00  0 564 A
-ATOM     4537    N   NZ ?  LYS      A 597 ?   30.708   40.144    5.407   0.00  0 597 A
-ATOM     3835    O  OE1 ?  GLN      A 510 ?   33.667   34.452    7.209   0.00  0 510 A
-ATOM     4276    N  NE2 ?  HIS      A 564 ?   33.101   37.788    8.419  -3.70  0 564 A
-ATOM     3827    C  CH2 ?  TRP      A 509 ?   29.218   33.353    9.772   0.00  0 509 A
+ATOM    4521     N    N ?  ASP      A 596 ?   26.003   38.319   12.313   0.00  0 596 A
+ATOM    4522     C   CA ?  ASP      A 596 ?   26.165   39.752   12.068   0.00  0 596 A
+ATOM    4534     C   CG ?  LYS      A 597 ?   29.534   40.904    8.936   0.00  0 597 A
+ATOM    4515     O    O ?  GLU      A 595 ?   24.297   38.030   10.863   0.00  0 595 A
+ATOM    4516     C   CB ?  GLU      A 595 ?   25.681   35.237   11.132   0.00  0 595 A
+ATOM    4514     C    C ?  GLU      A 595 ?   25.062   37.587   11.723   0.00  0 595 A
+ATOM    4536     C   CE ?  LYS      A 597 ?   29.743   40.201    6.540   0.00  0 597 A
+ATOM    4519     O  OE1 ?  GLU      A 595 ?   25.952   33.192    9.288   0.00  0 595 A
+ATOM    4273     N  ND1 ?  HIS      A 564 ?   31.290   37.684    9.624  -1.09  0 564 A
+ATOM    4523     C    C ?  ASP      A 596 ?   27.647   40.109   12.125   0.00  0 596 A
+ATOM    3826     C  CZ3 ?  TRP      A 509 ?   29.419   34.447   10.632   0.00  0 509 A
+ATOM    3836     N  NE2 ?  GLN      A 510 ?   31.617   34.826    8.034   0.00  0 510 A
+ATOM    4275     C  CE1 ?  HIS      A 564 ?   31.766   37.946    8.393   0.00  0 564 A
+ATOM    4537     N   NZ ?  LYS      A 597 ?   30.708   40.144    5.407   0.00  0 597 A
+ATOM    3835     O  OE1 ?  GLN      A 510 ?   33.667   34.452    7.209   0.00  0 510 A
+ATOM    4276     N  NE2 ?  HIS      A 564 ?   33.101   37.788    8.419  -3.70  0 564 A
+ATOM    3827     C  CH2 ?  TRP      A 509 ?   29.218   33.353    9.772   0.00  0 509 A
 # 

@@ -15,7 +15,7 @@ Information about the pocket    41:
 6  - Hydrophobicity Score              : 34.9091
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.5455
-9  - Pocket volume (Monte Carlo)       : 334.1969
+9  - Pocket volume (Monte Carlo)       : 331.4144
 10  -Pocket volume (convex hull)       : 26.2709
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,27 +39,27 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3468    O    O ?  ALA    Bxp 185 ?   11.091   35.559   32.996  -1.48  0 412 B
-ATOM     1283    C   CZ ?  PHE    Axp 174 ?   13.758   31.239   27.249   0.00  0 401 A
-ATOM     1246    N  ND1 ?  HIS    Axp 169 ?   14.891   34.244   30.609   0.00  0 396 A
-ATOM     1263    C   CB ?  ALA    Axp 172 ?   15.072   29.176   30.433   0.00  0 399 A
-ATOM     1386    C   CG ?  ASN    Axp 187 ?   10.553   36.098   29.143   0.00  0 414 A
-ATOM     1385    C   CB ?  ASN    Axp 187 ?    9.428   35.556   28.277   0.00  0 414 A
-ATOM     3479    C  CE2 ?  TYR    Bxp 186 ?    8.057   32.973   34.745   0.00  0 413 B
-ATOM     3477    C  CD2 ?  TYR    Bxp 186 ?    7.993   34.321   34.340   0.00  0 413 B
-ATOM     1002    N  NH1 ?  ARG    Axp 135 ?    9.413   28.531   25.244   0.00  0 362 A
-ATOM     1406    C  CE1 ?  PHE    Axp 189 ?   10.863   32.584   24.721   0.00  0 416 A
-ATOM     1404    C  CD1 ?  PHE    Axp 189 ?    9.607   32.353   24.110   0.00  0 416 A
-ATOM     1384    O    O ?  ASN    Axp 187 ?    7.917   34.355   26.156   0.00  0 414 A
-ATOM     1243    O    O ?  HIS    Axp 169 ?   16.336   32.072   31.842   0.00  0 396 A
-ATOM     1253    O    O ?  ALA    Axp 170 ?   14.997   30.833   34.207  -3.35  0 397 A
-ATOM     3469    C   CB ?  ALA    Bxp 185 ?   11.719   34.122   35.988   0.00  0 412 B
-ATOM     3481    O   OH ?  TYR    Bxp 186 ?    8.084   31.363   36.537  -4.02  0 413 B
-ATOM     3767    O   OH ?  TYR    Bxp 222 ?   12.714   31.484   37.996  -5.36  0 449 B
-ATOM     3801    O  OE2 ?  GLU    Bxp 226 ?   12.770   27.280   39.032  -3.35  0 453 B
-ATOM     3800    O  OE1 ?  GLU    Bxp 226 ?   14.870   27.408   38.360  -0.81  0 453 B
-ATOM     1248    C  CE1 ?  HIS    Axp 169 ?   14.000   35.208   30.775   0.00  0 396 A
-ATOM     1281    C  CE1 ?  PHE    Axp 174 ?   14.531   32.366   27.594   0.00  0 401 A
-ATOM     1254    C   CB ?  ALA    Axp 170 ?   15.038   33.564   34.528   0.00  0 397 A
-ATOM     1387    O  OD1 ?  ASN    Axp 187 ?   11.727   35.895   28.835  -1.07  0 414 A
+ATOM    3468     O    O ?  ALA    Bxp 185 ?   11.091   35.559   32.996  -1.48  0 412 B
+ATOM    1283     C   CZ ?  PHE    Axp 174 ?   13.758   31.239   27.249   0.00  0 401 A
+ATOM    1246     N  ND1 ?  HIS    Axp 169 ?   14.891   34.244   30.609   0.00  0 396 A
+ATOM    1263     C   CB ?  ALA    Axp 172 ?   15.072   29.176   30.433   0.00  0 399 A
+ATOM    1386     C   CG ?  ASN    Axp 187 ?   10.553   36.098   29.143   0.00  0 414 A
+ATOM    1385     C   CB ?  ASN    Axp 187 ?    9.428   35.556   28.277   0.00  0 414 A
+ATOM    3479     C  CE2 ?  TYR    Bxp 186 ?    8.057   32.973   34.745   0.00  0 413 B
+ATOM    3477     C  CD2 ?  TYR    Bxp 186 ?    7.993   34.321   34.340   0.00  0 413 B
+ATOM    1002     N  NH1 ?  ARG    Axp 135 ?    9.413   28.531   25.244   0.00  0 362 A
+ATOM    1406     C  CE1 ?  PHE    Axp 189 ?   10.863   32.584   24.721   0.00  0 416 A
+ATOM    1404     C  CD1 ?  PHE    Axp 189 ?    9.607   32.353   24.110   0.00  0 416 A
+ATOM    1384     O    O ?  ASN    Axp 187 ?    7.917   34.355   26.156   0.00  0 414 A
+ATOM    1243     O    O ?  HIS    Axp 169 ?   16.336   32.072   31.842   0.00  0 396 A
+ATOM    1253     O    O ?  ALA    Axp 170 ?   14.997   30.833   34.207  -3.35  0 397 A
+ATOM    3469     C   CB ?  ALA    Bxp 185 ?   11.719   34.122   35.988   0.00  0 412 B
+ATOM    3481     O   OH ?  TYR    Bxp 186 ?    8.084   31.363   36.537  -4.02  0 413 B
+ATOM    3767     O   OH ?  TYR    Bxp 222 ?   12.714   31.484   37.996  -5.36  0 449 B
+ATOM    3801     O  OE2 ?  GLU    Bxp 226 ?   12.770   27.280   39.032  -3.35  0 453 B
+ATOM    3800     O  OE1 ?  GLU    Bxp 226 ?   14.870   27.408   38.360  -0.81  0 453 B
+ATOM    1248     C  CE1 ?  HIS    Axp 169 ?   14.000   35.208   30.775   0.00  0 396 A
+ATOM    1281     C  CE1 ?  PHE    Axp 174 ?   14.531   32.366   27.594   0.00  0 401 A
+ATOM    1254     C   CB ?  ALA    Axp 170 ?   15.038   33.564   34.528   0.00  0 397 A
+ATOM    1387     O  OD1 ?  ASN    Axp 187 ?   11.727   35.895   28.835  -1.07  0 414 A
 # 

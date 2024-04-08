@@ -15,7 +15,7 @@ Information about the pocket    14:
 6  - Hydrophobicity Score              : 8.8571
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.7143
-9  - Pocket volume (Monte Carlo)       : 70.6323
+9  - Pocket volume (Monte Carlo)       : 70.2581
 10  -Pocket volume (convex hull)       : 0.3990
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,18 +39,18 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7621    N   NZ ?  LYS      H 40 ?   -3.800  -43.974  -11.651  -1.09  0 178 H
-ATOM     7644    C   CD ?  LYS      H 43 ?   -4.064  -46.212   -8.660   0.00  0 181 H
-ATOM     7952    N    N ?  GLU      H 80 ?   -1.468  -50.746  -12.103   0.00  0 218 H
-ATOM     7961    N    N ?  ASP      H 81 ?    0.557  -48.711  -12.034  -2.19  0 219 H
-ATOM     7966    C   CG ?  ASP      H 81 ?    0.258  -46.736   -9.865   0.00  0 219 H
-ATOM     7619    C   CD ?  LYS      H 40 ?   -4.097  -44.809  -13.963   0.00  0 178 H
-ATOM     7942    C   CB ?  TRP      H 79 ?   -2.505  -50.210   -9.242   0.00  0 217 H
-ATOM     7956    C   CB ?  GLU      H 80 ?   -1.367  -49.824  -14.383   0.00  0 218 H
-ATOM     7957    C   CG ?  GLU      H 80 ?   -2.528  -50.651  -14.889   0.00  0 218 H
-ATOM     7625    O    O ?  LEU      H 41 ?   -7.088  -47.509  -13.982  -1.07  0 179 H
-ATOM     7837    C   CA ?  GLY      H 67 ?   -6.079  -51.908  -13.050   0.00  0 205 H
-ATOM     7959    O  OE1 ?  GLU      H 80 ?   -3.519  -48.833  -16.057  -2.14  0 218 H
-ATOM     7642    C   CB ?  LYS      H 43 ?   -6.194  -46.820   -9.840   0.00  0 181 H
-ATOM     7948    C  CE3 ?  TRP      H 79 ?   -5.751  -50.885   -9.391   0.00  0 217 H
+ATOM    7621     N   NZ ?  LYS      H 40 ?   -3.800  -43.974  -11.651  -1.09  0 178 H
+ATOM    7644     C   CD ?  LYS      H 43 ?   -4.064  -46.212   -8.660   0.00  0 181 H
+ATOM    7952     N    N ?  GLU      H 80 ?   -1.468  -50.746  -12.103   0.00  0 218 H
+ATOM    7961     N    N ?  ASP      H 81 ?    0.557  -48.711  -12.034  -2.19  0 219 H
+ATOM    7966     C   CG ?  ASP      H 81 ?    0.258  -46.736   -9.865   0.00  0 219 H
+ATOM    7619     C   CD ?  LYS      H 40 ?   -4.097  -44.809  -13.963   0.00  0 178 H
+ATOM    7942     C   CB ?  TRP      H 79 ?   -2.505  -50.210   -9.242   0.00  0 217 H
+ATOM    7956     C   CB ?  GLU      H 80 ?   -1.367  -49.824  -14.383   0.00  0 218 H
+ATOM    7957     C   CG ?  GLU      H 80 ?   -2.528  -50.651  -14.889   0.00  0 218 H
+ATOM    7625     O    O ?  LEU      H 41 ?   -7.088  -47.509  -13.982  -1.07  0 179 H
+ATOM    7837     C   CA ?  GLY      H 67 ?   -6.079  -51.908  -13.050   0.00  0 205 H
+ATOM    7959     O  OE1 ?  GLU      H 80 ?   -3.519  -48.833  -16.057  -2.14  0 218 H
+ATOM    7642     C   CB ?  LYS      H 43 ?   -6.194  -46.820   -9.840   0.00  0 181 H
+ATOM    7948     C  CE3 ?  TRP      H 79 ?   -5.751  -50.885   -9.391   0.00  0 217 H
 # 

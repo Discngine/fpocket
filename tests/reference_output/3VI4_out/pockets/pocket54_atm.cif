@@ -15,7 +15,7 @@ Information about the pocket    54:
 6  - Hydrophobicity Score              : 27.1538
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.3077
-9  - Pocket volume (Monte Carlo)       : 252.2896
+9  - Pocket volume (Monte Carlo)       : 250.5261
 10  -Pocket volume (convex hull)       : 26.9085
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1212    N  NE2 ?  GLN      A 161 ?  -23.836  -12.175    0.139   0.00  0 161 A
-ATOM     1149    C   CB ?  SER      A 153 ?  -25.771  -14.637    1.744   0.00  0 153 A
-ATOM     1168    C  CE2 ?  PHE      A 155 ?  -28.851  -13.965   -2.123   0.00  0 155 A
-ATOM     1150    O   OG ?  SER      A 153 ?  -25.129  -14.666    0.474   0.00  0 153 A
-ATOM     1614    O    O ?  VAL      A 213 ?  -30.170   -7.423    6.400  -3.62  0 213 A
-ATOM     1638    O  OE1 ?  GLN      A 216 ?  -26.488   -7.909    5.408  -4.29  0 216 A
-ATOM     1610    C  CD2 ?  LEU      A 212 ?  -30.741  -12.410    3.532   0.00  0 212 A
-ATOM     1655    O  OE1 ?  GLN      A 218 ?  -27.900   -7.064    1.221  -1.21  0 218 A
-ATOM     1604    C   CA ?  LEU      A 212 ?  -29.791  -11.964    6.780   0.00  0 212 A
-ATOM     1124    O    O ?  PRO      A 150 ?  -23.758  -11.361    3.504  -2.55  0 150 A
-ATOM     1598    O    O ?  ASN      A 211 ?  -27.602  -12.055    8.446  -3.21  0 211 A
-ATOM     1119    O    O ?  ALA      A 149 ?  -22.211  -12.972    6.640  -3.21  0 149 A
-ATOM     1137    O    O ?  ARG      A 152 ?  -24.370  -16.069    5.095  -1.07  0 152 A
-ATOM     1603    N    N ?  LEU      A 212 ?  -29.336  -13.147    7.517   0.00  0 212 A
-ATOM     1593    C  CG2 ?  ILE      A 210 ?  -27.845  -16.862    5.483   0.00  0 210 A
-ATOM     1211    O  OE1 ?  GLN      A 161 ?  -23.821  -10.493   -1.329   0.00  0 161 A
-ATOM     1166    C  CD2 ?  PHE      A 155 ?  -27.552  -14.450   -2.223   0.00  0 155 A
-ATOM     1656    N  NE2 ?  GLN      A 218 ?  -26.408   -8.084   -0.137  -2.35  0 218 A
-ATOM     1390    O   OH ?  TYR      A 186 ?  -24.607   -9.881   -4.255  -0.81  0 186 A
-ATOM     1597    C    C ?  ASN      A 211 ?  -28.312  -13.060    8.364   0.00  0 211 A
+ATOM    1212     N  NE2 ?  GLN      A 161 ?  -23.836  -12.175    0.139   0.00  0 161 A
+ATOM    1149     C   CB ?  SER      A 153 ?  -25.771  -14.637    1.744   0.00  0 153 A
+ATOM    1168     C  CE2 ?  PHE      A 155 ?  -28.851  -13.965   -2.123   0.00  0 155 A
+ATOM    1150     O   OG ?  SER      A 153 ?  -25.129  -14.666    0.474   0.00  0 153 A
+ATOM    1614     O    O ?  VAL      A 213 ?  -30.170   -7.423    6.400  -3.62  0 213 A
+ATOM    1638     O  OE1 ?  GLN      A 216 ?  -26.488   -7.909    5.408  -4.29  0 216 A
+ATOM    1610     C  CD2 ?  LEU      A 212 ?  -30.741  -12.410    3.532   0.00  0 212 A
+ATOM    1655     O  OE1 ?  GLN      A 218 ?  -27.900   -7.064    1.221  -1.21  0 218 A
+ATOM    1604     C   CA ?  LEU      A 212 ?  -29.791  -11.964    6.780   0.00  0 212 A
+ATOM    1124     O    O ?  PRO      A 150 ?  -23.758  -11.361    3.504  -2.55  0 150 A
+ATOM    1598     O    O ?  ASN      A 211 ?  -27.602  -12.055    8.446  -3.21  0 211 A
+ATOM    1119     O    O ?  ALA      A 149 ?  -22.211  -12.972    6.640  -3.21  0 149 A
+ATOM    1137     O    O ?  ARG      A 152 ?  -24.370  -16.069    5.095  -1.07  0 152 A
+ATOM    1603     N    N ?  LEU      A 212 ?  -29.336  -13.147    7.517   0.00  0 212 A
+ATOM    1593     C  CG2 ?  ILE      A 210 ?  -27.845  -16.862    5.483   0.00  0 210 A
+ATOM    1211     O  OE1 ?  GLN      A 161 ?  -23.821  -10.493   -1.329   0.00  0 161 A
+ATOM    1166     C  CD2 ?  PHE      A 155 ?  -27.552  -14.450   -2.223   0.00  0 155 A
+ATOM    1656     N  NE2 ?  GLN      A 218 ?  -26.408   -8.084   -0.137  -2.35  0 218 A
+ATOM    1390     O   OH ?  TYR      A 186 ?  -24.607   -9.881   -4.255  -0.81  0 186 A
+ATOM    1597     C    C ?  ASN      A 211 ?  -28.312  -13.060    8.364   0.00  0 211 A
 # 
