@@ -15,7 +15,7 @@ Information about the pocket    38:
 6  - Hydrophobicity Score              : 16.8000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.8000
-9  - Pocket volume (Monte Carlo)       : 284.5508
+9  - Pocket volume (Monte Carlo)       : 282.8977
 10  -Pocket volume (convex hull)       : 5.2913
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1146    C  CE1 ?  HIS      B 13 ?   26.235  -51.459  -31.079   0.00  0 151 B
-ATOM     1419    O    O ?  ALA      B 48 ?   22.178  -53.525  -28.991  -0.40  0 186 B
-ATOM     1147    N  NE2 ?  HIS      B 13 ?   25.643  -52.658  -31.029  -1.51  0 151 B
-ATOM     1420    C   CB ?  ALA      B 48 ?   23.729  -55.230  -26.696   0.00  0 186 B
-ATOM     1446    C   CA ?  PHE      B 52 ?   21.239  -50.596  -31.430   0.00  0 190 B
-ATOM     1449    C   CB ?  PHE      B 52 ?   22.430  -51.466  -31.885   0.00  0 190 B
-ATOM     1480    O  OE1 ?  GLN      B 55 ?   22.504  -46.563  -30.855  -0.40  0 193 B
-ATOM     1441    C   CB ?  ASP      B 51 ?   19.883  -51.156  -27.181   0.00  0 189 B
-ATOM     1417    C   CA ?  ALA      B 48 ?   22.306  -54.760  -26.935   0.00  0 186 B
-ATOM     1444    O  OD2 ?  ASP      B 51 ?   19.385  -50.119  -25.100   0.00  0 189 B
-ATOM     1479    C   CD ?  GLN      B 55 ?   21.935  -45.459  -30.698   0.00  0 193 B
-ATOM     1481    N  NE2 ?  GLN      B 55 ?   22.465  -44.480  -29.960   0.00  0 193 B
-ATOM     1440    O    O ?  ASP      B 51 ?   19.241  -49.395  -29.846   0.00  0 189 B
-ATOM     1477    C   CB ?  GLN      B 55 ?   19.728  -46.415  -31.308   0.00  0 193 B
-ATOM     1439    C    C ?  ASP      B 51 ?   19.615  -50.528  -29.575   0.00  0 189 B
-ATOM     1478    C   CG ?  GLN      B 55 ?   20.594  -45.169  -31.335   0.00  0 193 B
-ATOM     1445    N    N ?  PHE      B 52 ?   20.563  -51.181  -30.275  -1.09  0 190 B
+ATOM    1146     C  CE1 ?  HIS      B 13 ?   26.235  -51.459  -31.079   0.00  0 151 B
+ATOM    1419     O    O ?  ALA      B 48 ?   22.178  -53.525  -28.991  -0.40  0 186 B
+ATOM    1147     N  NE2 ?  HIS      B 13 ?   25.643  -52.658  -31.029  -1.51  0 151 B
+ATOM    1420     C   CB ?  ALA      B 48 ?   23.729  -55.230  -26.696   0.00  0 186 B
+ATOM    1446     C   CA ?  PHE      B 52 ?   21.239  -50.596  -31.430   0.00  0 190 B
+ATOM    1449     C   CB ?  PHE      B 52 ?   22.430  -51.466  -31.885   0.00  0 190 B
+ATOM    1480     O  OE1 ?  GLN      B 55 ?   22.504  -46.563  -30.855  -0.40  0 193 B
+ATOM    1441     C   CB ?  ASP      B 51 ?   19.883  -51.156  -27.181   0.00  0 189 B
+ATOM    1417     C   CA ?  ALA      B 48 ?   22.306  -54.760  -26.935   0.00  0 186 B
+ATOM    1444     O  OD2 ?  ASP      B 51 ?   19.385  -50.119  -25.100   0.00  0 189 B
+ATOM    1479     C   CD ?  GLN      B 55 ?   21.935  -45.459  -30.698   0.00  0 193 B
+ATOM    1481     N  NE2 ?  GLN      B 55 ?   22.465  -44.480  -29.960   0.00  0 193 B
+ATOM    1440     O    O ?  ASP      B 51 ?   19.241  -49.395  -29.846   0.00  0 189 B
+ATOM    1477     C   CB ?  GLN      B 55 ?   19.728  -46.415  -31.308   0.00  0 193 B
+ATOM    1439     C    C ?  ASP      B 51 ?   19.615  -50.528  -29.575   0.00  0 189 B
+ATOM    1478     C   CG ?  GLN      B 55 ?   20.594  -45.169  -31.335   0.00  0 193 B
+ATOM    1445     N    N ?  PHE      B 52 ?   20.563  -51.181  -30.275  -1.09  0 190 B
 # 

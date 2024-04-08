@@ -15,7 +15,7 @@ Information about the pocket    83:
 6  - Hydrophobicity Score              : 21.0000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 3.6250
-9  - Pocket volume (Monte Carlo)       : 278.4314
+9  - Pocket volume (Monte Carlo)       : 286.8856
 10  -Pocket volume (convex hull)       : 8.1956
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      428    C  CD1 ?  TRP      A 60 ?   -0.232    6.004   26.561   0.00  0 60 A
-ATOM     4396    C  CE1 ?  HIS      A 580 ?    1.406    9.346   31.054   0.00  0 580 A
-ATOM     4397    N  NE2 ?  HIS      A 580 ?    0.437   10.215   30.721   0.00  0 580 A
-ATOM      437    C   CA ?  GLY      A 61 ?    0.255    3.391   30.532   0.00  0 61 A
-ATOM      436    N    N ?  GLY      A 61 ?   -0.549    3.116   29.329  -0.17  0 61 A
-ATOM     3196    O    O ?  LEU      A 425 ?   -2.535    8.675   25.862  -5.36  0 425 A
-ATOM      245    C  CG2 ?  VAL      A 33 ?   -6.070    6.742   26.642   0.00  0 33 A
-ATOM      239    N    N ?  VAL      A 33 ?   -7.053    4.242   27.369   0.00  0 33 A
-ATOM      230    O    O ?  ASP      A 31 ?   -8.724    6.063   30.348   0.00  0 31 A
-ATOM      242    O    O ?  VAL      A 33 ?   -4.623    2.692   26.659  -1.48  0 33 A
-ATOM      426    C   CB ?  TRP      A 60 ?   -1.481    3.724   26.441   0.00  0 60 A
-ATOM      243    C   CB ?  VAL      A 33 ?   -5.490    5.561   25.887   0.00  0 33 A
-ATOM     3204    O    O ?  ASP      A 426 ?   -2.746   12.274   26.095  -2.14  0 426 A
-ATOM     3209    N    N ?  GLY      A 427 ?   -0.945   12.860   27.340   0.00  0 427 A
-ATOM     3210    C   CA ?  GLY      A 427 ?   -1.529   14.089   27.887   0.00  0 427 A
-ATOM      234    O  OD2 ?  ASP      A 31 ?   -7.160   10.006   27.683  -1.21  0 31 A
-ATOM     3203    C    C ?  ASP      A 426 ?   -1.586   12.066   26.479   0.00  0 426 A
+ATOM    428      C  CD1 ?  TRP      A 60 ?   -0.232    6.004   26.561   0.00  0 60 A
+ATOM    4396     C  CE1 ?  HIS      A 580 ?    1.406    9.346   31.054   0.00  0 580 A
+ATOM    4397     N  NE2 ?  HIS      A 580 ?    0.437   10.215   30.721   0.00  0 580 A
+ATOM    437      C   CA ?  GLY      A 61 ?    0.255    3.391   30.532   0.00  0 61 A
+ATOM    436      N    N ?  GLY      A 61 ?   -0.549    3.116   29.329  -0.17  0 61 A
+ATOM    3196     O    O ?  LEU      A 425 ?   -2.535    8.675   25.862  -5.36  0 425 A
+ATOM    245      C  CG2 ?  VAL      A 33 ?   -6.070    6.742   26.642   0.00  0 33 A
+ATOM    239      N    N ?  VAL      A 33 ?   -7.053    4.242   27.369   0.00  0 33 A
+ATOM    230      O    O ?  ASP      A 31 ?   -8.724    6.063   30.348   0.00  0 31 A
+ATOM    242      O    O ?  VAL      A 33 ?   -4.623    2.692   26.659  -1.48  0 33 A
+ATOM    426      C   CB ?  TRP      A 60 ?   -1.481    3.724   26.441   0.00  0 60 A
+ATOM    243      C   CB ?  VAL      A 33 ?   -5.490    5.561   25.887   0.00  0 33 A
+ATOM    3204     O    O ?  ASP      A 426 ?   -2.746   12.274   26.095  -2.14  0 426 A
+ATOM    3209     N    N ?  GLY      A 427 ?   -0.945   12.860   27.340   0.00  0 427 A
+ATOM    3210     C   CA ?  GLY      A 427 ?   -1.529   14.089   27.887   0.00  0 427 A
+ATOM    234      O  OD2 ?  ASP      A 31 ?   -7.160   10.006   27.683  -1.21  0 31 A
+ATOM    3203     C    C ?  ASP      A 426 ?   -1.586   12.066   26.479   0.00  0 426 A
 # 

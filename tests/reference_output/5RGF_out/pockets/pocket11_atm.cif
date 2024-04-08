@@ -15,7 +15,7 @@ Information about the pocket    11:
 6  - Hydrophobicity Score              : 37.8333
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.4167
-9  - Pocket volume (Monte Carlo)       : 297.7009
+9  - Pocket volume (Monte Carlo)       : 294.5050
 10  -Pocket volume (convex hull)       : 25.2323
 11 - Charge Score                      :    -2
 12 - Local hydrophobic density Score   : 13.6250
@@ -39,26 +39,26 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      771    O    O A  GLU      A 48 ?   11.486   -0.627   23.734   0.00  0 46 A
-ATOM     1498    C  CZ3 ?  TRP      A 89 ?   16.192   -4.304   25.079   0.00  0 87 A
-ATOM      863    N  NE2 ?  GLN      A 52 ?   14.428   -1.613   22.854  -1.09  0 50 A
-ATOM     4105    C   CE A  MET      A 239 ?   16.027   -2.258   28.717   0.00  0 237 A
-ATOM     1499    C  CH2 ?  TRP      A 89 ?   15.927   -5.184   26.134   0.00  0 87 A
-ATOM     1548    C   CZ ?  PHE      A 92 ?   12.344   -6.138   23.343   0.00  0 90 A
-ATOM      775    C   CG A  GLU      A 48 ?    9.079   -0.550   26.052   0.00  0 46 A
-ATOM      802    N  ND2 ?  ASN      A 49 ?    9.254   -3.448   22.578  -6.31  0 47 A
-ATOM     1547    C  CE2 ?  PHE      A 92 ?   13.716   -6.131   23.485   0.00  0 90 A
-ATOM     4600    C   CE A  MET      A 269 ?   10.541   -0.652   29.495   0.00  0 267 A
-ATOM     4103    S   SD A  MET      A 239 ?   15.266   -2.753   30.257   0.00  0 237 A
-ATOM     4598    S   SD A  MET      A 269 ?   11.156   -1.396   31.001   0.00  0 267 A
-ATOM      781    O  OE2 A  GLU      A 48 ?    7.879   -2.032   27.455  -7.90  0 46 A
-ATOM     4700    C   CA ?  SER      A 276 ?    3.602   -3.023   32.550   0.00  0 274 A
-ATOM     4690    O    O ?  ASP      A 275 ?    2.967   -1.628   30.243  -5.36  0 273 A
-ATOM     4710    N    N ?  ALA      A 277 ?    4.632   -4.970   31.540  -3.28  0 275 A
-ATOM     4809    C  CD1 ?  LEU      A 284 ?    4.500    0.639   34.888   0.00  0 282 A
-ATOM     4596    C   CG A  MET      A 269 ?    9.680   -1.285   32.032   0.00  0 267 A
-ATOM     4592    O    O A  MET      A 269 ?    8.384    1.343   30.866  -2.14  0 267 A
-ATOM     4714    C   CB ?  ALA      A 277 ?    6.070   -6.696   30.567   0.00  0 275 A
-ATOM     4729    C  CE2 ?  PHE      A 278 ?    8.889   -6.386   33.514   0.00  0 276 A
-ATOM     4730    C   CZ ?  PHE      A 278 ?    9.275   -7.642   33.083   0.00  0 276 A
+ATOM    771      O    O A  GLU      A 48 ?   11.486   -0.627   23.734   0.00  0 46 A
+ATOM    1498     C  CZ3 ?  TRP      A 89 ?   16.192   -4.304   25.079   0.00  0 87 A
+ATOM    863      N  NE2 ?  GLN      A 52 ?   14.428   -1.613   22.854  -1.09  0 50 A
+ATOM    4105     C   CE A  MET      A 239 ?   16.027   -2.258   28.717   0.00  0 237 A
+ATOM    1499     C  CH2 ?  TRP      A 89 ?   15.927   -5.184   26.134   0.00  0 87 A
+ATOM    1548     C   CZ ?  PHE      A 92 ?   12.344   -6.138   23.343   0.00  0 90 A
+ATOM    775      C   CG A  GLU      A 48 ?    9.079   -0.550   26.052   0.00  0 46 A
+ATOM    802      N  ND2 ?  ASN      A 49 ?    9.254   -3.448   22.578  -6.31  0 47 A
+ATOM    1547     C  CE2 ?  PHE      A 92 ?   13.716   -6.131   23.485   0.00  0 90 A
+ATOM    4600     C   CE A  MET      A 269 ?   10.541   -0.652   29.495   0.00  0 267 A
+ATOM    4103     S   SD A  MET      A 239 ?   15.266   -2.753   30.257   0.00  0 237 A
+ATOM    4598     S   SD A  MET      A 269 ?   11.156   -1.396   31.001   0.00  0 267 A
+ATOM    781      O  OE2 A  GLU      A 48 ?    7.879   -2.032   27.455  -7.90  0 46 A
+ATOM    4700     C   CA ?  SER      A 276 ?    3.602   -3.023   32.550   0.00  0 274 A
+ATOM    4690     O    O ?  ASP      A 275 ?    2.967   -1.628   30.243  -5.36  0 273 A
+ATOM    4710     N    N ?  ALA      A 277 ?    4.632   -4.970   31.540  -3.28  0 275 A
+ATOM    4809     C  CD1 ?  LEU      A 284 ?    4.500    0.639   34.888   0.00  0 282 A
+ATOM    4596     C   CG A  MET      A 269 ?    9.680   -1.285   32.032   0.00  0 267 A
+ATOM    4592     O    O A  MET      A 269 ?    8.384    1.343   30.866  -2.14  0 267 A
+ATOM    4714     C   CB ?  ALA      A 277 ?    6.070   -6.696   30.567   0.00  0 275 A
+ATOM    4729     C  CE2 ?  PHE      A 278 ?    8.889   -6.386   33.514   0.00  0 276 A
+ATOM    4730     C   CZ ?  PHE      A 278 ?    9.275   -7.642   33.083   0.00  0 276 A
 # 

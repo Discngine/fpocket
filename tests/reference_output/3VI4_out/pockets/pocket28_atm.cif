@@ -15,7 +15,7 @@ Information about the pocket    28:
 6  - Hydrophobicity Score              : 10.8333
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 213.3005
+9  - Pocket volume (Monte Carlo)       : 213.3470
 10  -Pocket volume (convex hull)       : 6.0484
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 7.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1980    C  CE2 ?  TYR      A 261 ?  -15.337    2.339  -10.224   0.00  0 261 A
-ATOM     1981    C   CZ ?  TYR      A 261 ?  -15.221    1.184  -10.986   0.00  0 261 A
-ATOM     2091    N  ND2 ?  ASN      A 275 ?  -18.090    5.902  -11.696  -1.09  0 275 A
-ATOM     1978    C  CD2 ?  TYR      A 261 ?  -14.314    3.274  -10.244   0.00  0 261 A
-ATOM     1717    C  CE1 ?  TYR      A 226 ?  -19.008   -1.541  -15.130   0.00  0 226 A
-ATOM     1982    O   OH ?  TYR      A 261 ?  -16.216    0.239  -10.985  -1.21  0 261 A
-ATOM     1715    C  CD1 ?  TYR      A 226 ?  -18.485   -2.669  -14.523   0.00  0 226 A
-ATOM     1931    O    O ?  GLY      A 255 ?  -12.805   -1.921  -14.661  -5.36  0 255 A
-ATOM     1977    C  CD1 ?  TYR      A 261 ?  -13.081    1.903  -11.771   0.00  0 261 A
-ATOM     1933    C   CA ?  ASN      A 256 ?  -11.300    0.125  -15.832   0.00  0 256 A
-ATOM     1936    C   CB ?  ASN      A 256 ?  -11.321    1.659  -15.753   0.00  0 256 A
-ATOM     1938    O  OD1 ?  ASN      A 256 ?  -12.033    1.848  -18.040  -1.48  0 256 A
-ATOM     1979    C  CE1 ?  TYR      A 261 ?  -14.099    0.963  -11.760   0.00  0 261 A
-ATOM     1976    C   CG ?  TYR      A 261 ?  -13.164    3.062  -11.008   0.00  0 261 A
-ATOM     2108    O   OG ?  SER      A 277 ?  -11.757    6.611  -14.275  -0.40  0 277 A
-ATOM     2088    C   CB ?  ASN      A 275 ?  -16.181    7.247  -11.137   0.00  0 275 A
-ATOM     2089    C   CG ?  ASN      A 275 ?  -17.143    6.128  -10.801   0.00  0 275 A
+ATOM    1980     C  CE2 ?  TYR      A 261 ?  -15.337    2.339  -10.224   0.00  0 261 A
+ATOM    1981     C   CZ ?  TYR      A 261 ?  -15.221    1.184  -10.986   0.00  0 261 A
+ATOM    2091     N  ND2 ?  ASN      A 275 ?  -18.090    5.902  -11.696  -1.09  0 275 A
+ATOM    1978     C  CD2 ?  TYR      A 261 ?  -14.314    3.274  -10.244   0.00  0 261 A
+ATOM    1717     C  CE1 ?  TYR      A 226 ?  -19.008   -1.541  -15.130   0.00  0 226 A
+ATOM    1982     O   OH ?  TYR      A 261 ?  -16.216    0.239  -10.985  -1.21  0 261 A
+ATOM    1715     C  CD1 ?  TYR      A 226 ?  -18.485   -2.669  -14.523   0.00  0 226 A
+ATOM    1931     O    O ?  GLY      A 255 ?  -12.805   -1.921  -14.661  -5.36  0 255 A
+ATOM    1977     C  CD1 ?  TYR      A 261 ?  -13.081    1.903  -11.771   0.00  0 261 A
+ATOM    1933     C   CA ?  ASN      A 256 ?  -11.300    0.125  -15.832   0.00  0 256 A
+ATOM    1936     C   CB ?  ASN      A 256 ?  -11.321    1.659  -15.753   0.00  0 256 A
+ATOM    1938     O  OD1 ?  ASN      A 256 ?  -12.033    1.848  -18.040  -1.48  0 256 A
+ATOM    1979     C  CE1 ?  TYR      A 261 ?  -14.099    0.963  -11.760   0.00  0 261 A
+ATOM    1976     C   CG ?  TYR      A 261 ?  -13.164    3.062  -11.008   0.00  0 261 A
+ATOM    2108     O   OG ?  SER      A 277 ?  -11.757    6.611  -14.275  -0.40  0 277 A
+ATOM    2088     C   CB ?  ASN      A 275 ?  -16.181    7.247  -11.137   0.00  0 275 A
+ATOM    2089     C   CG ?  ASN      A 275 ?  -17.143    6.128  -10.801   0.00  0 275 A
 # 

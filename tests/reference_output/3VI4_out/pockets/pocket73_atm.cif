@@ -15,7 +15,7 @@ Information about the pocket    73:
 6  - Hydrophobicity Score              : 18.7000
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 4.9000
-9  - Pocket volume (Monte Carlo)       : 354.7824
+9  - Pocket volume (Monte Carlo)       : 353.9804
 10  -Pocket volume (convex hull)       : 40.4824
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 16.7778
@@ -39,28 +39,28 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4171    C   CB ?  ASN      A 552 ?   44.148   46.991   24.881   0.00  0 552 A
-ATOM     3583    C   CB ?  ASN      A 477 ?   44.689   50.231   28.820   0.00  0 477 A
-ATOM     4174    N  ND2 ?  ASN      A 552 ?   45.801   48.468   25.854  -6.56  0 552 A
-ATOM     4172    C   CG ?  ASN      A 552 ?   44.582   48.375   25.336   0.00  0 552 A
-ATOM     3584    C   CG ?  ASN      A 477 ?   46.153   50.615   28.700   0.00  0 477 A
-ATOM     3585    O  OD1 ?  ASN      A 477 ?   46.895   50.599   29.682  -2.69  0 477 A
-ATOM     3570    C   CB ?  GLU      A 475 ?   43.126   46.621   32.548   0.00  0 475 A
-ATOM     3571    C   CG ?  GLU      A 475 ?   44.485   46.355   33.191   0.00  0 475 A
-ATOM     4161    C   CG ?  ARG      A 551 ?   41.869   41.711   21.678   0.00  0 551 A
-ATOM     4163    N   NE ?  ARG      A 551 ?   42.811   39.625   22.547  -0.17  0 551 A
-ATOM     4147    O   OH ?  TYR      A 549 ?   39.415   41.774   26.790  -0.54  0 549 A
-ATOM     3912    C  CD1 ?  LEU      A 520 ?   39.875   39.607   24.680   0.00  0 520 A
-ATOM     4145    C  CE2 ?  TYR      A 549 ?   39.376   43.752   25.449   0.00  0 549 A
-ATOM     4162    C   CD ?  ARG      A 551 ?   42.871   40.596   21.457   0.00  0 551 A
-ATOM     4180    C   CG ?  GLU      A 553 ?   46.865   43.205   21.652   0.00  0 553 A
-ATOM     4160    C   CB ?  ARG      A 551 ?   42.401   43.046   21.201   0.00  0 551 A
-ATOM     4167    N    N ?  ASN      A 552 ?   43.010   45.761   23.071   0.00  0 552 A
-ATOM     3599    C  CG1 ?  VAL      A 479 ?   40.683   48.210   25.888   0.00  0 479 A
-ATOM     3950    C   CD ?  ARG      A 525 ?   40.498   40.881   30.761   0.00  0 525 A
-ATOM     3573    O  OE1 ?  GLU      A 475 ?   43.466   44.505   34.326  -0.14  0 475 A
-ATOM     3565    C  CD2 ?  LEU      A 474 ?   39.642   46.326   29.617   0.00  0 474 A
-ATOM     3582    O    O ?  ASN      A 477 ?   41.630   50.422   29.907  -1.07  0 477 A
-ATOM     3563    C   CG ?  LEU      A 474 ?   39.198   45.510   30.824   0.00  0 474 A
-ATOM     3564    C  CD1 ?  LEU      A 474 ?   38.664   44.159   30.378   0.00  0 474 A
+ATOM    4171     C   CB ?  ASN      A 552 ?   44.148   46.991   24.881   0.00  0 552 A
+ATOM    3583     C   CB ?  ASN      A 477 ?   44.689   50.231   28.820   0.00  0 477 A
+ATOM    4174     N  ND2 ?  ASN      A 552 ?   45.801   48.468   25.854  -6.56  0 552 A
+ATOM    4172     C   CG ?  ASN      A 552 ?   44.582   48.375   25.336   0.00  0 552 A
+ATOM    3584     C   CG ?  ASN      A 477 ?   46.153   50.615   28.700   0.00  0 477 A
+ATOM    3585     O  OD1 ?  ASN      A 477 ?   46.895   50.599   29.682  -2.69  0 477 A
+ATOM    3570     C   CB ?  GLU      A 475 ?   43.126   46.621   32.548   0.00  0 475 A
+ATOM    3571     C   CG ?  GLU      A 475 ?   44.485   46.355   33.191   0.00  0 475 A
+ATOM    4161     C   CG ?  ARG      A 551 ?   41.869   41.711   21.678   0.00  0 551 A
+ATOM    4163     N   NE ?  ARG      A 551 ?   42.811   39.625   22.547  -0.17  0 551 A
+ATOM    4147     O   OH ?  TYR      A 549 ?   39.415   41.774   26.790  -0.54  0 549 A
+ATOM    3912     C  CD1 ?  LEU      A 520 ?   39.875   39.607   24.680   0.00  0 520 A
+ATOM    4145     C  CE2 ?  TYR      A 549 ?   39.376   43.752   25.449   0.00  0 549 A
+ATOM    4162     C   CD ?  ARG      A 551 ?   42.871   40.596   21.457   0.00  0 551 A
+ATOM    4180     C   CG ?  GLU      A 553 ?   46.865   43.205   21.652   0.00  0 553 A
+ATOM    4160     C   CB ?  ARG      A 551 ?   42.401   43.046   21.201   0.00  0 551 A
+ATOM    4167     N    N ?  ASN      A 552 ?   43.010   45.761   23.071   0.00  0 552 A
+ATOM    3599     C  CG1 ?  VAL      A 479 ?   40.683   48.210   25.888   0.00  0 479 A
+ATOM    3950     C   CD ?  ARG      A 525 ?   40.498   40.881   30.761   0.00  0 525 A
+ATOM    3573     O  OE1 ?  GLU      A 475 ?   43.466   44.505   34.326  -0.14  0 475 A
+ATOM    3565     C  CD2 ?  LEU      A 474 ?   39.642   46.326   29.617   0.00  0 474 A
+ATOM    3582     O    O ?  ASN      A 477 ?   41.630   50.422   29.907  -1.07  0 477 A
+ATOM    3563     C   CG ?  LEU      A 474 ?   39.198   45.510   30.824   0.00  0 474 A
+ATOM    3564     C  CD1 ?  LEU      A 474 ?   38.664   44.159   30.378   0.00  0 474 A
 # 

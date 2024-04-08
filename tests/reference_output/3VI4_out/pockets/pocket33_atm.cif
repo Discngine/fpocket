@@ -15,7 +15,7 @@ Information about the pocket    33:
 6  - Hydrophobicity Score              : 6.2143
 7  - Polarity Score                    :    10
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 536.3054
+9  - Pocket volume (Monte Carlo)       : 521.8224
 10  -Pocket volume (convex hull)       : 61.2914
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,29 +39,29 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5014    N  ND2 ?  ASN      B 74 ?   33.956    0.823  -42.205   0.00  0 74 B
-ATOM     5021    C  CG2 ?  VAL      B 75 ?   28.091   -0.223  -40.894   0.00  0 75 B
-ATOM     5334    C   CD ?  LYS      B 114 ?   27.384    5.593  -39.555   0.00  0 114 B
-ATOM     7580    O  OE1 ?  GLU      B 403 ?   25.700    2.538  -43.039  -4.29  0 403 B
-ATOM     5181    N  NE2 ?  GLN      B 95 ?   31.605    3.266  -38.167  -1.51  0 95 B
+ATOM    5014     N  ND2 ?  ASN      B 74 ?   33.956    0.823  -42.205   0.00  0 74 B
+ATOM    5021     C  CG2 ?  VAL      B 75 ?   28.091   -0.223  -40.894   0.00  0 75 B
+ATOM    5334     C   CD ?  LYS      B 114 ?   27.384    5.593  -39.555   0.00  0 114 B
+ATOM    7580     O  OE1 ?  GLU      B 403 ?   25.700    2.538  -43.039  -4.29  0 403 B
+ATOM    5181     N  NE2 ?  GLN      B 95 ?   31.605    3.266  -38.167  -1.51  0 95 B
 ATOM    21029    O    O ?  THR      H 30 ?   19.294   -3.742  -50.144  -0.40  0 30 F
 ATOM    21030    C   CB ?  THR      H 30 ?   18.177   -1.457  -51.334   0.00  0 30 F
 ATOM    21031    O  OG1 ?  THR      H 30 ?   17.558   -1.021  -50.120  -2.28  0 30 F
 ATOM    21233    C   CA ?  GLY      H 54 ?   22.459   -0.829  -52.726   0.00  0 54 F
-ATOM     5356    N   NZ ?  LYS      B 116 ?   24.961   -1.825  -44.966   0.00  0 116 B
+ATOM    5356     N   NZ ?  LYS      B 116 ?   24.961   -1.825  -44.966   0.00  0 116 B
 ATOM    21257    O   OH ?  TYR      H 57 ?   29.759   -2.436  -49.338  -0.95  0 57 F
 ATOM    21255    C  CE2 ?  TYR      H 57 ?   28.187   -3.898  -50.359   0.00  0 57 F
 ATOM    21240    C   CB ?  SER      H 55 ?   27.245   -0.297  -52.692   0.00  0 55 F
 ATOM    21236    N    N ?  SER      H 55 ?   24.869   -0.870  -53.074  -1.51  0 55 F
-ATOM     5018    O    O ?  VAL      B 75 ?   29.653   -2.741  -41.833  -1.07  0 75 B
-ATOM     5036    N  ND2 ?  ASN      B 77 ?   31.600   -3.171  -45.800  -2.77  0 77 B
-ATOM     5180    O  OE1 ?  GLN      B 95 ?   30.769    1.224  -38.598   0.00  0 95 B
-ATOM     7564    O    O ?  GLY      B 401 ?   21.393   -1.780  -44.990  -0.95  0 401 B
-ATOM     7581    O  OE2 ?  GLU      B 403 ?   25.730    0.761  -44.356   0.00  0 403 B
-ATOM     5044    N   NE ?  ARG      B 78 ?   22.758   -7.152  -47.215  -1.09  0 78 B
-ATOM     5037    N    N ?  ARG      B 78 ?   27.586   -6.225  -46.892  -1.09  0 78 B
-ATOM     5042    C   CG ?  ARG      B 78 ?   25.076   -7.636  -46.481   0.00  0 78 B
-ATOM     5033    C   CB ?  ASN      B 77 ?   29.282   -3.786  -46.115   0.00  0 77 B
+ATOM    5018     O    O ?  VAL      B 75 ?   29.653   -2.741  -41.833  -1.07  0 75 B
+ATOM    5036     N  ND2 ?  ASN      B 77 ?   31.600   -3.171  -45.800  -2.77  0 77 B
+ATOM    5180     O  OE1 ?  GLN      B 95 ?   30.769    1.224  -38.598   0.00  0 95 B
+ATOM    7564     O    O ?  GLY      B 401 ?   21.393   -1.780  -44.990  -0.95  0 401 B
+ATOM    7581     O  OE2 ?  GLU      B 403 ?   25.730    0.761  -44.356   0.00  0 403 B
+ATOM    5044     N   NE ?  ARG      B 78 ?   22.758   -7.152  -47.215  -1.09  0 78 B
+ATOM    5037     N    N ?  ARG      B 78 ?   27.586   -6.225  -46.892  -1.09  0 78 B
+ATOM    5042     C   CG ?  ARG      B 78 ?   25.076   -7.636  -46.481   0.00  0 78 B
+ATOM    5033     C   CB ?  ASN      B 77 ?   29.282   -3.786  -46.115   0.00  0 77 B
 ATOM    21224    C  CD2 ?  LEU      H 52 ?   23.680   -5.536  -50.673   0.00  0 52 F
-ATOM     5047    N  NH2 ?  ARG      B 78 ?   20.827   -6.437  -48.235   0.00  0 78 B
+ATOM    5047     N  NH2 ?  ARG      B 78 ?   20.827   -6.437  -48.235   0.00  0 78 B
 # 

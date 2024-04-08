@@ -15,7 +15,7 @@ Information about the pocket   201:
 6  - Hydrophobicity Score              : 17.2500
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 364.7017
+9  - Pocket volume (Monte Carlo)       : 364.4650
 10  -Pocket volume (convex hull)       : 29.3737
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 10.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7888    C  CG1 ?  ILE      B 441 ?   38.549   17.840  -18.822   0.00  0 441 B
-ATOM     7901    C   CB ?  GLU      B 443 ?   42.222   20.727  -12.915   0.00  0 443 B
-ATOM     7897    N    N ?  GLU      B 443 ?   39.785   20.676  -13.331   0.00  0 443 B
-ATOM     7905    O  OE2 ?  GLU      B 443 ?   43.317   17.463  -12.166   0.00  0 443 B
-ATOM     7902    C   CG ?  GLU      B 443 ?   42.200   19.559  -11.941   0.00  0 443 B
-ATOM     7918    C   CD ?  GLU      B 445 ?   46.084   22.368  -18.832   0.00  0 445 B
-ATOM     7917    C   CG ?  GLU      B 445 ?   45.078   23.041  -17.922   0.00  0 445 B
-ATOM     7904    O  OE1 ?  GLU      B 443 ?   44.571   19.256  -11.974   0.00  0 443 B
-ATOM     7919    O  OE1 ?  GLU      B 445 ?   47.278   22.315  -18.462  -0.95  0 445 B
-ATOM     7909    O    O ?  CYS      B 444 ?   43.990   23.409  -14.917  -6.43  0 444 B
-ATOM     7900    O    O ?  GLU      B 443 ?   40.743   22.578  -15.171  -4.29  0 443 B
-ATOM     7903    C   CD ?  GLU      B 443 ?   43.451   18.699  -12.035   0.00  0 443 B
-ATOM     4923    C   CB ?  PRO      B 63 ?   41.395   23.804  -21.296   0.00  0 63 B
-ATOM     4924    C   CG ?  PRO      B 63 ?   41.729   24.906  -20.338   0.00  0 63 B
-ATOM     7890    C  CD1 ?  ILE      B 441 ?   38.553   18.200  -20.297   0.00  0 441 B
-ATOM     4929    O    O ?  ARG      B 64 ?   38.446   19.903  -23.402  -1.62  0 64 B
-ATOM     7920    O  OE2 ?  GLU      B 445 ?   45.684   21.888  -19.913   0.00  0 445 B
-ATOM     7889    C  CG2 ?  ILE      B 441 ?   38.414   20.097  -17.728   0.00  0 441 B
-ATOM     7884    C   CA ?  ILE      B 441 ?   37.411   18.068  -16.565   0.00  0 441 B
-ATOM     7874    O    O ?  TYR      B 440 ?   37.516   15.429  -15.607  -0.14  0 440 B
-ATOM     7891    N    N ?  CYS      B 442 ?   37.808   19.036  -14.369  -2.19  0 442 B
+ATOM    7888     C  CG1 ?  ILE      B 441 ?   38.549   17.840  -18.822   0.00  0 441 B
+ATOM    7901     C   CB ?  GLU      B 443 ?   42.222   20.727  -12.915   0.00  0 443 B
+ATOM    7897     N    N ?  GLU      B 443 ?   39.785   20.676  -13.331   0.00  0 443 B
+ATOM    7905     O  OE2 ?  GLU      B 443 ?   43.317   17.463  -12.166   0.00  0 443 B
+ATOM    7902     C   CG ?  GLU      B 443 ?   42.200   19.559  -11.941   0.00  0 443 B
+ATOM    7918     C   CD ?  GLU      B 445 ?   46.084   22.368  -18.832   0.00  0 445 B
+ATOM    7917     C   CG ?  GLU      B 445 ?   45.078   23.041  -17.922   0.00  0 445 B
+ATOM    7904     O  OE1 ?  GLU      B 443 ?   44.571   19.256  -11.974   0.00  0 443 B
+ATOM    7919     O  OE1 ?  GLU      B 445 ?   47.278   22.315  -18.462  -0.95  0 445 B
+ATOM    7909     O    O ?  CYS      B 444 ?   43.990   23.409  -14.917  -6.43  0 444 B
+ATOM    7900     O    O ?  GLU      B 443 ?   40.743   22.578  -15.171  -4.29  0 443 B
+ATOM    7903     C   CD ?  GLU      B 443 ?   43.451   18.699  -12.035   0.00  0 443 B
+ATOM    4923     C   CB ?  PRO      B 63 ?   41.395   23.804  -21.296   0.00  0 63 B
+ATOM    4924     C   CG ?  PRO      B 63 ?   41.729   24.906  -20.338   0.00  0 63 B
+ATOM    7890     C  CD1 ?  ILE      B 441 ?   38.553   18.200  -20.297   0.00  0 441 B
+ATOM    4929     O    O ?  ARG      B 64 ?   38.446   19.903  -23.402  -1.62  0 64 B
+ATOM    7920     O  OE2 ?  GLU      B 445 ?   45.684   21.888  -19.913   0.00  0 445 B
+ATOM    7889     C  CG2 ?  ILE      B 441 ?   38.414   20.097  -17.728   0.00  0 441 B
+ATOM    7884     C   CA ?  ILE      B 441 ?   37.411   18.068  -16.565   0.00  0 441 B
+ATOM    7874     O    O ?  TYR      B 440 ?   37.516   15.429  -15.607  -0.14  0 440 B
+ATOM    7891     N    N ?  CYS      B 442 ?   37.808   19.036  -14.369  -2.19  0 442 B
 # 

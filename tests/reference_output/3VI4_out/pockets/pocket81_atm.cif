@@ -15,7 +15,7 @@ Information about the pocket    81:
 6  - Hydrophobicity Score              : -0.7778
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.6667
-9  - Pocket volume (Monte Carlo)       : 196.7707
+9  - Pocket volume (Monte Carlo)       : 196.6147
 10  -Pocket volume (convex hull)       : 10.7858
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 0.0000
@@ -48,12 +48,12 @@ ATOM    19537    O    O ?  ARG      G 55 ?   18.172  -27.990  -45.725  -0.40  0 
 ATOM    19558    O   OG ?  SER      G 57 ?   16.213  -30.032  -43.758   0.00  0 57 E
 ATOM    19551    S   SD ?  MET      G 56 ?   20.723  -32.937  -46.465   0.00  0 56 E
 ATOM    19557    C   CB ?  SER      G 57 ?   15.895  -31.070  -44.669   0.00  0 57 E
-ATOM     5669    C   CZ ?  ARG      B 154 ?   15.551  -26.812  -39.046   0.00  0 154 B
-ATOM     5671    N  NH2 ?  ARG      B 154 ?   16.279  -27.406  -38.116  -1.26  0 154 B
-ATOM     5670    N  NH1 ?  ARG      B 154 ?   14.812  -27.529  -39.879   0.00  0 154 B
+ATOM    5669     C   CZ ?  ARG      B 154 ?   15.551  -26.812  -39.046   0.00  0 154 B
+ATOM    5671     N  NH2 ?  ARG      B 154 ?   16.279  -27.406  -38.116  -1.26  0 154 B
+ATOM    5670     N  NH1 ?  ARG      B 154 ?   14.812  -27.529  -39.879   0.00  0 154 B
 ATOM    19361    O  OD1 ?  ASN      G 35 ?   21.205  -24.363  -41.611  -3.35  0 35 E
 ATOM    19566    N  ND2 ?  ASN      G 58 ?   16.065  -26.459  -43.645  -1.51  0 58 E
-ATOM     5668    N   NE ?  ARG      B 154 ?   15.560  -25.494  -39.134  -2.19  0 154 B
-ATOM     5701    O    O ?  SER      B 158 ?   19.998  -22.439  -38.892  -2.95  0 158 B
+ATOM    5668     N   NE ?  ARG      B 154 ?   15.560  -25.494  -39.134  -2.19  0 154 B
+ATOM    5701     O    O ?  SER      B 158 ?   19.998  -22.439  -38.892  -2.95  0 158 B
 ATOM    19356    C   CA ?  ASN      G 35 ?   23.514  -26.055  -42.685   0.00  0 35 E
 # 

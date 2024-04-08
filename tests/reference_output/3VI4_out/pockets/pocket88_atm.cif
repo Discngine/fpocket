@@ -15,7 +15,7 @@ Information about the pocket    88:
 6  - Hydrophobicity Score              : 1.9091
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.4545
-9  - Pocket volume (Monte Carlo)       : 298.9828
+9  - Pocket volume (Monte Carlo)       : 308.6115
 10  -Pocket volume (convex hull)       : 16.7022
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 2.0000
@@ -51,14 +51,14 @@ ATOM    10626    C   CB ?  PRO      C 357 ?  -21.552  -38.459  -61.973   0.00  0
 ATOM    10637    N    N ?  GLY      C 359 ?  -21.514  -34.836  -65.019  -1.09  0 359 C
 ATOM    11091    C   CA ?  GLY      C 422 ?  -22.410  -37.429  -67.575   0.00  0 422 C
 ATOM    11085    N  NH2 ?  ARG      C 420 ?  -24.008  -45.962  -65.426  -4.12  0 420 C
-ATOM     8709    O    O ?  ALA      C 107 ?  -21.894  -48.526  -69.511  -0.81  0 107 C
+ATOM    8709     O    O ?  ALA      C 107 ?  -21.894  -48.526  -69.511  -0.81  0 107 C
 ATOM    11089    O    O ?  GLY      C 421 ?  -23.993  -39.431  -66.507  -1.88  0 421 C
 ATOM    11099    C   CG ?  ARG      C 423 ?  -21.396  -40.615  -71.081   0.00  0 423 C
 ATOM    10625    O    O ?  PRO      C 357 ?  -23.590  -37.745  -64.028   0.00  0 357 C
 ATOM    10627    C   CG ?  PRO      C 357 ?  -21.789  -39.677  -61.147   0.00  0 357 C
 ATOM    11093    O    O ?  GLY      C 422 ?  -20.698  -38.000  -69.120  -0.54  0 422 C
 ATOM    11100    C   CD ?  ARG      C 423 ?  -21.456  -42.047  -71.597   0.00  0 423 C
-ATOM     8101    C  CD1 ?  PHE      C 25 ?  -25.791  -41.328  -70.332   0.00  0 25 C
-ATOM     8094    O  OE2 ?  GLU      C 24 ?  -25.476  -45.283  -69.227  -2.14  0 24 C
-ATOM     8093    O  OE1 ?  GLU      C 24 ?  -25.055  -47.114  -68.103   0.00  0 24 C
+ATOM    8101     C  CD1 ?  PHE      C 25 ?  -25.791  -41.328  -70.332   0.00  0 25 C
+ATOM    8094     O  OE2 ?  GLU      C 24 ?  -25.476  -45.283  -69.227  -2.14  0 24 C
+ATOM    8093     O  OE1 ?  GLU      C 24 ?  -25.055  -47.114  -68.103   0.00  0 24 C
 # 

@@ -15,7 +15,7 @@ Information about the pocket    53:
 6  - Hydrophobicity Score              : 6.5000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 292.9382
+9  - Pocket volume (Monte Carlo)       : 288.3418
 10  -Pocket volume (convex hull)       : 15.6164
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 2.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     7475    C   CA ?  GLY      B 389 ?   13.099   13.799  -27.671   0.00  0 389 B
-ATOM     7477    O    O ?  GLY      B 389 ?   14.166   11.689  -27.311  -1.88  0 389 B
-ATOM     7371    O    O ?  ILE      B 375 ?   19.005   13.498  -23.111  -1.48  0 375 B
-ATOM     7476    C    C ?  GLY      B 389 ?   13.113   12.335  -27.289   0.00  0 389 B
-ATOM     7381    O   OG ?  SER      B 376 ?   18.674   16.005  -25.873  -2.28  0 376 B
-ATOM     7377    C   CA ?  SER      B 376 ?   19.591   13.782  -25.813   0.00  0 376 B
-ATOM     7382    N    N ?  TYR      B 377 ?   18.599   12.409  -27.528  -1.09  0 377 B
-ATOM     7479    C   CA ?  GLU      B 390 ?   11.753   10.406  -26.640   0.00  0 390 B
-ATOM     2373    O    O ?  PRO      A 314 ?   15.818   11.820  -18.936   0.00  0 314 A
-ATOM     7478    N    N ?  GLU      B 390 ?   11.942   11.823  -26.915   0.00  0 390 B
-ATOM     7482    C   CB ?  GLU      B 390 ?   10.471   10.206  -25.832   0.00  0 390 B
-ATOM     7389    C  CD2 ?  TYR      B 377 ?   18.638    9.289  -26.188   0.00  0 377 B
-ATOM     7508    N  NH1 ?  ARG      B 393 ?   15.703    7.580  -23.387  -1.09  0 393 B
-ATOM     2386    C   CA ?  GLY      A 316 ?   14.650    7.624  -19.576   0.00  0 316 A
-ATOM     7483    C   CG ?  GLU      B 390 ?   10.344    8.858  -25.128   0.00  0 390 B
-ATOM     7374    C  CG2 ?  ILE      B 375 ?   20.083   10.885  -22.001   0.00  0 375 B
-ATOM     2358    C   CD ?  ARG      A 312 ?   10.379    7.045  -20.116   0.00  0 312 A
-ATOM     2366    O    O ?  THR      A 313 ?   13.684    9.905  -17.095   0.00  0 313 A
+ATOM    7475     C   CA ?  GLY      B 389 ?   13.099   13.799  -27.671   0.00  0 389 B
+ATOM    7477     O    O ?  GLY      B 389 ?   14.166   11.689  -27.311  -1.88  0 389 B
+ATOM    7371     O    O ?  ILE      B 375 ?   19.005   13.498  -23.111  -1.48  0 375 B
+ATOM    7476     C    C ?  GLY      B 389 ?   13.113   12.335  -27.289   0.00  0 389 B
+ATOM    7381     O   OG ?  SER      B 376 ?   18.674   16.005  -25.873  -2.28  0 376 B
+ATOM    7377     C   CA ?  SER      B 376 ?   19.591   13.782  -25.813   0.00  0 376 B
+ATOM    7382     N    N ?  TYR      B 377 ?   18.599   12.409  -27.528  -1.09  0 377 B
+ATOM    7479     C   CA ?  GLU      B 390 ?   11.753   10.406  -26.640   0.00  0 390 B
+ATOM    2373     O    O ?  PRO      A 314 ?   15.818   11.820  -18.936   0.00  0 314 A
+ATOM    7478     N    N ?  GLU      B 390 ?   11.942   11.823  -26.915   0.00  0 390 B
+ATOM    7482     C   CB ?  GLU      B 390 ?   10.471   10.206  -25.832   0.00  0 390 B
+ATOM    7389     C  CD2 ?  TYR      B 377 ?   18.638    9.289  -26.188   0.00  0 377 B
+ATOM    7508     N  NH1 ?  ARG      B 393 ?   15.703    7.580  -23.387  -1.09  0 393 B
+ATOM    2386     C   CA ?  GLY      A 316 ?   14.650    7.624  -19.576   0.00  0 316 A
+ATOM    7483     C   CG ?  GLU      B 390 ?   10.344    8.858  -25.128   0.00  0 390 B
+ATOM    7374     C  CG2 ?  ILE      B 375 ?   20.083   10.885  -22.001   0.00  0 375 B
+ATOM    2358     C   CD ?  ARG      A 312 ?   10.379    7.045  -20.116   0.00  0 312 A
+ATOM    2366     O    O ?  THR      A 313 ?   13.684    9.905  -17.095   0.00  0 313 A
 # 

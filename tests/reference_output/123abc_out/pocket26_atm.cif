@@ -15,7 +15,7 @@ Information about the pocket    26:
 6  - Hydrophobicity Score              : 57.6667
 7  - Polarity Score                    :     0
 8  - Amino Acid based volume Score     : 3.5833
-9  - Pocket volume (Monte Carlo)       : 231.5366
+9  - Pocket volume (Monte Carlo)       : 229.2369
 10  -Pocket volume (convex hull)       : 15.0678
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 38.0000
@@ -39,31 +39,31 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1821    C  CG1 ?  VAL    Axp 241 ?   18.722   33.273    0.801   0.00  0 468 A
-ATOM      824    N    N ?  LEU    Axp 114 ?   19.877   26.311   -1.669   0.00  0 341 A
-ATOM      818    C    C ?  LEU    Axp 113 ?   20.351   26.072   -0.464   0.00  0 340 A
-ATOM      825    C   CA ?  LEU    Axp 114 ?   18.529   26.785   -1.887   0.00  0 341 A
-ATOM      798    C   CA ?  ALA    Axp 110 ?   24.131   27.516   -4.659   0.00  0 337 A
-ATOM     1805    C   CD ?  PRO    Axp 238 ?   21.822   33.590   -2.836   0.00  0 465 A
-ATOM     1792    O    O ?  GLY    Axp 236 ?   25.501   33.661   -3.290  -6.17  0 463 A
-ATOM      801    C   CB ?  ALA    Axp 110 ?   24.277   28.499   -5.862   0.00  0 337 A
-ATOM      819    O    O ?  LEU    Axp 113 ?   19.663   26.116    0.542  -1.07  0 340 A
-ATOM      856    C   CB ?  ALA    Axp 117 ?   16.641   27.654    2.208   0.00  0 344 A
-ATOM     1539    C  CG2 ?  ILE    Axp 205 ?   21.953   27.141    3.249   0.00  0 432 A
-ATOM     1509    C  CD2 ?  LEU    Axp 202 ?   16.995   30.754    4.286   0.00  0 429 A
-ATOM     1505    O    O ?  LEU    Axp 202 ?   21.436   31.217    5.146  -3.21  0 429 A
-ATOM      820    C   CB ?  LEU    Axp 113 ?   22.728   26.946   -0.496   0.00  0 340 A
-ATOM      830    C  CD1 ?  LEU    Axp 114 ?   17.000   29.244   -2.786   0.00  0 341 A
-ATOM     2030    C  CE1 ?  PHE    Axp 266 ?   15.255   30.669    0.284   0.00  0 493 A
-ATOM      828    C   CB ?  LEU    Axp 114 ?   18.476   27.301   -3.305   0.00  0 341 A
-ATOM     1804    C   CG ?  PRO    Axp 238 ?   21.078   33.317   -4.111   0.00  0 465 A
-ATOM     1822    C  CG2 ?  VAL    Axp 241 ?   17.795   32.913   -1.514   0.00  0 468 A
-ATOM      800    O    O ?  ALA    Axp 110 ?   21.862   27.166   -3.931  -1.07  0 337 A
-ATOM     1545    C   CB ?  ALA    Axp 206 ?   24.087   32.253    2.900   0.00  0 433 A
-ATOM     1541    N    N ?  ALA    Axp 206 ?   24.014   29.985    3.998   0.00  0 433 A
-ATOM     1798    S   SG ?  CYS    Axp 237 ?   22.030   35.316    0.634   0.00  0 464 A
-ATOM     1794    C   CA ?  CYS    Axp 237 ?   24.026   34.922   -1.329   0.00  0 464 A
-ATOM     1544    O    O ?  ALA    Axp 206 ?   26.983   31.382    2.492  -3.21  0 433 A
-ATOM     1542    C   CA ?  ALA    Axp 206 ?   24.748   30.821    3.023   0.00  0 433 A
-ATOM      822    C  CD1 ?  LEU    Axp 113 ?   25.012   27.872   -0.209   0.00  0 340 A
+ATOM    1821     C  CG1 ?  VAL    Axp 241 ?   18.722   33.273    0.801   0.00  0 468 A
+ATOM    824      N    N ?  LEU    Axp 114 ?   19.877   26.311   -1.669   0.00  0 341 A
+ATOM    818      C    C ?  LEU    Axp 113 ?   20.351   26.072   -0.464   0.00  0 340 A
+ATOM    825      C   CA ?  LEU    Axp 114 ?   18.529   26.785   -1.887   0.00  0 341 A
+ATOM    798      C   CA ?  ALA    Axp 110 ?   24.131   27.516   -4.659   0.00  0 337 A
+ATOM    1805     C   CD ?  PRO    Axp 238 ?   21.822   33.590   -2.836   0.00  0 465 A
+ATOM    1792     O    O ?  GLY    Axp 236 ?   25.501   33.661   -3.290  -6.17  0 463 A
+ATOM    801      C   CB ?  ALA    Axp 110 ?   24.277   28.499   -5.862   0.00  0 337 A
+ATOM    819      O    O ?  LEU    Axp 113 ?   19.663   26.116    0.542  -1.07  0 340 A
+ATOM    856      C   CB ?  ALA    Axp 117 ?   16.641   27.654    2.208   0.00  0 344 A
+ATOM    1539     C  CG2 ?  ILE    Axp 205 ?   21.953   27.141    3.249   0.00  0 432 A
+ATOM    1509     C  CD2 ?  LEU    Axp 202 ?   16.995   30.754    4.286   0.00  0 429 A
+ATOM    1505     O    O ?  LEU    Axp 202 ?   21.436   31.217    5.146  -3.21  0 429 A
+ATOM    820      C   CB ?  LEU    Axp 113 ?   22.728   26.946   -0.496   0.00  0 340 A
+ATOM    830      C  CD1 ?  LEU    Axp 114 ?   17.000   29.244   -2.786   0.00  0 341 A
+ATOM    2030     C  CE1 ?  PHE    Axp 266 ?   15.255   30.669    0.284   0.00  0 493 A
+ATOM    828      C   CB ?  LEU    Axp 114 ?   18.476   27.301   -3.305   0.00  0 341 A
+ATOM    1804     C   CG ?  PRO    Axp 238 ?   21.078   33.317   -4.111   0.00  0 465 A
+ATOM    1822     C  CG2 ?  VAL    Axp 241 ?   17.795   32.913   -1.514   0.00  0 468 A
+ATOM    800      O    O ?  ALA    Axp 110 ?   21.862   27.166   -3.931  -1.07  0 337 A
+ATOM    1545     C   CB ?  ALA    Axp 206 ?   24.087   32.253    2.900   0.00  0 433 A
+ATOM    1541     N    N ?  ALA    Axp 206 ?   24.014   29.985    3.998   0.00  0 433 A
+ATOM    1798     S   SG ?  CYS    Axp 237 ?   22.030   35.316    0.634   0.00  0 464 A
+ATOM    1794     C   CA ?  CYS    Axp 237 ?   24.026   34.922   -1.329   0.00  0 464 A
+ATOM    1544     O    O ?  ALA    Axp 206 ?   26.983   31.382    2.492  -3.21  0 433 A
+ATOM    1542     C   CA ?  ALA    Axp 206 ?   24.748   30.821    3.023   0.00  0 433 A
+ATOM    822      C  CD1 ?  LEU    Axp 113 ?   25.012   27.872   -0.209   0.00  0 340 A
 # 

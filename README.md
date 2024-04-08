@@ -81,10 +81,10 @@ docker build -t fpocket/fpocket .
 This will build fpocket into your local fpocket/fpocket image. You can then run fpocket/mdpocket etc using: 
 
 ```bash
-docker run -v `pwd`:/WORKDIR fpocket/fpocket fpocket -f data/sample/1UYD.pdb
+docker run -v `pwd`:/workdir fpocket/fpocket fpocket -f /workdir/yourfile.pdb
 ```
 
-Here you mount your current directory with your input files into the preconfigured `/WORKDIR` in the docker container and then run fpocket on a file in that mounted folder.
+Here you mount your current directory with your input files into the preconfigured `/workdir` in the docker container and then run fpocket on a file in that mounted folder. Make sure that the folder is writeable to others if you run it through docker.
 
 ### Installing
 

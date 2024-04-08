@@ -15,7 +15,7 @@ Information about the pocket    13:
 6  - Hydrophobicity Score              : 36.1000
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 131.9666
+9  - Pocket volume (Monte Carlo)       : 130.5905
 10  -Pocket volume (convex hull)       : 5.2242
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1119    O    O ?  ALA      A 149 ?  -22.211  -12.972    6.640  -3.21  0 149 A
-ATOM     1599    C   CB ?  ASN      A 211 ?  -27.320  -13.748   10.528   0.00  0 211 A
-ATOM     1116    N    N ?  ALA      A 149 ?  -20.984  -11.639    9.256  -1.09  0 149 A
-ATOM     1598    O    O ?  ASN      A 211 ?  -27.602  -12.055    8.446  -3.21  0 211 A
-ATOM     1098    O    O ?  GLU      A 147 ?  -22.154  -11.649   13.650  -4.29  0 147 A
-ATOM     1502    O    O ?  ILE      A 200 ?  -26.881   -8.567   14.409  -1.07  0 200 A
-ATOM     1602    N  ND2 ?  ASN      A 211 ?  -26.228  -14.600   12.510  -3.28  0 211 A
-ATOM     1105    C   CA ?  TYR      A 148 ?  -20.995  -10.535   11.408   0.00  0 148 A
-ATOM     1617    C  CG2 ?  VAL      A 213 ?  -26.877   -8.736    8.863   0.00  0 213 A
-ATOM     1524    O    O ?  SER      A 203 ?  -28.936  -12.428   13.087  -2.14  0 203 A
-ATOM     1525    C   CB ?  SER      A 203 ?  -29.673   -9.787   12.057   0.00  0 203 A
-ATOM     1595    N    N ?  ASN      A 211 ?  -27.216  -15.289    8.587  -2.19  0 211 A
-ATOM     1582    O    O ?  LEU      A 209 ?  -24.283  -17.625    8.941  -2.14  0 209 A
-ATOM     1144    N  NH2 ?  ARG      A 152 ?  -21.736  -16.706   10.471  -3.28  0 152 A
-ATOM     1110    C  CD1 ?  TYR      A 148 ?  -22.856   -8.444    9.784   0.00  0 148 A
-ATOM     1505    C  CG2 ?  ILE      A 200 ?  -23.789   -7.406   14.041   0.00  0 200 A
-ATOM     1528    C   CA ?  TYR      A 204 ?  -27.207  -12.260   15.272   0.00  0 204 A
+ATOM    1119     O    O ?  ALA      A 149 ?  -22.211  -12.972    6.640  -3.21  0 149 A
+ATOM    1599     C   CB ?  ASN      A 211 ?  -27.320  -13.748   10.528   0.00  0 211 A
+ATOM    1116     N    N ?  ALA      A 149 ?  -20.984  -11.639    9.256  -1.09  0 149 A
+ATOM    1598     O    O ?  ASN      A 211 ?  -27.602  -12.055    8.446  -3.21  0 211 A
+ATOM    1098     O    O ?  GLU      A 147 ?  -22.154  -11.649   13.650  -4.29  0 147 A
+ATOM    1502     O    O ?  ILE      A 200 ?  -26.881   -8.567   14.409  -1.07  0 200 A
+ATOM    1602     N  ND2 ?  ASN      A 211 ?  -26.228  -14.600   12.510  -3.28  0 211 A
+ATOM    1105     C   CA ?  TYR      A 148 ?  -20.995  -10.535   11.408   0.00  0 148 A
+ATOM    1617     C  CG2 ?  VAL      A 213 ?  -26.877   -8.736    8.863   0.00  0 213 A
+ATOM    1524     O    O ?  SER      A 203 ?  -28.936  -12.428   13.087  -2.14  0 203 A
+ATOM    1525     C   CB ?  SER      A 203 ?  -29.673   -9.787   12.057   0.00  0 203 A
+ATOM    1595     N    N ?  ASN      A 211 ?  -27.216  -15.289    8.587  -2.19  0 211 A
+ATOM    1582     O    O ?  LEU      A 209 ?  -24.283  -17.625    8.941  -2.14  0 209 A
+ATOM    1144     N  NH2 ?  ARG      A 152 ?  -21.736  -16.706   10.471  -3.28  0 152 A
+ATOM    1110     C  CD1 ?  TYR      A 148 ?  -22.856   -8.444    9.784   0.00  0 148 A
+ATOM    1505     C  CG2 ?  ILE      A 200 ?  -23.789   -7.406   14.041   0.00  0 200 A
+ATOM    1528     C   CA ?  TYR      A 204 ?  -27.207  -12.260   15.272   0.00  0 204 A
 # 

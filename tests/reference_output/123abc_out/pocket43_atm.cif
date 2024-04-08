@@ -15,7 +15,7 @@ Information about the pocket    43:
 6  - Hydrophobicity Score              : 17.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.2500
-9  - Pocket volume (Monte Carlo)       : 189.8323
+9  - Pocket volume (Monte Carlo)       : 189.7461
 10  -Pocket volume (convex hull)       : 6.7499
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 12.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2416    C   CA ?  THR    Bxp 50 ?   17.939   64.959   23.550   0.00  0 277 B
-ATOM     2413    O    O ?  GLU    Bxp 48 ?   19.441   68.370   22.824   0.00  0 275 B
-ATOM     2418    O    O ?  THR    Bxp 50 ?   15.558   64.621   23.499   0.00  0 277 B
-ATOM     2441    C  CG2 ?  VAL    Bxp 53 ?   14.178   66.395   26.369   0.00  0 280 B
-ATOM     2415    N    N ?  THR    Bxp 50 ?   18.296   65.229   24.944  -1.09  0 277 B
-ATOM     2670    C  CE1 ?  PHE    Bxp 84 ?   12.628   69.905   29.075   0.00  0 311 B
-ATOM     2440    C  CG1 ?  VAL    Bxp 53 ?   11.816   66.680   27.181   0.00  0 280 B
-ATOM     2672    C   CZ ?  PHE    Bxp 84 ?   12.303   71.272   28.812   0.00  0 311 B
-ATOM     2404    C  CD2 ?  LEU    Bxp 46 ?   15.909   66.339   29.452   0.00  0 273 B
-ATOM     2400    O    O ?  LEU    Bxp 46 ?   20.202   69.008   29.317  -2.14  0 273 B
-ATOM     2668    C  CD1 ?  PHE    Bxp 84 ?   13.569   69.600   30.041   0.00  0 311 B
-ATOM     2401    C   CB ?  LEU    Bxp 46 ?   18.001   67.145   30.437   0.00  0 273 B
-ATOM     2652    C   CB ?  PRO    Bxp 82 ?   16.611   73.617   26.894   0.00  0 309 B
-ATOM     2402    C   CG ?  LEU    Bxp 46 ?   17.385   66.162   29.440   0.00  0 273 B
-ATOM     2408    O    O ?  LYS    Bxp 47 ?   20.025   67.555   26.399  -1.07  0 274 B
-ATOM     2653    C   CG ?  PRO    Bxp 82 ?   15.340   73.703   26.076   0.00  0 309 B
-ATOM     2662    N    N ?  PHE    Bxp 84 ?   16.865   71.881   31.221   0.00  0 311 B
-ATOM     2656    C   CA ?  PRO    Bxp 83 ?   18.492   73.178   30.012   0.00  0 310 B
-ATOM     2667    C   CG ?  PHE    Bxp 84 ?   14.177   70.603   30.784   0.00  0 311 B
-ATOM     2412    C    C ?  GLU    Bxp 48 ?   20.030   68.088   23.874   0.00  0 275 B
+ATOM    2416     C   CA ?  THR    Bxp 50 ?   17.939   64.959   23.550   0.00  0 277 B
+ATOM    2413     O    O ?  GLU    Bxp 48 ?   19.441   68.370   22.824   0.00  0 275 B
+ATOM    2418     O    O ?  THR    Bxp 50 ?   15.558   64.621   23.499   0.00  0 277 B
+ATOM    2441     C  CG2 ?  VAL    Bxp 53 ?   14.178   66.395   26.369   0.00  0 280 B
+ATOM    2415     N    N ?  THR    Bxp 50 ?   18.296   65.229   24.944  -1.09  0 277 B
+ATOM    2670     C  CE1 ?  PHE    Bxp 84 ?   12.628   69.905   29.075   0.00  0 311 B
+ATOM    2440     C  CG1 ?  VAL    Bxp 53 ?   11.816   66.680   27.181   0.00  0 280 B
+ATOM    2672     C   CZ ?  PHE    Bxp 84 ?   12.303   71.272   28.812   0.00  0 311 B
+ATOM    2404     C  CD2 ?  LEU    Bxp 46 ?   15.909   66.339   29.452   0.00  0 273 B
+ATOM    2400     O    O ?  LEU    Bxp 46 ?   20.202   69.008   29.317  -2.14  0 273 B
+ATOM    2668     C  CD1 ?  PHE    Bxp 84 ?   13.569   69.600   30.041   0.00  0 311 B
+ATOM    2401     C   CB ?  LEU    Bxp 46 ?   18.001   67.145   30.437   0.00  0 273 B
+ATOM    2652     C   CB ?  PRO    Bxp 82 ?   16.611   73.617   26.894   0.00  0 309 B
+ATOM    2402     C   CG ?  LEU    Bxp 46 ?   17.385   66.162   29.440   0.00  0 273 B
+ATOM    2408     O    O ?  LYS    Bxp 47 ?   20.025   67.555   26.399  -1.07  0 274 B
+ATOM    2653     C   CG ?  PRO    Bxp 82 ?   15.340   73.703   26.076   0.00  0 309 B
+ATOM    2662     N    N ?  PHE    Bxp 84 ?   16.865   71.881   31.221   0.00  0 311 B
+ATOM    2656     C   CA ?  PRO    Bxp 83 ?   18.492   73.178   30.012   0.00  0 310 B
+ATOM    2667     C   CG ?  PHE    Bxp 84 ?   14.177   70.603   30.784   0.00  0 311 B
+ATOM    2412     C    C ?  GLU    Bxp 48 ?   20.030   68.088   23.874   0.00  0 275 B
 # 

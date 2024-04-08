@@ -15,7 +15,7 @@ Information about the pocket    20:
 6  - Hydrophobicity Score              : 0.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 242.1686
+9  - Pocket volume (Monte Carlo)       : 241.7094
 10  -Pocket volume (convex hull)       : 7.5841
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     5516    N    N ?  ALA      F 39 ?  -40.955  -80.355   -9.475   0.00  0 177 F
-ATOM     5519    O    O ?  ALA      F 39 ?  -38.683  -79.087  -10.357  -2.14  0 177 F
-ATOM     5489    O    O ?  LEU      F 35 ?  -38.834  -80.400   -5.797  -1.48  0 173 F
-ATOM     5493    C  CD2 ?  LEU      F 35 ?  -35.409  -79.856   -9.068   0.00  0 173 F
-ATOM     5527    C   CD ?  LYS      F 40 ?  -37.754  -79.975  -16.433   0.00  0 178 F
-ATOM     5528    C   CE ?  LYS      F 40 ?  -38.660  -80.076  -17.642   0.00  0 178 F
-ATOM     6223    C   CA ?  LYS      F 128 ?  -43.862  -80.767  -14.525   0.00  0 266 F
-ATOM     6216    O    O ?  GLN      F 127 ?  -41.667  -78.955  -14.489  -1.07  0 265 F
-ATOM     5511    O    O ?  ASP      F 38 ?  -42.116  -82.208  -10.031  -0.95  0 176 F
-ATOM     5518    C    C ?  ALA      F 39 ?  -39.568  -79.170  -11.203   0.00  0 177 F
-ATOM     5525    C   CB ?  LYS      F 40 ?  -37.522  -79.072  -14.073   0.00  0 178 F
-ATOM     5521    N    N ?  LYS      F 40 ?  -39.370  -78.805  -12.484   0.00  0 178 F
-ATOM     5526    C   CG ?  LYS      F 40 ?  -38.394  -79.169  -15.319   0.00  0 178 F
-ATOM     5510    C    C ?  ASP      F 38 ?  -41.570  -81.507   -9.182   0.00  0 176 F
-ATOM     5514    O  OD1 ?  ASP      F 38 ?  -40.814  -84.564   -7.134  -0.14  0 176 F
-ATOM     5509    C   CA ?  ASP      F 38 ?  -41.574  -81.919   -7.717   0.00  0 176 F
-ATOM     6226    C   CB ?  LYS      F 128 ?  -44.177  -81.034  -13.033   0.00  0 266 F
-ATOM     5517    C   CA ?  ALA      F 39 ?  -40.942  -79.779  -10.819   0.00  0 177 F
-ATOM     6231    N    N ?  LYS      F 129 ?  -44.603  -82.732  -15.788  -3.28  0 267 F
+ATOM    5516     N    N ?  ALA      F 39 ?  -40.955  -80.355   -9.475   0.00  0 177 F
+ATOM    5519     O    O ?  ALA      F 39 ?  -38.683  -79.087  -10.357  -2.14  0 177 F
+ATOM    5489     O    O ?  LEU      F 35 ?  -38.834  -80.400   -5.797  -1.48  0 173 F
+ATOM    5493     C  CD2 ?  LEU      F 35 ?  -35.409  -79.856   -9.068   0.00  0 173 F
+ATOM    5527     C   CD ?  LYS      F 40 ?  -37.754  -79.975  -16.433   0.00  0 178 F
+ATOM    5528     C   CE ?  LYS      F 40 ?  -38.660  -80.076  -17.642   0.00  0 178 F
+ATOM    6223     C   CA ?  LYS      F 128 ?  -43.862  -80.767  -14.525   0.00  0 266 F
+ATOM    6216     O    O ?  GLN      F 127 ?  -41.667  -78.955  -14.489  -1.07  0 265 F
+ATOM    5511     O    O ?  ASP      F 38 ?  -42.116  -82.208  -10.031  -0.95  0 176 F
+ATOM    5518     C    C ?  ALA      F 39 ?  -39.568  -79.170  -11.203   0.00  0 177 F
+ATOM    5525     C   CB ?  LYS      F 40 ?  -37.522  -79.072  -14.073   0.00  0 178 F
+ATOM    5521     N    N ?  LYS      F 40 ?  -39.370  -78.805  -12.484   0.00  0 178 F
+ATOM    5526     C   CG ?  LYS      F 40 ?  -38.394  -79.169  -15.319   0.00  0 178 F
+ATOM    5510     C    C ?  ASP      F 38 ?  -41.570  -81.507   -9.182   0.00  0 176 F
+ATOM    5514     O  OD1 ?  ASP      F 38 ?  -40.814  -84.564   -7.134  -0.14  0 176 F
+ATOM    5509     C   CA ?  ASP      F 38 ?  -41.574  -81.919   -7.717   0.00  0 176 F
+ATOM    6226     C   CB ?  LYS      F 128 ?  -44.177  -81.034  -13.033   0.00  0 266 F
+ATOM    5517     C   CA ?  ALA      F 39 ?  -40.942  -79.779  -10.819   0.00  0 177 F
+ATOM    6231     N    N ?  LYS      F 129 ?  -44.603  -82.732  -15.788  -3.28  0 267 F
 # 

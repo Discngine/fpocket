@@ -15,7 +15,7 @@ Information about the pocket    57:
 6  - Hydrophobicity Score              : -4.4000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.4000
-9  - Pocket volume (Monte Carlo)       : 293.0622
+9  - Pocket volume (Monte Carlo)       : 292.8687
 10  -Pocket volume (convex hull)       : 4.9554
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 6.0000
@@ -39,21 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4821    O  OE1 ?  GLU      E 80 ?  -70.439  -62.460  -14.596  -3.21  0 218 E
-ATOM     4818    C   CB ?  GLU      E 80 ?  -72.602  -61.540  -12.970   0.00  0 218 E
-ATOM     4447    C  CD2 ?  LEU      E 35 ?  -72.564  -65.314  -19.078   0.00  0 173 E
-ATOM     4479    C   CB ?  LYS      E 40 ?  -69.859  -65.793  -14.279   0.00  0 178 E
-ATOM     4820    C   CD ?  GLU      E 80 ?  -70.789  -61.261  -14.670   0.00  0 218 E
-ATOM     4823    N    N ?  ASP      E 81 ?  -74.602  -62.635  -10.684   0.00  0 219 E
-ATOM     4481    C   CD ?  LYS      E 40 ?  -70.038  -66.333  -11.806   0.00  0 178 E
-ATOM     4822    O  OE2 ?  GLU      E 80 ?  -70.596  -60.546  -15.677   0.00  0 218 E
-ATOM     4827    C   CB ?  ASP      E 81 ?  -75.268  -64.754   -9.605   0.00  0 219 E
-ATOM     4824    C   CA ?  ASP      E 81 ?  -75.742  -63.472  -10.310   0.00  0 219 E
-ATOM     4817    O    O ?  GLU      E 80 ?  -75.740  -61.482  -12.249  -1.62  0 218 E
-ATOM     4816    C    C ?  GLU      E 80 ?  -74.701  -61.691  -11.624   0.00  0 218 E
-ATOM     4415    N  NE2 ?  GLN      E 31 ?  -72.942  -59.005  -17.045  -3.45  0 169 E
-ATOM     4413    C   CD ?  GLN      E 31 ?  -72.586  -59.092  -18.318   0.00  0 169 E
-ATOM     4414    O  OE1 ?  GLN      E 31 ?  -73.153  -58.441  -19.197   0.00  0 169 E
-ATOM     4446    C  CD1 ?  LEU      E 35 ?  -73.482  -63.666  -20.727   0.00  0 173 E
-ATOM     4412    C   CG ?  GLN      E 31 ?  -71.461  -60.037  -18.644   0.00  0 169 E
+ATOM    4821     O  OE1 ?  GLU      E 80 ?  -70.439  -62.460  -14.596  -3.21  0 218 E
+ATOM    4818     C   CB ?  GLU      E 80 ?  -72.602  -61.540  -12.970   0.00  0 218 E
+ATOM    4447     C  CD2 ?  LEU      E 35 ?  -72.564  -65.314  -19.078   0.00  0 173 E
+ATOM    4479     C   CB ?  LYS      E 40 ?  -69.859  -65.793  -14.279   0.00  0 178 E
+ATOM    4820     C   CD ?  GLU      E 80 ?  -70.789  -61.261  -14.670   0.00  0 218 E
+ATOM    4823     N    N ?  ASP      E 81 ?  -74.602  -62.635  -10.684   0.00  0 219 E
+ATOM    4481     C   CD ?  LYS      E 40 ?  -70.038  -66.333  -11.806   0.00  0 178 E
+ATOM    4822     O  OE2 ?  GLU      E 80 ?  -70.596  -60.546  -15.677   0.00  0 218 E
+ATOM    4827     C   CB ?  ASP      E 81 ?  -75.268  -64.754   -9.605   0.00  0 219 E
+ATOM    4824     C   CA ?  ASP      E 81 ?  -75.742  -63.472  -10.310   0.00  0 219 E
+ATOM    4817     O    O ?  GLU      E 80 ?  -75.740  -61.482  -12.249  -1.62  0 218 E
+ATOM    4816     C    C ?  GLU      E 80 ?  -74.701  -61.691  -11.624   0.00  0 218 E
+ATOM    4415     N  NE2 ?  GLN      E 31 ?  -72.942  -59.005  -17.045  -3.45  0 169 E
+ATOM    4413     C   CD ?  GLN      E 31 ?  -72.586  -59.092  -18.318   0.00  0 169 E
+ATOM    4414     O  OE1 ?  GLN      E 31 ?  -73.153  -58.441  -19.197   0.00  0 169 E
+ATOM    4446     C  CD1 ?  LEU      E 35 ?  -73.482  -63.666  -20.727   0.00  0 173 E
+ATOM    4412     C   CG ?  GLN      E 31 ?  -71.461  -60.037  -18.644   0.00  0 169 E
 # 

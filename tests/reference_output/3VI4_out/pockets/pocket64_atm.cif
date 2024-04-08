@@ -15,7 +15,7 @@ Information about the pocket    64:
 6  - Hydrophobicity Score              : 40.6667
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 346.9735
+9  - Pocket volume (Monte Carlo)       : 349.4164
 10  -Pocket volume (convex hull)       : 34.5275
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 20.0000
@@ -54,11 +54,11 @@ ATOM    14575    C  CE1 ?  TYR      D 293 ?  -51.435  -51.343  -56.909   0.00  0
 ATOM    14577    C   CZ ?  TYR      D 293 ?  -51.488  -49.976  -56.685   0.00  0 293 D
 ATOM    11021    C   CD ?  PRO      C 412 ?  -48.962  -42.449  -57.657   0.00  0 412 C
 ATOM    11012    C   CB ?  THR      C 411 ?  -50.809  -43.866  -59.874   0.00  0 411 C
-ATOM     8217    C   CE ?  LYS      C 41 ?  -46.045  -53.795  -61.928   0.00  0 41 C
-ATOM     8046    C   CZ ?  PHE      C 18 ?  -45.214  -50.085  -61.153   0.00  0 18 C
+ATOM    8217     C   CE ?  LYS      C 41 ?  -46.045  -53.795  -61.928   0.00  0 41 C
+ATOM    8046     C   CZ ?  PHE      C 18 ?  -45.214  -50.085  -61.153   0.00  0 18 C
 ATOM    14578    O   OH ?  TYR      D 293 ?  -51.660  -49.093  -57.724  -4.43  0 293 D
-ATOM     8044    C  CE1 ?  PHE      C 18 ?  -45.620  -49.650  -62.401   0.00  0 18 C
-ATOM     8218    N   NZ ?  LYS      C 41 ?  -45.463  -54.876  -61.086  -2.77  0 41 C
+ATOM    8044     C  CE1 ?  PHE      C 18 ?  -45.620  -49.650  -62.401   0.00  0 18 C
+ATOM    8218     N   NZ ?  LYS      C 41 ?  -45.463  -54.876  -61.086  -2.77  0 41 C
 ATOM    14564    C  CD2 ?  HIS      D 292 ?  -51.039  -56.147  -54.521   0.00  0 292 D
 ATOM    11219    O    O ?  GLY      C 439 ?  -46.781  -44.803  -64.261  -4.29  0 439 C
 ATOM    11013    O  OG1 ?  THR      C 411 ?  -50.235  -44.004  -61.179  -1.88  0 411 C

@@ -15,7 +15,7 @@ Information about the pocket   240:
 6  - Hydrophobicity Score              : 8.2308
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 3.0769
-9  - Pocket volume (Monte Carlo)       : 528.2914
+9  - Pocket volume (Monte Carlo)       : 543.9230
 10  -Pocket volume (convex hull)       : 140.9173
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 10.2222

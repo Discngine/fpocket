@@ -15,7 +15,7 @@ Information about the pocket    23:
 6  - Hydrophobicity Score              : 23.4000
 7  - Polarity Score                    :     8
 8  - Amino Acid based volume Score     : 5.5000
-9  - Pocket volume (Monte Carlo)       : 361.4965
+9  - Pocket volume (Monte Carlo)       : 356.9883
 10  -Pocket volume (convex hull)       : 17.1695
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 3.6667
@@ -39,23 +39,23 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1681    O    O ?  TRP      B 79 ?   14.779  -68.813  -38.888  -1.21  0 217 B
-ATOM     1695    O    O ?  GLU      B 80 ?   16.703  -69.780  -41.696   0.00  0 218 B
-ATOM     1593    O   OG ?  SER      B 69 ?    9.824  -66.450  -41.209   0.00  0 207 B
-ATOM     1693    C   CA ?  GLU      B 80 ?   15.985  -67.595  -41.067   0.00  0 218 B
-ATOM     1676    C  CD1 ?  LEU      B 78 ?   11.148  -72.515  -36.685   0.00  0 216 B
-ATOM     1591    O    O ?  SER      B 69 ?    8.901  -67.675  -38.413  -3.21  0 207 B
-ATOM     1674    C   CB ?  LEU      B 78 ?   11.823  -70.124  -36.632   0.00  0 216 B
-ATOM     1655    C   CD ?  PRO      B 76 ?    6.744  -73.389  -34.473   0.00  0 214 B
-ATOM     1644    C  CD2 ?  TYR      B 75 ?    4.886  -74.193  -38.943   0.00  0 213 B
-ATOM     1652    O    O ?  PRO      B 76 ?    7.752  -70.291  -35.478  -2.14  0 214 B
-ATOM     1595    C   CA ?  ARG      B 70 ?    6.239  -68.413  -39.002   0.00  0 208 B
-ATOM     1596    C    C ?  ARG      B 70 ?    5.103  -68.655  -40.004   0.00  0 208 B
-ATOM     1605    N    N ?  ARG      B 71 ?    4.754  -69.921  -40.230  -2.19  0 209 B
-ATOM     1641    C   CB ?  TYR      B 75 ?    4.311  -72.617  -37.056   0.00  0 213 B
-ATOM     1673    O    O ?  LEU      B 78 ?   11.999  -67.151  -37.753   0.00  0 216 B
-ATOM     1260    C  CH2 ?  TRP      B 27 ?   11.765  -64.974  -44.015   0.00  0 165 B
-ATOM     1293    N  NE2 ?  GLN      B 31 ?   14.016  -66.831  -46.553   0.00  0 169 B
-ATOM     1697    C   CG ?  GLU      B 80 ?   15.614  -65.521  -42.469   0.00  0 218 B
-ATOM     1259    C  CZ3 ?  TRP      B 27 ?   11.059  -64.968  -45.218   0.00  0 165 B
+ATOM    1681     O    O ?  TRP      B 79 ?   14.779  -68.813  -38.888  -1.21  0 217 B
+ATOM    1695     O    O ?  GLU      B 80 ?   16.703  -69.780  -41.696   0.00  0 218 B
+ATOM    1593     O   OG ?  SER      B 69 ?    9.824  -66.450  -41.209   0.00  0 207 B
+ATOM    1693     C   CA ?  GLU      B 80 ?   15.985  -67.595  -41.067   0.00  0 218 B
+ATOM    1676     C  CD1 ?  LEU      B 78 ?   11.148  -72.515  -36.685   0.00  0 216 B
+ATOM    1591     O    O ?  SER      B 69 ?    8.901  -67.675  -38.413  -3.21  0 207 B
+ATOM    1674     C   CB ?  LEU      B 78 ?   11.823  -70.124  -36.632   0.00  0 216 B
+ATOM    1655     C   CD ?  PRO      B 76 ?    6.744  -73.389  -34.473   0.00  0 214 B
+ATOM    1644     C  CD2 ?  TYR      B 75 ?    4.886  -74.193  -38.943   0.00  0 213 B
+ATOM    1652     O    O ?  PRO      B 76 ?    7.752  -70.291  -35.478  -2.14  0 214 B
+ATOM    1595     C   CA ?  ARG      B 70 ?    6.239  -68.413  -39.002   0.00  0 208 B
+ATOM    1596     C    C ?  ARG      B 70 ?    5.103  -68.655  -40.004   0.00  0 208 B
+ATOM    1605     N    N ?  ARG      B 71 ?    4.754  -69.921  -40.230  -2.19  0 209 B
+ATOM    1641     C   CB ?  TYR      B 75 ?    4.311  -72.617  -37.056   0.00  0 213 B
+ATOM    1673     O    O ?  LEU      B 78 ?   11.999  -67.151  -37.753   0.00  0 216 B
+ATOM    1260     C  CH2 ?  TRP      B 27 ?   11.765  -64.974  -44.015   0.00  0 165 B
+ATOM    1293     N  NE2 ?  GLN      B 31 ?   14.016  -66.831  -46.553   0.00  0 169 B
+ATOM    1697     C   CG ?  GLU      B 80 ?   15.614  -65.521  -42.469   0.00  0 218 B
+ATOM    1259     C  CZ3 ?  TRP      B 27 ?   11.059  -64.968  -45.218   0.00  0 165 B
 # 

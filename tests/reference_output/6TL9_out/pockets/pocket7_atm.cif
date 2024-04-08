@@ -15,7 +15,7 @@ Information about the pocket     7:
 6  - Hydrophobicity Score              : 30.2000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 136.8241
+9  - Pocket volume (Monte Carlo)       : 139.2814
 10  -Pocket volume (convex hull)       : 5.3278
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 9.0000
@@ -39,24 +39,24 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6289    O    O ?  CYS      G 6 ?  -19.873  -30.523  -13.351  -2.14  0 144 G
-ATOM     7332    N    N ?  CYS      H 6 ?  -13.545  -32.234  -16.912   0.00  0 144 H
-ATOM     7331    C   CD ?  PRO      H 5 ?  -14.311  -29.092  -15.175   0.00  0 143 H
-ATOM     7388    C   CB ?  TRP      H 12 ?  -16.306  -34.571  -13.188   0.00  0 150 H
-ATOM     7329    C   CB ?  PRO      H 5 ?  -13.291  -30.941  -14.091   0.00  0 143 H
-ATOM     7394    C  CE3 ?  TRP      H 12 ?  -16.989  -31.675  -11.740   0.00  0 150 H
-ATOM     7330    C   CG ?  PRO      H 5 ?  -14.049  -29.680  -13.835   0.00  0 143 H
-ATOM     7335    O    O ?  CYS      H 6 ?  -15.087  -32.183  -19.222  -1.07  0 144 H
-ATOM     7336    C   CB ?  CYS      H 6 ?  -14.325  -34.557  -17.123   0.00  0 144 H
-ATOM     6342    C   CB ?  TRP      G 12 ?  -20.651  -33.084  -19.520   0.00  0 150 G
-ATOM     6286    N    N ?  CYS      G 6 ?  -20.959  -29.442  -15.675   0.00  0 144 G
-ATOM     6285    C   CD ?  PRO      G 5 ?  -18.212  -27.533  -17.171   0.00  0 143 G
-ATOM     6290    C   CB ?  CYS      G 6 ?  -21.883  -31.715  -15.620   0.00  0 144 G
-ATOM     6319    O    O ?  TRP      G 10 ?  -20.964  -36.335  -15.121  -1.07  0 148 G
-ATOM     6348    C  CE3 ?  TRP      G 12 ?  -18.155  -31.335  -20.730   0.00  0 150 G
-ATOM     6284    C   CG ?  PRO      G 5 ?  -18.756  -27.875  -18.532   0.00  0 143 G
-ATOM     7341    O    O ?  PRO      H 7 ?  -16.249  -34.878  -20.659   0.00  0 145 H
-ATOM     6295    O    O ?  PRO      G 7 ?  -20.831  -33.435  -12.116   0.00  0 145 G
-ATOM     7365    O    O ?  TRP      H 10 ?  -18.412  -37.358  -17.890   0.00  0 148 H
-ATOM     7384    N    N ?  TRP      H 12 ?  -17.067  -36.757  -14.009  -1.09  0 150 H
+ATOM    6289     O    O ?  CYS      G 6 ?  -19.873  -30.523  -13.351  -2.14  0 144 G
+ATOM    7332     N    N ?  CYS      H 6 ?  -13.545  -32.234  -16.912   0.00  0 144 H
+ATOM    7331     C   CD ?  PRO      H 5 ?  -14.311  -29.092  -15.175   0.00  0 143 H
+ATOM    7388     C   CB ?  TRP      H 12 ?  -16.306  -34.571  -13.188   0.00  0 150 H
+ATOM    7329     C   CB ?  PRO      H 5 ?  -13.291  -30.941  -14.091   0.00  0 143 H
+ATOM    7394     C  CE3 ?  TRP      H 12 ?  -16.989  -31.675  -11.740   0.00  0 150 H
+ATOM    7330     C   CG ?  PRO      H 5 ?  -14.049  -29.680  -13.835   0.00  0 143 H
+ATOM    7335     O    O ?  CYS      H 6 ?  -15.087  -32.183  -19.222  -1.07  0 144 H
+ATOM    7336     C   CB ?  CYS      H 6 ?  -14.325  -34.557  -17.123   0.00  0 144 H
+ATOM    6342     C   CB ?  TRP      G 12 ?  -20.651  -33.084  -19.520   0.00  0 150 G
+ATOM    6286     N    N ?  CYS      G 6 ?  -20.959  -29.442  -15.675   0.00  0 144 G
+ATOM    6285     C   CD ?  PRO      G 5 ?  -18.212  -27.533  -17.171   0.00  0 143 G
+ATOM    6290     C   CB ?  CYS      G 6 ?  -21.883  -31.715  -15.620   0.00  0 144 G
+ATOM    6319     O    O ?  TRP      G 10 ?  -20.964  -36.335  -15.121  -1.07  0 148 G
+ATOM    6348     C  CE3 ?  TRP      G 12 ?  -18.155  -31.335  -20.730   0.00  0 150 G
+ATOM    6284     C   CG ?  PRO      G 5 ?  -18.756  -27.875  -18.532   0.00  0 143 G
+ATOM    7341     O    O ?  PRO      H 7 ?  -16.249  -34.878  -20.659   0.00  0 145 H
+ATOM    6295     O    O ?  PRO      G 7 ?  -20.831  -33.435  -12.116   0.00  0 145 G
+ATOM    7365     O    O ?  TRP      H 10 ?  -18.412  -37.358  -17.890   0.00  0 148 H
+ATOM    7384     N    N ?  TRP      H 12 ?  -17.067  -36.757  -14.009  -1.09  0 150 H
 # 

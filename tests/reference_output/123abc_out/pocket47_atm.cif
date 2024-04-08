@@ -15,7 +15,7 @@ Information about the pocket    47:
 6  - Hydrophobicity Score              : 16.8333
 7  - Polarity Score                    :     6
 8  - Amino Acid based volume Score     : 6.1667
-9  - Pocket volume (Monte Carlo)       : 236.5735
+9  - Pocket volume (Monte Carlo)       : 231.1839
 10  -Pocket volume (convex hull)       : 5.7464
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     8180    N    N ?  TRP    Dxp 251 ?   28.739   15.556   41.119  -4.37  0 478 D
-ATOM     8178    O  OE1 ?  GLN    Dxp 250 ?   27.483   14.463   37.031  -1.21  0 477 D
-ATOM     8019    N  NH2 ?  ARG    Dxp 230 ?   28.652   19.180   41.632   0.00  0 457 D
-ATOM     8172    C   CA ?  GLN    Dxp 250 ?   30.091   15.426   39.094   0.00  0 477 D
-ATOM     8179    N  NE2 ?  GLN    Dxp 250 ?   28.626   15.773   35.556   0.00  0 477 D
-ATOM     8160    O    O ?  TRP    Dxp 249 ?   30.795   17.904   40.024   0.00  0 476 D
-ATOM     8016    N   NE ?  ARG    Dxp 230 ?   29.923   20.631   40.375  -1.09  0 457 D
-ATOM     8144    N  NH1 ?  ARG    Dxp 246 ?   28.330   22.273   34.849   0.00  0 473 D
-ATOM     8017    C   CZ ?  ARG    Dxp 230 ?   29.005   20.440   41.332   0.00  0 457 D
-ATOM     8014    C   CG ?  ARG    Dxp 230 ?   29.589   22.666   38.965   0.00  0 457 D
-ATOM     8138    O    O ?  ARG    Dxp 246 ?   31.809   17.734   36.185  -1.07  0 473 D
-ATOM     7995    O  OD1 ?  ASP    Dxp 228 ?   23.937   20.166   41.574   0.00  0 455 D
-ATOM     8184    C   CB ?  TRP    Dxp 251 ?   27.124   15.802   42.940   0.00  0 478 D
-ATOM     7993    C   CB ?  ASP    Dxp 228 ?   23.909   22.355   40.719   0.00  0 455 D
-ATOM     7994    C   CG ?  ASP    Dxp 228 ?   23.230   21.073   41.099   0.00  0 455 D
-ATOM     7992    O    O ?  ASP    Dxp 228 ?   25.989   24.005   39.797  -2.14  0 455 D
+ATOM    8180     N    N ?  TRP    Dxp 251 ?   28.739   15.556   41.119  -4.37  0 478 D
+ATOM    8178     O  OE1 ?  GLN    Dxp 250 ?   27.483   14.463   37.031  -1.21  0 477 D
+ATOM    8019     N  NH2 ?  ARG    Dxp 230 ?   28.652   19.180   41.632   0.00  0 457 D
+ATOM    8172     C   CA ?  GLN    Dxp 250 ?   30.091   15.426   39.094   0.00  0 477 D
+ATOM    8179     N  NE2 ?  GLN    Dxp 250 ?   28.626   15.773   35.556   0.00  0 477 D
+ATOM    8160     O    O ?  TRP    Dxp 249 ?   30.795   17.904   40.024   0.00  0 476 D
+ATOM    8016     N   NE ?  ARG    Dxp 230 ?   29.923   20.631   40.375  -1.09  0 457 D
+ATOM    8144     N  NH1 ?  ARG    Dxp 246 ?   28.330   22.273   34.849   0.00  0 473 D
+ATOM    8017     C   CZ ?  ARG    Dxp 230 ?   29.005   20.440   41.332   0.00  0 457 D
+ATOM    8014     C   CG ?  ARG    Dxp 230 ?   29.589   22.666   38.965   0.00  0 457 D
+ATOM    8138     O    O ?  ARG    Dxp 246 ?   31.809   17.734   36.185  -1.07  0 473 D
+ATOM    7995     O  OD1 ?  ASP    Dxp 228 ?   23.937   20.166   41.574   0.00  0 455 D
+ATOM    8184     C   CB ?  TRP    Dxp 251 ?   27.124   15.802   42.940   0.00  0 478 D
+ATOM    7993     C   CB ?  ASP    Dxp 228 ?   23.909   22.355   40.719   0.00  0 455 D
+ATOM    7994     C   CG ?  ASP    Dxp 228 ?   23.230   21.073   41.099   0.00  0 455 D
+ATOM    7992     O    O ?  ASP    Dxp 228 ?   25.989   24.005   39.797  -2.14  0 455 D
 # 

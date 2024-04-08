@@ -15,7 +15,7 @@ Information about the pocket    55:
 6  - Hydrophobicity Score              : 25.1250
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 399.0827
+9  - Pocket volume (Monte Carlo)       : 389.5514
 10  -Pocket volume (convex hull)       : 33.7277
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.0000
@@ -39,26 +39,26 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     6591    O    O ?  LYS    Dxp 47 ?   64.182   16.959   63.126  -0.40  0 274 D
-ATOM     6822    C   CB ?  PRO    Dxp 82 ?   69.862   11.528   62.303   0.00  0 309 D
-ATOM     6594    C   CA ?  GLU    Dxp 48 ?   66.461   17.641   64.698   0.00  0 275 D
-ATOM     6595    C    C ?  GLU    Dxp 48 ?   65.503   17.139   65.811   0.00  0 275 D
-ATOM     6583    O    O ?  LEU    Dxp 46 ?   65.920   16.983   59.953  -1.21  0 273 D
-ATOM     6593    N    N ?  GLU    Dxp 48 ?   65.861   18.419   63.569  -1.51  0 275 D
-ATOM     6597    C   CB ?  GLU    Dxp 48 ?   67.666   18.388   65.320   0.00  0 275 D
-ATOM     6598    N    N ?  MET    Dxp 51 ?   59.884   14.683   65.188   0.00  0 278 D
-ATOM     6596    O    O ?  GLU    Dxp 48 ?   64.419   17.701   66.040  -3.21  0 275 D
-ATOM     6614    C  CG2 ?  VAL    Dxp 53 ?   62.193   10.508   62.898   0.00  0 280 D
-ATOM     6585    C   CG ?  LEU    Dxp 46 ?   62.835   14.127   59.732   0.00  0 273 D
-ATOM     6840    C  CE1 ?  PHE    Dxp 84 ?   66.314    9.915   61.017   0.00  0 311 D
-ATOM     6823    C   CG ?  PRO    Dxp 82 ?   69.353   10.173   62.856   0.00  0 309 D
-ATOM     6826    C   CA ?  PRO    Dxp 83 ?   70.319   13.415   58.938   0.00  0 310 D
-ATOM     6829    C   CB ?  PRO    Dxp 83 ?   70.753   14.692   58.219   0.00  0 310 D
-ATOM     6587    C  CD2 ?  LEU    Dxp 46 ?   62.871   12.582   59.713   0.00  0 273 D
-ATOM     6584    C   CB ?  LEU    Dxp 46 ?   64.014   14.752   58.976   0.00  0 273 D
-ATOM     6838    C  CD1 ?  PHE    Dxp 84 ?   66.264   10.777   59.908   0.00  0 311 D
-ATOM     6825    N    N ?  PRO    Dxp 83 ?   71.555   12.970   59.617   0.00  0 310 D
-ATOM     6820    C    C ?  PRO    Dxp 82 ?   71.691   12.046   60.602   0.00  0 309 D
-ATOM     6821    O    O ?  PRO    Dxp 82 ?   72.751   11.903   61.238  -1.62  0 309 D
-ATOM     6832    N    N ?  PHE    Dxp 84 ?   68.389   12.321   57.959  -1.09  0 311 D
+ATOM    6591     O    O ?  LYS    Dxp 47 ?   64.182   16.959   63.126  -0.40  0 274 D
+ATOM    6822     C   CB ?  PRO    Dxp 82 ?   69.862   11.528   62.303   0.00  0 309 D
+ATOM    6594     C   CA ?  GLU    Dxp 48 ?   66.461   17.641   64.698   0.00  0 275 D
+ATOM    6595     C    C ?  GLU    Dxp 48 ?   65.503   17.139   65.811   0.00  0 275 D
+ATOM    6583     O    O ?  LEU    Dxp 46 ?   65.920   16.983   59.953  -1.21  0 273 D
+ATOM    6593     N    N ?  GLU    Dxp 48 ?   65.861   18.419   63.569  -1.51  0 275 D
+ATOM    6597     C   CB ?  GLU    Dxp 48 ?   67.666   18.388   65.320   0.00  0 275 D
+ATOM    6598     N    N ?  MET    Dxp 51 ?   59.884   14.683   65.188   0.00  0 278 D
+ATOM    6596     O    O ?  GLU    Dxp 48 ?   64.419   17.701   66.040  -3.21  0 275 D
+ATOM    6614     C  CG2 ?  VAL    Dxp 53 ?   62.193   10.508   62.898   0.00  0 280 D
+ATOM    6585     C   CG ?  LEU    Dxp 46 ?   62.835   14.127   59.732   0.00  0 273 D
+ATOM    6840     C  CE1 ?  PHE    Dxp 84 ?   66.314    9.915   61.017   0.00  0 311 D
+ATOM    6823     C   CG ?  PRO    Dxp 82 ?   69.353   10.173   62.856   0.00  0 309 D
+ATOM    6826     C   CA ?  PRO    Dxp 83 ?   70.319   13.415   58.938   0.00  0 310 D
+ATOM    6829     C   CB ?  PRO    Dxp 83 ?   70.753   14.692   58.219   0.00  0 310 D
+ATOM    6587     C  CD2 ?  LEU    Dxp 46 ?   62.871   12.582   59.713   0.00  0 273 D
+ATOM    6584     C   CB ?  LEU    Dxp 46 ?   64.014   14.752   58.976   0.00  0 273 D
+ATOM    6838     C  CD1 ?  PHE    Dxp 84 ?   66.264   10.777   59.908   0.00  0 311 D
+ATOM    6825     N    N ?  PRO    Dxp 83 ?   71.555   12.970   59.617   0.00  0 310 D
+ATOM    6820     C    C ?  PRO    Dxp 82 ?   71.691   12.046   60.602   0.00  0 309 D
+ATOM    6821     O    O ?  PRO    Dxp 82 ?   72.751   11.903   61.238  -1.62  0 309 D
+ATOM    6832     N    N ?  PHE    Dxp 84 ?   68.389   12.321   57.959  -1.09  0 311 D
 # 

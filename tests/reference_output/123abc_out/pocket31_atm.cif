@@ -15,7 +15,7 @@ Information about the pocket    31:
 6  - Hydrophobicity Score              : 14.5000
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 4.1250
-9  - Pocket volume (Monte Carlo)       : 320.2232
+9  - Pocket volume (Monte Carlo)       : 321.3664
 10  -Pocket volume (convex hull)       : 18.5779
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 19.0000
@@ -39,26 +39,26 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM      578    C  CE1 ?  PHE    Axp 84 ?    9.022    7.022   32.326   0.00  0 311 A
-ATOM      347    C   CB ?  VAL    Axp 53 ?    9.518   11.423   34.079   0.00  0 280 A
-ATOM      318    C   CB ?  ASP    Axp 49 ?   15.460    8.001   36.408   0.00  0 276 A
-ATOM      576    C  CD1 ?  PHE    Axp 84 ?   10.020    7.279   31.353   0.00  0 311 A
-ATOM      325    O    O ?  THR    Axp 50 ?   13.753   11.886   36.017  -0.54  0 277 A
-ATOM      321    O  OD2 ?  ASP    Axp 49 ?   14.516    5.990   37.244  -0.95  0 276 A
-ATOM      349    C  CG2 ?  VAL    Axp 53 ?    8.506   10.392   33.534   0.00  0 280 A
-ATOM      561    C   CG ?  PRO    Axp 82 ?   10.732    3.280   34.195   0.00  0 309 A
-ATOM      348    C  CG1 ?  VAL    Axp 53 ?    9.081   12.091   35.427   0.00  0 280 A
-ATOM      319    C   CG ?  ASP    Axp 49 ?   15.469    6.493   36.614   0.00  0 276 A
-ATOM      560    C   CB ?  PRO    Axp 82 ?   12.030    2.927   33.492   0.00  0 309 A
-ATOM      564    C   CA ?  PRO    Axp 83 ?   14.000    2.962   30.575   0.00  0 310 A
-ATOM      320    O  OD1 ?  ASP    Axp 49 ?   16.422    5.816   36.164  -0.95  0 276 A
-ATOM      568    C   CG ?  PRO    Axp 83 ?   15.808    1.347   30.237   0.00  0 310 A
-ATOM      563    N    N ?  PRO    Axp 83 ?   13.592    1.581   30.904   0.00  0 310 A
-ATOM      304    O    O ?  LEU    Axp 46 ?   16.573    7.011   31.379  -2.14  0 273 A
-ATOM      570    N    N ?  PHE    Axp 84 ?   12.779    4.833   29.577   0.00  0 311 A
-ATOM      567    C   CB ?  PRO    Axp 83 ?   15.457    2.812   30.082   0.00  0 310 A
-ATOM      312    O    O ?  LYS    Axp 47 ?   19.128    6.617   33.897   0.00  0 274 A
-ATOM      308    C  CD2 ?  LEU    Axp 46 ?   12.808   10.745   31.273   0.00  0 273 A
-ATOM      306    C   CG ?  LEU    Axp 46 ?   14.285   10.407   31.218   0.00  0 273 A
-ATOM      305    C   CB ?  LEU    Axp 46 ?   14.483    9.154   30.366   0.00  0 273 A
+ATOM    578      C  CE1 ?  PHE    Axp 84 ?    9.022    7.022   32.326   0.00  0 311 A
+ATOM    347      C   CB ?  VAL    Axp 53 ?    9.518   11.423   34.079   0.00  0 280 A
+ATOM    318      C   CB ?  ASP    Axp 49 ?   15.460    8.001   36.408   0.00  0 276 A
+ATOM    576      C  CD1 ?  PHE    Axp 84 ?   10.020    7.279   31.353   0.00  0 311 A
+ATOM    325      O    O ?  THR    Axp 50 ?   13.753   11.886   36.017  -0.54  0 277 A
+ATOM    321      O  OD2 ?  ASP    Axp 49 ?   14.516    5.990   37.244  -0.95  0 276 A
+ATOM    349      C  CG2 ?  VAL    Axp 53 ?    8.506   10.392   33.534   0.00  0 280 A
+ATOM    561      C   CG ?  PRO    Axp 82 ?   10.732    3.280   34.195   0.00  0 309 A
+ATOM    348      C  CG1 ?  VAL    Axp 53 ?    9.081   12.091   35.427   0.00  0 280 A
+ATOM    319      C   CG ?  ASP    Axp 49 ?   15.469    6.493   36.614   0.00  0 276 A
+ATOM    560      C   CB ?  PRO    Axp 82 ?   12.030    2.927   33.492   0.00  0 309 A
+ATOM    564      C   CA ?  PRO    Axp 83 ?   14.000    2.962   30.575   0.00  0 310 A
+ATOM    320      O  OD1 ?  ASP    Axp 49 ?   16.422    5.816   36.164  -0.95  0 276 A
+ATOM    568      C   CG ?  PRO    Axp 83 ?   15.808    1.347   30.237   0.00  0 310 A
+ATOM    563      N    N ?  PRO    Axp 83 ?   13.592    1.581   30.904   0.00  0 310 A
+ATOM    304      O    O ?  LEU    Axp 46 ?   16.573    7.011   31.379  -2.14  0 273 A
+ATOM    570      N    N ?  PHE    Axp 84 ?   12.779    4.833   29.577   0.00  0 311 A
+ATOM    567      C   CB ?  PRO    Axp 83 ?   15.457    2.812   30.082   0.00  0 310 A
+ATOM    312      O    O ?  LYS    Axp 47 ?   19.128    6.617   33.897   0.00  0 274 A
+ATOM    308      C  CD2 ?  LEU    Axp 46 ?   12.808   10.745   31.273   0.00  0 273 A
+ATOM    306      C   CG ?  LEU    Axp 46 ?   14.285   10.407   31.218   0.00  0 273 A
+ATOM    305      C   CB ?  LEU    Axp 46 ?   14.483    9.154   30.366   0.00  0 273 A
 # 

@@ -15,7 +15,7 @@ Information about the pocket    32:
 6  - Hydrophobicity Score              : 37.2000
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 344.8321
+9  - Pocket volume (Monte Carlo)       : 350.9174
 10  -Pocket volume (convex hull)       : 14.9179
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 8.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2552    O    O ?  HIS    Bxp 68 ?   11.190   62.764   53.093  -4.69  0 295 B
-ATOM     2594    C   CG ?  GLN    Bxp 73 ?   13.080   68.321   50.358   0.00  0 300 B
-ATOM     2548    C   CB ?  LYS    Bxp 67 ?    6.504   65.116   50.895   0.00  0 294 B
-ATOM     2597    N  NE2 ?  GLN    Bxp 73 ?   12.729   70.253   51.868   0.00  0 300 B
-ATOM     2549    N    N ?  HIS    Bxp 68 ?    8.770   62.722   52.136   0.00  0 295 B
-ATOM     2100    C  CH2 ?  TRP    Bxp 8 ?    8.021   70.120   46.212   0.00  0 235 B
-ATOM     2601    O    O ?  LEU    Bxp 74 ?   11.642   69.555   47.135  -1.48  0 301 B
-ATOM     2595    C   CD ?  GLN    Bxp 73 ?   13.604   69.305   51.438   0.00  0 300 B
-ATOM     3222    N   NZ ?  LYS    Bxp 151 ?   15.951   64.984   53.909   0.00  0 378 B
-ATOM     2596    O  OE1 ?  GLN    Bxp 73 ?   14.783   69.222   51.879  -1.88  0 300 B
-ATOM     2560    C   CA ?  PRO    Bxp 69 ?   11.828   62.498   55.801   0.00  0 296 B
-ATOM     2545    C   CA ?  LYS    Bxp 67 ?    7.422   63.917   50.500   0.00  0 294 B
-ATOM     2590    C   CA ?  GLN    Bxp 73 ?   13.804   66.159   48.996   0.00  0 300 B
-ATOM     2539    O    O ?  ILE    Bxp 66 ?    7.780   64.424   47.789  -7.50  0 293 B
-ATOM     2585    O    O ?  VAL    Bxp 72 ?   13.589   63.555   47.823  -6.43  0 299 B
-ATOM     2598    N    N ?  LEU    Bxp 74 ?   12.978   66.960   46.855  -1.09  0 301 B
-ATOM     2577    O    O ?  LEU    Bxp 71 ?   13.536   62.679   50.816   0.00  0 298 B
-ATOM     2593    C   CB ?  GLN    Bxp 73 ?   13.894   67.022   50.290   0.00  0 300 B
+ATOM    2552     O    O ?  HIS    Bxp 68 ?   11.190   62.764   53.093  -4.69  0 295 B
+ATOM    2594     C   CG ?  GLN    Bxp 73 ?   13.080   68.321   50.358   0.00  0 300 B
+ATOM    2548     C   CB ?  LYS    Bxp 67 ?    6.504   65.116   50.895   0.00  0 294 B
+ATOM    2597     N  NE2 ?  GLN    Bxp 73 ?   12.729   70.253   51.868   0.00  0 300 B
+ATOM    2549     N    N ?  HIS    Bxp 68 ?    8.770   62.722   52.136   0.00  0 295 B
+ATOM    2100     C  CH2 ?  TRP    Bxp 8 ?    8.021   70.120   46.212   0.00  0 235 B
+ATOM    2601     O    O ?  LEU    Bxp 74 ?   11.642   69.555   47.135  -1.48  0 301 B
+ATOM    2595     C   CD ?  GLN    Bxp 73 ?   13.604   69.305   51.438   0.00  0 300 B
+ATOM    3222     N   NZ ?  LYS    Bxp 151 ?   15.951   64.984   53.909   0.00  0 378 B
+ATOM    2596     O  OE1 ?  GLN    Bxp 73 ?   14.783   69.222   51.879  -1.88  0 300 B
+ATOM    2560     C   CA ?  PRO    Bxp 69 ?   11.828   62.498   55.801   0.00  0 296 B
+ATOM    2545     C   CA ?  LYS    Bxp 67 ?    7.422   63.917   50.500   0.00  0 294 B
+ATOM    2590     C   CA ?  GLN    Bxp 73 ?   13.804   66.159   48.996   0.00  0 300 B
+ATOM    2539     O    O ?  ILE    Bxp 66 ?    7.780   64.424   47.789  -7.50  0 293 B
+ATOM    2585     O    O ?  VAL    Bxp 72 ?   13.589   63.555   47.823  -6.43  0 299 B
+ATOM    2598     N    N ?  LEU    Bxp 74 ?   12.978   66.960   46.855  -1.09  0 301 B
+ATOM    2577     O    O ?  LEU    Bxp 71 ?   13.536   62.679   50.816   0.00  0 298 B
+ATOM    2593     C   CB ?  GLN    Bxp 73 ?   13.894   67.022   50.290   0.00  0 300 B
 # 

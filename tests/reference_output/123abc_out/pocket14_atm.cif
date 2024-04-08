@@ -15,7 +15,7 @@ Information about the pocket    14:
 6  - Hydrophobicity Score              : -27.2500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 3.5000
-9  - Pocket volume (Monte Carlo)       : 157.1661
+9  - Pocket volume (Monte Carlo)       : 158.8699
 10  -Pocket volume (convex hull)       : 1.4197
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 0.0000
@@ -39,17 +39,17 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3238    O    O ?  ASP    Bxp 154 ?   17.212   58.730   41.018  -2.14  0 381 B
-ATOM     3240    C   CG ?  ASP    Bxp 154 ?   15.630   55.631   40.804   0.00  0 381 B
-ATOM     3255    C   CA ?  GLY    Bxp 156 ?   19.014   56.342   37.269   0.00  0 383 B
-ATOM     3241    O  OD1 ?  ASP    Bxp 154 ?   16.754   55.332   40.331  -1.07  0 381 B
-ATOM     2491    O  OE1 ?  GLU    Bxp 59 ?   14.831   61.607   36.581   0.00  0 286 B
-ATOM     3242    O  OD2 ?  ASP    Bxp 154 ?   14.601   55.095   40.376  -2.28  0 381 B
-ATOM     2492    O  OE2 ?  GLU    Bxp 59 ?   15.137   61.777   38.754  -1.07  0 286 B
-ATOM     2389    N   NZ ?  LYS    Bxp 44 ?   17.801   61.554   36.438  -1.51  0 271 B
-ATOM     3254    N    N ?  GLY    Bxp 156 ?   19.098   56.710   38.688   0.00  0 383 B
-ATOM     2489    C   CG ?  GLU    Bxp 59 ?   12.912   61.584   38.000   0.00  0 286 B
-ATOM     2490    C   CD ?  GLU    Bxp 59 ?   14.404   61.663   37.759   0.00  0 286 B
-ATOM     3239    C   CB ?  ASP    Bxp 154 ?   15.520   56.620   41.941   0.00  0 381 B
-ATOM     2488    C   CB ?  GLU    Bxp 59 ?   12.087   61.638   36.697   0.00  0 286 B
+ATOM    3238     O    O ?  ASP    Bxp 154 ?   17.212   58.730   41.018  -2.14  0 381 B
+ATOM    3240     C   CG ?  ASP    Bxp 154 ?   15.630   55.631   40.804   0.00  0 381 B
+ATOM    3255     C   CA ?  GLY    Bxp 156 ?   19.014   56.342   37.269   0.00  0 383 B
+ATOM    3241     O  OD1 ?  ASP    Bxp 154 ?   16.754   55.332   40.331  -1.07  0 381 B
+ATOM    2491     O  OE1 ?  GLU    Bxp 59 ?   14.831   61.607   36.581   0.00  0 286 B
+ATOM    3242     O  OD2 ?  ASP    Bxp 154 ?   14.601   55.095   40.376  -2.28  0 381 B
+ATOM    2492     O  OE2 ?  GLU    Bxp 59 ?   15.137   61.777   38.754  -1.07  0 286 B
+ATOM    2389     N   NZ ?  LYS    Bxp 44 ?   17.801   61.554   36.438  -1.51  0 271 B
+ATOM    3254     N    N ?  GLY    Bxp 156 ?   19.098   56.710   38.688   0.00  0 383 B
+ATOM    2489     C   CG ?  GLU    Bxp 59 ?   12.912   61.584   38.000   0.00  0 286 B
+ATOM    2490     C   CD ?  GLU    Bxp 59 ?   14.404   61.663   37.759   0.00  0 286 B
+ATOM    3239     C   CB ?  ASP    Bxp 154 ?   15.520   56.620   41.941   0.00  0 381 B
+ATOM    2488     C   CB ?  GLU    Bxp 59 ?   12.087   61.638   36.697   0.00  0 286 B
 # 

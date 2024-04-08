@@ -15,7 +15,7 @@ Information about the pocket   170:
 6  - Hydrophobicity Score              : -9.7143
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 3.1429
-9  - Pocket volume (Monte Carlo)       : 91.6544
+9  - Pocket volume (Monte Carlo)       : 91.1893
 10  -Pocket volume (convex hull)       : 0.8108
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 3.0000
@@ -39,16 +39,16 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3716    N    N ?  ALA      A 496 ?    4.534   24.668   28.707  -2.19  0 496 A
-ATOM     4363    O    O ?  PRO      A 576 ?    9.431   19.660   30.949  -4.02  0 576 A
-ATOM     4426    C   CG ?  PRO      A 584 ?    8.930   21.193   25.829   0.00  0 584 A
-ATOM     3720    C   CB ?  ALA      A 496 ?    5.653   24.844   30.893   0.00  0 496 A
-ATOM     3714    C  CG1 ?  VAL      A 495 ?    6.205   24.166   26.014   0.00  0 495 A
-ATOM     4381    O  OD2 ?  ASP      A 578 ?    6.024   18.038   29.697  -1.07  0 578 A
-ATOM     4379    C   CG ?  ASP      A 578 ?    5.079   18.505   30.367   0.00  0 578 A
-ATOM     4378    C   CB ?  ASP      A 578 ?    5.240   18.690   31.873   0.00  0 578 A
-ATOM     4380    O  OD1 ?  ASP      A 578 ?    3.993   18.838   29.849  -0.14  0 578 A
-ATOM     3710    C   CA ?  VAL      A 495 ?    3.729   24.082   26.475   0.00  0 495 A
-ATOM     3386    C   CG ?  PRO      A 450 ?    5.265   19.096   24.414   0.00  0 450 A
-ATOM     3702    O    O ?  HIS      A 494 ?    1.752   22.088   26.600  -1.88  0 494 A
+ATOM    3716     N    N ?  ALA      A 496 ?    4.534   24.668   28.707  -2.19  0 496 A
+ATOM    4363     O    O ?  PRO      A 576 ?    9.431   19.660   30.949  -4.02  0 576 A
+ATOM    4426     C   CG ?  PRO      A 584 ?    8.930   21.193   25.829   0.00  0 584 A
+ATOM    3720     C   CB ?  ALA      A 496 ?    5.653   24.844   30.893   0.00  0 496 A
+ATOM    3714     C  CG1 ?  VAL      A 495 ?    6.205   24.166   26.014   0.00  0 495 A
+ATOM    4381     O  OD2 ?  ASP      A 578 ?    6.024   18.038   29.697  -1.07  0 578 A
+ATOM    4379     C   CG ?  ASP      A 578 ?    5.079   18.505   30.367   0.00  0 578 A
+ATOM    4378     C   CB ?  ASP      A 578 ?    5.240   18.690   31.873   0.00  0 578 A
+ATOM    4380     O  OD1 ?  ASP      A 578 ?    3.993   18.838   29.849  -0.14  0 578 A
+ATOM    3710     C   CA ?  VAL      A 495 ?    3.729   24.082   26.475   0.00  0 495 A
+ATOM    3386     C   CG ?  PRO      A 450 ?    5.265   19.096   24.414   0.00  0 450 A
+ATOM    3702     O    O ?  HIS      A 494 ?    1.752   22.088   26.600  -1.88  0 494 A
 # 

@@ -15,7 +15,7 @@ Information about the pocket   160:
 6  - Hydrophobicity Score              : 5.6154
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.9231
-9  - Pocket volume (Monte Carlo)       : 338.4059
+9  - Pocket volume (Monte Carlo)       : 325.5802
 10  -Pocket volume (convex hull)       : 28.8167
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.4000

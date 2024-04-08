@@ -15,7 +15,7 @@ Information about the pocket    39:
 6  - Hydrophobicity Score              : -12.2500
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.0000
-9  - Pocket volume (Monte Carlo)       : 325.8529
+9  - Pocket volume (Monte Carlo)       : 331.6653
 10  -Pocket volume (convex hull)       : 8.8092
 11 - Charge Score                      :     1
 12 - Local hydrophobic density Score   : 2.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2066    O    O ?  LYS      B 129 ?   30.723  -60.166  -41.127  -1.62  0 267 B
-ATOM     1068    O    O ?  PRO      B 5 ?   33.477  -56.500  -41.630  -3.21  0 143 B
-ATOM     2077    N    N ?  ASN      B 131 ?   34.436  -59.009  -40.087  -1.09  0 269 B
-ATOM     2081    C   CB ?  ASN      B 131 ?   36.451  -59.363  -41.443   0.00  0 269 B
-ATOM     1347    O  OD2 ?  ASP      B 38 ?   29.416  -64.252  -47.778   0.00  0 176 B
-ATOM     2063    N    N ?  LYS      B 129 ?   28.271  -61.339  -40.372  -2.61  0 267 B
-ATOM     2067    C   CB ?  LYS      B 129 ?   30.013  -62.671  -39.238   0.00  0 267 B
-ATOM     1343    O    O ?  ASP      B 38 ?   26.471  -62.732  -46.070  -0.95  0 176 B
-ATOM     2061    C   CE ?  LYS      B 128 ?   28.681  -58.456  -45.608   0.00  0 266 B
-ATOM     2062    N   NZ ?  LYS      B 128 ?   29.198  -58.817  -46.958  -1.68  0 266 B
-ATOM     1079    C   CA ?  PRO      B 7 ?   32.095  -53.530  -46.612   0.00  0 145 B
-ATOM     1082    C   CB ?  PRO      B 7 ?   31.339  -54.511  -47.524   0.00  0 145 B
-ATOM     1063    S   SD ?  MET      B 4 ?   37.423  -53.708  -46.846   0.00  0 142 B
-ATOM     1062    C   CG ?  MET      B 4 ?   37.477  -54.562  -45.252   0.00  0 142 B
-ATOM     1084    C   CD ?  PRO      B 7 ?   30.798  -55.042  -45.221   0.00  0 145 B
-ATOM     2058    C   CB ?  LYS      B 128 ?   26.776  -60.532  -43.041   0.00  0 266 B
-ATOM     2060    C   CD ?  LYS      B 128 ?   27.902  -59.585  -44.998   0.00  0 266 B
-ATOM     1078    N    N ?  PRO      B 7 ?   31.935  -54.105  -45.274   0.00  0 145 B
-ATOM     1074    C    C ?  CYS      B 6 ?   32.734  -53.683  -44.275   0.00  0 144 B
-ATOM     1060    O    O ?  MET      B 4 ?   36.650  -56.296  -42.756  -0.81  0 142 B
-ATOM     1083    C   CG ?  PRO      B 7 ?   30.621  -55.455  -46.637   0.00  0 145 B
+ATOM    2066     O    O ?  LYS      B 129 ?   30.723  -60.166  -41.127  -1.62  0 267 B
+ATOM    1068     O    O ?  PRO      B 5 ?   33.477  -56.500  -41.630  -3.21  0 143 B
+ATOM    2077     N    N ?  ASN      B 131 ?   34.436  -59.009  -40.087  -1.09  0 269 B
+ATOM    2081     C   CB ?  ASN      B 131 ?   36.451  -59.363  -41.443   0.00  0 269 B
+ATOM    1347     O  OD2 ?  ASP      B 38 ?   29.416  -64.252  -47.778   0.00  0 176 B
+ATOM    2063     N    N ?  LYS      B 129 ?   28.271  -61.339  -40.372  -2.61  0 267 B
+ATOM    2067     C   CB ?  LYS      B 129 ?   30.013  -62.671  -39.238   0.00  0 267 B
+ATOM    1343     O    O ?  ASP      B 38 ?   26.471  -62.732  -46.070  -0.95  0 176 B
+ATOM    2061     C   CE ?  LYS      B 128 ?   28.681  -58.456  -45.608   0.00  0 266 B
+ATOM    2062     N   NZ ?  LYS      B 128 ?   29.198  -58.817  -46.958  -1.68  0 266 B
+ATOM    1079     C   CA ?  PRO      B 7 ?   32.095  -53.530  -46.612   0.00  0 145 B
+ATOM    1082     C   CB ?  PRO      B 7 ?   31.339  -54.511  -47.524   0.00  0 145 B
+ATOM    1063     S   SD ?  MET      B 4 ?   37.423  -53.708  -46.846   0.00  0 142 B
+ATOM    1062     C   CG ?  MET      B 4 ?   37.477  -54.562  -45.252   0.00  0 142 B
+ATOM    1084     C   CD ?  PRO      B 7 ?   30.798  -55.042  -45.221   0.00  0 145 B
+ATOM    2058     C   CB ?  LYS      B 128 ?   26.776  -60.532  -43.041   0.00  0 266 B
+ATOM    2060     C   CD ?  LYS      B 128 ?   27.902  -59.585  -44.998   0.00  0 266 B
+ATOM    1078     N    N ?  PRO      B 7 ?   31.935  -54.105  -45.274   0.00  0 145 B
+ATOM    1074     C    C ?  CYS      B 6 ?   32.734  -53.683  -44.275   0.00  0 144 B
+ATOM    1060     O    O ?  MET      B 4 ?   36.650  -56.296  -42.756  -0.81  0 142 B
+ATOM    1083     C   CG ?  PRO      B 7 ?   30.621  -55.455  -46.637   0.00  0 145 B
 # 

@@ -15,7 +15,7 @@ Information about the pocket    11:
 6  - Hydrophobicity Score              : 17.4167
 7  - Polarity Score                    :     7
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 160.2332
+9  - Pocket volume (Monte Carlo)       : 157.8834
 10  -Pocket volume (convex hull)       : 11.3291
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 5.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     1405    C  CD2 ?  PHE    Axp 189 ?   10.703   31.452   22.157   0.00  0 416 A
-ATOM     1435    O    O ?  SER    Axp 193 ?   11.879   32.960   15.552  -3.21  0 420 A
-ATOM     1407    C  CE2 ?  PHE    Axp 189 ?   11.966   31.656   22.739   0.00  0 416 A
-ATOM      996    O    O ?  ARG    Axp 135 ?   13.454   28.096   20.320  -4.69  0 362 A
-ATOM     1436    C   CB ?  SER    Axp 193 ?    9.997   34.149   17.982   0.00  0 420 A
-ATOM     1329    N    N ?  ALA    Axp 180 ?   14.229   35.929   18.757  -1.09  0 407 A
-ATOM     1327    O  OG1 ?  THR    Axp 179 ?   17.108   33.330   21.134  -2.14  0 406 A
-ATOM     1290    C   CD ?  PRO    Axp 175 ?   18.295   29.738   22.438   0.00  0 402 A
-ATOM     1323    C   CA ?  THR    Axp 179 ?   16.193   34.623   19.411   0.00  0 406 A
-ATOM     1437    O   OG ?  SER    Axp 193 ?    9.317   33.077   18.605   0.00  0 420 A
-ATOM     1289    C   CG ?  PRO    Axp 175 ?   18.737   29.443   21.033   0.00  0 402 A
-ATOM     1312    C   CB ?  TRP    Axp 178 ?   18.807   31.481   17.128   0.00  0 405 A
-ATOM     1005    C   CA ?  ASP    Axp 136 ?   14.988   26.627   18.681   0.00  0 363 A
-ATOM     1311    O    O ?  TRP    Axp 178 ?   16.495   33.261   16.896  -2.14  0 405 A
-ATOM     1471    C   CB ?  ALA    Axp 197 ?   14.926   31.065   14.885   0.00  0 424 A
-ATOM     1355    O   OG ?  SER    Axp 183 ?   10.954   35.267   20.964   0.00  0 410 A
-ATOM     1012    N    N ?  LEU    Axp 137 ?   14.970   26.942   16.300   0.00  0 364 A
-ATOM     1444    O  OD1 ?  ASP    Axp 194 ?   10.115   28.834   16.531   0.00  0 421 A
-ATOM      995    C    C ?  ARG    Axp 135 ?   12.856   27.406   19.519   0.00  0 362 A
-ATOM      994    C   CA ?  ARG    Axp 135 ?   11.309   27.407   19.509   0.00  0 362 A
-ATOM     1328    C  CG2 ?  THR    Axp 179 ?   15.235   34.657   21.794   0.00  0 406 A
+ATOM    1405     C  CD2 ?  PHE    Axp 189 ?   10.703   31.452   22.157   0.00  0 416 A
+ATOM    1435     O    O ?  SER    Axp 193 ?   11.879   32.960   15.552  -3.21  0 420 A
+ATOM    1407     C  CE2 ?  PHE    Axp 189 ?   11.966   31.656   22.739   0.00  0 416 A
+ATOM    996      O    O ?  ARG    Axp 135 ?   13.454   28.096   20.320  -4.69  0 362 A
+ATOM    1436     C   CB ?  SER    Axp 193 ?    9.997   34.149   17.982   0.00  0 420 A
+ATOM    1329     N    N ?  ALA    Axp 180 ?   14.229   35.929   18.757  -1.09  0 407 A
+ATOM    1327     O  OG1 ?  THR    Axp 179 ?   17.108   33.330   21.134  -2.14  0 406 A
+ATOM    1290     C   CD ?  PRO    Axp 175 ?   18.295   29.738   22.438   0.00  0 402 A
+ATOM    1323     C   CA ?  THR    Axp 179 ?   16.193   34.623   19.411   0.00  0 406 A
+ATOM    1437     O   OG ?  SER    Axp 193 ?    9.317   33.077   18.605   0.00  0 420 A
+ATOM    1289     C   CG ?  PRO    Axp 175 ?   18.737   29.443   21.033   0.00  0 402 A
+ATOM    1312     C   CB ?  TRP    Axp 178 ?   18.807   31.481   17.128   0.00  0 405 A
+ATOM    1005     C   CA ?  ASP    Axp 136 ?   14.988   26.627   18.681   0.00  0 363 A
+ATOM    1311     O    O ?  TRP    Axp 178 ?   16.495   33.261   16.896  -2.14  0 405 A
+ATOM    1471     C   CB ?  ALA    Axp 197 ?   14.926   31.065   14.885   0.00  0 424 A
+ATOM    1355     O   OG ?  SER    Axp 183 ?   10.954   35.267   20.964   0.00  0 410 A
+ATOM    1012     N    N ?  LEU    Axp 137 ?   14.970   26.942   16.300   0.00  0 364 A
+ATOM    1444     O  OD1 ?  ASP    Axp 194 ?   10.115   28.834   16.531   0.00  0 421 A
+ATOM    995      C    C ?  ARG    Axp 135 ?   12.856   27.406   19.519   0.00  0 362 A
+ATOM    994      C   CA ?  ARG    Axp 135 ?   11.309   27.407   19.509   0.00  0 362 A
+ATOM    1328     C  CG2 ?  THR    Axp 179 ?   15.235   34.657   21.794   0.00  0 406 A
 # 

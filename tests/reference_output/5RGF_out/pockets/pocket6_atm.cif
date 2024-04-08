@@ -15,7 +15,7 @@ Information about the pocket     6:
 6  - Hydrophobicity Score              : -4.3750
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.6250
-9  - Pocket volume (Monte Carlo)       : 173.0890
+9  - Pocket volume (Monte Carlo)       : 172.7843
 10  -Pocket volume (convex hull)       : 7.3034
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 2.0000
@@ -39,20 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     2089    N  NH2 ?  ARG      A 120 ?   12.553    9.313    8.804  -2.19  0 118 A
-ATOM     6129    C   CB ?  PRO      B 58 ?    5.895    6.843    7.308   0.00  0 56 B
-ATOM     1157    O  OD2 ?  ASP      A 69 ?   10.558    9.441   10.742  -4.02  0 67 A
-ATOM     6128    O    O ?  PRO      B 58 ?    5.666    9.167    5.179  -3.21  0 56 B
-ATOM     6127    C    C ?  PRO      B 58 ?    5.730    7.938    5.064   0.00  0 56 B
-ATOM     6147    C   CB A  SER      B 59 ?    8.455    8.355    3.075   0.00  0 57 B
-ATOM     6149    O   OG A  SER      B 59 ?    9.219    7.177    3.229  -0.14  0 57 B
-ATOM     6130    C   CG ?  PRO      B 58 ?    6.567    5.513    7.051   0.00  0 56 B
-ATOM     1080    C   CB A  PHE      A 65 ?   12.179    5.780   10.941   0.00  0 63 A
-ATOM     1076    C    C A  PHE      A 65 ?    9.858    5.475   11.763   0.00  0 63 A
-ATOM     1112    N    N A  ALA      A 66 ?    8.676    5.003   11.369   0.00  0 64 A
-ATOM     6193    N  ND2 ?  ASN      B 62 ?   11.413    4.507    4.073  -3.28  0 60 B
-ATOM     1086    C  CD2 A  PHE      A 65 ?   14.264    5.199    9.687   0.00  0 63 A
-ATOM     2088    N  NH1 ?  ARG      A 120 ?   14.659    8.751    8.078  -1.09  0 118 A
-ATOM     1072    N    N A  PHE      A 65 ?   10.945    3.709   10.333   0.00  0 63 A
-ATOM     6227    N  ND2 ?  ASN      B 64 ?    8.058    2.208    7.320  -1.09  0 62 B
+ATOM    2089     N  NH2 ?  ARG      A 120 ?   12.553    9.313    8.804  -2.19  0 118 A
+ATOM    6129     C   CB ?  PRO      B 58 ?    5.895    6.843    7.308   0.00  0 56 B
+ATOM    1157     O  OD2 ?  ASP      A 69 ?   10.558    9.441   10.742  -4.02  0 67 A
+ATOM    6128     O    O ?  PRO      B 58 ?    5.666    9.167    5.179  -3.21  0 56 B
+ATOM    6127     C    C ?  PRO      B 58 ?    5.730    7.938    5.064   0.00  0 56 B
+ATOM    6147     C   CB A  SER      B 59 ?    8.455    8.355    3.075   0.00  0 57 B
+ATOM    6149     O   OG A  SER      B 59 ?    9.219    7.177    3.229  -0.14  0 57 B
+ATOM    6130     C   CG ?  PRO      B 58 ?    6.567    5.513    7.051   0.00  0 56 B
+ATOM    1080     C   CB A  PHE      A 65 ?   12.179    5.780   10.941   0.00  0 63 A
+ATOM    1076     C    C A  PHE      A 65 ?    9.858    5.475   11.763   0.00  0 63 A
+ATOM    1112     N    N A  ALA      A 66 ?    8.676    5.003   11.369   0.00  0 64 A
+ATOM    6193     N  ND2 ?  ASN      B 62 ?   11.413    4.507    4.073  -3.28  0 60 B
+ATOM    1086     C  CD2 A  PHE      A 65 ?   14.264    5.199    9.687   0.00  0 63 A
+ATOM    2088     N  NH1 ?  ARG      A 120 ?   14.659    8.751    8.078  -1.09  0 118 A
+ATOM    1072     N    N A  PHE      A 65 ?   10.945    3.709   10.333   0.00  0 63 A
+ATOM    6227     N  ND2 ?  ASN      B 64 ?    8.058    2.208    7.320  -1.09  0 62 B
 # 

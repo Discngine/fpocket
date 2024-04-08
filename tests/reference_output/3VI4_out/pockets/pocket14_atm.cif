@@ -15,7 +15,7 @@ Information about the pocket    14:
 6  - Hydrophobicity Score              : 17.0833
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 2.9167
-9  - Pocket volume (Monte Carlo)       : 314.4423
+9  - Pocket volume (Monte Carlo)       : 318.3747
 10  -Pocket volume (convex hull)       : 23.0011
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 11.0000
@@ -39,28 +39,28 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3032    N  NE2 ?  GLN      A 403 ?   15.483    7.408    6.594  -0.59  0 403 A
-ATOM     2893    C  CG2 ?  VAL      A 383 ?   11.974    5.057    4.561   0.00  0 383 A
-ATOM     2846    C   CA ?  GLY      A 377 ?   14.840    3.410    2.585   0.00  0 377 A
-ATOM     3031    O  OE1 ?  GLN      A 403 ?   15.164    5.293    5.930  -6.83  0 403 A
-ATOM     2624    O  OD2 ?  ASP      A 346 ?   13.961    4.579   -0.521  -0.40  0 346 A
-ATOM     3014    C  CG1 ?  VAL      A 401 ?   12.461    9.565    6.187   0.00  0 401 A
-ATOM     2623    O  OD1 ?  ASP      A 346 ?   13.631    6.257   -1.884  -0.54  0 346 A
-ATOM     2911    C   CZ ?  PHE      A 385 ?    9.713    8.851    1.476   0.00  0 385 A
-ATOM     2892    C  CG1 ?  VAL      A 383 ?   10.000    6.450    4.023   0.00  0 383 A
-ATOM     2849    N    N ?  GLU      A 378 ?   17.234    3.149    2.601  -2.19  0 378 A
-ATOM     2854    C   CG ?  GLU      A 378 ?   20.005    4.656    2.938   0.00  0 378 A
-ATOM     2856    O  OE1 ?  GLU      A 378 ?   20.432    5.467    0.750   0.00  0 378 A
-ATOM     2845    N    N ?  GLY      A 377 ?   13.737    3.349    1.634   0.00  0 377 A
-ATOM     2622    C   CG ?  ASP      A 346 ?   13.555    5.040   -1.605   0.00  0 346 A
-ATOM     2822    C   CB ?  ALA      A 373 ?    7.698    3.808    0.476   0.00  0 373 A
-ATOM     2910    C  CE2 ?  PHE      A 385 ?    8.487    8.215    1.341   0.00  0 385 A
-ATOM     2842    C   CA ?  GLY      A 376 ?   11.709    2.528    0.610   0.00  0 376 A
-ATOM     2617    N    N ?  ASP      A 346 ?   12.257    5.972   -4.036   0.00  0 346 A
-ATOM     2621    C   CB ?  ASP      A 346 ?   12.942    4.081   -2.611   0.00  0 346 A
-ATOM     2648    O    O ?  GLY      A 349 ?    7.785    2.873   -2.916  -1.07  0 349 A
-ATOM     2909    C  CE1 ?  PHE      A 385 ?    9.828    9.965    2.297   0.00  0 385 A
-ATOM     2614    C  CD2 ?  HIS      A 345 ?   11.738   11.201   -2.915   0.00  0 345 A
-ATOM     2607    N    N ?  HIS      A 345 ?   10.430    8.109   -4.303  -1.09  0 345 A
-ATOM     2604    C   CA ?  GLY      A 344 ?    8.015    8.128   -4.278   0.00  0 344 A
+ATOM    3032     N  NE2 ?  GLN      A 403 ?   15.483    7.408    6.594  -0.59  0 403 A
+ATOM    2893     C  CG2 ?  VAL      A 383 ?   11.974    5.057    4.561   0.00  0 383 A
+ATOM    2846     C   CA ?  GLY      A 377 ?   14.840    3.410    2.585   0.00  0 377 A
+ATOM    3031     O  OE1 ?  GLN      A 403 ?   15.164    5.293    5.930  -6.83  0 403 A
+ATOM    2624     O  OD2 ?  ASP      A 346 ?   13.961    4.579   -0.521  -0.40  0 346 A
+ATOM    3014     C  CG1 ?  VAL      A 401 ?   12.461    9.565    6.187   0.00  0 401 A
+ATOM    2623     O  OD1 ?  ASP      A 346 ?   13.631    6.257   -1.884  -0.54  0 346 A
+ATOM    2911     C   CZ ?  PHE      A 385 ?    9.713    8.851    1.476   0.00  0 385 A
+ATOM    2892     C  CG1 ?  VAL      A 383 ?   10.000    6.450    4.023   0.00  0 383 A
+ATOM    2849     N    N ?  GLU      A 378 ?   17.234    3.149    2.601  -2.19  0 378 A
+ATOM    2854     C   CG ?  GLU      A 378 ?   20.005    4.656    2.938   0.00  0 378 A
+ATOM    2856     O  OE1 ?  GLU      A 378 ?   20.432    5.467    0.750   0.00  0 378 A
+ATOM    2845     N    N ?  GLY      A 377 ?   13.737    3.349    1.634   0.00  0 377 A
+ATOM    2622     C   CG ?  ASP      A 346 ?   13.555    5.040   -1.605   0.00  0 346 A
+ATOM    2822     C   CB ?  ALA      A 373 ?    7.698    3.808    0.476   0.00  0 373 A
+ATOM    2910     C  CE2 ?  PHE      A 385 ?    8.487    8.215    1.341   0.00  0 385 A
+ATOM    2842     C   CA ?  GLY      A 376 ?   11.709    2.528    0.610   0.00  0 376 A
+ATOM    2617     N    N ?  ASP      A 346 ?   12.257    5.972   -4.036   0.00  0 346 A
+ATOM    2621     C   CB ?  ASP      A 346 ?   12.942    4.081   -2.611   0.00  0 346 A
+ATOM    2648     O    O ?  GLY      A 349 ?    7.785    2.873   -2.916  -1.07  0 349 A
+ATOM    2909     C  CE1 ?  PHE      A 385 ?    9.828    9.965    2.297   0.00  0 385 A
+ATOM    2614     C  CD2 ?  HIS      A 345 ?   11.738   11.201   -2.915   0.00  0 345 A
+ATOM    2607     N    N ?  HIS      A 345 ?   10.430    8.109   -4.303  -1.09  0 345 A
+ATOM    2604     C   CA ?  GLY      A 344 ?    8.015    8.128   -4.278   0.00  0 344 A
 # 

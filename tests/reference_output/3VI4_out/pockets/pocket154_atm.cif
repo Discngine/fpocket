@@ -15,7 +15,7 @@ Information about the pocket   154:
 6  - Hydrophobicity Score              : 12.3750
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5000
-9  - Pocket volume (Monte Carlo)       : 317.1757
+9  - Pocket volume (Monte Carlo)       : 324.0151
 10  -Pocket volume (convex hull)       : 10.5809
 11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 4.0000
@@ -39,22 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     3884    C   CG ?  ARG      A 517 ?   39.465   34.349   18.360   0.00  0 517 A
-ATOM     4166    N  NH2 ?  ARG      A 551 ?   42.960   37.531   23.483  -1.68  0 551 A
-ATOM     3885    C   CD ?  ARG      A 517 ?   38.531   33.391   19.073   0.00  0 517 A
-ATOM     3871    O    O ?  GLY      A 515 ?   43.915   32.817   17.655   0.00  0 515 A
-ATOM     3960    C   CG ?  GLN      A 526 ?   37.083   34.532   28.645   0.00  0 526 A
-ATOM     3961    C   CD ?  GLN      A 526 ?   37.499   33.081   28.826   0.00  0 526 A
-ATOM     3956    C   CA ?  GLN      A 526 ?   36.736   36.071   26.623   0.00  0 526 A
-ATOM     3947    O    O ?  ARG      A 525 ?   38.956   37.450   27.615  -5.36  0 525 A
-ATOM     3959    C   CB ?  GLN      A 526 ?   36.312   34.792   27.357   0.00  0 526 A
-ATOM     3962    O  OE1 ?  GLN      A 526 ?   36.985   32.174   28.164  -4.69  0 526 A
-ATOM     3964    N    N ?  ALA      A 527 ?   35.885   35.407   24.447  -4.37  0 527 A
-ATOM     3974    O  OG1 ?  THR      A 528 ?   33.113   31.202   24.182  -2.28  0 528 A
-ATOM     3888    N  NH1 ?  ARG      A 517 ?   36.224   32.232   20.240  -1.93  0 517 A
-ATOM     3913    C  CD2 ?  LEU      A 520 ?   38.408   37.855   23.659   0.00  0 520 A
-ATOM     3968    C   CB ?  ALA      A 527 ?   36.085   35.042   22.032   0.00  0 527 A
-ATOM     3879    N    N ?  ARG      A 517 ?   41.773   36.236   18.149  -1.09  0 517 A
-ATOM     3883    C   CB ?  ARG      A 517 ?   39.513   35.728   19.011   0.00  0 517 A
-ATOM     4165    N  NH1 ?  ARG      A 551 ?   43.345   37.799   21.237  -5.21  0 551 A
+ATOM    3884     C   CG ?  ARG      A 517 ?   39.465   34.349   18.360   0.00  0 517 A
+ATOM    4166     N  NH2 ?  ARG      A 551 ?   42.960   37.531   23.483  -1.68  0 551 A
+ATOM    3885     C   CD ?  ARG      A 517 ?   38.531   33.391   19.073   0.00  0 517 A
+ATOM    3871     O    O ?  GLY      A 515 ?   43.915   32.817   17.655   0.00  0 515 A
+ATOM    3960     C   CG ?  GLN      A 526 ?   37.083   34.532   28.645   0.00  0 526 A
+ATOM    3961     C   CD ?  GLN      A 526 ?   37.499   33.081   28.826   0.00  0 526 A
+ATOM    3956     C   CA ?  GLN      A 526 ?   36.736   36.071   26.623   0.00  0 526 A
+ATOM    3947     O    O ?  ARG      A 525 ?   38.956   37.450   27.615  -5.36  0 525 A
+ATOM    3959     C   CB ?  GLN      A 526 ?   36.312   34.792   27.357   0.00  0 526 A
+ATOM    3962     O  OE1 ?  GLN      A 526 ?   36.985   32.174   28.164  -4.69  0 526 A
+ATOM    3964     N    N ?  ALA      A 527 ?   35.885   35.407   24.447  -4.37  0 527 A
+ATOM    3974     O  OG1 ?  THR      A 528 ?   33.113   31.202   24.182  -2.28  0 528 A
+ATOM    3888     N  NH1 ?  ARG      A 517 ?   36.224   32.232   20.240  -1.93  0 517 A
+ATOM    3913     C  CD2 ?  LEU      A 520 ?   38.408   37.855   23.659   0.00  0 520 A
+ATOM    3968     C   CB ?  ALA      A 527 ?   36.085   35.042   22.032   0.00  0 527 A
+ATOM    3879     N    N ?  ARG      A 517 ?   41.773   36.236   18.149  -1.09  0 517 A
+ATOM    3883     C   CB ?  ARG      A 517 ?   39.513   35.728   19.011   0.00  0 517 A
+ATOM    4165     N  NH1 ?  ARG      A 551 ?   43.345   37.799   21.237  -5.21  0 551 A
 # 

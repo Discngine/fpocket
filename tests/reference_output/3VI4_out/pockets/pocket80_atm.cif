@@ -15,7 +15,7 @@ Information about the pocket    80:
 6  - Hydrophobicity Score              : 5.7778
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 2.1111
-9  - Pocket volume (Monte Carlo)       : 269.1387
+9  - Pocket volume (Monte Carlo)       : 273.8546
 10  -Pocket volume (convex hull)       : 7.1779
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 1.0000
@@ -39,25 +39,25 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM     4051    O    O ?  GLY      A 538 ?    3.475   37.690   24.952  -1.48  0 538 A
-ATOM     4050    C    C ?  GLY      A 538 ?    3.974   36.614   25.266   0.00  0 538 A
-ATOM     4049    C   CA ?  GLY      A 538 ?    3.251   35.318   24.965   0.00  0 538 A
-ATOM     4055    O    O ?  ALA      A 539 ?    6.307   38.449   24.200  -2.95  0 539 A
-ATOM     3412    O    O ?  ALA      A 454 ?   11.416   31.607   16.477  -0.14  0 454 A
-ATOM     3406    O    O ?  SER      A 453 ?    8.352   30.506   19.334  -0.40  0 453 A
-ATOM     3411    C    C ?  ALA      A 454 ?   11.536   32.037   17.625   0.00  0 454 A
-ATOM     3418    C   CB ?  SER      A 455 ?   11.911   34.663   15.907   0.00  0 455 A
-ATOM     4043    O    O ?  ASN      A 537 ?    4.640   33.129   24.147   0.00  0 537 A
-ATOM     3419    O   OG ?  SER      A 455 ?   11.532   35.946   16.356  -4.43  0 455 A
-ATOM     3670    O    O ?  ASN      A 489 ?   10.438   33.746   20.208   0.00  0 489 A
-ATOM     3684    C   CB ?  SER      A 491 ?    4.452   31.685   21.328   0.00  0 491 A
-ATOM     3671    C   CB ?  ASN      A 489 ?    9.527   36.585   20.329   0.00  0 489 A
-ATOM     3677    C    C ?  ALA      A 490 ?    7.514   32.013   22.431   0.00  0 490 A
-ATOM     3685    O   OG ?  SER      A 491 ?    4.506   31.628   19.913   0.00  0 491 A
-ATOM     3678    O    O ?  ALA      A 490 ?    7.020   32.572   23.405   0.00  0 490 A
-ATOM     3673    O  OD1 ?  ASN      A 489 ?    8.825   38.343   21.809  -2.14  0 489 A
-ATOM     3669    C    C ?  ASN      A 489 ?   10.027   34.319   21.212   0.00  0 489 A
-ATOM     3675    N    N ?  ALA      A 490 ?    9.331   33.701   22.160  -1.09  0 490 A
-ATOM     3407    C   CB ?  SER      A 453 ?    7.605   28.748   16.833   0.00  0 453 A
-ATOM     3408    O   OG ?  SER      A 453 ?    6.276   29.010   17.235  -0.81  0 453 A
+ATOM    4051     O    O ?  GLY      A 538 ?    3.475   37.690   24.952  -1.48  0 538 A
+ATOM    4050     C    C ?  GLY      A 538 ?    3.974   36.614   25.266   0.00  0 538 A
+ATOM    4049     C   CA ?  GLY      A 538 ?    3.251   35.318   24.965   0.00  0 538 A
+ATOM    4055     O    O ?  ALA      A 539 ?    6.307   38.449   24.200  -2.95  0 539 A
+ATOM    3412     O    O ?  ALA      A 454 ?   11.416   31.607   16.477  -0.14  0 454 A
+ATOM    3406     O    O ?  SER      A 453 ?    8.352   30.506   19.334  -0.40  0 453 A
+ATOM    3411     C    C ?  ALA      A 454 ?   11.536   32.037   17.625   0.00  0 454 A
+ATOM    3418     C   CB ?  SER      A 455 ?   11.911   34.663   15.907   0.00  0 455 A
+ATOM    4043     O    O ?  ASN      A 537 ?    4.640   33.129   24.147   0.00  0 537 A
+ATOM    3419     O   OG ?  SER      A 455 ?   11.532   35.946   16.356  -4.43  0 455 A
+ATOM    3670     O    O ?  ASN      A 489 ?   10.438   33.746   20.208   0.00  0 489 A
+ATOM    3684     C   CB ?  SER      A 491 ?    4.452   31.685   21.328   0.00  0 491 A
+ATOM    3671     C   CB ?  ASN      A 489 ?    9.527   36.585   20.329   0.00  0 489 A
+ATOM    3677     C    C ?  ALA      A 490 ?    7.514   32.013   22.431   0.00  0 490 A
+ATOM    3685     O   OG ?  SER      A 491 ?    4.506   31.628   19.913   0.00  0 491 A
+ATOM    3678     O    O ?  ALA      A 490 ?    7.020   32.572   23.405   0.00  0 490 A
+ATOM    3673     O  OD1 ?  ASN      A 489 ?    8.825   38.343   21.809  -2.14  0 489 A
+ATOM    3669     C    C ?  ASN      A 489 ?   10.027   34.319   21.212   0.00  0 489 A
+ATOM    3675     N    N ?  ALA      A 490 ?    9.331   33.701   22.160  -1.09  0 490 A
+ATOM    3407     C   CB ?  SER      A 453 ?    7.605   28.748   16.833   0.00  0 453 A
+ATOM    3408     O   OG ?  SER      A 453 ?    6.276   29.010   17.235  -0.81  0 453 A
 # 
