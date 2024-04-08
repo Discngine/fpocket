@@ -214,17 +214,10 @@ void write_mmcif_atom_line(FILE *f, const char rec_name[], int id, const char at
 		 res_id_buf[5] = "****",
 		 charge_buf[3] = "  \0";
 
-	if (id < 100000)
-		sprintf(id_buf, "%5d", id);
-	else
-		sprintf(id_buf, "%05x", id);
-
-	if (res_id < 10000)
-		sprintf(res_id_buf, "%4d", res_id);
-	else if (res_id < 65536)
-		sprintf(res_id_buf, "%04x", res_id);
-	else
-		sprintf(res_id_buf, "****");
+	
+	sprintf(id_buf, "%d", id);
+	
+	sprintf(res_id_buf, "%d", res_id);
 
 	alt_loc = (alt_loc == '\0' || (alt_loc == ' '))  ? '?' : alt_loc;
 	insert = (insert == '\0' || insert==' ') ? '?' : insert;
