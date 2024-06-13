@@ -107,6 +107,11 @@ make ARCH=MACOSXX86_64
 sudo make install
 ```
 
+For M1 and M2, use the MACOSXARM64 architecture:
+```
+ARCH=MACOSXARM64 make
+```
+
 #### Using conda
 
 There's also a conda package of fpocket available thanks to Simon Bray. You can install fpocket using conda with:
