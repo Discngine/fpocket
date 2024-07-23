@@ -123,7 +123,7 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
             }
             if (par->xlig_resnumber > -1)
             {
-
+                
                 if (((is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand)) || (par->xlig_chain_code !=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (par->xlig_chain_code!=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2])))
                 {
                     pdb->n_xlig_atoms++;
