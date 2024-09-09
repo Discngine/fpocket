@@ -81,8 +81,8 @@ typedef struct s_desc
                 characterChain2,                         /**< 0 if protein, 1 if nucl acid pocket, 2 if HETATM pocket*/
                 numResChain1,                            /**<number of resdiues on chain 1*/
                 numResChain2;                           /**<number of res on chain 2*/
-        char nameChain1[2],        /**<name of the first chain in contact with the pocket*/
-                nameChain2[2];     /**<name of the second chain in contact with the pocket, if there is*/
+        char nameChain1[255],        /**<name of the first chain in contact with the pocket*/
+                nameChain2[255];     /**<name of the second chain in contact with the pocket, if there is*/
         char ligTag[8];           /**<het atom tag of ligands situated in the pocket*/
         
 } s_desc ;
