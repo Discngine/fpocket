@@ -65,7 +65,6 @@ s_desc* allocate_s_desc(void)
 	s_desc *desc = (s_desc*)my_malloc(sizeof(s_desc)) ;
 	
 	reset_desc(desc) ;
-
 	return desc ;
 }
 
@@ -364,7 +363,7 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
 		nb_res_ids = 0 ;	/* Current number of residus */
 
 	int nb_polar_atm = 0 ;
-        char curChainName[2];
+        char *curChainName = (char*)my_malloc(255*sizeof(char));
         
         if(atoms && natoms>1){
             firstatom=atoms[0];
@@ -373,8 +372,8 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
             if(element_in_std_res(firstatom->res_name))             desc->characterChain1=0;
             else if(element_in_nucl_acid(firstatom->res_name))      desc->characterChain1=1;
             else if(element_in_kept_res(firstatom->res_name))       desc->characterChain1=2;
-            strncpy(desc->nameChain1,firstatom->chain,2);
-            strncpy(curChainName,firstatom->chain,2);
+            strcpy(desc->nameChain1,firstatom->chain);
+            strcpy(curChainName,firstatom->chain);
             desc->numResChain1 = countResidues(all_atoms,all_natoms,firstatom->chain);
 
             for(i = 0 ; i < natoms ; i++) {
@@ -384,7 +383,7 @@ void set_atom_based_descriptors(s_atm **atoms, int natoms, s_desc *desc,s_atm *a
                             desc->interChain = 1;
                             if(!desc->numResChain2){
                                 desc->numResChain2 = countResidues(all_atoms,all_natoms,curatom->chain);
-                                strncpy(curChainName,curatom->chain,1);
+                                strcpy(curChainName,curatom->chain);
                             }
                         }
 

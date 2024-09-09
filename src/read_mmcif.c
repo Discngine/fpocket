@@ -123,10 +123,14 @@ s_pdb *open_mmcif(char *fpath, const char *ligan, const int keep_lig, int model_
             }
             if (par->xlig_resnumber > -1)
             {
-                
-                if (((is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand)) || (par->xlig_chain_code !=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (par->xlig_chain_code!=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2])))
+
+                // if (((is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand)) || (par->xlig_chain_code !=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (par->xlig_chain_code!=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2])))
+                if (((is_ligand(par->chain_as_ligand, at_in[i].chain_auth,par->n_chains_as_ligand)) || (par->xlig_chain_code !=NULL && strcmp(at_in[i].chain_auth,par->xlig_chain_code)==0 && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2]) || (par->xlig_chain_code!=NULL && at_in[i].chain_auth[0] == par->xlig_chain_code[0] && at_in[i].resid_auth == par->xlig_resnumber && par->xlig_resname[0] == at_in[i].resname[0] && par->xlig_resname[1] == at_in[i].resname[1] && par->xlig_resname[2] == at_in[i].resname[2])))
+
                 {
+
                     pdb->n_xlig_atoms++;
+
                 }
             }
         }
@@ -630,9 +634,8 @@ void read_mmcif(s_pdb *pdb, const char *ligan, const int keep_lig, int model_num
 
                 unsigned short is_chain_ligand=(is_ligand(params->chain_as_ligand, at_in[i].chain_auth,params->n_chains_as_ligand) &&  strncmp(at_in[i].resname, "HOH", 3) && strncmp(at_in[i].resname, "WAT", 3) && strncmp(at_in[i].resname, "TIP", 3));
 
-                if (is_chain_ligand || (params->xlig_chain_code !=NULL && at_in[i].chain_auth[0] == params->xlig_chain_code[0] && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]) || (params->xlig_chain_code!=NULL && at_in[i].chain_auth[0] == params->xlig_chain_code[0] && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]))
-                {
-                                        
+                if (is_chain_ligand || (params->xlig_chain_code !=NULL && strcmp(at_in[i].chain_auth, params->xlig_chain_code)==0 && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]) || (params->xlig_chain_code!=NULL && strcmp(at_in[i].chain_auth, params->xlig_chain_code)==0 && at_in[i].resid_auth == params->xlig_resnumber && params->xlig_resname[0] == at_in[i].resname[0] && params->xlig_resname[1] == at_in[i].resname[1] && params->xlig_resname[2] == at_in[i].resname[2]))
+                {                      
                     *(pdb->xlig_x + i_explicit_ligand_atom) = ts_in.coords[3 * i];
                     *(pdb->xlig_y + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 1];
                     *(pdb->xlig_z + i_explicit_ligand_atom) = ts_in.coords[(3 * i) + 2];
