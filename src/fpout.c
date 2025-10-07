@@ -261,7 +261,7 @@ void write_descriptors_DB(c_lst_pockets *pockets, FILE *f)
    fprintf(f, "cav_id drug_score volume nb_asph inter_chain apol_asph_proportion mean_asph_radius "
               "as_density mean_asph_solv_acc mean_loc_hyd_dens flex hydrophobicity_score volume_score charge_score "
               "polarity_score a0_apol a0_pol af_apol af_pol n_abpa "
-              "ala cys asp glu phe gly his ile lys leu met asn pro gln arg ser thr val trp tyr "
+              "ala arg asn asp cys gln glu gly his ile leu lys met phe pro ser thr trp tyr val "
               "chain_1_type chain_2_type num_res_chain_1 "
               "num_res_chain_2 lig_het_tag name_chain_1 name_chain_2\n");
    while (npcur)
