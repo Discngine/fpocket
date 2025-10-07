@@ -614,7 +614,7 @@ void set_pockets_descriptors(c_lst_pockets *pockets,s_pdb *pdb,s_fparams *params
 
 			/* Calculate descriptors*/
 
-			set_descriptors(pocket_atoms, natms, tab_vert,pcur->v_lst->n_vertices, pcur->pdesc,niter,pdb_w_lig,params->flag_do_asa_and_volume_calculations) ;
+			set_descriptors(pocket_atoms, natms, tab_vert,pcur->v_lst->n_vertices, pcur->pdesc,niter,pdb,params->flag_do_asa_and_volume_calculations) ;
                         
 			my_free(pocket_atoms) ;
 

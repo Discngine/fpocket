@@ -79,7 +79,7 @@ static const char atomSiteHeader[] =
 
 void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_pdb *pdb) {
     int out_len = strlen(out_path);
-    char out[out_len + 20];
+    char out[out_len + 22];
     out[0] = '\0';
 
     node_pocket *pcur;
