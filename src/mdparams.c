@@ -132,7 +132,7 @@ s_mdparams* get_mdpocket_args(int nargs, char **args) {
     char *str_list_file = NULL;
     char **args_copy = my_malloc(sizeof (char**) *nargs);
     for (i = 0; i < nargs; i++) {
-        args_copy[i] = my_malloc(sizeof (args[i]));
+        args_copy[i] = my_malloc(strlen(args[i])+1);
         strcpy(args_copy[i], args[i]);
     }
 
