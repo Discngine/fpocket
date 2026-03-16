@@ -109,7 +109,7 @@ sudo make install
 
 For M1 and M2, use the MACOSXARM64 architecture:
 ```
-ARCH=MACOSXARM64 make
+make ARCH=MACOSXARM64
 ```
 
 #### Using conda
