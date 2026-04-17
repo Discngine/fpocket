@@ -122,7 +122,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
     opterr = 0;
     char *pt;
     char *apt;
-    char *residue_string[M_MAX_CUSTOM_POCKET_LEN];
+    char residue_string[M_MAX_CUSTOM_POCKET_LEN];
     short custom_ligand_i = 0;
     const char *separators = ",:";
     static struct option fplong_options[] = {/*long options args located in fparams.h*/
@@ -293,7 +293,7 @@ s_fparams *get_fpocket_args(int nargs, char **args)
             rest = par->custom_pocket_arg;
             while ((pt = strtok_r(rest, ".", &rest)))
             {
-                strcpy(&residue_string, pt);
+                strcpy(residue_string, pt);
                 rest2 = residue_string;
                 apti = 0;
                 while ((apt = strtok_r(rest2, ":", &rest2)))
