@@ -96,12 +96,12 @@ void calculate_pocket_energy_grids(c_lst_pockets *pockets, s_fparams *params, s_
 
 
 
-        sprintf(final_path, "%s/pockets/pocket_%d_vdw.dx", out_path, pocket_number);
+        snprintf(final_path, sizeof(final_path), "%s/pockets/pocket_%d_vdw.dx", out_path, pocket_number);
         f_vdw = fopen(final_path, "w");
         write_grid(pocket_vdw_grid, f_vdw);
         fclose(f_vdw);
 
-        sprintf(final_path, "%s/pockets/pocket_%d_elec.dx", out_path, pocket_number);
+        snprintf(final_path, sizeof(final_path), "%s/pockets/pocket_%d_elec.dx", out_path, pocket_number);
         f_elec = fopen(final_path, "w");
         write_grid(pocket_elec_grid, f_elec);
         fclose(f_elec);
