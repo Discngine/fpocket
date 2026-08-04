@@ -153,7 +153,11 @@ void process_pdb(char *pdbname, s_fparams *params)
 
         if (params->topology_path[0] != 0)
         {
+#ifdef M_NO_MOLFILE
+                fprintf(stderr, "! This build ignores --topology_file; it needs the molfile plugins.\n");
+#else
                 read_topology(params->topology_path, pdb);
+#endif
         }
 
         if (pdb)
@@ -230,9 +234,13 @@ void process_pdb(char *pdbname, s_fparams *params)
 
 s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
 {
-        s_pdb *pdb;
+        s_pdb *pdb = NULL;
         if (strstr(par->pdb_path, ".cif")) /*strstr finds the substring and here we search for the file extension we want */
+#ifdef M_NO_MOLFILE
+                fprintf(stderr, "! This build reads PDB only; mmCIF needs the molfile plugins.\n");
+#else
                 pdb = open_mmcif(fpath, NULL, keep_lig, par->model_number, par);
+#endif
         else if (strstr(par->pdb_path, ".pdb"))
                 pdb = rpdb_open(fpath, NULL, keep_lig, par->model_number, par);
 
@@ -244,7 +252,9 @@ void read_file_format(s_pdb *pdb, const char *ligan, const int keep_lig, int mod
 
         if (strstr(par->pdb_path, ".cif"))
         { /*strstr finds the substring and here we search for the file extension we want */
+#ifndef M_NO_MOLFILE
                 read_mmcif(pdb, NULL, keep_lig, par->model_number, par);
+#endif
         }
         else if (strstr(par->pdb_path, ".pdb"))
                 rpdb_read(pdb, NULL, keep_lig, par->model_number, par);
