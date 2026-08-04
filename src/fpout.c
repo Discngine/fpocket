@@ -79,8 +79,7 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
       else
          sprintf(out_path, "%s_out", pdb_code);
 
-      sprintf(command, "mkdir -p %s", out_path);
-      status = system(command);
+      status = m_mkdir_p(out_path);
       if (status != 0)
       {
          return;
@@ -123,8 +122,7 @@ void write_out_fpocket(c_lst_pockets *pockets, s_pdb *pdb, char *pdbname)
          sprintf(out_path, "%s_out", pdb_code);
 
       sprintf(out_path_tmp, "%s/pockets", out_path);
-      sprintf(command, "mkdir %s", out_path_tmp);
-      status = system(command);
+      status = m_mkdir(out_path_tmp);
       /*if(status != 0) {
 			return ;
 		}*/
@@ -238,8 +236,7 @@ void write_out_fpocket_DB(c_lst_pockets *pockets, s_pdb *pdb, char *input_name) 
          sprintf(out_path, "%s/%s_out", pdb_path, pdb_code);
       else
          sprintf(out_path, "%s_out", pdb_code);
-      sprintf(command, "mkdir -p %s", out_path);
-      int status = system(command);
+      int status = m_mkdir_p(out_path);
       // Writing full pdb
       sprintf(pdb_out_path, "%s_out.pdb", out_path);
 

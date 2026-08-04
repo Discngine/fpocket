@@ -74,12 +74,9 @@ void calculate_pocket_energy_grids(c_lst_pockets *pockets, s_fparams *params, s_
     if (strlen(pdb_path) > 0) sprintf(out_path, "%s/%s_out", pdb_path, pdb_code);
     else sprintf(out_path, "%s_out", pdb_code);
 
-    //sprintf(command, "mkdir %s", out_path) ;
-    status = mkdir(out_path, 0755);
-    //status = system(command) ;
+    status = m_mkdir_p(out_path);
     sprintf(out_path_pockets, "%s/pockets", out_path);
-    status = mkdir(out_path_pockets, 0755);
-    //status = system(command) ;
+    status = m_mkdir(out_path_pockets);
     if(status != 0) {
             return ;
     }

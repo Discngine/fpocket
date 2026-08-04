@@ -111,8 +111,7 @@ void write_vmd(char *pdb_name, char *pdb_out_name)
 			fclose(f);
 
 			/* Make tcl script executable, and Write tcl script */
-			sprintf(sys_cmd, "chmod +x %s", fout);
-			status = system(sys_cmd);
+			status = m_make_executable(fout);
 
 			fprintf(f_tcl, "proc highlighting { colorId representation id selection } {\n");
 			fprintf(f_tcl, "   puts \"highlighting $id\"\n");
@@ -181,8 +180,7 @@ void write_vmd_mmcif(char *pdb_name, char *pdb_out_name)
 			fclose(f);
 
 			/* Make tcl script executable, and Write tcl script */
-			sprintf(sys_cmd, "chmod +x %s", fout);
-			status = system(sys_cmd);
+			status = m_make_executable(fout);
 
 			fprintf(f_tcl, "proc highlighting { colorId representation id selection } {\n");
 			fprintf(f_tcl, "   puts \"highlighting $id\"\n");
@@ -262,8 +260,7 @@ void write_pymol(char *pdb_name, char *pdb_out_name)
 			fflush(f);
 			fclose(f);
 
-			sprintf(sys_cmd, "chmod +x %s", fout);
-			status = system(sys_cmd);
+			status = m_make_executable(fout);
 			/* Write pml script */
 			fprintf(f_pml, "from pymol import cmd,stored\n");
 			fprintf(f_pml, "load %s\n", pdb_out_name);
@@ -318,8 +315,7 @@ void write_pymol_mmcif(char *pdb_name, char *pdb_out_name)
 			fflush(f);
 			fclose(f);
 
-			sprintf(sys_cmd, "chmod +x %s", fout);
-			status = system(sys_cmd);
+			status = m_make_executable(fout);
 			/* Write pml script */
 			fprintf(f_pml, "from pymol import cmd,stored\n");
 			fprintf(f_pml, "load %s\n", pdb_out_name);
