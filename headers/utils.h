@@ -30,6 +30,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #endif 				/* /GSL */
 
 #include "memhandler.h"
+#include "os_compat.h"
 
 /* ------------------------------- PUBLIC MACROS ---------------------------- */
 

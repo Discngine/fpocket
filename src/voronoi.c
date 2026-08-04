@@ -77,10 +77,8 @@ s_lst_vvertice *load_vvertices(s_pdb *pdb, s_fparams *params, float xshift, floa
     char tmpn1[250] = "";
     char tmpn2[250] = "";
 
-    const char *env = getenv("TMPDIR");
+    const char *env = m_tmpdir();
     pid_t pid = getpid();
-    if (!env)
-        env = "/tmp/";
     sprintf(tmpn1, "%s/qvoro_in_fpocket_%d.dat", env, pid);
     sprintf(tmpn2, "%s/qvoro_out_fpocket_%d.dat", env, pid);
 
@@ -110,6 +108,13 @@ s_lst_vvertice *load_vvertices(s_pdb *pdb, s_fparams *params, float xshift, floa
     {
         FILE *ftmp = fopen(tmpn2, "w");
         FILE *fvoro = fopen(tmpn1, "w+");
+        if (!ftmp || !fvoro)
+        {
+            fprintf(stderr, "! Cannot write scratch files in %s. Set TMPDIR to a writable directory.\n", env);
+            if (ftmp) fclose(ftmp);
+            if (fvoro) fclose(fvoro);
+            return NULL;
+        }
         /* Write the header for qvoronoi */
         fprintf(fvoro, "3 rbox D3\n%d\n", lvvert->n_h_tr);
         // fprintf(fvoro, "3 rbox D3\n%d\n", 100) ;
@@ -1244,13 +1249,18 @@ float get_convex_hull_volume(s_vvertice **verts, int nvert)
     if (nvert < 10)
         return (0.0);
 
-    const char *env = getenv("TMPDIR");
-    if (!env)
-        env = "/tmp/";
+    const char *env = m_tmpdir();
     sprintf(tmpn1, "%s/qhull_in_fpocket_%d.dat", env, pid);
     sprintf(tmpn2, "%s/qhull_out_fpocket_%d.dat", env, pid);
     FILE *ftmp = fopen(tmpn2, "w");
     FILE *fvoro = fopen(tmpn1, "w+");
+    if (!ftmp || !fvoro)
+    {
+        fprintf(stderr, "! Cannot write scratch files in %s. Set TMPDIR to a writable directory.\n", env);
+        if (ftmp) fclose(ftmp);
+        if (fvoro) fclose(fvoro);
+        return (0.0);
+    }
     /* Write the header for qvoronoi */
 
     fprintf(fvoro, "3 rbox D3\n%d\n", nvert);
