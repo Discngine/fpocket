@@ -91,6 +91,8 @@ s_fparams *init_def_fparams(void)
     par->min_n_explicit_pocket_atoms = M_MIN_N_EXPLICIT_POCKET;
     par->n_chains_to_delete=0;
     par->n_chains_as_ligand=0;
+    par->flag_custom_score = 0;
+    par->flag_write_score_desc = 0;
     return par;
 }
 
@@ -147,6 +149,8 @@ s_fparams *get_fpocket_args(int nargs, char **args)
                                              {M_PAR_CHAIN_AS_LIGAND_LONG, required_argument, 0, M_PAR_CHAIN_AS_LIGAND}, /*chain as ligand*/
                                              {M_PAR_KEEP_CHAINS_LONG, required_argument, 0, M_PAR_KEEP_CHAINS},         /*chain as ligand*/
                                              {M_PAR_WRITE_MODE_LONG, required_argument, 0, M_PAR_WRITE_MODE},
+                                             {M_PAR_LONG_SCORE_COEFFS, required_argument, 0, M_PAR_SCORE_COEFFS},
+                                             {M_PAR_LONG_WRITE_SCORE_DESC, no_argument, 0, M_PAR_WRITE_SCORE_DESC},
                                              {0, 0, 0, 0}};
 
     while (c != -1)
@@ -382,6 +386,22 @@ s_fparams *get_fpocket_args(int nargs, char **args)
         case M_PAR_MC_ITER:
             //                printf("option -v with value %s", optarg);
             par->nb_mcv_iter = (int)atoi(optarg);
+            status++;
+            break;
+        case M_PAR_SCORE_COEFFS:
+            if (sscanf(optarg, "%f,%f,%f,%f,%f,%f,%f,%f,%f", &par->score_coeffs[0], &par->score_coeffs[1],
+                       &par->score_coeffs[2], &par->score_coeffs[3], &par->score_coeffs[4],
+                       &par->score_coeffs[5], &par->score_coeffs[6], &par->score_coeffs[7],
+                       &par->score_coeffs[8]) != M_N_SCORE_COEFFS)
+            {
+                fprintf(stderr, "! --%s needs %d comma-separated numbers\n", M_PAR_LONG_SCORE_COEFFS, M_N_SCORE_COEFFS);
+                exit(1);
+            }
+            par->flag_custom_score = 1;
+            status++;
+            break;
+        case M_PAR_WRITE_SCORE_DESC:
+            par->flag_write_score_desc = 1;
             status++;
             break;
         case M_PAR_MODEL_FLAG:

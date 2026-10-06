@@ -302,3 +302,56 @@ void write_descriptors_DB(c_lst_pockets *pockets, FILE *f)
       r++;
    }
 }
+
+/**
+   ## FUNCTION:
+	write_out_score_descriptors
+
+   ## SPECIFICATION:
+	Write <name>_out/<name>_score_desc.txt: for each pocket, in the order of
+	the other output files, the descriptors --score_coefficients weighs,
+	as the score sees them (normalised over every pocket found, before small
+	pockets are dropped).  Written only with --write_score_descriptors, to
+	fit score coefficients.
+
+   ## PARAMETRES:
+	@ c_lst_pockets *pockets : All pockets found and kept.
+	@ char *pdbname          : Name of the pdb
+
+   ## RETURN:
+	void
+*/
+void write_out_score_descriptors(c_lst_pockets *pockets, char *pdbname)
+{
+   char pdb_code[350] = "";
+   char pdb_path[350] = "";
+   char out_file[750] = "";
+   FILE *f = NULL;
+   node_pocket *pcur = NULL;
+   s_desc *d = NULL;
+   int i = 0;
+
+   if (!pockets)
+      return;
+   strcpy(pdb_code, pdbname);
+   extract_path(pdbname, pdb_path);
+   remove_ext(pdb_code);
+   remove_path(pdb_code);
+   if (strlen(pdb_path) > 0)
+      sprintf(out_file, "%s/%s_out/%s_score_desc.txt", pdb_path, pdb_code, pdb_code);
+   else
+      sprintf(out_file, "%s_out/%s_score_desc.txt", pdb_code, pdb_code);
+   f = fopen(out_file, "w");
+   if (!f)
+      return;
+   fprintf(f, "pocket score nas_norm prop_asapol_norm mean_loc_hyd_dens_norm polarity_score as_density "
+              "convex_hull_volume surf_pol_vdw14 surf_apol_vdw14\n");
+   for (pcur = pockets->first; pcur; pcur = pcur->next)
+   {
+      d = pcur->pocket->pdesc;
+      fprintf(f, "%d %.6f %.6f %.6f %.6f %d %.6f %.6f %.6f %.6f\n", ++i, pcur->pocket->score, d->nas_norm,
+              d->prop_asapol_norm, d->mean_loc_hyd_dens_norm, d->polarity_score, d->as_density,
+              d->convex_hull_volume, d->surf_pol_vdw14, d->surf_apol_vdw14);
+   }
+   fclose(f);
+}

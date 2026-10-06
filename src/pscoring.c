@@ -332,3 +332,38 @@ float drug_score_pocket(s_desc *pdesc) {
     return score;
 
 }
+
+/**
+   ## FUNCTION:
+	score_pocket_custom
+
+   ## SPECIFICATION:
+	The pocket score with user-given coefficients (--score_coefficients): a
+	linear combination of the descriptors fpocket's scores have been built on
+	(the current score_pocket uses nas_norm, as_density, convex_hull_volume and
+	the two surfaces; the earlier PLS scores the first five), for
+	representations the built-in coefficients were not fitted on, such as
+	coarse-grained proteins.  The built-in score is the special case
+	-0.03783394,0.48461469,0,0,0,0.09093926,0.0004155899,-0.003995233,-0.004072336.
+
+   ## PARAMETRES:
+	@ s_desc *pdesc       : The pocket descriptors
+	@ const float *coeffs : intercept, nas_norm, prop_asapol_norm,
+	                        mean_loc_hyd_dens_norm, polarity_score, as_density,
+	                        convex_hull_volume, surf_pol_vdw14, surf_apol_vdw14
+
+   ## RETURN:
+	float: The score
+*/
+float score_pocket_custom(s_desc *pdesc, const float *coeffs)
+{
+    return coeffs[0]
+           + coeffs[1] * (float) pdesc->nas_norm
+           + coeffs[2] * (float) pdesc->prop_asapol_norm
+           + coeffs[3] * (float) pdesc->mean_loc_hyd_dens_norm
+           + coeffs[4] * (float) pdesc->polarity_score
+           + coeffs[5] * (float) pdesc->as_density
+           + coeffs[6] * (float) pdesc->convex_hull_volume
+           + coeffs[7] * (float) pdesc->surf_pol_vdw14
+           + coeffs[8] * (float) pdesc->surf_apol_vdw14;
+}

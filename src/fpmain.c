@@ -195,6 +195,8 @@ void process_pdb(char *pdbname, s_fparams *params)
                         }
                         else
                                 write_out_fpocket(pockets, pdb, pdbname);
+                        if (params->flag_write_score_desc)
+                                write_out_score_descriptors(pockets, pdbname);
                         c_lst_pocket_free(pockets);
                 }
                 else

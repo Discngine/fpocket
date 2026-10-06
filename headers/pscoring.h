@@ -25,5 +25,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* ----------------------------PROTOTYPES-------------------------------------*/
 
 float score_pocket(s_desc *pdesc) ;
+float score_pocket_custom(s_desc *pdesc, const float *coeffs) ;
 float drug_score_pocket(s_desc *pdesc);
 #endif

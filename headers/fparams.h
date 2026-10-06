@@ -126,6 +126,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define M_PAR_WRITE_MODE 'w' /**flag, to define write mode for pocket output: d->same as input, b or both -> both (pdb & cif), p or pdb ->pdb, m or cif -> mmcif*/
 #define M_PAR_WRITE_MODE_LONG "write_mode"
 
+/* Opt-in pocket ranking for other representations (e.g. coarse-grained): without
+   these options pockets are scored and written exactly as before. */
+#define M_PAR_SCORE_COEFFS 1001 /**< long-only: --score_coefficients c0,c1,...,c8 */
+#define M_PAR_LONG_SCORE_COEFFS "score_coefficients"
+#define M_PAR_WRITE_SCORE_DESC 1002 /**< long-only: --write_score_descriptors */
+#define M_PAR_LONG_WRITE_SCORE_DESC "write_score_descriptors"
+#define M_N_SCORE_COEFFS 9 /**< intercept + the eight descriptors fpocket's scores have been built on */
+
 #define M_PAR_MIN_N_EXPLICIT_POCKET 'u'
 #define M_PAR_MIN_N_EXPLICIT_POCKET_LONG "min_n_explicit_pocket"
 
@@ -223,6 +231,10 @@ typedef struct s_fparams
 	char *chain_as_ligand[M_MAX_CHAINS_DELETE];
 	int chain_is_kept;	/* To choose if we keep the chains or not*/
 	char write_par[10]; /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
+	int flag_custom_score;                    /**< 1: rank pockets with score_coeffs instead of the built-in score */
+	float score_coeffs[M_N_SCORE_COEFFS];     /**< intercept, nas_norm, prop_asapol_norm, mean_loc_hyd_dens_norm, polarity_score,
+	                                               as_density, convex_hull_volume, surf_pol_vdw14, surf_apol_vdw14 */
+	int flag_write_score_desc;                /**< 1: also write <name>_score_desc.txt */
 
 } s_fparams;
 
