@@ -1041,6 +1041,17 @@ void print_pocket_usage(FILE *f)
 \t\t\t\t\t\t  d -> default (same format outpout as input)\n\
 \t\t\t\t\t\t  b or both -> both pdb and mmcif | p or pdb ->pdb | m or cif or mmcif-> mmcif\n",
             M_PAR_WRITE_MODE, M_PAR_WRITE_MODE_LONG);
+    fprintf(f, "\n\033[1mOptional pocket scoring parameters\033[0m\n");
+    fprintf(f, "\t--%s c0,...,c8\t: Replace the pocket score by the linear score     \n\
+\t\t\t\t\t  c0 + c1*nas_norm + c2*prop_asapol_norm\n\
+\t\t\t\t\t  + c3*mean_loc_hyd_dens_norm + c4*polarity_score\n\
+\t\t\t\t\t  + c5*as_density + c6*convex_hull_volume\n\
+\t\t\t\t\t  + c7*surf_pol_vdw14 + c8*surf_apol_vdw14\n\
+\t\t\t\t\t  (the default score is this form with\n\
+\t\t\t\t\t  -0.03783394,0.48461469,0,0,0,0.09093926,\n\
+\t\t\t\t\t  0.0004155899,-0.003995233,-0.004072336)\n", M_PAR_LONG_SCORE_COEFFS);
+    fprintf(f, "\t--%s\t: Write those descriptors for every pocket to\n\
+\t\t\t\t\t  <name>_out/<name>_score_desc.txt\n", M_PAR_LONG_WRITE_SCORE_DESC);
     fprintf(f, "\n\033[1mFor more information: http://fpocket.sourceforge.net\033[0m\n");
 }
 /*write mode : d -> default | b -> both pdb and mmcif | p ->pdb | m  -> mmcif*/
