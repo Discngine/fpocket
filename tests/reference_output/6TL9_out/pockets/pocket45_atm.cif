@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    45:
 0  - Pocket Score                      : -0.0520
-1  - Drug Score                        : 0.0125
+1  - Drug Score                        : 0.0105
 2  - Number of alpha spheres           :    81
 3  - Mean alpha-sphere radius          : 3.8423
 4  - Mean alpha-sphere Solvent Acc.    : 0.4315
@@ -15,7 +15,7 @@ Information about the pocket    45:
 6  - Hydrophobicity Score              : 40.2778
 7  - Polarity Score                    :    10
 8  - Amino Acid based volume Score     : 4.3333
-9  - Pocket volume (Monte Carlo)       : 631.8668
+9  - Pocket volume (Monte Carlo)       : 637.8710
 10  -Pocket volume (convex hull)       : 235.6465
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 21.5238

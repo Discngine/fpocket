@@ -136,6 +136,7 @@ s_lst_vvertice *load_vvertices(s_pdb *pdb, s_fparams *params, float xshift, floa
 
         // int status = system("qvoronoi p i Pp Fn < voro_tmp.dat > voro.tmp") ;
         run_qvoronoi(fvoro, ftmp);
+        fflush(ftmp);
         int status = M_VORONOI_SUCCESS;
 
         if (status == M_VORONOI_SUCCESS)

@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    90:
 0  - Pocket Score                      : -0.2141
-1  - Drug Score                        : 0.0017
+1  - Drug Score                        : 0.0015
 2  - Number of alpha spheres           :    17
 3  - Mean alpha-sphere radius          : 4.0883
 4  - Mean alpha-sphere Solvent Acc.    : 0.5891
@@ -15,7 +15,7 @@ Information about the pocket    90:
 6  - Hydrophobicity Score              : 18.0000
 7  - Polarity Score                    :     2
 8  - Amino Acid based volume Score     : 6.0000
-9  - Pocket volume (Monte Carlo)       : 219.9137
+9  - Pocket volume (Monte Carlo)       : 216.4494
 10  -Pocket volume (convex hull)       : 5.7812
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 16.0000

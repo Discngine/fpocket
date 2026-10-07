@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    47:
 0  - Pocket Score                      : -0.0565
-1  - Drug Score                        : 0.0310
+1  - Drug Score                        : 0.0269
 2  - Number of alpha spheres           :    89
 3  - Mean alpha-sphere radius          : 3.9791
 4  - Mean alpha-sphere Solvent Acc.    : 0.4461
@@ -15,7 +15,7 @@ Information about the pocket    47:
 6  - Hydrophobicity Score              : 35.1667
 7  - Polarity Score                    :     9
 8  - Amino Acid based volume Score     : 3.8333
-9  - Pocket volume (Monte Carlo)       : 687.8607
+9  - Pocket volume (Monte Carlo)       : 681.2953
 10  -Pocket volume (convex hull)       : 280.5320
 11 - Charge Score                      :     0
 12 - Local hydrophobic density Score   : 17.4857

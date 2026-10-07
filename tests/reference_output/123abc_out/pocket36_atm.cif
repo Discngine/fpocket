@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    36:
-0  - Pocket Score                      : -0.0726
-1  - Drug Score                        : 0.0001
-2  - Number of alpha spheres           :    21
-3  - Mean alpha-sphere radius          : 3.8932
-4  - Mean alpha-sphere Solvent Acc.    : 0.5411
-5  - Mean B-factor of pocket residues  : 0.4494
-6  - Hydrophobicity Score              : 0.2857
+0  - Pocket Score                      : -0.0601
+1  - Drug Score                        : 0.0005
+2  - Number of alpha spheres           :    24
+3  - Mean alpha-sphere radius          : 3.8211
+4  - Mean alpha-sphere Solvent Acc.    : 0.4865
+5  - Mean B-factor of pocket residues  : 0.2124
+6  - Hydrophobicity Score              : 10.2857
 7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 4.8571
-9  - Pocket volume (Monte Carlo)       : 279.0368
-10  -Pocket volume (convex hull)       : 20.3645
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 228.5238
+10  -Pocket volume (convex hull)       : 5.6641
 11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 0.0000
-13 - Number of apolar alpha sphere     :     1
-14 - Proportion of apolar alpha sphere : 0.0476
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.2917
 # 
 loop_
 _atom_site.group_PDB
@@ -39,24 +39,21 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    2104     O    O ?  GLU    Bxp 9 ?    9.610   78.022   40.425  -5.09  0 236 B
-ATOM    2103     C    C ?  GLU    Bxp 9 ?   10.169   77.277   39.615   0.00  0 236 B
-ATOM    2105     C   CB ?  GLU    Bxp 9 ?    8.575   76.788   37.798   0.00  0 236 B
-ATOM    2126     O  OE2 ?  GLU    Bxp 11 ?   11.678   82.829   36.841  -6.83  0 238 B
-ATOM    2108     O  OE1 ?  GLU    Bxp 9 ?   10.187   75.873   35.706  -0.40  0 236 B
-ATOM    2642     C   CB ?  ARG    Bxp 80 ?    9.657   77.081   31.688   0.00  0 307 B
-ATOM    2106     C   CG ?  GLU    Bxp 9 ?    8.042   75.835   36.750   0.00  0 236 B
-ATOM    2127     N    N ?  ARG    Bxp 12 ?   16.579   79.717   37.090  -4.37  0 239 B
-ATOM    2113     O    O ?  MET    Bxp 10 ?   13.308   78.467   37.621  -5.76  0 237 B
-ATOM    2119     C   CA ?  GLU    Bxp 11 ?   14.780   80.814   38.287   0.00  0 238 B
-ATOM    2125     O  OE1 ?  GLU    Bxp 11 ?   13.662   83.727   36.354   0.00  0 238 B
-ATOM    2134     N   NE ?  ARG    Bxp 12 ?   17.166   78.180   32.616  -3.70  0 239 B
-ATOM    2110     N    N ?  MET    Bxp 10 ?   11.446   77.350   39.286   0.00  0 237 B
-ATOM    2137     N  NH2 ?  ARG    Bxp 12 ?   16.002   76.207   32.344  -1.09  0 239 B
-ATOM    2638     N    N ?  ARG    Bxp 80 ?   10.760   74.847   31.982  -1.09  0 307 B
-ATOM    2132     C   CG ?  ARG    Bxp 12 ?   18.304   79.619   34.354   0.00  0 239 B
-ATOM    2647     C   CB ?  GLU    Bxp 81 ?   13.559   77.774   28.759   0.00  0 308 B
-ATOM    2643     N    N ?  GLU    Bxp 81 ?   12.076   76.211   29.899  -1.09  0 308 B
-ATOM    2626     C   CA ?  CYS    Bxp 78 ?   13.442   74.443   35.850   0.00  0 305 B
-ATOM    2629     C   CB ?  CYS    Bxp 78 ?   14.835   75.041   35.726   0.00  0 305 B
+ATOM    4030     C   CD ?  PRO    Bxp 253 ?    6.571   36.180   44.310   0.00  0 480 B
+ATOM    4010     N  NE1 ?  TRP    Bxp 251 ?   10.012   30.289   42.614  -1.01  0 478 B
+ATOM    3446     C   CB ?  GLU    Bxp 182 ?    8.807   36.987   40.044   0.00  0 409 B
+ATOM    4005     O    O ?  TRP    Bxp 251 ?    9.682   34.179   44.795  -2.14  0 478 B
+ATOM    3478     C  CE1 ?  TYR    Bxp 186 ?    7.837   33.678   37.047   0.00  0 413 B
+ATOM    4023     N  ND2 ?  ASN    Bxp 252 ?    4.327   34.310   45.144   0.00  0 479 B
+ATOM    3767     O   OH ?  TYR    Bxp 222 ?   12.714   31.484   37.996  -5.36  0 449 B
+ATOM    3481     O   OH ?  TYR    Bxp 186 ?    8.084   31.363   36.537  -4.02  0 413 B
+ATOM    4013     C  CZ2 ?  TRP    Bxp 251 ?   12.126   30.591   41.345   0.00  0 478 B
+ATOM    3443     C   CA ?  GLU    Bxp 182 ?   10.126   36.812   39.286   0.00  0 409 B
+ATOM    4021     C   CG ?  ASN    Bxp 252 ?    4.432   33.363   46.097   0.00  0 479 B
+ATOM    4020     C   CB ?  ASN    Bxp 252 ?    5.889   32.875   46.532   0.00  0 479 B
+ATOM    4008     C  CD1 ?  TRP    Bxp 251 ?    9.656   30.474   43.951   0.00  0 478 B
+ATOM    3442     N    N ?  GLU    Bxp 182 ?   11.300   36.635   40.202  -1.09  0 409 B
+ATOM    4011     C  CE2 ?  TRP    Bxp 251 ?   11.341   30.607   42.467   0.00  0 478 B
+ATOM    3439     C   CB ?  PRO    Bxp 181 ?   13.281   34.691   41.563   0.00  0 408 B
+ATOM    4017     C   CA ?  ASN    Bxp 252 ?    7.041   33.777   46.037   0.00  0 479 B
 # 

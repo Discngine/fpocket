@@ -5,7 +5,7 @@ HEADER algorithm.
 HEADER                                                                           
 HEADER Information about the pocket    68:
 HEADER 0  - Pocket Score                      : -0.1034
-HEADER 1  - Drug Score                        : 0.0020
+HEADER 1  - Drug Score                        : 0.0018
 HEADER 2  - Number of V. Vertices             :    19
 HEADER 3  - Mean alpha-sphere radius          : 3.8529
 HEADER 4  - Mean alpha-sphere SA              : 0.5160
@@ -13,7 +13,7 @@ HEADER 5  - Mean B-factor                     : 0.4746
 HEADER 6  - Hydrophobicity Score              : 20.7500
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Volume Score                      : 3.1250
-HEADER 9  - Real volume (approximation)       : 254.2527
+HEADER 9  - Real volume (approximation)       : 257.5734
 HEADER 10 - Charge Score                      :     0
 HEADER 11 - Local hydrophobic density Score   : 9.0000
 HEADER 12 - Number of apolar alpha sphere     :    10

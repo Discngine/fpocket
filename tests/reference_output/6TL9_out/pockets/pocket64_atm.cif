@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    64:
 0  - Pocket Score                      : -0.0990
-1  - Drug Score                        : 0.0008
+1  - Drug Score                        : 0.0007
 2  - Number of alpha spheres           :    16
 3  - Mean alpha-sphere radius          : 4.0703
 4  - Mean alpha-sphere Solvent Acc.    : 0.6122
@@ -15,7 +15,7 @@ Information about the pocket    64:
 6  - Hydrophobicity Score              : -4.4000
 7  - Polarity Score                    :     4
 8  - Amino Acid based volume Score     : 4.4000
-9  - Pocket volume (Monte Carlo)       : 252.0345
+9  - Pocket volume (Monte Carlo)       : 255.0571
 10  -Pocket volume (convex hull)       : 4.1479
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 9.0000

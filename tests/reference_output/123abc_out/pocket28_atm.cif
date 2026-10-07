@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    28:
-0  - Pocket Score                      : -0.0435
-1  - Drug Score                        : 0.0002
-2  - Number of alpha spheres           :    15
-3  - Mean alpha-sphere radius          : 3.8178
-4  - Mean alpha-sphere Solvent Acc.    : 0.5111
-5  - Mean B-factor of pocket residues  : 0.2583
-6  - Hydrophobicity Score              : 47.8000
-7  - Polarity Score                    :     2
-8  - Amino Acid based volume Score     : 4.6000
-9  - Pocket volume (Monte Carlo)       : 152.2791
-10  -Pocket volume (convex hull)       : 1.1933
+0  - Pocket Score                      : -0.0425
+1  - Drug Score                        : 0.0001
+2  - Number of alpha spheres           :    17
+3  - Mean alpha-sphere radius          : 3.8983
+4  - Mean alpha-sphere Solvent Acc.    : 0.5210
+5  - Mean B-factor of pocket residues  : 0.3129
+6  - Hydrophobicity Score              : -21.2500
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 3.7500
+9  - Pocket volume (Monte Carlo)       : 242.4080
+10  -Pocket volume (convex hull)       : 8.0231
 11 - Charge Score                      :    -1
-12 - Local hydrophobic density Score   : 5.0000
-13 - Number of apolar alpha sphere     :     6
-14 - Proportion of apolar alpha sphere : 0.4000
+12 - Local hydrophobic density Score   : 8.0000
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.5294
 # 
 loop_
 _atom_site.group_PDB
@@ -39,16 +39,20 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    5155     C    C ?  ASN    Cxp 131 ?   49.791   69.967   16.216   0.00  0 358 C
-ATOM    5164     O    O ?  PHE    Cxp 132 ?   48.967   66.829   17.018   0.00  0 359 C
-ATOM    5154     C   CA ?  ASN    Cxp 131 ?   49.335   70.969   17.293   0.00  0 358 C
-ATOM    5156     O    O ?  ASN    Cxp 131 ?   49.458   70.110   15.000  -2.55  0 358 C
-ATOM    5177     C  CG1 ?  ILE    Cxp 133 ?   46.547   66.252   14.171   0.00  0 360 C
-ATOM    5179     C  CD1 ?  ILE    Cxp 133 ?   45.747   66.718   12.918   0.00  0 360 C
-ATOM    5159     O  OD1 ?  ASN    Cxp 131 ?   46.848   72.862   17.330   0.00  0 358 C
-ATOM    5600     C  CG1 ?  ILE    Cxp 191 ?   45.611   66.019   19.250   0.00  0 418 C
-ATOM    5129     O    O ?  GLU    Cxp 128 ?   48.054   70.332   20.849  -1.48  0 355 C
-ATOM    5595     N    N ?  ILE    Cxp 191 ?   43.539   65.578   16.244   0.00  0 418 C
-ATOM    5599     C   CB ?  ILE    Cxp 191 ?   44.408   66.418   18.397   0.00  0 418 C
-ATOM    5601     C  CG2 ?  ILE    Cxp 191 ?   43.280   67.132   19.172   0.00  0 418 C
+ATOM    1256     C   CA ?  GLY    Axp 171 ?   17.074   29.084   34.902   0.00  0 398 A
+ATOM    3772     C   CB ?  GLU    Bxp 223 ?   20.899   28.443   38.451   0.00  0 450 B
+ATOM    3769     C   CA ?  GLU    Bxp 223 ?   19.756   29.026   39.321   0.00  0 450 B
+ATOM    3800     O  OE1 ?  GLU    Bxp 226 ?   14.870   27.408   38.360  -0.81  0 453 B
+ATOM    1258     O    O ?  GLY    Axp 171 ?   17.211   27.237   33.384   0.00  0 398 A
+ATOM    3810     N   NZ ?  LYS    Bxp 227 ?   18.871   22.046   40.724   0.00  0 454 B
+ATOM    3799     C   CD ?  GLU    Bxp 226 ?   13.993   27.306   39.282   0.00  0 453 B
+ATOM    3798     C   CG ?  GLU    Bxp 226 ?   14.425   27.213   40.755   0.00  0 453 B
+ATOM    3809     C   CE ?  LYS    Bxp 227 ?   19.628   23.270   41.089   0.00  0 454 B
+ATOM    3774     C   CD ?  GLU    Bxp 223 ?   21.775   28.184   36.070   0.00  0 450 B
+ATOM    3775     O  OE1 ?  GLU    Bxp 223 ?   22.737   27.521   36.550   0.00  0 450 B
+ATOM    3771     O    O ?  GLU    Bxp 223 ?   19.336   27.833   41.335   0.00  0 450 B
+ATOM    3797     C   CB ?  GLU    Bxp 226 ?   15.576   28.210   41.069   0.00  0 453 B
+ATOM    3773     C   CG ?  GLU    Bxp 223 ?   20.865   28.953   37.013   0.00  0 450 B
+ATOM    3808     C   CD ?  LYS    Bxp 227 ?   19.254   23.527   42.569   0.00  0 454 B
+ATOM    3796     O    O ?  GLU    Bxp 226 ?   15.035   26.681   43.850   0.00  0 453 B
 # 

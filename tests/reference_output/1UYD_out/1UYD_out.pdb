@@ -2016,6 +2016,7 @@ HETATM11175  POL STP C  10      10.729  25.699  25.632  0.00  0.00          Ve
 HETATM11175  POL STP C  10      10.887  25.711  25.706  0.00  0.00          Ve  
 HETATM11262  POL STP C  10      10.424  26.232  24.837  0.00  0.00          Ve  
 HETATM11267  POL STP C  10       8.612  26.736  24.470  0.00  0.00          Ve  
+HETATM   20 APOL STP C  10       8.559  26.661  24.471  0.00  0.00          Ve  
 HETATM 2662  POL STP C  11      -6.365  24.332  39.128  0.00  0.00          Ve  
 HETATM 2662  POL STP C  11      -6.009  21.659  39.280  0.00  0.00          Ve  
 HETATM 2896  POL STP C  11      -5.987  21.597  39.224  0.00  0.00          Ve  

@@ -4,20 +4,20 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket     9:
-HEADER 0  - Pocket Score                      : -0.0461
+HEADER 0  - Pocket Score                      : -0.0482
 HEADER 1  - Drug Score                        : 0.2328
-HEADER 2  - Number of V. Vertices             :    47
-HEADER 3  - Mean alpha-sphere radius          : 3.9593
-HEADER 4  - Mean alpha-sphere SA              : 0.4807
-HEADER 5  - Mean B-factor                     : 0.5296
+HEADER 2  - Number of V. Vertices             :    48
+HEADER 3  - Mean alpha-sphere radius          : 3.9528
+HEADER 4  - Mean alpha-sphere SA              : 0.4891
+HEADER 5  - Mean B-factor                     : 0.5354
 HEADER 6  - Hydrophobicity Score              : 18.0000
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Volume Score                      : 4.2222
-HEADER 9  - Real volume (approximation)       : 448.2320
+HEADER 9  - Real volume (approximation)       : 457.8977
 HEADER 10 - Charge Score                      :    -1
 HEADER 11 - Local hydrophobic density Score   : 14.0000
 HEADER 12 - Number of apolar alpha sphere     :    15
-HEADER 13 - Proportion of apolar alpha sphere : 0.3191
+HEADER 13 - Proportion of apolar alpha sphere : 0.3125
 ATOM      1    O STP     9     486.960 195.117 559.654    0.00     3.69
 ATOM      2    O STP     9     487.100 194.523 558.625    0.00     4.46
 ATOM      3    C STP     9     485.216 194.646 556.258    0.00     4.09
@@ -65,5 +65,6 @@ ATOM     44    O STP     9     482.848 194.072 553.190    0.00     4.02
 ATOM     45    O STP     9     482.360 193.400 552.292    0.00     3.45
 ATOM     46    O STP     9     482.408 192.286 550.977    0.00     3.48
 ATOM     47    O STP     9     481.109 191.723 549.389    0.00     3.41
+ATOM     48    O STP     9     482.421 193.885 553.458    0.00     3.65
 TER
 END

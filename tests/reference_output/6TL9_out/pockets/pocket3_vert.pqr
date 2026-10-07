@@ -5,7 +5,7 @@ HEADER algorithm.
 HEADER                                                                           
 HEADER Information about the pocket     3:
 HEADER 0  - Pocket Score                      : 0.1687
-HEADER 1  - Drug Score                        : 0.0076
+HEADER 1  - Drug Score                        : 0.0058
 HEADER 2  - Number of V. Vertices             :   335
 HEADER 3  - Mean alpha-sphere radius          : 3.9568
 HEADER 4  - Mean alpha-sphere SA              : 0.4818
@@ -13,7 +13,7 @@ HEADER 5  - Mean B-factor                     : 0.2627
 HEADER 6  - Hydrophobicity Score              : 23.9808
 HEADER 7  - Polarity Score                    :    31
 HEADER 8  - Volume Score                      : 4.2115
-HEADER 9  - Real volume (approximation)       : 2778.9297
+HEADER 9  - Real volume (approximation)       : 2714.9854
 HEADER 10 - Charge Score                      :     3
 HEADER 11 - Local hydrophobic density Score   : 31.9630
 HEADER 12 - Number of apolar alpha sphere     :   108

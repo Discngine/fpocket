@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    91:
 0  - Pocket Score                      : -0.2165
-1  - Drug Score                        : 0.0008
+1  - Drug Score                        : 0.0007
 2  - Number of alpha spheres           :    20
 3  - Mean alpha-sphere radius          : 3.9805
 4  - Mean alpha-sphere Solvent Acc.    : 0.4953
@@ -15,7 +15,7 @@ Information about the pocket    91:
 6  - Hydrophobicity Score              : 12.2500
 7  - Polarity Score                    :     3
 8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 211.4548
+9  - Pocket volume (Monte Carlo)       : 213.5215
 10  -Pocket volume (convex hull)       : 1.5076
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 17.0000

@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    65:
-0  - Pocket Score                      : -0.2311
-1  - Drug Score                        : 0.0032
-2  - Number of alpha spheres           :    53
-3  - Mean alpha-sphere radius          : 4.0023
-4  - Mean alpha-sphere Solvent Acc.    : 0.5610
-5  - Mean B-factor of pocket residues  : 0.2834
-6  - Hydrophobicity Score              : 44.6429
-7  - Polarity Score                    :     7
-8  - Amino Acid based volume Score     : 3.9286
-9  - Pocket volume (Monte Carlo)       : 836.5093
-10  -Pocket volume (convex hull)       : 207.1836
-11 - Charge Score                      :     1
-12 - Local hydrophobic density Score   : 22.9655
-13 - Number of apolar alpha sphere     :    29
-14 - Proportion of apolar alpha sphere : 0.5472
+0  - Pocket Score                      : -0.1805
+1  - Drug Score                        : 0.0002
+2  - Number of alpha spheres           :    69
+3  - Mean alpha-sphere radius          : 4.1123
+4  - Mean alpha-sphere Solvent Acc.    : 0.5349
+5  - Mean B-factor of pocket residues  : 0.5574
+6  - Hydrophobicity Score              : 22.1875
+7  - Polarity Score                    :    10
+8  - Amino Acid based volume Score     : 4.6875
+9  - Pocket volume (Monte Carlo)       : 671.7458
+10  -Pocket volume (convex hull)       : 148.3307
+11 - Charge Score                      :    -1
+12 - Local hydrophobic density Score   : 6.0000
+13 - Number of apolar alpha sphere     :     7
+14 - Proportion of apolar alpha sphere : 0.1014
 # 
 loop_
 _atom_site.group_PDB
@@ -39,47 +39,44 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    5555     C    C ?  TYR    Cxp 186 ?   36.690   62.164    5.455   0.00  0 413 C
-ATOM    5554     C   CA ?  TYR    Cxp 186 ?   35.216   61.909    5.709   0.00  0 413 C
-ATOM    5556     O    O ?  TYR    Cxp 186 ?   37.064   63.238    5.005  -3.35  0 413 C
-ATOM    5551     O    O ?  ALA    Cxp 185 ?   34.023   59.643    4.457   0.00  0 412 C
-ATOM    5569     C   CB ?  ASN    Cxp 187 ?   39.472   61.643    4.370   0.00  0 414 C
-ATOM    5565     N    N ?  ASN    Cxp 187 ?   37.528   61.173    5.743   0.00  0 414 C
-ATOM    5552     C   CB ?  ALA    Cxp 185 ?   32.614   58.824    7.353   0.00  0 412 C
-ATOM    5848     C  CE2 ?  TYR    Cxp 222 ?   29.616   54.797    9.327   0.00  0 449 C
-ATOM    5849     C   CZ ?  TYR    Cxp 222 ?   30.448   55.879    9.551   0.00  0 449 C
-ATOM    5850     O   OH ?  TYR    Cxp 222 ?   29.907   57.157    9.562  -7.50  0 449 C
-ATOM    5846     C  CD2 ?  TYR    Cxp 222 ?   30.134   53.531    9.319   0.00  0 449 C
-ATOM    5847     C  CE1 ?  TYR    Cxp 222 ?   31.812   55.701    9.755   0.00  0 449 C
-ATOM    5544     C   CB ?  LEU    Cxp 184 ?   36.147   55.258    8.676   0.00  0 411 C
-ATOM    5843     C   CB ?  TYR    Cxp 222 ?   32.068   51.912    9.592   0.00  0 449 C
-ATOM    5845     C  CD1 ?  TYR    Cxp 222 ?   32.330   54.410    9.776   0.00  0 449 C
-ATOM    5844     C   CG ?  TYR    Cxp 222 ?   31.509   53.308    9.555   0.00  0 449 C
-ATOM    5437     O    O ?  ALA    Cxp 170 ?   41.960   55.993   -2.465  -3.35  0 397 C
-ATOM    5427     O    O ?  HIS    Cxp 169 ?   41.255   54.138    0.152  -3.21  0 396 C
-ATOM    5571     O  OD1 ?  ASN    Cxp 187 ?   41.266   60.244    3.646   0.00  0 414 C
-ATOM    5438     C   CB ?  ALA    Cxp 170 ?   39.482   54.675   -2.780   0.00  0 397 C
-ATOM    5543     O    O ?  LEU    Cxp 184 ?   35.882   56.783    5.753   0.00  0 411 C
-ATOM    5429     C   CG ?  HIS    Cxp 169 ?   38.300   52.290    0.934   0.00  0 396 C
-ATOM    5432     C  CE1 ?  HIS    Cxp 169 ?   36.623   53.461    0.107   0.00  0 396 C
-ATOM    5433     N  NE2 ?  HIS    Cxp 169 ?   36.360   52.179   -0.084   0.00  0 396 C
-ATOM    5431     C  CD2 ?  HIS    Cxp 169 ?   37.399   51.426    0.410   0.00  0 396 C
-ATOM    5547     C  CD2 ?  LEU    Cxp 184 ?   38.134   53.757    8.316   0.00  0 411 C
-ATOM    5546     C  CD1 ?  LEU    Cxp 184 ?   36.378   53.134   10.101   0.00  0 411 C
-ATOM    5482     C  CD1 ?  ILE    Cxp 176 ?   38.538   48.769    7.205   0.00  0 403 C
-ATOM    5418     C  CG2 ?  THR    Cxp 167 ?   40.786   47.601    4.142   0.00  0 394 C
-ATOM    5428     C   CB ?  HIS    Cxp 169 ?   39.624   52.051    1.588   0.00  0 396 C
-ATOM    5415     O    O ?  THR    Cxp 167 ?   43.173   50.178    4.170  -1.07  0 394 C
-ATOM    5480     C  CG1 ?  ILE    Cxp 176 ?   39.303   49.763    8.075   0.00  0 403 C
-ATOM    5430     N  ND1 ?  HIS    Cxp 169 ?   37.799   53.557    0.704  -6.98  0 396 C
-ATOM    5465     C  CE1 ?  PHE    Cxp 174 ?   41.828   56.413    4.705   0.00  0 401 C
-ATOM    5461     C   CB ?  PHE    Cxp 174 ?   42.573   53.406    6.977   0.00  0 401 C
-ATOM    5549     C   CA ?  ALA    Cxp 185 ?   33.785   58.424    6.536   0.00  0 412 C
-ATOM    5537     O    O ?  SER    Cxp 183 ?   38.632   58.564    7.460   0.00  0 410 C
-ATOM    5812     O    O ?  LEU    Cxp 218 ?   34.990   46.760    8.549  -0.40  0 445 C
-ATOM    5839     N    N ?  TYR    Cxp 222 ?   32.471   49.895   10.940   0.00  0 449 C
-ATOM    5481     C  CG2 ?  ILE    Cxp 176 ?   37.818   49.391   10.093   0.00  0 403 C
-ATOM    5463     C  CD1 ?  PHE    Cxp 174 ?   41.685   55.162    5.370   0.00  0 401 C
-ATOM    5820     O    O ?  SER    Cxp 219 ?   31.438   46.741    7.340   0.00  0 446 C
-ATOM    5447     C   CB ?  ALA    Cxp 172 ?   43.707   55.922    1.871   0.00  0 399 C
+ATOM    6576     O    O ?  THR    Dxp 45 ?   63.242   16.617   55.888  -2.55  0 272 D
+ATOM    6588     N    N ?  LYS    Dxp 47 ?   63.948   17.986   60.414  -1.51  0 274 D
+ATOM    6586     C  CD1 ?  LEU    Dxp 46 ?   61.481   14.690   59.255   0.00  0 273 D
+ATOM    6581     C   CA ?  LEU    Dxp 46 ?   64.050   16.252   58.626   0.00  0 273 D
+ATOM    6591     O    O ?  LYS    Dxp 47 ?   64.182   16.959   63.126  -0.40  0 274 D
+ATOM    6592     C   CB ?  LYS    Dxp 47 ?   63.508   19.915   61.962   0.00  0 274 D
+ATOM    6598     N    N ?  MET    Dxp 51 ?   59.884   14.683   65.188   0.00  0 278 D
+ATOM    6571     C   CE ?  LYS    Dxp 44 ?   59.381   16.004   52.877   0.00  0 271 D
+ATOM    6639     C  CD1 ?  PHE    Dxp 56 ?   61.210   12.973   55.978   0.00  0 283 D
+ATOM    6572     N   NZ ?  LYS    Dxp 44 ?   57.996   15.644   52.375  -3.28  0 271 D
+ATOM    6664     O  OE1 ?  GLU    Dxp 59 ?   57.674   12.906   52.458  -2.28  0 286 D
+ATOM    7425     C   CA ?  GLY    Dxp 156 ?   53.352   17.790   52.036   0.00  0 383 D
+ATOM    6629     C   CG ?  GLU    Dxp 55 ?   54.143   11.051   57.889   0.00  0 282 D
+ATOM    7451     N  NH1 ?  ARG    Dxp 159 ?   55.717   17.236   60.005   0.00  0 386 D
+ATOM    7460     C  CD2 ?  LEU    Dxp 160 ?   56.490   22.410   55.380   0.00  0 387 D
+ATOM    6606     O    O ?  GLU    Dxp 52 ?   58.444   11.715   60.041  -0.40  0 279 D
+ATOM    6634     C   CA ?  PHE    Dxp 56 ?   59.178   10.350   56.619   0.00  0 283 D
+ATOM    6633     N    N ?  PHE    Dxp 56 ?   58.108   10.095   57.587   0.00  0 283 D
+ATOM    6437     C   CG ?  GLU    Dxp 28 ?   63.244   21.380   57.283   0.00  0 255 D
+ATOM    6607     C   CB ?  GLU    Dxp 52 ?   57.211   13.851   61.368   0.00  0 279 D
+ATOM    6603     N    N ?  GLU    Dxp 52 ?   58.522   13.196   63.369   0.00  0 279 D
+ATOM    7459     C  CD1 ?  LEU    Dxp 160 ?   56.024   21.949   52.936   0.00  0 387 D
+ATOM    7416     O    O ?  PHE    Dxp 155 ?   55.635   19.113   51.089  -1.07  0 382 D
+ATOM    6419     O    O ?  TYR    Dxp 26 ?   59.073   21.717   51.991  -1.07  0 253 D
+ATOM    6627     O    O ?  GLU    Dxp 55 ?   56.504    9.379   56.126  -3.21  0 282 D
+ATOM    6626     C    C ?  GLU    Dxp 55 ?   56.900    9.604   57.277   0.00  0 282 D
+ATOM    6432     N    N ?  GLU    Dxp 28 ?   61.845   21.923   54.635   0.00  0 255 D
+ATOM    6435     O    O ?  GLU    Dxp 28 ?   63.737   19.537   53.392   0.00  0 255 D
+ATOM    7452     N  NH2 ?  ARG    Dxp 159 ?   54.441   15.325   59.768  -3.70  0 386 D
+ATOM    6630     C   CD ?  GLU    Dxp 55 ?   52.863   10.284   58.185   0.00  0 282 D
+ATOM    6631     O  OE1 ?  GLU    Dxp 55 ?   52.035   10.097   57.244   0.00  0 282 D
+ATOM    6628     C   CB ?  GLU    Dxp 55 ?   55.257   10.663   58.824   0.00  0 282 D
+ATOM    7427     O    O ?  GLY    Dxp 156 ?   53.391   19.548   53.682  -5.36  0 383 D
+ATOM    7446     C   CB ?  ARG    Dxp 159 ?   53.235   20.677   57.359   0.00  0 386 D
+ATOM    7448     C   CD ?  ARG    Dxp 159 ?   53.527   18.842   59.055   0.00  0 386 D
+ATOM    6436     C   CB ?  GLU    Dxp 28 ?   63.386   20.579   55.972   0.00  0 255 D
+ATOM    7450     C   CZ ?  ARG    Dxp 159 ?   54.561   16.653   59.667   0.00  0 386 D
+ATOM    7447     C   CG ?  ARG    Dxp 159 ?   52.749   19.291   57.777   0.00  0 386 D
+ATOM    7449     N   NE ?  ARG    Dxp 159 ?   53.525   17.381   59.226   0.00  0 386 D
+ATOM    7441     O   OG ?  SER    Dxp 158 ?   48.651   19.286   55.309  -0.54  0 385 D
 # 

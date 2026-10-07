@@ -7,7 +7,7 @@ It represents the atoms contacted by the voronoi vertices of the pocket.
                                                                            
 Information about the pocket    36:
 0  - Pocket Score                      : -0.0298
-1  - Drug Score                        : 0.0004
+1  - Drug Score                        : 0.0003
 2  - Number of alpha spheres           :    24
 3  - Mean alpha-sphere radius          : 3.9711
 4  - Mean alpha-sphere Solvent Acc.    : 0.7201
@@ -15,7 +15,7 @@ Information about the pocket    36:
 6  - Hydrophobicity Score              : 0.5714
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 4.5714
-9  - Pocket volume (Monte Carlo)       : 275.9363
+9  - Pocket volume (Monte Carlo)       : 272.4099
 10  -Pocket volume (convex hull)       : 8.7937
 11 - Charge Score                      :     2
 12 - Local hydrophobic density Score   : 3.0000
