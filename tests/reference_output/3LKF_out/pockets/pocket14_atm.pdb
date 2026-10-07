@@ -3,21 +3,21 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    14:
-HEADER 0  - Pocket Score                      : 0.0542
-HEADER 1  - Drug Score                        : 0.0012
-HEADER 2  - Number of alpha spheres           :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.9704
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7160
-HEADER 5  - Mean B-factor of pocket residues  : 0.3203
+HEADER 0  - Pocket Score                      : 0.0607
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9313
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7267
+HEADER 5  - Mean B-factor of pocket residues  : 0.3112
 HEADER 6  - Hydrophobicity Score              : -12.5000
 HEADER 7  - Polarity Score                    :     7
 HEADER 8  - Amino Acid based volume Score     : 3.3750
-HEADER 9  - Pocket volume (Monte Carlo)       : 304.9559
-HEADER 10 - Pocket volume (convex hull)       : 13.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 302.5940
+HEADER 10 - Pocket volume (convex hull)       : 15.8065
 HEADER 11 - Charge Score                      :    -1
-HEADER 12 - Local hydrophobic density Score   : 4.0000
-HEADER 13 - Number of apolar alpha sphere     :     5
-HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
 ATOM    224   CB LYS A  31       8.265  34.207  93.786  0.00  0.00           C 0
 ATOM    223    O LYS A  31      10.066  32.898  92.236  0.00  0.00           O 0
 ATOM    221   CA LYS A  31       7.732  33.412  92.592  0.00  0.00           C 0
@@ -38,5 +38,6 @@ ATOM    242   OG SER A  33      10.890  34.214  85.094  0.81  6.43           O 0
 ATOM    185  OD2 ASP A  26       6.163  34.642  83.502  0.00  0.00           O 0
 ATOM    232    O ILE A  32       8.106  31.671  88.134  0.00  0.00           O 0
 ATOM    229    N ILE A  32       8.540  31.910  90.883  0.00  0.00           N 0
+ATOM    231    C ILE A  32       9.252  31.624  88.581  0.00  0.00           C 0
 TER
 END

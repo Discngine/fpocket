@@ -2847,4 +2847,7 @@ HETATM  222      V APOL .  STP      C 1 .   28.626   39.926   18.156   0.00  0 1
 HETATM  223      V APOL .  STP      C 1 .   30.514   38.191   17.400   0.00  0 1 C
 HETATM  224      V APOL .  STP      C 1 .   29.885   37.934   17.493   0.00  0 1 C
 HETATM  225      V APOL .  STP      C 1 .   29.459   38.005   16.840   0.00  0 1 C
+HETATM  226      V APOL .  STP      C 1 .   36.693   57.014   21.246   0.00  0 1 C
+HETATM  227      V APOL .  STP      C 1 .   36.262   55.748   19.311   0.00  0 1 C
+HETATM  228      V APOL .  STP      C 1 .   36.952   55.674   19.594   0.00  0 1 C
 # 

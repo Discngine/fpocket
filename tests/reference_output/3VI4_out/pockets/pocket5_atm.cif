@@ -15,7 +15,7 @@ Information about the pocket     5:
 6  - Hydrophobicity Score              : 25.7500
 7  - Polarity Score                    :     5
 8  - Amino Acid based volume Score     : 3.8750
-9  - Pocket volume (Monte Carlo)       : 93.4284
+9  - Pocket volume (Monte Carlo)       : 91.2198
 10  -Pocket volume (convex hull)       : 1.9808
 11 - Charge Score                      :    -1
 12 - Local hydrophobic density Score   : 7.0000
@@ -48,7 +48,7 @@ ATOM    7813     O  OE2 ?  GLU      B 432 ?   25.460   -6.875  -33.472  -1.07  0
 ATOM    5399     C  CE2 ?  TYR      B 121 ?   22.368  -12.528  -32.598   0.00  0 121 B
 ATOM    7788     C   CA ?  PHE      B 430 ?   20.401   -6.963  -28.789   0.00  0 430 B
 ATOM    6404     C   CA ?  VAL      B 250 ?   21.152  -14.277  -29.449   0.00  0 250 B
-ATOM    6398     O    O ?  ASN      B 249 ?   23.769  -14.175  -28.439   0.00  0 249 B
+ATOM    6398     O    O ?  ASN      B 249 ?   23.769  -14.175  -28.439  -0.14  0 249 B
 ATOM    7803     O  OG1 ?  THR      B 431 ?   24.725   -9.513  -27.088  -3.21  0 431 B
 ATOM    6406     O    O ?  VAL      B 250 ?   19.500  -13.123  -28.164   0.00  0 250 B
 ATOM    6405     C    C ?  VAL      B 250 ?   19.848  -13.503  -29.279   0.00  0 250 B

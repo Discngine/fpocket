@@ -3,21 +3,21 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     9:
-HEADER 0  - Pocket Score                      : -0.0461
+HEADER 0  - Pocket Score                      : -0.0482
 HEADER 1  - Drug Score                        : 0.2328
-HEADER 2  - Number of alpha spheres           :    47
-HEADER 3  - Mean alpha-sphere radius          : 3.9593
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4807
-HEADER 5  - Mean B-factor of pocket residues  : 0.5296
+HEADER 2  - Number of alpha spheres           :    48
+HEADER 3  - Mean alpha-sphere radius          : 3.9528
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4891
+HEADER 5  - Mean B-factor of pocket residues  : 0.5354
 HEADER 6  - Hydrophobicity Score              : 18.0000
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 4.2222
-HEADER 9  - Pocket volume (Monte Carlo)       : 448.2320
+HEADER 9  - Pocket volume (Monte Carlo)       : 457.8977
 HEADER 10 - Pocket volume (convex hull)       : 34.6234
 HEADER 11 - Charge Score                      :    -1
 HEADER 12 - Local hydrophobic density Score   : 14.0000
 HEADER 13 - Number of apolar alpha sphere     :    15
-HEADER 14 - Proportion of apolar alpha sphere : 0.3191
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
 ATOM    905   CZ TYR A 130     488.476 195.002 563.017  0.00  0.00           C 0
 ATOM    906   OH TYR A 130     489.574 195.330 562.251  0.57  2.14           O 0
 ATOM    904  CE2 TYR A 130     487.914 193.741 562.943  0.00  0.00           C 0
@@ -47,6 +47,7 @@ ATOM    292   CB ASN A  33     480.734 195.090 549.766  0.00  0.00           C 0
 ATOM   1399    N GLU A 195     480.119 191.742 555.302  0.00  0.00           N 0
 ATOM    290    C ASN A  33     482.944 196.289 549.843  0.00  0.00           C 0
 ATOM   1397   CB SER A 194     479.109 192.270 552.094  0.00  0.00           C 0
-ATOM    294  OD1 ASN A  33     478.939 194.183 548.463  0.45  4.29           O 0
+ATOM    294  OD1 ASN A  33     478.939 194.183 548.463  0.12  6.43           O 0
+ATOM   1395    C SER A 194     480.075 191.170 554.103  0.00  0.00           C 0
 TER
 END

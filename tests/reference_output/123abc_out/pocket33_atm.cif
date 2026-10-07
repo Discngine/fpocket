@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    33:
-0  - Pocket Score                      : -0.0559
-1  - Drug Score                        : 0.0004
-2  - Number of alpha spheres           :    39
-3  - Mean alpha-sphere radius          : 3.7737
-4  - Mean alpha-sphere Solvent Acc.    : 0.3632
-5  - Mean B-factor of pocket residues  : 0.1546
-6  - Hydrophobicity Score              : 21.2500
-7  - Polarity Score                    :    12
-8  - Amino Acid based volume Score     : 4.6875
-9  - Pocket volume (Monte Carlo)       : 440.8528
-10  -Pocket volume (convex hull)       : 79.9433
-11 - Charge Score                      :    -1
+0  - Pocket Score                      : -0.0556
+1  - Drug Score                        : 0.0003
+2  - Number of alpha spheres           :    28
+3  - Mean alpha-sphere radius          : 3.9447
+4  - Mean alpha-sphere Solvent Acc.    : 0.4561
+5  - Mean B-factor of pocket residues  : 0.1854
+6  - Hydrophobicity Score              : 37.2000
+7  - Polarity Score                    :     5
+8  - Amino Acid based volume Score     : 5.0000
+9  - Pocket volume (Monte Carlo)       : 358.5629
+10  -Pocket volume (convex hull)       : 14.9179
+11 - Charge Score                      :     3
 12 - Local hydrophobic density Score   : 8.0000
-13 - Number of apolar alpha sphere     :    12
-14 - Proportion of apolar alpha sphere : 0.3077
+13 - Number of apolar alpha sphere     :     9
+14 - Proportion of apolar alpha sphere : 0.3214
 # 
 loop_
 _atom_site.group_PDB
@@ -39,33 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    5991     O  OE2 ?  GLU    Cxp 239 ?   33.082   48.141   38.837  -4.43  0 466 C
-ATOM    2820     N  NH1 ?  ARG    Bxp 101 ?   32.415   49.637   46.867   0.00  0 328 B
-ATOM    3315     O  OG1 ?  THR    Bxp 165 ?   27.785   47.295   40.411  -2.69  0 392 B
-ATOM    3679     O   OG ?  SER    Bxp 211 ?   30.571   44.344   45.570   0.00  0 438 B
-ATOM    3628     O  OE1 ?  GLU    Bxp 204 ?   25.049   47.777   48.346   0.00  0 431 B
-ATOM    3675     C   CA ?  SER    Bxp 211 ?   29.156   43.225   47.157   0.00  0 438 B
-ATOM    3422     C  CH2 ?  TRP    Bxp 178 ?   24.948   45.190   44.295   0.00  0 405 B
-ATOM    3420     C  CZ2 ?  TRP    Bxp 178 ?   24.271   45.652   45.407   0.00  0 405 B
-ATOM    2821     N  NH2 ?  ARG    Bxp 101 ?   31.115   47.833   47.466  -2.61  0 328 B
-ATOM    3669     O    O ?  MET    Bxp 210 ?   28.182   44.516   49.518   0.00  0 437 B
-ATOM    2242     C  CE2 ?  TYR    Bxp 26 ?   25.430   59.279   43.261   0.00  0 253 B
-ATOM    3293     C   CE ?  MET    Bxp 161 ?   26.781   52.972   40.791   0.00  0 388 B
-ATOM    3264     C  CD1 ?  LEU    Bxp 157 ?   23.447   54.265   41.302   0.00  0 384 B
-ATOM    3265     C  CD2 ?  LEU    Bxp 157 ?   24.047   56.043   39.564   0.00  0 384 B
-ATOM    5990     O  OE1 ?  GLU    Cxp 239 ?   33.030   50.320   38.639  -1.62  0 466 C
-ATOM    3291     C   CG ?  MET    Bxp 161 ?   27.612   51.526   38.485   0.00  0 388 B
-ATOM    3292     S   SD ?  MET    Bxp 161 ?   26.854   51.297   40.129   0.00  0 388 B
-ATOM    3299     O  OG1 ?  THR    Bxp 162 ?   32.015   51.934   37.284  -1.21  0 389 B
-ATOM    2229     C   CG ?  GLN    Bxp 25 ?   29.480   57.926   41.503   0.00  0 252 B
-ATOM    2232     N  NE2 ?  GLN    Bxp 25 ?   29.244   57.286   43.822  -1.93  0 252 B
-ATOM    3131     O    O ?  ARG    Bxp 140 ?   23.457   55.144   45.161  -1.07  0 367 B
-ATOM    3132     C   CB ?  ARG    Bxp 140 ?   24.715   52.271   44.626   0.00  0 367 B
-ATOM    2764     C   CG ?  ASN    Bxp 95 ?   27.203   56.454   47.356   0.00  0 322 B
-ATOM    2782     C  CD2 ?  LEU    Bxp 97 ?   28.304   50.650   46.399   0.00  0 324 B
-ATOM    2781     C  CD1 ?  LEU    Bxp 97 ?   27.928   49.668   48.729   0.00  0 324 B
-ATOM    3137     N  NH1 ?  ARG    Bxp 140 ?   23.339   48.032   43.234  -2.19  0 367 B
-ATOM    3134     C   CD ?  ARG    Bxp 140 ?   24.061   50.742   42.718   0.00  0 367 B
-ATOM    2789     O  OD1 ?  ASP    Bxp 98 ?   31.430   54.227   47.147  -5.09  0 325 B
-ATOM    2766     N  ND2 ?  ASN    Bxp 95 ?   27.312   55.250   47.801  -2.19  0 322 B
+ATOM    2552     O    O ?  HIS    Bxp 68 ?   11.190   62.764   53.093  -4.69  0 295 B
+ATOM    2594     C   CG ?  GLN    Bxp 73 ?   13.080   68.321   50.358   0.00  0 300 B
+ATOM    2548     C   CB ?  LYS    Bxp 67 ?    6.504   65.116   50.895   0.00  0 294 B
+ATOM    2597     N  NE2 ?  GLN    Bxp 73 ?   12.729   70.253   51.868   0.00  0 300 B
+ATOM    2549     N    N ?  HIS    Bxp 68 ?    8.770   62.722   52.136   0.00  0 295 B
+ATOM    2100     C  CH2 ?  TRP    Bxp 8 ?    8.021   70.120   46.212   0.00  0 235 B
+ATOM    2601     O    O ?  LEU    Bxp 74 ?   11.642   69.555   47.135  -1.48  0 301 B
+ATOM    2595     C   CD ?  GLN    Bxp 73 ?   13.604   69.305   51.438   0.00  0 300 B
+ATOM    3222     N   NZ ?  LYS    Bxp 151 ?   15.951   64.984   53.909   0.00  0 378 B
+ATOM    2596     O  OE1 ?  GLN    Bxp 73 ?   14.783   69.222   51.879  -1.88  0 300 B
+ATOM    2560     C   CA ?  PRO    Bxp 69 ?   11.828   62.498   55.801   0.00  0 296 B
+ATOM    2545     C   CA ?  LYS    Bxp 67 ?    7.422   63.917   50.500   0.00  0 294 B
+ATOM    2590     C   CA ?  GLN    Bxp 73 ?   13.804   66.159   48.996   0.00  0 300 B
+ATOM    2539     O    O ?  ILE    Bxp 66 ?    7.780   64.424   47.789  -7.50  0 293 B
+ATOM    2585     O    O ?  VAL    Bxp 72 ?   13.589   63.555   47.823  -6.43  0 299 B
+ATOM    2598     N    N ?  LEU    Bxp 74 ?   12.978   66.960   46.855  -1.09  0 301 B
+ATOM    2577     O    O ?  LEU    Bxp 71 ?   13.536   62.679   50.816   0.00  0 298 B
+ATOM    2593     C   CB ?  GLN    Bxp 73 ?   13.894   67.022   50.290   0.00  0 300 B
 # 

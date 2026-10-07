@@ -6,21 +6,21 @@ This is a mmcif format file writen by the programm fpocket.
 It represents the atoms contacted by the voronoi vertices of the pocket.  
                                                                            
 Information about the pocket    25:
-0  - Pocket Score                      : -0.0372
-1  - Drug Score                        : 0.0001
-2  - Number of alpha spheres           :    15
-3  - Mean alpha-sphere radius          : 4.0910
-4  - Mean alpha-sphere Solvent Acc.    : 0.5844
-5  - Mean B-factor of pocket residues  : 0.6654
-6  - Hydrophobicity Score              : 5.1667
-7  - Polarity Score                    :     5
-8  - Amino Acid based volume Score     : 5.0000
-9  - Pocket volume (Monte Carlo)       : 272.5095
-10  -Pocket volume (convex hull)       : 4.5972
-11 - Charge Score                      :    -2
-12 - Local hydrophobic density Score   : 1.0000
-13 - Number of apolar alpha sphere     :     2
-14 - Proportion of apolar alpha sphere : 0.1333
+0  - Pocket Score                      : -0.0354
+1  - Drug Score                        : 0.0021
+2  - Number of alpha spheres           :    19
+3  - Mean alpha-sphere radius          : 4.0159
+4  - Mean alpha-sphere Solvent Acc.    : 0.6640
+5  - Mean B-factor of pocket residues  : 0.4171
+6  - Hydrophobicity Score              : 28.5000
+7  - Polarity Score                    :     3
+8  - Amino Acid based volume Score     : 4.1667
+9  - Pocket volume (Monte Carlo)       : 324.4589
+10  -Pocket volume (convex hull)       : 17.3477
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 15.0000
+13 - Number of apolar alpha sphere     :    16
+14 - Proportion of apolar alpha sphere : 0.8421
 # 
 loop_
 _atom_site.group_PDB
@@ -39,18 +39,22 @@ _atom_site.occupancy
 _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
-ATOM    6291     O    O ?  GLU    Dxp 9 ?   72.604    3.890   48.729   0.00  0 236 D
-ATOM    6300     O    O ?  MET    Dxp 10 ?   74.107    7.374   51.316  -2.14  0 237 D
-ATOM    6293     C   CG ?  GLU    Dxp 9 ?   71.423    4.039   52.375   0.00  0 236 D
-ATOM    6312     O  OE1 ?  GLU    Dxp 11 ?   77.808    6.551   52.358   0.00  0 238 D
-ATOM    6299     C    C ?  MET    Dxp 10 ?   74.371    7.293   50.096   0.00  0 237 D
-ATOM    6305     N    N ?  GLU    Dxp 11 ?   75.439    7.869   49.548  -2.19  0 238 D
-ATOM    6309     C   CB ?  GLU    Dxp 11 ?   77.861    8.128   49.916   0.00  0 238 D
-ATOM    6510     C   CE ?  LYS    Dxp 36 ?   78.782    6.894   42.671   0.00  0 263 D
-ATOM    6511     N   NZ ?  LYS    Dxp 36 ?   78.219    5.612   42.198   0.00  0 263 D
-ATOM    6301     C   CB ?  MET    Dxp 10 ?   73.225    7.186   47.771   0.00  0 237 D
-ATOM    6335     O  OD2 ?  ASP    Dxp 14 ?   78.726    9.496   45.541  -2.55  0 241 D
-ATOM    6298     C   CA ?  MET    Dxp 10 ?   73.486    6.472   49.131   0.00  0 237 D
-ATOM    6491     C  CZ2 ?  TRP    Dxp 34 ?   73.535    8.757   43.118   0.00  0 261 D
-ATOM    6488     N  NE1 ?  TRP    Dxp 34 ?   75.151   10.418   44.105  -1.09  0 261 D
+ATOM    8324     C   CB ?  THR    Dxp 268 ?   40.989   10.989   21.802   0.00  0 495 D
+ATOM    8326     C  CG2 ?  THR    Dxp 268 ?   40.062   11.269   20.618   0.00  0 495 D
+ATOM    8325     O  OG1 ?  THR    Dxp 268 ?   40.982    9.586   22.090  -1.88  0 495 D
+ATOM    8296     C   CA ?  ALA    Dxp 265 ?   40.286   11.932   26.156   0.00  0 492 D
+ATOM    8125     C  CD1 ?  LEU    Dxp 244 ?   36.891   14.630   29.976   0.00  0 471 D
+ATOM    8114     C   CB ?  GLU    Dxp 243 ?   33.026   18.463   28.302   0.00  0 470 D
+ATOM    8089     O    O ?  LYS    Dxp 240 ?   36.512   18.735   27.539  -4.29  0 467 D
+ATOM    8117     O  OE1 ?  GLU    Dxp 243 ?   32.380   17.276   25.754   0.00  0 470 D
+ATOM    8298     O    O ?  ALA    Dxp 265 ?   41.218   13.573   24.744  -0.40  0 492 D
+ATOM    8299     C   CB ?  ALA    Dxp 265 ?   39.150   12.430   27.083   0.00  0 492 D
+ATOM    8126     C  CD2 ?  LEU    Dxp 244 ?   39.085   15.575   29.317   0.00  0 471 D
+ATOM    8090     C   CB ?  LYS    Dxp 240 ?   36.370   18.986   24.210   0.00  0 467 D
+ATOM    8334     C   CE ?  MET    Dxp 269 ?   40.790   16.618   25.908   0.00  0 496 D
+ATOM    8333     S   SD ?  MET    Dxp 269 ?   40.299   17.538   24.487   0.00  0 496 D
+ATOM    8331     C   CB ?  MET    Dxp 269 ?   42.151   15.880   23.214   0.00  0 496 D
+ATOM    8328     C   CA ?  MET    Dxp 269 ?   42.550   15.278   21.865   0.00  0 496 D
+ATOM    8332     C   CG ?  MET    Dxp 269 ?   41.616   17.287   23.237   0.00  0 496 D
+ATOM    8323     O    O ?  THR    Dxp 268 ?   41.969   13.233   19.973  -1.62  0 495 D
 # 
